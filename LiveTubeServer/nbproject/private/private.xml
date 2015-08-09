@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSLiveUpcoming.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/session/IBFSession.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSLiveNow.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSRegister.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSClientInfo.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/sc/SCPing.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSLogin.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/core/MessageIn.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSLogout.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/webrtc/UserSession.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/webrtc/MainWSEndpoint.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/session/BFSessionManager.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/webrtc/CallMediaPipeline.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/sc/SCRequestListMyVideo.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/session/BFSession.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/sc/SCInitSession.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/sc/SCSetting.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSRequestListVideoNow.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSRequestListVideoFavourite.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSRequestListVideoHistory.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSSetReminder.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/core/MessageOut.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSRequestListVideoUpComing.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSRequestListSubcribers.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSRequestListMySchedule.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/socket/SocketServerHandler.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/webrtc/UserRegistry.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSSetting.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/core/Tags.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSRequestListMyVideo.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/cs/CSRequestListSubcriptionVideo.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/webrtc/PlayMediaPipeline.java</file>
+            <file>file:/Users/phamquan/livetube/code/core/LiveTubeServer/src/vn/com/onesoft/livetube/io/message/core/MessageExecute.java</file>
+        </group>
+    </open-files>
+</project-private>

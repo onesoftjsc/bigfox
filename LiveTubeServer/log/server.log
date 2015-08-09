@@ -1,0 +1,5191 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+2015-08-02 17:10:17,546 [Thread-1] INFO - Socket start at port 33333
+2015-08-02 17:10:17,548 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-02 17:21:32,183 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0xa8c75854, /192.168.1.20:51251 => /192.168.1.20:33333]
+2015-08-02 17:21:32,188 [nioEventLoopGroup-5-1] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:21:32,202 [nioEventLoopGroup-5-1] DEBUG - ChannelClosed: [id: 0xa8c75854, /192.168.1.20:51251 :> /192.168.1.20:33333]
+2015-08-02 17:21:52,192 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x0d5c337b, /192.168.1.20:51262 => /192.168.1.20:33333]
+2015-08-02 17:21:52,192 [nioEventLoopGroup-5-2] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:21:52,193 [nioEventLoopGroup-5-2] DEBUG - ChannelClosed: [id: 0x0d5c337b, /192.168.1.20:51262 :> /192.168.1.20:33333]
+2015-08-02 17:22:12,213 [nioEventLoopGroup-5-3] INFO - Client connected!: [id: 0x43a246a9, /192.168.1.20:51273 => /192.168.1.20:33333]
+2015-08-02 17:22:12,214 [nioEventLoopGroup-5-3] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:22:12,216 [nioEventLoopGroup-5-3] DEBUG - ChannelClosed: [id: 0x43a246a9, /192.168.1.20:51273 :> /192.168.1.20:33333]
+2015-08-02 17:22:32,233 [nioEventLoopGroup-5-4] INFO - Client connected!: [id: 0x0ac566b0, /192.168.1.20:51284 => /192.168.1.20:33333]
+2015-08-02 17:22:32,233 [nioEventLoopGroup-5-4] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:22:32,234 [nioEventLoopGroup-5-4] DEBUG - ChannelClosed: [id: 0x0ac566b0, /192.168.1.20:51284 :> /192.168.1.20:33333]
+2015-08-02 17:22:52,244 [nioEventLoopGroup-5-5] INFO - Client connected!: [id: 0xd923116a, /192.168.1.20:51295 => /192.168.1.20:33333]
+2015-08-02 17:22:52,244 [nioEventLoopGroup-5-5] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:22:52,245 [nioEventLoopGroup-5-5] DEBUG - ChannelClosed: [id: 0xd923116a, /192.168.1.20:51295 :> /192.168.1.20:33333]
+2015-08-02 17:23:12,254 [nioEventLoopGroup-5-6] INFO - Client connected!: [id: 0x5622d450, /192.168.1.20:51309 => /192.168.1.20:33333]
+2015-08-02 17:23:12,257 [nioEventLoopGroup-5-6] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:23:12,258 [nioEventLoopGroup-5-6] DEBUG - ChannelClosed: [id: 0x5622d450, /192.168.1.20:51309 :> /192.168.1.20:33333]
+2015-08-02 17:23:32,264 [nioEventLoopGroup-5-7] INFO - Client connected!: [id: 0x461661be, /192.168.1.20:51320 => /192.168.1.20:33333]
+2015-08-02 17:23:32,264 [nioEventLoopGroup-5-7] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:23:32,265 [nioEventLoopGroup-5-7] DEBUG - ChannelClosed: [id: 0x461661be, /192.168.1.20:51320 :> /192.168.1.20:33333]
+2015-08-02 17:23:52,274 [nioEventLoopGroup-5-8] INFO - Client connected!: [id: 0xdb72e385, /192.168.1.20:51331 => /192.168.1.20:33333]
+2015-08-02 17:23:52,274 [nioEventLoopGroup-5-8] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:23:52,275 [nioEventLoopGroup-5-8] DEBUG - ChannelClosed: [id: 0xdb72e385, /192.168.1.20:51331 :> /192.168.1.20:33333]
+2015-08-02 17:24:12,285 [nioEventLoopGroup-5-9] INFO - Client connected!: [id: 0x08699db9, /192.168.1.20:51342 => /192.168.1.20:33333]
+2015-08-02 17:24:12,285 [nioEventLoopGroup-5-9] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:24:12,286 [nioEventLoopGroup-5-9] DEBUG - ChannelClosed: [id: 0x08699db9, /192.168.1.20:51342 :> /192.168.1.20:33333]
+2015-08-02 17:24:32,295 [nioEventLoopGroup-5-10] INFO - Client connected!: [id: 0xda1ab2de, /192.168.1.20:51356 => /192.168.1.20:33333]
+2015-08-02 17:24:32,295 [nioEventLoopGroup-5-10] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:24:32,296 [nioEventLoopGroup-5-10] DEBUG - ChannelClosed: [id: 0xda1ab2de, /192.168.1.20:51356 :> /192.168.1.20:33333]
+2015-08-02 17:24:52,304 [nioEventLoopGroup-5-11] INFO - Client connected!: [id: 0x81ad62de, /192.168.1.20:51367 => /192.168.1.20:33333]
+2015-08-02 17:24:52,304 [nioEventLoopGroup-5-11] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:24:52,305 [nioEventLoopGroup-5-11] DEBUG - ChannelClosed: [id: 0x81ad62de, /192.168.1.20:51367 :> /192.168.1.20:33333]
+2015-08-02 17:25:12,326 [nioEventLoopGroup-5-12] INFO - Client connected!: [id: 0x06b38073, /192.168.1.20:51378 => /192.168.1.20:33333]
+2015-08-02 17:25:12,326 [nioEventLoopGroup-5-12] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:25:12,327 [nioEventLoopGroup-5-12] DEBUG - ChannelClosed: [id: 0x06b38073, /192.168.1.20:51378 :> /192.168.1.20:33333]
+2015-08-02 17:25:32,336 [nioEventLoopGroup-5-13] INFO - Client connected!: [id: 0x37e6a4e5, /192.168.1.20:51392 => /192.168.1.20:33333]
+2015-08-02 17:25:32,336 [nioEventLoopGroup-5-13] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:25:32,336 [nioEventLoopGroup-5-13] DEBUG - ChannelClosed: [id: 0x37e6a4e5, /192.168.1.20:51392 :> /192.168.1.20:33333]
+2015-08-02 17:25:56,474 [Thread-1] INFO - Socket start at port 33333
+2015-08-02 17:25:56,476 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-02 17:25:57,085 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x685306dd, /192.168.1.20:51438 => /192.168.1.20:33333]
+2015-08-02 17:26:11,133 [nioEventLoopGroup-5-1] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:26:11,161 [nioEventLoopGroup-5-1] DEBUG - ChannelClosed: [id: 0x685306dd, /192.168.1.20:51438 :> /192.168.1.20:33333]
+2015-08-02 17:26:17,085 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x394adbd9, /192.168.1.20:51450 => /192.168.1.20:33333]
+2015-08-02 17:42:38,361 [Thread-1] INFO - Socket start at port 33333
+2015-08-02 17:42:38,362 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-02 17:42:39,062 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0xa378b19f, /192.168.1.20:52947 => /192.168.1.20:33333]
+2015-08-02 17:46:04,425 [Thread-1] INFO - Socket start at port 33333
+2015-08-02 17:46:04,426 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-02 17:46:04,741 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x28a2c53c, /192.168.1.20:53244 => /192.168.1.20:33333]
+2015-08-02 17:46:04,744 [nioEventLoopGroup-5-1] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:90)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:46:04,753 [nioEventLoopGroup-5-1] DEBUG - ChannelClosed: [id: 0x28a2c53c, /192.168.1.20:53244 :> /192.168.1.20:33333]
+2015-08-02 17:46:16,497 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-02 17:46:16,497 [Thread-1] INFO - Socket start at port 33333
+2015-08-02 17:46:24,775 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0xd7f4e58a, /192.168.1.20:53261 => /192.168.1.20:33333]
+2015-08-02 17:50:26,355 [Thread-1] INFO - Socket start at port 33333
+2015-08-02 17:50:26,355 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-02 17:50:27,216 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x76cfdb7e, /192.168.1.20:53635 => /192.168.1.20:33333]
+2015-08-02 17:50:27,220 [nioEventLoopGroup-5-1] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:101)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:50:27,228 [nioEventLoopGroup-5-1] DEBUG - ChannelClosed: [id: 0x76cfdb7e, /192.168.1.20:53635 :> /192.168.1.20:33333]
+2015-08-02 17:50:47,238 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x3c7ac40b, /192.168.1.20:53649 => /192.168.1.20:33333]
+2015-08-02 17:50:47,238 [nioEventLoopGroup-5-2] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:101)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:50:47,239 [nioEventLoopGroup-5-2] DEBUG - ChannelClosed: [id: 0x3c7ac40b, /192.168.1.20:53649 :> /192.168.1.20:33333]
+2015-08-02 17:51:07,258 [nioEventLoopGroup-5-3] INFO - Client connected!: [id: 0x00e80f83, /192.168.1.20:53670 => /192.168.1.20:33333]
+2015-08-02 17:51:07,258 [nioEventLoopGroup-5-3] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:101)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelActive(SocketServerHandler.java:54)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelActive(ChannelInboundHandlerAdapter.java:64)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelActive(DefaultChannelHandlerContext.java:213)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelActive(DefaultChannelHandlerContext.java:199)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelActive(DefaultChannelPipeline.java:756)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:444)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:374)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:418)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 17:51:07,259 [nioEventLoopGroup-5-3] DEBUG - ChannelClosed: [id: 0x00e80f83, /192.168.1.20:53670 :> /192.168.1.20:33333]
+2015-08-02 17:51:17,149 [Thread-1] INFO - Socket start at port 33333
+2015-08-02 17:51:17,150 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-02 17:51:27,315 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0xbf2af1c0, /192.168.1.20:53682 => /192.168.1.20:33333]
+2015-08-02 17:51:27,319 [nioEventLoopGroup-5-1] DEBUG - SCValidationCode {
+  validationCode: 1569035341
+}
+2015-08-02 17:51:27,342 [nioEventLoopGroup-5-1] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    metadata: ""
+  }
+}
+2015-08-02 17:52:58,583 [Thread-1] INFO - Socket start at port 33333
+2015-08-02 17:52:58,585 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-02 17:53:07,147 [nioEventLoopGroup-5-1] DEBUG - ChannelClosed: [id: 0xbf2af1c0, /192.168.1.20:53682 :> /192.168.1.20:33333]
+2015-08-02 17:53:08,212 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x896f27e0, /192.168.1.20:53758 => /192.168.1.20:33333]
+2015-08-02 17:53:08,213 [nioEventLoopGroup-5-2] DEBUG - SCValidationCode {
+  validationCode: 1380684589
+}
+2015-08-02 17:53:08,225 [nioEventLoopGroup-5-2] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    metadata: ""
+  }
+}
+2015-08-02 17:53:22,993 [Thread-1] INFO - Socket start at port 33333
+2015-08-02 17:53:22,995 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-02 17:53:28,232 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x13cca621, /192.168.1.20:53771 => /192.168.1.20:33333]
+2015-08-02 17:53:28,236 [nioEventLoopGroup-5-1] DEBUG - SCValidationCode {
+  validationCode: 823767365
+}
+2015-08-02 17:53:28,249 [nioEventLoopGroup-5-1] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "000000000000000",
+    metadata: ""
+  }
+}
+2015-08-02 18:22:45,966 [nioEventLoopGroup-5-1] DEBUG - ChannelClosed: [id: 0x13cca621, /192.168.1.20:53771 :> /192.168.1.20:33333]
+2015-08-02 18:22:50,070 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x095d5eae, /192.168.1.20:54804 => /192.168.1.20:33333]
+2015-08-02 18:22:50,070 [nioEventLoopGroup-5-2] DEBUG - SCValidationCode {
+  validationCode: -1140674829
+}
+2015-08-02 18:23:22,428 [nioEventLoopGroup-5-2] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "000000000000000",
+    metadata: ""
+  }
+}
+2015-08-02 18:23:22,431 [nioEventLoopGroup-5-3] INFO - Client connected!: [id: 0x3a6c2b0e, /192.168.1.20:54823 => /192.168.1.20:33333]
+2015-08-02 18:23:22,432 [nioEventLoopGroup-5-3] DEBUG - SCValidationCode {
+  validationCode: 1508662877
+}
+2015-08-02 18:23:22,434 [nioEventLoopGroup-5-3] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "000000000000000",
+    metadata: ""
+  }
+}
+2015-08-02 18:25:57,862 [nioEventLoopGroup-5-3] DEBUG - ChannelClosed: [id: 0x3a6c2b0e, /192.168.1.20:54823 :> /192.168.1.20:33333]
+2015-08-02 18:25:57,862 [nioEventLoopGroup-5-2] DEBUG - ChannelClosed: [id: 0x095d5eae, /192.168.1.20:54804 :> /192.168.1.20:33333]
+2015-08-02 18:26:00,863 [nioEventLoopGroup-5-4] INFO - Client connected!: [id: 0xc9b66de9, /192.168.1.20:55005 => /192.168.1.20:33333]
+2015-08-02 18:26:00,864 [nioEventLoopGroup-5-4] DEBUG - SCValidationCode {
+  validationCode: -228297479
+}
+2015-08-02 18:26:10,111 [nioEventLoopGroup-5-4] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "000000000000000",
+    metadata: ""
+  }
+}
+2015-08-02 18:26:14,296 [nioEventLoopGroup-5-4] DEBUG - ChannelClosed: [id: 0xc9b66de9, /192.168.1.20:55005 :> /192.168.1.20:33333]
+2015-08-02 18:26:18,043 [nioEventLoopGroup-5-5] INFO - Client connected!: [id: 0x71946407, /192.168.1.20:55031 => /192.168.1.20:33333]
+2015-08-02 18:26:18,044 [nioEventLoopGroup-5-5] DEBUG - SCValidationCode {
+  validationCode: 210284883
+}
+2015-08-02 18:26:31,907 [nioEventLoopGroup-5-5] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "000000000000000",
+    metadata: ""
+  }
+}
+2015-08-02 18:27:17,065 [nioEventLoopGroup-5-5] DEBUG - ChannelClosed: [id: 0x71946407, /192.168.1.20:55031 :> /192.168.1.20:33333]
+2015-08-02 18:27:21,251 [nioEventLoopGroup-5-6] INFO - Client connected!: [id: 0xbdda7e39, /192.168.1.20:55087 => /192.168.1.20:33333]
+2015-08-02 18:27:21,252 [nioEventLoopGroup-5-6] DEBUG - SCValidationCode {
+  validationCode: -307876163
+}
+2015-08-02 18:27:40,202 [nioEventLoopGroup-5-6] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "000000000000000",
+    metadata: ""
+  }
+}
+2015-08-02 18:28:06,326 [nioEventLoopGroup-5-6] DEBUG - ChannelClosed: [id: 0xbdda7e39, /192.168.1.20:55087 :> /192.168.1.20:33333]
+2015-08-02 18:28:10,398 [nioEventLoopGroup-5-7] INFO - Client connected!: [id: 0x38b65d37, /192.168.1.20:55130 => /192.168.1.20:33333]
+2015-08-02 18:28:10,399 [nioEventLoopGroup-5-7] DEBUG - SCValidationCode {
+  validationCode: 1724548401
+}
+2015-08-02 18:28:28,811 [nioEventLoopGroup-5-7] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "nom6okuolqp8qtn27b99g3v3t1",
+    metadata: ""
+  }
+}
+2015-08-02 18:29:11,562 [nioEventLoopGroup-5-7] DEBUG - ChannelClosed: [id: 0x38b65d37, /192.168.1.20:55130 :> /192.168.1.20:33333]
+2015-08-02 18:32:03,806 [nioEventLoopGroup-5-8] INFO - Client connected!: [id: 0x14f4ccfc, /192.168.1.20:55417 => /192.168.1.20:33333]
+2015-08-02 18:32:03,809 [nioEventLoopGroup-5-8] DEBUG - SCValidationCode {
+  validationCode: 1903837370
+}
+2015-08-02 18:32:27,495 [nioEventLoopGroup-5-8] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "000000000000000",
+    metadata: ""
+  }
+}
+2015-08-02 18:32:27,496 [nioEventLoopGroup-5-9] INFO - Client connected!: [id: 0x15336c64, /192.168.1.20:55432 => /192.168.1.20:33333]
+2015-08-02 18:32:27,496 [nioEventLoopGroup-5-9] DEBUG - SCValidationCode {
+  validationCode: -1457127575
+}
+2015-08-02 18:32:27,498 [nioEventLoopGroup-5-9] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "000000000000000",
+    metadata: ""
+  }
+}
+2015-08-02 18:35:45,227 [nioEventLoopGroup-5-9] DEBUG - ChannelClosed: [id: 0x15336c64, /192.168.1.20:55432 :> /192.168.1.20:33333]
+2015-08-02 18:35:45,227 [nioEventLoopGroup-5-8] DEBUG - ChannelClosed: [id: 0x14f4ccfc, /192.168.1.20:55417 :> /192.168.1.20:33333]
+2015-08-02 18:35:55,343 [Thread-1] INFO - Socket start at port 33333
+2015-08-02 18:35:55,344 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-02 18:37:27,956 [Thread-1] INFO - Socket start at port 33333
+2015-08-02 18:37:27,957 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-02 18:39:41,210 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0xc5ee0ae1, /192.168.1.20:55759 => /192.168.1.20:33333]
+2015-08-02 18:39:41,221 [nioEventLoopGroup-5-1] DEBUG - SCValidationCode {
+  validationCode: 590196930
+}
+2015-08-02 18:39:46,564 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438515586082
+}
+2015-08-02 18:39:46,566 [nioEventLoopGroup-5-1] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.sendMessage(BFSessionManager.java:93)
+	at vn.com.onesoft.livetube.io.message.cs.CSPing.execute(CSPing.java:29)
+	at vn.com.onesoft.livetube.io.session.BFSessionManager.onMessage(BFSessionManager.java:143)
+	at vn.com.onesoft.livetube.io.message.core.MessageExecute.onMessage(MessageExecute.java:79)
+	at vn.com.onesoft.livetube.io.socket.SocketServerHandler.channelRead(SocketServerHandler.java:41)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:338)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:153)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:338)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:324)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:122)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-02 18:39:46,573 [nioEventLoopGroup-5-1] DEBUG - ChannelClosed: [id: 0xc5ee0ae1, /192.168.1.20:55759 :> /192.168.1.20:33333]
+2015-08-02 18:40:01,249 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x523c361d, /192.168.1.20:55774 => /192.168.1.20:33333]
+2015-08-02 18:40:01,250 [nioEventLoopGroup-5-2] DEBUG - SCValidationCode {
+  validationCode: 952604903
+}
+2015-08-02 18:47:08,432 [nioEventLoopGroup-5-2] DEBUG - ChannelClosed: [id: 0x523c361d, /192.168.1.20:55774 :> /192.168.1.20:33333]
+2015-08-02 18:47:09,319 [nioEventLoopGroup-5-3] INFO - Client connected!: [id: 0x284ee011, /192.168.1.20:56040 => /192.168.1.20:33333]
+2015-08-02 18:47:09,319 [nioEventLoopGroup-5-3] DEBUG - SCValidationCode {
+  validationCode: -1272020246
+}
+2015-08-02 18:47:09,366 [nioEventLoopGroup-5-3] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "000000000000000",
+    version: 1,
+    sessionId: "t2qi1br2mjhsf8c9nel24g2u30",
+    metadata: ""
+  }
+}
+2015-08-02 18:47:09,379 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516028812
+}
+2015-08-02 18:47:09,379 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516029379
+}
+2015-08-02 18:47:14,385 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516033818
+}
+2015-08-02 18:47:14,386 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516034386
+}
+2015-08-02 18:47:19,395 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516038828
+}
+2015-08-02 18:47:19,395 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516039395
+}
+2015-08-02 18:47:24,405 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516043838
+}
+2015-08-02 18:47:24,405 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516044405
+}
+2015-08-02 18:47:29,415 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516048848
+}
+2015-08-02 18:47:29,415 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516049415
+}
+2015-08-02 18:47:48,987 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516053858
+}
+2015-08-02 18:47:48,988 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516068988
+}
+2015-08-02 18:47:48,988 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516058868
+}
+2015-08-02 18:47:48,988 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516068988
+}
+2015-08-02 18:47:48,988 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516063879
+}
+2015-08-02 18:47:48,989 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516068989
+}
+2015-08-02 18:47:49,456 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516068889
+}
+2015-08-02 18:47:49,457 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516069456
+}
+2015-08-02 18:47:54,466 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516073899
+}
+2015-08-02 18:47:54,466 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516074466
+}
+2015-08-02 18:47:59,476 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516078909
+}
+2015-08-02 18:47:59,477 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516079477
+}
+2015-08-02 18:48:04,486 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516083919
+}
+2015-08-02 18:48:04,486 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516084486
+}
+2015-08-02 18:48:09,496 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516088929
+}
+2015-08-02 18:48:09,496 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516089496
+}
+2015-08-02 18:48:14,512 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516093939
+}
+2015-08-02 18:48:14,512 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516094512
+}
+2015-08-02 18:48:19,516 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516098949
+}
+2015-08-02 18:48:19,517 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516099516
+}
+2015-08-02 18:48:24,527 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516103959
+}
+2015-08-02 18:48:24,528 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516104528
+}
+2015-08-02 18:48:29,536 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516108969
+}
+2015-08-02 18:48:29,536 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516109536
+}
+2015-08-02 18:48:34,546 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516113979
+}
+2015-08-02 18:48:34,546 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516114546
+}
+2015-08-02 18:48:39,556 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516118989
+}
+2015-08-02 18:48:39,557 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516119557
+}
+2015-08-02 18:48:44,566 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516124000
+}
+2015-08-02 18:48:44,567 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516124567
+}
+2015-08-02 18:48:49,577 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516129010
+}
+2015-08-02 18:48:49,578 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516129578
+}
+2015-08-02 18:48:54,586 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516134020
+}
+2015-08-02 18:48:54,587 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516134587
+}
+2015-08-02 18:48:59,596 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516139030
+}
+2015-08-02 18:48:59,598 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516139598
+}
+2015-08-02 18:49:04,607 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516144040
+}
+2015-08-02 18:49:04,607 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516144607
+}
+2015-08-02 18:49:09,617 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516149050
+}
+2015-08-02 18:49:09,617 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516149617
+}
+2015-08-02 18:49:14,627 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516154060
+}
+2015-08-02 18:49:14,629 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516154628
+}
+2015-08-02 18:49:19,637 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516159070
+}
+2015-08-02 18:49:19,637 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516159637
+}
+2015-08-02 18:49:24,647 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516164080
+}
+2015-08-02 18:49:24,647 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516164647
+}
+2015-08-02 18:49:29,657 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516169090
+}
+2015-08-02 18:49:29,658 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516169658
+}
+2015-08-02 18:49:34,667 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516174100
+}
+2015-08-02 18:49:34,668 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516174668
+}
+2015-08-02 18:49:39,677 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516179110
+}
+2015-08-02 18:49:39,678 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516179678
+}
+2015-08-02 18:49:44,689 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516184121
+}
+2015-08-02 18:49:44,689 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516184689
+}
+2015-08-02 18:49:49,697 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516189131
+}
+2015-08-02 18:49:49,698 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516189698
+}
+2015-08-02 18:49:54,708 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516194141
+}
+2015-08-02 18:49:54,708 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516194708
+}
+2015-08-02 18:49:59,718 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516199151
+}
+2015-08-02 18:49:59,718 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516199718
+}
+2015-08-02 18:50:04,729 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516204161
+}
+2015-08-02 18:50:04,730 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516204730
+}
+2015-08-02 18:50:09,738 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516209171
+}
+2015-08-02 18:50:09,739 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516209739
+}
+2015-08-02 18:50:14,748 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516214181
+}
+2015-08-02 18:50:14,749 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516214749
+}
+2015-08-02 18:50:19,758 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516219191
+}
+2015-08-02 18:50:19,759 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516219759
+}
+2015-08-02 18:50:24,768 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516224201
+}
+2015-08-02 18:50:24,768 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516224768
+}
+2015-08-02 18:50:29,779 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516229211
+}
+2015-08-02 18:50:29,780 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516229780
+}
+2015-08-02 18:50:34,788 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516234221
+}
+2015-08-02 18:50:34,788 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516234788
+}
+2015-08-02 18:50:39,799 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516239232
+}
+2015-08-02 18:50:39,799 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516239799
+}
+2015-08-02 18:50:44,809 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516244242
+}
+2015-08-02 18:50:44,809 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516244809
+}
+2015-08-02 18:50:49,819 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516249252
+}
+2015-08-02 18:50:49,819 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516249819
+}
+2015-08-02 18:50:54,830 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516254262
+}
+2015-08-02 18:50:54,831 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516254831
+}
+2015-08-02 18:50:59,839 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516259272
+}
+2015-08-02 18:50:59,839 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516259839
+}
+2015-08-02 18:51:04,848 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516264282
+}
+2015-08-02 18:51:04,849 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516264849
+}
+2015-08-02 18:51:09,859 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516269292
+}
+2015-08-02 18:51:09,860 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516269859
+}
+2015-08-02 18:51:14,869 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516274302
+}
+2015-08-02 18:51:14,869 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516274869
+}
+2015-08-02 18:51:19,880 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516279313
+}
+2015-08-02 18:51:19,880 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516279880
+}
+2015-08-02 18:51:24,889 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516284322
+}
+2015-08-02 18:51:24,889 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516284889
+}
+2015-08-02 18:51:29,900 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516289332
+}
+2015-08-02 18:51:29,900 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516289900
+}
+2015-08-02 18:51:34,909 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516294343
+}
+2015-08-02 18:51:34,910 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516294910
+}
+2015-08-02 18:51:39,920 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516299353
+}
+2015-08-02 18:51:39,920 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516299920
+}
+2015-08-02 18:51:44,930 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516304363
+}
+2015-08-02 18:51:44,931 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516304931
+}
+2015-08-02 18:51:49,940 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516309373
+}
+2015-08-02 18:51:49,940 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516309940
+}
+2015-08-02 18:51:54,949 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516314383
+}
+2015-08-02 18:51:54,950 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516314950
+}
+2015-08-02 18:51:59,980 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516319393
+}
+2015-08-02 18:51:59,980 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516319980
+}
+2015-08-02 18:52:04,990 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516324403
+}
+2015-08-02 18:52:04,990 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516324990
+}
+2015-08-02 18:52:10,000 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516329413
+}
+2015-08-02 18:52:10,000 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516330000
+}
+2015-08-02 18:52:15,010 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516334423
+}
+2015-08-02 18:52:15,011 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516335011
+}
+2015-08-02 18:52:20,020 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516339433
+}
+2015-08-02 18:52:20,020 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516340020
+}
+2015-08-02 18:52:25,030 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516344443
+}
+2015-08-02 18:52:25,031 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516345031
+}
+2015-08-02 18:52:30,041 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516349454
+}
+2015-08-02 18:52:30,041 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516350041
+}
+2015-08-02 18:52:35,050 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516354463
+}
+2015-08-02 18:52:35,051 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516355051
+}
+2015-08-02 18:52:40,061 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516359474
+}
+2015-08-02 18:52:40,061 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516360061
+}
+2015-08-02 18:52:45,071 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516364484
+}
+2015-08-02 18:52:45,071 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516365071
+}
+2015-08-02 18:52:50,081 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516369494
+}
+2015-08-02 18:52:50,081 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516370081
+}
+2015-08-02 18:52:55,090 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516374504
+}
+2015-08-02 18:52:55,091 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516375091
+}
+2015-08-02 18:53:00,101 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516379514
+}
+2015-08-02 18:53:00,101 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516380101
+}
+2015-08-02 18:53:05,111 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516384524
+}
+2015-08-02 18:53:05,111 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516385111
+}
+2015-08-02 18:53:10,120 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516389533
+}
+2015-08-02 18:53:10,121 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516390121
+}
+2015-08-02 18:53:15,132 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516394544
+}
+2015-08-02 18:53:15,133 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516395133
+}
+2015-08-02 18:53:20,141 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516399553
+}
+2015-08-02 18:53:20,142 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516400142
+}
+2015-08-02 18:53:25,150 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516404564
+}
+2015-08-02 18:53:25,151 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516405151
+}
+2015-08-02 18:53:30,160 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516409573
+}
+2015-08-02 18:53:30,160 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516410160
+}
+2015-08-02 18:53:35,171 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516414584
+}
+2015-08-02 18:53:35,171 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516415171
+}
+2015-08-02 18:53:40,180 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516419594
+}
+2015-08-02 18:53:40,181 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516420181
+}
+2015-08-02 18:53:45,191 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516424604
+}
+2015-08-02 18:53:45,191 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516425191
+}
+2015-08-02 18:53:50,201 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516429614
+}
+2015-08-02 18:53:50,201 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516430201
+}
+2015-08-02 18:53:55,211 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516434624
+}
+2015-08-02 18:53:55,211 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516435211
+}
+2015-08-02 18:54:00,223 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516439634
+}
+2015-08-02 18:54:00,224 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516440224
+}
+2015-08-02 18:54:05,232 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516444645
+}
+2015-08-02 18:54:05,232 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516445232
+}
+2015-08-02 18:54:10,241 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516449654
+}
+2015-08-02 18:54:10,241 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516450241
+}
+2015-08-02 18:54:15,251 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516454664
+}
+2015-08-02 18:54:15,252 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516455252
+}
+2015-08-02 18:54:20,262 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516459674
+}
+2015-08-02 18:54:20,262 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516460262
+}
+2015-08-02 18:54:25,272 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516464685
+}
+2015-08-02 18:54:25,273 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516465273
+}
+2015-08-02 18:54:30,282 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516469695
+}
+2015-08-02 18:54:30,282 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516470282
+}
+2015-08-02 18:54:35,292 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516474705
+}
+2015-08-02 18:54:35,293 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516475293
+}
+2015-08-02 18:54:40,302 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516479715
+}
+2015-08-02 18:54:40,302 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516480302
+}
+2015-08-02 18:54:45,312 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516484725
+}
+2015-08-02 18:54:45,312 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516485312
+}
+2015-08-02 18:54:50,321 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516489735
+}
+2015-08-02 18:54:50,322 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516490322
+}
+2015-08-02 18:54:55,333 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516494745
+}
+2015-08-02 18:54:55,334 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516495334
+}
+2015-08-02 18:55:00,343 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516499755
+}
+2015-08-02 18:55:00,343 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516500343
+}
+2015-08-02 18:55:05,353 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516504765
+}
+2015-08-02 18:55:05,355 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516505354
+}
+2015-08-02 18:55:10,362 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516509775
+}
+2015-08-02 18:55:10,363 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516510363
+}
+2015-08-02 18:55:15,373 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516514785
+}
+2015-08-02 18:55:15,373 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516515373
+}
+2015-08-02 18:55:20,383 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516519795
+}
+2015-08-02 18:55:20,383 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516520383
+}
+2015-08-02 18:55:25,392 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516524805
+}
+2015-08-02 18:55:25,393 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516525393
+}
+2015-08-02 18:55:30,403 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516529816
+}
+2015-08-02 18:55:30,403 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516530403
+}
+2015-08-02 18:55:35,412 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516534826
+}
+2015-08-02 18:55:35,412 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516535412
+}
+2015-08-02 18:55:40,423 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516539836
+}
+2015-08-02 18:55:40,423 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516540423
+}
+2015-08-02 18:55:45,443 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516544846
+}
+2015-08-02 18:55:45,444 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516545444
+}
+2015-08-02 18:55:50,453 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516549856
+}
+2015-08-02 18:55:50,453 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516550453
+}
+2015-08-02 18:55:55,463 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516554866
+}
+2015-08-02 18:55:55,463 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516555463
+}
+2015-08-02 18:56:00,474 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516559876
+}
+2015-08-02 18:56:00,476 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516560476
+}
+2015-08-02 18:56:05,483 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516564886
+}
+2015-08-02 18:56:05,483 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516565483
+}
+2015-08-02 18:56:10,496 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516569897
+}
+2015-08-02 18:56:10,497 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516570497
+}
+2015-08-02 18:56:15,503 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516574906
+}
+2015-08-02 18:56:15,504 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516575504
+}
+2015-08-02 18:56:20,513 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516579916
+}
+2015-08-02 18:56:20,514 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516580514
+}
+2015-08-02 18:56:25,523 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516584926
+}
+2015-08-02 18:56:25,524 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516585524
+}
+2015-08-02 18:56:30,534 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516589937
+}
+2015-08-02 18:56:30,535 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516590535
+}
+2015-08-02 18:56:35,543 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516594947
+}
+2015-08-02 18:56:35,543 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516595543
+}
+2015-08-02 18:56:40,554 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516599957
+}
+2015-08-02 18:56:40,554 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516600554
+}
+2015-08-02 18:56:45,564 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516604967
+}
+2015-08-02 18:56:45,564 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516605564
+}
+2015-08-02 18:56:50,573 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516609977
+}
+2015-08-02 18:56:50,574 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516610574
+}
+2015-08-02 18:56:55,584 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516614987
+}
+2015-08-02 18:56:55,584 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516615584
+}
+2015-08-02 18:57:00,594 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516619997
+}
+2015-08-02 18:57:00,594 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516620594
+}
+2015-08-02 18:57:05,605 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516625008
+}
+2015-08-02 18:57:05,605 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516625605
+}
+2015-08-02 18:57:10,634 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516630017
+}
+2015-08-02 18:57:10,635 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516630635
+}
+2015-08-02 18:57:15,644 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516635028
+}
+2015-08-02 18:57:15,645 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516635645
+}
+2015-08-02 18:57:20,685 [nioEventLoopGroup-5-3] DEBUG - CSPing {
+  clientTime: 1438516640037
+}
+2015-08-02 18:57:20,685 [nioEventLoopGroup-5-3] DEBUG - SCPing {
+  serverTime: 1438516640685
+}
+2015-08-02 18:57:21,012 [nioEventLoopGroup-5-3] DEBUG - ChannelClosed: [id: 0x284ee011, /192.168.1.20:56040 :> /192.168.1.20:33333]
+2015-08-02 18:58:22,044 [nioEventLoopGroup-5-4] INFO - Client connected!: [id: 0x7048996d, /192.168.1.20:57064 => /192.168.1.20:33333]
+2015-08-02 18:58:22,046 [nioEventLoopGroup-5-4] DEBUG - SCValidationCode {
+  validationCode: -566905945
+}
+2015-08-02 18:58:22,065 [nioEventLoopGroup-5-4] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "000000000000000",
+    version: 1,
+    sessionId: "u0use1sad6ka8273po4kfbkeu",
+    metadata: ""
+  }
+}
+2015-08-02 18:58:22,066 [nioEventLoopGroup-5-4] DEBUG - CSPing {
+  clientTime: 1438516701838
+}
+2015-08-02 18:58:22,066 [nioEventLoopGroup-5-4] DEBUG - SCPing {
+  serverTime: 1438516702066
+}
+2015-08-02 18:58:27,072 [nioEventLoopGroup-5-4] DEBUG - CSPing {
+  clientTime: 1438516706844
+}
+2015-08-02 18:58:27,072 [nioEventLoopGroup-5-4] DEBUG - SCPing {
+  serverTime: 1438516707072
+}
+2015-08-02 18:58:32,082 [nioEventLoopGroup-5-4] DEBUG - CSPing {
+  clientTime: 1438516711854
+}
+2015-08-02 18:58:32,082 [nioEventLoopGroup-5-4] DEBUG - SCPing {
+  serverTime: 1438516712082
+}
+2015-08-02 18:58:37,092 [nioEventLoopGroup-5-4] DEBUG - CSPing {
+  clientTime: 1438516716864
+}
+2015-08-02 18:58:37,092 [nioEventLoopGroup-5-4] DEBUG - SCPing {
+  serverTime: 1438516717092
+}
+2015-08-02 18:58:42,103 [nioEventLoopGroup-5-4] DEBUG - CSPing {
+  clientTime: 1438516721875
+}
+2015-08-02 18:58:42,104 [nioEventLoopGroup-5-4] DEBUG - SCPing {
+  serverTime: 1438516722104
+}
+2015-08-02 18:58:47,112 [nioEventLoopGroup-5-4] DEBUG - CSPing {
+  clientTime: 1438516726885
+}
+2015-08-02 18:58:47,112 [nioEventLoopGroup-5-4] DEBUG - SCPing {
+  serverTime: 1438516727112
+}
+2015-08-02 18:58:48,595 [nioEventLoopGroup-5-4] DEBUG - ChannelClosed: [id: 0x7048996d, /192.168.1.20:57064 :> /192.168.1.20:33333]
+2015-08-02 20:15:07,903 [Thread-1] INFO - Socket start at port 33333
+2015-08-02 20:15:07,903 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-02 20:26:19,966 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x9d22bb1f, /192.168.1.20:59834 => /192.168.1.20:33333]
+2015-08-02 20:26:19,978 [nioEventLoopGroup-5-1] DEBUG - SCValidationCode {
+  validationCode: 1669157574
+}
+2015-08-02 20:26:20,013 [nioEventLoopGroup-5-1] DEBUG - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "000000000000000",
+    version: 1,
+    sessionId: "uo6isjt35c6jk291m1285qbjg8",
+    metadata: ""
+  }
+}
+2015-08-02 20:26:20,015 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438521978891
+}
+2015-08-02 20:26:20,016 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438521980015
+}
+2015-08-02 20:26:25,020 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438521983901
+}
+2015-08-02 20:26:25,021 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438521985021
+}
+2015-08-02 20:26:30,041 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438521988911
+}
+2015-08-02 20:26:30,049 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438521990049
+}
+2015-08-02 20:26:35,051 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438521993921
+}
+2015-08-02 20:26:35,051 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438521995051
+}
+2015-08-02 20:26:40,061 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438521998931
+}
+2015-08-02 20:26:40,061 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522000061
+}
+2015-08-02 20:26:59,402 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522003941
+}
+2015-08-02 20:26:59,402 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522019402
+}
+2015-08-02 20:26:59,402 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522008951
+}
+2015-08-02 20:26:59,403 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522019403
+}
+2015-08-02 20:26:59,403 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522013962
+}
+2015-08-02 20:26:59,403 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522019403
+}
+2015-08-02 20:27:00,121 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522018971
+}
+2015-08-02 20:27:00,122 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522020122
+}
+2015-08-02 20:27:05,131 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522023982
+}
+2015-08-02 20:27:05,132 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522025131
+}
+2015-08-02 20:27:10,141 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522028992
+}
+2015-08-02 20:27:10,142 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522030141
+}
+2015-08-02 20:27:15,151 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522034002
+}
+2015-08-02 20:27:15,152 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522035152
+}
+2015-08-02 20:27:20,162 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522039012
+}
+2015-08-02 20:27:20,162 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522040162
+}
+2015-08-02 20:27:25,171 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522044022
+}
+2015-08-02 20:27:25,172 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522045172
+}
+2015-08-02 20:27:30,221 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522049032
+}
+2015-08-02 20:27:30,221 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522050221
+}
+2015-08-02 20:27:35,231 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522054042
+}
+2015-08-02 20:27:35,231 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522055231
+}
+2015-08-02 20:27:40,252 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522059052
+}
+2015-08-02 20:27:40,253 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522060253
+}
+2015-08-02 20:27:45,262 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522064062
+}
+2015-08-02 20:27:45,264 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522065264
+}
+2015-08-02 20:27:50,272 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522069073
+}
+2015-08-02 20:27:50,272 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522070272
+}
+2015-08-02 20:27:55,282 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522074082
+}
+2015-08-02 20:27:55,283 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522075283
+}
+2015-08-02 20:28:00,292 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522079092
+}
+2015-08-02 20:28:00,292 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522080292
+}
+2015-08-02 20:28:05,302 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522084103
+}
+2015-08-02 20:28:05,302 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522085302
+}
+2015-08-02 20:28:10,312 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522089113
+}
+2015-08-02 20:28:10,312 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522090312
+}
+2015-08-02 20:28:15,322 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522094123
+}
+2015-08-02 20:28:15,323 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522095323
+}
+2015-08-02 20:28:20,332 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522099133
+}
+2015-08-02 20:28:20,333 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522100333
+}
+2015-08-02 20:28:25,342 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522104143
+}
+2015-08-02 20:28:25,343 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522105343
+}
+2015-08-02 20:28:30,353 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522109153
+}
+2015-08-02 20:28:30,353 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522110353
+}
+2015-08-02 20:28:35,363 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522114163
+}
+2015-08-02 20:28:35,363 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522115363
+}
+2015-08-02 20:28:40,373 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522119173
+}
+2015-08-02 20:28:40,373 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522120373
+}
+2015-08-02 20:28:45,382 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522124183
+}
+2015-08-02 20:28:45,383 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522125383
+}
+2015-08-02 20:28:50,392 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522129193
+}
+2015-08-02 20:28:50,393 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522130393
+}
+2015-08-02 20:28:55,403 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522134203
+}
+2015-08-02 20:28:55,403 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522135403
+}
+2015-08-02 20:29:00,413 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522139213
+}
+2015-08-02 20:29:00,413 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522140413
+}
+2015-08-02 20:29:05,423 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522144224
+}
+2015-08-02 20:29:05,425 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522145425
+}
+2015-08-02 20:29:10,433 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522149234
+}
+2015-08-02 20:29:10,434 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522150434
+}
+2015-08-02 20:29:15,443 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522154244
+}
+2015-08-02 20:29:15,443 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522155443
+}
+2015-08-02 20:29:20,453 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522159254
+}
+2015-08-02 20:29:20,454 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522160454
+}
+2015-08-02 20:29:25,465 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522164264
+}
+2015-08-02 20:29:25,466 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522165466
+}
+2015-08-02 20:29:30,474 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522169274
+}
+2015-08-02 20:29:30,475 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522170475
+}
+2015-08-02 20:29:35,483 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522174284
+}
+2015-08-02 20:29:35,483 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522175483
+}
+2015-08-02 20:29:40,494 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522179294
+}
+2015-08-02 20:29:40,494 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522180494
+}
+2015-08-02 20:29:45,504 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522184304
+}
+2015-08-02 20:29:45,505 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522185505
+}
+2015-08-02 20:29:50,515 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522189314
+}
+2015-08-02 20:29:50,516 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522190516
+}
+2015-08-02 20:29:55,524 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522194324
+}
+2015-08-02 20:29:55,524 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522195524
+}
+2015-08-02 20:30:00,534 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522199335
+}
+2015-08-02 20:30:00,535 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522200535
+}
+2015-08-02 20:30:05,544 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522204345
+}
+2015-08-02 20:30:05,544 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522205544
+}
+2015-08-02 20:30:10,554 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522209355
+}
+2015-08-02 20:30:10,555 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522210555
+}
+2015-08-02 20:30:15,565 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522214365
+}
+2015-08-02 20:30:15,566 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522215566
+}
+2015-08-02 20:30:20,574 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522219375
+}
+2015-08-02 20:30:20,574 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522220574
+}
+2015-08-02 20:30:25,585 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522224385
+}
+2015-08-02 20:30:25,585 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522225585
+}
+2015-08-02 20:30:30,595 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522229395
+}
+2015-08-02 20:30:30,595 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522230595
+}
+2015-08-02 20:30:35,604 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522234405
+}
+2015-08-02 20:30:35,605 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522235604
+}
+2015-08-02 20:30:40,616 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522239416
+}
+2015-08-02 20:30:40,617 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522240617
+}
+2015-08-02 20:30:45,625 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522244425
+}
+2015-08-02 20:30:45,625 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522245625
+}
+2015-08-02 20:30:50,635 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522249436
+}
+2015-08-02 20:30:50,636 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522250636
+}
+2015-08-02 20:30:55,645 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522254445
+}
+2015-08-02 20:30:55,645 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522255645
+}
+2015-08-02 20:31:00,655 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522259456
+}
+2015-08-02 20:31:00,655 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522260655
+}
+2015-08-02 20:31:05,667 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522264466
+}
+2015-08-02 20:31:05,668 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522265668
+}
+2015-08-02 20:31:10,675 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522269476
+}
+2015-08-02 20:31:10,675 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522270675
+}
+2015-08-02 20:31:15,686 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522274486
+}
+2015-08-02 20:31:15,687 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522275687
+}
+2015-08-02 20:31:20,695 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522279496
+}
+2015-08-02 20:31:20,695 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522280695
+}
+2015-08-02 20:31:25,705 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522284506
+}
+2015-08-02 20:31:25,706 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522285706
+}
+2015-08-02 20:31:30,717 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522289517
+}
+2015-08-02 20:31:30,717 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522290717
+}
+2015-08-02 20:31:35,725 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522294526
+}
+2015-08-02 20:31:35,726 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522295725
+}
+2015-08-02 20:31:40,738 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522299536
+}
+2015-08-02 20:31:40,738 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522300738
+}
+2015-08-02 20:31:45,746 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522304546
+}
+2015-08-02 20:31:45,746 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522305746
+}
+2015-08-02 20:31:50,756 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522309556
+}
+2015-08-02 20:31:50,756 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522310756
+}
+2015-08-02 20:31:55,767 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522314567
+}
+2015-08-02 20:31:55,768 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522315768
+}
+2015-08-02 20:32:00,776 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522319577
+}
+2015-08-02 20:32:00,776 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522320776
+}
+2015-08-02 20:32:05,786 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522324587
+}
+2015-08-02 20:32:05,787 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522325787
+}
+2015-08-02 20:32:10,795 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522329596
+}
+2015-08-02 20:32:10,796 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522330796
+}
+2015-08-02 20:32:15,806 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522334607
+}
+2015-08-02 20:32:15,806 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522335806
+}
+2015-08-02 20:32:20,816 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522339616
+}
+2015-08-02 20:32:20,816 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522340816
+}
+2015-08-02 20:32:25,827 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522344627
+}
+2015-08-02 20:32:25,828 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522345828
+}
+2015-08-02 20:32:30,836 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522349636
+}
+2015-08-02 20:32:30,836 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522350836
+}
+2015-08-02 20:32:35,848 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522354647
+}
+2015-08-02 20:32:35,849 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522355848
+}
+2015-08-02 20:32:40,855 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522359656
+}
+2015-08-02 20:32:40,856 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522360856
+}
+2015-08-02 20:32:45,867 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522364667
+}
+2015-08-02 20:32:45,868 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522365868
+}
+2015-08-02 20:32:50,876 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522369677
+}
+2015-08-02 20:32:50,876 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522370876
+}
+2015-08-02 20:32:55,886 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522374687
+}
+2015-08-02 20:32:55,887 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522375887
+}
+2015-08-02 20:33:00,896 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522379697
+}
+2015-08-02 20:33:00,896 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522380896
+}
+2015-08-02 20:33:05,906 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522384707
+}
+2015-08-02 20:33:05,907 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522385907
+}
+2015-08-02 20:33:10,918 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522389717
+}
+2015-08-02 20:33:10,918 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522390918
+}
+2015-08-02 20:33:15,927 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522394727
+}
+2015-08-02 20:33:15,927 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522395927
+}
+2015-08-02 20:33:20,936 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522399737
+}
+2015-08-02 20:33:20,937 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522400937
+}
+2015-08-02 20:33:25,947 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522404747
+}
+2015-08-02 20:33:25,947 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522405947
+}
+2015-08-02 20:33:30,957 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522409757
+}
+2015-08-02 20:33:30,957 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522410957
+}
+2015-08-02 20:33:35,966 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522414767
+}
+2015-08-02 20:33:35,966 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522415966
+}
+2015-08-02 20:33:40,978 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522419778
+}
+2015-08-02 20:33:40,978 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522420978
+}
+2015-08-02 20:33:45,987 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522424787
+}
+2015-08-02 20:33:45,987 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522425987
+}
+2015-08-02 20:33:50,997 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522429797
+}
+2015-08-02 20:33:50,997 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522430997
+}
+2015-08-02 20:33:56,007 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522434808
+}
+2015-08-02 20:33:56,007 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522436007
+}
+2015-08-02 20:34:01,017 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522439818
+}
+2015-08-02 20:34:01,018 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522441018
+}
+2015-08-02 20:34:06,027 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522444828
+}
+2015-08-02 20:34:06,028 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522446027
+}
+2015-08-02 20:34:11,038 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522449838
+}
+2015-08-02 20:34:11,038 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522451038
+}
+2015-08-02 20:34:16,049 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522454848
+}
+2015-08-02 20:34:16,050 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522456049
+}
+2015-08-02 20:34:21,057 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522459858
+}
+2015-08-02 20:34:21,058 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522461058
+}
+2015-08-02 20:34:26,068 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522464868
+}
+2015-08-02 20:34:26,069 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522466068
+}
+2015-08-02 20:34:31,077 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522469878
+}
+2015-08-02 20:34:31,078 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522471078
+}
+2015-08-02 20:34:36,088 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522474889
+}
+2015-08-02 20:34:36,088 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522476088
+}
+2015-08-02 20:34:41,098 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522479899
+}
+2015-08-02 20:34:41,098 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522481098
+}
+2015-08-02 20:34:46,108 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522484909
+}
+2015-08-02 20:34:46,108 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522486108
+}
+2015-08-02 20:34:51,118 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522489919
+}
+2015-08-02 20:34:51,118 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522491118
+}
+2015-08-02 20:34:56,128 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522494929
+}
+2015-08-02 20:34:56,128 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522496128
+}
+2015-08-02 20:35:01,138 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522499939
+}
+2015-08-02 20:35:01,139 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522501139
+}
+2015-08-02 20:35:06,148 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522504949
+}
+2015-08-02 20:35:06,149 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522506148
+}
+2015-08-02 20:35:11,159 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522509959
+}
+2015-08-02 20:35:11,159 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522511159
+}
+2015-08-02 20:35:16,168 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522514969
+}
+2015-08-02 20:35:16,168 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522516168
+}
+2015-08-02 20:35:21,179 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522519979
+}
+2015-08-02 20:35:21,179 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522521179
+}
+2015-08-02 20:35:26,189 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522524989
+}
+2015-08-02 20:35:26,190 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522526190
+}
+2015-08-02 20:35:31,200 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522530000
+}
+2015-08-02 20:35:31,201 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522531200
+}
+2015-08-02 20:35:36,209 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522535009
+}
+2015-08-02 20:35:36,210 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522536209
+}
+2015-08-02 20:35:41,219 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522540020
+}
+2015-08-02 20:35:41,219 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522541219
+}
+2015-08-02 20:35:46,229 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522545030
+}
+2015-08-02 20:35:46,229 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522546229
+}
+2015-08-02 20:35:51,239 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522550040
+}
+2015-08-02 20:35:51,239 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522551239
+}
+2015-08-02 20:35:56,250 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522555050
+}
+2015-08-02 20:35:56,250 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522556250
+}
+2015-08-02 20:36:01,259 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522560059
+}
+2015-08-02 20:36:01,260 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522561260
+}
+2015-08-02 20:36:06,271 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522565070
+}
+2015-08-02 20:36:06,272 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522566272
+}
+2015-08-02 20:36:11,280 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522570080
+}
+2015-08-02 20:36:11,281 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522571281
+}
+2015-08-02 20:36:16,290 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522575090
+}
+2015-08-02 20:36:16,290 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522576290
+}
+2015-08-02 20:36:21,300 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522580100
+}
+2015-08-02 20:36:21,300 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522581300
+}
+2015-08-02 20:36:26,310 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522585110
+}
+2015-08-02 20:36:26,310 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522586310
+}
+2015-08-02 20:36:31,320 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522590121
+}
+2015-08-02 20:36:31,320 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522591320
+}
+2015-08-02 20:36:36,330 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522595131
+}
+2015-08-02 20:36:36,331 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522596331
+}
+2015-08-02 20:36:41,342 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522600141
+}
+2015-08-02 20:36:41,343 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522601342
+}
+2015-08-02 20:36:46,351 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522605151
+}
+2015-08-02 20:36:46,351 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522606351
+}
+2015-08-02 20:36:51,362 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522610161
+}
+2015-08-02 20:36:51,363 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522611363
+}
+2015-08-02 20:36:56,370 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522615171
+}
+2015-08-02 20:36:56,371 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522616370
+}
+2015-08-02 20:37:01,381 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522620181
+}
+2015-08-02 20:37:01,381 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522621381
+}
+2015-08-02 20:37:06,391 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522625191
+}
+2015-08-02 20:37:06,391 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522626391
+}
+2015-08-02 20:37:11,400 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522630201
+}
+2015-08-02 20:37:11,401 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522631401
+}
+2015-08-02 20:37:16,410 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522635211
+}
+2015-08-02 20:37:16,411 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522636411
+}
+2015-08-02 20:37:21,421 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522640221
+}
+2015-08-02 20:37:21,421 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522641421
+}
+2015-08-02 20:37:26,431 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522645231
+}
+2015-08-02 20:37:26,431 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522646431
+}
+2015-08-02 20:37:31,441 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522650242
+}
+2015-08-02 20:37:31,441 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522651441
+}
+2015-08-02 20:37:36,451 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522655251
+}
+2015-08-02 20:37:36,451 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522656451
+}
+2015-08-02 20:37:41,461 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522660262
+}
+2015-08-02 20:37:41,461 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522661461
+}
+2015-08-02 20:37:46,471 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522665272
+}
+2015-08-02 20:37:46,471 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522666471
+}
+2015-08-02 20:37:51,482 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522670282
+}
+2015-08-02 20:37:51,482 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522671482
+}
+2015-08-02 20:37:56,491 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522675292
+}
+2015-08-02 20:37:56,491 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522676491
+}
+2015-08-02 20:38:01,501 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522680302
+}
+2015-08-02 20:38:01,502 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522681502
+}
+2015-08-02 20:38:06,512 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522685312
+}
+2015-08-02 20:38:06,512 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522686512
+}
+2015-08-02 20:38:11,522 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522690323
+}
+2015-08-02 20:38:11,522 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522691522
+}
+2015-08-02 20:38:16,532 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522695332
+}
+2015-08-02 20:38:16,532 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522696532
+}
+2015-08-02 20:38:21,541 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522700342
+}
+2015-08-02 20:38:21,542 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522701542
+}
+2015-08-02 20:38:26,552 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522705352
+}
+2015-08-02 20:38:26,552 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522706552
+}
+2015-08-02 20:38:31,562 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522710362
+}
+2015-08-02 20:38:31,562 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522711562
+}
+2015-08-02 20:38:36,571 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522715372
+}
+2015-08-02 20:38:36,571 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522716571
+}
+2015-08-02 20:38:41,582 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522720383
+}
+2015-08-02 20:38:41,582 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522721582
+}
+2015-08-02 20:38:46,592 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522725393
+}
+2015-08-02 20:38:46,592 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522726592
+}
+2015-08-02 20:38:51,602 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522730403
+}
+2015-08-02 20:38:51,602 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522731602
+}
+2015-08-02 20:38:56,613 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522735413
+}
+2015-08-02 20:38:56,613 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522736613
+}
+2015-08-02 20:39:01,621 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522740422
+}
+2015-08-02 20:39:01,621 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522741621
+}
+2015-08-02 20:39:06,633 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522745433
+}
+2015-08-02 20:39:06,634 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522746634
+}
+2015-08-02 20:39:11,642 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522750442
+}
+2015-08-02 20:39:11,642 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522751642
+}
+2015-08-02 20:39:16,654 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522755453
+}
+2015-08-02 20:39:16,654 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522756654
+}
+2015-08-02 20:39:21,661 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522760462
+}
+2015-08-02 20:39:21,662 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522761662
+}
+2015-08-02 20:39:26,673 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522765473
+}
+2015-08-02 20:39:26,673 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522766673
+}
+2015-08-02 20:39:31,682 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522770483
+}
+2015-08-02 20:39:31,682 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522771682
+}
+2015-08-02 20:39:36,692 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522775493
+}
+2015-08-02 20:39:36,692 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522776692
+}
+2015-08-02 20:39:41,703 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522780503
+}
+2015-08-02 20:39:41,703 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522781703
+}
+2015-08-02 20:39:46,714 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522785513
+}
+2015-08-02 20:39:46,715 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522786715
+}
+2015-08-02 20:39:51,722 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522790523
+}
+2015-08-02 20:39:51,722 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522791722
+}
+2015-08-02 20:39:56,732 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522795533
+}
+2015-08-02 20:39:56,732 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522796732
+}
+2015-08-02 20:40:01,743 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522800544
+}
+2015-08-02 20:40:01,743 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522801743
+}
+2015-08-02 20:40:06,753 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522805553
+}
+2015-08-02 20:40:06,753 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522806753
+}
+2015-08-02 20:40:11,763 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522810563
+}
+2015-08-02 20:40:11,763 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522811763
+}
+2015-08-02 20:40:16,773 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522815573
+}
+2015-08-02 20:40:16,773 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522816773
+}
+2015-08-02 20:40:21,783 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522820584
+}
+2015-08-02 20:40:21,783 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522821783
+}
+2015-08-02 20:40:26,793 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522825593
+}
+2015-08-02 20:40:26,793 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522826793
+}
+2015-08-02 20:40:31,804 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522830604
+}
+2015-08-02 20:40:31,805 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522831805
+}
+2015-08-02 20:40:36,813 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522835614
+}
+2015-08-02 20:40:36,814 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522836814
+}
+2015-08-02 20:40:41,823 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522840624
+}
+2015-08-02 20:40:41,824 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522841824
+}
+2015-08-02 20:40:46,833 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522845634
+}
+2015-08-02 20:40:46,834 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522846834
+}
+2015-08-02 20:40:51,843 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522850644
+}
+2015-08-02 20:40:51,843 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522851843
+}
+2015-08-02 20:40:56,854 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522855654
+}
+2015-08-02 20:40:56,855 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522856855
+}
+2015-08-02 20:41:01,864 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522860664
+}
+2015-08-02 20:41:01,865 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522861865
+}
+2015-08-02 20:41:06,874 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522865674
+}
+2015-08-02 20:41:06,874 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522866874
+}
+2015-08-02 20:41:11,884 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522870684
+}
+2015-08-02 20:41:11,884 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522871884
+}
+2015-08-02 20:41:16,894 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522875695
+}
+2015-08-02 20:41:16,894 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522876894
+}
+2015-08-02 20:41:21,904 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522880705
+}
+2015-08-02 20:41:21,904 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522881904
+}
+2015-08-02 20:41:26,914 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522885715
+}
+2015-08-02 20:41:26,915 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522886914
+}
+2015-08-02 20:41:31,925 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522890725
+}
+2015-08-02 20:41:31,925 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522891925
+}
+2015-08-02 20:41:36,934 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522895735
+}
+2015-08-02 20:41:36,935 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522896935
+}
+2015-08-02 20:41:41,945 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522900745
+}
+2015-08-02 20:41:41,945 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522901945
+}
+2015-08-02 20:41:46,955 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522905755
+}
+2015-08-02 20:41:46,955 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522906955
+}
+2015-08-02 20:41:51,965 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522910765
+}
+2015-08-02 20:41:51,966 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522911966
+}
+2015-08-02 20:41:56,975 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522915775
+}
+2015-08-02 20:41:56,975 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522916975
+}
+2015-08-02 20:42:01,986 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522920786
+}
+2015-08-02 20:42:01,986 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522921986
+}
+2015-08-02 20:42:06,995 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522925795
+}
+2015-08-02 20:42:06,995 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522926995
+}
+2015-08-02 20:42:12,005 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522930805
+}
+2015-08-02 20:42:12,005 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522932005
+}
+2015-08-02 20:42:17,016 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522935816
+}
+2015-08-02 20:42:17,017 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522937017
+}
+2015-08-02 20:42:22,025 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522940826
+}
+2015-08-02 20:42:22,025 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522942025
+}
+2015-08-02 20:42:27,035 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522945836
+}
+2015-08-02 20:42:27,035 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522947035
+}
+2015-08-02 20:42:32,045 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522950846
+}
+2015-08-02 20:42:32,046 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522952046
+}
+2015-08-02 20:42:37,056 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522955856
+}
+2015-08-02 20:42:37,056 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522957056
+}
+2015-08-02 20:42:42,066 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522960866
+}
+2015-08-02 20:42:42,066 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522962066
+}
+2015-08-02 20:42:47,076 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522965876
+}
+2015-08-02 20:42:47,076 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522967076
+}
+2015-08-02 20:42:52,085 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522970886
+}
+2015-08-02 20:42:52,086 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522972086
+}
+2015-08-02 20:42:57,097 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522975897
+}
+2015-08-02 20:42:57,097 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522977097
+}
+2015-08-02 20:43:02,105 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522980906
+}
+2015-08-02 20:43:02,106 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522982106
+}
+2015-08-02 20:43:07,117 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522985917
+}
+2015-08-02 20:43:07,117 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522987117
+}
+2015-08-02 20:43:12,127 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522990927
+}
+2015-08-02 20:43:12,127 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522992127
+}
+2015-08-02 20:43:17,136 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438522995937
+}
+2015-08-02 20:43:17,136 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438522997136
+}
+2015-08-02 20:43:22,148 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523000947
+}
+2015-08-02 20:43:22,149 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523002149
+}
+2015-08-02 20:43:27,156 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523005957
+}
+2015-08-02 20:43:27,156 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523007156
+}
+2015-08-02 20:43:32,167 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523010967
+}
+2015-08-02 20:43:32,168 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523012168
+}
+2015-08-02 20:43:37,176 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523015977
+}
+2015-08-02 20:43:37,176 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523017176
+}
+2015-08-02 20:43:42,186 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523020987
+}
+2015-08-02 20:43:42,186 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523022186
+}
+2015-08-02 20:43:47,196 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523025997
+}
+2015-08-02 20:43:47,197 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523027197
+}
+2015-08-02 20:43:52,207 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523031007
+}
+2015-08-02 20:43:52,207 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523032207
+}
+2015-08-02 20:43:57,217 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523036017
+}
+2015-08-02 20:43:57,218 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523037218
+}
+2015-08-02 20:44:02,227 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523041027
+}
+2015-08-02 20:44:02,227 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523042227
+}
+2015-08-02 20:44:07,237 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523046037
+}
+2015-08-02 20:44:07,238 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523047238
+}
+2015-08-02 20:44:12,247 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523051047
+}
+2015-08-02 20:44:12,247 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523052247
+}
+2015-08-02 20:44:17,258 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523056058
+}
+2015-08-02 20:44:17,259 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523057259
+}
+2015-08-02 20:44:22,267 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523061068
+}
+2015-08-02 20:44:22,267 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523062267
+}
+2015-08-02 20:44:27,277 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523066078
+}
+2015-08-02 20:44:27,277 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523067277
+}
+2015-08-02 20:44:32,288 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523071088
+}
+2015-08-02 20:44:32,288 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523072288
+}
+2015-08-02 20:44:37,298 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523076098
+}
+2015-08-02 20:44:37,298 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523077298
+}
+2015-08-02 20:44:42,307 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523081107
+}
+2015-08-02 20:44:42,307 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523082307
+}
+2015-08-02 20:44:47,317 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523086118
+}
+2015-08-02 20:44:47,318 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523087318
+}
+2015-08-02 20:44:52,327 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523091128
+}
+2015-08-02 20:44:52,327 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523092327
+}
+2015-08-02 20:44:57,337 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523096138
+}
+2015-08-02 20:44:57,337 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523097337
+}
+2015-08-02 20:45:02,348 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523101148
+}
+2015-08-02 20:45:02,348 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523102348
+}
+2015-08-02 20:45:07,358 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523106158
+}
+2015-08-02 20:45:07,358 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523107358
+}
+2015-08-02 20:45:12,368 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523111169
+}
+2015-08-02 20:45:12,369 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523112369
+}
+2015-08-02 20:45:17,378 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523116179
+}
+2015-08-02 20:45:17,378 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523117378
+}
+2015-08-02 20:45:22,388 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523121188
+}
+2015-08-02 20:45:22,389 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523122389
+}
+2015-08-02 20:45:27,398 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523126199
+}
+2015-08-02 20:45:27,398 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523127398
+}
+2015-08-02 20:45:32,408 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523131208
+}
+2015-08-02 20:45:32,408 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523132408
+}
+2015-08-02 20:45:37,417 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523136218
+}
+2015-08-02 20:45:37,418 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523137418
+}
+2015-08-02 20:45:42,428 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523141228
+}
+2015-08-02 20:45:42,428 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523142428
+}
+2015-08-02 20:45:47,438 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523146239
+}
+2015-08-02 20:45:47,438 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523147438
+}
+2015-08-02 20:45:52,448 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523151249
+}
+2015-08-02 20:45:52,448 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523152448
+}
+2015-08-02 20:45:57,458 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523156258
+}
+2015-08-02 20:45:57,458 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523157458
+}
+2015-08-02 20:46:02,468 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523161269
+}
+2015-08-02 20:46:02,468 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523162468
+}
+2015-08-02 20:46:07,478 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523166279
+}
+2015-08-02 20:46:07,478 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523167478
+}
+2015-08-02 20:46:12,488 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523171289
+}
+2015-08-02 20:46:12,488 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523172488
+}
+2015-08-02 20:46:17,498 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523176299
+}
+2015-08-02 20:46:17,498 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523177498
+}
+2015-08-02 20:46:22,509 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523181309
+}
+2015-08-02 20:46:22,509 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523182509
+}
+2015-08-02 20:46:27,518 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523186319
+}
+2015-08-02 20:46:27,519 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523187518
+}
+2015-08-02 20:46:32,530 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523191330
+}
+2015-08-02 20:46:32,530 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523192530
+}
+2015-08-02 20:46:37,538 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523196339
+}
+2015-08-02 20:46:37,538 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523197538
+}
+2015-08-02 20:46:42,549 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523201349
+}
+2015-08-02 20:46:42,549 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523202549
+}
+2015-08-02 20:46:47,559 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523206359
+}
+2015-08-02 20:46:47,559 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523207559
+}
+2015-08-02 20:46:52,569 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523211370
+}
+2015-08-02 20:46:52,569 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523212569
+}
+2015-08-02 20:46:57,579 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523216380
+}
+2015-08-02 20:46:57,580 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523217579
+}
+2015-08-02 20:47:02,589 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523221390
+}
+2015-08-02 20:47:02,590 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523222590
+}
+2015-08-02 20:47:07,599 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523226400
+}
+2015-08-02 20:47:07,599 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523227599
+}
+2015-08-02 20:47:12,609 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523231410
+}
+2015-08-02 20:47:12,610 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523232610
+}
+2015-08-02 20:47:17,620 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523236420
+}
+2015-08-02 20:47:17,621 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523237621
+}
+2015-08-02 20:47:22,630 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523241430
+}
+2015-08-02 20:47:22,630 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523242630
+}
+2015-08-02 20:47:27,640 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523246440
+}
+2015-08-02 20:47:27,640 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523247640
+}
+2015-08-02 20:47:32,650 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523251450
+}
+2015-08-02 20:47:32,650 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523252650
+}
+2015-08-02 20:47:37,660 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523256460
+}
+2015-08-02 20:47:37,660 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523257660
+}
+2015-08-02 20:47:42,671 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523261470
+}
+2015-08-02 20:47:42,671 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523262671
+}
+2015-08-02 20:47:47,680 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523266480
+}
+2015-08-02 20:47:47,681 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523267681
+}
+2015-08-02 20:47:52,690 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523271491
+}
+2015-08-02 20:47:52,690 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523272690
+}
+2015-08-02 20:47:57,700 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523276501
+}
+2015-08-02 20:47:57,700 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523277700
+}
+2015-08-02 20:48:02,710 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523281511
+}
+2015-08-02 20:48:02,711 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523282711
+}
+2015-08-02 20:48:07,721 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523286521
+}
+2015-08-02 20:48:07,721 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523287721
+}
+2015-08-02 20:48:12,731 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523291531
+}
+2015-08-02 20:48:12,732 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523292732
+}
+2015-08-02 20:48:17,740 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523296541
+}
+2015-08-02 20:48:17,741 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523297741
+}
+2015-08-02 20:48:22,751 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523301551
+}
+2015-08-02 20:48:22,751 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523302751
+}
+2015-08-02 20:48:27,761 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523306561
+}
+2015-08-02 20:48:27,761 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523307761
+}
+2015-08-02 20:48:32,772 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523311572
+}
+2015-08-02 20:48:32,772 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523312772
+}
+2015-08-02 20:48:37,781 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523316581
+}
+2015-08-02 20:48:37,781 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523317781
+}
+2015-08-02 20:48:42,791 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523321591
+}
+2015-08-02 20:48:42,792 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523322792
+}
+2015-08-02 20:48:47,801 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523326602
+}
+2015-08-02 20:48:47,801 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523327801
+}
+2015-08-02 20:48:52,811 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523331612
+}
+2015-08-02 20:48:52,811 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523332811
+}
+2015-08-02 20:48:57,822 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523336622
+}
+2015-08-02 20:48:57,822 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523337822
+}
+2015-08-02 20:49:02,831 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523341632
+}
+2015-08-02 20:49:02,831 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523342831
+}
+2015-08-02 20:49:07,842 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523346642
+}
+2015-08-02 20:49:07,842 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523347842
+}
+2015-08-02 20:49:12,852 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523351652
+}
+2015-08-02 20:49:12,852 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523352852
+}
+2015-08-02 20:49:17,861 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523356662
+}
+2015-08-02 20:49:17,861 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523357861
+}
+2015-08-02 20:49:22,872 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523361672
+}
+2015-08-02 20:49:22,872 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523362872
+}
+2015-08-02 20:49:27,881 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523366682
+}
+2015-08-02 20:49:27,882 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523367882
+}
+2015-08-02 20:49:32,892 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523371692
+}
+2015-08-02 20:49:32,892 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523372892
+}
+2015-08-02 20:49:37,902 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523376702
+}
+2015-08-02 20:49:37,902 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523377902
+}
+2015-08-02 20:49:42,912 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523381713
+}
+2015-08-02 20:49:42,912 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523382912
+}
+2015-08-02 20:49:47,922 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523386723
+}
+2015-08-02 20:49:47,923 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523387923
+}
+2015-08-02 20:49:52,933 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523391733
+}
+2015-08-02 20:49:52,934 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523392934
+}
+2015-08-02 20:49:57,942 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523396743
+}
+2015-08-02 20:49:57,942 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523397942
+}
+2015-08-02 20:50:02,952 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523401753
+}
+2015-08-02 20:50:02,952 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523402952
+}
+2015-08-02 20:50:07,962 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523406763
+}
+2015-08-02 20:50:07,962 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523407962
+}
+2015-08-02 20:50:12,973 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523411773
+}
+2015-08-02 20:50:12,973 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523412973
+}
+2015-08-02 20:50:17,983 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523416783
+}
+2015-08-02 20:50:17,983 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523417983
+}
+2015-08-02 20:50:22,993 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523421793
+}
+2015-08-02 20:50:22,993 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523422993
+}
+2015-08-02 20:50:28,003 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523426803
+}
+2015-08-02 20:50:28,003 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523428003
+}
+2015-08-02 20:50:33,013 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523431813
+}
+2015-08-02 20:50:33,013 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523433013
+}
+2015-08-02 20:50:38,023 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523436824
+}
+2015-08-02 20:50:38,023 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523438023
+}
+2015-08-02 20:50:43,033 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523441834
+}
+2015-08-02 20:50:43,033 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523443033
+}
+2015-08-02 20:50:48,042 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523446843
+}
+2015-08-02 20:50:48,043 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523448043
+}
+2015-08-02 20:50:53,052 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523451853
+}
+2015-08-02 20:50:53,052 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523453052
+}
+2015-08-02 20:50:58,062 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523456863
+}
+2015-08-02 20:50:58,063 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523458063
+}
+2015-08-02 20:51:03,073 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523461873
+}
+2015-08-02 20:51:03,073 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523463073
+}
+2015-08-02 20:51:08,083 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523466883
+}
+2015-08-02 20:51:08,083 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523468083
+}
+2015-08-02 20:51:13,093 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523471893
+}
+2015-08-02 20:51:13,093 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523473093
+}
+2015-08-02 20:51:18,103 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523476903
+}
+2015-08-02 20:51:18,103 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523478103
+}
+2015-08-02 20:51:23,113 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523481914
+}
+2015-08-02 20:51:23,113 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523483113
+}
+2015-08-02 20:51:28,123 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523486924
+}
+2015-08-02 20:51:28,124 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523488124
+}
+2015-08-02 20:51:33,134 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523491934
+}
+2015-08-02 20:51:33,135 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523493134
+}
+2015-08-02 20:51:38,143 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523496944
+}
+2015-08-02 20:51:38,143 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523498143
+}
+2015-08-02 20:51:43,153 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523501954
+}
+2015-08-02 20:51:43,153 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523503153
+}
+2015-08-02 20:51:48,164 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523506964
+}
+2015-08-02 20:51:48,164 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523508164
+}
+2015-08-02 20:51:53,174 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523511974
+}
+2015-08-02 20:51:53,174 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523513174
+}
+2015-08-02 20:51:58,184 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523516984
+}
+2015-08-02 20:51:58,184 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523518184
+}
+2015-08-02 20:52:03,193 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523521994
+}
+2015-08-02 20:52:03,194 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523523194
+}
+2015-08-02 20:52:08,204 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523527004
+}
+2015-08-02 20:52:08,204 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523528204
+}
+2015-08-02 20:52:13,213 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523532014
+}
+2015-08-02 20:52:13,214 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523533214
+}
+2015-08-02 20:52:18,224 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523537025
+}
+2015-08-02 20:52:18,224 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523538224
+}
+2015-08-02 20:52:23,234 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523542034
+}
+2015-08-02 20:52:23,234 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523543234
+}
+2015-08-02 20:52:28,244 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523547045
+}
+2015-08-02 20:52:28,244 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523548244
+}
+2015-08-02 20:52:33,254 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523552055
+}
+2015-08-02 20:52:33,254 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523553254
+}
+2015-08-02 20:52:38,264 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523557065
+}
+2015-08-02 20:52:38,265 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523558265
+}
+2015-08-02 20:52:43,275 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523562075
+}
+2015-08-02 20:52:43,275 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523563275
+}
+2015-08-02 20:52:48,285 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523567085
+}
+2015-08-02 20:52:48,285 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523568285
+}
+2015-08-02 20:52:53,295 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523572095
+}
+2015-08-02 20:52:53,295 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523573295
+}
+2015-08-02 20:52:58,304 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523577105
+}
+2015-08-02 20:52:58,304 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523578304
+}
+2015-08-02 20:53:03,315 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523582115
+}
+2015-08-02 20:53:03,315 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523583315
+}
+2015-08-02 20:53:08,325 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523587125
+}
+2015-08-02 20:53:08,325 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523588325
+}
+2015-08-02 20:53:13,336 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523592136
+}
+2015-08-02 20:53:13,336 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523593336
+}
+2015-08-02 20:53:18,345 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523597146
+}
+2015-08-02 20:53:18,345 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523598345
+}
+2015-08-02 20:53:23,355 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523602156
+}
+2015-08-02 20:53:23,355 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523603355
+}
+2015-08-02 20:53:28,365 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523607166
+}
+2015-08-02 20:53:28,365 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523608365
+}
+2015-08-02 20:53:33,376 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523612176
+}
+2015-08-02 20:53:33,376 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523613376
+}
+2015-08-02 20:53:38,386 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523617186
+}
+2015-08-02 20:53:38,386 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523618386
+}
+2015-08-02 20:53:43,396 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523622196
+}
+2015-08-02 20:53:43,396 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523623396
+}
+2015-08-02 20:53:48,406 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523627206
+}
+2015-08-02 20:53:48,406 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523628406
+}
+2015-08-02 20:53:53,416 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523632216
+}
+2015-08-02 20:53:53,416 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523633416
+}
+2015-08-02 20:53:58,425 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523637226
+}
+2015-08-02 20:53:58,426 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523638426
+}
+2015-08-02 20:54:03,436 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523642236
+}
+2015-08-02 20:54:03,436 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523643436
+}
+2015-08-02 20:54:08,446 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523647246
+}
+2015-08-02 20:54:08,446 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523648446
+}
+2015-08-02 20:54:13,456 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523652257
+}
+2015-08-02 20:54:13,456 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523653456
+}
+2015-08-02 20:54:18,466 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523657267
+}
+2015-08-02 20:54:18,466 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523658466
+}
+2015-08-02 20:54:23,476 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523662277
+}
+2015-08-02 20:54:23,476 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523663476
+}
+2015-08-02 20:54:28,487 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523667287
+}
+2015-08-02 20:54:28,487 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523668487
+}
+2015-08-02 20:54:33,496 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523672297
+}
+2015-08-02 20:54:33,496 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523673496
+}
+2015-08-02 20:54:38,506 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523677307
+}
+2015-08-02 20:54:38,506 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523678506
+}
+2015-08-02 20:54:43,517 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523682317
+}
+2015-08-02 20:54:43,517 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523683517
+}
+2015-08-02 20:54:48,526 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523687327
+}
+2015-08-02 20:54:48,526 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523688526
+}
+2015-08-02 20:54:53,538 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523692337
+}
+2015-08-02 20:54:53,538 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523693538
+}
+2015-08-02 20:54:58,547 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523697347
+}
+2015-08-02 20:54:58,547 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523698547
+}
+2015-08-02 20:55:03,557 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523702357
+}
+2015-08-02 20:55:03,557 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523703557
+}
+2015-08-02 20:55:08,567 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523707367
+}
+2015-08-02 20:55:08,567 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523708567
+}
+2015-08-02 20:55:13,578 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523712378
+}
+2015-08-02 20:55:13,578 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523713578
+}
+2015-08-02 20:55:18,587 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523717388
+}
+2015-08-02 20:55:18,588 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523718587
+}
+2015-08-02 20:55:23,597 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523722398
+}
+2015-08-02 20:55:23,597 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523723597
+}
+2015-08-02 20:55:28,608 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523727408
+}
+2015-08-02 20:55:28,608 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523728608
+}
+2015-08-02 20:55:33,617 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523732418
+}
+2015-08-02 20:55:33,618 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523733617
+}
+2015-08-02 20:55:38,628 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523737427
+}
+2015-08-02 20:55:38,628 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523738628
+}
+2015-08-02 20:55:43,637 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523742438
+}
+2015-08-02 20:55:43,638 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523743638
+}
+2015-08-02 20:55:48,648 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523747448
+}
+2015-08-02 20:55:48,648 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523748648
+}
+2015-08-02 20:55:53,658 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523752458
+}
+2015-08-02 20:55:53,658 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523753658
+}
+2015-08-02 20:55:58,668 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523757469
+}
+2015-08-02 20:55:58,668 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523758668
+}
+2015-08-02 20:56:03,678 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523762479
+}
+2015-08-02 20:56:03,678 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523763678
+}
+2015-08-02 20:56:08,688 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523767488
+}
+2015-08-02 20:56:08,688 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523768688
+}
+2015-08-02 20:56:13,698 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523772499
+}
+2015-08-02 20:56:13,698 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523773698
+}
+2015-08-02 20:56:18,708 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523777509
+}
+2015-08-02 20:56:18,708 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523778708
+}
+2015-08-02 20:56:23,718 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523782519
+}
+2015-08-02 20:56:23,718 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523783718
+}
+2015-08-02 20:56:28,728 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523787529
+}
+2015-08-02 20:56:28,728 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523788728
+}
+2015-08-02 20:56:33,739 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523792539
+}
+2015-08-02 20:56:33,740 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523793740
+}
+2015-08-02 20:56:38,748 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523797548
+}
+2015-08-02 20:56:38,748 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523798748
+}
+2015-08-02 20:56:43,758 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523802559
+}
+2015-08-02 20:56:43,759 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523803759
+}
+2015-08-02 20:56:48,767 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523807568
+}
+2015-08-02 20:56:48,768 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523808768
+}
+2015-08-02 20:56:53,779 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523812579
+}
+2015-08-02 20:56:53,779 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523813779
+}
+2015-08-02 20:56:58,788 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523817588
+}
+2015-08-02 20:56:58,788 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523818788
+}
+2015-08-02 20:57:03,799 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523822600
+}
+2015-08-02 20:57:03,799 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523823799
+}
+2015-08-02 20:57:08,808 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523827609
+}
+2015-08-02 20:57:08,808 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523828808
+}
+2015-08-02 20:57:13,818 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523832619
+}
+2015-08-02 20:57:13,818 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523833818
+}
+2015-08-02 20:57:18,828 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523837629
+}
+2015-08-02 20:57:18,829 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523838829
+}
+2015-08-02 20:57:23,838 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523842639
+}
+2015-08-02 20:57:23,838 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523843838
+}
+2015-08-02 20:57:28,848 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523847649
+}
+2015-08-02 20:57:28,848 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523848848
+}
+2015-08-02 20:57:33,858 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523852659
+}
+2015-08-02 20:57:33,859 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523853859
+}
+2015-08-02 20:57:38,869 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523857669
+}
+2015-08-02 20:57:38,869 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523858869
+}
+2015-08-02 20:57:43,879 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523862679
+}
+2015-08-02 20:57:43,879 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523863879
+}
+2015-08-02 20:57:48,889 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523867689
+}
+2015-08-02 20:57:48,889 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523868889
+}
+2015-08-02 20:57:53,899 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523872699
+}
+2015-08-02 20:57:53,899 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523873899
+}
+2015-08-02 20:57:58,909 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523877709
+}
+2015-08-02 20:57:58,909 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523878909
+}
+2015-08-02 20:58:03,919 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523882720
+}
+2015-08-02 20:58:03,919 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523883919
+}
+2015-08-02 20:58:08,929 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523887730
+}
+2015-08-02 20:58:08,929 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523888929
+}
+2015-08-02 20:58:13,939 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523892740
+}
+2015-08-02 20:58:13,939 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523893939
+}
+2015-08-02 20:58:18,950 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523897750
+}
+2015-08-02 20:58:18,951 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523898950
+}
+2015-08-02 20:58:23,960 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523902760
+}
+2015-08-02 20:58:23,960 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523903960
+}
+2015-08-02 20:58:28,971 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523907770
+}
+2015-08-02 20:58:28,971 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523908971
+}
+2015-08-02 20:58:33,979 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523912780
+}
+2015-08-02 20:58:33,979 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523913979
+}
+2015-08-02 20:58:38,990 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523917790
+}
+2015-08-02 20:58:38,990 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523918990
+}
+2015-08-02 20:58:44,000 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523922800
+}
+2015-08-02 20:58:44,000 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523924000
+}
+2015-08-02 20:58:49,010 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523927810
+}
+2015-08-02 20:58:49,010 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523929010
+}
+2015-08-02 20:58:54,020 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523932820
+}
+2015-08-02 20:58:54,020 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523934020
+}
+2015-08-02 20:58:59,030 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523937831
+}
+2015-08-02 20:58:59,030 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523939030
+}
+2015-08-02 20:59:04,040 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523942840
+}
+2015-08-02 20:59:04,040 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523944040
+}
+2015-08-02 20:59:09,050 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523947851
+}
+2015-08-02 20:59:09,050 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523949050
+}
+2015-08-02 20:59:14,060 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523952861
+}
+2015-08-02 20:59:14,060 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523954060
+}
+2015-08-02 20:59:19,072 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523957871
+}
+2015-08-02 20:59:19,073 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523959073
+}
+2015-08-02 20:59:24,091 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523962881
+}
+2015-08-02 20:59:24,091 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523964091
+}
+2015-08-02 20:59:29,101 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523967891
+}
+2015-08-02 20:59:29,101 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523969101
+}
+2015-08-02 20:59:34,110 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523972901
+}
+2015-08-02 20:59:34,110 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523974110
+}
+2015-08-02 20:59:39,122 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523977912
+}
+2015-08-02 20:59:39,122 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523979122
+}
+2015-08-02 20:59:44,131 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523982921
+}
+2015-08-02 20:59:44,131 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523984131
+}
+2015-08-02 20:59:49,141 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523987932
+}
+2015-08-02 20:59:49,141 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523989141
+}
+2015-08-02 20:59:54,151 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523992941
+}
+2015-08-02 20:59:54,151 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523994151
+}
+2015-08-02 20:59:59,161 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438523997952
+}
+2015-08-02 20:59:59,161 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438523999161
+}
+2015-08-02 21:00:04,172 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524002962
+}
+2015-08-02 21:00:04,172 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524004172
+}
+2015-08-02 21:00:09,182 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524007972
+}
+2015-08-02 21:00:09,182 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524009182
+}
+2015-08-02 21:00:14,191 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524012982
+}
+2015-08-02 21:00:14,191 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524014191
+}
+2015-08-02 21:00:19,201 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524017992
+}
+2015-08-02 21:00:19,201 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524019201
+}
+2015-08-02 21:00:24,211 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524023002
+}
+2015-08-02 21:00:24,211 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524024211
+}
+2015-08-02 21:00:29,223 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524028012
+}
+2015-08-02 21:00:29,223 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524029223
+}
+2015-08-02 21:00:34,232 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524033022
+}
+2015-08-02 21:00:34,233 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524034233
+}
+2015-08-02 21:00:39,242 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524038032
+}
+2015-08-02 21:00:39,242 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524039242
+}
+2015-08-02 21:00:44,252 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524043042
+}
+2015-08-02 21:00:44,252 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524044252
+}
+2015-08-02 21:00:49,262 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524048053
+}
+2015-08-02 21:00:49,262 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524049262
+}
+2015-08-02 21:00:54,273 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524053063
+}
+2015-08-02 21:00:54,273 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524054273
+}
+2015-08-02 21:00:59,282 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524058073
+}
+2015-08-02 21:00:59,282 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524059282
+}
+2015-08-02 21:01:04,292 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524063083
+}
+2015-08-02 21:01:04,292 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524064292
+}
+2015-08-02 21:01:09,302 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524068093
+}
+2015-08-02 21:01:09,302 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524069302
+}
+2015-08-02 21:01:14,312 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524073103
+}
+2015-08-02 21:01:14,313 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524074313
+}
+2015-08-02 21:01:19,324 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524078114
+}
+2015-08-02 21:01:19,324 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524079324
+}
+2015-08-02 21:01:24,332 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524083123
+}
+2015-08-02 21:01:24,332 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524084332
+}
+2015-08-02 21:01:29,342 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524088133
+}
+2015-08-02 21:01:29,343 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524089343
+}
+2015-08-02 21:01:34,353 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524093143
+}
+2015-08-02 21:01:34,353 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524094353
+}
+2015-08-02 21:01:39,363 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524098153
+}
+2015-08-02 21:01:39,363 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524099363
+}
+2015-08-02 21:01:44,373 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524103163
+}
+2015-08-02 21:01:44,373 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524104373
+}
+2015-08-02 21:01:49,384 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524108174
+}
+2015-08-02 21:01:49,384 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524109384
+}
+2015-08-02 21:01:54,393 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524113184
+}
+2015-08-02 21:01:54,393 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524114393
+}
+2015-08-02 21:01:59,403 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524118194
+}
+2015-08-02 21:01:59,403 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524119403
+}
+2015-08-02 21:02:04,413 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524123204
+}
+2015-08-02 21:02:04,413 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524124413
+}
+2015-08-02 21:02:09,423 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524128213
+}
+2015-08-02 21:02:09,424 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524129424
+}
+2015-08-02 21:02:14,433 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524133224
+}
+2015-08-02 21:02:14,434 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524134434
+}
+2015-08-02 21:02:19,443 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524138234
+}
+2015-08-02 21:02:19,443 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524139443
+}
+2015-08-02 21:02:24,453 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524143244
+}
+2015-08-02 21:02:24,454 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524144454
+}
+2015-08-02 21:02:29,464 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524148254
+}
+2015-08-02 21:02:29,464 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524149464
+}
+2015-08-02 21:02:34,474 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524153265
+}
+2015-08-02 21:02:34,475 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524154475
+}
+2015-08-02 21:02:39,484 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524158274
+}
+2015-08-02 21:02:39,484 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524159484
+}
+2015-08-02 21:02:44,494 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524163285
+}
+2015-08-02 21:02:44,494 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524164494
+}
+2015-08-02 21:02:49,504 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524168295
+}
+2015-08-02 21:02:49,504 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524169504
+}
+2015-08-02 21:02:54,514 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524173305
+}
+2015-08-02 21:02:54,515 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524174515
+}
+2015-08-02 21:02:59,524 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524178315
+}
+2015-08-02 21:02:59,524 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524179524
+}
+2015-08-02 21:03:04,534 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524183325
+}
+2015-08-02 21:03:04,534 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524184534
+}
+2015-08-02 21:03:09,544 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524188335
+}
+2015-08-02 21:03:09,544 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524189544
+}
+2015-08-02 21:03:14,554 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524193345
+}
+2015-08-02 21:03:14,554 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524194554
+}
+2015-08-02 21:03:19,564 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524198354
+}
+2015-08-02 21:03:19,564 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524199564
+}
+2015-08-02 21:03:24,574 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524203365
+}
+2015-08-02 21:03:24,574 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524204574
+}
+2015-08-02 21:03:29,584 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524208375
+}
+2015-08-02 21:03:29,585 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524209585
+}
+2015-08-02 21:03:34,595 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524213385
+}
+2015-08-02 21:03:34,595 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524214595
+}
+2015-08-02 21:03:39,604 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524218395
+}
+2015-08-02 21:03:39,604 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524219604
+}
+2015-08-02 21:03:44,615 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524223406
+}
+2015-08-02 21:03:44,615 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524224615
+}
+2015-08-02 21:03:49,624 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524228415
+}
+2015-08-02 21:03:49,624 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524229624
+}
+2015-08-02 21:03:54,634 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524233425
+}
+2015-08-02 21:03:54,634 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524234634
+}
+2015-08-02 21:03:59,644 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524238435
+}
+2015-08-02 21:03:59,644 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524239644
+}
+2015-08-02 21:04:04,654 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524243445
+}
+2015-08-02 21:04:04,654 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524244654
+}
+2015-08-02 21:04:09,665 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524248455
+}
+2015-08-02 21:04:09,665 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524249665
+}
+2015-08-02 21:04:14,675 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524253465
+}
+2015-08-02 21:04:14,676 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524254676
+}
+2015-08-02 21:04:19,684 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524258475
+}
+2015-08-02 21:04:19,685 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524259685
+}
+2015-08-02 21:04:24,694 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524263485
+}
+2015-08-02 21:04:24,694 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524264694
+}
+2015-08-02 21:04:29,705 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524268495
+}
+2015-08-02 21:04:29,705 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524269705
+}
+2015-08-02 21:04:34,715 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524273505
+}
+2015-08-02 21:04:34,715 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524274715
+}
+2015-08-02 21:04:39,725 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524278515
+}
+2015-08-02 21:04:39,725 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524279725
+}
+2015-08-02 21:04:44,735 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524283525
+}
+2015-08-02 21:04:44,735 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524284735
+}
+2015-08-02 21:04:49,745 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524288536
+}
+2015-08-02 21:04:49,745 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524289745
+}
+2015-08-02 21:04:54,757 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524293546
+}
+2015-08-02 21:04:54,757 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524294757
+}
+2015-08-02 21:04:59,765 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524298556
+}
+2015-08-02 21:04:59,765 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524299765
+}
+2015-08-02 21:05:04,776 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524303566
+}
+2015-08-02 21:05:04,776 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524304776
+}
+2015-08-02 21:05:09,785 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524308576
+}
+2015-08-02 21:05:09,786 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524309786
+}
+2015-08-02 21:05:14,795 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524313586
+}
+2015-08-02 21:05:14,795 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524314795
+}
+2015-08-02 21:05:19,805 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524318596
+}
+2015-08-02 21:05:19,806 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524319806
+}
+2015-08-02 21:05:24,816 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524323606
+}
+2015-08-02 21:05:24,816 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524324816
+}
+2015-08-02 21:05:29,826 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524328616
+}
+2015-08-02 21:05:29,826 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524329826
+}
+2015-08-02 21:05:34,836 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524333626
+}
+2015-08-02 21:05:34,836 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524334836
+}
+2015-08-02 21:05:39,846 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524338637
+}
+2015-08-02 21:05:39,846 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524339846
+}
+2015-08-02 21:05:44,856 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524343647
+}
+2015-08-02 21:05:44,856 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524344856
+}
+2015-08-02 21:05:49,866 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524348657
+}
+2015-08-02 21:05:49,866 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524349866
+}
+2015-08-02 21:05:54,876 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524353667
+}
+2015-08-02 21:05:54,876 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524354876
+}
+2015-08-02 21:05:59,886 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524358677
+}
+2015-08-02 21:05:59,886 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524359886
+}
+2015-08-02 21:06:04,896 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524363687
+}
+2015-08-02 21:06:04,897 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524364897
+}
+2015-08-02 21:06:09,906 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524368697
+}
+2015-08-02 21:06:09,907 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524369907
+}
+2015-08-02 21:06:14,918 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524373707
+}
+2015-08-02 21:06:14,918 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524374918
+}
+2015-08-02 21:06:19,927 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524378717
+}
+2015-08-02 21:06:19,927 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524379927
+}
+2015-08-02 21:06:24,936 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524383727
+}
+2015-08-02 21:06:24,936 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524384936
+}
+2015-08-02 21:06:29,947 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524388737
+}
+2015-08-02 21:06:29,947 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524389947
+}
+2015-08-02 21:06:34,957 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524393747
+}
+2015-08-02 21:06:34,957 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524394957
+}
+2015-08-02 21:06:39,967 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524398758
+}
+2015-08-02 21:06:39,967 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524399967
+}
+2015-08-02 21:06:44,977 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524403768
+}
+2015-08-02 21:06:44,977 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524404977
+}
+2015-08-02 21:06:49,987 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524408778
+}
+2015-08-02 21:06:49,987 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524409987
+}
+2015-08-02 21:06:54,997 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524413788
+}
+2015-08-02 21:06:54,997 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524414997
+}
+2015-08-02 21:07:00,008 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524418798
+}
+2015-08-02 21:07:00,009 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524420009
+}
+2015-08-02 21:07:05,017 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524423808
+}
+2015-08-02 21:07:05,017 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524425017
+}
+2015-08-02 21:07:10,027 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524428818
+}
+2015-08-02 21:07:10,027 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524430027
+}
+2015-08-02 21:07:15,037 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524433828
+}
+2015-08-02 21:07:15,038 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524435038
+}
+2015-08-02 21:07:20,049 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524438839
+}
+2015-08-02 21:07:20,050 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524440050
+}
+2015-08-02 21:07:25,057 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524443848
+}
+2015-08-02 21:07:25,058 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524445058
+}
+2015-08-02 21:07:30,068 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524448859
+}
+2015-08-02 21:07:30,068 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524450068
+}
+2015-08-02 21:07:35,077 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524453868
+}
+2015-08-02 21:07:35,078 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524455078
+}
+2015-08-02 21:07:40,088 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524458879
+}
+2015-08-02 21:07:40,089 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524460089
+}
+2015-08-02 21:07:45,098 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524463889
+}
+2015-08-02 21:07:45,099 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524465099
+}
+2015-08-02 21:07:50,108 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524468899
+}
+2015-08-02 21:07:50,108 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524470108
+}
+2015-08-02 21:07:55,119 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524473909
+}
+2015-08-02 21:07:55,120 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524475120
+}
+2015-08-02 21:08:00,128 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524478919
+}
+2015-08-02 21:08:00,128 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524480128
+}
+2015-08-02 21:08:05,139 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524483929
+}
+2015-08-02 21:08:05,139 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524485139
+}
+2015-08-02 21:08:10,148 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524488939
+}
+2015-08-02 21:08:10,148 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524490148
+}
+2015-08-02 21:08:15,161 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524493950
+}
+2015-08-02 21:08:15,161 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524495161
+}
+2015-08-02 21:08:20,169 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524498959
+}
+2015-08-02 21:08:20,170 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524500170
+}
+2015-08-02 21:08:25,179 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524503969
+}
+2015-08-02 21:08:25,179 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524505179
+}
+2015-08-02 21:08:30,189 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524508980
+}
+2015-08-02 21:08:30,189 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524510189
+}
+2015-08-02 21:08:35,199 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524513990
+}
+2015-08-02 21:08:35,199 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524515199
+}
+2015-08-02 21:08:40,210 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524519000
+}
+2015-08-02 21:08:40,211 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524520211
+}
+2015-08-02 21:08:45,219 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524524010
+}
+2015-08-02 21:08:45,219 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524525219
+}
+2015-08-02 21:08:50,229 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524529020
+}
+2015-08-02 21:08:50,229 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524530229
+}
+2015-08-02 21:08:55,239 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524534030
+}
+2015-08-02 21:08:55,239 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524535239
+}
+2015-08-02 21:09:00,250 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524539040
+}
+2015-08-02 21:09:00,251 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524540251
+}
+2015-08-02 21:09:05,260 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524544050
+}
+2015-08-02 21:09:05,260 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524545260
+}
+2015-08-02 21:09:10,271 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524549060
+}
+2015-08-02 21:09:10,271 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524550271
+}
+2015-08-02 21:09:15,279 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524554070
+}
+2015-08-02 21:09:15,280 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524555280
+}
+2015-08-02 21:09:20,290 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524559080
+}
+2015-08-02 21:09:20,290 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524560290
+}
+2015-08-02 21:09:25,300 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524564090
+}
+2015-08-02 21:09:25,301 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524565301
+}
+2015-08-02 21:09:30,310 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524569101
+}
+2015-08-02 21:09:30,310 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524570310
+}
+2015-08-02 21:09:35,322 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524574111
+}
+2015-08-02 21:09:35,322 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524575322
+}
+2015-08-02 21:09:40,330 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524579121
+}
+2015-08-02 21:09:40,330 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524580330
+}
+2015-08-02 21:09:45,340 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524584131
+}
+2015-08-02 21:09:45,340 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524585340
+}
+2015-08-02 21:09:50,350 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524589141
+}
+2015-08-02 21:09:50,350 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524590350
+}
+2015-08-02 21:09:55,360 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524594151
+}
+2015-08-02 21:09:55,360 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524595360
+}
+2015-08-02 21:10:00,371 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524599161
+}
+2015-08-02 21:10:00,372 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524600372
+}
+2015-08-02 21:10:05,380 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524604171
+}
+2015-08-02 21:10:05,380 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524605380
+}
+2015-08-02 21:10:10,391 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524609181
+}
+2015-08-02 21:10:10,391 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524610391
+}
+2015-08-02 21:10:15,401 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524614191
+}
+2015-08-02 21:10:15,401 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524615401
+}
+2015-08-02 21:10:20,411 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524619201
+}
+2015-08-02 21:10:20,411 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524620411
+}
+2015-08-02 21:10:25,421 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524624211
+}
+2015-08-02 21:10:25,421 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524625421
+}
+2015-08-02 21:10:30,431 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524629221
+}
+2015-08-02 21:10:30,432 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524630432
+}
+2015-08-02 21:10:35,441 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524634231
+}
+2015-08-02 21:10:35,441 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524635441
+}
+2015-08-02 21:10:40,453 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524639242
+}
+2015-08-02 21:10:40,453 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524640453
+}
+2015-08-02 21:10:45,461 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524644252
+}
+2015-08-02 21:10:45,461 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524645461
+}
+2015-08-02 21:10:50,472 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524649261
+}
+2015-08-02 21:10:50,472 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524650472
+}
+2015-08-02 21:10:55,481 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524654271
+}
+2015-08-02 21:10:55,482 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524655482
+}
+2015-08-02 21:11:00,491 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524659281
+}
+2015-08-02 21:11:00,491 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524660491
+}
+2015-08-02 21:11:05,500 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524664291
+}
+2015-08-02 21:11:05,500 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524665500
+}
+2015-08-02 21:11:10,511 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524669301
+}
+2015-08-02 21:11:10,511 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524670511
+}
+2015-08-02 21:11:15,522 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524674312
+}
+2015-08-02 21:11:15,522 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524675522
+}
+2015-08-02 21:11:20,531 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524679322
+}
+2015-08-02 21:11:20,531 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524680531
+}
+2015-08-02 21:11:25,541 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524684332
+}
+2015-08-02 21:11:25,541 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524685541
+}
+2015-08-02 21:11:30,551 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524689342
+}
+2015-08-02 21:11:30,551 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524690551
+}
+2015-08-02 21:11:35,562 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524694352
+}
+2015-08-02 21:11:35,562 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524695562
+}
+2015-08-02 21:11:40,571 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524699362
+}
+2015-08-02 21:11:40,571 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524700571
+}
+2015-08-02 21:11:45,582 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524704372
+}
+2015-08-02 21:11:45,582 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524705582
+}
+2015-08-02 21:11:50,591 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524709382
+}
+2015-08-02 21:11:50,592 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524710592
+}
+2015-08-02 21:11:55,601 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524714392
+}
+2015-08-02 21:11:55,602 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524715602
+}
+2015-08-02 21:12:00,612 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524719402
+}
+2015-08-02 21:12:00,612 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524720612
+}
+2015-08-02 21:12:05,623 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524724412
+}
+2015-08-02 21:12:05,623 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524725623
+}
+2015-08-02 21:12:10,632 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524729422
+}
+2015-08-02 21:12:10,632 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524730632
+}
+2015-08-02 21:12:15,642 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524734432
+}
+2015-08-02 21:12:15,642 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524735642
+}
+2015-08-02 21:12:20,652 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524739443
+}
+2015-08-02 21:12:20,652 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524740652
+}
+2015-08-02 21:12:25,662 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524744453
+}
+2015-08-02 21:12:25,662 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524745662
+}
+2015-08-02 21:12:30,672 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524749463
+}
+2015-08-02 21:12:30,672 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524750672
+}
+2015-08-02 21:12:35,682 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524754473
+}
+2015-08-02 21:12:35,682 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524755682
+}
+2015-08-02 21:12:40,692 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524759483
+}
+2015-08-02 21:12:40,692 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524760692
+}
+2015-08-02 21:12:45,703 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524764493
+}
+2015-08-02 21:12:45,703 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524765703
+}
+2015-08-02 21:12:50,712 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524769503
+}
+2015-08-02 21:12:50,712 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524770712
+}
+2015-08-02 21:12:55,723 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524774513
+}
+2015-08-02 21:12:55,723 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524775723
+}
+2015-08-02 21:13:00,732 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524779523
+}
+2015-08-02 21:13:00,732 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524780732
+}
+2015-08-02 21:13:05,743 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524784533
+}
+2015-08-02 21:13:05,743 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524785743
+}
+2015-08-02 21:13:10,752 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524789543
+}
+2015-08-02 21:13:10,752 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524790752
+}
+2015-08-02 21:13:15,763 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524794554
+}
+2015-08-02 21:13:15,763 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524795763
+}
+2015-08-02 21:13:20,773 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524799564
+}
+2015-08-02 21:13:20,774 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524800774
+}
+2015-08-02 21:13:25,784 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524804574
+}
+2015-08-02 21:13:25,785 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524805785
+}
+2015-08-02 21:13:30,793 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524809584
+}
+2015-08-02 21:13:30,793 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524810793
+}
+2015-08-02 21:13:35,803 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524814594
+}
+2015-08-02 21:13:35,803 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524815803
+}
+2015-08-02 21:13:40,815 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524819604
+}
+2015-08-02 21:13:40,815 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524820815
+}
+2015-08-02 21:13:45,823 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524824614
+}
+2015-08-02 21:13:45,823 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524825823
+}
+2015-08-02 21:13:50,834 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524829624
+}
+2015-08-02 21:13:50,834 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524830834
+}
+2015-08-02 21:13:55,844 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524834634
+}
+2015-08-02 21:13:55,844 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524835844
+}
+2015-08-02 21:14:00,854 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524839644
+}
+2015-08-02 21:14:00,855 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524840855
+}
+2015-08-02 21:14:05,863 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524844654
+}
+2015-08-02 21:14:05,863 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524845863
+}
+2015-08-02 21:14:10,874 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524849665
+}
+2015-08-02 21:14:10,874 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524850874
+}
+2015-08-02 21:14:15,884 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524854675
+}
+2015-08-02 21:14:15,885 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524855885
+}
+2015-08-02 21:14:20,894 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524859685
+}
+2015-08-02 21:14:20,894 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524860894
+}
+2015-08-02 21:14:25,904 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524864695
+}
+2015-08-02 21:14:25,904 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524865904
+}
+2015-08-02 21:14:30,914 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524869705
+}
+2015-08-02 21:14:30,914 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524870914
+}
+2015-08-02 21:14:35,924 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524874715
+}
+2015-08-02 21:14:35,924 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524875924
+}
+2015-08-02 21:14:40,934 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524879725
+}
+2015-08-02 21:14:40,934 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524880934
+}
+2015-08-02 21:14:45,945 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524884735
+}
+2015-08-02 21:14:45,945 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524885945
+}
+2015-08-02 21:14:50,955 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524889745
+}
+2015-08-02 21:14:50,955 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524890955
+}
+2015-08-02 21:14:55,965 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524894755
+}
+2015-08-02 21:14:55,965 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524895965
+}
+2015-08-02 21:15:00,975 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524899765
+}
+2015-08-02 21:15:00,976 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524900976
+}
+2015-08-02 21:15:05,985 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524904775
+}
+2015-08-02 21:15:05,985 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524905985
+}
+2015-08-02 21:15:10,995 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524909786
+}
+2015-08-02 21:15:10,995 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524910995
+}
+2015-08-02 21:15:16,005 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524914796
+}
+2015-08-02 21:15:16,005 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524916005
+}
+2015-08-02 21:15:21,015 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524919806
+}
+2015-08-02 21:15:21,015 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524921015
+}
+2015-08-02 21:15:26,025 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524924816
+}
+2015-08-02 21:15:26,025 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524926025
+}
+2015-08-02 21:15:31,035 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524929826
+}
+2015-08-02 21:15:31,036 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524931036
+}
+2015-08-02 21:15:36,045 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524934836
+}
+2015-08-02 21:15:36,045 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524936045
+}
+2015-08-02 21:15:41,056 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524939846
+}
+2015-08-02 21:15:41,057 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524941057
+}
+2015-08-02 21:15:46,065 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524944856
+}
+2015-08-02 21:15:46,065 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524946065
+}
+2015-08-02 21:15:51,075 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524949866
+}
+2015-08-02 21:15:51,075 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524951075
+}
+2015-08-02 21:15:56,086 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524954876
+}
+2015-08-02 21:15:56,087 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524956087
+}
+2015-08-02 21:16:01,096 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524959887
+}
+2015-08-02 21:16:01,096 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524961096
+}
+2015-08-02 21:16:06,106 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524964897
+}
+2015-08-02 21:16:06,106 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524966106
+}
+2015-08-02 21:16:11,116 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524969907
+}
+2015-08-02 21:16:11,116 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524971116
+}
+2015-08-02 21:16:16,126 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524974917
+}
+2015-08-02 21:16:16,126 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524976126
+}
+2015-08-02 21:16:21,137 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524979927
+}
+2015-08-02 21:16:21,137 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524981137
+}
+2015-08-02 21:16:26,147 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524984937
+}
+2015-08-02 21:16:26,147 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524986147
+}
+2015-08-02 21:16:31,156 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524989947
+}
+2015-08-02 21:16:31,157 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524991157
+}
+2015-08-02 21:16:36,166 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524994957
+}
+2015-08-02 21:16:36,167 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438524996167
+}
+2015-08-02 21:16:41,176 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438524999966
+}
+2015-08-02 21:16:41,176 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525001176
+}
+2015-08-02 21:16:46,186 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525004977
+}
+2015-08-02 21:16:46,186 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525006186
+}
+2015-08-02 21:16:51,197 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525009987
+}
+2015-08-02 21:16:51,197 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525011197
+}
+2015-08-02 21:16:56,206 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525014997
+}
+2015-08-02 21:16:56,207 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525016207
+}
+2015-08-02 21:17:01,216 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525020007
+}
+2015-08-02 21:17:01,216 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525021216
+}
+2015-08-02 21:17:06,226 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525025017
+}
+2015-08-02 21:17:06,226 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525026226
+}
+2015-08-02 21:17:11,236 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525030027
+}
+2015-08-02 21:17:11,236 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525031236
+}
+2015-08-02 21:17:16,246 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525035037
+}
+2015-08-02 21:17:16,246 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525036246
+}
+2015-08-02 21:17:21,257 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525040047
+}
+2015-08-02 21:17:21,258 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525041258
+}
+2015-08-02 21:17:26,267 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525045058
+}
+2015-08-02 21:17:26,268 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525046267
+}
+2015-08-02 21:17:31,276 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525050067
+}
+2015-08-02 21:17:31,277 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525051277
+}
+2015-08-02 21:17:36,287 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525055078
+}
+2015-08-02 21:17:36,288 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525056288
+}
+2015-08-02 21:17:41,296 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525060087
+}
+2015-08-02 21:17:41,297 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525061297
+}
+2015-08-02 21:17:46,307 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525065097
+}
+2015-08-02 21:17:46,307 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525066307
+}
+2015-08-02 21:17:51,317 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525070107
+}
+2015-08-02 21:17:51,317 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525071317
+}
+2015-08-02 21:17:56,327 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525075117
+}
+2015-08-02 21:17:56,328 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525076328
+}
+2015-08-02 21:18:01,337 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525080128
+}
+2015-08-02 21:18:01,337 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525081337
+}
+2015-08-02 21:18:06,347 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525085138
+}
+2015-08-02 21:18:06,348 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525086348
+}
+2015-08-02 21:18:11,358 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525090148
+}
+2015-08-02 21:18:11,358 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525091358
+}
+2015-08-02 21:18:16,369 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525095158
+}
+2015-08-02 21:18:16,370 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525096370
+}
+2015-08-02 21:18:21,377 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525100168
+}
+2015-08-02 21:18:21,377 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525101377
+}
+2015-08-02 21:18:26,387 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525105178
+}
+2015-08-02 21:18:26,388 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525106388
+}
+2015-08-02 21:18:31,398 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525110188
+}
+2015-08-02 21:18:31,398 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525111398
+}
+2015-08-02 21:18:36,407 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525115198
+}
+2015-08-02 21:18:36,407 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525116407
+}
+2015-08-02 21:18:41,417 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525120208
+}
+2015-08-02 21:18:41,417 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525121417
+}
+2015-08-02 21:18:46,427 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525125218
+}
+2015-08-02 21:18:46,427 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525126427
+}
+2015-08-02 21:18:51,438 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525130228
+}
+2015-08-02 21:18:51,438 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525131438
+}
+2015-08-02 21:18:56,448 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525135238
+}
+2015-08-02 21:18:56,448 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525136448
+}
+2015-08-02 21:19:01,458 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525140249
+}
+2015-08-02 21:19:01,458 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525141458
+}
+2015-08-02 21:19:06,468 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525145259
+}
+2015-08-02 21:19:06,468 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525146468
+}
+2015-08-02 21:19:11,478 [nioEventLoopGroup-5-1] DEBUG - CSPing {
+  clientTime: 1438525150269
+}
+2015-08-02 21:19:11,479 [nioEventLoopGroup-5-1] DEBUG - SCPing {
+  serverTime: 1438525151479
+}
+=======
+=======
+>>>>>>> e5de18ef8fb3f0dda64d3e7671950f3594b97029
+2015-07-20 13:57:27,284 [Thread-6] INFO - Socket start at port 33333
+2015-07-20 13:57:27,285 [Thread-7] INFO - WebSocket start at port 33332
+2015-07-20 14:04:21,228 [Thread-6] INFO - Socket start at port 33333
+2015-07-20 14:04:21,229 [Thread-7] INFO - WebSocket start at port 33332
+2015-07-20 14:04:41,153 [Thread-6] INFO - Socket start at port 33333
+2015-07-20 14:04:41,154 [Thread-7] INFO - WebSocket start at port 33332
+2015-07-20 14:04:50,684 [Thread-6] INFO - Socket start at port 33333
+2015-07-20 14:04:50,685 [Thread-7] INFO - WebSocket start at port 33332
+<<<<<<< HEAD
+>>>>>>> ee7057f534afbe21e5ae804215b4e9e08de22552
+=======
+>>>>>>> e5de18ef8fb3f0dda64d3e7671950f3594b97029
+2015-08-03 15:41:54,040 [main] INFO - Huongns: MyContext.mapCategoryIdToCategory.size() = 8
+2015-08-03 15:41:54,263 [Thread-6] INFO - Socket start at port 33333
+2015-08-03 15:41:54,264 [Thread-7] INFO - WebSocket start at port 33332
