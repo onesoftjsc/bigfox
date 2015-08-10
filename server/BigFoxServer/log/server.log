@@ -1,0 +1,42 @@
+2015-08-10 22:22:41,924 [Thread-0] DEBUG - -Dio.netty.eventLoopThreads: 16
+2015-08-10 22:22:41,937 [Thread-1] DEBUG - -Dio.netty.noKeySetOptimization: false
+2015-08-10 22:22:41,937 [Thread-1] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-08-10 22:22:41,965 [Thread-0] INFO - Socket start at port 33333
+2015-08-10 22:22:41,966 [Thread-1] INFO - WebSocket start at port 33332
+2015-08-10 22:22:42,012 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x8d60392f895c0103 (took 16 ms)
+2015-08-10 22:22:42,064 [Thread-1] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-10 22:22:42,064 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-10 22:22:42,071 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-10 22:22:42,071 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-10 22:22:42,091 [nioEventLoopGroup-2-1] INFO - [id: 0x7f92419b] REGISTERED
+2015-08-10 22:22:42,091 [nioEventLoopGroup-2-1] INFO - [id: 0x7f92419b] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-10 22:22:42,092 [nioEventLoopGroup-2-1] INFO - [id: 0x7f92419b] CLOSE()
+2015-08-10 22:22:42,094 [nioEventLoopGroup-2-1] INFO - [id: 0x7f92419b] UNREGISTERED
+2015-08-10 22:23:10,864 [Thread-0] DEBUG - -Dio.netty.eventLoopThreads: 16
+2015-08-10 22:23:10,874 [Thread-1] DEBUG - -Dio.netty.noKeySetOptimization: false
+2015-08-10 22:23:10,874 [Thread-1] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-08-10 22:23:10,900 [Thread-1] INFO - WebSocket start at port 33332
+2015-08-10 22:23:10,900 [Thread-0] INFO - Socket start at port 33333
+2015-08-10 22:23:10,925 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0xebe84aa0c8086261 (took 6 ms)
+2015-08-10 22:23:10,973 [Thread-0] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-10 22:23:10,973 [Thread-0] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-10 22:23:10,979 [Thread-0] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-10 22:23:10,980 [Thread-0] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-10 22:23:10,993 [nioEventLoopGroup-2-1] INFO - [id: 0x4c6d43c7] REGISTERED
+2015-08-10 22:23:10,993 [nioEventLoopGroup-2-1] INFO - [id: 0x4c6d43c7] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-10 22:23:10,994 [nioEventLoopGroup-2-1] INFO - [id: 0x4c6d43c7] CLOSE()
+2015-08-10 22:23:10,996 [nioEventLoopGroup-2-1] INFO - [id: 0x4c6d43c7] UNREGISTERED
+2015-08-10 22:24:37,375 [Thread-0] DEBUG - -Dio.netty.eventLoopThreads: 16
+2015-08-10 22:24:37,387 [Thread-0] DEBUG - -Dio.netty.noKeySetOptimization: false
+2015-08-10 22:24:37,387 [Thread-0] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-08-10 22:24:37,420 [Thread-0] INFO - Socket start at port 33333
+2015-08-10 22:24:37,420 [Thread-1] INFO - WebSocket start at port 33332
+2015-08-10 22:24:37,458 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x02e6c80445917027 (took 15 ms)
+2015-08-10 22:24:37,512 [Thread-1] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-10 22:24:37,512 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-10 22:24:37,520 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-10 22:24:37,521 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-10 22:24:37,546 [nioEventLoopGroup-3-1] INFO - [id: 0xfe4fa1b7] REGISTERED
+2015-08-10 22:24:37,546 [nioEventLoopGroup-3-1] INFO - [id: 0xfe4fa1b7] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-10 22:24:37,547 [nioEventLoopGroup-3-1] INFO - [id: 0xfe4fa1b7] CLOSE()
+2015-08-10 22:24:37,551 [nioEventLoopGroup-3-1] INFO - [id: 0xfe4fa1b7] UNREGISTERED
