@@ -81,8 +81,8 @@ public class ConnectionManager implements Runnable {
 	private void reConnect() {
 		try {
 			buf.Reset();
-			String server = LivetubeContext.SERVER;
-			clientSocket = new Socket(server, LivetubeContext.PORT);
+			String server = BigFoxContext.SERVER;
+			clientSocket = new Socket(server, BigFoxContext.PORT);
 			outS = new DataOutputStream(clientSocket.getOutputStream());
 			inS = new DataInputStream(new BufferedInputStream(clientSocket.getInputStream()));
 			isOnline = true;

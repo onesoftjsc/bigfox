@@ -7,7 +7,7 @@ package vn.com.onesoft.bigfox.io.message.cs;
 
 import vn.com.onesoft.bigfox.io.core.BFUtils;
 import vn.com.onesoft.bigfox.io.core.ConnectionManager;
-import vn.com.onesoft.bigfox.io.core.LivetubeContext;
+import vn.com.onesoft.bigfox.io.core.BigFoxContext;
 import vn.com.onesoft.bigfox.io.message.core.BaseMessage;
 import vn.com.onesoft.bigfox.io.message.object.ClientInfo;
 import vn.com.onesoft.bigfox.io.message.core.Tags;
@@ -27,13 +27,13 @@ public class CSClientInfo extends BaseMessage {
     public CSClientInfo() {
         clientInfo = new ClientInfo();
         clientInfo.device = ClientInfo.DEVICE_ANDROID;
-        clientInfo.imei = LivetubeContext.imei;
+        clientInfo.imei = BigFoxContext.imei;
 
         if (ConnectionManager.getInstance().sessionId.length() == 0) {
             ConnectionManager.getInstance().sessionId = BFUtils.genRandomString(10);
         }
         clientInfo.sessionId = ConnectionManager.getInstance().sessionId;
-        clientInfo.version = LivetubeContext.version;
+        clientInfo.version = BigFoxContext.version;
         clientInfo.metadata = "";
     }
 

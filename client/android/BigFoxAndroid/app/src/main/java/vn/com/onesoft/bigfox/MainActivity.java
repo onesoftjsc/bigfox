@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import bigfox.onesoft.com.vn.bigfoxandroid.R;
+import vn.com.onesoft.bigfox.io.core.ConnectionManager;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -20,6 +21,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         _instance = this;
         setContentView(R.layout.activity_main);
+
+        ConnectionManager.getInstance();
     }
 
     @Override

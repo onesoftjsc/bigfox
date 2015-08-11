@@ -26,6 +26,7 @@ public class CSClientInfo extends MessageIn {
     @Override
     public void execute(Channel channel) {
 
+        int a = 0;
 //        Main.logger.info(this.getClass().getName());
 //        Player player = new Player(channel, clientInfo);
 //        LiveTubeContext.mapChannelToPlayer.put(channel, player);

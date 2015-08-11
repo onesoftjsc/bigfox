@@ -82,20 +82,6 @@ public class BFSessionManager {
         return (List<IBFSession>) mapChannelToSession.values();
     }
 
-//    public List<IBFSession> getSessionsByUserId(int userId) {
-//        return mapUserIdtoMapSession.get(userId);
-//    }
-//
-//    public void setSessionByUserId(IBFSession session, int userId) {
-//        List<IBFSession> sessionsByUserId = mapUserIdtoMapSession.get(userId);
-//        if (sessionsByUserId == null) {
-//            sessionsByUserId = new ArrayList<>();
-//            sessionsByUserId.add(session);
-//            mapUserIdtoMapSession.put(userId, sessionsByUserId);
-//        } else {
-//            sessionsByUserId.add(session);
-//        }
-//    }
     public void sendMessage(Channel channel, MessageOut mOut) {
         if (channel == null) {
             return;

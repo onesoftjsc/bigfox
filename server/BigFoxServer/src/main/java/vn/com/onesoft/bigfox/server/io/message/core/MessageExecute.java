@@ -43,7 +43,7 @@ public class MessageExecute {
     }
 
     public void loadCoreClasses() {
-        Reflections reflectionMI = new Reflections("vn.com.onesoft.livetube.io.message");
+        Reflections reflectionMI = new Reflections("vn.com.onesoft.bigfox.server.io.message");
         Set<Class<? extends MessageIn>> subMessageIns = reflectionMI.getSubTypesOf(MessageIn.class);
         Iterator itMI = subMessageIns.iterator();
         while (itMI.hasNext()) {
