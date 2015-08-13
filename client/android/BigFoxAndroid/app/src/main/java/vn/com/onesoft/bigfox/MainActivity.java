@@ -1,17 +1,36 @@
 package vn.com.onesoft.bigfox;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.EditText;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 import bigfox.onesoft.com.vn.bigfoxandroid.R;
 import vn.com.onesoft.bigfox.io.core.ConnectionManager;
+import vn.com.onesoft.bigfox.io.core.ISessionControl;
+import vn.com.onesoft.bigfox.io.message.cs.CSChat;
+import vn.com.onesoft.bigfox.io.message.cs.CSName;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity implements View.OnClickListener{
+
+
+
 
     private static MainActivity _instance;
 
+    private ListView lView;
+    private EditText eText;
+    ArrayList<String> listChat = new ArrayList<>();
+    ArrayAdapter<String> adapter;
     public static MainActivity getInstance(){
         return _instance;
     }
@@ -23,6 +42,25 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         ConnectionManager.getInstance();
+        ConnectionManager.getInstance().setSessionControl(new ISessionControl() {
+            @Override
+            public void onStartSession() {
+
+            }
+
+            @Override
+            public void onReconnectedSession() {
+
+            }
+        });
+
+        lView = (ListView) findViewById(R.id.listView);
+        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1,listChat);
+        lView.setAdapter(adapter);
+        findViewById(R.id.button).setOnClickListener(this);
+        eText = (EditText) findViewById(R.id.editText);
+        showMessage();
+
     }
 
     @Override
@@ -45,5 +83,39 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View v) {
+        ConnectionManager.getInstance().write(new CSChat(eText.getText().toString()));
+        eText.setText("");
+        adapter.notifyDataSetChanged();
+    }
+
+    public void receiveChat(String msg) {
+         listChat.add(msg);
+        adapter.notifyDataSetChanged();
+    }
+
+    private void showMessage(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Enter your name");
+        final EditText input = new EditText(this);
+        input.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+        builder.setView(input);
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                String mText = input.getText().toString();
+                ConnectionManager.getInstance().write(new CSName(mText));
+            }
+        });
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+        builder.show();
     }
 }

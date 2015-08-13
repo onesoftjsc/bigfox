@@ -25,4 +25,8 @@ public class SCChat extends MessageOut {
         this.msg = msg;
     }
 
+    @Override
+    public SCChat clone(){
+        return new SCChat(msg);
+    }
 }

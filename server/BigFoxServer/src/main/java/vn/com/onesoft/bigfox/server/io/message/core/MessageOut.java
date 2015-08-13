@@ -49,5 +49,10 @@ public abstract class MessageOut extends MessageIO {
         }
         return null;
     }
+    
+    @Override
+    public MessageOut clone(){
+        return this;
+    }
 
 }

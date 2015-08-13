@@ -1,33 +1,39 @@
 /*
- * Author: HuongNS
+ * Author: QuanPH
  * Copyright @ 2015 by OneSoft.,JSC
  * 
  */
+
 package vn.com.onesoft.bigfox.server.io.message.cs;
 
+import com.google.common.collect.MapMaker;
 import io.netty.channel.Channel;
+import java.util.Map;
 import vn.com.onesoft.bigfox.server.io.message.core.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.core.Tags;
 import vn.com.onesoft.bigfox.server.io.message.core.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.core.annotations.Property;
-import vn.com.onesoft.bigfox.server.io.message.sc.SCChat;
 import vn.com.onesoft.bigfox.server.io.session.BFSessionManager;
+import vn.com.onesoft.bigfox.server.io.session.IBFSession;
 
 /**
  *
- * @author HuongNS
+ * @author QuanPH
  */
-@Message(tag = Tags.CS_CHAT, name = "CS_CHAT")
-public class CSChat extends MessageIn {
+@Message(tag = Tags.CS_NAME, name = "CS_NAME")
+public class CSName extends MessageIn {
 
     @Property(name = "msg")
     private String msg;
 
+    public static Map<IBFSession, String> mapSessionToName = new MapMaker().makeMap();
+
     @Override
     public void execute(Channel channel) {
-
-        BFSessionManager.getInstance().sendToAll(new SCChat(msg.toUpperCase()));
-
+        IBFSession session = BFSessionManager.getInstance().getSessionByChannel(channel);
+        mapSessionToName.put(session, msg);
     }
+
+
 
 }

@@ -210,5 +210,13 @@ public class BFSessionManager {
         }
         mapChannelToSession.remove(channel);
     }
+    
+    public void sendToAll(MessageOut mOut){
+        Iterator it = mapChannelToSession.keySet().iterator();
+        while (it.hasNext()){
+            Channel channel = (Channel) it.next();
+            sendMessage(channel, mOut.clone());
+        }
+    }
 
 }

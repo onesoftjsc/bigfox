@@ -6,6 +6,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
+import vn.com.onesoft.bigfox.MainActivity;
 import vn.com.onesoft.bigfox.io.message.core.BaseMessage;
 import vn.com.onesoft.bigfox.io.message.core.MessageBuffer;
 import vn.com.onesoft.bigfox.io.message.core.annotations.Message;
@@ -36,6 +37,7 @@ public class ConnectionManager implements Runnable {
 
 	private boolean isOnline = false;
 	public boolean isValidationReceived = false;
+	private ISessionControl sessionControl;
 
 	public static ConnectionManager getInstance() {
 		if (_instance == null) {
@@ -129,7 +131,7 @@ public class ConnectionManager implements Runnable {
 
 	}
 
-	public void onMessage(BaseMessage mIn) {
+	public void onMessage(final BaseMessage mIn) {
 		if (!(mIn instanceof SCValidationCode) && !(mIn instanceof SCInitSession)) {
 			if (mIn.getsSequence() <= curSSequence) {
 				return; // Không thực thi bản tin đã thực thi rồi
@@ -140,16 +142,24 @@ public class ConnectionManager implements Runnable {
 			}
 			mSequenceFromServer = mIn.getmSequence();
 		}
-		mIn.execute();
+
+		MainActivity.getInstance().runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				mIn.execute();
+			}
+		});
+
 	}
 
 	public void onContinueOldSession() {
 		// TODO Auto-generated method stub
+		sessionControl.onReconnectedSession();
 	}
 
 	public void onStartNewSession() {
 		// TODO Auto-generated method stub
-
+        sessionControl.onStartSession();
 	}
 
 	public void resendOldMessages() {
@@ -165,4 +175,11 @@ public class ConnectionManager implements Runnable {
 		}
 	}
 
+	public ISessionControl getSessionControl() {
+		return sessionControl;
+	}
+
+	public void setSessionControl(ISessionControl sessionControl) {
+		this.sessionControl = sessionControl;
+	}
 }

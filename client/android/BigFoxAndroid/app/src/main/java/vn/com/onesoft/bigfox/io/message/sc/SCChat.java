@@ -25,14 +25,7 @@ public class SCChat extends BaseMessage implements IMessageIn {
 
     @Override
     public void execute() {
-        MainActivity.getInstance().runOnUiThread(new Runnable() {
-
-            public void run() {
-                Toast.makeText(MainActivity.getInstance(), (String) msg,
-                        Toast.LENGTH_LONG).show();
-            }
-        });
-
+          MainActivity.getInstance().receiveChat(msg);
     }
 
 }
