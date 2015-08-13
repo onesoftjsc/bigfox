@@ -37,7 +37,7 @@ public class ConnectionManager implements Runnable {
 
 	private boolean isOnline = false;
 	public boolean isValidationReceived = false;
-	private ISessionControl sessionControl;
+	private ISessionControl sessionControl = new DefaultSessionControl();
 
 	public static ConnectionManager getInstance() {
 		if (_instance == null) {

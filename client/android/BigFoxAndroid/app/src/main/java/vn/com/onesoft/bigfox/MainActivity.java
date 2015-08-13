@@ -42,17 +42,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         ConnectionManager.getInstance();
-        ConnectionManager.getInstance().setSessionControl(new ISessionControl() {
-            @Override
-            public void onStartSession() {
 
-            }
-
-            @Override
-            public void onReconnectedSession() {
-
-            }
-        });
 
         lView = (ListView) findViewById(R.id.listView);
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1,listChat);
