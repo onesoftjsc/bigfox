@@ -6,12 +6,11 @@
 package vn.com.onesoft.bigfox.io.message.user.sc;
 
 import vn.com.onesoft.bigfox.MainActivity;
-import vn.com.onesoft.bigfox.io.message.core.base.BaseMessage;
-import vn.com.onesoft.bigfox.io.message.core.base.IMessageIn;
-import vn.com.onesoft.bigfox.io.message.core.base.CoreTags;
-import vn.com.onesoft.bigfox.io.message.core.annotations.Message;
-import vn.com.onesoft.bigfox.io.message.core.annotations.Property;
-import vn.com.onesoft.bigfox.io.message.user.Tags;
+import vn.com.onesoft.bigfox.io.message.base.BaseMessage;
+import vn.com.onesoft.bigfox.io.message.base.IMessageIn;
+import vn.com.onesoft.bigfox.io.message.annotations.Message;
+import vn.com.onesoft.bigfox.io.message.annotations.Property;
+import vn.com.onesoft.bigfox.io.message.user.tags.Tags;
 
 /**
  *

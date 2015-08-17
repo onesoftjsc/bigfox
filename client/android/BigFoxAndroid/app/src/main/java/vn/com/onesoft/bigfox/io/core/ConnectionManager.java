@@ -7,9 +7,9 @@ import java.io.IOException;
 import java.net.Socket;
 
 import vn.com.onesoft.bigfox.MainActivity;
-import vn.com.onesoft.bigfox.io.message.core.base.BaseMessage;
-import vn.com.onesoft.bigfox.io.message.core.base.MessageBuffer;
-import vn.com.onesoft.bigfox.io.message.core.annotations.Message;
+import vn.com.onesoft.bigfox.io.message.base.BaseMessage;
+import vn.com.onesoft.bigfox.io.message.base.MessageBuffer;
+import vn.com.onesoft.bigfox.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.io.message.core.sc.SCInitSession;
 import vn.com.onesoft.bigfox.io.message.core.sc.SCValidationCode;
 

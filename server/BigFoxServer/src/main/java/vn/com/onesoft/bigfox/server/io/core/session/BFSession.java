@@ -10,11 +10,11 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
 import java.util.Map;
-import vn.com.onesoft.bigfox.server.io.core.message.base.MessageIn;
-import vn.com.onesoft.bigfox.server.io.core.message.base.MessageOut;
-import vn.com.onesoft.bigfox.server.io.core.message.sc.SCPing;
-import vn.com.onesoft.bigfox.server.io.core.message.tags.CoreTags;
+import vn.com.onesoft.bigfox.server.io.message.core.sc.SCPing;
+import vn.com.onesoft.bigfox.server.io.message.core.tags.CoreTags;
 import vn.com.onesoft.bigfox.server.io.core.objects.message.ClientInfo;
+import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;
+import vn.com.onesoft.bigfox.server.io.message.base.MessageOut;
 import vn.com.onesoft.bigfox.server.main.Main;
 
 /**

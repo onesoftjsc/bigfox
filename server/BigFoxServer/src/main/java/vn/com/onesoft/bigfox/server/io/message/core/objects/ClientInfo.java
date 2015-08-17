@@ -1,15 +1,15 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Author: QuanPH
+ * Copyright @ 2015 by OneSoft.,JSC
+ * 
  */
-package vn.com.onesoft.bigfox.io.message.core.object;
+package vn.com.onesoft.bigfox.server.io.core.objects.message;
 
-import vn.com.onesoft.bigfox.io.message.annotations.Property;
+import vn.com.onesoft.bigfox.server.io.messaannotationsons.Property;
 
 /**
  *
- * @author phamquan
+ * @author QuanPH
  */
 public class ClientInfo {
 
@@ -22,8 +22,8 @@ public class ClientInfo {
     @Property(name = "sessionId")
     public String sessionId = ""; //String duy nhất đinh danh session, lưu dynamic trên Ram, không lưu ổ cưng
     @Property(name = "metadata")
-    public String metadata = "";
-
+    public String metadata = ""; 
+    
     public final static String DEVICE_IOS = "ios";
     public final static String DEVICE_ANDROID = "android";
     public final static String DEVICE_WP = "wp";

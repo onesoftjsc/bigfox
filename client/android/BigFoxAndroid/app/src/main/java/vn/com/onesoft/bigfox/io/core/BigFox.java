@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import vn.com.onesoft.bigfox.io.message.core.annotations.Property;
+import vn.com.onesoft.bigfox.io.message.annotations.Property;
 
 public class BigFox {
 

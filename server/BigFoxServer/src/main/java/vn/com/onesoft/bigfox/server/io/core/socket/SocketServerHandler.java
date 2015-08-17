@@ -8,10 +8,10 @@ import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import java.util.Random;
-import vn.com.onesoft.bigfox.server.io.core.message.base.BFLogger;
-import vn.com.onesoft.bigfox.server.io.core.message.sc.SCValidationCode;
 import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
-import vn.com.onesoft.bigfox.server.io.core.message.base.MessageExecute;
+import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
+import vn.com.onesoft.bigfox.server.io.message.base.MessageExecute;
+import vn.com.onesoft.bigfox.server.io.message.core.sc.SCValidationCode;
 import vn.com.onesoft.bigfox.server.main.Main;
 
 /**
