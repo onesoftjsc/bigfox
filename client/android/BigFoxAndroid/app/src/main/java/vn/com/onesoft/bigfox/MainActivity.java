@@ -16,14 +16,10 @@ import java.util.ArrayList;
 
 import bigfox.onesoft.com.vn.bigfoxandroid.R;
 import vn.com.onesoft.bigfox.io.core.ConnectionManager;
-import vn.com.onesoft.bigfox.io.core.ISessionControl;
-import vn.com.onesoft.bigfox.io.message.cs.CSChat;
-import vn.com.onesoft.bigfox.io.message.cs.CSName;
+import vn.com.onesoft.bigfox.io.message.user.cs.CSChat;
+import vn.com.onesoft.bigfox.io.message.user.cs.CSName;
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener{
-
-
-
 
     private static MainActivity _instance;
 

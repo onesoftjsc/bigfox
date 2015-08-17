@@ -1,6 +1,6 @@
 package vn.com.onesoft.bigfox.io.core;
 
-import vn.com.onesoft.bigfox.io.message.cs.CSPing;
+import vn.com.onesoft.bigfox.io.message.core.cs.CSPing;
 
 public class PingThreadManager {
 

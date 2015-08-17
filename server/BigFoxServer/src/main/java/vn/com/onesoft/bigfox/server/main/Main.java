@@ -23,8 +23,8 @@ import io.netty.util.concurrent.GlobalEventExecutor;
 import java.security.cert.CertificateException;
 import java.util.Map;
 import javax.net.ssl.SSLException;
-import vn.com.onesoft.bigfox.server.io.message.core.BFLogger;
-import vn.com.onesoft.bigfox.server.io.message.core.MessageExecute;
+import vn.com.onesoft.bigfox.server.io.core.message.base.BFLogger;
+import vn.com.onesoft.bigfox.server.io.core.message.base.MessageExecute;
 import vn.com.onesoft.bigfox.server.io.core.socket.SocketChannelDecoder;
 import vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler;
 import vn.com.onesoft.bigfox.server.io.core.websocket.WebSocketServerInitializer;
@@ -74,22 +74,6 @@ public class Main {
 
     }
 
-//    static void changeClassLoader() {
-//        try {
-//            ClassLoader currentThreadClassLoader
-//                    = Thread.currentThread().getContextClassLoader();
-//            String pathToJar = "/Users/phamquan/Desktop/sdk/1.0/BigFoxServer/dist/BigFox.jar";
-//            URL[] urls = {new URL("jar:file:" + pathToJar + "!/")};
-//            URLClassLoader urlClassLoader
-//                    = new URLClassLoader(urls,
-//                            currentThreadClassLoader);
-//
-//            Thread.currentThread().setContextClassLoader(urlClassLoader);
-//        } catch (MalformedURLException ex) {
-//
-//        }
-//    }
-
     static void init() throws Exception {
         EventLoopGroup bossGroup = new NioEventLoopGroup(); // (1)
         EventLoopGroup workerGroup = new NioEventLoopGroup();
@@ -109,8 +93,8 @@ public class Main {
                     .childOption(ChannelOption.SO_KEEPALIVE, true); // (6)
 
             // Bind and start to accept incoming connections.
-            BFLogger.getInstance().info("Socket start at port " + Config.PORT_SOCKET);
-            ChannelFuture f = b.bind(Config.PORT_SOCKET).sync(); // (7)
+            BFLogger.getInstance().info("Socket start at port " + BFConfig.getInstance().getPortSocket());
+            ChannelFuture f = b.bind(BFConfig.getInstance().getPortSocket()).sync(); // (7)
 
             // Wait until the server socket is closed.
             // In this example, this does not happen, but you can do that to gracefully
@@ -132,8 +116,8 @@ public class Main {
                     .channel(NioServerSocketChannel.class)
                     .handler(new LoggingHandler(LogLevel.INFO))
                     .childHandler(new WebSocketServerInitializer());
-            BFLogger.getInstance().info("WebSocket start at port " + Config.PORT_WEBSOCKET);
-            Channel ch = b.bind(Config.PORT_WEBSOCKET).sync().channel();
+            BFLogger.getInstance().info("WebSocket start at port " + BFConfig.getInstance().getPortWebSocket());
+            Channel ch = b.bind(BFConfig.getInstance().getPortWebSocket()).sync().channel();
 
             ch.closeFuture().sync();
         } finally {

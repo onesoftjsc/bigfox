@@ -9,18 +9,18 @@ package vn.com.onesoft.bigfox.server.io.message.cs;
 import com.google.common.collect.MapMaker;
 import io.netty.channel.Channel;
 import java.util.Map;
-import vn.com.onesoft.bigfox.server.io.message.core.MessageIn;
-import vn.com.onesoft.bigfox.server.io.message.core.Tags;
-import vn.com.onesoft.bigfox.server.io.message.core.annotations.Message;
-import vn.com.onesoft.bigfox.server.io.message.core.annotations.Property;
+import vn.com.onesoft.bigfox.server.io.core.annotat.messageions.Message;
+import vn.com.onesoft.bigfox.server.io.core.annotat.messageions.Property;
+import vn.com.onesoft.bigfox.server.io.core.message.base.MessageIn;
 import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.io.core.session.IBFSession;
+import vn.com.onesoft.bigfox.server.io.core.message.tags.CoreTags;
 
 /**
  *
  * @author QuanPH
  */
-@Message(tag = Tags.CS_NAME, name = "CS_NAME")
+@Message(tag = CoreTags.CS_NAME, name = "CS_NAME")
 public class CSName extends MessageIn {
 
     @Property(name = "msg")

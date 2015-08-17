@@ -2,8 +2,7 @@ package vn.com.onesoft.bigfox.io.core;
 
 import android.util.Log;
 
-import vn.com.onesoft.bigfox.io.message.core.BaseMessage;
-import vn.com.onesoft.bigfox.io.message.core.annotations.Message;
+import vn.com.onesoft.bigfox.io.message.core.base.BaseMessage;
 
 /**
  * Created by phamquan on 8/16/15.

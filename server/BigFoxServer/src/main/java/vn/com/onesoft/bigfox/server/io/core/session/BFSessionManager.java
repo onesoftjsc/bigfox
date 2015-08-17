@@ -12,14 +12,14 @@ import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import vn.com.onesoft.bigfox.server.io.message.core.BFLogger;
-import vn.com.onesoft.bigfox.server.io.message.core.MessageIn;
-import vn.com.onesoft.bigfox.server.io.message.core.MessageOut;
-import vn.com.onesoft.bigfox.server.io.message.core.Tags;
-import vn.com.onesoft.bigfox.server.io.message.core.annotations.Message;
-import vn.com.onesoft.bigfox.server.io.message.core.cs.CSClientInfo;
-import vn.com.onesoft.bigfox.server.io.message.core.sc.SCInitSession;
-import vn.com.onesoft.bigfox.server.io.message.core.objects.ClientInfo;
+import vn.com.onesoft.bigfox.server.io.core.annotat.messageions.Message;
+import vn.com.onesoft.bigfox.server.io.core.message.base.BFLogger;
+import vn.com.onesoft.bigfox.server.io.core.message.base.MessageIn;
+import vn.com.onesoft.bigfox.server.io.core.message.base.MessageOut;
+import vn.com.onesoft.bigfox.server.io.core.message.cs.CSClientInfo;
+import vn.com.onesoft.bigfox.server.io.core.message.sc.SCInitSession;
+import vn.com.onesoft.bigfox.server.io.core.message.tags.CoreTags;
+import vn.com.onesoft.bigfox.server.io.core.objects.message.ClientInfo;
 import vn.com.onesoft.bigfox.server.main.Main;
 
 /**
@@ -135,7 +135,7 @@ public class BFSessionManager {
         BFLogger.getInstance().info(mOut);
 
         byte[] data = mOut.toBytes();
-        if (mOut.getTag() != Tags.SC_VALIDATION_CODE) {
+        if (mOut.getTag() != CoreTags.SC_VALIDATION_CODE) {
             IBFSession session = getSessionByChannel(channel);
             for (int i = 4; i < data.length; i++) {
                 data[i] = (byte) ((data[i] ^ session.getValidationCode()) & 0x00ff);

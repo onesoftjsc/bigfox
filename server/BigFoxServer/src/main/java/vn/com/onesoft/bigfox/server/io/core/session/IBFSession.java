@@ -6,9 +6,9 @@
 package vn.com.onesoft.bigfox.server.io.core.session;
 
 import io.netty.channel.Channel;
-import vn.com.onesoft.bigfox.server.io.message.core.MessageIn;
-import vn.com.onesoft.bigfox.server.io.message.core.MessageOut;
-import vn.com.onesoft.bigfox.server.io.message.core.objects.ClientInfo;
+import vn.com.onesoft.bigfox.server.io.core.message.base.MessageIn;
+import vn.com.onesoft.bigfox.server.io.core.message.base.MessageOut;
+import vn.com.onesoft.bigfox.server.io.core.objects.message.ClientInfo;
 
 
 /**

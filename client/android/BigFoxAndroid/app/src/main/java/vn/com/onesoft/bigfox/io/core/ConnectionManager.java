@@ -7,14 +7,12 @@ import java.io.IOException;
 import java.net.Socket;
 
 import vn.com.onesoft.bigfox.MainActivity;
-import vn.com.onesoft.bigfox.io.message.core.BaseMessage;
-import vn.com.onesoft.bigfox.io.message.core.MessageBuffer;
+import vn.com.onesoft.bigfox.io.message.core.base.BaseMessage;
+import vn.com.onesoft.bigfox.io.message.core.base.MessageBuffer;
 import vn.com.onesoft.bigfox.io.message.core.annotations.Message;
-import vn.com.onesoft.bigfox.io.message.cs.CSPing;
-import vn.com.onesoft.bigfox.io.message.sc.SCInitSession;
-import vn.com.onesoft.bigfox.io.message.sc.SCPing;
-import vn.com.onesoft.bigfox.io.message.sc.SCValidationCode;
-import android.util.Log;
+import vn.com.onesoft.bigfox.io.message.core.sc.SCInitSession;
+import vn.com.onesoft.bigfox.io.message.core.sc.SCValidationCode;
+
 import android.util.SparseArray;
 
 public class ConnectionManager implements Runnable {

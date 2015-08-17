@@ -10,11 +10,11 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
 import java.util.Map;
-import vn.com.onesoft.bigfox.server.io.message.core.MessageIn;
-import vn.com.onesoft.bigfox.server.io.message.core.MessageOut;
-import vn.com.onesoft.bigfox.server.io.message.core.Tags;
-import vn.com.onesoft.bigfox.server.io.message.core.sc.SCPing;
-import vn.com.onesoft.bigfox.server.io.message.core.objects.ClientInfo;
+import vn.com.onesoft.bigfox.server.io.core.message.base.MessageIn;
+import vn.com.onesoft.bigfox.server.io.core.message.base.MessageOut;
+import vn.com.onesoft.bigfox.server.io.core.message.sc.SCPing;
+import vn.com.onesoft.bigfox.server.io.core.message.tags.CoreTags;
+import vn.com.onesoft.bigfox.server.io.core.objects.message.ClientInfo;
 import vn.com.onesoft.bigfox.server.main.Main;
 
 /**
@@ -161,7 +161,7 @@ public class BFSession implements IBFSession {
                 if (mOut == null)
                     continue;
                 byte[] data = mOut.toBytes();
-                if (mOut.getTag() != Tags.SC_VALIDATION_CODE) {
+                if (mOut.getTag() != CoreTags.SC_VALIDATION_CODE) {
                     for (int k = 4; k < data.length; k++) {
                         data[k] = (byte) ((data[k] ^ this.getValidationCode()) & 0x00ff);
                     }

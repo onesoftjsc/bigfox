@@ -8,7 +8,7 @@ import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
 import java.util.List;
-import vn.com.onesoft.bigfox.server.io.message.core.BFLogger;
+import vn.com.onesoft.bigfox.server.io.core.message.base.BFLogger;
 
 /**
  *

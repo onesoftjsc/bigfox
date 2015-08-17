@@ -5,7 +5,7 @@ import java.util.Enumeration;
 import java.util.List;
 
 import vn.com.onesoft.bigfox.MainActivity;
-import vn.com.onesoft.bigfox.io.message.sc.SCValidationCode;
+import vn.com.onesoft.bigfox.io.message.core.sc.SCValidationCode;
 import dalvik.system.DexFile;
 
 public class ClassFinder {

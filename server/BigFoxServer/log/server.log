@@ -696,3 +696,13 @@ A : quan"
 }
 2015-08-17 15:37:12,515 [nioEventLoopGroup-5-5] INFO - ChannelClosed: [id: 0xbc705606, /192.168.8.191:60433 :> /192.168.8.191:33333]
 2015-08-17 15:37:17,439 [nioEventLoopGroup-5-8] INFO - ChannelClosed: [id: 0x3b60bdb3, /192.168.8.129:42289 :> /192.168.8.191:33333]
+2015-08-17 17:06:04,607 [Thread-1] INFO - Socket start at port 33333
+2015-08-17 17:06:04,607 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-17 17:06:04,631 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x27942a41b57563d9 (took 7 ms)
+2015-08-17 17:06:04,677 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-17 17:06:04,677 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-17 17:06:04,682 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-17 17:06:04,682 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-17 17:06:04,691 [nioEventLoopGroup-2-1] INFO - [id: 0x082eb6ec] REGISTERED
+2015-08-17 17:06:04,691 [nioEventLoopGroup-2-1] INFO - [id: 0x082eb6ec] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-17 17:06:04,697 [nioEventLoopGroup-2-1] INFO - [id: 0x082eb6ec, /0:0:0:0:0:0:0:0:33332] ACTIVE
