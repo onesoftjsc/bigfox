@@ -13,8 +13,8 @@ import vn.com.onesoft.bigfox.server.io.message.core.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.core.Tags;
 import vn.com.onesoft.bigfox.server.io.message.core.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.core.annotations.Property;
-import vn.com.onesoft.bigfox.server.io.session.BFSessionManager;
-import vn.com.onesoft.bigfox.server.io.session.IBFSession;
+import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
+import vn.com.onesoft.bigfox.server.io.core.session.IBFSession;
 
 /**
  *

@@ -23,13 +23,11 @@ import io.netty.util.concurrent.GlobalEventExecutor;
 import java.security.cert.CertificateException;
 import java.util.Map;
 import javax.net.ssl.SSLException;
-import org.apache.log4j.Level;
-import org.apache.log4j.Logger;
-import org.apache.log4j.xml.DOMConfigurator;
+import vn.com.onesoft.bigfox.server.io.message.core.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.core.MessageExecute;
-import vn.com.onesoft.bigfox.server.io.socket.SocketChannelDecoder;
-import vn.com.onesoft.bigfox.server.io.socket.SocketServerHandler;
-import vn.com.onesoft.bigfox.server.io.websocket.WebSocketServerInitializer;
+import vn.com.onesoft.bigfox.server.io.core.socket.SocketChannelDecoder;
+import vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler;
+import vn.com.onesoft.bigfox.server.io.core.websocket.WebSocketServerInitializer;
 
 /**
  *
@@ -37,17 +35,12 @@ import vn.com.onesoft.bigfox.server.io.websocket.WebSocketServerInitializer;
  */
 public class Main {
 
-    public static Logger logger = Logger.getLogger(Main.class);
+
     public static ServerBootstrap bootstrap;//Help class để khởi tạo server socket
 
     public static ChannelGroup allChannels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);//Netty, lưu trữ tất cả channels để đóng lại khi tắt ứng dụng
     public static Map<Channel, Integer> mapChannelToValidationCode = new MapMaker().makeMap();
     public static Map<Channel, Boolean> mapChannelWebSocket = new MapMaker().makeMap();
-
-    static {
-        DOMConfigurator.configure("log4j_config.xml");
-        Logger.getLogger("com.mchange.v2").setLevel(Level.WARN);
-    }
 
     /**
      * @param args the command line arguments
@@ -116,7 +109,7 @@ public class Main {
                     .childOption(ChannelOption.SO_KEEPALIVE, true); // (6)
 
             // Bind and start to accept incoming connections.
-            Main.logger.info("Socket start at port " + Config.PORT_SOCKET);
+            BFLogger.getInstance().info("Socket start at port " + Config.PORT_SOCKET);
             ChannelFuture f = b.bind(Config.PORT_SOCKET).sync(); // (7)
 
             // Wait until the server socket is closed.
@@ -139,7 +132,7 @@ public class Main {
                     .channel(NioServerSocketChannel.class)
                     .handler(new LoggingHandler(LogLevel.INFO))
                     .childHandler(new WebSocketServerInitializer());
-            Main.logger.info("WebSocket start at port " + Config.PORT_WEBSOCKET);
+            BFLogger.getInstance().info("WebSocket start at port " + Config.PORT_WEBSOCKET);
             Channel ch = b.bind(Config.PORT_WEBSOCKET).sync().channel();
 
             ch.closeFuture().sync();

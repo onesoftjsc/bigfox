@@ -16,7 +16,7 @@ import vn.com.onesoft.bigfox.io.message.cs.CSClientInfo;
  *
  * @author Quan
  */
-@Message(tag = Tags.SC_VALIDATION_CODE, name = "SC_VALIDATION_CODE")
+@Message(tag = Tags.SC_VALIDATION_CODE, name = "SC_VALIDATION_CODE", isCore = true)
 public class SCValidationCode extends BaseMessage implements IMessageIn {
 
     @Property(name = "validationCode")

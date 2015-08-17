@@ -43,7 +43,6 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         ConnectionManager.getInstance();
 
-
         lView = (ListView) findViewById(R.id.listView);
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1,listChat);
         lView.setAdapter(adapter);

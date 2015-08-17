@@ -3,7 +3,7 @@
  * Copyright @ 2015 by OneSoft.,JSC
  * 
  */
-package vn.com.onesoft.bigfox.server.io.session;
+package vn.com.onesoft.bigfox.server.io.core.session;
 
 import com.google.common.collect.MapMaker;
 import io.netty.buffer.Unpooled;
@@ -12,13 +12,14 @@ import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import vn.com.onesoft.bigfox.server.io.message.core.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.core.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.core.MessageOut;
 import vn.com.onesoft.bigfox.server.io.message.core.Tags;
 import vn.com.onesoft.bigfox.server.io.message.core.annotations.Message;
-import vn.com.onesoft.bigfox.server.io.message.cs.CSClientInfo;
-import vn.com.onesoft.bigfox.server.io.message.objects.ClientInfo;
-import vn.com.onesoft.bigfox.server.io.message.sc.SCInitSession;
+import vn.com.onesoft.bigfox.server.io.message.core.cs.CSClientInfo;
+import vn.com.onesoft.bigfox.server.io.message.core.sc.SCInitSession;
+import vn.com.onesoft.bigfox.server.io.message.core.objects.ClientInfo;
 import vn.com.onesoft.bigfox.server.main.Main;
 
 /**
@@ -91,28 +92,22 @@ public class BFSessionManager {
 
             Message m = mOut.getClass().getAnnotation(Message.class);
             mOut.setTag(m.tag());
-            if (mOut.getTag() == Tags.SC_VALIDATION_CODE) {
-                mOut.setMSequence(0);
-                mOut.setSSequence(1);
-            } else {
-                IBFSession session = getSessionByChannel(channel);
+            IBFSession session = getSessionByChannel(channel);
+            if (!m.isCore()) {
                 mOut.setMSequence(session.getMSequence());
                 session.setSSequence(session.getSSequence() + 1);
                 mOut.setSSequence(session.getSSequence());
+                session.putOutMessageOnQueue(mOut);
             }
             byte[] data = mOut.toBytes();
-            if (mOut.getTag() != Tags.SC_VALIDATION_CODE) {
-                IBFSession session = getSessionByChannel(channel);
+
+            if (session != null) {
                 for (int i = 4; i < data.length; i++) {
                     data[i] = (byte) ((data[i] ^ session.getValidationCode()) & 0x00ff);
                 }
             }
 
-            IBFSession session = this.getSessionByChannel(channel);
-            if (session != null) {
-                session.putOutMessageOnQueue(mOut);
-            }
-            Main.logger.info(mOut);
+            BFLogger.getInstance().info(mOut);
 
             if (Main.mapChannelWebSocket.get(channel) != null) {
                 channel.writeAndFlush(new BinaryWebSocketFrame(Unpooled.wrappedBuffer(data)));
@@ -120,19 +115,25 @@ public class BFSessionManager {
                 channel.writeAndFlush(Unpooled.wrappedBuffer(data));
             }
         } catch (Exception ex) {
-            Main.logger.error(ex.getMessage(), ex);
+            BFLogger.getInstance().error(ex.getMessage(), ex);
             if (channel.isActive()) {
                 channel.close();
             }
         }
     }
 
+    /**
+     * send Message without putting in cache
+     *
+     * @param channel
+     * @param mOut
+     */
     private void write(Channel channel, MessageOut mOut) {
         if (channel == null) {
             return;
         }
+        BFLogger.getInstance().info(mOut);
 
-        Main.logger.info(mOut);
         byte[] data = mOut.toBytes();
         if (mOut.getTag() != Tags.SC_VALIDATION_CODE) {
             IBFSession session = getSessionByChannel(channel);
@@ -149,7 +150,9 @@ public class BFSessionManager {
     }
 
     public void onMessage(Channel channel, MessageIn mIn) {
-        Main.logger.info(mIn);
+
+        BFLogger.getInstance().info(mIn);
+
         if (mIn instanceof CSClientInfo) {
             CSClientInfo csClientInfo = (CSClientInfo) mIn;
             String sessionId = csClientInfo.getClientInfo().sessionId;
@@ -159,18 +162,24 @@ public class BFSessionManager {
                 write(channel, new SCInitSession(SCInitSession.START_NEW_SESSION));
             } else { // Kết nối lại
                 bfSession.setChannel(channel);
+                mapChannelToSession.put(channel, bfSession);
                 bfSession.setClientInfo(csClientInfo.getClientInfo());
                 write(channel, new SCInitSession(SCInitSession.CONTINUE_OLD_SESSION));
                 bfSession.reSendMessageFromQueue();
             }
         }
         IBFSession session = this.getSessionByChannel(channel);
+        Message m = mIn.getClass().getAnnotation(Message.class);
         if (session != null) {
             if (mIn.getMSequence() <= session.getMSequence()) {
                 return; //Không thực thi bản tin đã thực thi rồi
             }
+            if (!m.isCore()) {
+                session.setMSequence(mIn.getMSequence());
+                session.cleanOutMessageQueue(mIn);
+            }
             session.setLastTimeReceive(System.currentTimeMillis());
-            session.cleanOutMessageQueue(mIn);
+
         }
         mIn.execute(channel);
     }
@@ -210,10 +219,10 @@ public class BFSessionManager {
         }
         mapChannelToSession.remove(channel);
     }
-    
-    public void sendToAll(MessageOut mOut){
+
+    public void sendToAll(MessageOut mOut) {
         Iterator it = mapChannelToSession.keySet().iterator();
-        while (it.hasNext()){
+        while (it.hasNext()) {
             Channel channel = (Channel) it.next();
             sendMessage(channel, mOut.clone());
         }

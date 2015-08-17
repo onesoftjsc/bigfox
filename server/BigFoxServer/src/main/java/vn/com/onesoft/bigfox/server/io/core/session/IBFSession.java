@@ -3,12 +3,12 @@
  * Copyright @ 2015 by OneSoft.,JSC
  * 
  */
-package vn.com.onesoft.bigfox.server.io.session;
+package vn.com.onesoft.bigfox.server.io.core.session;
 
 import io.netty.channel.Channel;
 import vn.com.onesoft.bigfox.server.io.message.core.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.core.MessageOut;
-import vn.com.onesoft.bigfox.server.io.message.objects.ClientInfo;
+import vn.com.onesoft.bigfox.server.io.message.core.objects.ClientInfo;
 
 
 /**

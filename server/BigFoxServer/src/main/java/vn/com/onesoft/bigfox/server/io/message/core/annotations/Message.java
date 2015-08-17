@@ -7,4 +7,5 @@ import java.lang.annotation.RetentionPolicy;
 public @interface Message {
     public int tag() default 0;
     public String name() default "";
+    public boolean isCore() default false;
 }

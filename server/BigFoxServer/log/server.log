@@ -1,2111 +1,698 @@
-2015-08-13 10:19:18,856 [Thread-1] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 10:19:18,865 [Thread-1] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 10:19:18,865 [Thread-1] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 10:19:18,891 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 10:19:18,891 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 10:19:18,914 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x4a1a50592e358d69 (took 8 ms)
-2015-08-13 10:19:18,959 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 10:19:18,960 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 10:19:18,964 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 10:19:18,964 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 10:19:18,971 [nioEventLoopGroup-3-1] INFO - [id: 0x77b0fc3d] REGISTERED
-2015-08-13 10:19:18,972 [nioEventLoopGroup-3-1] INFO - [id: 0x77b0fc3d] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 10:19:18,976 [nioEventLoopGroup-3-1] INFO - [id: 0x77b0fc3d, /0:0:0:0:0:0:0:0:33332] ACTIVE
-2015-08-13 17:07:33,023 [main] ERROR - vn.com.onesoft.bigfox.server.io.message.cs.CSName
-java.lang.InstantiationException: vn.com.onesoft.bigfox.server.io.message.cs.CSName
-	at java.lang.Class.newInstance(Class.java:418)
-	at vn.com.onesoft.bigfox.server.io.message.core.MessageExecute.loadCoreClasses(MessageExecute.java:53)
-	at vn.com.onesoft.bigfox.server.io.message.core.MessageExecute.getInstance(MessageExecute.java:40)
-	at vn.com.onesoft.bigfox.server.main.Main.main(Main.java:57)
-Caused by: java.lang.NoSuchMethodException: vn.com.onesoft.bigfox.server.io.message.cs.CSName.<init>()
-	at java.lang.Class.getConstructor0(Class.java:2971)
-	at java.lang.Class.newInstance(Class.java:403)
-	... 3 more
-2015-08-13 17:07:33,031 [Thread-2] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 17:07:33,040 [Thread-2] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 17:07:33,040 [Thread-2] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 17:07:33,066 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 17:07:33,066 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 17:07:33,090 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x1cacd1ddb72f447d (took 8 ms)
-2015-08-13 17:07:33,135 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 17:07:33,135 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 17:07:33,140 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 17:07:33,140 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 17:07:33,147 [nioEventLoopGroup-2-1] INFO - [id: 0x047d9eda] REGISTERED
-2015-08-13 17:07:33,148 [nioEventLoopGroup-2-1] INFO - [id: 0x047d9eda] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 17:07:33,149 [nioEventLoopGroup-2-1] INFO - [id: 0x047d9eda] CLOSE()
-2015-08-13 17:07:33,151 [nioEventLoopGroup-2-1] INFO - [id: 0x047d9eda] UNREGISTERED
-2015-08-13 17:08:07,193 [main] ERROR - vn.com.onesoft.bigfox.server.io.message.cs.CSName
-java.lang.InstantiationException: vn.com.onesoft.bigfox.server.io.message.cs.CSName
-	at java.lang.Class.newInstance(Class.java:418)
-	at vn.com.onesoft.bigfox.server.io.message.core.MessageExecute.loadCoreClasses(MessageExecute.java:53)
-	at vn.com.onesoft.bigfox.server.io.message.core.MessageExecute.getInstance(MessageExecute.java:40)
-	at vn.com.onesoft.bigfox.server.main.Main.main(Main.java:57)
-Caused by: java.lang.NoSuchMethodException: vn.com.onesoft.bigfox.server.io.message.cs.CSName.<init>()
-	at java.lang.Class.getConstructor0(Class.java:2971)
-	at java.lang.Class.newInstance(Class.java:403)
-	... 3 more
-2015-08-13 17:08:07,200 [Thread-1] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 17:08:07,205 [Thread-1] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 17:08:07,205 [Thread-1] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 17:08:07,219 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 17:08:07,220 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 17:08:07,240 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0xae7f4668f99bf473 (took 7 ms)
-2015-08-13 17:08:07,277 [Thread-1] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 17:08:07,277 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 17:08:07,281 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 17:08:07,281 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 17:08:07,288 [nioEventLoopGroup-3-1] INFO - [id: 0xb8023a51] REGISTERED
-2015-08-13 17:08:07,289 [nioEventLoopGroup-3-1] INFO - [id: 0xb8023a51] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 17:08:07,289 [nioEventLoopGroup-3-1] INFO - [id: 0xb8023a51] CLOSE()
-2015-08-13 17:08:07,291 [nioEventLoopGroup-3-1] INFO - [id: 0xb8023a51] UNREGISTERED
-2015-08-13 17:09:02,358 [Thread-2] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 17:09:02,363 [Thread-2] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 17:09:02,363 [Thread-2] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 17:09:02,378 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 17:09:02,378 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 17:09:02,400 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0xebe423a1feaaa226 (took 7 ms)
-2015-08-13 17:09:02,441 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 17:09:02,441 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 17:09:02,446 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 17:09:02,446 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 17:09:02,453 [nioEventLoopGroup-2-1] INFO - [id: 0x227805b7] REGISTERED
-2015-08-13 17:09:02,453 [nioEventLoopGroup-2-1] INFO - [id: 0x227805b7] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 17:09:02,454 [nioEventLoopGroup-2-1] INFO - [id: 0x227805b7] CLOSE()
-2015-08-13 17:09:02,456 [nioEventLoopGroup-2-1] INFO - [id: 0x227805b7] UNREGISTERED
-2015-08-13 17:09:11,515 [Thread-1] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 17:09:11,521 [Thread-1] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 17:09:11,521 [Thread-1] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 17:09:11,538 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 17:09:11,538 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 17:09:11,556 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x8d9222dee1644d51 (took 8 ms)
-2015-08-13 17:09:11,592 [Thread-1] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 17:09:11,592 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 17:09:11,596 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 17:09:11,596 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 17:09:11,607 [nioEventLoopGroup-3-1] INFO - [id: 0x0ecce589] REGISTERED
-2015-08-13 17:09:11,607 [nioEventLoopGroup-3-1] INFO - [id: 0x0ecce589] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 17:09:11,608 [nioEventLoopGroup-3-1] INFO - [id: 0x0ecce589] CLOSE()
-2015-08-13 17:09:11,609 [nioEventLoopGroup-3-1] INFO - [id: 0x0ecce589] UNREGISTERED
-2015-08-13 17:09:31,404 [Thread-1] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 17:09:31,410 [Thread-1] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 17:09:31,411 [Thread-1] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 17:09:31,428 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 17:09:31,428 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 17:09:31,447 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0xb8d936dd54be2ef5 (took 7 ms)
-2015-08-13 17:09:31,484 [Thread-1] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 17:09:31,485 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 17:09:31,490 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 17:09:31,491 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 17:09:31,497 [nioEventLoopGroup-3-1] INFO - [id: 0x2840fadc] REGISTERED
-2015-08-13 17:09:31,498 [nioEventLoopGroup-3-1] INFO - [id: 0x2840fadc] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 17:09:31,498 [nioEventLoopGroup-3-1] INFO - [id: 0x2840fadc] CLOSE()
-2015-08-13 17:09:31,499 [nioEventLoopGroup-3-1] INFO - [id: 0x2840fadc] UNREGISTERED
-2015-08-13 17:10:25,842 [Thread-1] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 17:10:25,847 [Thread-1] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 17:10:25,847 [Thread-1] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 17:10:25,864 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 17:10:25,864 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 17:10:25,886 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x8ef6c7c876b1cbd5 (took 10 ms)
-2015-08-13 17:10:25,916 [Thread-1] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 17:10:25,916 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 17:10:25,920 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 17:10:25,920 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 17:10:25,928 [nioEventLoopGroup-3-1] INFO - [id: 0xc7c6ddc9] REGISTERED
-2015-08-13 17:10:25,928 [nioEventLoopGroup-3-1] INFO - [id: 0xc7c6ddc9] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 17:10:25,931 [nioEventLoopGroup-3-1] INFO - [id: 0xc7c6ddc9, /0:0:0:0:0:0:0:0:33332] ACTIVE
-2015-08-13 18:03:20,599 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x690e81ab, /192.168.8.190:62478 => /192.168.8.190:33333]
-2015-08-13 18:03:20,611 [nioEventLoopGroup-5-1] INFO - SCValidationCode {
-  validationCode: 354230273
-}
-2015-08-13 18:03:20,624 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
-2015-08-13 18:03:20,628 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity.default: 262144
-2015-08-13 18:03:20,704 [nioEventLoopGroup-5-1] DEBUG - java.nio.ByteBuffer.cleaner(): available
-2015-08-13 18:03:20,707 [nioEventLoopGroup-5-1] INFO - CSClientInfo {
-  clientInfo: {
-    device: "android",
-    imei: "",
-    version: 1,
-    sessionId: "qui4jerttrk2164ebnc2u2tism",
-    metadata: ""
-  }
-}
-2015-08-13 18:03:20,709 [nioEventLoopGroup-5-1] INFO - SCInitSession {
-  sessionStatus: 1
-}
-2015-08-13 18:03:21,314 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463800364
-}
-2015-08-13 18:03:21,315 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463801314
-}
-2015-08-13 18:03:26,334 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463805383
-}
-2015-08-13 18:03:26,334 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463806334
-}
-2015-08-13 18:03:31,364 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463810403
-}
-2015-08-13 18:03:31,364 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463811364
-}
-2015-08-13 18:03:36,403 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463815423
-}
-2015-08-13 18:03:36,403 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463816403
-}
-2015-08-13 18:03:41,426 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463820446
-}
-2015-08-13 18:03:41,426 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463821426
-}
-2015-08-13 18:03:46,443 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463825463
-}
-2015-08-13 18:03:46,443 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463826443
-}
-2015-08-13 18:03:51,453 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463830473
-}
-2015-08-13 18:03:51,454 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463831453
-}
-2015-08-13 18:03:56,514 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463835483
-}
-2015-08-13 18:03:56,514 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463836514
-}
-2015-08-13 18:04:01,533 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463840503
-}
-2015-08-13 18:04:01,534 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463841534
-}
-2015-08-13 18:04:06,554 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463845523
-}
-2015-08-13 18:04:06,554 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463846554
-}
-2015-08-13 18:04:11,573 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463850543
-}
-2015-08-13 18:04:11,574 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463851574
-}
-2015-08-13 18:04:16,584 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463855553
-}
-2015-08-13 18:04:16,584 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463856584
-}
-2015-08-13 18:04:21,604 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463860573
-}
-2015-08-13 18:04:21,604 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463861604
-}
-2015-08-13 18:04:26,623 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463865593
-}
-2015-08-13 18:04:26,624 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463866623
-}
-2015-08-13 18:04:31,637 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463870603
-}
-2015-08-13 18:04:31,638 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463871637
-}
-2015-08-13 18:04:36,644 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463875613
-}
-2015-08-13 18:04:36,644 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463876644
-}
-2015-08-13 18:04:41,654 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463880623
-}
-2015-08-13 18:04:41,654 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463881654
-}
-2015-08-13 18:04:46,674 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463885644
-}
-2015-08-13 18:04:46,674 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463886674
-}
-2015-08-13 18:04:51,695 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463890664
-}
-2015-08-13 18:04:51,695 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463891695
-}
-2015-08-13 18:04:56,715 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463895684
-}
-2015-08-13 18:04:56,715 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463896715
-}
-2015-08-13 18:05:01,735 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463900704
-}
-2015-08-13 18:05:01,735 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463901735
-}
-2015-08-13 18:05:06,755 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463905724
-}
-2015-08-13 18:05:06,755 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463906755
-}
-2015-08-13 18:05:11,775 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463910745
-}
-2015-08-13 18:05:11,775 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463911775
-}
-2015-08-13 18:05:16,795 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463915764
-}
-2015-08-13 18:05:16,795 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463916795
-}
-2015-08-13 18:05:21,815 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463920784
-}
-2015-08-13 18:05:21,815 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463921815
-}
-2015-08-13 18:05:26,835 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463925804
-}
-2015-08-13 18:05:26,835 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463926835
-}
-2015-08-13 18:05:31,855 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463930824
-}
-2015-08-13 18:05:31,856 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463931856
-}
-2015-08-13 18:05:36,875 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463935845
-}
-2015-08-13 18:05:36,876 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463936876
-}
-2015-08-13 18:05:41,895 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463940864
-}
-2015-08-13 18:05:41,895 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463941895
-}
-2015-08-13 18:05:46,905 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463945875
-}
-2015-08-13 18:05:46,906 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463946905
-}
-2015-08-13 18:05:51,925 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463950895
-}
-2015-08-13 18:05:51,926 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463951926
-}
-2015-08-13 18:05:56,945 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463955915
-}
-2015-08-13 18:05:56,945 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463956945
-}
-2015-08-13 18:06:01,965 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463960935
-}
-2015-08-13 18:06:01,966 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463961965
-}
-2015-08-13 18:06:06,985 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463965955
-}
-2015-08-13 18:06:06,986 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463966986
-}
-2015-08-13 18:06:12,006 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463970975
-}
-2015-08-13 18:06:12,006 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463972006
-}
-2015-08-13 18:06:17,025 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463975995
-}
-2015-08-13 18:06:17,025 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463977025
-}
-2015-08-13 18:06:22,035 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463981005
-}
-2015-08-13 18:06:22,035 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463982035
-}
-2015-08-13 18:06:27,045 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463986015
-}
-2015-08-13 18:06:27,046 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463987045
-}
-2015-08-13 18:06:32,055 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463991025
-}
-2015-08-13 18:06:32,056 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463992056
-}
-2015-08-13 18:06:37,066 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439463996036
-}
-2015-08-13 18:06:37,066 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439463997066
-}
-2015-08-13 18:06:40,443 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x690e81ab, /192.168.8.190:62478 :> /192.168.8.190:33333]
-2015-08-13 21:06:05,819 [Thread-1] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 21:06:05,831 [Thread-1] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 21:06:05,832 [Thread-1] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 21:06:05,858 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 21:06:05,858 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 21:06:05,881 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0xfcbd859f0f47f4f8 (took 8 ms)
-2015-08-13 21:06:05,930 [Thread-1] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 21:06:05,930 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 21:06:05,934 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 21:06:05,935 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 21:06:05,942 [nioEventLoopGroup-3-1] INFO - [id: 0xab13a3b1] REGISTERED
-2015-08-13 21:06:05,942 [nioEventLoopGroup-3-1] INFO - [id: 0xab13a3b1] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 21:06:05,946 [nioEventLoopGroup-3-1] INFO - [id: 0xab13a3b1, /0:0:0:0:0:0:0:0:33332] ACTIVE
-2015-08-13 21:06:06,724 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x97bfd0f3, /192.168.1.20:50557 => /192.168.1.20:33333]
-2015-08-13 21:06:06,729 [nioEventLoopGroup-5-1] INFO - SCValidationCode {
-  validationCode: -463568385
-}
-2015-08-13 21:06:06,739 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
-2015-08-13 21:06:06,742 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity.default: 262144
-2015-08-13 21:06:06,758 [nioEventLoopGroup-5-1] DEBUG - java.nio.ByteBuffer.cleaner(): available
-2015-08-13 21:06:06,759 [nioEventLoopGroup-5-1] INFO - CSClientInfo {
-  clientInfo: {
-    device: "android",
-    imei: "",
-    version: 1,
-    sessionId: "c8snpr0rr2dbsip36p0oq19vqi",
-    metadata: ""
-  }
-}
-2015-08-13 21:06:06,761 [nioEventLoopGroup-5-1] INFO - SCInitSession {
-  sessionStatus: 1
-}
-2015-08-13 21:06:10,233 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x97bfd0f3, /192.168.1.20:50557 :> /192.168.1.20:33333]
-2015-08-13 21:06:31,184 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x49ab19ae, /192.168.1.20:50658 => /192.168.1.20:33333]
-2015-08-13 21:06:31,184 [nioEventLoopGroup-5-2] INFO - SCValidationCode {
-  validationCode: -215944104
-}
-2015-08-13 21:06:31,460 [nioEventLoopGroup-5-2] INFO - CSClientInfo {
-  clientInfo: {
-    device: "android",
-    imei: "",
-    version: 1,
-    sessionId: "6136j65hi8nd81ojqohjcb5dgf",
-    metadata: ""
-  }
-}
-2015-08-13 21:06:31,461 [nioEventLoopGroup-5-2] INFO - SCInitSession {
-  sessionStatus: 1
-}
-2015-08-13 21:06:33,917 [nioEventLoopGroup-5-2] INFO - ChannelClosed: [id: 0x49ab19ae, /192.168.1.20:50658 :> /192.168.1.20:33333]
-2015-08-13 21:08:21,426 [nioEventLoopGroup-5-3] INFO - Client connected!: [id: 0xebfc50ae, /192.168.1.20:51043 => /192.168.1.20:33333]
-2015-08-13 21:08:21,427 [nioEventLoopGroup-5-3] INFO - SCValidationCode {
-  validationCode: 2096970839
-}
-2015-08-13 21:08:21,675 [nioEventLoopGroup-5-3] INFO - CSClientInfo {
-  clientInfo: {
-    device: "android",
-    imei: "",
-    version: 1,
-    sessionId: "vmk8tmfjmi6s2ec7urul1v5715",
-    metadata: ""
-  }
-}
-2015-08-13 21:08:21,676 [nioEventLoopGroup-5-3] INFO - SCInitSession {
-  sessionStatus: 1
-}
-2015-08-13 21:08:22,300 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474901344
-}
-2015-08-13 21:08:22,301 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474902300
-}
-2015-08-13 21:08:27,309 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474906353
-}
-2015-08-13 21:08:27,309 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474907309
-}
-2015-08-13 21:08:32,329 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474911374
-}
-2015-08-13 21:08:32,330 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474912330
-}
-2015-08-13 21:08:34,645 [nioEventLoopGroup-5-3] INFO - CSName {
+2015-08-17 11:30:06,711 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-17 11:30:06,711 [Thread-1] INFO - Socket start at port 33333
+2015-08-17 11:30:06,738 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x796a8f9d6934e240 (took 8 ms)
+2015-08-17 11:30:06,791 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-17 11:30:06,792 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-17 11:30:06,796 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-17 11:30:06,797 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-17 11:30:06,804 [nioEventLoopGroup-3-1] INFO - [id: 0xef23f8a8] REGISTERED
+2015-08-17 11:30:06,805 [nioEventLoopGroup-3-1] INFO - [id: 0xef23f8a8] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-17 11:30:06,809 [nioEventLoopGroup-3-1] INFO - [id: 0xef23f8a8, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-08-17 15:12:06,180 [Thread-1] INFO - Socket start at port 33333
+2015-08-17 15:12:06,180 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-17 15:12:06,212 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0xba7ea4353b713138 (took 13 ms)
+2015-08-17 15:12:06,275 [Thread-1] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-17 15:12:06,275 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-17 15:12:06,281 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-17 15:12:06,282 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-17 15:12:06,289 [nioEventLoopGroup-3-1] INFO - [id: 0x15fc7398] REGISTERED
+2015-08-17 15:12:06,289 [nioEventLoopGroup-3-1] INFO - [id: 0x15fc7398] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-17 15:12:06,292 [nioEventLoopGroup-3-1] INFO - [id: 0x15fc7398] CLOSE()
+2015-08-17 15:12:06,294 [nioEventLoopGroup-3-1] INFO - [id: 0x15fc7398] UNREGISTERED
+2015-08-17 15:12:27,289 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-17 15:12:27,289 [Thread-1] INFO - Socket start at port 33333
+2015-08-17 15:12:27,309 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0xb1e86dfcfde2bc2e (took 8 ms)
+2015-08-17 15:12:27,351 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-17 15:12:27,351 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-17 15:12:27,356 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-17 15:12:27,357 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-17 15:12:27,366 [nioEventLoopGroup-3-1] INFO - [id: 0xfe59db5b] REGISTERED
+2015-08-17 15:12:27,366 [nioEventLoopGroup-3-1] INFO - [id: 0xfe59db5b] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-17 15:12:27,371 [nioEventLoopGroup-3-1] INFO - [id: 0xfe59db5b, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-08-17 15:14:17,434 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x4592dcc4, /192.168.8.129:49943 => /192.168.8.191:33333]
+2015-08-17 15:14:17,448 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-08-17 15:14:17,450 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-08-17 15:14:17,509 [nioEventLoopGroup-5-1] DEBUG - java.nio.ByteBuffer.cleaner(): available
+2015-08-17 15:14:21,587 [nioEventLoopGroup-5-1] INFO - CSName {
   msg: "quan"
 }
-2015-08-13 21:08:37,339 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474916383
+2015-08-17 15:14:28,729 [nioEventLoopGroup-5-1] INFO - CSChat {
+  msg: "hello"
 }
-2015-08-13 21:08:37,339 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474917339
+2015-08-17 15:14:28,729 [nioEventLoopGroup-5-1] INFO - SCChat {
+  msg: "15:14:28
+quan : hello"
 }
-2015-08-13 21:08:39,262 [nioEventLoopGroup-5-3] INFO - CSChat {
-  msg: "eee"
-}
-2015-08-13 21:08:39,263 [nioEventLoopGroup-5-3] INFO - SCChat {
-  msg: "EEE"
-}
-2015-08-13 21:08:42,349 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474921393
-}
-2015-08-13 21:08:42,349 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474922349
-}
-2015-08-13 21:08:42,658 [nioEventLoopGroup-5-3] INFO - CSChat {
-  msg: "rrrr"
-}
-2015-08-13 21:08:42,659 [nioEventLoopGroup-5-3] INFO - SCChat {
-  msg: "RRRR"
-}
-2015-08-13 21:08:45,666 [nioEventLoopGroup-5-3] INFO - CSChat {
-  msg: "gggg"
-}
-2015-08-13 21:08:45,667 [nioEventLoopGroup-5-3] INFO - SCChat {
-  msg: "GGGG"
-}
-2015-08-13 21:08:47,359 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474926404
-}
-2015-08-13 21:08:47,360 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474927360
-}
-2015-08-13 21:08:52,369 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474931414
-}
-2015-08-13 21:08:52,369 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474932369
-}
-2015-08-13 21:09:07,400 [nioEventLoopGroup-5-3] INFO - CSChat {
-  msg: "xxx"
-}
-2015-08-13 21:09:07,400 [nioEventLoopGroup-5-3] INFO - SCChat {
-  msg: "XXX"
-}
-2015-08-13 21:09:07,400 [nioEventLoopGroup-5-3] INFO - CSChat {
-  msg: "gg"
-}
-2015-08-13 21:09:07,401 [nioEventLoopGroup-5-3] INFO - SCChat {
-  msg: "GG"
-}
-2015-08-13 21:09:07,401 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474936424
-}
-2015-08-13 21:09:07,401 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474947401
-}
-2015-08-13 21:09:07,402 [nioEventLoopGroup-5-3] INFO - CSChat {
-  msg: "ee"
-}
-2015-08-13 21:09:07,402 [nioEventLoopGroup-5-3] INFO - SCChat {
-  msg: "EE"
-}
-2015-08-13 21:09:07,402 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474941434
-}
-2015-08-13 21:09:07,402 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474947402
-}
-2015-08-13 21:09:07,403 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474946444
-}
-2015-08-13 21:09:07,403 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474947403
-}
-2015-08-13 21:09:12,410 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474951455
-}
-2015-08-13 21:09:12,411 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474952411
-}
-2015-08-13 21:09:12,838 [nioEventLoopGroup-5-3] INFO - CSChat {
-  msg: "rrr"
-}
-2015-08-13 21:09:12,838 [nioEventLoopGroup-5-3] INFO - SCChat {
-  msg: "RRR"
-}
-2015-08-13 21:09:32,295 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474956464
-}
-2015-08-13 21:09:32,296 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474972296
-}
-2015-08-13 21:09:32,296 [nioEventLoopGroup-5-3] INFO - CSChat {
-  msg: "kj"
-}
-2015-08-13 21:09:32,297 [nioEventLoopGroup-5-3] INFO - SCChat {
-  msg: "KJ"
-}
-2015-08-13 21:09:32,297 [nioEventLoopGroup-5-3] INFO - CSChat {
-  msg: "wq"
-}
-2015-08-13 21:09:32,297 [nioEventLoopGroup-5-3] INFO - SCChat {
-  msg: "WQ"
-}
-2015-08-13 21:09:32,297 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474961474
-}
-2015-08-13 21:09:32,297 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474972297
-}
-2015-08-13 21:09:32,298 [nioEventLoopGroup-5-3] INFO - CSChat {
-  msg: "tt"
-}
-2015-08-13 21:09:32,298 [nioEventLoopGroup-5-3] INFO - SCChat {
-  msg: "TT"
-}
-2015-08-13 21:09:32,298 [nioEventLoopGroup-5-3] INFO - CSChat {
-  msg: "uu"
-}
-2015-08-13 21:09:32,298 [nioEventLoopGroup-5-3] INFO - SCChat {
-  msg: "UU"
-}
-2015-08-13 21:09:32,298 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474966485
-}
-2015-08-13 21:09:32,299 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474972299
-}
-2015-08-13 21:09:32,452 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474971495
-}
-2015-08-13 21:09:32,453 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474972453
-}
-2015-08-13 21:09:37,460 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474976505
-}
-2015-08-13 21:09:37,460 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474977460
-}
-2015-08-13 21:09:42,471 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474981515
-}
-2015-08-13 21:09:42,471 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474982471
-}
-2015-08-13 21:09:47,480 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474986525
-}
-2015-08-13 21:09:47,481 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474987481
-}
-2015-08-13 21:09:52,490 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474991534
-}
-2015-08-13 21:09:52,490 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474992490
-}
-2015-08-13 21:09:57,501 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439474996545
-}
-2015-08-13 21:09:57,501 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439474997501
-}
-2015-08-13 21:10:02,511 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475001555
-}
-2015-08-13 21:10:02,511 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475002511
-}
-2015-08-13 21:10:07,520 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475006565
-}
-2015-08-13 21:10:07,520 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475007520
-}
-2015-08-13 21:10:12,531 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475011575
-}
-2015-08-13 21:10:12,531 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475012531
-}
-2015-08-13 21:10:17,541 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475016585
-}
-2015-08-13 21:10:17,541 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475017541
-}
-2015-08-13 21:10:22,551 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475021595
-}
-2015-08-13 21:10:22,551 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475022551
-}
-2015-08-13 21:10:27,571 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475026605
-}
-2015-08-13 21:10:27,571 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475027571
-}
-2015-08-13 21:10:32,581 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475031615
-}
-2015-08-13 21:10:32,581 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475032581
-}
-2015-08-13 21:10:37,591 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475036625
-}
-2015-08-13 21:10:37,591 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475037591
-}
-2015-08-13 21:10:42,601 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475041635
-}
-2015-08-13 21:10:42,601 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475042601
-}
-2015-08-13 21:10:47,611 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475046645
-}
-2015-08-13 21:10:47,611 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475047611
-}
-2015-08-13 21:10:52,621 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475051656
-}
-2015-08-13 21:10:52,622 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475052622
-}
-2015-08-13 21:10:57,631 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475056666
-}
-2015-08-13 21:10:57,632 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475057632
-}
-2015-08-13 21:11:02,642 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475061676
-}
-2015-08-13 21:11:02,643 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475062643
-}
-2015-08-13 21:11:07,652 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475066687
-}
-2015-08-13 21:11:07,653 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475067653
-}
-2015-08-13 21:11:12,662 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475071696
-}
-2015-08-13 21:11:12,662 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475072662
-}
-2015-08-13 21:11:17,672 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475076706
-}
-2015-08-13 21:11:17,672 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475077672
-}
-2015-08-13 21:11:22,692 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475081716
-}
-2015-08-13 21:11:22,693 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475082693
-}
-2015-08-13 21:11:27,703 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475086726
-}
-2015-08-13 21:11:27,703 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475087703
-}
-2015-08-13 21:11:32,712 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475091736
-}
-2015-08-13 21:11:32,712 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475092712
-}
-2015-08-13 21:11:37,723 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475096747
-}
-2015-08-13 21:11:37,723 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475097723
-}
-2015-08-13 21:11:42,742 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475101756
-}
-2015-08-13 21:11:42,743 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475102743
-}
-2015-08-13 21:11:47,752 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475106766
-}
-2015-08-13 21:11:47,752 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475107752
-}
-2015-08-13 21:11:52,762 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475111776
-}
-2015-08-13 21:11:52,762 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475112762
-}
-2015-08-13 21:11:57,772 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475116787
-}
-2015-08-13 21:11:57,773 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475117773
-}
-2015-08-13 21:12:02,802 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475121796
-}
-2015-08-13 21:12:02,803 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475122803
-}
-2015-08-13 21:12:07,832 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475126807
-}
-2015-08-13 21:12:07,832 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475127832
-}
-2015-08-13 21:12:12,842 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475131817
-}
-2015-08-13 21:12:12,842 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475132842
-}
-2015-08-13 21:12:17,852 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475136827
-}
-2015-08-13 21:12:17,853 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475137853
-}
-2015-08-13 21:12:22,862 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475141837
-}
-2015-08-13 21:12:22,862 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475142862
-}
-2015-08-13 21:12:27,873 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475146847
-}
-2015-08-13 21:12:27,873 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475147873
-}
-2015-08-13 21:12:32,883 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475151857
-}
-2015-08-13 21:12:32,883 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475152883
-}
-2015-08-13 21:12:37,913 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475156867
-}
-2015-08-13 21:12:37,913 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475157913
-}
-2015-08-13 21:12:42,922 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475161877
-}
-2015-08-13 21:12:42,923 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475162923
-}
-2015-08-13 21:12:47,933 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475166888
-}
-2015-08-13 21:12:47,934 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475167934
-}
-2015-08-13 21:12:52,944 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475171898
-}
-2015-08-13 21:12:52,944 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475172944
-}
-2015-08-13 21:12:57,954 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475176908
-}
-2015-08-13 21:12:57,954 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475177954
-}
-2015-08-13 21:13:02,964 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475181918
-}
-2015-08-13 21:13:02,964 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475182964
-}
-2015-08-13 21:13:07,974 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475186928
-}
-2015-08-13 21:13:07,974 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475187974
-}
-2015-08-13 21:13:12,984 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475191938
-}
-2015-08-13 21:13:12,984 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475192984
-}
-2015-08-13 21:13:17,994 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475196948
-}
-2015-08-13 21:13:17,994 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475197994
-}
-2015-08-13 21:13:23,004 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475201958
-}
-2015-08-13 21:13:23,004 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475203004
-}
-2015-08-13 21:13:28,013 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475206968
-}
-2015-08-13 21:13:28,014 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475208014
-}
-2015-08-13 21:13:33,025 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475211979
-}
-2015-08-13 21:13:33,025 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475213025
-}
-2015-08-13 21:13:38,044 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475216988
-}
-2015-08-13 21:13:38,045 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475218045
-}
-2015-08-13 21:13:43,054 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475221998
-}
-2015-08-13 21:13:43,054 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475223054
-}
-2015-08-13 21:13:48,064 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475227008
-}
-2015-08-13 21:13:48,064 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475228064
-}
-2015-08-13 21:13:53,074 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475232018
-}
-2015-08-13 21:13:53,074 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475233074
-}
-2015-08-13 21:13:58,083 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475237028
-}
-2015-08-13 21:13:58,084 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475238084
-}
-2015-08-13 21:14:03,104 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475242039
-}
-2015-08-13 21:14:03,105 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475243105
-}
-2015-08-13 21:14:08,114 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475247048
-}
-2015-08-13 21:14:08,114 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475248114
-}
-2015-08-13 21:14:13,124 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475252058
-}
-2015-08-13 21:14:13,124 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475253124
-}
-2015-08-13 21:14:18,134 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475257068
-}
-2015-08-13 21:14:18,134 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475258134
-}
-2015-08-13 21:14:23,145 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475262079
-}
-2015-08-13 21:14:23,145 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475263145
-}
-2015-08-13 21:14:28,165 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475267089
-}
-2015-08-13 21:14:28,165 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475268165
-}
-2015-08-13 21:14:33,174 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475272099
-}
-2015-08-13 21:14:33,175 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475273175
-}
-2015-08-13 21:14:38,185 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475277110
-}
-2015-08-13 21:14:38,185 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475278185
-}
-2015-08-13 21:14:43,194 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475282119
-}
-2015-08-13 21:14:43,195 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475283195
-}
-2015-08-13 21:14:48,205 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475287130
-}
-2015-08-13 21:14:48,205 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475288205
-}
-2015-08-13 21:14:53,215 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475292140
-}
-2015-08-13 21:14:53,215 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475293215
-}
-2015-08-13 21:14:58,235 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475297150
-}
-2015-08-13 21:14:58,235 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475298235
-}
-2015-08-13 21:15:03,246 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475302160
-}
-2015-08-13 21:15:03,246 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475303246
-}
-2015-08-13 21:15:08,255 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475307170
-}
-2015-08-13 21:15:08,255 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475308255
-}
-2015-08-13 21:15:13,265 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475312180
-}
-2015-08-13 21:15:13,266 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475313266
-}
-2015-08-13 21:15:18,275 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475317190
-}
-2015-08-13 21:15:18,276 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475318276
-}
-2015-08-13 21:15:23,285 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475322200
-}
-2015-08-13 21:15:23,286 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475323286
-}
-2015-08-13 21:15:28,295 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475327210
-}
-2015-08-13 21:15:28,296 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475328296
-}
-2015-08-13 21:15:33,305 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475332220
-}
-2015-08-13 21:15:33,306 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475333305
-}
-2015-08-13 21:15:38,316 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475337230
-}
-2015-08-13 21:15:38,316 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475338316
-}
-2015-08-13 21:15:43,336 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475342240
-}
-2015-08-13 21:15:43,336 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475343336
-}
-2015-08-13 21:15:48,346 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475347250
-}
-2015-08-13 21:15:48,346 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475348346
-}
-2015-08-13 21:15:53,356 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475352260
-}
-2015-08-13 21:15:53,356 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475353356
-}
-2015-08-13 21:15:55,186 [Thread-1] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 21:15:55,194 [Thread-2] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 21:15:55,194 [Thread-2] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 21:15:55,214 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 21:15:55,215 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 21:15:55,238 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x5f7d7262c4a25038 (took 9 ms)
-2015-08-13 21:15:55,280 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 21:15:55,280 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 21:15:55,284 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 21:15:55,285 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 21:15:55,292 [nioEventLoopGroup-2-1] INFO - [id: 0x9ec018a0] REGISTERED
-2015-08-13 21:15:55,292 [nioEventLoopGroup-2-1] INFO - [id: 0x9ec018a0] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 21:15:55,294 [nioEventLoopGroup-2-1] INFO - [id: 0x9ec018a0] CLOSE()
-2015-08-13 21:15:55,296 [nioEventLoopGroup-2-1] INFO - [id: 0x9ec018a0] UNREGISTERED
-2015-08-13 21:15:58,374 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475357268
-}
-2015-08-13 21:15:58,374 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475358374
-}
-2015-08-13 21:16:03,395 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475362280
-}
-2015-08-13 21:16:03,396 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475363396
-}
-2015-08-13 21:16:07,254 [Thread-1] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 21:16:07,260 [Thread-2] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 21:16:07,260 [Thread-2] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 21:16:07,278 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 21:16:07,279 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 21:16:07,301 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x90a8c74721bae48c (took 10 ms)
-2015-08-13 21:16:07,340 [Thread-1] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 21:16:07,340 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 21:16:07,343 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 21:16:07,343 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 21:16:07,351 [nioEventLoopGroup-2-1] INFO - [id: 0x6e330a26] REGISTERED
-2015-08-13 21:16:07,351 [nioEventLoopGroup-2-1] INFO - [id: 0x6e330a26] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 21:16:07,353 [nioEventLoopGroup-2-1] INFO - [id: 0x6e330a26] CLOSE()
-2015-08-13 21:16:07,355 [nioEventLoopGroup-2-1] INFO - [id: 0x6e330a26] UNREGISTERED
-2015-08-13 21:16:08,405 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475367290
-}
-2015-08-13 21:16:08,406 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475368406
-}
-2015-08-13 21:16:13,416 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475372300
-}
-2015-08-13 21:16:13,416 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475373416
-}
-2015-08-13 21:16:18,425 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475377310
-}
-2015-08-13 21:16:18,426 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475378425
-}
-2015-08-13 21:16:23,436 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475382320
-}
-2015-08-13 21:16:23,436 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475383436
-}
-2015-08-13 21:16:28,447 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475387331
-}
-2015-08-13 21:16:28,447 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475388447
-}
-2015-08-13 21:16:33,457 [nioEventLoopGroup-5-3] INFO - CSPing {
-  clientTime: 1439475392341
-}
-2015-08-13 21:16:33,457 [nioEventLoopGroup-5-3] INFO - SCPing {
-  serverTime: 1439475393457
-}
-2015-08-13 21:16:43,840 [Thread-1] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 21:16:43,845 [Thread-1] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 21:16:43,845 [Thread-1] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 21:16:43,862 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 21:16:43,862 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 21:16:43,882 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x758f64dc362b55d4 (took 9 ms)
-2015-08-13 21:16:43,921 [Thread-1] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 21:16:43,921 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 21:16:43,925 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 21:16:43,926 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 21:16:43,934 [nioEventLoopGroup-3-1] INFO - [id: 0xa98a1097] REGISTERED
-2015-08-13 21:16:43,934 [nioEventLoopGroup-3-1] INFO - [id: 0xa98a1097] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 21:16:43,936 [nioEventLoopGroup-3-1] INFO - [id: 0xa98a1097, /0:0:0:0:0:0:0:0:33332] ACTIVE
-2015-08-13 21:16:53,500 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x1e866fa8, /192.168.1.20:52130 => /192.168.1.20:33333]
-2015-08-13 21:16:53,505 [nioEventLoopGroup-5-1] INFO - SCValidationCode {
-  validationCode: 2054701531
-}
-2015-08-13 21:16:53,512 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
-2015-08-13 21:16:53,514 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity.default: 262144
-2015-08-13 21:16:53,520 [nioEventLoopGroup-5-1] DEBUG - java.nio.ByteBuffer.cleaner(): available
-2015-08-13 21:16:53,521 [nioEventLoopGroup-5-1] INFO - CSClientInfo {
-  clientInfo: {
-    device: "android",
-    imei: "",
-    version: 1,
-    sessionId: "vmk8tmfjmi6s2ec7urul1v5715",
-    metadata: ""
-  }
-}
-2015-08-13 21:16:53,522 [nioEventLoopGroup-5-1] INFO - SCInitSession {
-  sessionStatus: 1
-}
-2015-08-13 21:16:58,527 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439475417391
-}
-2015-08-13 21:16:58,527 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439475418527
-}
-2015-08-13 21:17:00,872 [nioEventLoopGroup-5-1] INFO - CSChat {
-  msg: "teee"
-}
-2015-08-13 21:17:00,873 [nioEventLoopGroup-5-1] INFO - SCChat {
-  msg: "21:17
-null : TEEE"
-}
-2015-08-13 21:17:03,537 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439475422402
-}
-2015-08-13 21:17:03,538 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439475423538
-}
-2015-08-13 21:17:08,547 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439475427411
-}
-2015-08-13 21:17:08,547 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439475428547
-}
-2015-08-13 21:17:13,557 [nioEventLoopGroup-5-1] INFO - CSPing {
-  clientTime: 1439475432422
-}
-2015-08-13 21:17:13,558 [nioEventLoopGroup-5-1] INFO - SCPing {
-  serverTime: 1439475433558
-}
-2015-08-13 21:17:17,127 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x1e866fa8, /192.168.1.20:52130 :> /192.168.1.20:33333]
-2015-08-13 21:17:21,897 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0xafc35409, /192.168.1.20:52248 => /192.168.1.20:33333]
-2015-08-13 21:17:21,898 [nioEventLoopGroup-5-2] INFO - SCValidationCode {
-  validationCode: -1110137201
-}
-2015-08-13 21:17:22,181 [nioEventLoopGroup-5-2] INFO - CSClientInfo {
-  clientInfo: {
-    device: "android",
-    imei: "",
-    version: 1,
-    sessionId: "9rk5g1hqnbaeiffe7kck6u4j7f",
-    metadata: ""
-  }
-}
-2015-08-13 21:17:22,181 [nioEventLoopGroup-5-2] INFO - SCInitSession {
-  sessionStatus: 1
-}
-2015-08-13 21:17:22,340 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475441203
-}
-2015-08-13 21:17:22,340 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475442340
-}
-2015-08-13 21:17:27,347 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475446212
-}
-2015-08-13 21:17:27,348 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475447348
-}
-2015-08-13 21:17:32,357 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475451222
-}
-2015-08-13 21:17:32,358 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475452358
-}
-2015-08-13 21:17:32,502 [nioEventLoopGroup-5-2] INFO - CSName {
-  msg: "Hai"
-}
-2015-08-13 21:17:37,368 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475456232
-}
-2015-08-13 21:17:37,368 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475457368
-}
-2015-08-13 21:17:40,225 [nioEventLoopGroup-5-2] INFO - CSChat {
-  msg: "alo"
-}
-2015-08-13 21:17:40,225 [nioEventLoopGroup-5-2] INFO - SCChat {
-  msg: "21:17
-Hai : ALO"
-}
-2015-08-13 21:17:42,378 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475461242
-}
-2015-08-13 21:17:42,378 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475462378
-}
-2015-08-13 21:17:46,527 [nioEventLoopGroup-5-2] INFO - CSChat {
+2015-08-17 15:14:31,597 [nioEventLoopGroup-5-1] INFO - CSChat {
   msg: "hi"
 }
-2015-08-13 21:17:46,527 [nioEventLoopGroup-5-2] INFO - SCChat {
-  msg: "21:17
-Hai : HI"
+2015-08-17 15:14:31,598 [nioEventLoopGroup-5-1] INFO - SCChat {
+  msg: "15:14:31
+quan : hi"
 }
-2015-08-13 21:17:47,387 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475466252
+2015-08-17 15:14:49,610 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x18c12afa, /192.168.8.129:49186 => /192.168.8.191:33333]
+2015-08-17 15:14:49,647 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "good"
 }
-2015-08-13 21:17:47,388 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475467388
+2015-08-17 15:14:49,647 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:14:49
+quan : good"
 }
-2015-08-13 21:17:52,398 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475471262
+2015-08-17 15:14:49,650 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:14:49
+quan : good"
 }
-2015-08-13 21:17:52,398 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475472398
+2015-08-17 15:14:49,688 [nioEventLoopGroup-5-1] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-17 15:14:49,694 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x4592dcc4, /192.168.8.129:49943 :> /192.168.8.191:33333]
+2015-08-17 15:14:56,254 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "gggg"
 }
-2015-08-13 21:17:55,084 [nioEventLoopGroup-5-2] INFO - CSChat {
-  msg: "dd"
+2015-08-17 15:14:56,255 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:14:56
+quan : gggg"
 }
-2015-08-13 21:17:55,085 [nioEventLoopGroup-5-2] INFO - SCChat {
-  msg: "21:17
-Hai : DD"
+2015-08-17 15:14:57,814 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "cgg"
 }
-2015-08-13 21:17:57,418 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475476272
+2015-08-17 15:14:57,815 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:14:57
+quan : cgg"
 }
-2015-08-13 21:17:57,418 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475477418
+2015-08-17 15:16:34,424 [Thread-1] INFO - Socket start at port 33333
+2015-08-17 15:16:34,424 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-17 15:16:34,445 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0xf2ef72167068a8be (took 8 ms)
+2015-08-17 15:16:34,482 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-17 15:16:34,482 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-17 15:16:34,485 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-17 15:16:34,486 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-17 15:16:34,492 [nioEventLoopGroup-2-1] INFO - [id: 0x5258e46b] REGISTERED
+2015-08-17 15:16:34,492 [nioEventLoopGroup-2-1] INFO - [id: 0x5258e46b] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-17 15:16:34,495 [nioEventLoopGroup-2-1] INFO - [id: 0x5258e46b, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-08-17 15:16:38,104 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x9fe5dfc2, /192.168.8.129:50852 => /192.168.8.191:33333]
+2015-08-17 15:16:38,114 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-08-17 15:16:38,116 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-08-17 15:16:38,156 [nioEventLoopGroup-5-1] DEBUG - java.nio.ByteBuffer.cleaner(): available
+2015-08-17 15:16:41,805 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x9fe5dfc2, /192.168.8.129:50852 :> /192.168.8.191:33333]
+2015-08-17 15:16:54,609 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x81605657, /192.168.8.129:55318 => /192.168.8.191:33333]
+2015-08-17 15:16:59,930 [nioEventLoopGroup-5-2] INFO - CSName {
+  msg: "Quan"
 }
-2015-08-13 21:18:00,243 [nioEventLoopGroup-5-2] INFO - CSChat {
-  msg: "jj"
+2015-08-17 15:17:01,798 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "hi"
 }
-2015-08-13 21:18:00,244 [nioEventLoopGroup-5-2] INFO - SCChat {
-  msg: "21:18
-Hai : JJ"
+2015-08-17 15:17:01,799 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:17:1
+Quan : hi"
 }
-2015-08-13 21:18:02,428 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475481282
+2015-08-17 15:17:05,285 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "hello"
 }
-2015-08-13 21:18:02,428 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475482428
+2015-08-17 15:17:05,285 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:17:5
+Quan : hello"
 }
-2015-08-13 21:18:07,438 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475486292
+2015-08-17 15:17:22,980 [nioEventLoopGroup-5-3] INFO - Client connected!: [id: 0xd61b0335, /192.168.8.129:42016 => /192.168.8.191:33333]
+2015-08-17 15:17:22,997 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "gggg"
 }
-2015-08-13 21:18:07,439 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475487439
+2015-08-17 15:17:22,998 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:22
+Quan : gggg"
 }
-2015-08-13 21:18:12,450 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475491302
+2015-08-17 15:17:22,998 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:22
+Quan : gggg"
 }
-2015-08-13 21:18:12,450 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475492450
+2015-08-17 15:17:23,000 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "hhh"
 }
-2015-08-13 21:18:17,458 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475496312
+2015-08-17 15:17:23,000 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:23
+Quan : hhh"
 }
-2015-08-13 21:18:17,458 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475497458
+2015-08-17 15:17:23,001 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:23
+Quan : hhh"
 }
-2015-08-13 21:18:22,468 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475501322
+2015-08-17 15:17:23,001 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "iiii"
 }
-2015-08-13 21:18:22,468 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475502468
+2015-08-17 15:17:23,001 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:23
+Quan : iiii"
 }
-2015-08-13 21:18:27,478 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475506332
+2015-08-17 15:17:23,002 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:23
+Quan : iiii"
 }
-2015-08-13 21:18:27,479 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475507478
+2015-08-17 15:17:23,005 [nioEventLoopGroup-5-2] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-17 15:17:23,008 [nioEventLoopGroup-5-2] INFO - ChannelClosed: [id: 0x81605657, /192.168.8.129:55318 :> /192.168.8.191:33333]
+2015-08-17 15:17:39,095 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "rrrr"
 }
-2015-08-13 21:18:32,488 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475511342
+2015-08-17 15:17:39,095 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:39
+Quan : rrrr"
 }
-2015-08-13 21:18:32,488 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475512488
+2015-08-17 15:18:32,577 [Thread-1] INFO - Socket start at port 33333
+2015-08-17 15:18:32,577 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-17 15:18:32,600 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x426a435b85ab6637 (took 11 ms)
+2015-08-17 15:18:32,640 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-17 15:18:32,641 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-17 15:18:32,644 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-17 15:18:32,644 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-17 15:18:32,651 [nioEventLoopGroup-3-1] INFO - [id: 0x73a48391] REGISTERED
+2015-08-17 15:18:32,651 [nioEventLoopGroup-3-1] INFO - [id: 0x73a48391] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-17 15:18:32,654 [nioEventLoopGroup-3-1] INFO - [id: 0x73a48391, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-08-17 15:18:35,830 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x17c1a1ee, /192.168.8.129:39344 => /192.168.8.191:33333]
+2015-08-17 15:18:35,840 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-08-17 15:18:35,842 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-08-17 15:18:36,140 [nioEventLoopGroup-5-1] DEBUG - java.nio.ByteBuffer.cleaner(): available
+2015-08-17 15:18:37,963 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x17c1a1ee, /192.168.8.129:39344 :> /192.168.8.191:33333]
+2015-08-17 15:18:43,578 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x95042f97, /192.168.8.129:50526 => /192.168.8.191:33333]
+2015-08-17 15:18:53,866 [nioEventLoopGroup-5-2] INFO - CSName {
+  msg: "Quan"
 }
-2015-08-13 21:18:37,498 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475516352
+2015-08-17 15:18:55,174 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "hi"
 }
-2015-08-13 21:18:37,499 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475517499
+2015-08-17 15:18:55,175 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:18:55
+Quan : hi"
 }
-2015-08-13 21:18:38,122 [Thread-2] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 21:18:38,127 [Thread-2] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 21:18:38,127 [Thread-2] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 21:18:38,148 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 21:18:38,148 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 21:18:38,171 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0xe9edf48d4634a77a (took 10 ms)
-2015-08-13 21:18:38,211 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 21:18:38,211 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 21:18:38,215 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 21:18:38,215 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 21:18:38,221 [nioEventLoopGroup-2-1] INFO - [id: 0x54732797] REGISTERED
-2015-08-13 21:18:38,222 [nioEventLoopGroup-2-1] INFO - [id: 0x54732797] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 21:18:38,222 [nioEventLoopGroup-2-1] INFO - [id: 0x54732797] CLOSE()
-2015-08-13 21:18:38,224 [nioEventLoopGroup-2-1] INFO - [id: 0x54732797] UNREGISTERED
-2015-08-13 21:18:42,508 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475521362
+2015-08-17 15:18:56,091 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "hhj"
 }
-2015-08-13 21:18:42,508 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475522508
+2015-08-17 15:18:56,091 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:18:56
+Quan : hhj"
 }
-2015-08-13 21:18:47,518 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475526373
+2015-08-17 15:18:57,423 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "vbbk"
 }
-2015-08-13 21:18:47,519 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475527518
+2015-08-17 15:18:57,424 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:18:57
+Quan : vbbk"
 }
-2015-08-13 21:19:00,763 [Thread-1] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-08-13 21:19:00,769 [Thread-2] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-08-13 21:19:00,769 [Thread-2] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-08-13 21:19:00,785 [Thread-1] INFO - Socket start at port 33333
-2015-08-13 21:19:00,786 [Thread-2] INFO - WebSocket start at port 33332
-2015-08-13 21:19:00,805 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x0ecb7a0e94031433 (took 8 ms)
-2015-08-13 21:19:00,841 [Thread-1] DEBUG - -Dio.netty.allocator.type: unpooled
-2015-08-13 21:19:00,841 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-08-13 21:19:00,844 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-08-13 21:19:00,845 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-08-13 21:19:00,852 [nioEventLoopGroup-3-1] INFO - [id: 0xc130e578] REGISTERED
-2015-08-13 21:19:00,852 [nioEventLoopGroup-3-1] INFO - [id: 0xc130e578] BIND(0.0.0.0/0.0.0.0:33332)
-2015-08-13 21:19:00,855 [nioEventLoopGroup-3-1] INFO - [id: 0xc130e578, /0:0:0:0:0:0:0:0:33332] ACTIVE
-2015-08-13 21:19:07,552 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0xb3229bd4, /192.168.1.20:52354 => /192.168.1.20:33333]
-2015-08-13 21:19:07,557 [nioEventLoopGroup-5-1] INFO - SCValidationCode {
-  validationCode: 2048638377
+2015-08-17 15:19:11,165 [nioEventLoopGroup-5-3] INFO - Client connected!: [id: 0x1e4f9c5c, /192.168.8.129:42764 => /192.168.8.191:33333]
+2015-08-17 15:19:11,595 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "hhjk"
 }
-2015-08-13 21:19:07,563 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
-2015-08-13 21:19:07,566 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity.default: 262144
-2015-08-13 21:19:07,572 [nioEventLoopGroup-5-1] DEBUG - java.nio.ByteBuffer.cleaner(): available
-2015-08-13 21:19:07,580 [nioEventLoopGroup-5-1] INFO - CSClientInfo {
-  clientInfo: {
-    device: "android",
-    imei: "",
-    version: 1,
-    sessionId: "9rk5g1hqnbaeiffe7kck6u4j7f",
-    metadata: ""
-  }
+2015-08-17 15:19:11,595 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:11
+Quan : hhjk"
 }
-2015-08-13 21:19:07,582 [nioEventLoopGroup-5-1] INFO - SCInitSession {
-  sessionStatus: 1
+2015-08-17 15:19:11,597 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:11
+Quan : hhjk"
 }
-2015-08-13 21:19:09,903 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0xb3229bd4, /192.168.1.20:52354 :> /192.168.1.20:33333]
-2015-08-13 21:19:12,630 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x357cb97a, /192.168.1.20:52359 => /192.168.1.20:33333]
-2015-08-13 21:19:12,630 [nioEventLoopGroup-5-2] INFO - SCValidationCode {
-  validationCode: -1030456520
+2015-08-17 15:19:12,278 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "vhrtj"
 }
-2015-08-13 21:19:12,694 [nioEventLoopGroup-5-2] INFO - CSClientInfo {
-  clientInfo: {
-    device: "android",
-    imei: "",
-    version: 1,
-    sessionId: "rrep7g3p5qb6otku26ogp0b799",
-    metadata: ""
-  }
+2015-08-17 15:19:12,278 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:12
+Quan : vhrtj"
 }
-2015-08-13 21:19:12,694 [nioEventLoopGroup-5-2] INFO - SCInitSession {
-  sessionStatus: 1
+2015-08-17 15:19:12,278 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:12
+Quan : vhrtj"
 }
-2015-08-13 21:19:12,987 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475551820
+2015-08-17 15:19:12,279 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "bjkl"
 }
-2015-08-13 21:19:12,987 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475552987
+2015-08-17 15:19:12,279 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:12
+Quan : bjkl"
 }
-2015-08-13 21:19:18,009 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475556843
+2015-08-17 15:19:12,279 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:12
+Quan : bjkl"
 }
-2015-08-13 21:19:18,011 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475558010
+2015-08-17 15:19:12,280 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "hhhj"
 }
-2015-08-13 21:19:20,487 [nioEventLoopGroup-5-2] INFO - CSName {
+2015-08-17 15:19:12,280 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:12
+Quan : hhhj"
+}
+2015-08-17 15:19:12,280 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:12
+Quan : hhhj"
+}
+2015-08-17 15:19:12,590 [nioEventLoopGroup-5-2] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-17 15:19:12,593 [nioEventLoopGroup-5-2] INFO - ChannelClosed: [id: 0x95042f97, /192.168.8.129:50526 :> /192.168.8.191:33333]
+2015-08-17 15:19:24,943 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "cgfg"
+}
+2015-08-17 15:19:24,944 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:24
+Quan : cgfg"
+}
+2015-08-17 15:19:29,334 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "rrrr"
+}
+2015-08-17 15:19:29,335 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:29
+Quan : rrrr"
+}
+2015-08-17 15:19:37,932 [nioEventLoopGroup-5-3] INFO - ChannelClosed: [id: 0x1e4f9c5c, /192.168.8.129:42764 :> /192.168.8.191:33333]
+2015-08-17 15:27:01,448 [nioEventLoopGroup-5-4] INFO - Client connected!: [id: 0x0348f73d, /192.168.8.129:36973 => /192.168.8.191:33333]
+2015-08-17 15:27:09,878 [nioEventLoopGroup-5-4] INFO - CSName {
+  msg: "Quan"
+}
+2015-08-17 15:27:49,085 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "hello"
+}
+2015-08-17 15:27:49,086 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:27:49
+Quan : hello"
+}
+2015-08-17 15:28:10,212 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "how are you ?"
+}
+2015-08-17 15:28:10,213 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:28:10
+Quan : how are you ?"
+}
+2015-08-17 15:28:53,123 [nioEventLoopGroup-5-5] INFO - Client connected!: [id: 0xbc705606, /192.168.8.191:60433 => /192.168.8.191:33333]
+2015-08-17 15:29:07,020 [nioEventLoopGroup-5-5] INFO - CSName {
+  msg: "A"
+}
+2015-08-17 15:29:11,080 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "hi"
+}
+2015-08-17 15:29:11,082 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:11
+A : hi"
+}
+2015-08-17 15:29:11,083 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:11
+A : hi"
+}
+2015-08-17 15:29:19,874 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "gggg"
+}
+2015-08-17 15:29:19,876 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:19
+A : gggg"
+}
+2015-08-17 15:29:19,877 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:19
+A : gggg"
+}
+2015-08-17 15:29:23,823 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "hhg"
+}
+2015-08-17 15:29:23,824 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:23
+Quan : hhg"
+}
+2015-08-17 15:29:23,825 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:23
+Quan : hhg"
+}
+2015-08-17 15:29:27,672 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "hello"
+}
+2015-08-17 15:29:27,674 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:27
+A : hello"
+}
+2015-08-17 15:29:27,675 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:27
+A : hello"
+}
+2015-08-17 15:29:29,342 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "h2"
+}
+2015-08-17 15:29:29,343 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:29
+Quan : h2"
+}
+2015-08-17 15:29:29,344 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:29
+Quan : h2"
+}
+2015-08-17 15:29:34,310 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "h3"
+}
+2015-08-17 15:29:34,311 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:34
+Quan : h3"
+}
+2015-08-17 15:29:34,312 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:34
+Quan : h3"
+}
+2015-08-17 15:29:35,999 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "h4"
+}
+2015-08-17 15:29:36,000 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:36
+Quan : h4"
+}
+2015-08-17 15:29:36,001 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:36
+Quan : h4"
+}
+2015-08-17 15:29:53,144 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "qqqq"
+}
+2015-08-17 15:29:53,145 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:53
+A : qqqq"
+}
+2015-08-17 15:29:53,146 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:53
+A : qqqq"
+}
+2015-08-17 15:29:55,653 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "eee"
+}
+2015-08-17 15:29:55,655 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:55
+A : eee"
+}
+2015-08-17 15:29:55,656 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:55
+A : eee"
+}
+2015-08-17 15:30:09,188 [nioEventLoopGroup-5-4] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-17 15:30:09,191 [nioEventLoopGroup-5-4] INFO - ChannelClosed: [id: 0x0348f73d, /192.168.8.129:36973 :> /192.168.8.191:33333]
+2015-08-17 15:30:09,228 [nioEventLoopGroup-5-6] INFO - Client connected!: [id: 0x46111ac3, /192.168.8.129:59243 => /192.168.8.191:33333]
+2015-08-17 15:30:10,069 [nioEventLoopGroup-5-6] INFO - CSChat {
+  msg: "h5"
+}
+2015-08-17 15:30:10,071 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h5"
+}
+2015-08-17 15:30:10,072 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h5"
+}
+2015-08-17 15:30:10,227 [nioEventLoopGroup-5-6] INFO - CSChat {
+  msg: "h6"
+}
+2015-08-17 15:30:10,229 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h6"
+}
+2015-08-17 15:30:10,230 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h6"
+}
+2015-08-17 15:30:10,231 [nioEventLoopGroup-5-6] INFO - CSChat {
+  msg: "h7"
+}
+2015-08-17 15:30:10,232 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h7"
+}
+2015-08-17 15:30:10,233 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h7"
+}
+2015-08-17 15:30:10,234 [nioEventLoopGroup-5-6] INFO - CSChat {
+  msg: "h8"
+}
+2015-08-17 15:30:10,235 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h8"
+}
+2015-08-17 15:30:10,236 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h8"
+}
+2015-08-17 15:30:16,875 [nioEventLoopGroup-5-6] INFO - CSChat {
+  msg: "h9"
+}
+2015-08-17 15:30:16,875 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:16
+Quan : h9"
+}
+2015-08-17 15:30:16,876 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:16
+Quan : h9"
+}
+2015-08-17 15:32:26,937 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "rrr"
+}
+2015-08-17 15:32:26,938 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:26
+A : rrr"
+}
+2015-08-17 15:32:26,939 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:26
+A : rrr"
+}
+2015-08-17 15:32:56,799 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "a"
+}
+2015-08-17 15:32:56,799 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:56
+A : a"
+}
+2015-08-17 15:32:56,799 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:56
+A : a"
+}
+2015-08-17 15:32:56,800 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "b"
+}
+2015-08-17 15:32:56,800 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:56
+A : b"
+}
+2015-08-17 15:32:56,800 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:56
+A : b"
+}
+2015-08-17 15:32:56,800 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "c"
+}
+2015-08-17 15:32:56,801 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:56
+A : c"
+}
+2015-08-17 15:32:56,801 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:56
+A : c"
+}
+2015-08-17 15:33:19,106 [nioEventLoopGroup-5-7] INFO - Client connected!: [id: 0xbea0df9a, /192.168.8.129:55048 => /192.168.8.191:33333]
+2015-08-17 15:33:19,185 [nioEventLoopGroup-5-7] INFO - CSChat {
+  msg: "h10"
+}
+2015-08-17 15:33:19,185 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h10"
+}
+2015-08-17 15:33:19,185 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h10"
+}
+2015-08-17 15:33:19,186 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h10"
+}
+2015-08-17 15:33:19,209 [nioEventLoopGroup-5-7] INFO - CSChat {
+  msg: "h11"
+}
+2015-08-17 15:33:19,209 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h11"
+}
+2015-08-17 15:33:19,209 [nioEventLoopGroup-5-6] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-17 15:33:19,209 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h11"
+}
+2015-08-17 15:33:19,210 [nioEventLoopGroup-5-6] INFO - ChannelClosed: [id: 0x46111ac3, /192.168.8.129:59243 :> /192.168.8.191:33333]
+2015-08-17 15:33:19,210 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h11"
+}
+2015-08-17 15:33:19,211 [nioEventLoopGroup-5-7] INFO - CSChat {
+  msg: "h12"
+}
+2015-08-17 15:33:19,211 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h12"
+}
+2015-08-17 15:33:19,211 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h12"
+}
+2015-08-17 15:34:14,508 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "gggg"
+}
+2015-08-17 15:34:14,508 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:34:14
+A : gggg"
+}
+2015-08-17 15:34:14,509 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:34:14
+A : gggg"
+}
+2015-08-17 15:34:34,499 [nioEventLoopGroup-5-7] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-17 15:34:34,500 [nioEventLoopGroup-5-7] INFO - ChannelClosed: [id: 0xbea0df9a, /192.168.8.129:55048 :> /192.168.8.191:33333]
+2015-08-17 15:34:34,501 [nioEventLoopGroup-5-8] INFO - Client connected!: [id: 0x3b60bdb3, /192.168.8.129:42289 => /192.168.8.191:33333]
+2015-08-17 15:34:34,795 [nioEventLoopGroup-5-8] INFO - CSChat {
+  msg: "h13"
+}
+2015-08-17 15:34:34,796 [nioEventLoopGroup-5-8] INFO - SCChat {
+  msg: "15:34:34
+Quan : h13"
+}
+2015-08-17 15:34:34,796 [nioEventLoopGroup-5-8] INFO - SCChat {
+  msg: "15:34:34
+Quan : h13"
+}
+2015-08-17 15:34:34,910 [nioEventLoopGroup-5-8] INFO - CSChat {
+  msg: "h14"
+}
+2015-08-17 15:34:34,910 [nioEventLoopGroup-5-8] INFO - SCChat {
+  msg: "15:34:34
+Quan : h14"
+}
+2015-08-17 15:34:34,911 [nioEventLoopGroup-5-8] INFO - SCChat {
+  msg: "15:34:34
+Quan : h14"
+}
+2015-08-17 15:34:34,911 [nioEventLoopGroup-5-8] INFO - CSChat {
+  msg: "h15"
+}
+2015-08-17 15:34:34,911 [nioEventLoopGroup-5-8] INFO - SCChat {
+  msg: "15:34:34
+Quan : h15"
+}
+2015-08-17 15:34:34,911 [nioEventLoopGroup-5-8] INFO - SCChat {
+  msg: "15:34:34
+Quan : h15"
+}
+2015-08-17 15:36:14,274 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "rrrr"
+}
+2015-08-17 15:36:14,274 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:36:14
+A : rrrr"
+}
+2015-08-17 15:36:14,275 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:36:14
+A : rrrr"
+}
+2015-08-17 15:36:19,676 [nioEventLoopGroup-5-5] INFO - CSChat {
   msg: "quan"
 }
-2015-08-13 21:19:23,019 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475561853
-}
-2015-08-13 21:19:23,019 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475563019
-}
-2015-08-13 21:19:24,407 [nioEventLoopGroup-5-2] INFO - CSChat {
-  msg: "ee"
-}
-2015-08-13 21:19:24,408 [nioEventLoopGroup-5-2] INFO - SCChat {
-  msg: "21:19:24
-quan : EE"
-}
-2015-08-13 21:19:27,341 [nioEventLoopGroup-5-2] INFO - CSChat {
-  msg: "rr"
-}
-2015-08-13 21:19:27,342 [nioEventLoopGroup-5-2] INFO - SCChat {
-  msg: "21:19:27
-quan : RR"
-}
-2015-08-13 21:19:28,029 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475566863
-}
-2015-08-13 21:19:28,029 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475568029
-}
-2015-08-13 21:19:33,039 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475571874
-}
-2015-08-13 21:19:33,040 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475573040
-}
-2015-08-13 21:19:38,049 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475576883
-}
-2015-08-13 21:19:38,049 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475578049
-}
-2015-08-13 21:19:43,059 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475581893
-}
-2015-08-13 21:19:43,060 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475583060
-}
-2015-08-13 21:19:48,069 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475586904
-}
-2015-08-13 21:19:48,070 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475588070
-}
-2015-08-13 21:19:53,079 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475591913
-}
-2015-08-13 21:19:53,079 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475593079
-}
-2015-08-13 21:19:58,089 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475596924
-}
-2015-08-13 21:19:58,090 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475598090
-}
-2015-08-13 21:20:03,099 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475601933
-}
-2015-08-13 21:20:03,099 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475603099
-}
-2015-08-13 21:20:08,111 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475606945
-}
-2015-08-13 21:20:08,111 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475608111
-}
-2015-08-13 21:20:13,120 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475611955
-}
-2015-08-13 21:20:13,121 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475613121
-}
-2015-08-13 21:20:18,130 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475616965
-}
-2015-08-13 21:20:18,130 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475618130
-}
-2015-08-13 21:20:23,143 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475621975
-}
-2015-08-13 21:20:23,143 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475623143
-}
-2015-08-13 21:20:28,150 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475626985
-}
-2015-08-13 21:20:28,151 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475628151
-}
-2015-08-13 21:20:33,160 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475631995
-}
-2015-08-13 21:20:33,161 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475633161
-}
-2015-08-13 21:20:38,170 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475637005
-}
-2015-08-13 21:20:38,171 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475638171
-}
-2015-08-13 21:20:43,181 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475642015
-}
-2015-08-13 21:20:43,181 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475643181
-}
-2015-08-13 21:20:48,191 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475647025
-}
-2015-08-13 21:20:48,191 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475648191
-}
-2015-08-13 21:20:53,200 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475652035
-}
-2015-08-13 21:20:53,200 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475653200
-}
-2015-08-13 21:20:58,210 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475657045
-}
-2015-08-13 21:20:58,211 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475658211
-}
-2015-08-13 21:21:03,221 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475662055
-}
-2015-08-13 21:21:03,221 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475663221
-}
-2015-08-13 21:21:08,231 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475667065
-}
-2015-08-13 21:21:08,231 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475668231
-}
-2015-08-13 21:21:13,241 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475672075
-}
-2015-08-13 21:21:13,241 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475673241
-}
-2015-08-13 21:21:18,250 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475677085
-}
-2015-08-13 21:21:18,251 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475678251
-}
-2015-08-13 21:21:23,260 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475682095
-}
-2015-08-13 21:21:23,261 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475683261
-}
-2015-08-13 21:21:28,271 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475687105
-}
-2015-08-13 21:21:28,271 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475688271
-}
-2015-08-13 21:21:33,281 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475692115
-}
-2015-08-13 21:21:33,281 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475693281
-}
-2015-08-13 21:21:38,291 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475697125
-}
-2015-08-13 21:21:38,291 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475698291
-}
-2015-08-13 21:21:43,301 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475702135
-}
-2015-08-13 21:21:43,301 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475703301
-}
-2015-08-13 21:21:48,311 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475707145
-}
-2015-08-13 21:21:48,311 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475708311
-}
-2015-08-13 21:21:53,321 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475712155
-}
-2015-08-13 21:21:53,321 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475713321
-}
-2015-08-13 21:21:58,332 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475717166
-}
-2015-08-13 21:21:58,332 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475718332
-}
-2015-08-13 21:22:03,342 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475722176
-}
-2015-08-13 21:22:03,342 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475723342
-}
-2015-08-13 21:22:08,352 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475727186
-}
-2015-08-13 21:22:08,352 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475728352
-}
-2015-08-13 21:22:13,362 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475732196
-}
-2015-08-13 21:22:13,362 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475733362
-}
-2015-08-13 21:22:18,372 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475737206
-}
-2015-08-13 21:22:18,372 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475738372
-}
-2015-08-13 21:22:23,382 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475742217
-}
-2015-08-13 21:22:23,383 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475743383
-}
-2015-08-13 21:22:28,392 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475747226
-}
-2015-08-13 21:22:28,392 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475748392
-}
-2015-08-13 21:22:33,402 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475752236
-}
-2015-08-13 21:22:33,402 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475753402
-}
-2015-08-13 21:22:38,412 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475757246
-}
-2015-08-13 21:22:38,412 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475758412
-}
-2015-08-13 21:22:43,422 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475762257
-}
-2015-08-13 21:22:43,423 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475763423
-}
-2015-08-13 21:22:48,432 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475767267
-}
-2015-08-13 21:22:48,433 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475768433
-}
-2015-08-13 21:22:53,442 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475772277
-}
-2015-08-13 21:22:53,442 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475773442
-}
-2015-08-13 21:22:58,452 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475777287
-}
-2015-08-13 21:22:58,452 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475778452
-}
-2015-08-13 21:23:03,463 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475782297
-}
-2015-08-13 21:23:03,463 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475783463
-}
-2015-08-13 21:23:08,472 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475787307
-}
-2015-08-13 21:23:08,472 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475788472
-}
-2015-08-13 21:23:13,483 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475792317
-}
-2015-08-13 21:23:13,483 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475793483
-}
-2015-08-13 21:23:18,492 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475797327
-}
-2015-08-13 21:23:18,493 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475798493
-}
-2015-08-13 21:23:23,502 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475802337
-}
-2015-08-13 21:23:23,503 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475803503
-}
-2015-08-13 21:23:28,512 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475807347
-}
-2015-08-13 21:23:28,513 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475808513
-}
-2015-08-13 21:23:33,522 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475812357
-}
-2015-08-13 21:23:33,523 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475813522
-}
-2015-08-13 21:23:38,532 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475817367
-}
-2015-08-13 21:23:38,533 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475818533
-}
-2015-08-13 21:23:43,543 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475822377
-}
-2015-08-13 21:23:43,543 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475823543
-}
-2015-08-13 21:23:48,554 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475827388
-}
-2015-08-13 21:23:48,554 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475828554
-}
-2015-08-13 21:23:53,563 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475832398
-}
-2015-08-13 21:23:53,564 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475833564
-}
-2015-08-13 21:23:58,573 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475837408
-}
-2015-08-13 21:23:58,574 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475838574
-}
-2015-08-13 21:24:03,584 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475842418
-}
-2015-08-13 21:24:03,584 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475843584
-}
-2015-08-13 21:24:08,594 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475847428
-}
-2015-08-13 21:24:08,594 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475848594
-}
-2015-08-13 21:24:13,604 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475852438
-}
-2015-08-13 21:24:13,604 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475853604
-}
-2015-08-13 21:24:18,613 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475857448
-}
-2015-08-13 21:24:18,613 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475858613
-}
-2015-08-13 21:24:23,624 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475862458
-}
-2015-08-13 21:24:23,624 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475863624
-}
-2015-08-13 21:24:28,634 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475867468
-}
-2015-08-13 21:24:28,635 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475868635
-}
-2015-08-13 21:24:33,644 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475872478
-}
-2015-08-13 21:24:33,644 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475873644
-}
-2015-08-13 21:24:38,654 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475877488
-}
-2015-08-13 21:24:38,654 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475878654
-}
-2015-08-13 21:24:43,664 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475882498
-}
-2015-08-13 21:24:43,664 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475883664
-}
-2015-08-13 21:24:48,674 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475887508
-}
-2015-08-13 21:24:48,674 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475888674
-}
-2015-08-13 21:24:53,684 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475892518
-}
-2015-08-13 21:24:53,685 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475893685
-}
-2015-08-13 21:24:58,694 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475897528
-}
-2015-08-13 21:24:58,694 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475898694
-}
-2015-08-13 21:25:03,704 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475902539
-}
-2015-08-13 21:25:03,705 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475903705
-}
-2015-08-13 21:25:08,714 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475907549
-}
-2015-08-13 21:25:08,714 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475908714
-}
-2015-08-13 21:25:13,724 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475912558
-}
-2015-08-13 21:25:13,724 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475913724
-}
-2015-08-13 21:25:18,734 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475917568
-}
-2015-08-13 21:25:18,734 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475918734
-}
-2015-08-13 21:25:23,744 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475922579
-}
-2015-08-13 21:25:23,744 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475923744
-}
-2015-08-13 21:25:28,754 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475927589
-}
-2015-08-13 21:25:28,755 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475928755
-}
-2015-08-13 21:25:33,764 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475932599
-}
-2015-08-13 21:25:33,765 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475933765
-}
-2015-08-13 21:25:38,774 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475937609
-}
-2015-08-13 21:25:38,776 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475938776
-}
-2015-08-13 21:25:43,785 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475942619
-}
-2015-08-13 21:25:43,785 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475943785
-}
-2015-08-13 21:25:48,794 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475947629
-}
-2015-08-13 21:25:48,794 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475948794
-}
-2015-08-13 21:25:53,805 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475952640
-}
-2015-08-13 21:25:53,805 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475953805
-}
-2015-08-13 21:25:58,815 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475957650
-}
-2015-08-13 21:25:58,815 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475958815
-}
-2015-08-13 21:26:03,825 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475962660
-}
-2015-08-13 21:26:03,826 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475963826
-}
-2015-08-13 21:26:08,835 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475967670
-}
-2015-08-13 21:26:08,836 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475968836
-}
-2015-08-13 21:26:13,846 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475972680
-}
-2015-08-13 21:26:13,846 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475973846
-}
-2015-08-13 21:26:18,856 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475977690
-}
-2015-08-13 21:26:18,856 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475978856
-}
-2015-08-13 21:26:23,866 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475982700
-}
-2015-08-13 21:26:23,866 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475983866
-}
-2015-08-13 21:26:28,876 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475987710
-}
-2015-08-13 21:26:28,876 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475988876
-}
-2015-08-13 21:26:33,886 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475992720
-}
-2015-08-13 21:26:33,886 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475993886
-}
-2015-08-13 21:26:38,896 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439475997730
-}
-2015-08-13 21:26:38,896 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439475998896
-}
-2015-08-13 21:26:43,906 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476002740
-}
-2015-08-13 21:26:43,906 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476003906
-}
-2015-08-13 21:26:48,915 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476007750
-}
-2015-08-13 21:26:48,916 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476008916
-}
-2015-08-13 21:26:53,926 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476012760
-}
-2015-08-13 21:26:53,926 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476013926
-}
-2015-08-13 21:26:58,936 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476017770
-}
-2015-08-13 21:26:58,936 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476018936
-}
-2015-08-13 21:27:03,946 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476022780
-}
-2015-08-13 21:27:03,946 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476023946
-}
-2015-08-13 21:27:08,955 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476027790
-}
-2015-08-13 21:27:08,956 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476028956
-}
-2015-08-13 21:27:13,966 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476032800
-}
-2015-08-13 21:27:13,966 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476033966
-}
-2015-08-13 21:27:18,976 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476037810
-}
-2015-08-13 21:27:18,976 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476038976
-}
-2015-08-13 21:27:23,986 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476042820
-}
-2015-08-13 21:27:23,986 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476043986
-}
-2015-08-13 21:27:26,284 [nioEventLoopGroup-5-2] INFO - CSChat {
-  msg: "rr"
-}
-2015-08-13 21:27:26,284 [nioEventLoopGroup-5-2] INFO - SCChat {
-  msg: "21:27:26
-quan : RR"
-}
-2015-08-13 21:27:28,996 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476047830
-}
-2015-08-13 21:27:28,996 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476048996
-}
-2015-08-13 21:27:34,007 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476052841
-}
-2015-08-13 21:27:34,007 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476054007
-}
-2015-08-13 21:27:35,462 [nioEventLoopGroup-5-2] INFO - CSChat {
-  msg: "hh"
-}
-2015-08-13 21:27:35,463 [nioEventLoopGroup-5-2] INFO - SCChat {
-  msg: "21:27:35
-quan : HH"
-}
-2015-08-13 21:27:39,017 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476057851
-}
-2015-08-13 21:27:39,017 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476059017
-}
-2015-08-13 21:27:54,047 [nioEventLoopGroup-5-2] INFO - CSChat {
-  msg: "gf"
-}
-2015-08-13 21:27:54,048 [nioEventLoopGroup-5-2] INFO - SCChat {
-  msg: "21:27:54
-quan : GF"
-}
-2015-08-13 21:27:54,049 [nioEventLoopGroup-5-2] INFO - CSChat {
-  msg: "jj"
-}
-2015-08-13 21:27:54,049 [nioEventLoopGroup-5-2] INFO - SCChat {
-  msg: "21:27:54
-quan : JJ"
-}
-2015-08-13 21:27:54,049 [nioEventLoopGroup-5-2] INFO - CSChat {
-  msg: "kk"
-}
-2015-08-13 21:27:54,050 [nioEventLoopGroup-5-2] INFO - SCChat {
-  msg: "21:27:54
-quan : KK"
-}
-2015-08-13 21:27:54,050 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476062861
-}
-2015-08-13 21:27:54,050 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476074050
-}
-2015-08-13 21:27:54,050 [nioEventLoopGroup-5-2] INFO - CSChat {
-  msg: "oo"
-}
-2015-08-13 21:27:54,051 [nioEventLoopGroup-5-2] INFO - SCChat {
-  msg: "21:27:54
-quan : OO"
-}
-2015-08-13 21:27:54,051 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476067872
-}
-2015-08-13 21:27:54,051 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476074051
-}
-2015-08-13 21:27:54,051 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476072882
-}
-2015-08-13 21:27:54,052 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476074052
-}
-2015-08-13 21:27:59,057 [nioEventLoopGroup-5-2] INFO - CSPing {
-  clientTime: 1439476077891
-}
-2015-08-13 21:27:59,057 [nioEventLoopGroup-5-2] INFO - SCPing {
-  serverTime: 1439476079057
-}
-2015-08-13 21:28:04,367 [nioEventLoopGroup-5-2] INFO - ChannelClosed: [id: 0x357cb97a, /192.168.1.20:52359 :> /192.168.1.20:33333]
+2015-08-17 15:36:19,676 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:36:19
+A : quan"
+}
+2015-08-17 15:36:19,677 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:36:19
+A : quan"
+}
+2015-08-17 15:37:12,515 [nioEventLoopGroup-5-5] INFO - ChannelClosed: [id: 0xbc705606, /192.168.8.191:60433 :> /192.168.8.191:33333]
+2015-08-17 15:37:17,439 [nioEventLoopGroup-5-8] INFO - ChannelClosed: [id: 0x3b60bdb3, /192.168.8.129:42289 :> /192.168.8.191:33333]

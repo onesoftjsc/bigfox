@@ -4,11 +4,14 @@
  */
 package vn.com.onesoft.bigfox.server.io.message.core;
 
+import vn.com.onesoft.bigfox.server.io.message.core.annotations.Message;
+
 /**
  *
  * @author Quan
  */
 public abstract class MessageIO {
+
     protected int length;
     protected int tag;
     protected int mSequence;
@@ -17,10 +20,9 @@ public abstract class MessageIO {
     private int checkSum;
 
     @Override
-    public String toString(){
-        return this.getClass().getSimpleName()+ " " +  BigFoxUtils.toString(this);
+    public String toString() {
+        return this.getClass().getSimpleName() + " " + BigFoxUtils.toString(this);
     }
-
 
     /**
      * @return the length
@@ -71,7 +73,6 @@ public abstract class MessageIO {
         return mSequence;
     }
 
-    
     /**
      * @param sequence the sequence to set
      */
@@ -105,5 +106,14 @@ public abstract class MessageIO {
      */
     public void setCheckSum(int checkSum) {
         this.checkSum = checkSum;
+    }
+
+    public boolean isCore() {
+        try {
+            Message m = this.getClass().getAnnotation(Message.class);
+            return m.isCore();
+        } catch (Exception ex) {
+            return false;
+        }
     }
 }

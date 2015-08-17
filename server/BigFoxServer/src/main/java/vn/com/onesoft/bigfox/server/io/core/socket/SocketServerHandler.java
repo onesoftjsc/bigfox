@@ -2,15 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package vn.com.onesoft.bigfox.server.io.socket;
+package vn.com.onesoft.bigfox.server.io.core.socket;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import java.util.Random;
+import vn.com.onesoft.bigfox.server.io.message.core.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.core.MessageExecute;
-import vn.com.onesoft.bigfox.server.io.message.sc.SCValidationCode;
-import vn.com.onesoft.bigfox.server.io.session.BFSessionManager;
+import vn.com.onesoft.bigfox.server.io.message.core.sc.SCValidationCode;
+import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.main.Main;
 
 /**
@@ -41,13 +42,13 @@ public class SocketServerHandler extends ChannelInboundHandlerAdapter {
             mf.onMessage(ctx.channel(), data); //Thực thi yêu cầu từ Client
         } catch (Exception ex) {
             ctx.channel().close();
-            Main.logger.error(ex.getMessage(), ex);
+            BFLogger.getInstance().error(ex.getMessage(), ex);
         }
     }
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
-        Main.logger.info("Client connected!: " + ctx.channel());
+        BFLogger.getInstance().info("Client connected!: " + ctx.channel());
         Main.allChannels.add(ctx.channel());
         Random r = new Random();
         int validationCode = r.nextInt();
@@ -57,7 +58,7 @@ public class SocketServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) {
-        Main.logger.info("ChannelClosed: " + ctx.channel());
+        BFLogger.getInstance().info("ChannelClosed: " + ctx.channel());
         BFSessionManager.getInstance().onChannelClose(ctx.channel());
         Main.allChannels.remove(ctx.channel());
         Main.mapChannelToValidationCode.remove(ctx.channel());

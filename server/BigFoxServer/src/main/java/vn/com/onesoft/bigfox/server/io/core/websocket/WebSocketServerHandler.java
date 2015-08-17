@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package vn.com.onesoft.bigfox.server.io.websocket;
+package vn.com.onesoft.bigfox.server.io.core.websocket;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
@@ -20,9 +20,10 @@ import io.netty.handler.codec.http.websocketx.WebSocketServerHandshakerFactory;
 import io.netty.util.concurrent.Future;
 import io.netty.util.concurrent.GenericFutureListener;
 import java.util.Random;
+import vn.com.onesoft.bigfox.server.io.message.core.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.core.MessageExecute;
-import vn.com.onesoft.bigfox.server.io.message.sc.SCValidationCode;
-import vn.com.onesoft.bigfox.server.io.session.BFSessionManager;
+import vn.com.onesoft.bigfox.server.io.message.core.sc.SCValidationCode;
+import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.main.Main;
 
 /**
@@ -65,7 +66,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
                 @Override
                 public void operationComplete(Future f) throws Exception {
                     Main.mapChannelWebSocket.put(ctx.channel(), Boolean.TRUE);
-                    Main.logger.info("Client connected!: " + ctx.channel());
+                    BFLogger.getInstance().info("Client connected!: " + ctx.channel());
                     Main.allChannels.add(ctx.channel());
                     Random r = new Random();
                     int validationCode = r.nextInt();
@@ -104,14 +105,13 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
                 mf.onMessage(ctx.channel(), data); //Thực thi yêu cầu từ Client
             } catch (Exception ex) {
                 ctx.channel().close();
-                Main.logger.error(ex.getMessage(), ex);
+                BFLogger.getInstance().error(ex.getMessage(), ex);
             }
         }
     }
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
-        cause.printStackTrace();
         ctx.close();
     }
 
@@ -132,11 +132,11 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
         Main.mapChannelWebSocket.remove(ctx.channel());
         Main.mapChannelToValidationCode.remove(ctx.channel());
 
-        Main.logger.info("Channel Closed " + ctx.channel());
+        BFLogger.getInstance().info("Channel Closed " + ctx.channel());
     }
 
     @Override
     protected void channelRead0(ChannelHandlerContext chc, Object i) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 }

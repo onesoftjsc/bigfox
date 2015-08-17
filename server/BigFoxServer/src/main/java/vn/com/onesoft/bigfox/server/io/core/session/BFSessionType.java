@@ -3,7 +3,7 @@
  * Copyright @ 2015 by OneSoft.,JSC
  * 
  */
-package vn.com.onesoft.bigfox.server.io.session;
+package vn.com.onesoft.bigfox.server.io.core.session;
 
 /**
  *

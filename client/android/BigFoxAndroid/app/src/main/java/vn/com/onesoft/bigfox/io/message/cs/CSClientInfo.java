@@ -18,7 +18,7 @@ import vn.com.onesoft.bigfox.io.message.core.annotations.Property;
  *
  * @author QuanPH
  */
-@Message(tag = Tags.CS_CLIENT_INFO, name = "CS_CLIENT_INFO")
+@Message(tag = Tags.CS_CLIENT_INFO, name = "CS_CLIENT_INFO", isCore = true)
 public class CSClientInfo extends BaseMessage {
 
     @Property(name = "clientInfo")

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package vn.com.onesoft.bigfox.server.io.websocket;
+package vn.com.onesoft.bigfox.server.io.core.websocket;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;

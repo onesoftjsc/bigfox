@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.Set;
 import org.reflections.Reflections;
 import vn.com.onesoft.bigfox.server.io.message.core.annotations.Message;
-import vn.com.onesoft.bigfox.server.io.session.BFSessionManager;
+import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.main.Main;
 
 /**
@@ -52,7 +52,7 @@ public class MessageExecute {
                 Message mAnnotation = mClassMI.getAnnotation(Message.class);
                 mapTagToMessage.put(mAnnotation.tag(), (MessageIn) mClassMI.newInstance());
             } catch (Exception exx) {
-                Main.logger.error(exx.getMessage(), exx);
+                BFLogger.getInstance().error(exx.getMessage(), exx);
             }
         }
     }

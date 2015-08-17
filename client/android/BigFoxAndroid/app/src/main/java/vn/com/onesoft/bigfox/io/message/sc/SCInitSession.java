@@ -12,7 +12,7 @@ import vn.com.onesoft.bigfox.io.message.core.annotations.Property;
  * Author: QuanPH
  * Copyright @2015
  */
-@Message(tag = Tags.SC_INIT_SESSION, name = "SC_INIT_SESSION")
+@Message(tag = Tags.SC_INIT_SESSION, name = "SC_INIT_SESSION", isCore = true)
 public class SCInitSession extends BaseMessage implements IMessageIn {
 
     @Property(name = "sessionStatus")

@@ -126,7 +126,20 @@ public class BaseMessage {
     public void setCheckSum(int checkSum) {
         this.checkSum = checkSum;
     }
-    
+
+    public boolean isCore(){
+        try {
+            Message m = this.getClass().getAnnotation(Message.class);
+            return m.isCore();
+        } catch (Exception ex) {
+            return false;
+        }
+    }
+
+    public String toString(){
+        return BigFox.toString(this);
+    }
+
     public void execute(){
         
     }

@@ -3,7 +3,7 @@
  * Copyright @ 2015 by OneSoft.,JSC
  * 
  */
-package vn.com.onesoft.bigfox.server.io.message.objects;
+package vn.com.onesoft.bigfox.server.io.message.core.objects;
 
 import vn.com.onesoft.bigfox.server.io.message.core.annotations.Property;
 

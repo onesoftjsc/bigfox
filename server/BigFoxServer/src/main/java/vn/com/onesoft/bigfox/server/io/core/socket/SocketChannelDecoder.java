@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package vn.com.onesoft.bigfox.server.io.socket;
+package vn.com.onesoft.bigfox.server.io.core.socket;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
 import java.util.List;
-import vn.com.onesoft.bigfox.server.main.Main;
+import vn.com.onesoft.bigfox.server.io.message.core.BFLogger;
 
 /**
  *
@@ -27,7 +27,7 @@ public class SocketChannelDecoder extends ByteToMessageDecoder {
         cb.markReaderIndex();
         int length = cb.getInt(cb.readerIndex());
         if (length > MAX_PACKET_LENGTH) {
-            Main.logger.error("PACKET LENGTH OVER!");
+            BFLogger.getInstance().error("PACKET LENGTH OVER!");
             chc.close();
             return;
         }

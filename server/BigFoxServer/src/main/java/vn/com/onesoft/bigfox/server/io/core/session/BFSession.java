@@ -3,7 +3,7 @@
  * Copyright @ 2015 by OneSoft.,JSC
  * 
  */
-package vn.com.onesoft.bigfox.server.io.session;
+package vn.com.onesoft.bigfox.server.io.core.session;
 
 import com.google.common.collect.MapMaker;
 import io.netty.buffer.Unpooled;
@@ -13,7 +13,8 @@ import java.util.Map;
 import vn.com.onesoft.bigfox.server.io.message.core.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.core.MessageOut;
 import vn.com.onesoft.bigfox.server.io.message.core.Tags;
-import vn.com.onesoft.bigfox.server.io.message.objects.ClientInfo;
+import vn.com.onesoft.bigfox.server.io.message.core.sc.SCPing;
+import vn.com.onesoft.bigfox.server.io.message.core.objects.ClientInfo;
 import vn.com.onesoft.bigfox.server.main.Main;
 
 /**
@@ -136,7 +137,10 @@ public class BFSession implements IBFSession {
 
     @Override
     public void putOutMessageOnQueue(MessageOut mOut) {
-        queueOutMessage.put(mOut.getSSequence(), mOut);
+        if (!(mOut instanceof SCPing))
+         {
+            queueOutMessage.put(mOut.getSSequence(), mOut);
+        }
     }
 
     @Override
@@ -154,6 +158,8 @@ public class BFSession implements IBFSession {
         if (sSequenceFromClient < curSSequence) {
             for (int i = sSequenceFromClient + 1; i <= curSSequence; i++) {
                 MessageOut mOut = queueOutMessage.get(i);
+                if (mOut == null)
+                    continue;
                 byte[] data = mOut.toBytes();
                 if (mOut.getTag() != Tags.SC_VALIDATION_CODE) {
                     for (int k = 4; k < data.length; k++) {
@@ -178,7 +184,6 @@ public class BFSession implements IBFSession {
     public void setLastTimeReceive(long lastTimeReceive) {
         this.lastTimeReceive = lastTimeReceive;
     }
-
 
     /**
      * Khi timeout thì xoá session

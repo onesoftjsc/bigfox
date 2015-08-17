@@ -10,7 +10,9 @@ import vn.com.onesoft.bigfox.MainActivity;
 import vn.com.onesoft.bigfox.io.message.core.BaseMessage;
 import vn.com.onesoft.bigfox.io.message.core.MessageBuffer;
 import vn.com.onesoft.bigfox.io.message.core.annotations.Message;
+import vn.com.onesoft.bigfox.io.message.cs.CSPing;
 import vn.com.onesoft.bigfox.io.message.sc.SCInitSession;
+import vn.com.onesoft.bigfox.io.message.sc.SCPing;
 import vn.com.onesoft.bigfox.io.message.sc.SCValidationCode;
 import android.util.Log;
 import android.util.SparseArray;
@@ -104,10 +106,11 @@ public class ConnectionManager implements Runnable {
 
 		Message m = mOut.getClass().getAnnotation(Message.class);
 
-		Log.d("BigFox", String.format("[SEND] %s\n%s", "".equals(m.name()) ? mOut.getClass().toString() : m.name(), BigFox.toString(mOut)));
+		BFLogger.getInstance().debug(mOut);
 		curMSequence++;
 		mOut.setmSequence(curMSequence);
-		queueOutMessage.put(curMSequence, mOut);
+		if (!m.isCore())
+		    queueOutMessage.put(curMSequence, mOut);
 
 		boolean result = false;
 		try {
@@ -168,7 +171,8 @@ public class ConnectionManager implements Runnable {
 			// Resend messages
 			for (int i = mSequenceFromServer + 1; i < curMSequence; i++) {
 				BaseMessage bm = queueOutMessage.get(i);
-				flush(bm);
+				if (bm != null)
+				    flush(bm);
 			}
 		} catch (Exception ex) {
 

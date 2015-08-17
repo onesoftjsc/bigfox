@@ -12,8 +12,8 @@ import vn.com.onesoft.bigfox.server.io.message.core.Tags;
 import vn.com.onesoft.bigfox.server.io.message.core.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.core.annotations.Property;
 import vn.com.onesoft.bigfox.server.io.message.sc.SCChat;
-import vn.com.onesoft.bigfox.server.io.session.BFSessionManager;
-import vn.com.onesoft.bigfox.server.io.session.IBFSession;
+import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
+import vn.com.onesoft.bigfox.server.io.core.session.IBFSession;
 
 /**
  *
@@ -33,7 +33,7 @@ public class CSChat extends MessageIn {
         int mi = Calendar.getInstance().get(Calendar.MINUTE);
         int sec = Calendar.getInstance().get(Calendar.SECOND);
         String time = "" + hour + ":" + mi + ":" + sec;
-        BFSessionManager.getInstance().sendToAll(new SCChat(time + "\n" + name + " : " + msg.toUpperCase()));
+        BFSessionManager.getInstance().sendToAll(new SCChat(time + "\n" + name + " : " + msg));
 
     }
 

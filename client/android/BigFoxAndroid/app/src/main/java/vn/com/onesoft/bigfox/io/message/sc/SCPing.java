@@ -15,7 +15,7 @@ import vn.com.onesoft.bigfox.io.message.core.annotations.Property;
  *
  * @author QuanPH
  */
-@Message(tag = Tags.SC_PING, name = "SC_PING")
+@Message(tag = Tags.SC_PING, name = "SC_PING", isCore = true)
 public class SCPing extends BaseMessage implements IMessageIn {
 
     @Property(name = "serverTime")

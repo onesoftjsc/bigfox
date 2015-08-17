@@ -14,7 +14,7 @@ import vn.com.onesoft.bigfox.io.message.core.annotations.Property;
  *
  * @author phamquan
  */
-@Message(tag = Tags.CS_PING, name = "CS_PING")
+@Message(tag = Tags.CS_PING, name = "CS_PING", isCore = true)
 public class CSPing extends BaseMessage {
 
     @Property(name = "clientTime")
