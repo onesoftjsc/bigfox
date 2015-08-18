@@ -7,6 +7,7 @@ package vn.com.onesoft.bigfox.server.io.core.compress;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.nio.ByteBuffer;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 import vn.com.onesoft.bigfox.server.io.message.base.BaseMessage;
