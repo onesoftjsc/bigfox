@@ -1,4 +1,4 @@
-package vn.com.onesoft.bigfox.io.core;
+package vn.com.onesoft.bigfox.io.core.session;
 
 import java.util.ArrayList;
 import java.util.Enumeration;

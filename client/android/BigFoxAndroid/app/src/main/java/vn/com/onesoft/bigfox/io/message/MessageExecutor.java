@@ -11,10 +11,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import vn.com.onesoft.bigfox.io.core.BFLogger;
-import vn.com.onesoft.bigfox.io.core.BigFox;
-import vn.com.onesoft.bigfox.io.core.ClassFinder;
-import vn.com.onesoft.bigfox.io.core.ConnectionManager;
+import vn.com.onesoft.bigfox.io.core.session.BFLogger;
+import vn.com.onesoft.bigfox.io.core.session.BigFox;
+import vn.com.onesoft.bigfox.io.core.session.ClassFinder;
+import vn.com.onesoft.bigfox.io.core.session.ConnectionManager;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;
 
 /**

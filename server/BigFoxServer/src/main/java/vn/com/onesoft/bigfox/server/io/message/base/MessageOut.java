@@ -6,13 +6,14 @@ package vn.com.onesoft.bigfox.server.io.message.base;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
+import vn.com.onesoft.bigfox.server.io.core.compress.CompressManager;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 
 /**
  *
  * @author Quan
  */
-public abstract class MessageOut extends MessageIO {
+public abstract class MessageOut extends BaseMessage {
 
     private ByteArrayOutputStream byteArrayOutput;
     private DataOutputStream out;
@@ -32,14 +33,13 @@ public abstract class MessageOut extends MessageIO {
             }
             out.writeInt(0);
             out.writeInt(tag);
-            out.writeInt(mSequence);
-            out.writeInt(sSequence);
-            if (this.isCore())
-                status = status | 0x01;
-            out.writeInt(status);
+            out.writeInt(getMSequence());
+            out.writeInt(getSSequence());
+            out.writeInt(getStatus());
             out.writeInt(getCheckSum());
             BigFoxUtils.write(this, out);
             byte[] data = baos.toByteArray();
+
             length = data.length; // 4 byte length, 4 byte tag
             data[0] = (byte) ((length >> 24) & 0x00ff);
             data[1] = (byte) ((length >> 16) & 0x00ff);

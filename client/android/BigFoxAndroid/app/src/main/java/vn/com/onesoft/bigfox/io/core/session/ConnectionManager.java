@@ -1,4 +1,4 @@
-package vn.com.onesoft.bigfox.io.core;
+package vn.com.onesoft.bigfox.io.core.session;
 
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.net.Socket;
 
 import vn.com.onesoft.bigfox.MainActivity;
+import vn.com.onesoft.bigfox.io.core.compress.CompressManager;
+import vn.com.onesoft.bigfox.io.core.encrypt.EncryptManager;
 import vn.com.onesoft.bigfox.io.message.BaseMessage;
 import vn.com.onesoft.bigfox.io.message.MessageBuffer;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;
@@ -101,9 +103,7 @@ public class ConnectionManager implements Runnable {
 	}
 
 	public boolean write(BaseMessage mOut) {
-
 		Message m = mOut.getClass().getAnnotation(Message.class);
-
 		BFLogger.getInstance().debug(mOut);
 		curMSequence++;
 		mOut.setmSequence(curMSequence);
@@ -124,9 +124,10 @@ public class ConnectionManager implements Runnable {
 	private void flush(BaseMessage mOut) throws IOException {
 
 		byte[] data = mOut.toBytes();
-		for (int i = 4; i < data.length; i++) {
-			data[i] = (byte) ((data[i] ^ validationCode) & 0x00ff);
-		}
+
+		data = EncryptManager.crypt(data);
+		data = CompressManager.getInstance().compress(data);
+
 		outS.write(data);
 		outS.flush();
 

@@ -1,4 +1,4 @@
-package vn.com.onesoft.bigfox.io.core;
+package vn.com.onesoft.bigfox.io.core.session;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -42,31 +42,5 @@ public class ByteUtils {
 		return result;
 	}
 
-	public static byte[] compress(byte[] data) {
-
-        ByteArrayOutputStream bos = new ByteArrayOutputStream();
-        GZIPOutputStream gzip;
-        try {
-            gzip = new GZIPOutputStream(bos);
-            gzip.write(data);
-            gzip.close();
-        } catch (IOException ex) {
-            
-        }
-
-        byte[] compressedData = bos.toByteArray();
-        return compressedData;
-    }
-
-    public static byte[] deCompress(byte[] compressedData) {
-        byte[] data = null;
-//        try {
-//            data = GZIP.inflate(compressedData);
-//        } catch (IOException ex) {
-//            
-//        }
-
-        return data;
-    }
 
 }

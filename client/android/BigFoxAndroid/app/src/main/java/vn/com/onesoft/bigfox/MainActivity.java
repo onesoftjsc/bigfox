@@ -11,12 +11,11 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.ScrollView;
 
 import java.util.ArrayList;
 
 import bigfox.onesoft.com.vn.bigfoxandroid.R;
-import vn.com.onesoft.bigfox.io.core.ConnectionManager;
+import vn.com.onesoft.bigfox.io.core.session.ConnectionManager;
 import vn.com.onesoft.bigfox.io.message.user.cs.CSChat;
 import vn.com.onesoft.bigfox.io.message.user.cs.CSName;
 

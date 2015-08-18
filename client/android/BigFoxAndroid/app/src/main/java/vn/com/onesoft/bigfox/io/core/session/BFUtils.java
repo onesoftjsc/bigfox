@@ -3,7 +3,7 @@
  * Copyright @ 2015 by OneSoft.,JSC
  * 
  */
-package vn.com.onesoft.bigfox.io.core;
+package vn.com.onesoft.bigfox.io.core.session;
 
 import java.math.BigInteger;
 import java.security.SecureRandom;

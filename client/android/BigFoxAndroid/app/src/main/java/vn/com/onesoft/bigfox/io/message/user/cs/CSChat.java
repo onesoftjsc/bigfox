@@ -25,6 +25,4 @@ public class CSChat extends BaseMessage {
         this.msg = msg;
     }
 
-    
-    
 }

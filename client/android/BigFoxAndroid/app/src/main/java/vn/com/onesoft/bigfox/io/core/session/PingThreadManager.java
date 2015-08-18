@@ -1,4 +1,4 @@
-package vn.com.onesoft.bigfox.io.core;
+package vn.com.onesoft.bigfox.io.core.session;
 
 import vn.com.onesoft.bigfox.io.message.core.cs.CSPing;
 

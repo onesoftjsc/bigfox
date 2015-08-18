@@ -20,6 +20,8 @@ import io.netty.handler.codec.http.websocketx.WebSocketServerHandshakerFactory;
 import io.netty.util.concurrent.Future;
 import io.netty.util.concurrent.GenericFutureListener;
 import java.util.Random;
+import vn.com.onesoft.bigfox.server.io.core.compress.CompressManager;
+import vn.com.onesoft.bigfox.server.io.core.encrypt.EncryptManager;
 import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageExecute;
@@ -71,7 +73,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
                     Random r = new Random();
                     int validationCode = r.nextInt();
                     BFSessionManager.getInstance().sendMessage(ctx.channel(), new SCValidationCode(validationCode));
-                    Main.mapChannelToValidationCode.put(ctx.channel(), validationCode);
+                    EncryptManager.mapChannelToValidationCode.put(ctx.channel(), validationCode);
                 }
             });
         }
@@ -96,12 +98,10 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
             byte[] data = new byte[length];
             buf.readBytes(data);
             try {
-                //Giai ma
-                int validationCode = Main.mapChannelToValidationCode.get(ctx.channel());
-                for (int i = 4; i < data.length; i++) {
-                    data[i] = (byte) ((data[i] ^ validationCode) & 0x00ff);
-                }
-                //Ma hoa
+
+                data = CompressManager.getInstance().decompress(data);
+                data = EncryptManager.crypt(ctx.channel(), data);
+
                 mf.onMessage(ctx.channel(), data); //Thực thi yêu cầu từ Client
             } catch (Exception ex) {
                 ctx.channel().close();
@@ -130,13 +130,13 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
         BFSessionManager.getInstance().onChannelClose(ctx.channel());
         Main.allChannels.remove(ctx.channel());
         Main.mapChannelWebSocket.remove(ctx.channel());
-        Main.mapChannelToValidationCode.remove(ctx.channel());
+        EncryptManager.mapChannelToValidationCode.remove(ctx.channel());
 
         BFLogger.getInstance().info("Channel Closed " + ctx.channel());
     }
 
     @Override
     protected void channelRead0(ChannelHandlerContext chc, Object i) throws Exception {
-        
+
     }
 }

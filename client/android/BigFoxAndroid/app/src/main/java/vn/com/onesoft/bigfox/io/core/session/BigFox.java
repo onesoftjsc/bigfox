@@ -1,4 +1,4 @@
-package vn.com.onesoft.bigfox.io.core;
+package vn.com.onesoft.bigfox.io.core.session;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

@@ -12,6 +12,8 @@ import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import vn.com.onesoft.bigfox.server.io.core.compress.CompressManager;
+import vn.com.onesoft.bigfox.server.io.core.encrypt.EncryptManager;
 import vn.com.onesoft.bigfox.server.io.message.core.cs.CSClientInfo;
 import vn.com.onesoft.bigfox.server.io.message.core.sc.SCInitSession;
 import vn.com.onesoft.bigfox.server.io.message.core.tags.CoreTags;
@@ -99,16 +101,12 @@ public class BFSessionManager {
                 mOut.setSSequence(session.getSSequence());
                 session.putOutMessageOnQueue(mOut);
             }
-            byte[] data = mOut.toBytes();
-
-            if (session != null) {
-                for (int i = 4; i < data.length; i++) {
-                    data[i] = (byte) ((data[i] ^ session.getValidationCode()) & 0x00ff);
-                }
-            }
-
             BFLogger.getInstance().info(mOut);
-
+            byte[] data = mOut.toBytes();
+            if (mOut.getTag() != CoreTags.SC_VALIDATION_CODE) {
+                data = EncryptManager.crypt(channel, data);
+                data = CompressManager.getInstance().compress(data);
+            }
             if (Main.mapChannelWebSocket.get(channel) != null) {
                 channel.writeAndFlush(new BinaryWebSocketFrame(Unpooled.wrappedBuffer(data)));
             } else {
@@ -136,10 +134,8 @@ public class BFSessionManager {
 
         byte[] data = mOut.toBytes();
         if (mOut.getTag() != CoreTags.SC_VALIDATION_CODE) {
-            IBFSession session = getSessionByChannel(channel);
-            for (int i = 4; i < data.length; i++) {
-                data[i] = (byte) ((data[i] ^ session.getValidationCode()) & 0x00ff);
-            }
+            data = EncryptManager.crypt(channel, data);
+            data = CompressManager.getInstance().compress(data);
         }
 
         if (Main.mapChannelWebSocket.get(channel) != null) {

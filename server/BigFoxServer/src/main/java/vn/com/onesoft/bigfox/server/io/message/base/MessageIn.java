@@ -14,7 +14,7 @@ import java.io.DataInputStream;
  *
  * @author Quan
  */
-public abstract class MessageIn extends MessageIO {
+public abstract class MessageIn extends BaseMessage {
 
     private static short TAG = 0;
     ByteArrayInputStream byteArrayInput;

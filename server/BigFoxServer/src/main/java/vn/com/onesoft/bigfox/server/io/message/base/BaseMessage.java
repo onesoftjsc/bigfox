@@ -10,7 +10,7 @@ import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
  *
  * @author Quan
  */
-public abstract class MessageIO {
+public abstract class BaseMessage {
 
     protected int length;
     protected int tag;
@@ -18,6 +18,9 @@ public abstract class MessageIO {
     protected int sSequence;
     protected int status;
     private int checkSum;
+
+    public final static int STATUS_CORE = 0x01;
+    public final static int STATUS_ZIP = 0x02;
 
     @Override
     public String toString() {
@@ -56,6 +59,9 @@ public abstract class MessageIO {
      * @return the status
      */
     public int getStatus() {
+        if (this.isCore()) {
+            status = status | BaseMessage.STATUS_CORE;
+        }
         return status;
     }
 

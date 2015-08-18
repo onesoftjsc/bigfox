@@ -39,7 +39,6 @@ public class Main {
     public static ServerBootstrap bootstrap;//Help class để khởi tạo server socket
 
     public static ChannelGroup allChannels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);//Netty, lưu trữ tất cả channels để đóng lại khi tắt ứng dụng
-    public static Map<Channel, Integer> mapChannelToValidationCode = new MapMaker().makeMap();
     public static Map<Channel, Boolean> mapChannelWebSocket = new MapMaker().makeMap();
 
     /**

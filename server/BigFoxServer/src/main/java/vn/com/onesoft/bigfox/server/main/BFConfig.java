@@ -21,6 +21,7 @@ public class BFConfig {
 
     private int portSocket;
     private int portWebSocket;
+    private boolean enableZip;
 
     private static BFConfig _instance = null;
 
@@ -49,6 +50,11 @@ public class BFConfig {
             Element ePortWebSocket = (Element) SPortWebSocket.item(0);
             NodeList nPortWebSocket = ePortWebSocket.getChildNodes();
             this.portWebSocket = Integer.parseInt(((Node) nPortWebSocket.item(0)).getNodeValue());
+
+            NodeList SZip = doc.getElementsByTagName("enable_zip");
+            Element eZip = (Element) SZip.item(0);
+            NodeList nZip = eZip.getChildNodes();
+            this.enableZip = (Integer.parseInt(((Node) nZip.item(0)).getNodeValue()) == 1);
         } catch (Exception ex) {
 
         }
@@ -66,6 +72,10 @@ public class BFConfig {
      */
     public int getPortWebSocket() {
         return portWebSocket;
+    }
+    
+    public boolean enableZip(){
+        return enableZip;
     }
 
 }

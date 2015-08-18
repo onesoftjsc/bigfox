@@ -10,6 +10,7 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
 import java.util.Map;
+import vn.com.onesoft.bigfox.server.io.core.encrypt.EncryptManager;
 import vn.com.onesoft.bigfox.server.io.message.core.sc.SCPing;
 import vn.com.onesoft.bigfox.server.io.message.core.tags.CoreTags;
 import vn.com.onesoft.bigfox.server.io.core.objects.message.ClientInfo;
@@ -55,7 +56,7 @@ public class BFSession implements IBFSession {
 
     @Override
     public void setChannel(Channel channel) {
-        this.validationCode = Main.mapChannelToValidationCode.get(channel);
+        this.validationCode = EncryptManager.mapChannelToValidationCode.get(channel);
         this.channel = channel;
     }
 

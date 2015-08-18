@@ -1,6 +1,6 @@
 package vn.com.onesoft.bigfox.io.message;
 
-import vn.com.onesoft.bigfox.io.core.BigFox;
+import vn.com.onesoft.bigfox.io.core.session.BigFox;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 
@@ -14,6 +14,9 @@ public class BaseMessage {
     private int sSequence;
     private int status;
     private int checkSum;
+
+    public final static int STATUS_CORE = 0x01;
+    public final static int STATUS_ZIP = 0x02;
 
     public byte[] toBytes() {
         try {
@@ -104,7 +107,7 @@ public class BaseMessage {
      */
     public int getStatus() {
         if (isCore())
-            status = status | 0x01;
+            status = status | BaseMessage.STATUS_CORE;
         return status;
     }
 
