@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.ScrollView;
 
 import java.util.ArrayList;
 
@@ -80,6 +81,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     public void receiveChat(String msg) {
          listChat.add(msg);
         adapter.notifyDataSetChanged();
+        lView.setSelection(adapter.getCount() - 1);
     }
 
     private void showMessage(){

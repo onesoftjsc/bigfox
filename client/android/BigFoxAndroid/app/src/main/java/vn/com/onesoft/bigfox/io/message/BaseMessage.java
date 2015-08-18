@@ -1,4 +1,4 @@
-package vn.com.onesoft.bigfox.io.message.base;
+package vn.com.onesoft.bigfox.io.message;
 
 import vn.com.onesoft.bigfox.io.core.BigFox;
 import java.io.ByteArrayOutputStream;
@@ -103,6 +103,8 @@ public class BaseMessage {
      * @return the status
      */
     public int getStatus() {
+        if (isCore())
+            status = status | 0x01;
         return status;
     }
 

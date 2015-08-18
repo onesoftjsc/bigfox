@@ -1,4 +1,4 @@
-package vn.com.onesoft.bigfox.io.message.base;
+package vn.com.onesoft.bigfox.io.message;
 
 import vn.com.onesoft.bigfox.io.core.ByteUtils;
 import vn.com.onesoft.bigfox.io.core.ConnectionManager;

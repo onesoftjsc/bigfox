@@ -8,6 +8,8 @@ package vn.com.onesoft.bigfox.server.io.message.base;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
+import vn.com.onesoft.bigfox.server.io.message.core.cs.CSPing;
+import vn.com.onesoft.bigfox.server.io.message.core.sc.SCPing;
 
 /**
  *
@@ -32,7 +34,7 @@ public class BFLogger {
     }
 
     public void info(Object obj) {
-        if (obj instanceof MessageIO &&  ((MessageIO) obj).isCore())
+        if (obj instanceof CSPing || obj instanceof SCPing)
             return;
         logger.info(obj);
     }

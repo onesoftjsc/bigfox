@@ -1,0 +1,708 @@
+2015-08-17 11:30:06,711 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-17 11:30:06,711 [Thread-1] INFO - Socket start at port 33333
+2015-08-17 11:30:06,738 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x796a8f9d6934e240 (took 8 ms)
+2015-08-17 11:30:06,791 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-17 11:30:06,792 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-17 11:30:06,796 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-17 11:30:06,797 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-17 11:30:06,804 [nioEventLoopGroup-3-1] INFO - [id: 0xef23f8a8] REGISTERED
+2015-08-17 11:30:06,805 [nioEventLoopGroup-3-1] INFO - [id: 0xef23f8a8] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-17 11:30:06,809 [nioEventLoopGroup-3-1] INFO - [id: 0xef23f8a8, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-08-17 15:12:06,180 [Thread-1] INFO - Socket start at port 33333
+2015-08-17 15:12:06,180 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-17 15:12:06,212 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0xba7ea4353b713138 (took 13 ms)
+2015-08-17 15:12:06,275 [Thread-1] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-17 15:12:06,275 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-17 15:12:06,281 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-17 15:12:06,282 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-17 15:12:06,289 [nioEventLoopGroup-3-1] INFO - [id: 0x15fc7398] REGISTERED
+2015-08-17 15:12:06,289 [nioEventLoopGroup-3-1] INFO - [id: 0x15fc7398] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-17 15:12:06,292 [nioEventLoopGroup-3-1] INFO - [id: 0x15fc7398] CLOSE()
+2015-08-17 15:12:06,294 [nioEventLoopGroup-3-1] INFO - [id: 0x15fc7398] UNREGISTERED
+2015-08-17 15:12:27,289 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-17 15:12:27,289 [Thread-1] INFO - Socket start at port 33333
+2015-08-17 15:12:27,309 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0xb1e86dfcfde2bc2e (took 8 ms)
+2015-08-17 15:12:27,351 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-17 15:12:27,351 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-17 15:12:27,356 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-17 15:12:27,357 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-17 15:12:27,366 [nioEventLoopGroup-3-1] INFO - [id: 0xfe59db5b] REGISTERED
+2015-08-17 15:12:27,366 [nioEventLoopGroup-3-1] INFO - [id: 0xfe59db5b] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-17 15:12:27,371 [nioEventLoopGroup-3-1] INFO - [id: 0xfe59db5b, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-08-17 15:14:17,434 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x4592dcc4, /192.168.8.129:49943 => /192.168.8.191:33333]
+2015-08-17 15:14:17,448 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-08-17 15:14:17,450 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-08-17 15:14:17,509 [nioEventLoopGroup-5-1] DEBUG - java.nio.ByteBuffer.cleaner(): available
+2015-08-17 15:14:21,587 [nioEventLoopGroup-5-1] INFO - CSName {
+  msg: "quan"
+}
+2015-08-17 15:14:28,729 [nioEventLoopGroup-5-1] INFO - CSChat {
+  msg: "hello"
+}
+2015-08-17 15:14:28,729 [nioEventLoopGroup-5-1] INFO - SCChat {
+  msg: "15:14:28
+quan : hello"
+}
+2015-08-17 15:14:31,597 [nioEventLoopGroup-5-1] INFO - CSChat {
+  msg: "hi"
+}
+2015-08-17 15:14:31,598 [nioEventLoopGroup-5-1] INFO - SCChat {
+  msg: "15:14:31
+quan : hi"
+}
+2015-08-17 15:14:49,610 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x18c12afa, /192.168.8.129:49186 => /192.168.8.191:33333]
+2015-08-17 15:14:49,647 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "good"
+}
+2015-08-17 15:14:49,647 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:14:49
+quan : good"
+}
+2015-08-17 15:14:49,650 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:14:49
+quan : good"
+}
+2015-08-17 15:14:49,688 [nioEventLoopGroup-5-1] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-17 15:14:49,694 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x4592dcc4, /192.168.8.129:49943 :> /192.168.8.191:33333]
+2015-08-17 15:14:56,254 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "gggg"
+}
+2015-08-17 15:14:56,255 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:14:56
+quan : gggg"
+}
+2015-08-17 15:14:57,814 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "cgg"
+}
+2015-08-17 15:14:57,815 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:14:57
+quan : cgg"
+}
+2015-08-17 15:16:34,424 [Thread-1] INFO - Socket start at port 33333
+2015-08-17 15:16:34,424 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-17 15:16:34,445 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0xf2ef72167068a8be (took 8 ms)
+2015-08-17 15:16:34,482 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-17 15:16:34,482 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-17 15:16:34,485 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-17 15:16:34,486 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-17 15:16:34,492 [nioEventLoopGroup-2-1] INFO - [id: 0x5258e46b] REGISTERED
+2015-08-17 15:16:34,492 [nioEventLoopGroup-2-1] INFO - [id: 0x5258e46b] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-17 15:16:34,495 [nioEventLoopGroup-2-1] INFO - [id: 0x5258e46b, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-08-17 15:16:38,104 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x9fe5dfc2, /192.168.8.129:50852 => /192.168.8.191:33333]
+2015-08-17 15:16:38,114 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-08-17 15:16:38,116 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-08-17 15:16:38,156 [nioEventLoopGroup-5-1] DEBUG - java.nio.ByteBuffer.cleaner(): available
+2015-08-17 15:16:41,805 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x9fe5dfc2, /192.168.8.129:50852 :> /192.168.8.191:33333]
+2015-08-17 15:16:54,609 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x81605657, /192.168.8.129:55318 => /192.168.8.191:33333]
+2015-08-17 15:16:59,930 [nioEventLoopGroup-5-2] INFO - CSName {
+  msg: "Quan"
+}
+2015-08-17 15:17:01,798 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "hi"
+}
+2015-08-17 15:17:01,799 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:17:1
+Quan : hi"
+}
+2015-08-17 15:17:05,285 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "hello"
+}
+2015-08-17 15:17:05,285 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:17:5
+Quan : hello"
+}
+2015-08-17 15:17:22,980 [nioEventLoopGroup-5-3] INFO - Client connected!: [id: 0xd61b0335, /192.168.8.129:42016 => /192.168.8.191:33333]
+2015-08-17 15:17:22,997 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "gggg"
+}
+2015-08-17 15:17:22,998 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:22
+Quan : gggg"
+}
+2015-08-17 15:17:22,998 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:22
+Quan : gggg"
+}
+2015-08-17 15:17:23,000 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "hhh"
+}
+2015-08-17 15:17:23,000 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:23
+Quan : hhh"
+}
+2015-08-17 15:17:23,001 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:23
+Quan : hhh"
+}
+2015-08-17 15:17:23,001 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "iiii"
+}
+2015-08-17 15:17:23,001 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:23
+Quan : iiii"
+}
+2015-08-17 15:17:23,002 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:23
+Quan : iiii"
+}
+2015-08-17 15:17:23,005 [nioEventLoopGroup-5-2] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-17 15:17:23,008 [nioEventLoopGroup-5-2] INFO - ChannelClosed: [id: 0x81605657, /192.168.8.129:55318 :> /192.168.8.191:33333]
+2015-08-17 15:17:39,095 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "rrrr"
+}
+2015-08-17 15:17:39,095 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:17:39
+Quan : rrrr"
+}
+2015-08-17 15:18:32,577 [Thread-1] INFO - Socket start at port 33333
+2015-08-17 15:18:32,577 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-17 15:18:32,600 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x426a435b85ab6637 (took 11 ms)
+2015-08-17 15:18:32,640 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-17 15:18:32,641 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-17 15:18:32,644 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-17 15:18:32,644 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-17 15:18:32,651 [nioEventLoopGroup-3-1] INFO - [id: 0x73a48391] REGISTERED
+2015-08-17 15:18:32,651 [nioEventLoopGroup-3-1] INFO - [id: 0x73a48391] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-17 15:18:32,654 [nioEventLoopGroup-3-1] INFO - [id: 0x73a48391, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-08-17 15:18:35,830 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x17c1a1ee, /192.168.8.129:39344 => /192.168.8.191:33333]
+2015-08-17 15:18:35,840 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-08-17 15:18:35,842 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-08-17 15:18:36,140 [nioEventLoopGroup-5-1] DEBUG - java.nio.ByteBuffer.cleaner(): available
+2015-08-17 15:18:37,963 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x17c1a1ee, /192.168.8.129:39344 :> /192.168.8.191:33333]
+2015-08-17 15:18:43,578 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x95042f97, /192.168.8.129:50526 => /192.168.8.191:33333]
+2015-08-17 15:18:53,866 [nioEventLoopGroup-5-2] INFO - CSName {
+  msg: "Quan"
+}
+2015-08-17 15:18:55,174 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "hi"
+}
+2015-08-17 15:18:55,175 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:18:55
+Quan : hi"
+}
+2015-08-17 15:18:56,091 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "hhj"
+}
+2015-08-17 15:18:56,091 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:18:56
+Quan : hhj"
+}
+2015-08-17 15:18:57,423 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "vbbk"
+}
+2015-08-17 15:18:57,424 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:18:57
+Quan : vbbk"
+}
+2015-08-17 15:19:11,165 [nioEventLoopGroup-5-3] INFO - Client connected!: [id: 0x1e4f9c5c, /192.168.8.129:42764 => /192.168.8.191:33333]
+2015-08-17 15:19:11,595 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "hhjk"
+}
+2015-08-17 15:19:11,595 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:11
+Quan : hhjk"
+}
+2015-08-17 15:19:11,597 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:11
+Quan : hhjk"
+}
+2015-08-17 15:19:12,278 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "vhrtj"
+}
+2015-08-17 15:19:12,278 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:12
+Quan : vhrtj"
+}
+2015-08-17 15:19:12,278 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:12
+Quan : vhrtj"
+}
+2015-08-17 15:19:12,279 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "bjkl"
+}
+2015-08-17 15:19:12,279 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:12
+Quan : bjkl"
+}
+2015-08-17 15:19:12,279 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:12
+Quan : bjkl"
+}
+2015-08-17 15:19:12,280 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "hhhj"
+}
+2015-08-17 15:19:12,280 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:12
+Quan : hhhj"
+}
+2015-08-17 15:19:12,280 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:12
+Quan : hhhj"
+}
+2015-08-17 15:19:12,590 [nioEventLoopGroup-5-2] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-17 15:19:12,593 [nioEventLoopGroup-5-2] INFO - ChannelClosed: [id: 0x95042f97, /192.168.8.129:50526 :> /192.168.8.191:33333]
+2015-08-17 15:19:24,943 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "cgfg"
+}
+2015-08-17 15:19:24,944 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:24
+Quan : cgfg"
+}
+2015-08-17 15:19:29,334 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "rrrr"
+}
+2015-08-17 15:19:29,335 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:19:29
+Quan : rrrr"
+}
+2015-08-17 15:19:37,932 [nioEventLoopGroup-5-3] INFO - ChannelClosed: [id: 0x1e4f9c5c, /192.168.8.129:42764 :> /192.168.8.191:33333]
+2015-08-17 15:27:01,448 [nioEventLoopGroup-5-4] INFO - Client connected!: [id: 0x0348f73d, /192.168.8.129:36973 => /192.168.8.191:33333]
+2015-08-17 15:27:09,878 [nioEventLoopGroup-5-4] INFO - CSName {
+  msg: "Quan"
+}
+2015-08-17 15:27:49,085 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "hello"
+}
+2015-08-17 15:27:49,086 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:27:49
+Quan : hello"
+}
+2015-08-17 15:28:10,212 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "how are you ?"
+}
+2015-08-17 15:28:10,213 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:28:10
+Quan : how are you ?"
+}
+2015-08-17 15:28:53,123 [nioEventLoopGroup-5-5] INFO - Client connected!: [id: 0xbc705606, /192.168.8.191:60433 => /192.168.8.191:33333]
+2015-08-17 15:29:07,020 [nioEventLoopGroup-5-5] INFO - CSName {
+  msg: "A"
+}
+2015-08-17 15:29:11,080 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "hi"
+}
+2015-08-17 15:29:11,082 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:11
+A : hi"
+}
+2015-08-17 15:29:11,083 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:11
+A : hi"
+}
+2015-08-17 15:29:19,874 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "gggg"
+}
+2015-08-17 15:29:19,876 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:19
+A : gggg"
+}
+2015-08-17 15:29:19,877 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:19
+A : gggg"
+}
+2015-08-17 15:29:23,823 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "hhg"
+}
+2015-08-17 15:29:23,824 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:23
+Quan : hhg"
+}
+2015-08-17 15:29:23,825 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:23
+Quan : hhg"
+}
+2015-08-17 15:29:27,672 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "hello"
+}
+2015-08-17 15:29:27,674 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:27
+A : hello"
+}
+2015-08-17 15:29:27,675 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:27
+A : hello"
+}
+2015-08-17 15:29:29,342 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "h2"
+}
+2015-08-17 15:29:29,343 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:29
+Quan : h2"
+}
+2015-08-17 15:29:29,344 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:29
+Quan : h2"
+}
+2015-08-17 15:29:34,310 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "h3"
+}
+2015-08-17 15:29:34,311 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:34
+Quan : h3"
+}
+2015-08-17 15:29:34,312 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:34
+Quan : h3"
+}
+2015-08-17 15:29:35,999 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "h4"
+}
+2015-08-17 15:29:36,000 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:36
+Quan : h4"
+}
+2015-08-17 15:29:36,001 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:29:36
+Quan : h4"
+}
+2015-08-17 15:29:53,144 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "qqqq"
+}
+2015-08-17 15:29:53,145 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:53
+A : qqqq"
+}
+2015-08-17 15:29:53,146 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:53
+A : qqqq"
+}
+2015-08-17 15:29:55,653 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "eee"
+}
+2015-08-17 15:29:55,655 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:55
+A : eee"
+}
+2015-08-17 15:29:55,656 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:29:55
+A : eee"
+}
+2015-08-17 15:30:09,188 [nioEventLoopGroup-5-4] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-17 15:30:09,191 [nioEventLoopGroup-5-4] INFO - ChannelClosed: [id: 0x0348f73d, /192.168.8.129:36973 :> /192.168.8.191:33333]
+2015-08-17 15:30:09,228 [nioEventLoopGroup-5-6] INFO - Client connected!: [id: 0x46111ac3, /192.168.8.129:59243 => /192.168.8.191:33333]
+2015-08-17 15:30:10,069 [nioEventLoopGroup-5-6] INFO - CSChat {
+  msg: "h5"
+}
+2015-08-17 15:30:10,071 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h5"
+}
+2015-08-17 15:30:10,072 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h5"
+}
+2015-08-17 15:30:10,227 [nioEventLoopGroup-5-6] INFO - CSChat {
+  msg: "h6"
+}
+2015-08-17 15:30:10,229 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h6"
+}
+2015-08-17 15:30:10,230 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h6"
+}
+2015-08-17 15:30:10,231 [nioEventLoopGroup-5-6] INFO - CSChat {
+  msg: "h7"
+}
+2015-08-17 15:30:10,232 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h7"
+}
+2015-08-17 15:30:10,233 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h7"
+}
+2015-08-17 15:30:10,234 [nioEventLoopGroup-5-6] INFO - CSChat {
+  msg: "h8"
+}
+2015-08-17 15:30:10,235 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h8"
+}
+2015-08-17 15:30:10,236 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:10
+Quan : h8"
+}
+2015-08-17 15:30:16,875 [nioEventLoopGroup-5-6] INFO - CSChat {
+  msg: "h9"
+}
+2015-08-17 15:30:16,875 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:16
+Quan : h9"
+}
+2015-08-17 15:30:16,876 [nioEventLoopGroup-5-6] INFO - SCChat {
+  msg: "15:30:16
+Quan : h9"
+}
+2015-08-17 15:32:26,937 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "rrr"
+}
+2015-08-17 15:32:26,938 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:26
+A : rrr"
+}
+2015-08-17 15:32:26,939 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:26
+A : rrr"
+}
+2015-08-17 15:32:56,799 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "a"
+}
+2015-08-17 15:32:56,799 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:56
+A : a"
+}
+2015-08-17 15:32:56,799 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:56
+A : a"
+}
+2015-08-17 15:32:56,800 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "b"
+}
+2015-08-17 15:32:56,800 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:56
+A : b"
+}
+2015-08-17 15:32:56,800 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:56
+A : b"
+}
+2015-08-17 15:32:56,800 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "c"
+}
+2015-08-17 15:32:56,801 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:56
+A : c"
+}
+2015-08-17 15:32:56,801 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:32:56
+A : c"
+}
+2015-08-17 15:33:19,106 [nioEventLoopGroup-5-7] INFO - Client connected!: [id: 0xbea0df9a, /192.168.8.129:55048 => /192.168.8.191:33333]
+2015-08-17 15:33:19,185 [nioEventLoopGroup-5-7] INFO - CSChat {
+  msg: "h10"
+}
+2015-08-17 15:33:19,185 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h10"
+}
+2015-08-17 15:33:19,185 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h10"
+}
+2015-08-17 15:33:19,186 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h10"
+}
+2015-08-17 15:33:19,209 [nioEventLoopGroup-5-7] INFO - CSChat {
+  msg: "h11"
+}
+2015-08-17 15:33:19,209 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h11"
+}
+2015-08-17 15:33:19,209 [nioEventLoopGroup-5-6] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-17 15:33:19,209 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h11"
+}
+2015-08-17 15:33:19,210 [nioEventLoopGroup-5-6] INFO - ChannelClosed: [id: 0x46111ac3, /192.168.8.129:59243 :> /192.168.8.191:33333]
+2015-08-17 15:33:19,210 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h11"
+}
+2015-08-17 15:33:19,211 [nioEventLoopGroup-5-7] INFO - CSChat {
+  msg: "h12"
+}
+2015-08-17 15:33:19,211 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h12"
+}
+2015-08-17 15:33:19,211 [nioEventLoopGroup-5-7] INFO - SCChat {
+  msg: "15:33:19
+Quan : h12"
+}
+2015-08-17 15:34:14,508 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "gggg"
+}
+2015-08-17 15:34:14,508 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:34:14
+A : gggg"
+}
+2015-08-17 15:34:14,509 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:34:14
+A : gggg"
+}
+2015-08-17 15:34:34,499 [nioEventLoopGroup-5-7] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-17 15:34:34,500 [nioEventLoopGroup-5-7] INFO - ChannelClosed: [id: 0xbea0df9a, /192.168.8.129:55048 :> /192.168.8.191:33333]
+2015-08-17 15:34:34,501 [nioEventLoopGroup-5-8] INFO - Client connected!: [id: 0x3b60bdb3, /192.168.8.129:42289 => /192.168.8.191:33333]
+2015-08-17 15:34:34,795 [nioEventLoopGroup-5-8] INFO - CSChat {
+  msg: "h13"
+}
+2015-08-17 15:34:34,796 [nioEventLoopGroup-5-8] INFO - SCChat {
+  msg: "15:34:34
+Quan : h13"
+}
+2015-08-17 15:34:34,796 [nioEventLoopGroup-5-8] INFO - SCChat {
+  msg: "15:34:34
+Quan : h13"
+}
+2015-08-17 15:34:34,910 [nioEventLoopGroup-5-8] INFO - CSChat {
+  msg: "h14"
+}
+2015-08-17 15:34:34,910 [nioEventLoopGroup-5-8] INFO - SCChat {
+  msg: "15:34:34
+Quan : h14"
+}
+2015-08-17 15:34:34,911 [nioEventLoopGroup-5-8] INFO - SCChat {
+  msg: "15:34:34
+Quan : h14"
+}
+2015-08-17 15:34:34,911 [nioEventLoopGroup-5-8] INFO - CSChat {
+  msg: "h15"
+}
+2015-08-17 15:34:34,911 [nioEventLoopGroup-5-8] INFO - SCChat {
+  msg: "15:34:34
+Quan : h15"
+}
+2015-08-17 15:34:34,911 [nioEventLoopGroup-5-8] INFO - SCChat {
+  msg: "15:34:34
+Quan : h15"
+}
+2015-08-17 15:36:14,274 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "rrrr"
+}
+2015-08-17 15:36:14,274 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:36:14
+A : rrrr"
+}
+2015-08-17 15:36:14,275 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:36:14
+A : rrrr"
+}
+2015-08-17 15:36:19,676 [nioEventLoopGroup-5-5] INFO - CSChat {
+  msg: "quan"
+}
+2015-08-17 15:36:19,676 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:36:19
+A : quan"
+}
+2015-08-17 15:36:19,677 [nioEventLoopGroup-5-5] INFO - SCChat {
+  msg: "15:36:19
+A : quan"
+}
+2015-08-17 15:37:12,515 [nioEventLoopGroup-5-5] INFO - ChannelClosed: [id: 0xbc705606, /192.168.8.191:60433 :> /192.168.8.191:33333]
+2015-08-17 15:37:17,439 [nioEventLoopGroup-5-8] INFO - ChannelClosed: [id: 0x3b60bdb3, /192.168.8.129:42289 :> /192.168.8.191:33333]
+2015-08-17 17:06:04,607 [Thread-1] INFO - Socket start at port 33333
+2015-08-17 17:06:04,607 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-17 17:06:04,631 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x27942a41b57563d9 (took 7 ms)
+2015-08-17 17:06:04,677 [Thread-2] DEBUG - -Dio.netty.allocator.type: unpooled
+2015-08-17 17:06:04,677 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-17 17:06:04,682 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-17 17:06:04,682 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-17 17:06:04,691 [nioEventLoopGroup-2-1] INFO - [id: 0x082eb6ec] REGISTERED
+2015-08-17 17:06:04,691 [nioEventLoopGroup-2-1] INFO - [id: 0x082eb6ec] BIND(0.0.0.0/0.0.0.0:33332)
+2015-08-17 17:06:04,697 [nioEventLoopGroup-2-1] INFO - [id: 0x082eb6ec, /0:0:0:0:0:0:0:0:33332] ACTIVE

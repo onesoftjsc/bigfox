@@ -4,7 +4,7 @@
  * 
  */
 
-package vn.com.onesoft.bigfox.io.message.base;
+package vn.com.onesoft.bigfox.io.message;
 
 /**
  *

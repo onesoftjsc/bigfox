@@ -20,7 +20,7 @@ public class ClassFinder {
 
 	public static List<Class<?>> find(Class<?> parentType) {
 		List<Class<?>> classes = new ArrayList<Class<?>>();
-		String packageName = SCValidationCode.class.getPackage().getName();
+		String packageName = parentType.getPackage().getName();
 		try {
 			DexFile df = new DexFile(MainActivity.getInstance()
 					.getPackageCodePath());

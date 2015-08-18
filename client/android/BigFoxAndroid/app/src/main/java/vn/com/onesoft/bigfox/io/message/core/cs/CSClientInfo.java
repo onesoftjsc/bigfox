@@ -8,7 +8,7 @@ package vn.com.onesoft.bigfox.io.message.core.cs;
 import vn.com.onesoft.bigfox.io.core.BFUtils;
 import vn.com.onesoft.bigfox.io.core.ConnectionManager;
 import vn.com.onesoft.bigfox.io.core.BigFoxContext;
-import vn.com.onesoft.bigfox.io.message.base.BaseMessage;
+import vn.com.onesoft.bigfox.io.message.BaseMessage;
 import vn.com.onesoft.bigfox.io.message.core.object.ClientInfo;
 import vn.com.onesoft.bigfox.io.message.core.tags.CoreTags;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;

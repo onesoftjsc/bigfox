@@ -6,8 +6,8 @@
 package vn.com.onesoft.bigfox.io.message.user.sc;
 
 import vn.com.onesoft.bigfox.MainActivity;
-import vn.com.onesoft.bigfox.io.message.base.BaseMessage;
-import vn.com.onesoft.bigfox.io.message.base.IMessageIn;
+import vn.com.onesoft.bigfox.io.message.BaseMessage;
+import vn.com.onesoft.bigfox.io.message.IMessageIn;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.io.message.annotations.Property;
 import vn.com.onesoft.bigfox.io.message.user.tags.Tags;

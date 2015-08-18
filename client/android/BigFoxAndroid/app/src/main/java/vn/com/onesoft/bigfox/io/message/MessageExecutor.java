@@ -3,7 +3,7 @@
  * Copyright @ 2015 by OneSoft.,JSC
  * 
  */
-package vn.com.onesoft.bigfox.io.message.base;
+package vn.com.onesoft.bigfox.io.message;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
@@ -18,16 +18,16 @@ import vn.com.onesoft.bigfox.io.core.ConnectionManager;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;
 
 /**
- *
  * @author QuanPH
  */
 public class MessageExecutor {
 
-    
+
     private static MessageExecutor _instance = null;
-    
-    private Map<Integer, Class<?>> mapTagToClassName = new HashMap<Integer, Class<?>>();
-    
+
+    private Map<Integer, Class<?>> mapTagToCoreMessage = new HashMap<Integer, Class<?>>();
+    private Map<Integer, Class<?>> mapTagToUserMessage = new HashMap<Integer, Class<?>>();
+
     public static MessageExecutor getInstance() {
         if (_instance == null) {
             _instance = new MessageExecutor();
@@ -35,7 +35,7 @@ public class MessageExecutor {
         }
         return _instance;
     }
-    
+
     public void execute(byte[] data) {
         DataInputStream dis = new DataInputStream(
                 new ByteArrayInputStream(data));
@@ -44,14 +44,16 @@ public class MessageExecutor {
         try {
             length = dis.readInt();// length
             tag = dis.readInt();
-        } catch (Exception e) {
-        }
-        Class<?> clazz = mapTagToClassName.get(tag);
-        try {
             int mSequence = dis.readInt();
             int sSequence = dis.readInt();
             int status = dis.readInt();
             int checkSum = dis.readInt();
+            Class<?> clazz = null;
+            if ((status & 0x01) == 0x01)
+                clazz = mapTagToCoreMessage.get(tag);
+            else
+                clazz = mapTagToUserMessage.get(tag);
+
             BaseMessage message = (BaseMessage) BigFox.fromBytes(clazz, dis);
             message.setmSequence(mSequence);
             message.setsSequence(sSequence);
@@ -67,14 +69,17 @@ public class MessageExecutor {
             ex.printStackTrace();
         }
     }
-    
+
     private void loadClasses() {
         try {
             List<Class<?>> classes = ClassFinder.find(BaseMessage.class);
             for (Class<?> clazz : classes) {
                 Message m = clazz.getAnnotation(Message.class);
                 if (m.name().toUpperCase().indexOf("SC") == 0) {
-                    mapTagToClassName.put(m.tag(), clazz);
+                    if (m.isCore())
+                        mapTagToCoreMessage.put(m.tag(), clazz);
+                    else
+                        mapTagToUserMessage.put(m.tag(), clazz);
                 }
             }
         } catch (Exception ex) {

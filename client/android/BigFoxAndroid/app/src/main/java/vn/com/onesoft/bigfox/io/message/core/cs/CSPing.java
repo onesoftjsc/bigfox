@@ -5,7 +5,7 @@
  */
 package vn.com.onesoft.bigfox.io.message.core.cs;
 
-import vn.com.onesoft.bigfox.io.message.base.BaseMessage;
+import vn.com.onesoft.bigfox.io.message.BaseMessage;
 import vn.com.onesoft.bigfox.io.message.core.tags.CoreTags;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.io.message.annotations.Property;

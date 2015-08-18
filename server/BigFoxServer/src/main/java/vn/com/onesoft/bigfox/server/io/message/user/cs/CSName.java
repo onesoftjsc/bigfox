@@ -14,13 +14,13 @@ import vn.com.onesoft.bigfox.server.io.core.session.IBFSession;
 import vn.com.onesoft.bigfox.server.io.messaannotationsons.Property;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;
-import vn.com.onesoft.bigfox.server.io.message.core.tags.CoreTags;
+import vn.com.onesoft.bigfox.server.io.message.user.tags.Tags;
 
 /**
  *
  * @author QuanPH
  */
-@Message(tag = CoreTags.CS_NAME, name = "CS_NAME")
+@Message(tag = Tags.CS_NAME, name = "CS_NAME")
 public class CSName extends MessageIn {
 
     @Property(name = "msg")

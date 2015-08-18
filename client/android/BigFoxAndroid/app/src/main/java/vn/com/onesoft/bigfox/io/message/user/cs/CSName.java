@@ -1,6 +1,6 @@
 package vn.com.onesoft.bigfox.io.message.user.cs;
 
-import vn.com.onesoft.bigfox.io.message.base.BaseMessage;
+import vn.com.onesoft.bigfox.io.message.BaseMessage;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.io.message.annotations.Property;
 import vn.com.onesoft.bigfox.io.message.user.tags.Tags;

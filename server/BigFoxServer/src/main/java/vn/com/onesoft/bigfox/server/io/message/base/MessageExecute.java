@@ -62,7 +62,7 @@ public class MessageExecute {
 
     public void onMessage(Channel channel, byte[] data) throws Exception {
         int tag = (int) (((data[4] & 0xff) << 24) | ((data[5] & 0xff) << 16) | ((data[6] & 0xff) << 8) | ((data[7] & 0xff)));
-        int status = (int) (((data[12] & 0xff) << 24) | ((data[13] & 0xff) << 16) | ((data[14] & 0xff) << 8) | ((data[15] & 0xff)));
+        int status = (int) (((data[16] & 0xff) << 24) | ((data[17] & 0xff) << 16) | ((data[18] & 0xff) << 8) | ((data[19] & 0xff)));
         boolean isCore = (status & 0x01) == 0x01;
         boolean valid = isValid(channel, data);
         if (valid) {
