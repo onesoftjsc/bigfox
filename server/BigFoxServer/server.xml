@@ -1,5 +1,0 @@
-<configuration>
-    <port_socket>33333</port_socket>
-    <port_websocket>33332</port_websocket>
-    <enable_zip>1</enable_zip>
-</configuration>

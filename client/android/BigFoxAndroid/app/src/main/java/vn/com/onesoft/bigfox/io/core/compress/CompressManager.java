@@ -22,6 +22,8 @@ public class CompressManager {
     }
 
     public byte[] compress(byte[] data){
+        if(true)
+            return data;
         return cp.compress(data);
     }
 

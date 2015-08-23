@@ -20,8 +20,8 @@ import io.netty.handler.codec.http.websocketx.WebSocketServerHandshakerFactory;
 import io.netty.util.concurrent.Future;
 import io.netty.util.concurrent.GenericFutureListener;
 import java.util.Random;
-import vn.com.onesoft.bigfox.server.io.core.compress.CompressManager;
-import vn.com.onesoft.bigfox.server.io.core.encrypt.EncryptManager;
+import vn.com.onesoft.bigfox.server.io.core.compress.BFCompressManager;
+import vn.com.onesoft.bigfox.server.io.core.encrypt.BFEncryptManager;
 import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageExecute;
@@ -73,7 +73,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
                     Random r = new Random();
                     int validationCode = r.nextInt();
                     BFSessionManager.getInstance().sendMessage(ctx.channel(), new SCValidationCode(validationCode));
-                    EncryptManager.mapChannelToValidationCode.put(ctx.channel(), validationCode);
+                    BFEncryptManager.mapChannelToValidationCode.put(ctx.channel(), validationCode);
                 }
             });
         }
@@ -99,8 +99,8 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
             buf.readBytes(data);
             try {
 
-                data = CompressManager.getInstance().decompress(data);
-                data = EncryptManager.crypt(ctx.channel(), data);
+                data = BFCompressManager.getInstance().decompress(data);
+                data = BFEncryptManager.crypt(ctx.channel(), data);
 
                 mf.onMessage(ctx.channel(), data); //Thực thi yêu cầu từ Client
             } catch (Exception ex) {
@@ -130,7 +130,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
         BFSessionManager.getInstance().onChannelClose(ctx.channel());
         Main.allChannels.remove(ctx.channel());
         Main.mapChannelWebSocket.remove(ctx.channel());
-        EncryptManager.mapChannelToValidationCode.remove(ctx.channel());
+        BFEncryptManager.mapChannelToValidationCode.remove(ctx.channel());
 
         BFLogger.getInstance().info("Channel Closed " + ctx.channel());
     }

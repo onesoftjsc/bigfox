@@ -35,7 +35,7 @@ public class BFConfig {
 
     private void loadConfig() {
         try {
-            File file = new File("server.xml");
+            File file = new File("config.xml");
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
             Document doc = db.parse(file);

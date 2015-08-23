@@ -21,6 +21,7 @@ public abstract class BaseMessage {
 
     public final static int STATUS_CORE = 0x01;
     public final static int STATUS_ZIP = 0x02;
+    public final static int STATUS_CONTINUE = 0x04;
 
     @Override
     public String toString() {

@@ -1,0 +1,82 @@
+2015-08-23 23:06:34,446 [main] ERROR - hostname can't be null
+java.lang.IllegalArgumentException: hostname can't be null
+	at java.net.InetSocketAddress.checkHost(InetSocketAddress.java:149)
+	at java.net.InetSocketAddress.createUnresolved(InetSocketAddress.java:254)
+	at io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:120)
+	at vn.com.onesoft.bigfox.io.core.session.BFConnectionManager.init(BFConnectionManager.java:54)
+	at vn.com.onesoft.bigfox.Main.main(Main.java:17)
+2015-08-23 23:06:59,277 [nioEventLoopGroup-2-1] ERROR - vn.com.onesoft.bigfox.io.message.core.sc.SCValidationCode
+java.lang.InstantiationException: vn.com.onesoft.bigfox.io.message.core.sc.SCValidationCode
+	at java.lang.Class.newInstance(Class.java:418)
+	at vn.com.onesoft.bigfox.io.message.base.MessageExecute.loadCoreClasses(MessageExecute.java:53)
+	at vn.com.onesoft.bigfox.io.message.base.MessageExecute.getInstance(MessageExecute.java:39)
+	at vn.com.onesoft.bigfox.io.core.socket.SocketClientHandler.<init>(SocketClientHandler.java:22)
+	at vn.com.onesoft.bigfox.io.core.session.BFConnectionManager$1.initChannel(BFConnectionManager.java:50)
+	at vn.com.onesoft.bigfox.io.core.session.BFConnectionManager$1.initChannel(BFConnectionManager.java:46)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:69)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelRegisteredNow(ChannelHandlerInvokerUtil.java:32)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRegistered(DefaultChannelHandlerInvoker.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:114)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:833)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:487)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:401)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:461)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: vn.com.onesoft.bigfox.io.message.core.sc.SCValidationCode.<init>()
+	at java.lang.Class.getConstructor0(Class.java:2971)
+	at java.lang.Class.newInstance(Class.java:403)
+	... 18 more
+2015-08-23 23:06:59,280 [nioEventLoopGroup-2-1] ERROR - vn.com.onesoft.bigfox.io.message.core.sc.SCInitSession
+java.lang.InstantiationException: vn.com.onesoft.bigfox.io.message.core.sc.SCInitSession
+	at java.lang.Class.newInstance(Class.java:418)
+	at vn.com.onesoft.bigfox.io.message.base.MessageExecute.loadCoreClasses(MessageExecute.java:53)
+	at vn.com.onesoft.bigfox.io.message.base.MessageExecute.getInstance(MessageExecute.java:39)
+	at vn.com.onesoft.bigfox.io.core.socket.SocketClientHandler.<init>(SocketClientHandler.java:22)
+	at vn.com.onesoft.bigfox.io.core.session.BFConnectionManager$1.initChannel(BFConnectionManager.java:50)
+	at vn.com.onesoft.bigfox.io.core.session.BFConnectionManager$1.initChannel(BFConnectionManager.java:46)
+	at io.netty.channel.ChannelInitializer.channelRegistered(ChannelInitializer.java:69)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelRegisteredNow(ChannelHandlerInvokerUtil.java:32)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRegistered(DefaultChannelHandlerInvoker.java:50)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRegistered(AbstractChannelHandlerContext.java:114)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRegistered(DefaultChannelPipeline.java:833)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:487)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$100(AbstractChannel.java:401)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:461)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: vn.com.onesoft.bigfox.io.message.core.sc.SCInitSession.<init>()
+	at java.lang.Class.getConstructor0(Class.java:2971)
+	at java.lang.Class.newInstance(Class.java:403)
+	... 18 more
+2015-08-23 23:06:59,287 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0xec7ac80f, /127.0.0.1:56343 => localhost/127.0.0.1:33333]
+2015-08-23 23:06:59,340 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-08-23 23:06:59,341 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-08-23 23:06:59,380 [nioEventLoopGroup-2-1] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.io.core.encrypt.BFEncryptManager.crypt(BFEncryptManager.java:21)
+	at vn.com.onesoft.bigfox.io.core.socket.SocketClientHandler.channelRead(SocketClientHandler.java:38)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-23 23:06:59,381 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0xec7ac80f, /127.0.0.1:56343 :> localhost/127.0.0.1:33333]
+2015-08-23 23:07:01,589 [nioEventLoopGroup-2-1] DEBUG - Freed 1 thread-local buffer(s) from thread: nioEventLoopGroup-2-1

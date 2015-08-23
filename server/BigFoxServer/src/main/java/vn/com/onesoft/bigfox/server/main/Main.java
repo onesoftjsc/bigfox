@@ -35,7 +35,6 @@ import vn.com.onesoft.bigfox.server.io.message.base.MessageExecute;
  */
 public class Main {
 
-
     public static ServerBootstrap bootstrap;//Help class để khởi tạo server socket
 
     public static ChannelGroup allChannels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);//Netty, lưu trữ tất cả channels để đóng lại khi tắt ứng dụng
@@ -83,6 +82,8 @@ public class Main {
                     .childHandler(new ChannelInitializer<SocketChannel>() { // (4)
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
+//                            ch.pipeline().addLast("frameDecoder", new DelimiterBasedFrameDecoder(80960, Delimiters.lineDelimiter()));
+//                            ch.pipeline().addLast("stringDecoder", new StringDecoder(CharsetUtil.UTF_8));
                             ch.pipeline().addLast("decoder", new SocketChannelDecoder());
                             ch.pipeline().addLast("handler", new SocketServerHandler());
 

@@ -6,7 +6,6 @@ package vn.com.onesoft.bigfox.server.io.message.base;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
-import vn.com.onesoft.bigfox.server.io.core.compress.CompressManager;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 
 /**

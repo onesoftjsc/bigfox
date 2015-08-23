@@ -16,8 +16,9 @@ import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
  */
 public class SocketChannelDecoder extends ByteToMessageDecoder {
 
-    public static int MAX_PACKET_LENGTH = 5000000; //5M
+    public static int MAX_PACKET_LENGTH = 10000000; //5M
 
+    
     @Override
     protected void decode(ChannelHandlerContext chc, ByteBuf cb, List<Object> out) throws Exception {
         int numRead = cb.readableBytes();// Số lượng byte đã đọc được
