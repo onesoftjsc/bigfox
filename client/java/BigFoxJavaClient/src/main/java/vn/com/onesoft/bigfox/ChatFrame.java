@@ -7,8 +7,12 @@
 package vn.com.onesoft.bigfox;
 
 import javax.swing.DefaultListModel;
+import javax.swing.JOptionPane;
 import vn.com.onesoft.bigfox.io.core.session.ConnectionManager;
+import vn.com.onesoft.bigfox.io.message.base.MessageOut;
+import vn.com.onesoft.bigfox.io.message.user.cs.CSBigData;
 import vn.com.onesoft.bigfox.io.message.user.cs.CSChat;
+import vn.com.onesoft.bigfox.io.message.user.cs.CSName;
 
 /**
  *
@@ -39,6 +43,13 @@ public class ChatFrame extends javax.swing.JFrame {
         }).start();
         
         jList1.setModel(resultList);
+        
+       String name =  JOptionPane.showInputDialog("Input Name");
+       if (name == null){
+          System.exit(0);
+       }else{
+           ConnectionManager.getInstance().write(new CSName(name));
+       }
     }
 
     /**
@@ -97,7 +108,8 @@ public class ChatFrame extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        ConnectionManager.getInstance().write(new CSChat(jTextField1.getText()));
+//        ConnectionManager.getInstance().write(new CSChat(jTextField1.getText()));
+        ConnectionManager.getInstance().write(new CSBigData(new byte[8000000]));
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
