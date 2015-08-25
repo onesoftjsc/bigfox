@@ -14,7 +14,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 import org.reflections.Reflections;
-import vn.com.onesoft.bigfox.io.core.session.BFConnectionManager;
+import vn.com.onesoft.bigfox.io.core.session.ConnectionManager;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;
 
 /**
@@ -89,7 +89,7 @@ public class MessageExecute {
                 message.setSSequence(sSequence);
                 message.setStatus(status);
                 message.setCheckSum(checkSum);
-                BFConnectionManager.getInstance().onMessage(channel, message);
+                ConnectionManager.getInstance().onMessage(channel, message);
             }
         }
     }

@@ -7,7 +7,7 @@
 package vn.com.onesoft.bigfox.io.message.core.cs;
 
 import io.netty.channel.Channel;
-import vn.com.onesoft.bigfox.io.core.session.BFConnectionManager;
+import vn.com.onesoft.bigfox.io.core.session.ConnectionManager;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.io.message.annotations.Property;
 import vn.com.onesoft.bigfox.io.message.base.MessageOut;
@@ -24,4 +24,5 @@ public class CSPing extends MessageOut {
     @Property(name = "clientTime")
     private long clientTime;
 
+    
 }

@@ -8,10 +8,11 @@ package vn.com.onesoft.bigfox.io.message.core.sc;
 
 
 import io.netty.channel.Channel;
+import vn.com.onesoft.bigfox.io.core.session.ConnectionManager;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.io.message.annotations.Property;
 import vn.com.onesoft.bigfox.io.message.base.MessageIn;
-import vn.com.onesoft.bigfox.io.message.base.MessageOut;
+import vn.com.onesoft.bigfox.io.message.core.cs.CSClientInfo;
 import vn.com.onesoft.bigfox.io.message.core.tags.CoreTags;
 
 /**
@@ -24,13 +25,10 @@ public class SCValidationCode extends MessageIn {
     @Property(name = "validationCode")
     private int validationCode;
 
-    public SCValidationCode(int validationCode) {
-        this.validationCode = validationCode;
-    }
-
     @Override
     public void execute(Channel channel) {
-        
+        ConnectionManager.getInstance().setValidationCode(validationCode);
+        ConnectionManager.getInstance().write(new CSClientInfo());
     }
 
 }

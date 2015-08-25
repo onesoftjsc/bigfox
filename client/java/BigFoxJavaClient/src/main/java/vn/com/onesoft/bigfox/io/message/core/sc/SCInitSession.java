@@ -9,6 +9,8 @@ package vn.com.onesoft.bigfox.io.message.core.sc;
 
 
 import io.netty.channel.Channel;
+import vn.com.onesoft.bigfox.io.core.session.ConnectionManager;
+import vn.com.onesoft.bigfox.io.core.session.PingThreadManager;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.io.message.annotations.Property;
 import vn.com.onesoft.bigfox.io.message.base.MessageIn;
@@ -26,16 +28,17 @@ public class SCInitSession extends MessageIn{
 
     public static final int START_NEW_SESSION = 0x01;
     public static final int CONTINUE_OLD_SESSION = 0x02;
-    
-    public SCInitSession(int sessionStatus) {
-        this.sessionStatus = sessionStatus;
-    }
 
     @Override
     public void execute(Channel channel) {
-        
+            	// TODO Auto-generated method stub
+    	if (sessionStatus == START_NEW_SESSION){
+    		ConnectionManager.getInstance().onStartNewSession();
+    		PingThreadManager.getInstance();
+    	}else{
+    		ConnectionManager.getInstance().resendOldMessages();
+    		ConnectionManager.getInstance().onContinueOldSession();
+    	}
     }
-    
-    
-    
+
 }

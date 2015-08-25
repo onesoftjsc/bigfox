@@ -21,6 +21,7 @@ public class BFConfig {
 
     private String ip;
     private int port;
+    private int version;
 
     private static BFConfig _instance = null;
 
@@ -43,12 +44,17 @@ public class BFConfig {
             NodeList SPortSocket = doc.getElementsByTagName("ip");
             Element ePortSocket = (Element) SPortSocket.item(0);
             NodeList nPortSocket = ePortSocket.getChildNodes();
-            this.setIp(((Node) nPortSocket.item(0)).getNodeValue());
+            this.ip = ((Node) nPortSocket.item(0)).getNodeValue();
 
             NodeList SPortWebSocket = doc.getElementsByTagName("port");
             Element ePortWebSocket = (Element) SPortWebSocket.item(0);
             NodeList nPortWebSocket = ePortWebSocket.getChildNodes();
-            this.setPort(Integer.parseInt(((Node) nPortWebSocket.item(0)).getNodeValue()));
+            this.port = Integer.parseInt(((Node) nPortWebSocket.item(0)).getNodeValue());
+
+            NodeList sVersion = doc.getElementsByTagName("version");
+            Element eVersion = (Element) sVersion.item(0);
+            NodeList nVersion = eVersion.getChildNodes();
+            this.version = Integer.parseInt(((Node) nVersion.item(0)).getNodeValue());
 
         } catch (Exception ex) {
 
@@ -63,24 +69,18 @@ public class BFConfig {
     }
 
     /**
-     * @param ip the ip to set
-     */
-    public void setIp(String ip) {
-        this.ip = ip;
-    }
-
-    /**
      * @return the port
      */
     public int getPort() {
         return port;
     }
 
+
     /**
-     * @param port the port to set
+     * @return the version
      */
-    public void setPort(int port) {
-        this.port = port;
+    public int getVersion() {
+        return version;
     }
 
 

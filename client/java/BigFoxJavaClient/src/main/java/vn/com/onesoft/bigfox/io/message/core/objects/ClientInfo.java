@@ -28,4 +28,5 @@ public class ClientInfo {
     public final static String DEVICE_ANDROID = "android";
     public final static String DEVICE_WP = "wp";
     public final static String DEVICE_WEB = "web";
+    public final static String DEVICE_DESKTOP = "desktop";
 }

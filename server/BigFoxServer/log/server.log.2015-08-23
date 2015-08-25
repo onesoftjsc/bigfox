@@ -1,0 +1,29 @@
+2015-08-23 23:00:54,098 [Thread-1] INFO - Socket start at port 33333
+2015-08-23 23:00:54,098 [Thread-2] INFO - WebSocket start at port 33332
+2015-08-23 23:00:54,128 [Thread-1] DEBUG - -Dio.netty.processId: 4927 (auto-detected)
+2015-08-23 23:00:54,131 [Thread-1] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-08-23 23:00:54,132 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x3778e02ceef93541 (took 16 ms)
+2015-08-23 23:00:54,161 [Thread-2] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-08-23 23:00:54,161 [Thread-2] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-08-23 23:00:54,162 [Thread-2] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-08-23 23:00:54,162 [Thread-2] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-08-23 23:00:54,162 [Thread-2] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-08-23 23:00:54,162 [Thread-2] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-08-23 23:00:54,162 [Thread-2] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-08-23 23:00:54,162 [Thread-2] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-08-23 23:00:54,162 [Thread-2] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-08-23 23:00:54,162 [Thread-2] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-08-23 23:00:54,168 [Thread-2] DEBUG - -Dio.netty.allocator.type: pooled
+2015-08-23 23:00:54,169 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-08-23 23:00:54,170 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-08-23 23:00:54,171 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-08-23 23:00:54,180 [nioEventLoopGroup-3-1] INFO - [id: 0xadb5d823] REGISTERED
+2015-08-23 23:00:54,180 [nioEventLoopGroup-3-1] INFO - [id: 0xadb5d823] BIND: 0.0.0.0/0.0.0.0:33332
+2015-08-23 23:00:54,184 [nioEventLoopGroup-3-1] INFO - [id: 0xadb5d823, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-08-23 23:06:59,294 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x17d86f5a, /127.0.0.1:56343 => /127.0.0.1:33333]
+2015-08-23 23:06:59,297 [nioEventLoopGroup-5-1] INFO - SCValidationCode {
+  validationCode: -795500851
+}
+2015-08-23 23:06:59,308 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-08-23 23:06:59,315 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-08-23 23:06:59,384 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x17d86f5a, /127.0.0.1:56343 :> /127.0.0.1:33333]

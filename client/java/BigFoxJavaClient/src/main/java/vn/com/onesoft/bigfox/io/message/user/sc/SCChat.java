@@ -1,31 +1,32 @@
-package vn.com.onesoft.bigfox.io.message.core.sc;
-
 /*
  * Author: HuongNS
  * Copyright @ 2015 by OneSoft.,JSC
  * 
  */
-
+package vn.com.onesoft.bigfox.io.message.user.sc;
 
 import io.netty.channel.Channel;
+import vn.com.onesoft.bigfox.ChatFrame;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.io.message.annotations.Property;
 import vn.com.onesoft.bigfox.io.message.base.MessageIn;
-import vn.com.onesoft.bigfox.io.message.core.tags.CoreTags;
+import vn.com.onesoft.bigfox.io.message.user.tags.Tags;
 
 /**
  *
  * @author HuongNS
  */
-@Message(tag = CoreTags.SC_PING, name = "SC_PING", isCore = true)
-public class SCPing extends MessageIn {
+@Message(tag = Tags.SC_CHAT, name = "SC_CHAT")
+public class SCChat extends MessageIn {
 
-    @Property(name = "serverTime")
-    private long serverTime;
+    @Property(name = "msg")
+    private String msg;
 
     @Override
     public void execute(Channel channel) {
-        
+        ChatFrame.getInstance().onChat(msg);
     }
 
+
+    
 }
