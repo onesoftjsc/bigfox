@@ -305,7 +305,7 @@ static const char * getPropertyType(objc_property_t property) {
     for (int i = 0; i < [properties count]; i ++) {
         NSString* sname = (NSString*)[properties objectAtIndex:i];
         [out writeUTF:sname];
-        objc_property_t property = class_getProperty(class, [sname UTF8String]);
+        objc_property_t property = class_getProperty([object class], [sname UTF8String]);
         const char *propType = getPropertyType(property);
         NSString *propertyType = [NSString stringWithUTF8String:propType];
         Class typeClass = NSClassFromString(propertyType);
