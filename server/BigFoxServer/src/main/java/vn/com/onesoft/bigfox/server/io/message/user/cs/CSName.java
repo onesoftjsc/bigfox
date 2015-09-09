@@ -31,6 +31,7 @@ public class CSName extends MessageIn {
     public void execute(Channel channel) {
         IBFSession session = BFSessionManager.getInstance().getSessionByChannel(channel);
         Main.mapSessionToName.put(session, msg);
+        
     }
 
 
