@@ -2,4 +2,5 @@
     <port_socket>33333</port_socket>
     <port_websocket>33332</port_websocket>
     <enable_zip>1</enable_zip>
+    <reload_class_path>/Users/phamquan/github/bigfox/server/BigFoxServer/target/classes/vn/com/onesoft/bigfox/server/io/message/user/cs</reload_class_path>
 </configuration>

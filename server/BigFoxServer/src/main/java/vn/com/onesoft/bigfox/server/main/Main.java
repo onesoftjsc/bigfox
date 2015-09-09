@@ -23,6 +23,8 @@ import io.netty.util.concurrent.GlobalEventExecutor;
 import java.security.cert.CertificateException;
 import java.util.Map;
 import javax.net.ssl.SSLException;
+import vn.com.onesoft.bigfox.server.helper.classmanager.Scanner;
+import vn.com.onesoft.bigfox.server.io.core.session.IBFSession;
 import vn.com.onesoft.bigfox.server.io.core.socket.SocketChannelDecoder;
 import vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler;
 import vn.com.onesoft.bigfox.server.io.core.websocket.WebSocketServerInitializer;
@@ -40,12 +42,16 @@ public class Main {
     public static ChannelGroup allChannels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);//Netty, lưu trữ tất cả channels để đóng lại khi tắt ứng dụng
     public static Map<Channel, Boolean> mapChannelWebSocket = new MapMaker().makeMap();
 
+    
+    public static Map<IBFSession, String> mapSessionToName = new MapMaker().makeMap();
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
 
+
         MessageExecute.getInstance();
+        Scanner.getInstance();
         new Thread(new Runnable() {
 
             @Override
