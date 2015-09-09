@@ -51,7 +51,7 @@ public class BigFoxUtils {
         byte[] data = baos.toByteArray();
         return data;
     }
-
+// read data dis 
     private static void read(Object object, DataInputStream dis)
             throws Exception {
         int nFields = dis.readByte();
