@@ -1,2 +1,4 @@
 /server/BigFoxServer/target/
 /client/java/BigFoxJavaClient/target/
+/server/BigFoxServer/log/
+/client/java/BigFoxJavaClient/log/
