@@ -94,8 +94,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 String mText = input.getText().toString();
-//                ConnectionManager.getInstance().write(new CSName(mText));
-                sendBigData();
+                ConnectionManager.getInstance().write(new CSName(mText));
+//                sendBigData();
             }
         });
         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {

@@ -22,7 +22,8 @@ public class BFConfig {
     private int portSocket;
     private int portWebSocket;
     private boolean enableZip;
-
+    private String[] reloadClassPaths = null;
+    
     private static BFConfig _instance = null;
 
     public static BFConfig getInstance() {
@@ -55,6 +56,9 @@ public class BFConfig {
             Element eZip = (Element) SZip.item(0);
             NodeList nZip = eZip.getChildNodes();
             this.enableZip = (Integer.parseInt(((Node) nZip.item(0)).getNodeValue()) == 1);
+            
+             this.reloadClassPaths = doc.getElementsByTagName("reload_class_path").item(0).getChildNodes().item(0).getNodeValue().split(";");
+
         } catch (Exception ex) {
 
         }
@@ -76,6 +80,13 @@ public class BFConfig {
     
     public boolean enableZip(){
         return enableZip;
+    }
+
+    /**
+     * @return the reloadClassPaths
+     */
+    public String[] getReloadClassPaths() {
+        return reloadClassPaths;
     }
 
 }

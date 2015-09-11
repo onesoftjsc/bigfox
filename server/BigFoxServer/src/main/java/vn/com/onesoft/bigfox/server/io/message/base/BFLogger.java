@@ -17,7 +17,7 @@ import vn.com.onesoft.bigfox.server.io.message.core.sc.SCPing;
  */
 public class BFLogger {
 
-    public static Logger logger = Logger.getLogger(BFLogger.class);
+    private static Logger logger = Logger.getLogger(BFLogger.class);
 
     static {
         DOMConfigurator.configure("log4j_config.xml");
