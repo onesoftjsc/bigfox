@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "BFDataInputStream.h"
+#import "BFDataOutputStream.h"
 enum {
     BNULL = 0,
     BNOT_NULL = 1,
@@ -33,7 +34,7 @@ enum {
     BARRAY_OBJECT = 20
 };
 @interface BigFoxUtils : NSObject
-+ (char*) toBytes: (id) object ;
++ (NSData*) toBytes: (id) object ;
 + (void) read :(id) object withData: (NSData*) data;
 + (void) read : (id) object withBytes:(char*) data length: (int) length;
 + (id) fromBytes : (Class) class withBytes: (char*) data : length: (int)length;
@@ -41,6 +42,8 @@ enum {
 + (void) write : (id)object : (BFDataOutputStream*) out ;
 + (void) write:(id)object withBytes :(char*)data length : (int)length ;
 + (NSString*) toString : (id) object;
-+ (NSString*) toString:(char*) data : (int) length;
-+ (NSString*) toStringWithData: (BFDataInputStream*) in ;
++ (NSString*) toStringWithData : (NSData*) data;
++ (NSString*) toString : (BFDataInputStream*) data : (int) indent;
++ (void) indent: (NSString*) sb : (int) indent;
 @end
+

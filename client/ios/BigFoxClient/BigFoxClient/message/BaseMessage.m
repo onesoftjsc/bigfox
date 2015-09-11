@@ -90,4 +90,8 @@
 - (BOOL) isCore {
     return isCore;
 }
+
+- (void) execute {
+    
+}
 @end

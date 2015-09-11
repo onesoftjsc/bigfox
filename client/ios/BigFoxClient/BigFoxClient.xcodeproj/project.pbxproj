@@ -32,6 +32,8 @@
 		5B2342F11B998992001E182B /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2342F01B998992001E182B /* ConnectionManager.m */; };
 		5B2342F71B99A4B0001E182B /* BFLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2342F61B99A4B0001E182B /* BFLogger.m */; };
 		5B2342FD1B99A7F9001E182B /* BigFoxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2342FC1B99A7F9001E182B /* BigFoxUtils.m */; };
+		5BB529081BA128E7004E3393 /* TestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB529071BA128E7004E3393 /* TestUser.m */; };
+		5BB5290B1BA19578004E3393 /* MessageIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5290A1BA19578004E3393 /* MessageIn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,10 @@
 		5B2342F61B99A4B0001E182B /* BFLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFLogger.m; sourceTree = "<group>"; };
 		5B2342FB1B99A7F9001E182B /* BigFoxUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigFoxUtils.h; sourceTree = "<group>"; };
 		5B2342FC1B99A7F9001E182B /* BigFoxUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigFoxUtils.m; sourceTree = "<group>"; };
+		5BB529061BA128E7004E3393 /* TestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUser.h; sourceTree = "<group>"; };
+		5BB529071BA128E7004E3393 /* TestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUser.m; sourceTree = "<group>"; };
+		5BB529091BA19578004E3393 /* MessageIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageIn.h; sourceTree = "<group>"; };
+		5BB5290A1BA19578004E3393 /* MessageIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageIn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +167,8 @@
 				5B2342A71B99343F001E182B /* LaunchScreen.xib */,
 				5B23429C1B99343F001E182B /* BigFoxClient.xcdatamodeld */,
 				5B2342951B99343F001E182B /* Supporting Files */,
+				5BB529061BA128E7004E3393 /* TestUser.h */,
+				5BB529071BA128E7004E3393 /* TestUser.m */,
 			);
 			path = BigFoxClient;
 			sourceTree = "<group>";
@@ -270,6 +278,8 @@
 				5B1595581B9D40130011BF4F /* BFDataInputStream.m */,
 				5B15955A1B9D40C60011BF4F /* BFDataOutputStream.h */,
 				5B15955B1B9D40C60011BF4F /* BFDataOutputStream.m */,
+				5BB529091BA19578004E3393 /* MessageIn.h */,
+				5BB5290A1BA19578004E3393 /* MessageIn.m */,
 			);
 			path = message;
 			sourceTree = "<group>";
@@ -447,6 +457,7 @@
 			files = (
 				5B2342D11B99450F001E182B /* CompressManager.m in Sources */,
 				5B23429E1B99343F001E182B /* BigFoxClient.xcdatamodeld in Sources */,
+				5BB5290B1BA19578004E3393 /* MessageIn.m in Sources */,
 				5B23429B1B99343F001E182B /* AppDelegate.m in Sources */,
 				5B2342E41B9959E2001E182B /* EncryptManager.m in Sources */,
 				5B2342D41B9947A5001E182B /* BFZip.m in Sources */,
@@ -454,6 +465,7 @@
 				5B2342FD1B99A7F9001E182B /* BigFoxUtils.m in Sources */,
 				5B2342EE1B998486001E182B /* PingThreadManager.m in Sources */,
 				5B1595591B9D40130011BF4F /* BFDataInputStream.m in Sources */,
+				5BB529081BA128E7004E3393 /* TestUser.m in Sources */,
 				5B2342EB1B997B09001E182B /* DefaultSessionControl.m in Sources */,
 				5B2342F71B99A4B0001E182B /* BFLogger.m in Sources */,
 				5B2342A11B99343F001E182B /* ViewController.m in Sources */,

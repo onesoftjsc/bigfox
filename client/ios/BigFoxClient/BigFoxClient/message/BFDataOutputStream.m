@@ -95,12 +95,20 @@
     }
 }
 
--(void)writeFloat:(float_t)v
+-(void)writeFloat:(float)v
 {
     NSSwappedFloat bigEndianFloat;
     bigEndianFloat=NSSwapHostFloatToBig(v);
     [data appendBytes:&bigEndianFloat length:4];
     length+=4;
+}
+
+-(void) writeDouble:(double)v
+{
+    NSSwappedDouble bigEndianDouble;
+    bigEndianDouble=NSSwapHostDoubleToBig(v);
+    [data appendBytes:&bigEndianDouble length:8];
+    length+=8;
 }
 
 -(UInt32)littleToBig:(UInt32) value

@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BigFoxUtils.h"
+#import "TestUser.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    TestUser* userA = [[TestUser alloc] init];
+    userA.name = @"abc";
+    userA.textChat = @"bcd";
+    
+    int length = 0;
+    NSData* dataA = [BigFoxUtils toBytes:userA];
+    
+    TestUser* userB = [[TestUser alloc]init ];
+    [BigFoxUtils read:userB withData:dataA];
+    
+    NSLog(@" data : \n %@", [BigFoxUtils toString:userB]);
     return YES;
 }
 
