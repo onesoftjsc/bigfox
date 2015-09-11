@@ -32,11 +32,6 @@
 		5B2342F11B998992001E182B /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2342F01B998992001E182B /* ConnectionManager.m */; };
 		5B2342F71B99A4B0001E182B /* BFLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2342F61B99A4B0001E182B /* BFLogger.m */; };
 		5B2342FD1B99A7F9001E182B /* BigFoxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2342FC1B99A7F9001E182B /* BigFoxUtils.m */; };
-		5B44B9A81BA2BCAC00938D67 /* ROAnnotatedUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B44B9A31BA2BCAC00938D67 /* ROAnnotatedUnit.m */; };
-		5B44B9A91BA2BCAC00938D67 /* ROAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B44B9A51BA2BCAC00938D67 /* ROAnnotation.m */; };
-		5B44B9AA1BA2BCAC00938D67 /* ROClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B44B9A71BA2BCAC00938D67 /* ROClassInfo.m */; };
-		5B44B9AD1BA2BCE900938D67 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B44B9AC1BA2BCE900938D67 /* Message.m */; };
-		5B44B9B01BA2BD0000938D67 /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B44B9AF1BA2BD0000938D67 /* Property.m */; };
 		5BB529081BA128E7004E3393 /* TestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB529071BA128E7004E3393 /* TestUser.m */; };
 		5BB5290B1BA19578004E3393 /* MessageIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5290A1BA19578004E3393 /* MessageIn.m */; };
 /* End PBXBuildFile section */
@@ -98,16 +93,6 @@
 		5B2342F61B99A4B0001E182B /* BFLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFLogger.m; sourceTree = "<group>"; };
 		5B2342FB1B99A7F9001E182B /* BigFoxUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigFoxUtils.h; sourceTree = "<group>"; };
 		5B2342FC1B99A7F9001E182B /* BigFoxUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigFoxUtils.m; sourceTree = "<group>"; };
-		5B44B9A21BA2BCAC00938D67 /* ROAnnotatedUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROAnnotatedUnit.h; sourceTree = "<group>"; };
-		5B44B9A31BA2BCAC00938D67 /* ROAnnotatedUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROAnnotatedUnit.m; sourceTree = "<group>"; };
-		5B44B9A41BA2BCAC00938D67 /* ROAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROAnnotation.h; sourceTree = "<group>"; };
-		5B44B9A51BA2BCAC00938D67 /* ROAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROAnnotation.m; sourceTree = "<group>"; };
-		5B44B9A61BA2BCAC00938D67 /* ROClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROClassInfo.h; sourceTree = "<group>"; };
-		5B44B9A71BA2BCAC00938D67 /* ROClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROClassInfo.m; sourceTree = "<group>"; };
-		5B44B9AB1BA2BCE900938D67 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
-		5B44B9AC1BA2BCE900938D67 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
-		5B44B9AE1BA2BD0000938D67 /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
-		5B44B9AF1BA2BD0000938D67 /* Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Property.m; sourceTree = "<group>"; };
 		5BB529061BA128E7004E3393 /* TestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUser.h; sourceTree = "<group>"; };
 		5BB529071BA128E7004E3393 /* TestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUser.m; sourceTree = "<group>"; };
 		5BB529091BA19578004E3393 /* MessageIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageIn.h; sourceTree = "<group>"; };
@@ -280,7 +265,6 @@
 		5B2342C41B994481001E182B /* message */ = {
 			isa = PBXGroup;
 			children = (
-				5B44B9A01BA2BCAC00938D67 /* annotation */,
 				5B2342C51B994481001E182B /* core */,
 				5B2342CA1B994481001E182B /* user */,
 				5B2342DF1B994E45001E182B /* BaseMessage.h */,
@@ -368,31 +352,6 @@
 			children = (
 			);
 			path = tags;
-			sourceTree = "<group>";
-		};
-		5B44B9A01BA2BCAC00938D67 /* annotation */ = {
-			isa = PBXGroup;
-			children = (
-				5B44B9A11BA2BCAC00938D67 /* filesNeededForReadingAnnotationsOnly */,
-				5B44B9AB1BA2BCE900938D67 /* Message.h */,
-				5B44B9AC1BA2BCE900938D67 /* Message.m */,
-				5B44B9AE1BA2BD0000938D67 /* Property.h */,
-				5B44B9AF1BA2BD0000938D67 /* Property.m */,
-			);
-			path = annotation;
-			sourceTree = "<group>";
-		};
-		5B44B9A11BA2BCAC00938D67 /* filesNeededForReadingAnnotationsOnly */ = {
-			isa = PBXGroup;
-			children = (
-				5B44B9A21BA2BCAC00938D67 /* ROAnnotatedUnit.h */,
-				5B44B9A31BA2BCAC00938D67 /* ROAnnotatedUnit.m */,
-				5B44B9A41BA2BCAC00938D67 /* ROAnnotation.h */,
-				5B44B9A51BA2BCAC00938D67 /* ROAnnotation.m */,
-				5B44B9A61BA2BCAC00938D67 /* ROClassInfo.h */,
-				5B44B9A71BA2BCAC00938D67 /* ROClassInfo.m */,
-			);
-			path = filesNeededForReadingAnnotationsOnly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,18 +464,13 @@
 				5B2342E71B9978C9001E182B /* BFUtils.m in Sources */,
 				5B2342FD1B99A7F9001E182B /* BigFoxUtils.m in Sources */,
 				5B2342EE1B998486001E182B /* PingThreadManager.m in Sources */,
-				5B44B9AD1BA2BCE900938D67 /* Message.m in Sources */,
 				5B1595591B9D40130011BF4F /* BFDataInputStream.m in Sources */,
-				5B44B9AA1BA2BCAC00938D67 /* ROClassInfo.m in Sources */,
 				5BB529081BA128E7004E3393 /* TestUser.m in Sources */,
 				5B2342EB1B997B09001E182B /* DefaultSessionControl.m in Sources */,
 				5B2342F71B99A4B0001E182B /* BFLogger.m in Sources */,
-				5B44B9A91BA2BCAC00938D67 /* ROAnnotation.m in Sources */,
 				5B2342A11B99343F001E182B /* ViewController.m in Sources */,
-				5B44B9B01BA2BD0000938D67 /* Property.m in Sources */,
 				5B2342F11B998992001E182B /* ConnectionManager.m in Sources */,
 				5B2342E11B994E45001E182B /* BaseMessage.m in Sources */,
-				5B44B9A81BA2BCAC00938D67 /* ROAnnotatedUnit.m in Sources */,
 				5B15955C1B9D40C60011BF4F /* BFDataOutputStream.m in Sources */,
 				5B2342981B99343F001E182B /* main.m in Sources */,
 			);
