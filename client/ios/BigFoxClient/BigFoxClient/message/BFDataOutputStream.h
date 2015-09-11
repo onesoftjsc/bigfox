@@ -26,11 +26,12 @@
 
 - (NSData *)toByteArray;
 
--(void)writeBoolaen:(bool)v;
+- (void)writeBoolaen:(bool)v;
 
--(void)writeFloat:(float)v;
+- (void)writeFloat:(float)v;
 
--(void)writeDouble:(double)v;
+- (void)writeDouble:(double)v;
 
 - (void) writeByte : (int)v;
+
 @end
