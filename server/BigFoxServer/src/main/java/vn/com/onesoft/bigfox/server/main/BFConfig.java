@@ -12,6 +12,8 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
+import vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils;
 
 /**
  *
@@ -21,9 +23,11 @@ public class BFConfig {
 
     private int portSocket;
     private int portWebSocket;
+    private int portTelnet;
+
     private boolean enableZip;
     private String[] reloadClassPaths = null;
-    
+
     private static BFConfig _instance = null;
 
     public static BFConfig getInstance() {
@@ -42,25 +46,15 @@ public class BFConfig {
             Document doc = db.parse(file);
             doc.getDocumentElement().normalize();
 
-            NodeList SPortSocket = doc.getElementsByTagName("port_socket");
-            Element ePortSocket = (Element) SPortSocket.item(0);
-            NodeList nPortSocket = ePortSocket.getChildNodes();
-            this.portSocket = Integer.parseInt(((Node) nPortSocket.item(0)).getNodeValue());
-
-            NodeList SPortWebSocket = doc.getElementsByTagName("port_websocket");
-            Element ePortWebSocket = (Element) SPortWebSocket.item(0);
-            NodeList nPortWebSocket = ePortWebSocket.getChildNodes();
-            this.portWebSocket = Integer.parseInt(((Node) nPortWebSocket.item(0)).getNodeValue());
-
-            NodeList SZip = doc.getElementsByTagName("enable_zip");
-            Element eZip = (Element) SZip.item(0);
-            NodeList nZip = eZip.getChildNodes();
-            this.enableZip = (Integer.parseInt(((Node) nZip.item(0)).getNodeValue()) == 1);
-            
-             this.reloadClassPaths = doc.getElementsByTagName("reload_class_path").item(0).getChildNodes().item(0).getNodeValue().split(";");
+            this.portSocket = Integer.parseInt(doc.getElementsByTagName("port_socket").item(0).getChildNodes().item(0).getNodeValue());
+            this.portWebSocket = Integer.parseInt(doc.getElementsByTagName("port_websocket").item(0).getChildNodes().item(0).getNodeValue());
+            this.portTelnet = Integer.parseInt(doc.getElementsByTagName("port_telnet").item(0).getChildNodes().item(0).getNodeValue());
+            this.enableZip = (Integer.parseInt(doc.getElementsByTagName("enable_zip").item(0).getChildNodes().item(0).getNodeValue()) == 1);
+            this.reloadClassPaths = doc.getElementsByTagName("reload_class_path").item(0).getChildNodes().item(0).getNodeValue().split(";");
 
         } catch (Exception ex) {
-
+            BFLogger.getInstance().error(ex.getMessage(), ex);
+            System.exit(0);
         }
     }
 
@@ -78,7 +72,11 @@ public class BFConfig {
         return portWebSocket;
     }
     
-    public boolean enableZip(){
+    public int getPortTelnet(){
+        return portTelnet;
+    }
+
+    public boolean enableZip() {
         return enableZip;
     }
 
