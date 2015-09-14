@@ -16,7 +16,6 @@ import java.util.ArrayList;
 
 import bigfox.onesoft.com.vn.bigfoxandroid.R;
 import vn.com.onesoft.bigfox.io.core.session.ConnectionManager;
-import vn.com.onesoft.bigfox.io.message.user.cs.CSBigData;
 import vn.com.onesoft.bigfox.io.message.user.cs.CSChat;
 import vn.com.onesoft.bigfox.io.message.user.cs.CSName;
 
@@ -95,7 +94,6 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             public void onClick(DialogInterface dialog, int which) {
                 String mText = input.getText().toString();
                 ConnectionManager.getInstance().write(new CSName(mText));
-//                sendBigData();
             }
         });
         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -107,8 +105,4 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         builder.show();
     }
 
-    private void sendBigData(){
-//        for (int i = 0; i < 2; i++)
-        ConnectionManager.getInstance().write(new CSBigData(new byte[8000000]));
-    }
 }

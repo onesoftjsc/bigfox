@@ -12,7 +12,6 @@ package vn.com.onesoft.bigfox.io.message.user.tags;
 public class Tags {
     public static final int CS_NAME = 0x000001;
     public static final int CS_CHAT = 0x000002;
-    public static final int CS_BIGDATA = 0x000003;
     
     public static final int SC_CHAT = 0x110001;
 }

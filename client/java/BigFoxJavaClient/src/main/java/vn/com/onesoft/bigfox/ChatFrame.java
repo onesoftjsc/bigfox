@@ -9,8 +9,6 @@ package vn.com.onesoft.bigfox;
 import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 import vn.com.onesoft.bigfox.io.core.session.ConnectionManager;
-import vn.com.onesoft.bigfox.io.message.base.MessageOut;
-import vn.com.onesoft.bigfox.io.message.user.cs.CSBigData;
 import vn.com.onesoft.bigfox.io.message.user.cs.CSChat;
 import vn.com.onesoft.bigfox.io.message.user.cs.CSName;
 
