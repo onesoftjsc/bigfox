@@ -9,7 +9,6 @@ import java.io.File;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
-import static javassist.bytecode.InnerClassesAttribute.tag;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageExecute;
@@ -26,11 +25,7 @@ public class ClassReloader extends ClassLoader {
         super(parent);
     }
 
-    private Class doLoadClass(String classPath) {
-        try {
-//            String mainPath = Main.class.getProtectionDomain().getCodeSource().getLocation().getPath();
-//            mainPath = mainPath.substring(0, mainPath.lastIndexOf(File.separatorChar) + 1);
-//            String fullPath = mainPath + classPath.replace('.', File.separatorChar);
+    private Class doLoadClass(String classPath)  throws Exception{
             File file = new File(classPath);
             URL myUrl = file.toURL();
             URLConnection connection = myUrl.openConnection();
@@ -52,13 +47,19 @@ public class ClassReloader extends ClassLoader {
             return defineClass(className,
                     classData, 0, classData.length);
 
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        return null;
     }
 
+    @Override
+    protected Class<?> findClass(String name) throws ClassNotFoundException {
+        try{
+            return doLoadClass(name);
+        }catch(Exception ex){
+            throw new ClassNotFoundException();
+        }
+    }
+
+
+    
     public static void reloadClass(String classPath) {
         try {
             ClassReloader classReloader = new ClassReloader(Main.class.getClassLoader());

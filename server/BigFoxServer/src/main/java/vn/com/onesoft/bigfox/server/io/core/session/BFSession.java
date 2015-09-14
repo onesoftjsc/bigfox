@@ -62,7 +62,7 @@ public class BFSession implements IBFSession {
 
     @Override
     public String getSessionId() {
-        return sessionId;
+        return clientInfo.sessionId;
     }
 
     @Override
