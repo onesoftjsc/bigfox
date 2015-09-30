@@ -1,4 +1,4 @@
-package vn.com.onesoft.bigfox.server.io.messaannotationsons;
+package vn.com.onesoft.bigfox.server.io.message.annotations;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

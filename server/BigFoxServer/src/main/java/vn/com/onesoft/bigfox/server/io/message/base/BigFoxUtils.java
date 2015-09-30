@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import vn.com.onesoft.bigfox.server.io.messaannotationsons.Property;
+import vn.com.onesoft.bigfox.server.io.message.annotations.Property;
 
 
 public class BigFoxUtils {

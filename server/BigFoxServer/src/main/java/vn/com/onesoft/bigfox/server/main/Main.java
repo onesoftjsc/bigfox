@@ -31,7 +31,7 @@ public class Main {
     public static ChannelGroup allChannels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);//Netty, lưu trữ tất cả channels để đóng lại khi tắt ứng dụng
     public static Map<Channel, Boolean> mapChannelWebSocket = new MapMaker().makeMap();
 
-    public static Map<IBFSession, String> mapSessionToName = new MapMaker().makeMap();
+
 
     /**
      * @param args the command line arguments

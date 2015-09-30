@@ -5,7 +5,7 @@
  */
 package vn.com.onesoft.bigfox.server.io.message.core.objects;
 
-import vn.com.onesoft.bigfox.server.io.messaannotationsons.Property;
+import vn.com.onesoft.bigfox.server.io.message.annotations.Property;
 
 /**
  *

@@ -8,8 +8,8 @@ package vn.com.onesoft.bigfox.server.io.message.core.cs;
 
 import io.netty.channel.Channel;
 import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
-import vn.com.onesoft.bigfox.server.io.messaannotationsons.Property;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
+import vn.com.onesoft.bigfox.server.io.message.annotations.Property;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.core.sc.SCPing;
 import vn.com.onesoft.bigfox.server.io.message.core.tags.CoreTags;

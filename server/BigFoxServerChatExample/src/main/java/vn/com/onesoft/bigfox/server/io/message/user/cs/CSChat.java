@@ -7,17 +7,17 @@ package vn.com.onesoft.bigfox.server.io.message.user.cs;
 
 import io.netty.channel.Channel;
 import java.util.Calendar;
+import vn.com.onesoft.bigfox.server.example.chat.Main;
 import vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat;
 import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.io.core.session.IBFSession;
 import vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager;
 import vn.com.onesoft.bigfox.server.io.core.zone.IBFZone;
-import vn.com.onesoft.bigfox.server.io.messaannotationsons.Property;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
-import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
+import vn.com.onesoft.bigfox.server.io.message.annotations.Property;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.user.tags.Tags;
-import vn.com.onesoft.bigfox.server.main.Main;
+
 
 /**
  *

@@ -5,8 +5,8 @@
  */
 package vn.com.onesoft.bigfox.server.io.message.user.sc;
 
-import vn.com.onesoft.bigfox.server.io.messaannotationsons.Property;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
+import vn.com.onesoft.bigfox.server.io.message.annotations.Property;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageOut;
 import vn.com.onesoft.bigfox.server.io.message.user.tags.Tags;
 
