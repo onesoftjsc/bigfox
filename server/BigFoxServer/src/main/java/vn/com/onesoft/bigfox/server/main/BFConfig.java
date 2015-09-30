@@ -9,11 +9,7 @@ import java.io.File;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
-import vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils;
 
 /**
  *
@@ -30,6 +26,9 @@ public class BFConfig {
 
     private static BFConfig _instance = null;
 
+    public static String APPLICATION_FOLDER = "applications";
+    public static String AUTODEPLOY_FOLDER = "autodeploys";
+    
     public static BFConfig getInstance() {
         if (_instance == null) {
             _instance = new BFConfig();

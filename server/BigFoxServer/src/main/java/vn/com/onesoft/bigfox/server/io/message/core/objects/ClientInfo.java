@@ -3,7 +3,7 @@
  * Copyright @ 2015 by OneSoft.,JSC
  * 
  */
-package vn.com.onesoft.bigfox.server.io.core.objects.message;
+package vn.com.onesoft.bigfox.server.io.message.core.objects;
 
 import vn.com.onesoft.bigfox.server.io.messaannotationsons.Property;
 
@@ -23,6 +23,8 @@ public class ClientInfo {
     public String sessionId = ""; //String duy nhất đinh danh session, lưu dynamic trên Ram, không lưu ổ cưng
     @Property(name = "metadata")
     public String metadata = ""; 
+    @Property(name="zone")
+    public String zone = "";
     
     public final static String DEVICE_IOS = "ios";
     public final static String DEVICE_ANDROID = "android";

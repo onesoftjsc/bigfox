@@ -1,0 +1,84 @@
+2015-09-17 11:05:49,553 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:101)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:41)
+2015-09-17 11:05:49,609 [Thread-2] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.main.BFConfig.loadConfig(BFConfig.java:50)
+	at vn.com.onesoft.bigfox.server.main.BFConfig.getInstance(BFConfig.java:35)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Scanner.run(Scanner.java:40)
+2015-09-17 11:06:03,324 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:101)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:41)
+2015-09-17 11:06:03,376 [Thread-2] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.main.BFConfig.loadConfig(BFConfig.java:50)
+	at vn.com.onesoft.bigfox.server.main.BFConfig.getInstance(BFConfig.java:35)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Scanner.run(Scanner.java:40)
+2015-09-17 11:07:04,745 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:101)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:41)
+2015-09-17 11:07:04,817 [main] DEBUG - -Dio.netty.eventLoopThreads: 16
+2015-09-17 11:07:04,827 [Thread-3] DEBUG - -Dio.netty.noKeySetOptimization: false
+2015-09-17 11:07:04,827 [Thread-3] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-09-17 11:07:04,847 [Thread-3] INFO - Socket start at port 33333
+2015-09-17 11:07:04,852 [main] INFO - Telnet start at port 40000
+2015-09-17 11:07:04,863 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-17 11:07:04,868 [Thread-3] DEBUG - -Dio.netty.processId: 2594 (auto-detected)
+2015-09-17 11:07:04,869 [Thread-3] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-17 11:07:04,871 [main] DEBUG - -Dio.netty.initialSeedUniquifier: 0xba58ca8cde00dd28 (took 27 ms)
+2015-09-17 11:07:04,898 [main] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-17 11:07:04,898 [main] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-17 11:07:04,898 [main] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-17 11:07:04,898 [main] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-17 11:07:04,898 [main] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-17 11:07:04,898 [main] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-17 11:07:04,898 [main] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-17 11:07:04,899 [main] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-17 11:07:04,899 [main] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-17 11:07:04,899 [main] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-17 11:07:04,903 [main] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-17 11:07:04,903 [main] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-17 11:07:04,905 [main] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-17 11:07:04,905 [main] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-17 11:07:04,916 [nioEventLoopGroup-4-1] INFO - [id: 0x412bd699] REGISTERED
+2015-09-17 11:07:04,916 [nioEventLoopGroup-4-1] INFO - [id: 0x412bd699] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-17 11:07:04,920 [nioEventLoopGroup-4-1] INFO - [id: 0x412bd699, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-17 11:07:05,749 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:101)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:41)
+2015-09-17 11:07:06,751 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:101)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:41)
+2015-09-17 11:07:07,752 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:101)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:41)
+2015-09-17 11:07:08,753 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:101)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:41)
+2015-09-17 11:07:09,755 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:101)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:41)
+2015-09-17 11:07:10,757 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:101)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:41)
+2015-09-17 11:07:11,758 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:101)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:41)
+2015-09-17 11:07:12,759 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:101)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:41)
+2015-09-17 11:07:13,760 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:101)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:41)

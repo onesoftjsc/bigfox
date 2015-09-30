@@ -15,6 +15,8 @@ import java.util.Map;
 import java.util.Set;
 import org.reflections.Reflections;
 import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
+import vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager;
+import vn.com.onesoft.bigfox.server.io.core.zone.IBFZone;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 
 /**
@@ -25,7 +27,6 @@ public class MessageExecute {
 
     private static MessageExecute messageExecute = null;
     public static Map<Integer, MessageIn> mapTagToCoreMessage = new MapMaker().concurrencyLevel(4).makeMap();
-    public static Map<Integer, MessageIn> mapTagToUserMessage = new MapMaker().concurrencyLevel(4).makeMap();
 
     public static ArrayList<Short> baotriTags = new ArrayList<>();
 
@@ -51,8 +52,6 @@ public class MessageExecute {
                 Message mAnnotation = mClassMI.getAnnotation(Message.class);
                 if (mAnnotation.isCore()) {
                     mapTagToCoreMessage.put(mAnnotation.tag(), (MessageIn) mClassMI.newInstance());
-                } else {
-                    mapTagToUserMessage.put(mAnnotation.tag(), (MessageIn) mClassMI.newInstance());
                 }
             } catch (Exception exx) {
                 BFLogger.getInstance().error(exx.getMessage(), exx);
@@ -71,7 +70,8 @@ public class MessageExecute {
             if (isCore) {
                 rootMMess = mapTagToCoreMessage.get(tag);
             } else {
-                rootMMess = mapTagToUserMessage.get(tag);
+                IBFZone bfZone = BFZoneManager.getInstance().getZone(channel);
+                rootMMess = bfZone.getMessage(tag);
             }
             if (rootMMess != null) {
                 DataInputStream in = new DataInputStream(

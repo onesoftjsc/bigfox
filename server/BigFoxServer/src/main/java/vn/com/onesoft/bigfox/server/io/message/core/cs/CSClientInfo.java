@@ -7,10 +7,10 @@ package vn.com.onesoft.bigfox.server.io.message.core.cs;
 
 import io.netty.channel.Channel;
 import vn.com.onesoft.bigfox.server.io.message.core.tags.CoreTags;
-import vn.com.onesoft.bigfox.server.io.core.objects.message.ClientInfo;
 import vn.com.onesoft.bigfox.server.io.messaannotationsons.Property;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;
+import vn.com.onesoft.bigfox.server.io.message.core.objects.ClientInfo;
 
 
 /**
@@ -26,10 +26,6 @@ public class CSClientInfo extends MessageIn {
     @Override
     public void execute(Channel channel) {
 
-        int a = 0;
-//        Main.logger.info(this.getClass().getName());
-//        Player player = new Player(channel, clientInfo);
-//        LiveTubeContext.mapChannelToPlayer.put(channel, player);
     }
 
     /**

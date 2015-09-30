@@ -29,7 +29,5 @@ public class SCInitSession extends MessageOut {
     public SCInitSession(int sessionStatus) {
         this.sessionStatus = sessionStatus;
     }
-    
-    
-    
+
 }

@@ -14,14 +14,16 @@ import java.util.List;
 import java.util.Map;
 import vn.com.onesoft.bigfox.server.io.core.compress.BFCompressManager;
 import vn.com.onesoft.bigfox.server.io.core.encrypt.BFEncryptManager;
-import vn.com.onesoft.bigfox.server.io.message.core.cs.CSClientInfo;
-import vn.com.onesoft.bigfox.server.io.message.core.sc.SCInitSession;
-import vn.com.onesoft.bigfox.server.io.message.core.tags.CoreTags;
-import vn.com.onesoft.bigfox.server.io.core.objects.message.ClientInfo;
+import vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager;
+import vn.com.onesoft.bigfox.server.io.core.zone.IBFZone;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageOut;
+import vn.com.onesoft.bigfox.server.io.message.core.cs.CSClientInfo;
+import vn.com.onesoft.bigfox.server.io.message.core.objects.ClientInfo;
+import vn.com.onesoft.bigfox.server.io.message.core.sc.SCInitSession;
+import vn.com.onesoft.bigfox.server.io.message.core.tags.CoreTags;
 import vn.com.onesoft.bigfox.server.main.Main;
 
 /**
@@ -35,6 +37,7 @@ public class BFSessionManager {
 
     public final static int SESSION_TIMEOUT = 300; //300 s
     private static BFSessionManager _instance;
+    private IBFSessionEvent sessionEvent;
 
     public static BFSessionManager getInstance() {
         if (_instance == null) {
@@ -71,6 +74,7 @@ public class BFSessionManager {
     public void removeSession(IBFSession session) {
         mapChannelToSession.remove(session.getChannel());
         mapSessionIdToSession.remove(session.getClientInfo().sessionId);
+        sessionEvent.removeSession(session);
     }
 
     public boolean containsSession(IBFSession session) {
@@ -86,7 +90,7 @@ public class BFSessionManager {
     }
 
     public void sendMessage(Channel channel, MessageOut mOut) {
-        if (channel == null) {
+        if (channel == null || !channel.isActive() || !channel.isOpen()) {
             return;
         }
 
@@ -101,7 +105,7 @@ public class BFSessionManager {
                 mOut.setSSequence(session.getSSequence());
                 session.putOutMessageOnQueue(mOut);
             }
-            BFLogger.getInstance().info(mOut);
+            BFLogger.getInstance().info(channel + "\n" + mOut);
             byte[] data = mOut.toBytes();
             if (mOut.getTag() != CoreTags.SC_VALIDATION_CODE) {
                 data = BFEncryptManager.crypt(channel, data);
@@ -151,6 +155,13 @@ public class BFSessionManager {
 
         if (mIn instanceof CSClientInfo) {
             CSClientInfo csClientInfo = (CSClientInfo) mIn;
+            IBFZone bfZone = BFZoneManager.getInstance().getZone(csClientInfo.getClientInfo().zone);
+            if (bfZone == null) {
+                channel.close();
+                return;
+            }else{
+                BFZoneManager.getInstance().assignChannelToZone(channel, bfZone);
+            }
             String sessionId = csClientInfo.getClientInfo().sessionId;
             IBFSession bfSession = this.getSessionById(sessionId);
             if (bfSession == null) { //Kết nối mới
@@ -175,7 +186,7 @@ public class BFSessionManager {
                 session.cleanOutMessageQueue(mIn);
             }
             session.setLastTimeReceive(System.currentTimeMillis());
-
+            
         }
         mIn.execute(channel);
     }
@@ -224,4 +235,7 @@ public class BFSessionManager {
         }
     }
 
+    public void setSessionEvent(IBFSessionEvent sessionEvent) {
+        this.sessionEvent = sessionEvent;
+    }
 }

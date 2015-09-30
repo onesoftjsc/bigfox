@@ -12,10 +12,11 @@ import io.netty.channel.group.ChannelGroup;
 import io.netty.channel.group.DefaultChannelGroup;
 import io.netty.util.concurrent.GlobalEventExecutor;
 import java.util.Map;
-import vn.com.onesoft.bigfox.server.helper.classmanager.Scanner;
+import vn.com.onesoft.bigfox.server.helper.classmanager.Extracter;
 import vn.com.onesoft.bigfox.server.io.core.session.IBFSession;
 import vn.com.onesoft.bigfox.server.io.core.socket.SocketManager;
 import vn.com.onesoft.bigfox.server.io.core.websocket.WebSocketManager;
+import vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageExecute;
 import vn.com.onesoft.bigfox.server.telnet.TelnetManager;
 
@@ -36,8 +37,11 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
+        BFZoneManager.getInstance();
+        Extracter.getInstance();
         MessageExecute.getInstance();
-        Scanner.getInstance();
+//        Scanner.getInstance();
+        BFConfig.getInstance();
         SocketManager.getInstance();
         WebSocketManager.getInstance();
         TelnetManager.getInstance();

@@ -9,9 +9,6 @@ import java.io.File;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 
 /**
  *
@@ -22,7 +19,8 @@ public class BFConfig {
     private String ip;
     private int port;
     private int version;
-
+    private String zone;
+    
     private static BFConfig _instance = null;
 
     public static BFConfig getInstance() {
@@ -41,20 +39,10 @@ public class BFConfig {
             Document doc = db.parse(file);
             doc.getDocumentElement().normalize();
 
-            NodeList SPortSocket = doc.getElementsByTagName("ip");
-            Element ePortSocket = (Element) SPortSocket.item(0);
-            NodeList nPortSocket = ePortSocket.getChildNodes();
-            this.ip = ((Node) nPortSocket.item(0)).getNodeValue();
-
-            NodeList SPortWebSocket = doc.getElementsByTagName("port");
-            Element ePortWebSocket = (Element) SPortWebSocket.item(0);
-            NodeList nPortWebSocket = ePortWebSocket.getChildNodes();
-            this.port = Integer.parseInt(((Node) nPortWebSocket.item(0)).getNodeValue());
-
-            NodeList sVersion = doc.getElementsByTagName("version");
-            Element eVersion = (Element) sVersion.item(0);
-            NodeList nVersion = eVersion.getChildNodes();
-            this.version = Integer.parseInt(((Node) nVersion.item(0)).getNodeValue());
+            this.ip = doc.getElementsByTagName("ip").item(0).getChildNodes().item(0).getNodeValue();
+            this.port = Integer.parseInt(doc.getElementsByTagName("port").item(0).getChildNodes().item(0).getNodeValue());
+            this.version = Integer.parseInt(doc.getElementsByTagName("version").item(0).getChildNodes().item(0).getNodeValue());
+            this.zone = doc.getElementsByTagName("zone").item(0).getChildNodes().item(0).getNodeValue();
 
         } catch (Exception ex) {
 
@@ -81,6 +69,13 @@ public class BFConfig {
      */
     public int getVersion() {
         return version;
+    }
+
+    /**
+     * @return the zone
+     */
+    public String getZone() {
+        return zone;
     }
 
 

@@ -1,0 +1,220 @@
+2015-09-25 11:11:03,252 [main] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager.loadZones(BFZoneManager.java:52)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager.getInstance(BFZoneManager.java:28)
+	at vn.com.onesoft.bigfox.server.main.Main.main(Main.java:40)
+	at vn.com.onesoft.bigfox.server.example.chat.Main.main(Main.java:15)
+2015-09-25 11:11:03,258 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:87)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:42)
+2015-09-25 11:11:03,469 [main] DEBUG - -Dio.netty.eventLoopThreads: 16
+2015-09-25 11:11:03,479 [Thread-3] DEBUG - -Dio.netty.noKeySetOptimization: false
+2015-09-25 11:11:03,479 [Thread-3] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-09-25 11:11:03,502 [main] INFO - Telnet start at port 40000
+2015-09-25 11:11:03,502 [Thread-2] INFO - Socket start at port 33333
+2015-09-25 11:11:03,522 [Thread-3] INFO - WebSocket start at port 33332
+2015-09-25 11:11:03,530 [Thread-2] DEBUG - -Dio.netty.processId: 2643 (auto-detected)
+2015-09-25 11:11:03,533 [Thread-2] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-25 11:11:03,534 [Thread-3] DEBUG - -Dio.netty.initialSeedUniquifier: 0x2bd2f703d0be0c0c (took 26 ms)
+2015-09-25 11:11:03,568 [Thread-2] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-25 11:11:03,568 [Thread-2] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-25 11:11:03,568 [Thread-2] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-25 11:11:03,568 [Thread-2] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-25 11:11:03,568 [Thread-2] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-25 11:11:03,568 [Thread-2] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-25 11:11:03,568 [Thread-2] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-25 11:11:03,568 [Thread-2] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-25 11:11:03,568 [Thread-2] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-25 11:11:03,568 [Thread-2] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-25 11:11:03,575 [Thread-2] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-25 11:11:03,575 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-25 11:11:03,577 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-25 11:11:03,578 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-25 11:11:03,588 [nioEventLoopGroup-3-1] INFO - [id: 0xe8e8d57d] REGISTERED
+2015-09-25 11:11:03,589 [nioEventLoopGroup-3-1] INFO - [id: 0xe8e8d57d] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-25 11:11:03,593 [nioEventLoopGroup-3-1] INFO - [id: 0xe8e8d57d, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-25 11:11:04,259 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:87)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:42)
+2015-09-25 11:11:05,261 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:87)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:42)
+2015-09-25 11:11:06,262 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:87)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:42)
+2015-09-25 11:11:07,263 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:87)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:42)
+2015-09-25 11:11:08,264 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:87)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:42)
+2015-09-25 11:11:09,265 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:87)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:42)
+2015-09-25 11:11:10,266 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:87)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:42)
+2015-09-25 11:11:11,267 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:87)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:42)
+2015-09-25 11:11:12,268 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:87)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:42)
+2015-09-25 11:11:13,269 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:87)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:42)
+2015-09-25 11:11:14,270 [Thread-0] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:87)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:42)
+2015-09-25 11:15:05,241 [main] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager.loadZones(BFZoneManager.java:52)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager.getInstance(BFZoneManager.java:28)
+	at vn.com.onesoft.bigfox.server.example.chat.Main.main(Main.java:25)
+2015-09-25 11:15:18,053 [Thread-2] DEBUG - Using Log4J as the default logging framework
+2015-09-25 11:15:18,061 [Thread-2] DEBUG - -Dio.netty.eventLoopThreads: 16
+2015-09-25 11:15:18,108 [Thread-1] DEBUG - java.nio.Buffer.address: available
+2015-09-25 11:15:18,108 [Thread-1] DEBUG - sun.misc.Unsafe.theUnsafe: available
+2015-09-25 11:15:18,108 [Thread-1] DEBUG - sun.misc.Unsafe.copyMemory: available
+2015-09-25 11:15:18,108 [Thread-1] DEBUG - java.nio.Bits.unaligned: true
+2015-09-25 11:15:18,110 [Thread-1] DEBUG - Java version: 8
+2015-09-25 11:15:18,110 [Thread-1] DEBUG - -Dio.netty.noUnsafe: false
+2015-09-25 11:15:18,110 [Thread-1] DEBUG - sun.misc.Unsafe: available
+2015-09-25 11:15:18,110 [Thread-1] DEBUG - -Dio.netty.noJavassist: false
+2015-09-25 11:15:18,183 [Thread-1] DEBUG - Javassist: available
+2015-09-25 11:15:18,183 [Thread-1] DEBUG - -Dio.netty.tmpdir: /var/folders/9w/kj4k3trx0kd65r0k9960gcxr0000gn/T (java.io.tmpdir)
+2015-09-25 11:15:18,183 [Thread-1] DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-09-25 11:15:18,183 [Thread-1] DEBUG - -Dio.netty.noPreferDirect: false
+2015-09-25 11:15:18,184 [Thread-1] DEBUG - -Dio.netty.noKeySetOptimization: false
+2015-09-25 11:15:18,184 [Thread-1] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-09-25 11:15:18,213 [main] INFO - Telnet start at port 40000
+2015-09-25 11:15:18,213 [Thread-1] INFO - Socket start at port 33333
+2015-09-25 11:15:18,228 [Thread-2] INFO - WebSocket start at port 33332
+2015-09-25 11:15:18,245 [main] DEBUG - -Dio.netty.processId: 2693 (auto-detected)
+2015-09-25 11:15:18,248 [main] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-25 11:15:18,249 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x6c8241c113d8e1e3 (took 17 ms)
+2015-09-25 11:15:18,284 [main] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-25 11:15:18,285 [main] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-25 11:15:18,285 [main] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-25 11:15:18,285 [main] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-25 11:15:18,285 [main] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-25 11:15:18,285 [main] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-25 11:15:18,285 [main] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-25 11:15:18,285 [main] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-25 11:15:18,285 [main] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-25 11:15:18,285 [main] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-25 11:15:18,292 [main] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-25 11:15:18,292 [main] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-25 11:15:18,294 [main] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-25 11:15:18,295 [main] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-25 11:15:18,307 [nioEventLoopGroup-4-1] INFO - [id: 0xaefa173a] REGISTERED
+2015-09-25 11:15:18,308 [nioEventLoopGroup-4-1] INFO - [id: 0xaefa173a] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-25 11:15:18,314 [nioEventLoopGroup-4-1] INFO - [id: 0xaefa173a, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-25 11:16:27,660 [main] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager.loadZones(BFZoneManager.java:52)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager.getInstance(BFZoneManager.java:28)
+	at vn.com.onesoft.bigfox.server.example.chat.Main.main(Main.java:25)
+2015-09-25 11:17:21,720 [main] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager.loadZones(BFZoneManager.java:52)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager.getInstance(BFZoneManager.java:28)
+	at vn.com.onesoft.bigfox.server.example.chat.Main.main(Main.java:25)
+2015-09-25 11:17:21,951 [Thread-2] DEBUG - Using Log4J as the default logging framework
+2015-09-25 11:17:21,960 [Thread-2] DEBUG - -Dio.netty.eventLoopThreads: 16
+2015-09-25 11:17:21,997 [Thread-1] DEBUG - java.nio.Buffer.address: available
+2015-09-25 11:17:21,997 [Thread-1] DEBUG - sun.misc.Unsafe.theUnsafe: available
+2015-09-25 11:17:21,997 [Thread-1] DEBUG - sun.misc.Unsafe.copyMemory: available
+2015-09-25 11:17:21,998 [Thread-1] DEBUG - java.nio.Bits.unaligned: true
+2015-09-25 11:17:21,998 [Thread-1] DEBUG - Java version: 8
+2015-09-25 11:17:21,998 [Thread-1] DEBUG - -Dio.netty.noUnsafe: false
+2015-09-25 11:17:21,998 [Thread-1] DEBUG - sun.misc.Unsafe: available
+2015-09-25 11:17:21,998 [Thread-1] DEBUG - -Dio.netty.noJavassist: false
+2015-09-25 11:17:22,056 [Thread-1] DEBUG - Javassist: available
+2015-09-25 11:17:22,056 [Thread-1] DEBUG - -Dio.netty.tmpdir: /var/folders/9w/kj4k3trx0kd65r0k9960gcxr0000gn/T (java.io.tmpdir)
+2015-09-25 11:17:22,056 [Thread-1] DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-09-25 11:17:22,056 [Thread-1] DEBUG - -Dio.netty.noPreferDirect: false
+2015-09-25 11:17:22,056 [Thread-1] DEBUG - -Dio.netty.noKeySetOptimization: false
+2015-09-25 11:17:22,056 [Thread-1] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-09-25 11:17:22,074 [Thread-1] INFO - Socket start at port 33333
+2015-09-25 11:17:22,074 [main] INFO - Telnet start at port 40000
+2015-09-25 11:17:22,096 [Thread-2] INFO - WebSocket start at port 33332
+2015-09-25 11:17:22,101 [Thread-1] DEBUG - -Dio.netty.processId: 2722 (auto-detected)
+2015-09-25 11:17:22,105 [Thread-1] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-25 11:17:22,107 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x30aee132110d2ff8 (took 15 ms)
+2015-09-25 11:17:22,137 [Thread-2] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-25 11:17:22,137 [Thread-2] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-25 11:17:22,137 [Thread-2] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-25 11:17:22,138 [Thread-2] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-25 11:17:22,138 [Thread-2] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-25 11:17:22,138 [Thread-2] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-25 11:17:22,138 [Thread-2] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-25 11:17:22,138 [Thread-2] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-25 11:17:22,138 [Thread-2] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-25 11:17:22,138 [Thread-2] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-25 11:17:22,143 [Thread-2] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-25 11:17:22,143 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-25 11:17:22,145 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-25 11:17:22,145 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-25 11:17:22,156 [nioEventLoopGroup-2-1] INFO - [id: 0x4a61f148] REGISTERED
+2015-09-25 11:17:22,156 [nioEventLoopGroup-2-1] INFO - [id: 0x4a61f148] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-25 11:17:22,160 [nioEventLoopGroup-2-1] INFO - [id: 0x4a61f148, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-25 11:17:34,945 [nioEventLoopGroup-6-1] INFO - Client connected!: [id: 0x13d9a535, /127.0.0.1:54814 => /127.0.0.1:33333]
+2015-09-25 11:17:34,952 [nioEventLoopGroup-6-1] INFO - SCValidationCode {
+  validationCode: 762623971
+}
+2015-09-25 11:17:34,966 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-25 11:17:34,977 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-25 11:17:35,041 [nioEventLoopGroup-6-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "searhqk9ua665cgcieukvcm70p",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-25 11:17:35,042 [nioEventLoopGroup-6-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-25 11:17:44,458 [nioEventLoopGroup-6-1] INFO - CSName {
+  msg: "Q"
+}
+2015-09-25 11:17:46,279 [nioEventLoopGroup-6-1] INFO - CSChat {
+  msg: "aaa"
+}
+2015-09-25 11:17:46,279 [nioEventLoopGroup-6-1] INFO - bbb
+2015-09-25 11:17:46,280 [nioEventLoopGroup-6-1] INFO - SCChat {
+  msg: "11:17:46
+Q : aaa"
+}
+2015-09-25 11:17:48,648 [nioEventLoopGroup-6-1] INFO - CSChat {
+  msg: "bbb"
+}
+2015-09-25 11:17:48,649 [nioEventLoopGroup-6-1] INFO - bbb
+2015-09-25 11:17:48,651 [nioEventLoopGroup-6-1] INFO - SCChat {
+  msg: "11:17:48
+Q : bbb"
+}
+2015-09-25 11:17:50,471 [nioEventLoopGroup-6-1] INFO - CSChat {
+  msg: "ccc"
+}
+2015-09-25 11:17:50,471 [nioEventLoopGroup-6-1] INFO - bbb
+2015-09-25 11:17:50,472 [nioEventLoopGroup-6-1] INFO - SCChat {
+  msg: "11:17:50
+Q : ccc"
+}
+2015-09-25 11:17:51,854 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0x13d9a535, /127.0.0.1:54814 :> /127.0.0.1:33333]

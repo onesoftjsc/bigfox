@@ -2,4 +2,5 @@
     <ip>localhost</ip>
     <port>33333</port>
     <version>1</version>
+    <zone>BigFoxServerChatExample</zone>
 </configuration>

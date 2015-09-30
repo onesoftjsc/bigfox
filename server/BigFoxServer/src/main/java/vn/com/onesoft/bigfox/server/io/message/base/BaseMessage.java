@@ -25,7 +25,7 @@ public abstract class BaseMessage {
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + " " + BigFoxUtils.toString(this);
+        return this.getClass().getSimpleName() + " m:" + this.getMSequence() + " s:" + this.getSSequence() + " " + BigFoxUtils.toString(this);
     }
 
     /**

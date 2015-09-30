@@ -23,6 +23,8 @@ public class ClientInfo {
     public String sessionId = ""; //String duy nhất đinh danh session, lưu dynamic trên Ram, không lưu ổ cưng
     @Property(name = "metadata")
     public String metadata = "";
+    @Property(name="zone")
+    public String zone = "";
 
     public final static String DEVICE_IOS = "ios";
     public final static String DEVICE_ANDROID = "android";

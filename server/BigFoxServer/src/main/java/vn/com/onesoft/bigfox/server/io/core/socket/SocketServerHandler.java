@@ -41,7 +41,7 @@ public class SocketServerHandler extends ChannelInboundHandlerAdapter {
                 data = BFCompressManager.getInstance().decompress(data);
                 data = BFEncryptManager.crypt(ctx.channel(), data);
 
-                mf.onMessage(ctx.channel(), data); //Thực thi yêu cầu từ Client
+                mf.onMessage(ctx.channel(), data);
             } catch (Exception ex) {
                 ctx.channel().close();
                 BFLogger.getInstance().error(ex.getMessage(), ex);
@@ -54,7 +54,7 @@ public class SocketServerHandler extends ChannelInboundHandlerAdapter {
         BFLogger.getInstance().info("Client connected!: " + ctx.channel());
         Main.allChannels.add(ctx.channel());
         Random r = new Random();
-        int validationCode = r.nextInt();
+        int validationCode = 0; // r.nextInt();
         BFSessionManager.getInstance().sendMessage(ctx.channel(), new SCValidationCode(validationCode));
         BFEncryptManager.mapChannelToValidationCode.put(ctx.channel(), validationCode);
     }
@@ -66,4 +66,11 @@ public class SocketServerHandler extends ChannelInboundHandlerAdapter {
         Main.allChannels.remove(ctx.channel());
         BFEncryptManager.mapChannelToValidationCode.remove(ctx.channel());
     }
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+       
+    }
+    
+    
 }
