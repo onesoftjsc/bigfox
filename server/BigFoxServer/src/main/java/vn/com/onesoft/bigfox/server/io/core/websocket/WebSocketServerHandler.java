@@ -126,13 +126,13 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
-        super.channelInactive(ctx); //To change body of generated methods, choose Tools | Templates.
-        BFSessionManager.getInstance().onChannelClose(ctx.channel());
-        Main.allChannels.remove(ctx.channel());
-        Main.mapChannelWebSocket.remove(ctx.channel());
-        BFEncryptManager.mapChannelToValidationCode.remove(ctx.channel());
-
-        BFLogger.getInstance().info("Channel Closed " + ctx.channel());
+//        super.channelInactive(ctx); //To change body of generated methods, choose Tools | Templates.
+//        BFSessionManager.getInstance().onChannelClose(ctx.channel());
+//        Main.allChannels.remove(ctx.channel());
+//        Main.mapChannelWebSocket.remove(ctx.channel());
+//        BFEncryptManager.mapChannelToValidationCode.remove(ctx.channel());
+//
+//        BFLogger.getInstance().info("Channel Closed " + ctx.channel());
     }
 
     @Override

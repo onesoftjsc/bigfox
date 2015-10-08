@@ -14,6 +14,7 @@ import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Map;
+import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 
 /**
  *
@@ -46,6 +47,7 @@ public class BFClassLoader extends ClassLoader {
 
         String className = classPath.replace(File.separatorChar, '.').substring(0, classPath.length() - 6);
         className = className.substring(className.indexOf(".vn.") + 1);
+        BFLogger.getInstance().info("define class " + className);
         Class cl = defineClass(className,
                 classData, 0, classData.length);
         mapPathToClass.put(classPath, cl);
@@ -68,5 +70,6 @@ public class BFClassLoader extends ClassLoader {
     public Map<String, Class> getMapPathToClass() {
         return mapPathToClass;
     }
+    
 
 }

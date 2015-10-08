@@ -12,5 +12,7 @@ package vn.com.onesoft.bigfox.server.io.core.session;
  */
 public interface IBFSessionEvent {
     public void startSession(IBFSession session);
+    public void reconnectSession(IBFSession session);
     public void removeSession(IBFSession session);
+     public void closeChannel(IBFSession session) ;
 }

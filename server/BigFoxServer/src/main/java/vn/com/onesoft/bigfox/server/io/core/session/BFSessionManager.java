@@ -59,7 +59,7 @@ public class BFSessionManager {
         session.setLastTimeReceive(System.currentTimeMillis());
         mapChannelToSession.put(channel, session);
         mapSessionIdToSession.put(clientInfo.sessionId, session);
-
+        sessionEvent.startSession(session);
         return session;
     }
 
@@ -173,6 +173,7 @@ public class BFSessionManager {
                 bfSession.setClientInfo(csClientInfo.getClientInfo());
                 write(channel, new SCInitSession(SCInitSession.CONTINUE_OLD_SESSION));
                 bfSession.reSendMessageFromQueue();
+                sessionEvent.reconnectSession(bfSession);
             }
         }
         IBFSession session = this.getSessionByChannel(channel);

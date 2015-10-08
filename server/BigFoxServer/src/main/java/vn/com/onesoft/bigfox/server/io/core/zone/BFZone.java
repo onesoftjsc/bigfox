@@ -40,7 +40,14 @@ public class BFZone implements IBFZone {
 
     public BFZone(String absolutePath) {
         this.absolutePath = absolutePath;
-        this.simpleName = absolutePath.substring(absolutePath.lastIndexOf(File.separatorChar) + 1);
+        int k = this.absolutePath.length() - 1;
+        for (int i = this.absolutePath.length() - 1; i > 0; i--) {
+            if (this.absolutePath.charAt(i) == '/' || this.absolutePath.charAt(i) == '\\') {
+                k = i;
+                break;
+            }
+        }
+        this.simpleName = absolutePath.substring(k + 1);
         zoneCL = new BFClassLoader(BFClassLoader.class.getClassLoader());
     }
 
@@ -132,6 +139,7 @@ public class BFZone implements IBFZone {
                     result.add(file);
                 }
             }
+
         }
         return result;
     }
@@ -151,7 +159,6 @@ public class BFZone implements IBFZone {
         }
         return result;
     }
-
 
     @Override
     public void reloadFilesChanged() throws Exception {
@@ -178,8 +185,11 @@ public class BFZone implements IBFZone {
     }
 
     private void loadFile(String filePath, BFClassLoader cl) throws IOException, FileNotFoundException, NoSuchAlgorithmException {
-        cl.loadFile(filePath);
-        mapFileNameToChecksum.put(filePath, BFUtils.checksum(new File(filePath)));
+        if (filePath.contains("CS") || filePath.contains("SC")) {
+            cl.loadFile(filePath);
+            mapFileNameToChecksum.put(filePath, BFUtils.checksum(new File(filePath)));
+        }
+
     }
 
     private void loadFolder(String foldPath) throws IOException, FileNotFoundException, NoSuchAlgorithmException {
@@ -187,6 +197,7 @@ public class BFZone implements IBFZone {
         File[] files = folder.listFiles();
         for (File file : files) {
             if (file.isFile() && file.getAbsolutePath().contains(".class")) {
+
                 loadFile(file.getAbsolutePath(), zoneCL);
             } else if (file.isDirectory()) {
                 loadFolder(file.getAbsolutePath());

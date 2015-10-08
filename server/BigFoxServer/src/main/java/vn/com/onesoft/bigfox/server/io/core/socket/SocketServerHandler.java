@@ -61,10 +61,10 @@ public class SocketServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) {
-        BFLogger.getInstance().info("ChannelClosed: " + ctx.channel());
-        BFSessionManager.getInstance().onChannelClose(ctx.channel());
-        Main.allChannels.remove(ctx.channel());
-        BFEncryptManager.mapChannelToValidationCode.remove(ctx.channel());
+//        BFLogger.getInstance().info("ChannelClosed: " + ctx.channel());
+//        BFSessionManager.getInstance().onChannelClose(ctx.channel());
+//        Main.allChannels.remove(ctx.channel());
+//        BFEncryptManager.mapChannelToValidationCode.remove(ctx.channel());
     }
 
     @Override

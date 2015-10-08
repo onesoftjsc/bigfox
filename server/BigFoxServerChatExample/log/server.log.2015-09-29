@@ -1,0 +1,2054 @@
+2015-09-29 15:24:02,756 [main] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager.loadZones(BFZoneManager.java:54)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager.getInstance(BFZoneManager.java:30)
+	at vn.com.onesoft.bigfox.server.example.chat.Main.main(Main.java:25)
+2015-09-29 15:24:03,033 [Thread-1] DEBUG - Using Log4J as the default logging framework
+2015-09-29 15:24:03,039 [Thread-1] DEBUG - -Dio.netty.eventLoopThreads: 16
+2015-09-29 15:24:03,078 [Thread-1] DEBUG - java.nio.Buffer.address: available
+2015-09-29 15:24:03,078 [Thread-1] DEBUG - sun.misc.Unsafe.theUnsafe: available
+2015-09-29 15:24:03,078 [Thread-1] DEBUG - sun.misc.Unsafe.copyMemory: available
+2015-09-29 15:24:03,078 [Thread-1] DEBUG - java.nio.Bits.unaligned: true
+2015-09-29 15:24:03,079 [Thread-1] DEBUG - Java version: 8
+2015-09-29 15:24:03,080 [Thread-1] DEBUG - -Dio.netty.noUnsafe: false
+2015-09-29 15:24:03,080 [Thread-1] DEBUG - sun.misc.Unsafe: available
+2015-09-29 15:24:03,080 [Thread-1] DEBUG - -Dio.netty.noJavassist: false
+2015-09-29 15:24:03,142 [Thread-1] DEBUG - Javassist: available
+2015-09-29 15:24:03,143 [Thread-1] DEBUG - -Dio.netty.tmpdir: /var/folders/9w/kj4k3trx0kd65r0k9960gcxr0000gn/T (java.io.tmpdir)
+2015-09-29 15:24:03,143 [Thread-1] DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-09-29 15:24:03,143 [Thread-1] DEBUG - -Dio.netty.noPreferDirect: false
+2015-09-29 15:24:03,143 [Thread-1] DEBUG - -Dio.netty.noKeySetOptimization: false
+2015-09-29 15:24:03,144 [Thread-1] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-09-29 15:24:03,165 [Thread-1] INFO - Socket start at port 33333
+2015-09-29 15:24:03,165 [main] INFO - Telnet start at port 40000
+2015-09-29 15:24:03,178 [Thread-2] INFO - WebSocket start at port 33332
+2015-09-29 15:24:03,195 [main] DEBUG - -Dio.netty.processId: 3726 (auto-detected)
+2015-09-29 15:24:03,199 [main] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 15:24:03,200 [main] DEBUG - -Dio.netty.initialSeedUniquifier: 0xec64ee6a31e10bdf (took 1 ms)
+2015-09-29 15:24:03,232 [Thread-1] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 15:24:03,232 [Thread-1] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 15:24:03,232 [Thread-1] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 15:24:03,232 [Thread-1] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 15:24:03,232 [Thread-1] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 15:24:03,232 [Thread-1] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 15:24:03,232 [Thread-1] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 15:24:03,232 [Thread-1] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 15:24:03,232 [Thread-1] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 15:24:03,232 [Thread-1] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 15:24:03,238 [Thread-1] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 15:24:03,238 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 15:24:03,240 [main] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 15:24:03,241 [main] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 15:24:03,250 [nioEventLoopGroup-4-1] INFO - [id: 0x7df582f4] REGISTERED
+2015-09-29 15:24:03,250 [nioEventLoopGroup-4-1] INFO - [id: 0x7df582f4] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 15:24:03,255 [nioEventLoopGroup-4-1] INFO - [id: 0x7df582f4, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 15:25:55,633 [main] INFO - Telnet start at port 40000
+2015-09-29 15:25:55,633 [Thread-1] INFO - Socket start at port 33333
+2015-09-29 15:25:55,633 [Thread-2] INFO - WebSocket start at port 33332
+2015-09-29 15:25:55,655 [main] DEBUG - -Dio.netty.processId: 3762 (auto-detected)
+2015-09-29 15:25:55,659 [main] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 15:25:55,661 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x7cdd48e4c4bae58e (took 1 ms)
+2015-09-29 15:25:55,694 [main] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 15:25:55,694 [main] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 15:25:55,694 [main] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 15:25:55,694 [main] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 15:25:55,694 [main] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 15:25:55,694 [main] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 15:25:55,694 [main] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 15:25:55,695 [main] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 15:25:55,695 [main] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 15:25:55,695 [main] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 15:25:55,700 [main] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 15:25:55,700 [main] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 15:25:55,702 [main] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 15:25:55,702 [main] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 15:25:55,712 [nioEventLoopGroup-4-1] INFO - [id: 0x8b19b138] REGISTERED
+2015-09-29 15:25:55,712 [nioEventLoopGroup-4-1] INFO - [id: 0x8b19b138] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 15:25:55,716 [nioEventLoopGroup-4-1] INFO - [id: 0x8b19b138, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 15:49:14,331 [nioEventLoopGroup-6-1] INFO - Client connected!: [id: 0xbead6dfd, /192.168.8.129:40832 => /192.168.8.191:33333]
+2015-09-29 15:49:14,342 [nioEventLoopGroup-6-1] INFO - SCValidationCode {
+  validationCode: 534134664
+}
+2015-09-29 15:49:14,364 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 15:49:14,378 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 15:49:15,106 [nioEventLoopGroup-6-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "iq084oaa9400ftvdh1v8o8vank",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 15:49:15,109 [nioEventLoopGroup-6-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-29 15:49:42,769 [nioEventLoopGroup-6-1] INFO - CSName {
+  msg: "Quan"
+}
+2015-09-29 15:49:47,028 [nioEventLoopGroup-6-1] INFO - CSChat {
+  msg: "hi"
+}
+2015-09-29 15:49:47,029 [nioEventLoopGroup-6-1] INFO - bbb
+2015-09-29 15:49:47,032 [nioEventLoopGroup-6-1] INFO - SCChat {
+  msg: "15:49:47
+Quan : 111hi"
+}
+2015-09-29 15:49:51,322 [nioEventLoopGroup-6-1] INFO - CSChat {
+  msg: "hello"
+}
+2015-09-29 15:49:51,322 [nioEventLoopGroup-6-1] INFO - bbb
+2015-09-29 15:49:51,322 [nioEventLoopGroup-6-1] INFO - SCChat {
+  msg: "15:49:51
+Quan : 111hello"
+}
+2015-09-29 15:50:14,585 [nioEventLoopGroup-6-1] INFO - CSChat {
+  msg: "ggh"
+}
+2015-09-29 15:50:14,585 [nioEventLoopGroup-6-1] INFO - bbb
+2015-09-29 15:50:14,585 [nioEventLoopGroup-6-1] INFO - SCChat {
+  msg: "15:50:14
+Quan : 111ggh"
+}
+2015-09-29 15:50:16,306 [nioEventLoopGroup-6-1] INFO - CSChat {
+  msg: "jjj"
+}
+2015-09-29 15:50:16,306 [nioEventLoopGroup-6-1] INFO - bbb
+2015-09-29 15:50:16,306 [nioEventLoopGroup-6-1] INFO - SCChat {
+  msg: "15:50:16
+Quan : 111jjj"
+}
+2015-09-29 15:50:34,664 [nioEventLoopGroup-6-2] INFO - Client connected!: [id: 0x084641b2, /192.168.8.129:36941 => /192.168.8.191:33333]
+2015-09-29 15:50:34,664 [nioEventLoopGroup-6-2] INFO - SCValidationCode {
+  validationCode: 3295844
+}
+2015-09-29 15:50:34,732 [nioEventLoopGroup-6-2] ERROR - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:61)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:50:34,740 [nioEventLoopGroup-6-2] INFO - ChannelClosed: [id: 0x084641b2, /192.168.8.129:36941 :> /192.168.8.191:33333]
+2015-09-29 15:50:40,415 [nioEventLoopGroup-6-3] INFO - Client connected!: [id: 0x2339ca6f, /192.168.8.129:35284 => /192.168.8.191:33333]
+2015-09-29 15:50:40,415 [nioEventLoopGroup-6-3] INFO - SCValidationCode {
+  validationCode: 1471795410
+}
+2015-09-29 15:50:40,759 [nioEventLoopGroup-6-3] INFO - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "iq084oaa9400ftvdh1v8o8vank",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 15:50:40,760 [nioEventLoopGroup-6-3] INFO - SCInitSession {
+  sessionStatus: 2
+}
+2015-09-29 15:50:40,824 [nioEventLoopGroup-6-3] INFO - CSChat {
+  msg: "fgujj"
+}
+2015-09-29 15:50:40,825 [nioEventLoopGroup-6-3] INFO - bbb
+2015-09-29 15:50:40,825 [nioEventLoopGroup-6-3] INFO - SCChat {
+  msg: "15:50:40
+Quan : 111fgujj"
+}
+2015-09-29 15:50:40,829 [nioEventLoopGroup-6-3] INFO - SCChat {
+  msg: "15:50:40
+Quan : 111fgujj"
+}
+2015-09-29 15:50:40,830 [nioEventLoopGroup-6-3] INFO - CSChat {
+  msg: "hhjkk"
+}
+2015-09-29 15:50:40,831 [nioEventLoopGroup-6-3] INFO - bbb
+2015-09-29 15:50:40,831 [nioEventLoopGroup-6-3] INFO - SCChat {
+  msg: "15:50:40
+Quan : 111hhjkk"
+}
+2015-09-29 15:50:40,831 [nioEventLoopGroup-6-3] INFO - SCChat {
+  msg: "15:50:40
+Quan : 111hhjkk"
+}
+2015-09-29 15:50:40,831 [nioEventLoopGroup-6-3] INFO - CSChat {
+  msg: "ttyt"
+}
+2015-09-29 15:50:40,832 [nioEventLoopGroup-6-3] INFO - bbb
+2015-09-29 15:50:40,832 [nioEventLoopGroup-6-3] INFO - SCChat {
+  msg: "15:50:40
+Quan : 111ttyt"
+}
+2015-09-29 15:50:40,832 [nioEventLoopGroup-6-3] INFO - SCChat {
+  msg: "15:50:40
+Quan : 111ttyt"
+}
+2015-09-29 15:50:40,846 [nioEventLoopGroup-6-1] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:854)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:50:40,847 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0xbead6dfd, /192.168.8.129:40832 :> /192.168.8.191:33333]
+2015-09-29 15:51:08,325 [main] INFO - Telnet start at port 40000
+2015-09-29 15:51:08,325 [Thread-1] INFO - Socket start at port 33333
+2015-09-29 15:51:08,325 [Thread-2] INFO - WebSocket start at port 33332
+2015-09-29 15:51:08,359 [Thread-2] DEBUG - -Dio.netty.processId: 4496 (auto-detected)
+2015-09-29 15:51:08,363 [Thread-2] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 15:51:08,364 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x841482a241136a06 (took 1 ms)
+2015-09-29 15:51:08,395 [Thread-2] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 15:51:08,395 [Thread-2] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 15:51:08,395 [Thread-2] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 15:51:08,395 [Thread-2] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 15:51:08,395 [Thread-2] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 15:51:08,395 [Thread-2] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 15:51:08,396 [Thread-2] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 15:51:08,396 [Thread-2] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 15:51:08,396 [Thread-2] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 15:51:08,396 [Thread-2] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 15:51:08,402 [Thread-2] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 15:51:08,402 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 15:51:08,404 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 15:51:08,404 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 15:51:08,414 [nioEventLoopGroup-3-1] INFO - [id: 0x67d3f250] REGISTERED
+2015-09-29 15:51:08,415 [nioEventLoopGroup-3-1] INFO - [id: 0x67d3f250] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 15:51:08,419 [nioEventLoopGroup-3-1] INFO - [id: 0x67d3f250, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 15:51:10,339 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0xe5351c10, /192.168.8.129:46856 => /192.168.8.191:33333]
+2015-09-29 15:51:10,343 [nioEventLoopGroup-7-1] INFO - SCValidationCode {
+  validationCode: -1449153520
+}
+2015-09-29 15:51:10,354 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 15:51:10,364 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 15:51:10,410 [nioEventLoopGroup-7-1] ERROR - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:61)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:51:10,412 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0xe5351c10, /192.168.8.129:46856 :> /192.168.8.191:33333]
+2015-09-29 15:51:22,454 [nioEventLoopGroup-7-2] INFO - Client connected!: [id: 0xba99d34e, /192.168.8.129:40423 => /192.168.8.191:33333]
+2015-09-29 15:51:22,454 [nioEventLoopGroup-7-2] INFO - SCValidationCode {
+  validationCode: 1215542131
+}
+2015-09-29 15:51:22,551 [nioEventLoopGroup-7-2] INFO - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "2jqo0ckvlvlo0ofiltaaccb3ud",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 15:51:22,553 [nioEventLoopGroup-7-2] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-29 15:51:27,413 [nioEventLoopGroup-7-2] INFO - CSName {
+  msg: "q"
+}
+2015-09-29 15:51:30,760 [nioEventLoopGroup-7-2] INFO - CSChat {
+  msg: "1"
+}
+2015-09-29 15:51:30,760 [nioEventLoopGroup-7-2] INFO - bbb
+2015-09-29 15:51:30,761 [nioEventLoopGroup-7-2] INFO - SCChat {
+  msg: "15:51:30
+q1"
+}
+2015-09-29 15:51:33,287 [nioEventLoopGroup-7-2] INFO - CSChat {
+  msg: "2"
+}
+2015-09-29 15:51:33,288 [nioEventLoopGroup-7-2] INFO - bbb
+2015-09-29 15:51:33,288 [nioEventLoopGroup-7-2] INFO - SCChat {
+  msg: "15:51:33
+q2"
+}
+2015-09-29 15:51:35,617 [nioEventLoopGroup-7-2] INFO - CSChat {
+  msg: "3"
+}
+2015-09-29 15:51:35,620 [nioEventLoopGroup-7-2] INFO - bbb
+2015-09-29 15:51:35,620 [nioEventLoopGroup-7-2] INFO - SCChat {
+  msg: "15:51:35
+q3"
+}
+2015-09-29 15:51:48,992 [nioEventLoopGroup-7-3] INFO - Client connected!: [id: 0x6451e102, /192.168.8.129:49701 => /192.168.8.191:33333]
+2015-09-29 15:51:48,992 [nioEventLoopGroup-7-3] INFO - SCValidationCode {
+  validationCode: -578009304
+}
+2015-09-29 15:51:52,797 [nioEventLoopGroup-7-3] ERROR - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:61)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:51:52,798 [nioEventLoopGroup-7-3] INFO - ChannelClosed: [id: 0x6451e102, /192.168.8.129:49701 :> /192.168.8.191:33333]
+2015-09-29 15:52:02,935 [nioEventLoopGroup-7-4] INFO - Client connected!: [id: 0x959ecbac, /192.168.8.129:40413 => /192.168.8.191:33333]
+2015-09-29 15:52:02,935 [nioEventLoopGroup-7-4] INFO - SCValidationCode {
+  validationCode: -423512282
+}
+2015-09-29 15:52:07,829 [nioEventLoopGroup-7-4] ERROR - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:61)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:52:07,830 [nioEventLoopGroup-7-4] INFO - ChannelClosed: [id: 0x959ecbac, /192.168.8.129:40413 :> /192.168.8.191:33333]
+2015-09-29 15:52:17,876 [nioEventLoopGroup-7-5] INFO - Client connected!: [id: 0x40756f12, /192.168.8.129:60265 => /192.168.8.191:33333]
+2015-09-29 15:52:17,876 [nioEventLoopGroup-7-5] INFO - SCValidationCode {
+  validationCode: 409512610
+}
+2015-09-29 15:52:51,656 [nioEventLoopGroup-7-5] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:74)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:52:51,657 [nioEventLoopGroup-7-5] INFO - ChannelClosed: [id: 0x40756f12, /192.168.8.129:60265 :> /192.168.8.191:33333]
+2015-09-29 15:52:57,910 [nioEventLoopGroup-7-6] INFO - Client connected!: [id: 0x45ff7ad4, /192.168.8.129:43843 => /192.168.8.191:33333]
+2015-09-29 15:52:57,910 [nioEventLoopGroup-7-6] INFO - SCValidationCode {
+  validationCode: -375754979
+}
+2015-09-29 15:53:02,860 [nioEventLoopGroup-7-6] ERROR - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:61)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:53:02,860 [nioEventLoopGroup-7-6] INFO - ChannelClosed: [id: 0x45ff7ad4, /192.168.8.129:43843 :> /192.168.8.191:33333]
+2015-09-29 15:53:45,050 [main] INFO - Telnet start at port 40000
+2015-09-29 15:53:45,050 [Thread-1] INFO - Socket start at port 33333
+2015-09-29 15:53:45,050 [Thread-2] INFO - WebSocket start at port 33332
+2015-09-29 15:53:45,072 [Thread-2] DEBUG - -Dio.netty.processId: 4529 (auto-detected)
+2015-09-29 15:53:45,075 [Thread-2] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 15:53:45,076 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x73d9408bdae0d763 (took 2 ms)
+2015-09-29 15:53:45,109 [Thread-2] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 15:53:45,109 [Thread-2] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 15:53:45,109 [Thread-2] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 15:53:45,109 [Thread-2] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 15:53:45,109 [Thread-2] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 15:53:45,109 [Thread-2] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 15:53:45,109 [Thread-2] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 15:53:45,109 [Thread-2] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 15:53:45,109 [Thread-2] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 15:53:45,109 [Thread-2] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 15:53:45,116 [Thread-2] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 15:53:45,116 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 15:53:45,119 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 15:53:45,120 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 15:53:45,129 [nioEventLoopGroup-3-1] INFO - [id: 0x24cad8ca] REGISTERED
+2015-09-29 15:53:45,130 [nioEventLoopGroup-3-1] INFO - [id: 0x24cad8ca] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 15:53:45,133 [nioEventLoopGroup-3-1] INFO - [id: 0x24cad8ca, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 15:53:45,222 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x7876b720, /192.168.8.129:55035 => /192.168.8.191:33333]
+2015-09-29 15:53:45,226 [nioEventLoopGroup-5-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-09-29 15:53:45,237 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 15:53:45,246 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 15:53:47,902 [nioEventLoopGroup-5-1] ERROR - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:609)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:61)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:53:47,905 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x7876b720, /192.168.8.129:55035 :> /192.168.8.191:33333]
+2015-09-29 15:53:52,041 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0xc0bf0145, /192.168.8.129:37663 => /192.168.8.191:33333]
+2015-09-29 15:53:52,041 [nioEventLoopGroup-5-2] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-09-29 15:53:52,207 [nioEventLoopGroup-5-2] INFO - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "v0o8eogqso7gegfa1v4t55vvpt",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 15:53:52,209 [nioEventLoopGroup-5-2] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-29 15:53:57,088 [nioEventLoopGroup-5-2] INFO - CSName {
+  msg: "Q"
+}
+2015-09-29 15:56:24,135 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "w"
+}
+2015-09-29 15:56:24,136 [nioEventLoopGroup-5-2] INFO - bbb
+2015-09-29 15:56:24,136 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "15:56:24
+Qw"
+}
+2015-09-29 15:56:57,636 [nioEventLoopGroup-5-3] INFO - Client connected!: [id: 0xa89dd06a, /192.168.8.129:57095 => /192.168.8.191:33333]
+2015-09-29 15:56:57,636 [nioEventLoopGroup-5-3] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-09-29 15:56:57,686 [nioEventLoopGroup-5-3] INFO - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "v0o8eogqso7gegfa1v4t55vvpt",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 15:56:57,686 [nioEventLoopGroup-5-3] INFO - SCInitSession {
+  sessionStatus: 2
+}
+2015-09-29 15:56:57,768 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "dfgh"
+}
+2015-09-29 15:56:57,768 [nioEventLoopGroup-5-3] INFO - bbb
+2015-09-29 15:56:57,768 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:56:57
+Qdfgh"
+}
+2015-09-29 15:56:57,768 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:56:57
+Qdfgh"
+}
+2015-09-29 15:56:57,773 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "hhjjf"
+}
+2015-09-29 15:56:57,773 [nioEventLoopGroup-5-3] INFO - bbb
+2015-09-29 15:56:57,774 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:56:57
+Qhhjjf"
+}
+2015-09-29 15:56:57,774 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:56:57
+Qhhjjf"
+}
+2015-09-29 15:56:57,780 [nioEventLoopGroup-5-2] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:854)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:56:57,781 [nioEventLoopGroup-5-2] INFO - ChannelClosed: [id: 0xc0bf0145, /192.168.8.129:37663 :> /192.168.8.191:33333]
+2015-09-29 15:58:00,951 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "aaaa"
+}
+2015-09-29 15:58:00,951 [nioEventLoopGroup-5-3] INFO - bbb
+2015-09-29 15:58:00,951 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:58:0
+Qaaaa"
+}
+2015-09-29 15:58:00,952 [nioEventLoopGroup-5-3] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.sendMessage(BFSessionManager.java:103)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZone.sendMessageToAll(BFZone.java:119)
+	at vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat.execute(CSChat.java:43)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:191)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:58:03,875 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "wqmqmqm"
+}
+2015-09-29 15:58:03,876 [nioEventLoopGroup-5-3] INFO - bbb
+2015-09-29 15:58:03,876 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:58:3
+Qwqmqmqm"
+}
+2015-09-29 15:58:03,876 [nioEventLoopGroup-5-3] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.sendMessage(BFSessionManager.java:103)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZone.sendMessageToAll(BFZone.java:119)
+	at vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat.execute(CSChat.java:43)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:191)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:58:08,855 [nioEventLoopGroup-5-3] INFO - CSChat {
+  msg: "1"
+}
+2015-09-29 15:58:08,856 [nioEventLoopGroup-5-3] INFO - bbb
+2015-09-29 15:58:08,856 [nioEventLoopGroup-5-3] INFO - SCChat {
+  msg: "15:58:8
+Q1"
+}
+2015-09-29 15:58:08,856 [nioEventLoopGroup-5-3] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.sendMessage(BFSessionManager.java:103)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZone.sendMessageToAll(BFZone.java:119)
+	at vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat.execute(CSChat.java:43)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:191)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:58:22,068 [nioEventLoopGroup-5-4] INFO - Client connected!: [id: 0x204fc9fd, /192.168.8.129:36055 => /192.168.8.191:33333]
+2015-09-29 15:58:22,068 [nioEventLoopGroup-5-4] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-09-29 15:58:22,164 [nioEventLoopGroup-5-4] INFO - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "v0o8eogqso7gegfa1v4t55vvpt",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 15:58:22,164 [nioEventLoopGroup-5-4] INFO - SCInitSession {
+  sessionStatus: 2
+}
+2015-09-29 15:58:22,197 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "2"
+}
+2015-09-29 15:58:22,197 [nioEventLoopGroup-5-4] INFO - bbb
+2015-09-29 15:58:22,197 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:58:22
+Q2"
+}
+2015-09-29 15:58:22,197 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:58:22
+Q2"
+}
+2015-09-29 15:58:22,198 [nioEventLoopGroup-5-4] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.sendMessage(BFSessionManager.java:103)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZone.sendMessageToAll(BFZone.java:119)
+	at vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat.execute(CSChat.java:43)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:191)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:58:22,207 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "3"
+}
+2015-09-29 15:58:22,207 [nioEventLoopGroup-5-4] INFO - bbb
+2015-09-29 15:58:22,207 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:58:22
+Q3"
+}
+2015-09-29 15:58:22,208 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:58:22
+Q3"
+}
+2015-09-29 15:58:22,208 [nioEventLoopGroup-5-4] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.sendMessage(BFSessionManager.java:103)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZone.sendMessageToAll(BFZone.java:119)
+	at vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat.execute(CSChat.java:43)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:191)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:58:22,208 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "4"
+}
+2015-09-29 15:58:22,208 [nioEventLoopGroup-5-4] INFO - bbb
+2015-09-29 15:58:22,208 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:58:22
+Q4"
+}
+2015-09-29 15:58:22,209 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:58:22
+Q4"
+}
+2015-09-29 15:58:22,209 [nioEventLoopGroup-5-4] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.sendMessage(BFSessionManager.java:103)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZone.sendMessageToAll(BFZone.java:119)
+	at vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat.execute(CSChat.java:43)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:191)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:58:22,277 [nioEventLoopGroup-5-3] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:854)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:58:22,277 [nioEventLoopGroup-5-3] INFO - ChannelClosed: [id: 0xa89dd06a, /192.168.8.129:57095 :> /192.168.8.191:33333]
+2015-09-29 15:59:58,254 [nioEventLoopGroup-5-4] INFO - CSChat {
+  msg: "f"
+}
+2015-09-29 15:59:58,254 [nioEventLoopGroup-5-4] INFO - bbb
+2015-09-29 15:59:58,254 [nioEventLoopGroup-5-4] INFO - SCChat {
+  msg: "15:59:58
+Qf"
+}
+2015-09-29 15:59:58,255 [nioEventLoopGroup-5-4] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.sendMessage(BFSessionManager.java:103)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZone.sendMessageToAll(BFZone.java:119)
+	at vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat.execute(CSChat.java:43)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:191)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 15:59:58,255 [nioEventLoopGroup-5-4] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.sendMessage(BFSessionManager.java:103)
+	at vn.com.onesoft.bigfox.server.io.core.zone.BFZone.sendMessageToAll(BFZone.java:119)
+	at vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat.execute(CSChat.java:43)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:191)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 16:01:27,738 [Thread-1] INFO - Socket start at port 33333
+2015-09-29 16:01:27,738 [Thread-2] INFO - WebSocket start at port 33332
+2015-09-29 16:01:27,738 [main] INFO - Telnet start at port 40000
+2015-09-29 16:01:27,760 [Thread-1] DEBUG - -Dio.netty.processId: 4618 (auto-detected)
+2015-09-29 16:01:27,763 [Thread-1] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 16:01:27,765 [Thread-1] DEBUG - -Dio.netty.initialSeedUniquifier: 0x75ceac27a65d8d90 (took 2 ms)
+2015-09-29 16:01:27,794 [main] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 16:01:27,794 [main] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 16:01:27,794 [main] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 16:01:27,794 [main] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 16:01:27,794 [main] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 16:01:27,794 [main] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 16:01:27,795 [main] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 16:01:27,795 [main] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 16:01:27,795 [main] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 16:01:27,795 [main] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 16:01:27,803 [main] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 16:01:27,803 [main] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 16:01:27,805 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 16:01:27,805 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 16:01:27,816 [nioEventLoopGroup-4-1] INFO - [id: 0x9d217512] REGISTERED
+2015-09-29 16:01:27,817 [nioEventLoopGroup-4-1] INFO - [id: 0x9d217512] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 16:01:27,820 [nioEventLoopGroup-4-1] INFO - [id: 0x9d217512, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 16:01:29,299 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0x18d98c7e, /192.168.8.129:39203 => /192.168.8.191:33333]
+2015-09-29 16:01:29,303 [nioEventLoopGroup-7-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-09-29 16:01:29,315 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 16:01:29,323 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 16:01:29,368 [nioEventLoopGroup-7-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "v0o8eogqso7gegfa1v4t55vvpt",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 16:01:29,369 [nioEventLoopGroup-7-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-29 16:01:34,302 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x18d98c7e, /192.168.8.129:39203 :> /192.168.8.191:33333]
+2015-09-29 16:01:37,232 [nioEventLoopGroup-7-2] INFO - Client connected!: [id: 0x6d218245, /192.168.8.129:34663 => /192.168.8.191:33333]
+2015-09-29 16:01:37,232 [nioEventLoopGroup-7-2] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-09-29 16:01:37,500 [nioEventLoopGroup-7-2] INFO - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "8l5ed9cg29ivgm17mm0eso9vgp",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 16:01:37,501 [nioEventLoopGroup-7-2] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-29 16:01:42,585 [nioEventLoopGroup-7-2] INFO - CSName {
+  msg: "Q"
+}
+2015-09-29 16:01:45,279 [nioEventLoopGroup-7-2] INFO - CSChat {
+  msg: "aaaa"
+}
+2015-09-29 16:01:45,279 [nioEventLoopGroup-7-2] INFO - bbb
+2015-09-29 16:01:45,280 [nioEventLoopGroup-7-2] INFO - SCChat {
+  msg: "16:1:45
+Qaaaa"
+}
+2015-09-29 16:02:00,955 [nioEventLoopGroup-7-3] INFO - Client connected!: [id: 0x925a5988, /192.168.8.129:42053 => /192.168.8.191:33333]
+2015-09-29 16:02:00,955 [nioEventLoopGroup-7-3] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-09-29 16:02:01,238 [nioEventLoopGroup-7-3] INFO - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "8l5ed9cg29ivgm17mm0eso9vgp",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 16:02:01,239 [nioEventLoopGroup-7-3] INFO - SCInitSession {
+  sessionStatus: 2
+}
+2015-09-29 16:02:01,455 [nioEventLoopGroup-7-3] INFO - CSChat {
+  msg: "1"
+}
+2015-09-29 16:02:01,456 [nioEventLoopGroup-7-3] INFO - bbb
+2015-09-29 16:02:01,456 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:2:1
+Q1"
+}
+2015-09-29 16:02:01,459 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:2:1
+Q1"
+}
+2015-09-29 16:02:01,561 [nioEventLoopGroup-7-3] INFO - CSChat {
+  msg: "2"
+}
+2015-09-29 16:02:01,561 [nioEventLoopGroup-7-3] INFO - bbb
+2015-09-29 16:02:01,561 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:2:1
+Q2"
+}
+2015-09-29 16:02:01,561 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:2:1
+Q2"
+}
+2015-09-29 16:02:01,599 [nioEventLoopGroup-7-2] WARN - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:854)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:242)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-29 16:02:01,603 [nioEventLoopGroup-7-2] INFO - ChannelClosed: [id: 0x6d218245, /192.168.8.129:34663 :> /192.168.8.191:33333]
+2015-09-29 16:02:07,481 [nioEventLoopGroup-7-3] INFO - CSChat {
+  msg: "f"
+}
+2015-09-29 16:02:07,481 [nioEventLoopGroup-7-3] INFO - bbb
+2015-09-29 16:02:07,481 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:2:7
+Qf"
+}
+2015-09-29 16:02:10,349 [nioEventLoopGroup-7-3] INFO - CSChat {
+  msg: "a"
+}
+2015-09-29 16:02:10,349 [nioEventLoopGroup-7-3] INFO - bbb
+2015-09-29 16:02:10,349 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:2:10
+Qa"
+}
+2015-09-29 16:02:11,470 [nioEventLoopGroup-7-3] INFO - CSChat {
+  msg: "v"
+}
+2015-09-29 16:02:11,470 [nioEventLoopGroup-7-3] INFO - bbb
+2015-09-29 16:02:11,471 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:2:11
+Qv"
+}
+2015-09-29 16:08:40,889 [Thread-1] INFO - Socket start at port 33333
+2015-09-29 16:08:40,889 [Thread-2] INFO - WebSocket start at port 33332
+2015-09-29 16:08:40,889 [main] INFO - Telnet start at port 40000
+2015-09-29 16:08:40,911 [main] DEBUG - -Dio.netty.processId: 4714 (auto-detected)
+2015-09-29 16:08:40,914 [main] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 16:08:40,916 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x18965c678e09b58d (took 1 ms)
+2015-09-29 16:08:40,947 [Thread-1] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 16:08:40,947 [Thread-1] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 16:08:40,947 [Thread-1] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 16:08:40,947 [Thread-1] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 16:08:40,947 [Thread-1] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 16:08:40,947 [Thread-1] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 16:08:40,947 [Thread-1] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 16:08:40,947 [Thread-1] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 16:08:40,947 [Thread-1] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 16:08:40,947 [Thread-1] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 16:08:40,955 [Thread-1] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 16:08:40,955 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 16:08:40,957 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 16:08:40,958 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 16:08:40,968 [nioEventLoopGroup-2-1] INFO - [id: 0xbaf263e0] REGISTERED
+2015-09-29 16:08:40,968 [nioEventLoopGroup-2-1] INFO - [id: 0xbaf263e0] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 16:08:40,972 [nioEventLoopGroup-2-1] INFO - [id: 0xbaf263e0, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 16:08:41,551 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0x240daae5, /192.168.8.129:58746 => /192.168.8.191:33333]
+2015-09-29 16:08:41,556 [nioEventLoopGroup-7-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-09-29 16:08:41,572 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 16:08:41,581 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 16:08:41,647 [nioEventLoopGroup-7-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "8l5ed9cg29ivgm17mm0eso9vgp",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 16:08:41,648 [nioEventLoopGroup-7-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-29 16:08:43,669 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x240daae5, /192.168.8.129:58746 :> /192.168.8.191:33333]
+2015-09-29 16:08:45,940 [nioEventLoopGroup-7-2] INFO - Client connected!: [id: 0x2c9efb6b, /192.168.8.129:55077 => /192.168.8.191:33333]
+2015-09-29 16:08:45,940 [nioEventLoopGroup-7-2] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-09-29 16:08:46,246 [nioEventLoopGroup-7-2] INFO - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "ca3iq56selpra7f68elre0ug8h",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 16:08:46,247 [nioEventLoopGroup-7-2] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-29 16:08:50,603 [nioEventLoopGroup-7-2] INFO - CSName {
+  msg: "Q"
+}
+2015-09-29 16:08:54,706 [nioEventLoopGroup-7-2] INFO - CSChat {
+  msg: "1"
+}
+2015-09-29 16:08:54,707 [nioEventLoopGroup-7-2] INFO - bbb
+2015-09-29 16:08:54,708 [nioEventLoopGroup-7-2] INFO - SCChat {
+  msg: "16:8:54
+Q1"
+}
+2015-09-29 16:08:56,208 [nioEventLoopGroup-7-2] INFO - CSChat {
+  msg: "2"
+}
+2015-09-29 16:08:56,209 [nioEventLoopGroup-7-2] INFO - bbb
+2015-09-29 16:08:56,209 [nioEventLoopGroup-7-2] INFO - SCChat {
+  msg: "16:8:56
+Q2"
+}
+2015-09-29 16:09:12,499 [nioEventLoopGroup-7-3] INFO - Client connected!: [id: 0xa8f8da83, /192.168.8.129:56239 => /192.168.8.191:33333]
+2015-09-29 16:09:12,499 [nioEventLoopGroup-7-3] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-09-29 16:09:12,515 [nioEventLoopGroup-7-3] INFO - CSClientInfo {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "ca3iq56selpra7f68elre0ug8h",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 16:09:12,517 [nioEventLoopGroup-7-3] INFO - SCInitSession {
+  sessionStatus: 2
+}
+2015-09-29 16:09:12,532 [nioEventLoopGroup-7-3] INFO - CSChat {
+  msg: "3"
+}
+2015-09-29 16:09:12,532 [nioEventLoopGroup-7-3] INFO - bbb
+2015-09-29 16:09:12,532 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:9:12
+Q3"
+}
+2015-09-29 16:09:12,535 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:9:12
+Q3"
+}
+2015-09-29 16:09:12,537 [nioEventLoopGroup-7-3] INFO - CSChat {
+  msg: "4"
+}
+2015-09-29 16:09:12,537 [nioEventLoopGroup-7-3] INFO - bbb
+2015-09-29 16:09:12,537 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:9:12
+Q4"
+}
+2015-09-29 16:09:12,537 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:9:12
+Q4"
+}
+2015-09-29 16:09:12,544 [nioEventLoopGroup-7-3] INFO - CSChat {
+  msg: "5"
+}
+2015-09-29 16:09:12,544 [nioEventLoopGroup-7-3] INFO - bbb
+2015-09-29 16:09:12,544 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:9:12
+Q5"
+}
+2015-09-29 16:09:12,545 [nioEventLoopGroup-7-3] INFO - SCChat {
+  msg: "16:9:12
+Q5"
+}
+2015-09-29 16:09:12,546 [nioEventLoopGroup-7-2] INFO - ChannelClosed: [id: 0x2c9efb6b, /192.168.8.129:55077 :> /192.168.8.191:33333]
+2015-09-29 16:57:16,339 [main] INFO - Telnet start at port 40000
+2015-09-29 16:57:16,339 [Thread-2] INFO - WebSocket start at port 33332
+2015-09-29 16:57:16,340 [Thread-1] INFO - Socket start at port 33333
+2015-09-29 16:57:16,378 [Thread-2] DEBUG - -Dio.netty.processId: 5256 (auto-detected)
+2015-09-29 16:57:16,382 [Thread-2] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 16:57:16,383 [main] DEBUG - -Dio.netty.initialSeedUniquifier: 0x8764cb44cd9d3ed4 (took 3 ms)
+2015-09-29 16:57:16,417 [Thread-1] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 16:57:16,418 [Thread-1] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 16:57:16,418 [Thread-1] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 16:57:16,418 [Thread-1] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 16:57:16,418 [Thread-1] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 16:57:16,418 [Thread-1] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 16:57:16,418 [Thread-1] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 16:57:16,418 [Thread-1] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 16:57:16,418 [Thread-1] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 16:57:16,418 [Thread-1] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 16:57:16,425 [Thread-1] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 16:57:16,425 [Thread-1] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 16:57:16,427 [Thread-1] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 16:57:16,428 [Thread-1] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 16:57:16,439 [nioEventLoopGroup-2-1] INFO - [id: 0x130ca127] REGISTERED
+2015-09-29 16:57:16,440 [nioEventLoopGroup-2-1] INFO - [id: 0x130ca127] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 16:57:16,446 [nioEventLoopGroup-2-1] INFO - [id: 0x130ca127, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 16:57:16,720 [nioEventLoopGroup-6-1] INFO - Client connected!: [id: 0x197f92a0, /192.168.8.129:54666 => /192.168.8.191:33333]
+2015-09-29 16:57:16,726 [nioEventLoopGroup-6-1] INFO - SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 16:57:16,739 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 16:57:16,749 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 16:57:16,795 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:591 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "ca3iq56selpra7f68elre0ug8h",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 16:57:16,796 [nioEventLoopGroup-6-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-09-29 16:57:24,374 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0x197f92a0, /192.168.8.129:54666 :> /192.168.8.191:33333]
+2015-09-29 16:57:27,860 [nioEventLoopGroup-6-2] INFO - Client connected!: [id: 0xe063833c, /192.168.8.129:47687 => /192.168.8.191:33333]
+2015-09-29 16:57:27,861 [nioEventLoopGroup-6-2] INFO - SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 16:57:27,928 [nioEventLoopGroup-6-2] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "4mr19mg6a56f1thpkcheifghq1",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 16:57:27,929 [nioEventLoopGroup-6-2] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-09-29 16:57:32,505 [nioEventLoopGroup-6-2] INFO - CSName m:3 s:0 {
+  msg: "q"
+}
+2015-09-29 16:57:57,759 [nioEventLoopGroup-6-2] INFO - CSChat m:9 s:0 {
+  msg: "q"
+}
+2015-09-29 16:57:57,759 [nioEventLoopGroup-6-2] INFO - bbb
+2015-09-29 16:57:57,760 [nioEventLoopGroup-6-2] INFO - SCChat m:9 s:1 {
+  msg: "16:57:57
+qq"
+}
+2015-09-29 16:58:19,131 [nioEventLoopGroup-6-3] INFO - Client connected!: [id: 0x272ac1a9, /192.168.8.129:35584 => /192.168.8.191:33333]
+2015-09-29 16:58:19,132 [nioEventLoopGroup-6-3] INFO - SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 16:58:19,156 [nioEventLoopGroup-6-3] INFO - CSClientInfo m:17 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "4mr19mg6a56f1thpkcheifghq1",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 16:58:19,156 [nioEventLoopGroup-6-3] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 2
+}
+2015-09-29 16:58:19,171 [nioEventLoopGroup-6-3] INFO - CSChat m:12 s:0 {
+  msg: "xdd"
+}
+2015-09-29 16:58:19,171 [nioEventLoopGroup-6-3] INFO - bbb
+2015-09-29 16:58:19,171 [nioEventLoopGroup-6-3] INFO - SCChat m:12 s:2 {
+  msg: "16:58:19
+qxdd"
+}
+2015-09-29 16:58:19,171 [nioEventLoopGroup-6-3] INFO - SCChat m:12 s:3 {
+  msg: "16:58:19
+qxdd"
+}
+2015-09-29 16:58:19,180 [nioEventLoopGroup-6-3] INFO - CSChat m:14 s:0 {
+  msg: "cx"
+}
+2015-09-29 16:58:19,180 [nioEventLoopGroup-6-3] INFO - bbb
+2015-09-29 16:58:19,180 [nioEventLoopGroup-6-3] INFO - SCChat m:14 s:4 {
+  msg: "16:58:19
+qcx"
+}
+2015-09-29 16:58:19,180 [nioEventLoopGroup-6-3] INFO - SCChat m:14 s:5 {
+  msg: "16:58:19
+qcx"
+}
+2015-09-29 16:58:19,212 [nioEventLoopGroup-6-2] INFO - ChannelClosed: [id: 0xe063833c, /192.168.8.129:47687 :> /192.168.8.191:33333]
+2015-09-29 16:59:24,375 [main] INFO - Telnet start at port 40000
+2015-09-29 16:59:24,375 [Thread-1] INFO - Socket start at port 33333
+2015-09-29 16:59:24,375 [Thread-2] INFO - WebSocket start at port 33332
+2015-09-29 16:59:24,402 [main] DEBUG - -Dio.netty.processId: 5285 (auto-detected)
+2015-09-29 16:59:24,406 [main] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 16:59:24,407 [main] DEBUG - -Dio.netty.initialSeedUniquifier: 0x836d1bf76a758c48 (took 1 ms)
+2015-09-29 16:59:24,440 [Thread-2] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 16:59:24,440 [Thread-2] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 16:59:24,440 [Thread-2] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 16:59:24,440 [Thread-2] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 16:59:24,440 [Thread-2] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 16:59:24,441 [Thread-2] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 16:59:24,441 [Thread-2] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 16:59:24,441 [Thread-2] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 16:59:24,441 [Thread-2] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 16:59:24,441 [Thread-2] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 16:59:24,449 [Thread-2] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 16:59:24,449 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 16:59:24,451 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 16:59:24,451 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 16:59:24,462 [nioEventLoopGroup-4-1] INFO - [id: 0xdc347b43] REGISTERED
+2015-09-29 16:59:24,462 [nioEventLoopGroup-4-1] INFO - [id: 0xdc347b43] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 16:59:24,466 [nioEventLoopGroup-4-1] INFO - [id: 0xdc347b43, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 16:59:28,263 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0x17218fb9, /192.168.8.129:45044 => /192.168.8.191:33333]
+2015-09-29 16:59:28,267 [nioEventLoopGroup-7-1] INFO - SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 16:59:28,278 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 16:59:28,288 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 16:59:28,335 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:32 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "4mr19mg6a56f1thpkcheifghq1",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 16:59:28,336 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-09-29 17:00:50,428 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x17218fb9, /192.168.8.129:45044 :> /192.168.8.191:33333]
+2015-09-29 17:11:17,542 [main] INFO - Telnet start at port 40000
+2015-09-29 17:11:17,542 [Thread-2] INFO - Socket start at port 33333
+2015-09-29 17:11:17,542 [Thread-3] INFO - WebSocket start at port 33332
+2015-09-29 17:11:17,574 [Thread-2] DEBUG - -Dio.netty.processId: 5418 (auto-detected)
+2015-09-29 17:11:17,577 [Thread-2] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 17:11:17,578 [Thread-3] DEBUG - -Dio.netty.initialSeedUniquifier: 0x677c8a5baccbb0be (took 2 ms)
+2015-09-29 17:11:17,613 [main] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 17:11:17,613 [main] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 17:11:17,613 [main] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 17:11:17,613 [main] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 17:11:17,613 [main] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 17:11:17,613 [main] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 17:11:17,614 [main] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 17:11:17,614 [main] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 17:11:17,614 [main] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 17:11:17,614 [main] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 17:11:17,621 [main] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 17:11:17,621 [main] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 17:11:17,623 [main] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 17:11:17,624 [main] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 17:11:17,635 [nioEventLoopGroup-4-1] INFO - [id: 0xd8e406a8] REGISTERED
+2015-09-29 17:11:17,636 [nioEventLoopGroup-4-1] INFO - [id: 0xd8e406a8] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 17:11:17,640 [nioEventLoopGroup-4-1] INFO - [id: 0xd8e406a8, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 17:11:35,465 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0xd20d298d, /192.168.8.129:33832 => /192.168.8.191:33333]
+2015-09-29 17:11:35,472 [nioEventLoopGroup-7-1] INFO - SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:11:35,489 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 17:11:35,498 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 17:11:35,760 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "11pj3gpe4vgmuob4tecqcma4aq",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:11:35,763 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-09-29 17:11:39,982 [nioEventLoopGroup-7-1] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-09-29 17:11:44,337 [nioEventLoopGroup-7-1] INFO - CSChat m:5 s:0 {
+  msg: "qqq"
+}
+2015-09-29 17:11:44,338 [nioEventLoopGroup-7-1] INFO - SCChat m:5 s:1 {
+  msg: "17:11:44
+Qqqq"
+}
+2015-09-29 17:11:59,919 [nioEventLoopGroup-7-1] INFO - CSChat m:9 s:0 {
+  msg: "g"
+}
+2015-09-29 17:11:59,920 [nioEventLoopGroup-7-1] INFO - SCChat m:9 s:2 {
+  msg: "17:11:59
+Q: g"
+}
+2015-09-29 17:21:18,730 [nioEventLoopGroup-7-1] INFO - CSChat m:122 s:0 {
+  msg: "fgh"
+}
+2015-09-29 17:21:18,731 [nioEventLoopGroup-7-1] INFO - SCChat m:122 s:3 {
+  msg: "17:21:18
+Q: fgh"
+}
+2015-09-29 17:21:33,079 [nioEventLoopGroup-7-2] INFO - Client connected!: [id: 0x2064f444, /192.168.8.129:59184 => /192.168.8.191:33333]
+2015-09-29 17:21:33,079 [nioEventLoopGroup-7-2] INFO - SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:21:33,188 [nioEventLoopGroup-7-2] INFO - CSClientInfo m:129 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "11pj3gpe4vgmuob4tecqcma4aq",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:21:33,189 [nioEventLoopGroup-7-2] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 2
+}
+2015-09-29 17:21:33,589 [nioEventLoopGroup-7-2] INFO - CSChat m:124 s:0 {
+  msg: "1"
+}
+2015-09-29 17:21:33,590 [nioEventLoopGroup-7-2] INFO - SCChat m:124 s:4 {
+  msg: "17:21:33
+Q: 1"
+}
+2015-09-29 17:21:33,594 [nioEventLoopGroup-7-2] INFO - SCChat m:124 s:5 {
+  msg: "17:21:33
+Q: 1"
+}
+2015-09-29 17:21:33,610 [nioEventLoopGroup-7-2] INFO - CSChat m:125 s:0 {
+  msg: "2"
+}
+2015-09-29 17:21:33,611 [nioEventLoopGroup-7-2] INFO - SCChat m:125 s:6 {
+  msg: "17:21:33
+Q: 2"
+}
+2015-09-29 17:21:33,611 [nioEventLoopGroup-7-2] INFO - SCChat m:125 s:7 {
+  msg: "17:21:33
+Q: 2"
+}
+2015-09-29 17:21:33,614 [nioEventLoopGroup-7-2] INFO - CSChat m:126 s:0 {
+  msg: "3"
+}
+2015-09-29 17:21:33,616 [nioEventLoopGroup-7-2] INFO - SCChat m:126 s:8 {
+  msg: "17:21:33
+Q: 3"
+}
+2015-09-29 17:21:33,617 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0xd20d298d, /192.168.8.129:33832 :> /192.168.8.191:33333]
+2015-09-29 17:29:20,399 [Thread-2] INFO - Socket start at port 33333
+2015-09-29 17:29:20,399 [main] INFO - Telnet start at port 40000
+2015-09-29 17:29:20,399 [Thread-3] INFO - WebSocket start at port 33332
+2015-09-29 17:29:20,435 [main] DEBUG - -Dio.netty.processId: 5618 (auto-detected)
+2015-09-29 17:29:20,441 [main] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 17:29:20,443 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0xf97a60e65b3630a4 (took 2 ms)
+2015-09-29 17:29:20,479 [Thread-2] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 17:29:20,479 [Thread-2] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 17:29:20,479 [Thread-2] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 17:29:20,479 [Thread-2] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 17:29:20,479 [Thread-2] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 17:29:20,479 [Thread-2] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 17:29:20,479 [Thread-2] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 17:29:20,479 [Thread-2] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 17:29:20,480 [Thread-2] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 17:29:20,480 [Thread-2] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 17:29:20,488 [Thread-2] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 17:29:20,488 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 17:29:20,491 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 17:29:20,491 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 17:29:20,501 [nioEventLoopGroup-4-1] INFO - [id: 0x96246f8d] REGISTERED
+2015-09-29 17:29:20,501 [nioEventLoopGroup-4-1] INFO - [id: 0x96246f8d] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 17:29:20,506 [nioEventLoopGroup-4-1] INFO - [id: 0x96246f8d, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 17:29:21,364 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0x58ed78cf, /192.168.8.129:34585 => /192.168.8.191:33333]
+2015-09-29 17:29:21,372 [nioEventLoopGroup-7-1] INFO - [id: 0x58ed78cf, /192.168.8.129:34585 => /192.168.8.191:33333] SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:29:21,379 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 17:29:21,389 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 17:29:21,431 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:223 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "11pj3gpe4vgmuob4tecqcma4aq",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:29:21,433 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-09-29 17:29:22,057 [nioEventLoopGroup-7-1] INFO - [id: 0x58ed78cf, /192.168.8.129:34585 => /192.168.8.191:33333] SCPing m:0 s:0 {
+  serverTime: 1443522562056
+}
+2015-09-29 17:29:26,975 [nioEventLoopGroup-7-1] INFO - [id: 0x58ed78cf, /192.168.8.129:34585 => /192.168.8.191:33333] SCPing m:0 s:0 {
+  serverTime: 1443522566974
+}
+2015-09-29 17:29:31,985 [nioEventLoopGroup-7-1] INFO - [id: 0x58ed78cf, /192.168.8.129:34585 => /192.168.8.191:33333] SCPing m:0 s:0 {
+  serverTime: 1443522571984
+}
+2015-09-29 17:29:37,003 [nioEventLoopGroup-7-1] INFO - [id: 0x58ed78cf, /192.168.8.129:34585 => /192.168.8.191:33333] SCPing m:0 s:0 {
+  serverTime: 1443522577003
+}
+2015-09-29 17:29:42,025 [nioEventLoopGroup-7-1] INFO - [id: 0x58ed78cf, /192.168.8.129:34585 => /192.168.8.191:33333] SCPing m:0 s:0 {
+  serverTime: 1443522582025
+}
+2015-09-29 17:29:47,144 [nioEventLoopGroup-7-1] INFO - [id: 0x58ed78cf, /192.168.8.129:34585 => /192.168.8.191:33333] SCPing m:0 s:0 {
+  serverTime: 1443522587144
+}
+2015-09-29 17:29:50,736 [nioEventLoopGroup-7-1] INFO - CSChat m:230 s:0 {
+  msg: "1"
+}
+2015-09-29 17:29:50,738 [nioEventLoopGroup-7-1] INFO - [id: 0x58ed78cf, /192.168.8.129:34585 => /192.168.8.191:33333] SCChat m:230 s:1 {
+  msg: "17:29:50
+null: 1"
+}
+2015-09-29 17:29:52,059 [nioEventLoopGroup-7-1] INFO - [id: 0x58ed78cf, /192.168.8.129:34585 => /192.168.8.191:33333] SCPing m:0 s:0 {
+  serverTime: 1443522592059
+}
+2015-09-29 17:29:54,489 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x58ed78cf, /192.168.8.129:34585 :> /192.168.8.191:33333]
+2015-09-29 17:30:32,313 [nioEventLoopGroup-7-2] INFO - Client connected!: [id: 0xbaa227ff, /192.168.8.129:49182 => /192.168.8.191:33333]
+2015-09-29 17:30:32,314 [nioEventLoopGroup-7-2] INFO - [id: 0xbaa227ff, /192.168.8.129:49182 => /192.168.8.191:33333] SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:30:32,711 [nioEventLoopGroup-7-2] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "sgfeu673m6i5m6q2lf2k3grj45",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:30:32,712 [nioEventLoopGroup-7-2] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-09-29 17:30:32,728 [nioEventLoopGroup-7-2] INFO - [id: 0xbaa227ff, /192.168.8.129:49182 => /192.168.8.191:33333] SCPing m:0 s:0 {
+  serverTime: 1443522632728
+}
+2015-09-29 17:30:37,850 [nioEventLoopGroup-7-2] INFO - [id: 0xbaa227ff, /192.168.8.129:49182 => /192.168.8.191:33333] SCPing m:0 s:0 {
+  serverTime: 1443522637850
+}
+2015-09-29 17:30:52,468 [main] INFO - Telnet start at port 40000
+2015-09-29 17:30:52,468 [Thread-2] INFO - Socket start at port 33333
+2015-09-29 17:30:52,468 [Thread-3] INFO - WebSocket start at port 33332
+2015-09-29 17:30:52,496 [Thread-3] DEBUG - -Dio.netty.processId: 5644 (auto-detected)
+2015-09-29 17:30:52,503 [Thread-3] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 17:30:52,505 [main] DEBUG - -Dio.netty.initialSeedUniquifier: 0xeae7cf8a91efbbd2 (took 2 ms)
+2015-09-29 17:30:52,530 [Thread-2] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 17:30:52,530 [Thread-2] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 17:30:52,530 [Thread-2] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 17:30:52,530 [Thread-2] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 17:30:52,530 [Thread-2] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 17:30:52,530 [Thread-2] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 17:30:52,531 [Thread-2] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 17:30:52,531 [Thread-2] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 17:30:52,531 [Thread-2] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 17:30:52,531 [Thread-2] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 17:30:52,536 [Thread-2] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 17:30:52,537 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 17:30:52,538 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 17:30:52,539 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 17:30:52,550 [nioEventLoopGroup-2-1] INFO - [id: 0xc5243288] REGISTERED
+2015-09-29 17:30:52,550 [nioEventLoopGroup-2-1] INFO - [id: 0xc5243288] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 17:30:52,554 [nioEventLoopGroup-2-1] INFO - [id: 0xc5243288, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 17:30:52,909 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0x849ff140, /192.168.8.129:45035 => /192.168.8.191:33333]
+2015-09-29 17:30:52,916 [nioEventLoopGroup-7-1] INFO - [id: 0x849ff140, /192.168.8.129:45035 => /192.168.8.191:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:30:52,925 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 17:30:52,933 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 17:30:53,052 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:7 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "sgfeu673m6i5m6q2lf2k3grj45",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:30:53,055 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-09-29 17:30:57,188 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x849ff140, /192.168.8.129:45035 :> /192.168.8.191:33333]
+2015-09-29 17:31:17,903 [nioEventLoopGroup-7-2] INFO - Client connected!: [id: 0x7d37617d, /192.168.8.129:59939 => /192.168.8.191:33333]
+2015-09-29 17:31:17,904 [nioEventLoopGroup-7-2] INFO - [id: 0x7d37617d, /192.168.8.129:59939 => /192.168.8.191:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:31:17,992 [nioEventLoopGroup-7-2] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "hq1vjb18qpqmg9adp4uqo2ases",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:31:17,992 [nioEventLoopGroup-7-2] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-09-29 17:31:18,173 [nioEventLoopGroup-7-2] INFO - [id: 0x7d37617d, /192.168.8.129:59939 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443522678173
+}
+2015-09-29 17:31:22,171 [nioEventLoopGroup-7-2] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-09-29 17:31:23,180 [nioEventLoopGroup-7-2] INFO - [id: 0x7d37617d, /192.168.8.129:59939 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443522683180
+}
+2015-09-29 17:31:24,628 [nioEventLoopGroup-7-2] INFO - CSChat m:5 s:0 {
+  msg: "1"
+}
+2015-09-29 17:31:24,630 [nioEventLoopGroup-7-2] INFO - [id: 0x7d37617d, /192.168.8.129:59939 => /192.168.8.191:33333]
+SCChat m:5 s:1 {
+  msg: "17:31:24
+Q: 1"
+}
+2015-09-29 17:31:28,212 [nioEventLoopGroup-7-2] INFO - [id: 0x7d37617d, /192.168.8.129:59939 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443522688212
+}
+2015-09-29 17:31:40,309 [nioEventLoopGroup-7-3] INFO - Client connected!: [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+2015-09-29 17:31:40,310 [nioEventLoopGroup-7-3] INFO - [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:31:40,340 [nioEventLoopGroup-7-3] INFO - CSClientInfo m:12 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "hq1vjb18qpqmg9adp4uqo2ases",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:31:40,340 [nioEventLoopGroup-7-3] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 2
+}
+2015-09-29 17:31:40,363 [nioEventLoopGroup-7-3] INFO - CSChat m:7 s:0 {
+  msg: "2"
+}
+2015-09-29 17:31:40,364 [nioEventLoopGroup-7-3] INFO - [id: 0x7d37617d, /192.168.8.129:59939 => /192.168.8.191:33333]
+SCChat m:7 s:2 {
+  msg: "17:31:40
+Q: 2"
+}
+2015-09-29 17:31:40,368 [nioEventLoopGroup-7-3] INFO - [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+SCChat m:7 s:3 {
+  msg: "17:31:40
+Q: 2"
+}
+2015-09-29 17:31:40,391 [nioEventLoopGroup-7-2] INFO - ChannelClosed: [id: 0x7d37617d, /192.168.8.129:59939 :> /192.168.8.191:33333]
+2015-09-29 17:31:40,392 [nioEventLoopGroup-7-3] INFO - CSChat m:8 s:0 {
+  msg: "3"
+}
+2015-09-29 17:31:40,392 [nioEventLoopGroup-7-3] INFO - [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+SCChat m:8 s:4 {
+  msg: "17:31:40
+Q: 3"
+}
+2015-09-29 17:31:40,393 [nioEventLoopGroup-7-3] INFO - CSChat m:10 s:0 {
+  msg: "4"
+}
+2015-09-29 17:31:40,393 [nioEventLoopGroup-7-3] INFO - [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+SCChat m:10 s:5 {
+  msg: "17:31:40
+Q: 4"
+}
+2015-09-29 17:31:43,236 [nioEventLoopGroup-7-3] INFO - [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443522703236
+}
+2015-09-29 17:31:48,283 [nioEventLoopGroup-7-3] INFO - [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443522708283
+}
+2015-09-29 17:31:53,302 [nioEventLoopGroup-7-3] INFO - [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443522713302
+}
+2015-09-29 17:31:58,216 [nioEventLoopGroup-7-3] INFO - [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443522718216
+}
+2015-09-29 17:32:03,234 [nioEventLoopGroup-7-3] INFO - [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443522723234
+}
+2015-09-29 17:32:08,251 [nioEventLoopGroup-7-3] INFO - [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443522728251
+}
+2015-09-29 17:32:13,268 [nioEventLoopGroup-7-3] INFO - [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443522733268
+}
+2015-09-29 17:32:18,224 [nioEventLoopGroup-7-3] INFO - [id: 0xadcf4b84, /192.168.8.129:53992 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443522738224
+}
+2015-09-29 17:37:58,329 [Thread-2] INFO - Socket start at port 33333
+2015-09-29 17:37:58,329 [Thread-3] INFO - WebSocket start at port 33332
+2015-09-29 17:37:58,329 [main] INFO - Telnet start at port 40000
+2015-09-29 17:37:58,361 [Thread-2] DEBUG - -Dio.netty.processId: 5730 (auto-detected)
+2015-09-29 17:37:58,364 [Thread-2] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 17:37:58,365 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x582e8364fa979f11 (took 2 ms)
+2015-09-29 17:37:58,398 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 17:37:58,398 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 17:37:58,398 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 17:37:58,399 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 17:37:58,399 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 17:37:58,399 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 17:37:58,399 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 17:37:58,399 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 17:37:58,399 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 17:37:58,399 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 17:37:58,408 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 17:37:58,408 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 17:37:58,411 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 17:37:58,411 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 17:37:58,422 [nioEventLoopGroup-2-1] INFO - [id: 0x2f5b4b81] REGISTERED
+2015-09-29 17:37:58,422 [nioEventLoopGroup-2-1] INFO - [id: 0x2f5b4b81] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 17:37:58,426 [nioEventLoopGroup-2-1] INFO - [id: 0x2f5b4b81, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 17:37:59,348 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0xa1c0eb70, /192.168.8.129:42240 => /192.168.8.191:33333]
+2015-09-29 17:37:59,358 [nioEventLoopGroup-7-1] INFO - [id: 0xa1c0eb70, /192.168.8.129:42240 => /192.168.8.191:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:37:59,368 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 17:37:59,382 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 17:37:59,443 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:89 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "hq1vjb18qpqmg9adp4uqo2ases",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:37:59,445 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-09-29 17:38:03,454 [nioEventLoopGroup-7-1] INFO - [id: 0xa1c0eb70, /192.168.8.129:42240 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443523083453
+}
+2015-09-29 17:38:08,494 [nioEventLoopGroup-7-1] INFO - [id: 0xa1c0eb70, /192.168.8.129:42240 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443523088494
+}
+2015-09-29 17:38:09,828 [nioEventLoopGroup-7-1] INFO - CSChat m:92 s:0 {
+  msg: "t"
+}
+2015-09-29 17:38:09,829 [nioEventLoopGroup-7-1] INFO - [id: 0xa1c0eb70, /192.168.8.129:42240 => /192.168.8.191:33333]
+SCChat m:92 s:1 {
+  msg: "17:38:9
+null: t"
+}
+2015-09-29 17:38:13,332 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0xa1c0eb70, /192.168.8.129:42240 :> /192.168.8.191:33333]
+2015-09-29 17:38:15,569 [nioEventLoopGroup-7-2] INFO - Client connected!: [id: 0x006aac6d, /192.168.8.129:36720 => /192.168.8.191:33333]
+2015-09-29 17:38:15,569 [nioEventLoopGroup-7-2] INFO - [id: 0x006aac6d, /192.168.8.129:36720 => /192.168.8.191:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:38:15,943 [nioEventLoopGroup-7-2] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "5dvoiad58dkrlg8l5mcp78ci3h",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:38:15,944 [nioEventLoopGroup-7-2] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-09-29 17:38:16,000 [nioEventLoopGroup-7-2] INFO - [id: 0x006aac6d, /192.168.8.129:36720 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443523095999
+}
+2015-09-29 17:38:19,553 [nioEventLoopGroup-7-2] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-09-29 17:38:21,087 [nioEventLoopGroup-7-2] INFO - [id: 0x006aac6d, /192.168.8.129:36720 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443523101087
+}
+2015-09-29 17:38:22,317 [nioEventLoopGroup-7-2] INFO - CSChat m:5 s:0 {
+  msg: "1"
+}
+2015-09-29 17:38:22,318 [nioEventLoopGroup-7-2] INFO - [id: 0x006aac6d, /192.168.8.129:36720 => /192.168.8.191:33333]
+SCChat m:5 s:1 {
+  msg: "17:38:22
+Q: 1"
+}
+2015-09-29 17:38:23,340 [nioEventLoopGroup-7-2] INFO - CSChat m:6 s:0 {
+  msg: "2"
+}
+2015-09-29 17:38:23,341 [nioEventLoopGroup-7-2] INFO - [id: 0x006aac6d, /192.168.8.129:36720 => /192.168.8.191:33333]
+SCChat m:6 s:2 {
+  msg: "17:38:23
+Q: 2"
+}
+2015-09-29 17:38:36,156 [nioEventLoopGroup-7-3] INFO - Client connected!: [id: 0xf020472f, /192.168.8.129:43510 => /192.168.8.191:33333]
+2015-09-29 17:38:36,157 [nioEventLoopGroup-7-3] INFO - [id: 0xf020472f, /192.168.8.129:43510 => /192.168.8.191:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:38:36,187 [nioEventLoopGroup-7-3] INFO - CSClientInfo m:13 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "5dvoiad58dkrlg8l5mcp78ci3h",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:38:36,188 [nioEventLoopGroup-7-3] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 2
+}
+2015-09-29 17:38:36,208 [nioEventLoopGroup-7-3] INFO - CSChat m:8 s:0 {
+  msg: "3"
+}
+2015-09-29 17:38:36,209 [nioEventLoopGroup-7-3] INFO - [id: 0x006aac6d, /192.168.8.129:36720 => /192.168.8.191:33333]
+SCChat m:8 s:3 {
+  msg: "17:38:36
+Q: 3"
+}
+2015-09-29 17:38:36,215 [nioEventLoopGroup-7-3] INFO - [id: 0xf020472f, /192.168.8.129:43510 => /192.168.8.191:33333]
+SCChat m:8 s:4 {
+  msg: "17:38:36
+Q: 3"
+}
+2015-09-29 17:38:36,227 [nioEventLoopGroup-7-3] INFO - CSChat m:9 s:0 {
+  msg: "4"
+}
+2015-09-29 17:38:36,227 [nioEventLoopGroup-7-3] INFO - [id: 0x006aac6d, /192.168.8.129:36720 => /192.168.8.191:33333]
+SCChat m:9 s:5 {
+  msg: "17:38:36
+Q: 4"
+}
+2015-09-29 17:38:36,227 [nioEventLoopGroup-7-3] INFO - [id: 0xf020472f, /192.168.8.129:43510 => /192.168.8.191:33333]
+SCChat m:9 s:6 {
+  msg: "17:38:36
+Q: 4"
+}
+2015-09-29 17:38:36,228 [nioEventLoopGroup-7-3] INFO - CSChat m:10 s:0 {
+  msg: "5"
+}
+2015-09-29 17:38:36,228 [nioEventLoopGroup-7-2] INFO - ChannelClosed: [id: 0x006aac6d, /192.168.8.129:36720 :> /192.168.8.191:33333]
+2015-09-29 17:38:36,228 [nioEventLoopGroup-7-3] INFO - [id: 0xf020472f, /192.168.8.129:43510 => /192.168.8.191:33333]
+SCChat m:10 s:7 {
+  msg: "17:38:36
+Q: 5"
+}
+2015-09-29 17:38:41,074 [nioEventLoopGroup-7-3] INFO - [id: 0xf020472f, /192.168.8.129:43510 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443523121074
+}
+2015-09-29 17:38:46,073 [nioEventLoopGroup-7-3] INFO - [id: 0xf020472f, /192.168.8.129:43510 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443523126073
+}
+2015-09-29 17:41:12,472 [main] DEBUG - -Dio.netty.processId: 5769 (auto-detected)
+2015-09-29 17:41:12,476 [main] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 17:41:12,478 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x77d36e68d6f02524 (took 1 ms)
+2015-09-29 17:41:12,512 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 17:41:12,512 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 17:41:12,512 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 17:41:12,512 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 17:41:12,512 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 17:41:12,512 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 17:41:12,512 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 17:41:12,512 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 17:41:12,512 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 17:41:12,512 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 17:41:12,518 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 17:41:12,518 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 17:41:12,520 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 17:41:12,520 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 17:41:12,531 [nioEventLoopGroup-4-1] INFO - [id: 0x88fa4746] REGISTERED
+2015-09-29 17:41:12,531 [nioEventLoopGroup-4-1] INFO - [id: 0x88fa4746] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 17:41:12,534 [nioEventLoopGroup-4-1] INFO - [id: 0x88fa4746, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 17:41:13,248 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 17:41:13,258 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 17:41:16,170 [nioEventLoopGroup-6-1] INFO - CSPing m:46 s:0 {
+  clientTime: 1443523160129
+}
+2015-09-29 17:41:16,171 [nioEventLoopGroup-6-1] INFO - [id: 0x5771d1d9, /192.168.8.129:35437 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443523276171
+}
+2015-09-29 17:41:21,258 [nioEventLoopGroup-6-1] INFO - CSPing m:47 s:0 {
+  clientTime: 1443523165136
+}
+2015-09-29 17:41:21,258 [nioEventLoopGroup-6-1] INFO - [id: 0x5771d1d9, /192.168.8.129:35437 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443523281258
+}
+2015-09-29 17:41:26,181 [nioEventLoopGroup-6-1] INFO - CSPing m:48 s:0 {
+  clientTime: 1443523170142
+}
+2015-09-29 17:41:26,182 [nioEventLoopGroup-6-1] INFO - [id: 0x5771d1d9, /192.168.8.129:35437 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443523286182
+}
+2015-09-29 17:41:31,144 [nioEventLoopGroup-6-1] INFO - CSPing m:49 s:0 {
+  clientTime: 1443523175144
+}
+2015-09-29 17:41:31,144 [nioEventLoopGroup-6-1] INFO - [id: 0x5771d1d9, /192.168.8.129:35437 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443523291144
+}
+2015-09-29 17:41:36,152 [nioEventLoopGroup-6-1] INFO - CSPing m:50 s:0 {
+  clientTime: 1443523180145
+}
+2015-09-29 17:41:36,152 [nioEventLoopGroup-6-1] INFO - [id: 0x5771d1d9, /192.168.8.129:35437 => /192.168.8.191:33333]
+SCPing m:0 s:0 {
+  serverTime: 1443523296152
+}
+2015-09-29 17:41:49,929 [Thread-2] INFO - Socket start at port 33333
+2015-09-29 17:41:49,929 [main] INFO - Telnet start at port 40000
+2015-09-29 17:41:49,929 [Thread-3] INFO - WebSocket start at port 33332
+2015-09-29 17:41:49,951 [main] DEBUG - -Dio.netty.processId: 5779 (auto-detected)
+2015-09-29 17:41:49,954 [main] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
+2015-09-29 17:41:49,956 [Thread-3] DEBUG - -Dio.netty.initialSeedUniquifier: 0x780dd89e6ef642d4 (took 2 ms)
+2015-09-29 17:41:49,981 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-29 17:41:49,981 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-29 17:41:49,981 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-29 17:41:49,981 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-29 17:41:49,981 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-29 17:41:49,981 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-29 17:41:49,981 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-29 17:41:49,981 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-29 17:41:49,981 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-29 17:41:49,981 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-29 17:41:49,987 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-29 17:41:49,987 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-29 17:41:49,988 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-29 17:41:49,989 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-29 17:41:50,000 [nioEventLoopGroup-4-1] INFO - [id: 0xaed20ae5] REGISTERED
+2015-09-29 17:41:50,001 [nioEventLoopGroup-4-1] INFO - [id: 0xaed20ae5] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-29 17:41:50,004 [nioEventLoopGroup-4-1] INFO - [id: 0xaed20ae5, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-29 17:41:50,304 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0x96a8bc08, /192.168.8.129:51130 => /192.168.8.191:33333]
+2015-09-29 17:41:50,318 [nioEventLoopGroup-7-1] INFO - [id: 0x96a8bc08, /192.168.8.129:51130 => /192.168.8.191:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:41:50,327 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-29 17:41:50,338 [nioEventLoopGroup-7-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-29 17:41:50,391 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:53 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "5dvoiad58dkrlg8l5mcp78ci3h",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:41:50,393 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-09-29 17:41:52,617 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x96a8bc08, /192.168.8.129:51130 :> /192.168.8.191:33333]
+2015-09-29 17:41:56,569 [nioEventLoopGroup-7-2] INFO - Client connected!: [id: 0xc033e5cd, /192.168.8.129:48559 => /192.168.8.191:33333]
+2015-09-29 17:41:56,570 [nioEventLoopGroup-7-2] INFO - [id: 0xc033e5cd, /192.168.8.129:48559 => /192.168.8.191:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:41:56,772 [nioEventLoopGroup-7-2] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "pocbdv22upvjbl66o3kvg1qamm",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:41:56,773 [nioEventLoopGroup-7-2] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-09-29 17:42:02,478 [nioEventLoopGroup-7-2] INFO - CSName m:4 s:0 {
+  msg: "Q"
+}
+2015-09-29 17:42:04,934 [nioEventLoopGroup-7-2] INFO - CSChat m:5 s:0 {
+  msg: "1"
+}
+2015-09-29 17:42:04,936 [nioEventLoopGroup-7-2] INFO - [id: 0xc033e5cd, /192.168.8.129:48559 => /192.168.8.191:33333]
+SCChat m:5 s:1 {
+  msg: "17:42:4
+Q: 1"
+}
+2015-09-29 17:42:06,062 [nioEventLoopGroup-7-2] INFO - CSChat m:6 s:0 {
+  msg: "2"
+}
+2015-09-29 17:42:06,063 [nioEventLoopGroup-7-2] INFO - [id: 0xc033e5cd, /192.168.8.129:48559 => /192.168.8.191:33333]
+SCChat m:6 s:2 {
+  msg: "17:42:6
+Q: 2"
+}
+2015-09-29 17:42:20,715 [nioEventLoopGroup-7-3] INFO - Client connected!: [id: 0xd4c1129d, /192.168.8.129:36608 => /192.168.8.191:33333]
+2015-09-29 17:42:20,715 [nioEventLoopGroup-7-3] INFO - [id: 0xd4c1129d, /192.168.8.129:36608 => /192.168.8.191:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-09-29 17:42:20,735 [nioEventLoopGroup-7-3] INFO - CSClientInfo m:13 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "pocbdv22upvjbl66o3kvg1qamm",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-09-29 17:42:20,735 [nioEventLoopGroup-7-3] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 2
+}
+2015-09-29 17:42:20,792 [nioEventLoopGroup-7-3] INFO - CSChat m:8 s:0 {
+  msg: "3"
+}
+2015-09-29 17:42:20,792 [nioEventLoopGroup-7-3] INFO - [id: 0xd4c1129d, /192.168.8.129:36608 => /192.168.8.191:33333]
+SCChat m:8 s:3 {
+  msg: "17:42:20
+Q: 3"
+}
+2015-09-29 17:42:20,793 [nioEventLoopGroup-7-3] INFO - [id: 0xc033e5cd, /192.168.8.129:48559 => /192.168.8.191:33333]
+SCChat m:8 s:4 {
+  msg: "17:42:20
+Q: 3"
+}
+2015-09-29 17:42:20,806 [nioEventLoopGroup-7-3] INFO - CSChat m:9 s:0 {
+  msg: "4"
+}
+2015-09-29 17:42:20,806 [nioEventLoopGroup-7-3] INFO - [id: 0xd4c1129d, /192.168.8.129:36608 => /192.168.8.191:33333]
+SCChat m:9 s:5 {
+  msg: "17:42:20
+Q: 4"
+}
+2015-09-29 17:42:20,807 [nioEventLoopGroup-7-3] INFO - [id: 0xc033e5cd, /192.168.8.129:48559 => /192.168.8.191:33333]
+SCChat m:9 s:6 {
+  msg: "17:42:20
+Q: 4"
+}
+2015-09-29 17:42:20,807 [nioEventLoopGroup-7-3] INFO - CSChat m:11 s:0 {
+  msg: "5"
+}
+2015-09-29 17:42:20,808 [nioEventLoopGroup-7-3] INFO - [id: 0xd4c1129d, /192.168.8.129:36608 => /192.168.8.191:33333]
+SCChat m:11 s:7 {
+  msg: "17:42:20
+Q: 5"
+}
+2015-09-29 17:42:20,808 [nioEventLoopGroup-7-3] INFO - [id: 0xc033e5cd, /192.168.8.129:48559 => /192.168.8.191:33333]
+SCChat m:11 s:8 {
+  msg: "17:42:20
+Q: 5"
+}
+2015-09-29 17:42:20,809 [nioEventLoopGroup-7-2] INFO - ChannelClosed: [id: 0xc033e5cd, /192.168.8.129:48559 :> /192.168.8.191:33333]

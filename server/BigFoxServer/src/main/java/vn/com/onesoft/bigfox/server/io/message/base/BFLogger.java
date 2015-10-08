@@ -8,8 +8,6 @@ package vn.com.onesoft.bigfox.server.io.message.base;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
-import vn.com.onesoft.bigfox.server.io.message.core.cs.CSPing;
-import vn.com.onesoft.bigfox.server.io.message.core.sc.SCPing;
 
 /**
  *
@@ -34,9 +32,9 @@ public class BFLogger {
     }
 
     public void info(Object obj) {
-        if (obj.toString().contains("SCPing") || obj.toString().contains("CSPing")) {
-            return;
-        }
+//        if (obj.toString().contains("SCPing") || obj.toString().contains("CSPing")) {
+//            return;
+//        }
         
         logger.info(obj);
     }
