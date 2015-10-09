@@ -1,0 +1,330 @@
+2015-09-16 16:33:27,375 [main] INFO - /Users/phamquan/github/bigfox/server/BigFoxServer
+2015-09-16 16:58:26,490 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 16:58:26,490 [main] INFO - Telnet start at port 40000
+2015-09-16 16:58:26,490 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 16:58:26,524 [main] DEBUG - -Dio.netty.processId: 6721 (auto-detected)
+2015-09-16 16:58:26,527 [main] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 16:58:26,529 [Thread-4] DEBUG - -Dio.netty.initialSeedUniquifier: 0xa33a6dfc7c2ba69e (took 21 ms)
+2015-09-16 16:58:26,560 [main] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 16:58:26,560 [main] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 16:58:26,560 [main] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 16:58:26,560 [main] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 16:58:26,560 [main] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 16:58:26,560 [main] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 16:58:26,560 [main] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 16:58:26,560 [main] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 16:58:26,560 [main] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 16:58:26,560 [main] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 16:58:26,568 [main] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 16:58:26,568 [main] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 16:58:26,570 [main] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 16:58:26,571 [main] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 16:58:26,582 [nioEventLoopGroup-3-1] INFO - [id: 0x001b089c] REGISTERED
+2015-09-16 16:58:26,583 [nioEventLoopGroup-3-1] INFO - [id: 0x001b089c] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 16:58:26,587 [nioEventLoopGroup-3-1] INFO - [id: 0x001b089c, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-16 17:03:42,250 [main] INFO - Telnet start at port 40000
+2015-09-16 17:03:42,250 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 17:03:42,250 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 17:03:42,273 [main] DEBUG - -Dio.netty.processId: 6783 (auto-detected)
+2015-09-16 17:03:42,275 [main] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 17:03:42,276 [main] DEBUG - -Dio.netty.initialSeedUniquifier: 0xec27772dca8c519b (took 18 ms)
+2015-09-16 17:03:42,295 [Thread-4] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 17:03:42,295 [Thread-4] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 17:03:42,295 [Thread-4] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 17:03:42,295 [Thread-4] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 17:03:42,295 [Thread-4] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 17:03:42,295 [Thread-4] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 17:03:42,295 [Thread-4] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 17:03:42,295 [Thread-4] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 17:03:42,295 [Thread-4] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 17:03:42,295 [Thread-4] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 17:03:42,299 [Thread-4] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 17:03:42,299 [Thread-4] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 17:03:42,301 [Thread-4] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 17:03:42,301 [Thread-4] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 17:03:42,311 [nioEventLoopGroup-4-1] INFO - [id: 0xed228f60] REGISTERED
+2015-09-16 17:03:42,311 [nioEventLoopGroup-4-1] INFO - [id: 0xed228f60] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 17:03:42,314 [nioEventLoopGroup-4-1] INFO - [id: 0xed228f60, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-16 17:14:46,548 [main] INFO - Telnet start at port 40000
+2015-09-16 17:14:46,548 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 17:14:46,548 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 17:14:46,569 [main] DEBUG - -Dio.netty.processId: 6898 (auto-detected)
+2015-09-16 17:14:46,571 [main] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 17:14:46,573 [Thread-4] DEBUG - -Dio.netty.initialSeedUniquifier: 0x4ba5398aeb6f918a (took 17 ms)
+2015-09-16 17:14:46,596 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 17:14:46,596 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 17:14:46,596 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 17:14:46,596 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 17:14:46,596 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 17:14:46,597 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 17:14:46,597 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 17:14:46,597 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 17:14:46,597 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 17:14:46,597 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 17:14:46,603 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 17:14:46,603 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 17:14:46,605 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 17:14:46,605 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 17:14:46,616 [nioEventLoopGroup-4-1] INFO - [id: 0x31e631f6] REGISTERED
+2015-09-16 17:14:46,617 [nioEventLoopGroup-4-1] INFO - [id: 0x31e631f6] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 17:14:46,621 [nioEventLoopGroup-4-1] INFO - [id: 0x31e631f6, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-16 17:15:06,988 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 17:15:06,988 [main] INFO - Telnet start at port 40000
+2015-09-16 17:15:06,988 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 17:15:07,021 [Thread-4] DEBUG - -Dio.netty.processId: 6906 (auto-detected)
+2015-09-16 17:15:07,024 [Thread-4] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 17:15:07,025 [Thread-4] DEBUG - -Dio.netty.initialSeedUniquifier: 0x2d5bc516f66c2c74 (took 23 ms)
+2015-09-16 17:15:07,054 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 17:15:07,054 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 17:15:07,054 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 17:15:07,054 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 17:15:07,054 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 17:15:07,054 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 17:15:07,054 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 17:15:07,054 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 17:15:07,054 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 17:15:07,054 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 17:15:07,062 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 17:15:07,062 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 17:15:07,063 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 17:15:07,064 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 17:15:07,075 [nioEventLoopGroup-3-1] INFO - [id: 0xfbad7edc] REGISTERED
+2015-09-16 17:15:07,075 [nioEventLoopGroup-3-1] INFO - [id: 0xfbad7edc] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 17:15:07,078 [nioEventLoopGroup-3-1] INFO - [id: 0xfbad7edc, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-16 17:17:59,566 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 17:17:59,566 [main] INFO - Telnet start at port 40000
+2015-09-16 17:17:59,566 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 17:17:59,589 [main] DEBUG - -Dio.netty.processId: 6936 (auto-detected)
+2015-09-16 17:17:59,591 [main] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 17:17:59,593 [main] DEBUG - -Dio.netty.initialSeedUniquifier: 0x06d49b7a5fcc5ba2 (took 11 ms)
+2015-09-16 17:17:59,621 [Thread-4] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 17:17:59,621 [Thread-4] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 17:17:59,621 [Thread-4] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 17:17:59,621 [Thread-4] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 17:17:59,621 [Thread-4] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 17:17:59,621 [Thread-4] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 17:17:59,621 [Thread-4] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 17:17:59,621 [Thread-4] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 17:17:59,622 [Thread-4] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 17:17:59,622 [Thread-4] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 17:17:59,628 [Thread-4] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 17:17:59,628 [Thread-4] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 17:17:59,630 [Thread-4] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 17:17:59,631 [Thread-4] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 17:17:59,640 [nioEventLoopGroup-4-1] INFO - [id: 0xd3491b35] REGISTERED
+2015-09-16 17:17:59,640 [nioEventLoopGroup-4-1] INFO - [id: 0xd3491b35] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 17:17:59,644 [nioEventLoopGroup-4-1] INFO - [id: 0xd3491b35, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-16 17:18:44,278 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 17:18:44,278 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 17:18:44,278 [main] INFO - Telnet start at port 40000
+2015-09-16 17:18:44,300 [main] DEBUG - -Dio.netty.processId: 6948 (auto-detected)
+2015-09-16 17:18:44,303 [main] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 17:18:44,304 [Thread-4] DEBUG - -Dio.netty.initialSeedUniquifier: 0x7ee5f3f91d783ddf (took 17 ms)
+2015-09-16 17:18:44,342 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 17:18:44,343 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 17:18:44,343 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 17:18:44,343 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 17:18:44,343 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 17:18:44,344 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 17:18:44,344 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 17:18:44,344 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 17:18:44,344 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 17:18:44,345 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 17:18:44,355 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 17:18:44,355 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 17:18:44,358 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 17:18:44,359 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 17:18:44,373 [nioEventLoopGroup-4-1] INFO - [id: 0x2dde6bdb] REGISTERED
+2015-09-16 17:18:44,374 [nioEventLoopGroup-4-1] INFO - [id: 0x2dde6bdb] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 17:18:44,378 [nioEventLoopGroup-4-1] INFO - [id: 0x2dde6bdb, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-16 17:18:54,140 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 17:18:54,140 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 17:18:54,140 [main] INFO - Telnet start at port 40000
+2015-09-16 17:18:54,166 [main] DEBUG - -Dio.netty.processId: 6952 (auto-detected)
+2015-09-16 17:18:54,168 [main] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 17:18:54,170 [Thread-4] DEBUG - -Dio.netty.initialSeedUniquifier: 0x4b179bc3b47c743c (took 21 ms)
+2015-09-16 17:18:54,191 [Thread-4] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 17:18:54,192 [Thread-4] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 17:18:54,192 [Thread-4] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 17:18:54,192 [Thread-4] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 17:18:54,192 [Thread-4] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 17:18:54,192 [Thread-4] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 17:18:54,192 [Thread-4] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 17:18:54,192 [Thread-4] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 17:18:54,192 [Thread-4] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 17:18:54,192 [Thread-4] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 17:18:54,199 [Thread-4] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 17:18:54,199 [Thread-4] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 17:18:54,201 [Thread-4] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 17:18:54,201 [Thread-4] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 17:18:54,215 [nioEventLoopGroup-2-1] INFO - [id: 0x5815d528] REGISTERED
+2015-09-16 17:18:54,215 [nioEventLoopGroup-2-1] INFO - [id: 0x5815d528] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 17:18:54,221 [nioEventLoopGroup-2-1] INFO - [id: 0x5815d528, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-16 17:19:13,483 [main] INFO - Telnet start at port 40000
+2015-09-16 17:19:13,483 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 17:19:13,483 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 17:19:13,505 [Thread-3] DEBUG - -Dio.netty.processId: 6960 (auto-detected)
+2015-09-16 17:19:13,508 [Thread-3] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 17:19:13,510 [Thread-3] DEBUG - -Dio.netty.initialSeedUniquifier: 0xdad36b2d1d0202e6 (took 18 ms)
+2015-09-16 17:19:13,536 [main] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 17:19:13,536 [main] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 17:19:13,536 [main] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 17:19:13,537 [main] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 17:19:13,537 [main] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 17:19:13,537 [main] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 17:19:13,537 [main] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 17:19:13,537 [main] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 17:19:13,537 [main] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 17:19:13,537 [main] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 17:19:13,542 [main] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 17:19:13,542 [main] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 17:19:13,544 [main] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 17:19:13,544 [main] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 17:19:13,554 [nioEventLoopGroup-3-1] INFO - [id: 0x69bccbad] REGISTERED
+2015-09-16 17:19:13,555 [nioEventLoopGroup-3-1] INFO - [id: 0x69bccbad] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 17:19:13,558 [nioEventLoopGroup-3-1] INFO - [id: 0x69bccbad, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-16 17:19:54,514 [main] INFO - Telnet start at port 40000
+2015-09-16 17:19:54,514 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 17:19:54,514 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 17:19:54,538 [main] DEBUG - -Dio.netty.processId: 6970 (auto-detected)
+2015-09-16 17:19:54,541 [main] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 17:19:54,542 [main] DEBUG - -Dio.netty.initialSeedUniquifier: 0xffe655555192619f (took 21 ms)
+2015-09-16 17:19:54,566 [Thread-4] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 17:19:54,566 [Thread-4] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 17:19:54,567 [Thread-4] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 17:19:54,567 [Thread-4] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 17:19:54,567 [Thread-4] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 17:19:54,567 [Thread-4] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 17:19:54,567 [Thread-4] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 17:19:54,567 [Thread-4] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 17:19:54,567 [Thread-4] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 17:19:54,567 [Thread-4] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 17:19:54,574 [Thread-4] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 17:19:54,574 [Thread-4] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 17:19:54,575 [Thread-4] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 17:19:54,576 [Thread-4] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 17:19:54,590 [nioEventLoopGroup-4-1] INFO - [id: 0x538a683b] REGISTERED
+2015-09-16 17:19:54,591 [nioEventLoopGroup-4-1] INFO - [id: 0x538a683b] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 17:19:54,594 [nioEventLoopGroup-4-1] INFO - [id: 0x538a683b, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-16 17:19:58,583 [Thread-0] ERROR - 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.extract(Extracter.java:52)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:80)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:34)
+2015-09-16 17:19:59,586 [Thread-0] ERROR - 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.extract(Extracter.java:52)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:80)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:34)
+2015-09-16 17:20:00,588 [Thread-0] ERROR - 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.extract(Extracter.java:52)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:80)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:34)
+2015-09-16 17:20:01,590 [Thread-0] ERROR - 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.extract(Extracter.java:52)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:80)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:34)
+2015-09-16 17:20:02,591 [Thread-0] ERROR - 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.extract(Extracter.java:52)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:80)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:34)
+2015-09-16 17:20:03,593 [Thread-0] ERROR - 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.extract(Extracter.java:52)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.scan(Extracter.java:80)
+	at vn.com.onesoft.bigfox.server.helper.classmanager.Extracter.run(Extracter.java:34)
+2015-09-16 17:20:56,336 [main] INFO - Telnet start at port 40000
+2015-09-16 17:20:56,336 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 17:20:56,336 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 17:20:56,360 [Thread-3] DEBUG - -Dio.netty.processId: 6983 (auto-detected)
+2015-09-16 17:20:56,363 [Thread-3] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 17:20:56,365 [Thread-3] DEBUG - -Dio.netty.initialSeedUniquifier: 0xfcda269a28615df4 (took 17 ms)
+2015-09-16 17:20:56,392 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 17:20:56,392 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 17:20:56,392 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 17:20:56,392 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 17:20:56,393 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 17:20:56,393 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 17:20:56,393 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 17:20:56,393 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 17:20:56,393 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 17:20:56,393 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 17:20:56,402 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 17:20:56,402 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 17:20:56,404 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 17:20:56,405 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 17:20:56,425 [nioEventLoopGroup-2-1] INFO - [id: 0xfe068a35] REGISTERED
+2015-09-16 17:20:56,426 [nioEventLoopGroup-2-1] INFO - [id: 0xfe068a35] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 17:20:56,429 [nioEventLoopGroup-2-1] INFO - [id: 0xfe068a35, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-16 17:23:30,215 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 17:23:30,215 [main] INFO - Telnet start at port 40000
+2015-09-16 17:23:30,215 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 17:23:30,236 [Thread-4] DEBUG - -Dio.netty.processId: 7019 (auto-detected)
+2015-09-16 17:23:30,239 [Thread-4] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 17:23:30,241 [Thread-4] DEBUG - -Dio.netty.initialSeedUniquifier: 0xdf03b4d2f42f5ded (took 20 ms)
+2015-09-16 17:23:30,266 [main] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 17:23:30,266 [main] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 17:23:30,266 [main] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 17:23:30,266 [main] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 17:23:30,266 [main] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 17:23:30,266 [main] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 17:23:30,266 [main] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 17:23:30,266 [main] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 17:23:30,267 [main] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 17:23:30,267 [main] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 17:23:30,273 [main] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 17:23:30,273 [main] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 17:23:30,275 [main] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 17:23:30,276 [main] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 17:23:30,291 [nioEventLoopGroup-4-1] INFO - [id: 0xca0b2e99] REGISTERED
+2015-09-16 17:23:30,291 [nioEventLoopGroup-4-1] INFO - [id: 0xca0b2e99] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 17:23:30,295 [nioEventLoopGroup-4-1] INFO - [id: 0xca0b2e99, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-16 17:24:08,746 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 17:24:08,746 [main] INFO - Telnet start at port 40000
+2015-09-16 17:24:08,746 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 17:24:08,771 [Thread-3] DEBUG - -Dio.netty.processId: 7027 (auto-detected)
+2015-09-16 17:24:08,774 [Thread-3] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 17:24:08,775 [Thread-3] DEBUG - -Dio.netty.initialSeedUniquifier: 0x61e8d6fc5e6b30c0 (took 18 ms)
+2015-09-16 17:24:08,799 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 17:24:08,799 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 17:24:08,799 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 17:24:08,799 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 17:24:08,799 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 17:24:08,799 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 17:24:08,799 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 17:24:08,799 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 17:24:08,799 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 17:24:08,799 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 17:24:08,806 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 17:24:08,806 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 17:24:08,808 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 17:24:08,809 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 17:24:08,819 [nioEventLoopGroup-3-1] INFO - [id: 0xe30cceb6] REGISTERED
+2015-09-16 17:24:08,820 [nioEventLoopGroup-3-1] INFO - [id: 0xe30cceb6] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 17:24:08,824 [nioEventLoopGroup-3-1] INFO - [id: 0xe30cceb6, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-16 17:25:33,072 [Thread-3] INFO - Socket start at port 33333
+2015-09-16 17:25:33,072 [main] INFO - Telnet start at port 40000
+2015-09-16 17:25:33,072 [Thread-4] INFO - WebSocket start at port 33332
+2015-09-16 17:25:33,094 [Thread-4] DEBUG - -Dio.netty.processId: 7044 (auto-detected)
+2015-09-16 17:25:33,097 [Thread-4] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-16 17:25:33,098 [Thread-4] DEBUG - -Dio.netty.initialSeedUniquifier: 0x072ad435d8b80f68 (took 16 ms)
+2015-09-16 17:25:33,124 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-16 17:25:33,124 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-16 17:25:33,124 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-16 17:25:33,124 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-16 17:25:33,124 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-16 17:25:33,124 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-16 17:25:33,124 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-16 17:25:33,124 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-16 17:25:33,124 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-16 17:25:33,124 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-16 17:25:33,130 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-16 17:25:33,130 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-16 17:25:33,132 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-16 17:25:33,132 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-16 17:25:33,142 [nioEventLoopGroup-4-1] INFO - [id: 0xc543f161] REGISTERED
+2015-09-16 17:25:33,143 [nioEventLoopGroup-4-1] INFO - [id: 0xc543f161] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-16 17:25:33,147 [nioEventLoopGroup-4-1] INFO - [id: 0xc543f161, /0:0:0:0:0:0:0:0:33332] ACTIVE

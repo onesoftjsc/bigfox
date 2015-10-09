@@ -13,6 +13,7 @@ import java.util.Map;
 import vn.com.onesoft.bigfox.server.io.core.encrypt.BFEncryptManager;
 import vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager;
 import vn.com.onesoft.bigfox.server.io.core.zone.IBFZone;
+import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageOut;
 import vn.com.onesoft.bigfox.server.io.message.core.objects.ClientInfo;
@@ -142,8 +143,7 @@ public class BFSession implements IBFSession {
 
     @Override
     public void putOutMessageOnQueue(MessageOut mOut) {
-        if (!(mOut instanceof SCPing))
-         {
+        if (!(mOut instanceof SCPing)) {
             queueOutMessage.put(mOut.getSSequence(), mOut);
         }
     }
@@ -163,8 +163,9 @@ public class BFSession implements IBFSession {
         if (sSequenceFromClient < curSSequence) {
             for (int i = sSequenceFromClient + 1; i <= curSSequence; i++) {
                 MessageOut mOut = queueOutMessage.get(i);
-                if (mOut == null)
+                if (mOut == null) {
                     continue;
+                }
                 byte[] data = mOut.toBytes();
                 if (mOut.getTag() != CoreTags.SC_VALIDATION_CODE) {
                     for (int k = 4; k < data.length; k++) {
@@ -195,7 +196,7 @@ public class BFSession implements IBFSession {
      */
     @Override
     public void onTimeout() {
-
+        BFLogger.getInstance().info("onTimeout");
     }
 
     /**
@@ -207,7 +208,7 @@ public class BFSession implements IBFSession {
      */
     @Override
     public void onChannelClose(Channel channel) {
-
+        BFLogger.getInstance().info("onChannelClose");
     }
 
 }

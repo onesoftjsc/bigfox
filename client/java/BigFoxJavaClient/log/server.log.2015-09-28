@@ -1,0 +1,94 @@
+2015-09-28 00:15:29,695 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0xf95c6dd5, /127.0.0.1:52457 => localhost/127.0.0.1:33333]
+2015-09-28 00:15:29,709 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-28 00:15:29,710 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-28 00:15:29,728 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: -798032959
+}
+2015-09-28 00:15:29,731 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "jhttc4hroa9ss1u77llpi4vogp",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-09-28 00:15:29,745 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-28 00:15:30,899 [AWT-EventQueue-0] INFO - CSName {
+  msg: "Q"
+}
+2015-09-28 00:15:35,065 [AWT-EventQueue-0] INFO - CSChat {
+  msg: "AA"
+}
+2015-09-28 00:15:35,070 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "0:15:35
+Q : AA"
+}
+2015-09-28 00:18:28,424 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0xf95c6dd5, /127.0.0.1:52457 :> localhost/127.0.0.1:33333]
+2015-09-28 00:18:33,429 [nioEventLoopGroup-2-1] ERROR - Connection refused: localhost/127.0.0.1:33333
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:33333
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:712)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:527)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-28 00:18:36,987 [nioEventLoopGroup-2-1] DEBUG - Freed 22 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2015-09-28 00:24:09,264 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0xff9c66e7, /127.0.0.1:52620 => localhost/127.0.0.1:33333]
+2015-09-28 00:24:09,278 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-28 00:24:09,279 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-28 00:24:09,308 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: -458763014
+}
+2015-09-28 00:24:09,313 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "didtam021crfict1rv6lvd4uuq",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-09-28 00:24:09,327 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-28 00:24:10,512 [AWT-EventQueue-0] INFO - CSName {
+  msg: "Q"
+}
+2015-09-28 00:24:12,471 [AWT-EventQueue-0] INFO - CSChat {
+  msg: "aaa"
+}
+2015-09-28 00:24:12,475 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "0:24:12
+Q : aaa"
+}
+2015-09-28 00:24:47,198 [AWT-EventQueue-0] INFO - CSChat {
+  msg: "aaa"
+}
+2015-09-28 00:24:47,201 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "0:24:47
+Q : 111aaa"
+}
+2015-09-28 00:24:50,286 [AWT-EventQueue-0] INFO - CSChat {
+  msg: "bbbb"
+}
+2015-09-28 00:24:50,289 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "0:24:50
+Q : 111bbbb"
+}
+2015-09-28 00:24:52,302 [AWT-EventQueue-0] INFO - CSChat {
+  msg: "cc"
+}
+2015-09-28 00:24:52,304 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "0:24:52
+Q : 111cc"
+}

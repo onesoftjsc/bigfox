@@ -1,0 +1,86 @@
+2015-09-09 14:10:31,429 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0xdb84182a, /127.0.0.1:58218 => localhost/127.0.0.1:33333]
+2015-09-09 14:10:31,442 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-09 14:10:31,443 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-09 14:10:31,460 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 2089870603
+}
+2015-09-09 14:10:31,464 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "te2b45kj9ethsl8dg2lmmeo37f",
+    metadata: ""
+  }
+}
+2015-09-09 14:10:31,474 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-09 14:10:55,559 [AWT-EventQueue-0] INFO - CSName {
+  msg: "Quan"
+}
+2015-09-09 14:11:02,656 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0xb583c01c, /127.0.0.1:58225 => localhost/127.0.0.1:33333]
+2015-09-09 14:11:02,670 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-09 14:11:02,671 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-09 14:11:02,689 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: -1972024600
+}
+2015-09-09 14:11:02,692 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "4gogel7bkuc5j3nkbp88e21pcp",
+    metadata: ""
+  }
+}
+2015-09-09 14:11:02,697 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-09 14:11:07,087 [AWT-EventQueue-0] INFO - CSName {
+  msg: "Huong"
+}
+2015-09-09 14:11:13,630 [AWT-EventQueue-0] INFO - CSChat {
+  msg: "Hello"
+}
+2015-09-09 14:11:13,636 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "14:11:13
+Huong : Hello"
+}
+2015-09-09 14:11:13,637 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "14:11:13
+Huong : Hello"
+}
+2015-09-09 14:11:17,014 [AWT-EventQueue-0] INFO - CSChat {
+  msg: "Hi"
+}
+2015-09-09 14:11:17,017 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "14:11:17
+Quan : Hi"
+}
+2015-09-09 14:11:17,018 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "14:11:17
+Quan : Hi"
+}
+2015-09-09 14:11:24,358 [AWT-EventQueue-0] INFO - CSChat {
+  msg: "How are you ?"
+}
+2015-09-09 14:11:24,361 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "14:11:24
+Quan : How are you ?"
+}
+2015-09-09 14:11:24,362 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "14:11:24
+Quan : How are you ?"
+}
+2015-09-09 14:11:30,814 [AWT-EventQueue-0] INFO - CSChat {
+  msg: "I'm fine, good"
+}
+2015-09-09 14:11:30,817 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "14:11:30
+Huong : I'm fine, good"
+}
+2015-09-09 14:11:30,817 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "14:11:30
+Huong : I'm fine, good"
+}

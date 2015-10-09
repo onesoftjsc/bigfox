@@ -24,6 +24,7 @@ import vn.com.onesoft.bigfox.server.io.message.core.cs.CSClientInfo;
 import vn.com.onesoft.bigfox.server.io.message.core.objects.ClientInfo;
 import vn.com.onesoft.bigfox.server.io.message.core.sc.SCInitSession;
 import vn.com.onesoft.bigfox.server.io.message.core.tags.CoreTags;
+import vn.com.onesoft.bigfox.server.main.BFConfig;
 import vn.com.onesoft.bigfox.server.main.Main;
 
 /**
@@ -35,7 +36,7 @@ public class BFSessionManager {
     private final Map<Channel, IBFSession> mapChannelToSession;
     private final Map<String, IBFSession> mapSessionIdToSession;
 
-    public final static int SESSION_TIMEOUT = 300; //300 s
+    public final static int SESSION_TIMEOUT = BFConfig.getInstance().getSessionTimeout(); //300 s
     private static BFSessionManager _instance;
     private IBFSessionEvent sessionEvent;
 
@@ -224,6 +225,7 @@ public class BFSessionManager {
         IBFSession session = this.getSessionByChannel(channel);
         if (session != null) {
             session.onChannelClose(channel);
+            sessionEvent.closeChannel(session);
         }
         mapChannelToSession.remove(channel);
     }

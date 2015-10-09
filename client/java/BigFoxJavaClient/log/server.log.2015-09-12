@@ -1,0 +1,88 @@
+2015-09-12 16:30:36,053 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0xfb8e8f6f, /127.0.0.1:54121 => localhost/127.0.0.1:33333]
+2015-09-12 16:30:36,104 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-12 16:30:36,108 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-12 16:30:36,172 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: -387112653
+}
+2015-09-12 16:30:36,183 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "d84dvvvrn66jbq3s4v9rk2dakf",
+    metadata: ""
+  }
+}
+2015-09-12 16:30:36,230 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-12 16:30:41,181 [AWT-EventQueue-0] INFO - CSName {
+  msg: "Quân"
+}
+2015-09-12 16:30:44,322 [AWT-EventQueue-0] INFO - CSChat {
+  msg: "dfasdf"
+}
+2015-09-12 16:30:44,332 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "16:30:44
+Quân : dfasdf"
+}
+2015-09-12 16:30:48,090 [AWT-EventQueue-0] INFO - CSChat {
+  msg: "hi"
+}
+2015-09-12 16:30:48,096 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "16:30:48
+Quân : hi"
+}
+2015-09-12 16:32:56,577 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x3a4f18b5, /127.0.0.1:54150 => localhost/127.0.0.1:33333]
+2015-09-12 16:32:56,625 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-12 16:32:56,629 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-12 16:32:56,696 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 1475316836
+}
+2015-09-12 16:32:56,707 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "8bh7t9et02a0j0tt8v9obvqek",
+    metadata: ""
+  }
+}
+2015-09-12 16:32:56,733 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-12 16:33:03,403 [AWT-EventQueue-0] INFO - CSName {
+  msg: "Quân"
+}
+2015-09-12 16:33:03,413 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "16:33:3
+null : Quân"
+}
+2015-09-12 17:05:10,790 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0xb41e5139, /127.0.0.1:55015 => localhost/127.0.0.1:33333]
+2015-09-12 17:05:10,802 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-12 17:05:10,803 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-12 17:05:10,821 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 1388211486
+}
+2015-09-12 17:05:10,824 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "ii2hdgmnijlgm63it9rtejors3",
+    metadata: ""
+  }
+}
+2015-09-12 17:05:10,834 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-12 17:05:15,115 [AWT-EventQueue-0] INFO - CSName {
+  msg: "Quân"
+}
+2015-09-12 17:05:17,675 [AWT-EventQueue-0] INFO - CSChat {
+  msg: "aa"
+}
+2015-09-12 17:05:17,679 [nioEventLoopGroup-2-1] INFO - SCChat {
+  msg: "17:5:17
+Quân : aa"
+}

@@ -20,6 +20,7 @@ public class BFConfig {
     private int portSocket;
     private int portWebSocket;
     private int portTelnet;
+    private int sessionTimeout;
 
     private boolean enableZip;
     private String[] reloadClassPaths = null;
@@ -28,7 +29,7 @@ public class BFConfig {
 
     public static String APPLICATION_FOLDER = "applications";
     public static String AUTODEPLOY_FOLDER = "autodeploys";
-    
+
     public static BFConfig getInstance() {
         if (_instance == null) {
             _instance = new BFConfig();
@@ -50,7 +51,7 @@ public class BFConfig {
             this.portTelnet = Integer.parseInt(doc.getElementsByTagName("port_telnet").item(0).getChildNodes().item(0).getNodeValue());
             this.enableZip = (Integer.parseInt(doc.getElementsByTagName("enable_zip").item(0).getChildNodes().item(0).getNodeValue()) == 1);
             this.reloadClassPaths = doc.getElementsByTagName("reload_class_path").item(0).getChildNodes().item(0).getNodeValue().split(";");
-
+            this.sessionTimeout = Integer.parseInt(doc.getElementsByTagName("session_timeout").item(0).getChildNodes().item(0).getNodeValue());
         } catch (Exception ex) {
             BFLogger.getInstance().error(ex.getMessage(), ex);
             System.exit(0);
@@ -70,8 +71,8 @@ public class BFConfig {
     public int getPortWebSocket() {
         return portWebSocket;
     }
-    
-    public int getPortTelnet(){
+
+    public int getPortTelnet() {
         return portTelnet;
     }
 
@@ -84,6 +85,10 @@ public class BFConfig {
      */
     public String[] getReloadClassPaths() {
         return reloadClassPaths;
+    }
+
+    public int getSessionTimeout() {
+        return sessionTimeout;
     }
 
 }
