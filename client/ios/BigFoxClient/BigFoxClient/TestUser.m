@@ -8,8 +8,18 @@
 
 #import "TestUser.h"
 
-@implementation TestUser
+@implementation TestUser 
 @synthesize name;
 @synthesize textChat;
+
+- (id) init {
+    self = [super init];
+    if (self) {
+        old = @"bhj";
+        self.name= @"quyenanh";
+        self.textChat = @"xin chao";
+    }
+    return self;
+}
 
 @end

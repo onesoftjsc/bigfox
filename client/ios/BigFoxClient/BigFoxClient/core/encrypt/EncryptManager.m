@@ -7,17 +7,20 @@
 //
 
 #import "EncryptManager.h"
+#import "ConnectionManager.h"
 
 @implementation EncryptManager
-+ (char*) crypt:(char *)data :(int)length {
-    if (length <= 24) {
++ (NSData*) crypt:(NSData *)data {
+    if ([data length] <= 24) {
         return data;
     }else{
-        int validationCode = 0 ; // ConnectionManager getInstance].validationCode;
+        char* cData = [data bytes];
+        int length = [data length];
+        int validationCode = [[ConnectionManager getInstance]getValidationCode];
         for (int i = 24; i < length; i++) {
-            data[i] = (char) ((data[i]^ validationCode) & 0x00ff);
+            cData[i] = (char) ((cData[i]^ validationCode) & 0x00ff);
         }
-        return  data;
+        return  [NSData dataWithBytes:cData length:length];
     }
     
 }

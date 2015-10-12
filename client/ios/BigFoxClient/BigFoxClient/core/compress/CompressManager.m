@@ -26,11 +26,11 @@ static CompressManager* _instance = nil;
 - (void) setCompress : (id<ICompress>) compress {
     cp = compress;
 }
--(char*) compress:(char *)data :(int)length {
-    return [cp compress:data :length];
+-(NSData*) compress:(NSData *)data {
+    return [cp compress:data ];
 }
 
--(char*) decompress:(char *)data :(int)length {
-    return [cp decompress:data :length];
+-(NSData*) decompress:(NSData *)data{
+    return [cp decompress:data ];
 }
 @end

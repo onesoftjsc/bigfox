@@ -9,5 +9,5 @@
 #import "ROAnnotation.h"
 
 @interface Property : ROAnnotation
-
+@property (nonatomic, strong)NSString* name;
 @end

@@ -14,8 +14,17 @@
 }
 
 + (NSString*) genRandomString:(int)length {
-    uint8_t randomBytes[32];
-    int bi = SecRandomCopyBytes(kSecRandomDefault, 32, &randomBytes);
-    return [NSString stringWithFormat:@"%d", bi];
+    int random = arc4random_uniform(32);
+    return [NSString stringWithFormat:@"%d", random];
+}
+
+
++ (NSString *)genRandStringLength :(int)len {
+    static NSString *letters = @"qrtyuiopasdfghjklzxcvbnm0123456789";
+    NSMutableString *randomString = [NSMutableString stringWithCapacity: 32];
+    for (int i=0; i < 32; i++) {
+        [randomString appendFormat: @"%C", [letters characterAtIndex: arc4random() % [letters length]]];
+    }
+    return randomString;
 }
 @end

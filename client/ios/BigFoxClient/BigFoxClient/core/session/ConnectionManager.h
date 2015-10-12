@@ -8,20 +8,25 @@
 
 #import <Foundation/Foundation.h>
 #import "ISessionControl.h"
-#define TIME_OUT 20
+#import "MessageIn.h"
+#import "MessageOut.h"
+#define MAX_TIMEOUT 20
 
-@interface ConnectionManager : NSObject
-+ (ConnectionManager*) getInstance;
+@interface ConnectionManager : NSObject<NSStreamDelegate>
+
 
 @property int curSSequence;
 @property int curMSequence;
 @property long lastPingReceivedTime;
 @property (nonatomic, retain) NSString* sessionId;
-- (void) initConnect;
+- (void) startThread;
 - (void) onStartNewSession;
 - (void) resendOldMessages;
 - (void) onContinueOldSession;
 - (void) setSessionControl : (id<ISessionControl>) sessionControl ;
 - (int) getValidationCode;
 - (void) setValidationCode : (int) validationCode;
++ (ConnectionManager*) getInstance;
+- (void) onMessage : (NSStream*) stream : (MessageIn*) mIn;
+-(void) write : (MessageOut*) mOut;
 @end

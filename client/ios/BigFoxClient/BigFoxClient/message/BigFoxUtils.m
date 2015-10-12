@@ -58,15 +58,15 @@ static const char * getPropertyType(objc_property_t property) {
     return resultData;
 }
 
-+ (void) read:(id)object withData:(NSData *)data {
++ (void) read:(id)object withData:(BFDataInputStream *)dataInputStream {
     @try {
         Class class =[object class];
-        BFDataInputStream *dataInputStream;
-        if (data) {
-            dataInputStream=  [[BFDataInputStream alloc] initWithData:data];
-        }
+//        BFDataInputStream *dataInputStream;
+//        if (data) {
+//            dataInputStream=  [[BFDataInputStream alloc] initWithData:data];
+//        }
         unsigned int outCount, i;
-        NSArray* properties = object == nil ? nil : [BigFoxUtils getInheritedPrivateFields:[object class]];
+        NSArray* properties = object == nil ? nil : [BigFoxUtils getInheritedPrivateFields:class];
         int nFields = [dataInputStream readByte];
         for (int j = 0; j < nFields; j++) {
             NSString* name = [dataInputStream readUTF];
@@ -81,8 +81,7 @@ static const char * getPropertyType(objc_property_t property) {
                     }
                 }
             }
-            if(type == nil) {
-                
+            if(type == BNULL) {
             }else if (type == BINT) {
                 int v = [dataInputStream readInt];
                 if (f != nil) {
@@ -263,13 +262,13 @@ static const char * getPropertyType(objc_property_t property) {
     [self read:object withData:[NSData dataWithBytes:data length:length]];
 }
 
-+ (id) fromBytes:(Class)class withData:(NSData *)in {
++ (id) fromBytes:(Class)class withData:(BFDataInputStream *)in {
     id object = [[class alloc] init];
     [self read:object withData:in];
     return  object;
 }
 
-+ (id) fromBytes:(Class)class withBytes:(char *)data :(id)length :(int)length {
++ (id) fromBytes:(Class)class withBytes:(char *)data length :(int)length {
     id object = [[class alloc] init];
     [self read:object withBytes:data length:length];
     return object;
@@ -287,9 +286,9 @@ static const char * getPropertyType(objc_property_t property) {
             NSString *propertyType = [NSString stringWithUTF8String:propType];
             if ([propertyType isEqualToString:@"i"]) { // int
                 [out writeByte:BINT];
-                [out writeInt:(int)[object valueForKey:sname]];
+                [out writeInt: [[object valueForKey:sname] intValue]];
                 continue;
-            } else if([propertyType isEqualToString:@"s"]) { // shot
+            } else if([propertyType isEqualToString:@"s"]) { // short
                 [out writeByte:BSHORT];
                 [out writeShort:[[object valueForKey:sname] shortValue]];
                 continue;
@@ -316,7 +315,7 @@ static const char * getPropertyType(objc_property_t property) {
                 continue;
             }else if([propertyType isEqualToString:@"B"]) {
                 [out writeByte:BBOOLEAN];
-                [out writeBoolaen:(BOOL)[object valueForKey:sname]];
+                [out writeBoolaen:[[object valueForKey:sname] boolValue]];
                 continue;
             }
             Class typeClass = NSClassFromString(propertyType);
@@ -462,7 +461,7 @@ static const char * getPropertyType(objc_property_t property) {
             [self indent:sb :indent + TAB];
             sb = [sb stringByAppendingFormat:@"%@: ", name];
             Byte type = [dataInputStream readByte];
-            if (type == BNOT_NULL) {
+            if (type == BNULL) {
                 sb = [sb stringByAppendingString:@"null"];
             } else if (type == BINT) {
                 int v  = [dataInputStream readInt];
@@ -644,31 +643,40 @@ static const char * getPropertyType(objc_property_t property) {
         sb = [sb stringByAppendingString:@" "];
     }
 }
-+ (NSArray *)getInheritedPrivateFields: (Class) class{
-    if ([caches objectForKey:class]) {
-        return [caches objectForKey:class];
++ (NSArray *)getInheritedPrivateFields: (Class) clazz{
+    if ([caches objectForKey:clazz]) {
+        return [caches objectForKey:clazz];
     }
-    unsigned count;
-    objc_property_t *properties = class_copyPropertyList(class, &count);
     
-    NSMutableArray *result = [NSMutableArray array];
+    u_int count;
+    objc_property_t *properties  = class_copyPropertyList(clazz, &count);
+    NSMutableArray *propertyArray = [[NSMutableArray alloc] init];
     
-    unsigned i;
-    for (i = 0; i < count; i++)
+    for (int i = 0; i < count ; i++)
     {
-        objc_property_t property = properties[i];
-        if (property) {
-            NSString *name = [NSString stringWithUTF8String:property_getName(property)];
-            if ([name isEqualToString:@"length"]) {
-                [result insertObject:name atIndex:0];
-            }else{
-                [result addObject:name];
-            }
-        }
+        const char* propertyName = property_getName(properties[i]);
+        [propertyArray addObject: [NSString  stringWithUTF8String: propertyName]];
     }
+    
+    id class = clazz;
+    
+    while ([class superclass]!=[NSObject class]) {
+        
+        class = [class superclass];
+        
+        properties  = class_copyPropertyList(class, &count);
+        
+        for (int i = 0; i < count ; i++)
+        {
+            const char* propertyName = property_getName(properties[i]);
+            [propertyArray addObject: [NSString  stringWithUTF8String: propertyName]];
+        }
+        
+    }
+    
     free(properties);
-    [caches setObject:result forKey:class];
-    return result;
+    [caches setObject:propertyArray forKey:clazz];
+    return propertyArray;
 }
 
 @end

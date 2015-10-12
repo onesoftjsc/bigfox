@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "BigFoxUtils.h"
 #import "TestUser.h"
+#import "EncryptManager.h"
+#import "CompressManager.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,17 +21,35 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    TestUser* userA = [[TestUser alloc] init];
-    userA.name = @"abc";
-    userA.textChat = @"bcd";
+//    TestUser* userA = [[TestUser alloc] init];
+//    [userA setName:@"quyenanh"];
+//    [userA setTextChat:@"xin chao"];
+//  //  userA.textChat = @"xin chao";
+//    int length = 0;
+//    NSData* dataA = [BigFoxUtils toBytes:userA];
+//    NSLog(@"length data: %d", [dataA length]);
+//    dataA = [EncryptManager crypt:dataA ];
+//    
+//    NSLog(@"length data encrypt: %d", [dataA length]);
+//    dataA = [[CompressManager getInstance] compress:dataA ];
+//    
+//    NSLog(@"length data compress: %d", [dataA length]);
+//    TestUser* userB = [[TestUser alloc]init ];
+//    [BigFoxUtils read:userB withData:dataA];
+//    
+//    NSLog(@" data : \n %@", [BigFoxUtils toString:userB]);
     
-    int length = 0;
-    NSData* dataA = [BigFoxUtils toBytes:userA];
     
-    TestUser* userB = [[TestUser alloc]init ];
-    [BigFoxUtils read:userB withData:dataA];
-    
-    NSLog(@" data : \n %@", [BigFoxUtils toString:userB]);
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    // Override point for customization after application launch.
+//    
+//    ViewController *demoVC = [ViewController getInstance];
+//    
+//    UINavigationController *navC = [[UINavigationController alloc]initWithRootViewController:demoVC];
+//    self.window.rootViewController = navC;
+//    
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
     return YES;
 }
 

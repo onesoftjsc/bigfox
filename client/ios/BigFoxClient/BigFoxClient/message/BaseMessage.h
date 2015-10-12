@@ -18,20 +18,20 @@
 @property int status;
 @property int checkSum;
 - (id) init : (bool) isCore;
-- (int) getLength;
-- (void) setLength:(int)length;
-- (int) getTag;
-- (void) setTag:(int)tag;
-- (int) getMSequence;
-- (void) setMSequence:(int)mSequence;
-- (int) getSSequence;
-- (void) setSSequence:(int)sSequence;
+//- (int) getLength;
+//- (void) setLength:(int)_length;
+//- (int) getTag;
+//- (void) setTag:(int)_tag;
+//- (int) getMSequence;
+//- (void) setMSequence:(int)_mSequence;
+//- (int) getSSequence;
+//- (void) setSSequence:(int)_sSequence;
 - (int) getStatus;
-- (void) setStatus:(int)status;
-- (int) getCheckSum;
-- (void) setCheckSum:(int)checkSum;
+//- (void) setStatus:(int)_status;
+//- (int) getCheckSum;
+//- (void) setCheckSum:(int)_checkSum;
 - (NSString*) toString;
--(BOOL) isCore;
+- (BOOL) isCore;
 - (void) execute;
 
 @end

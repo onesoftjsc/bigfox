@@ -11,4 +11,5 @@
 @interface BFUtils : NSObject
 + (long) getCurrentTime ;
 + (NSString*) genRandomString : (int) length;
++ (NSString*) genRandStringLength : (int) length;
 @end

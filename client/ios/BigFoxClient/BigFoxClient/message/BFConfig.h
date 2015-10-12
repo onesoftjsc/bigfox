@@ -8,5 +8,5 @@
 
 #import <Foundation/Foundation.h>
 #define PORT 33333
-#define SERVER @"192.168.1.48"
+#define SERVER @"localhost"
 #define VERSION 1

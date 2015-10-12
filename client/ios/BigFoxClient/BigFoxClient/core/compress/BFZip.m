@@ -11,14 +11,15 @@
 #import "BaseMessage.h"
 
 @implementation BFZip
-- (char*)compress:(char *)data :(int)length {
-    if (length <= 100) {
+- (NSData*)compress:(NSData *)data{
+    if ([data length] <= 1200) {
         return  data;
     }
     else {
-        char* uData = malloc(length - 24);
-        for (int i = 0; i < length- 24; i++) {
-            uData[i] = data[i+24];
+        char* cData = [data bytes];
+        char* uData = malloc([data length] - 24);
+        for (int i = 0; i < [data length]- 24; i++) {
+            uData[i] = cData[i+24];
         }
         @try {
             z_stream strm;
@@ -31,11 +32,11 @@
                             format: @"deflateInit failed"];
             }
             
-            NSMutableData *compressed = [NSMutableData dataWithLength: deflateBound(&strm, length - 24)];
+            NSMutableData *compressed = [NSMutableData dataWithLength: deflateBound(&strm, [data length] - 24)];
             strm.next_out = [compressed mutableBytes];
             strm.avail_out = [compressed length];
             strm.next_in = (void *)uData;
-            strm.avail_in = length - 24;
+            strm.avail_in = ([data length] - 24);
             
             while (deflate(&strm, Z_FINISH) != Z_STREAM_END)
             {
@@ -49,13 +50,13 @@
             
             deflateEnd(&strm);
             int lengthCompressed = [compressed length];
-            if (lengthCompressed < length - 24) {
+            if (lengthCompressed < [data length] - 24) {
                 char* compressData = [compressed bytes];
                 int lengthResult = lengthCompressed + 24;
                 char* resultData = malloc(lengthResult);
                 for (int i = 0; i < lengthResult; i++) {
                     if (i < 24) {
-                        resultData[i] = data[i];
+                        resultData[i] = cData[i];
                     }else{
                         resultData[i] = compressData[i - 24];
                     }
@@ -66,7 +67,7 @@
                 resultData[2] = (char) ((lengthResult >> 8) & 0x00ff);
                 resultData[3] = (char) ((lengthResult) & 0x00ff);
                 resultData[19] = (char) (resultData[19] | STATUS_ZIP);
-                return resultData;
+                return [NSData dataWithBytes:resultData length:lengthResult];
             } else{
                 return  data;
             }
@@ -77,17 +78,19 @@
     }
 }
 
--(char*) decompress:(char *)data :(int)length {
-    if (length < 24) {
+-(NSData*) decompress:(NSData *)data {
+    if ([data length] < 24) {
         return  nil;
     }
-    if ((data[19] & STATUS_ZIP) != STATUS_ZIP) {
+    int length = [data length];
+    char* cData = [data bytes];
+    if ((cData[19] & STATUS_ZIP) != STATUS_ZIP) {
         return data;
     }else {
         @try {
             char* uData = malloc(length - 24);
             for (int i = 0; i < length - 24; i++) {
-                uData[i] = data[i + 24];
+                uData[i] = cData[i + 24];
             }
             z_stream strm;
             strm.zalloc = Z_NULL;
@@ -120,11 +123,11 @@
             char* decompressedData = [decompressed bytes];
             int lengthResult = lengthDecompressed + 24;
             char* resultData = malloc(lengthResult);
-            for (int i = 0; i < lengthResult + 24; i++) {
+            for (int i = 0; i < lengthResult; i++) {
                 if(i < 24) {
-                    resultData[i] = data[i];
+                    resultData[i] = cData[i];
                 }else{
-                    resultData[i] = uData[i - 24];
+                    resultData[i] = decompressedData[i - 24];
                 }
             }
             
@@ -133,7 +136,7 @@
             resultData[2] = (char) ((lengthResult >> 8) & 0x00ff);
             resultData[3] = (char) ((lengthResult) & 0x00ff);
             
-            return resultData;
+            return [NSData dataWithBytes:resultData length:lengthResult];
         }
         @catch (NSException *exception) {
             return data;

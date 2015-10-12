@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface EncryptManager : NSObject
-+ (char*) crypt : (char*) data : (int) length;
++ (NSData*) crypt : (NSData*) data ;
 @end

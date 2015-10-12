@@ -9,5 +9,11 @@
 #import "DefaultSessionControl.h"
 
 @implementation DefaultSessionControl
+- (void) onReconnectedSession {
+    
+}
 
+- (void) onStartSession {
+    
+}
 @end
