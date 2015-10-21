@@ -301,7 +301,7 @@ static const char * getPropertyType(objc_property_t property) {
                 [out writeChar:[[object valueForKey:sname] charValue]];
                 continue;
             }
-            else if([propertyType isEqualToString:@"q"]) {
+            else if([propertyType isEqualToString:@"l"] || [propertyType isEqualToString:@"q"]) {
                 [out writeByte:BLONG];
                 [out writeLong:[[object valueForKey:sname] longValue]];
                 continue;

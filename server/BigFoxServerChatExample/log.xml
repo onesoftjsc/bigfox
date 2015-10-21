@@ -1210,3 +1210,414 @@ Caused by: java.net.ConnectException: Connection refused
 <log4j:locationInfo class="com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask" method="run" file="BasicResourcePool.java" line="1841"/>
 </log4j:event>
 
+<log4j:event logger="org.hibernate.validator.internal.util.Version" timestamp="1445417919255" level="INFO" thread="main">
+<log4j:message><![CDATA[HV000001: Hibernate Validator 5.1.3.Final]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.validator.internal.util.Version" method="&lt;clinit&gt;" file="Version.java" line="27"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1445417919506" level="INFO" thread="main">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.log.MLog" method="&lt;clinit&gt;" file="MLog.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1445417919677" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.C3P0Registry" method="banner" file="C3P0Registry.java" line="204"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" timestamp="1445417919748" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@2c0a16db [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@7d0f96c6 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2m69c126nww118b90lp|609e8838, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 800, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@ffe10ebf [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c126nww118b90lp|2a7f1f10, jdbcUrl -> jdbc:mysql://localhost/chat?zeroDateTimeBehavior=convertToNull, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c126nww118b90lp|28dcca0c, numHelperThreads -> 3 ]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" method="getPoolManager" file="AbstractPoolBackedDataSource.java" line="462"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.async.ThreadPoolAsynchronousRunner" timestamp="1445417939747" level="WARN" thread="Timer-0">
+<log4j:message><![CDATA[com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@45dc9ab7 -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks!]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector" method="run" file="ThreadPoolAsynchronousRunner.java" line="608"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.async.ThreadPoolAsynchronousRunner" timestamp="1445417939750" level="WARN" thread="Timer-0">
+<log4j:message><![CDATA[com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@45dc9ab7 -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 3
+	Active Threads: 3
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3b663d17 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@53a44975 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6a098908 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0)
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@33ba9233
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@39be8fd6
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@48a08675
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6e4717a0
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@90b3b51
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4406c599
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@8596042
+Pool thread stack traces:
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+
+]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector" method="run" file="ThreadPoolAsynchronousRunner.java" line="624"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.resourcepool.BasicResourcePool" timestamp="1445417949056" level="WARN" thread="com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0">
+<log4j:message><![CDATA[com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6a098908 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: ]]></log4j:message>
+<log4j:throwable><![CDATA[com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+]]></log4j:throwable>
+<log4j:locationInfo class="com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask" method="run" file="BasicResourcePool.java" line="1841"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.resourcepool.BasicResourcePool" timestamp="1445417949056" level="WARN" thread="com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2">
+<log4j:message><![CDATA[com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3b663d17 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: ]]></log4j:message>
+<log4j:throwable><![CDATA[com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+]]></log4j:throwable>
+<log4j:locationInfo class="com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask" method="run" file="BasicResourcePool.java" line="1841"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.resourcepool.BasicResourcePool" timestamp="1445417949056" level="WARN" thread="com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1">
+<log4j:message><![CDATA[com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@53a44975 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: ]]></log4j:message>
+<log4j:throwable><![CDATA[com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+]]></log4j:throwable>
+<log4j:locationInfo class="com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask" method="run" file="BasicResourcePool.java" line="1841"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.validator.internal.util.Version" timestamp="1445418605346" level="INFO" thread="main">
+<log4j:message><![CDATA[HV000001: Hibernate Validator 5.1.3.Final]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.validator.internal.util.Version" method="&lt;clinit&gt;" file="Version.java" line="27"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1445418605667" level="INFO" thread="main">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.log.MLog" method="&lt;clinit&gt;" file="MLog.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1445418605955" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.C3P0Registry" method="banner" file="C3P0Registry.java" line="204"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" timestamp="1445418606056" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@6ddc9c6e [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@404aa9d6 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2m69c1272mck1dk4mb0|47da3952, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 800, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@2ddedf38 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c1272mck1dk4mb0|36676c1a, jdbcUrl -> jdbc:mysql://localhost/chat?zeroDateTimeBehavior=convertToNull, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c1272mck1dk4mb0|303e3593, numHelperThreads -> 3 ]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" method="getPoolManager" file="AbstractPoolBackedDataSource.java" line="462"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.validator.internal.util.Version" timestamp="1445418636670" level="INFO" thread="main">
+<log4j:message><![CDATA[HV000001: Hibernate Validator 5.1.3.Final]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.validator.internal.util.Version" method="&lt;clinit&gt;" file="Version.java" line="27"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1445418636959" level="INFO" thread="main">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.log.MLog" method="&lt;clinit&gt;" file="MLog.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1445418637216" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.C3P0Registry" method="banner" file="C3P0Registry.java" line="204"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" timestamp="1445418637323" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@5bcab35d [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@62d1964e [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2m69c1273ai11owyix5|493dfb8e, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 800, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@ca4e2494 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c1273ai11owyix5|3ce3db41, jdbcUrl -> jdbc:mysql://localhost/chat?zeroDateTimeBehavior=convertToNull, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c1273ai11owyix5|7876d598, numHelperThreads -> 3 ]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" method="getPoolManager" file="AbstractPoolBackedDataSource.java" line="462"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.validator.internal.util.Version" timestamp="1445418920262" level="INFO" thread="main">
+<log4j:message><![CDATA[HV000001: Hibernate Validator 5.1.3.Final]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.validator.internal.util.Version" method="&lt;clinit&gt;" file="Version.java" line="27"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1445418920553" level="INFO" thread="main">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.log.MLog" method="&lt;clinit&gt;" file="MLog.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1445418920758" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.C3P0Registry" method="banner" file="C3P0Registry.java" line="204"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" timestamp="1445418920839" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@4ea6dbb8 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@1b0a4faa [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2m69c1279dbd183888e|6c6357f9, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 800, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@1524130f [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c1279dbd183888e|58e6d4b8, jdbcUrl -> jdbc:mysql://localhost/chat?zeroDateTimeBehavior=convertToNull, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c1279dbd183888e|4a8a60bc, numHelperThreads -> 3 ]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" method="getPoolManager" file="AbstractPoolBackedDataSource.java" line="462"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.validator.internal.util.Version" timestamp="1445418957612" level="INFO" thread="main">
+<log4j:message><![CDATA[HV000001: Hibernate Validator 5.1.3.Final]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.validator.internal.util.Version" method="&lt;clinit&gt;" file="Version.java" line="27"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1445418957816" level="INFO" thread="main">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.log.MLog" method="&lt;clinit&gt;" file="MLog.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1445418957952" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.C3P0Registry" method="banner" file="C3P0Registry.java" line="204"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" timestamp="1445418958020" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@f915fa7c [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@32b357b9 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2m69c127a61m1vkggmg|3a2c18f3, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 800, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@35e05d30 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c127a61m1vkggmg|7fe9de80, jdbcUrl -> jdbc:mysql://localhost/chat?zeroDateTimeBehavior=convertToNull, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c127a61m1vkggmg|5b65b99, numHelperThreads -> 3 ]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" method="getPoolManager" file="AbstractPoolBackedDataSource.java" line="462"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.validator.internal.util.Version" timestamp="1445419195376" level="INFO" thread="main">
+<log4j:message><![CDATA[HV000001: Hibernate Validator 5.1.3.Final]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.validator.internal.util.Version" method="&lt;clinit&gt;" file="Version.java" line="27"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1445419195549" level="INFO" thread="main">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.log.MLog" method="&lt;clinit&gt;" file="MLog.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1445419195653" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.C3P0Registry" method="banner" file="C3P0Registry.java" line="204"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" timestamp="1445419195733" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@32eae72b [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@bafc6fa6 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2m69c127f9h7kh8rd2|68e4bf0e, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 800, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@39bea30e [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c127f9h7kh8rd2|7df766ae, jdbcUrl -> jdbc:mysql://localhost/chat?zeroDateTimeBehavior=convertToNull, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c127f9h7kh8rd2|6c01e903, numHelperThreads -> 3 ]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" method="getPoolManager" file="AbstractPoolBackedDataSource.java" line="462"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.validator.internal.util.Version" timestamp="1445419323804" level="INFO" thread="main">
+<log4j:message><![CDATA[HV000001: Hibernate Validator 5.1.3.Final]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.validator.internal.util.Version" method="&lt;clinit&gt;" file="Version.java" line="27"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1445419323993" level="INFO" thread="main">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.log.MLog" method="&lt;clinit&gt;" file="MLog.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1445419324097" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.C3P0Registry" method="banner" file="C3P0Registry.java" line="204"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" timestamp="1445419324189" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@44ce5951 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@ccdfe1cc [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2m69c127i0l02q3anc|68e4bf0e, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 800, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@4ba21534 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c127i0l02q3anc|7df766ae, jdbcUrl -> jdbc:mysql://localhost/chat?zeroDateTimeBehavior=convertToNull, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c127i0l02q3anc|6c01e903, numHelperThreads -> 3 ]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" method="getPoolManager" file="AbstractPoolBackedDataSource.java" line="462"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.validator.internal.util.Version" timestamp="1445420119100" level="INFO" thread="main">
+<log4j:message><![CDATA[HV000001: Hibernate Validator 5.1.3.Final]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.validator.internal.util.Version" method="&lt;clinit&gt;" file="Version.java" line="27"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1445420119321" level="INFO" thread="main">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.log.MLog" method="&lt;clinit&gt;" file="MLog.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1445420119471" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.C3P0Registry" method="banner" file="C3P0Registry.java" line="204"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" timestamp="1445420119538" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@1f5ade47 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@8547ab42 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2m69c127z29m1ukofx4|1bb65ef, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 800, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@93fa3cc1 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c127z29m1ukofx4|7d766a1d, jdbcUrl -> jdbc:mysql://localhost/chat?zeroDateTimeBehavior=convertToNull, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c127z29m1ukofx4|7168fb5a, numHelperThreads -> 3 ]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" method="getPoolManager" file="AbstractPoolBackedDataSource.java" line="462"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.validator.internal.util.Version" timestamp="1445420756858" level="INFO" thread="main">
+<log4j:message><![CDATA[HV000001: Hibernate Validator 5.1.3.Final]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.validator.internal.util.Version" method="&lt;clinit&gt;" file="Version.java" line="27"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1445420757028" level="INFO" thread="main">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.log.MLog" method="&lt;clinit&gt;" file="MLog.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1445420757129" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.C3P0Registry" method="banner" file="C3P0Registry.java" line="204"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" timestamp="1445420757188" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@7db51f9f [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@dea90712 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2m69c128cqbo15xhzte|251a175b, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 800, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@1236cec2 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c128cqbo15xhzte|530ee71b, jdbcUrl -> jdbc:mysql://localhost/chat?zeroDateTimeBehavior=convertToNull, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c128cqbo15xhzte|7379cbd, numHelperThreads -> 3 ]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" method="getPoolManager" file="AbstractPoolBackedDataSource.java" line="462"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.validator.internal.util.Version" timestamp="1445420795298" level="INFO" thread="main">
+<log4j:message><![CDATA[HV000001: Hibernate Validator 5.1.3.Final]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.validator.internal.util.Version" method="&lt;clinit&gt;" file="Version.java" line="27"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1445420795486" level="INFO" thread="main">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.log.MLog" method="&lt;clinit&gt;" file="MLog.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1445420795609" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.C3P0Registry" method="banner" file="C3P0Registry.java" line="204"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" timestamp="1445420795667" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@8fc8d5ea [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@2a09a31 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2m69c128dk0a3em1q6|64d41010, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 800, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@f6dde9bb [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c128dk0a3em1q6|61201439, jdbcUrl -> jdbc:mysql://localhost/chat?zeroDateTimeBehavior=convertToNull, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c128dk0a3em1q6|7f7eae1c, numHelperThreads -> 3 ]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" method="getPoolManager" file="AbstractPoolBackedDataSource.java" line="462"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.validator.internal.util.Version" timestamp="1445420933173" level="INFO" thread="main">
+<log4j:message><![CDATA[HV000001: Hibernate Validator 5.1.3.Final]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.validator.internal.util.Version" method="&lt;clinit&gt;" file="Version.java" line="27"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1445420933340" level="INFO" thread="main">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.log.MLog" method="&lt;clinit&gt;" file="MLog.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1445420933447" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.C3P0Registry" method="banner" file="C3P0Registry.java" line="204"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" timestamp="1445420933508" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@a2904f0 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@6bd9c767 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2m69c128gid7tnz3wu|71ea020a, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 800, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@f0dba164 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c128gid7tnz3wu|3834848b, jdbcUrl -> jdbc:mysql://localhost/chat?zeroDateTimeBehavior=convertToNull, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c128gid7tnz3wu|15e178a0, numHelperThreads -> 3 ]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" method="getPoolManager" file="AbstractPoolBackedDataSource.java" line="462"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.validator.internal.util.Version" timestamp="1445420970056" level="INFO" thread="main">
+<log4j:message><![CDATA[HV000001: Hibernate Validator 5.1.3.Final]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.validator.internal.util.Version" method="&lt;clinit&gt;" file="Version.java" line="27"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.log.MLog" timestamp="1445420970218" level="INFO" thread="main">
+<log4j:message><![CDATA[MLog clients using log4j logging.]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.log.MLog" method="&lt;clinit&gt;" file="MLog.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.C3P0Registry" timestamp="1445420970366" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.C3P0Registry" method="banner" file="C3P0Registry.java" line="204"/>
+</log4j:event>
+
+<log4j:event logger="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" timestamp="1445420970423" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@97d18fe6 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@1fe31861 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2m69c128hatod8zdra|68e4bf0e, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 6000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 800, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@9ea54bc9 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c128hatod8zdra|7df766ae, jdbcUrl -> jdbc:mysql://localhost/chat?zeroDateTimeBehavior=convertToNull, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge2m69c128hatod8zdra|6c01e903, numHelperThreads -> 3 ]]]></log4j:message>
+<log4j:locationInfo class="com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource" method="getPoolManager" file="AbstractPoolBackedDataSource.java" line="462"/>
+</log4j:event>
+

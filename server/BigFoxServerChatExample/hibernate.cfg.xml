@@ -27,7 +27,7 @@
         <property name="hibernate.connection.characterEncoding">UTF-8</property>
         <property name="hibernate.connection.charSet">UTF-8</property>
         <!-- mapping files -->
-        <mapping class="vn.com.onesoft.bigfox.server.example.chat.db.DBUserLog"/>
+        <mapping class="vn.com.onesoft.chatexample.server.db.DBUserLog"/>
 
     </session-factory>
 </hibernate-configuration>

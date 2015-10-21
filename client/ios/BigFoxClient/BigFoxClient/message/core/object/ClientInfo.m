@@ -14,4 +14,12 @@
 @synthesize version;
 @synthesize sessionId;
 @synthesize metadata;
+@synthesize zone;
+-(id)init{
+    self = [super init];
+    if(self != nil){
+        zone = @"classes";
+    }
+    return self;
+}
 @end

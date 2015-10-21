@@ -24,17 +24,16 @@
 		5B2342E11B994E45001E182B /* BaseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2342E01B994E45001E182B /* BaseMessage.m */; };
 		5B2342F71B99A4B0001E182B /* BFLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2342F61B99A4B0001E182B /* BFLogger.m */; };
 		5B2342FD1B99A7F9001E182B /* BigFoxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2342FC1B99A7F9001E182B /* BigFoxUtils.m */; };
-		5B45F46B1BBA279800B8DAAD /* SCPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F46A1BBA279800B8DAAD /* SCPing.m */; settings = {ASSET_TAGS = (); }; };
-		5B45F46E1BBA27AE00B8DAAD /* SCInitSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F46D1BBA27AE00B8DAAD /* SCInitSession.m */; settings = {ASSET_TAGS = (); }; };
-		5B45F4711BBA27C000B8DAAD /* SCValidationCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4701BBA27C000B8DAAD /* SCValidationCode.m */; settings = {ASSET_TAGS = (); }; };
-		5B45F4751BBA34DB00B8DAAD /* CSClientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4741BBA34DB00B8DAAD /* CSClientInfo.m */; settings = {ASSET_TAGS = (); }; };
-		5B45F4781BBA34EC00B8DAAD /* CSPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4771BBA34EC00B8DAAD /* CSPing.m */; settings = {ASSET_TAGS = (); }; };
-		5B45F47B1BBA35A500B8DAAD /* ClientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F47A1BBA35A500B8DAAD /* ClientInfo.m */; settings = {ASSET_TAGS = (); }; };
-		5B45F4C61BBAA15B00B8DAAD /* CSBigData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4C51BBAA15B00B8DAAD /* CSBigData.m */; settings = {ASSET_TAGS = (); }; };
-		5B45F4C91BBAA16600B8DAAD /* CSChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4C81BBAA16600B8DAAD /* CSChat.m */; settings = {ASSET_TAGS = (); }; };
-		5B45F4CC1BBAA17600B8DAAD /* CSName.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4CB1BBAA17600B8DAAD /* CSName.m */; settings = {ASSET_TAGS = (); }; };
-		5B45F4CF1BBAA19600B8DAAD /* SCChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4CE1BBAA19600B8DAAD /* SCChat.m */; settings = {ASSET_TAGS = (); }; };
-		5B69135C1BB50707008FE678 /* BFPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B69135B1BB50707008FE678 /* BFPacker.m */; settings = {ASSET_TAGS = (); }; };
+		5B45F46B1BBA279800B8DAAD /* SCPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F46A1BBA279800B8DAAD /* SCPing.m */; };
+		5B45F46E1BBA27AE00B8DAAD /* SCInitSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F46D1BBA27AE00B8DAAD /* SCInitSession.m */; };
+		5B45F4711BBA27C000B8DAAD /* SCValidationCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4701BBA27C000B8DAAD /* SCValidationCode.m */; };
+		5B45F4751BBA34DB00B8DAAD /* CSClientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4741BBA34DB00B8DAAD /* CSClientInfo.m */; };
+		5B45F4781BBA34EC00B8DAAD /* CSPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4771BBA34EC00B8DAAD /* CSPing.m */; };
+		5B45F47B1BBA35A500B8DAAD /* ClientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F47A1BBA35A500B8DAAD /* ClientInfo.m */; };
+		5B45F4C91BBAA16600B8DAAD /* CSChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4C81BBAA16600B8DAAD /* CSChat.m */; };
+		5B45F4CC1BBAA17600B8DAAD /* CSName.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4CB1BBAA17600B8DAAD /* CSName.m */; };
+		5B45F4CF1BBAA19600B8DAAD /* SCChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45F4CE1BBAA19600B8DAAD /* SCChat.m */; };
+		5B69135C1BB50707008FE678 /* BFPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B69135B1BB50707008FE678 /* BFPacker.m */; };
 		5B6F8E5A1BA2DEF600E22B0B /* MessageExecute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F8E591BA2DEF600E22B0B /* MessageExecute.m */; };
 		5B6F8E601BA2E00C00E22B0B /* BFZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F8E5C1BA2E00C00E22B0B /* BFZip.m */; };
 		5B6F8E611BA2E00C00E22B0B /* CompressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F8E5E1BA2E00C00E22B0B /* CompressManager.m */; };
@@ -102,8 +101,6 @@
 		5B45F4791BBA35A500B8DAAD /* ClientInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientInfo.h; sourceTree = "<group>"; };
 		5B45F47A1BBA35A500B8DAAD /* ClientInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientInfo.m; sourceTree = "<group>"; };
 		5B45F4C31BBAA0DB00B8DAAD /* Tags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tags.h; sourceTree = "<group>"; };
-		5B45F4C41BBAA15B00B8DAAD /* CSBigData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSBigData.h; sourceTree = "<group>"; };
-		5B45F4C51BBAA15B00B8DAAD /* CSBigData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSBigData.m; sourceTree = "<group>"; };
 		5B45F4C71BBAA16600B8DAAD /* CSChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSChat.h; sourceTree = "<group>"; };
 		5B45F4C81BBAA16600B8DAAD /* CSChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSChat.m; sourceTree = "<group>"; };
 		5B45F4CA1BBAA17600B8DAAD /* CSName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSName.h; sourceTree = "<group>"; };
@@ -393,8 +390,6 @@
 		5B2342CB1B994481001E182B /* cs */ = {
 			isa = PBXGroup;
 			children = (
-				5B45F4C41BBAA15B00B8DAAD /* CSBigData.h */,
-				5B45F4C51BBAA15B00B8DAAD /* CSBigData.m */,
 				5B45F4C71BBAA16600B8DAAD /* CSChat.h */,
 				5B45F4C81BBAA16600B8DAAD /* CSChat.m */,
 				5B45F4CA1BBAA17600B8DAAD /* CSName.h */,
@@ -530,7 +525,6 @@
 				5B2342FD1B99A7F9001E182B /* BigFoxUtils.m in Sources */,
 				5B45F4CC1BBAA17600B8DAAD /* CSName.m in Sources */,
 				5B6F8E6E1BA2E02A00E22B0B /* BFUtils.m in Sources */,
-				5B45F4C61BBAA15B00B8DAAD /* CSBigData.m in Sources */,
 				5B45F4781BBA34EC00B8DAAD /* CSPing.m in Sources */,
 				5B1595591B9D40130011BF4F /* BFDataInputStream.m in Sources */,
 				5B6F8E611BA2E00C00E22B0B /* CompressManager.m in Sources */,

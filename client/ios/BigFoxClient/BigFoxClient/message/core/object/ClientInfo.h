@@ -24,4 +24,6 @@
 @property (nonatomic, retain)NSString* sessionId;
 //@Property (name = @"metadata")
 @property (nonatomic, retain)NSString* metadata;
+//@Property (name = @"zone")
+@property (nonatomic, retain)NSString* zone;
 @end

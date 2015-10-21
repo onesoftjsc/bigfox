@@ -1,55 +1,12 @@
-2015-10-11 22:51:27,290 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
-2015-10-11 22:51:27,296 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSName
-2015-10-11 22:51:27,297 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
-2015-10-11 22:51:27,485 [Thread-2] DEBUG - -Dio.netty.eventLoopThreads: 16
-2015-10-11 22:51:27,495 [Thread-2] DEBUG - -Dio.netty.noKeySetOptimization: false
-2015-10-11 22:51:27,495 [Thread-2] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
-2015-10-11 22:51:27,517 [main] INFO - Telnet start at port 40000
-2015-10-11 22:51:27,517 [Thread-2] INFO - Socket start at port 33333
-2015-10-11 22:51:27,536 [Thread-3] INFO - WebSocket start at port 33332
-2015-10-11 22:51:27,544 [main] DEBUG - -Dio.netty.processId: 16229 (auto-detected)
-2015-10-11 22:51:27,547 [main] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
-2015-10-11 22:51:27,548 [main] DEBUG - -Dio.netty.initialSeedUniquifier: 0xf1822cef759c77b9 (took 17 ms)
-2015-10-11 22:51:27,576 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
-2015-10-11 22:51:27,577 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
-2015-10-11 22:51:27,577 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
-2015-10-11 22:51:27,577 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
-2015-10-11 22:51:27,577 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
-2015-10-11 22:51:27,577 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
-2015-10-11 22:51:27,577 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
-2015-10-11 22:51:27,577 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
-2015-10-11 22:51:27,577 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2015-10-11 22:51:27,577 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
-2015-10-11 22:51:27,583 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
-2015-10-11 22:51:27,584 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-10-11 22:51:27,586 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-10-11 22:51:27,587 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-10-11 22:51:27,599 [nioEventLoopGroup-3-1] INFO - [id: 0xf5b7610a] REGISTERED
-2015-10-11 22:51:27,599 [nioEventLoopGroup-3-1] INFO - [id: 0xf5b7610a] BIND: 0.0.0.0/0.0.0.0:33332
-2015-10-11 22:51:27,603 [nioEventLoopGroup-3-1] INFO - [id: 0xf5b7610a, /0:0:0:0:0:0:0:0:33332] ACTIVE
-2015-10-11 22:52:01,089 [Thread-3] INFO - WebSocket start at port 33332
-2015-10-11 22:52:01,089 [main] INFO - Telnet start at port 40000
-2015-10-11 22:52:01,089 [Thread-2] INFO - Socket start at port 33333
-2015-10-11 22:52:01,118 [Thread-3] DEBUG - -Dio.netty.processId: 16241 (auto-detected)
-2015-10-11 22:52:01,122 [Thread-3] DEBUG - -Dio.netty.machineId: 00:1c:42:ff:fe:00:00:09 (auto-detected)
-2015-10-11 22:52:01,124 [Thread-3] DEBUG - -Dio.netty.initialSeedUniquifier: 0xff881b7a27975d64 (took 16 ms)
-2015-10-11 22:52:01,149 [Thread-2] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
-2015-10-11 22:52:01,149 [Thread-2] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
-2015-10-11 22:52:01,149 [Thread-2] DEBUG - -Dio.netty.allocator.pageSize: 8192
-2015-10-11 22:52:01,149 [Thread-2] DEBUG - -Dio.netty.allocator.maxOrder: 11
-2015-10-11 22:52:01,149 [Thread-2] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
-2015-10-11 22:52:01,149 [Thread-2] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
-2015-10-11 22:52:01,150 [Thread-2] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
-2015-10-11 22:52:01,150 [Thread-2] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
-2015-10-11 22:52:01,150 [Thread-2] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2015-10-11 22:52:01,150 [Thread-2] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
-2015-10-11 22:52:01,154 [Thread-2] DEBUG - -Dio.netty.allocator.type: pooled
-2015-10-11 22:52:01,154 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
-2015-10-11 22:52:01,156 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-2015-10-11 22:52:01,156 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
-2015-10-11 22:52:01,167 [nioEventLoopGroup-2-1] INFO - [id: 0xc0ff055f] REGISTERED
-2015-10-11 22:52:01,168 [nioEventLoopGroup-2-1] INFO - [id: 0xc0ff055f] BIND: 0.0.0.0/0.0.0.0:33332
-2015-10-11 22:52:01,171 [nioEventLoopGroup-2-1] INFO - [id: 0xc0ff055f, /0:0:0:0:0:0:0:0:33332] ACTIVE
-2015-10-11 22:52:06,807 [Thread-0] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
-2015-10-11 22:52:06,810 [Thread-0] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
-2015-10-11 22:52:06,810 [Thread-0] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 15:55:49,231 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 15:55:49,238 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 15:55:49,239 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:09:51,822 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:09:51,829 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:09:51,830 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:19:37,731 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:19:37,734 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:19:37,735 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:34:55,238 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:34:55,243 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:34:55,244 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat

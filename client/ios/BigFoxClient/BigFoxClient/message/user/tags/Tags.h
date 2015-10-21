@@ -10,9 +10,8 @@
 #define Tags_h
 enum {
     // client - server
-    CS_NAME      = 0x000004,
-    CS_CHAT      = 0x000001,
-    CS_BIGDATA   = 0x000002,
+    CS_NAME      = 0x000001,
+    CS_CHAT      = 0x000002,
     
     
     // server - client

@@ -1,0 +1,634 @@
+2015-10-09 15:08:34,355 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-09 15:08:34,355 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@47b2e9e1
+2015-10-09 15:08:34,361 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
+2015-10-09 15:08:34,363 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.userk.cs.CSChat
+2015-10-09 15:08:34,365 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.userk.cs.CSName
+2015-10-09 15:08:35,084 [Thread-10] INFO - Socket start at port 33333
+2015-10-09 15:08:35,084 [main] INFO - Telnet start at port 40000
+2015-10-09 15:08:35,160 [Thread-11] INFO - WebSocket start at port 33332
+2015-10-09 15:08:54,062 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6828e9f7 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:08:54,077 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@42a232fa -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:08:54,086 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6338551b -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:08:54,083 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1b620a5f -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:08:54,078 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@7ce20026 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:08:54,088 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@63132738 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:08:54,088 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@2eadf439 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:09:42,624 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-09 15:09:42,625 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@1dab9dd6
+2015-10-09 15:09:42,632 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
+2015-10-09 15:09:42,635 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.userk.cs.CSChat
+2015-10-09 15:09:42,637 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.userk.cs.CSName
+2015-10-09 15:09:43,446 [main] INFO - Telnet start at port 40000
+2015-10-09 15:09:43,446 [Thread-10] INFO - Socket start at port 33333
+2015-10-09 15:09:43,551 [Thread-11] INFO - WebSocket start at port 33332
+2015-10-09 15:10:13,326 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+2015-10-09 15:10:13,351 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-09 15:10:13,586 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "slkksotgp0qjs54poh5ba83oiu",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-09 15:10:13,591 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-09 15:10:13,601 [nioEventLoopGroup-7-1] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:13,603 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378213602
+}
+2015-10-09 15:10:15,504 [nioEventLoopGroup-7-1] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-10-09 15:10:18,432 [nioEventLoopGroup-7-1] INFO - CSChat m:4 s:0 {
+  msg: "aaa"
+}
+2015-10-09 15:10:18,434 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@1d4664d7
+2015-10-09 15:10:18,439 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCChat m:4 s:1 {
+  msg: "15:10:18
+Q: aaa"
+}
+2015-10-09 15:10:18,780 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-09 15:10:18,780 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@1dab9dd6
+2015-10-09 15:10:18,947 [nioEventLoopGroup-7-1] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:18,948 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378218947
+}
+2015-10-09 15:10:23,601 [nioEventLoopGroup-7-1] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:23,603 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378223602
+}
+2015-10-09 15:10:28,602 [nioEventLoopGroup-7-1] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:28,603 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378228603
+}
+2015-10-09 15:10:33,603 [nioEventLoopGroup-7-1] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:33,605 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378233604
+}
+2015-10-09 15:10:38,603 [nioEventLoopGroup-7-1] INFO - CSPing m:9 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:38,604 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378238604
+}
+2015-10-09 15:10:43,605 [nioEventLoopGroup-7-1] INFO - CSPing m:10 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:43,607 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378243607
+}
+2015-10-09 15:10:48,606 [nioEventLoopGroup-7-1] INFO - CSPing m:11 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:48,607 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378248607
+}
+2015-10-09 15:10:53,607 [nioEventLoopGroup-7-1] INFO - CSPing m:12 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:53,609 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378253608
+}
+2015-10-09 15:10:58,608 [nioEventLoopGroup-7-1] INFO - CSPing m:13 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:58,610 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378258609
+}
+2015-10-09 15:11:03,609 [nioEventLoopGroup-7-1] INFO - CSPing m:14 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:03,611 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378263610
+}
+2015-10-09 15:11:08,610 [nioEventLoopGroup-7-1] INFO - CSPing m:15 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:08,611 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378268611
+}
+2015-10-09 15:11:13,612 [nioEventLoopGroup-7-1] INFO - CSPing m:16 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:13,614 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378273614
+}
+2015-10-09 15:11:18,613 [nioEventLoopGroup-7-1] INFO - CSPing m:17 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:18,614 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378278613
+}
+2015-10-09 15:11:23,618 [nioEventLoopGroup-7-1] INFO - CSPing m:18 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:23,620 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378283619
+}
+2015-10-09 15:11:28,615 [nioEventLoopGroup-7-1] INFO - CSPing m:19 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:28,618 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378288617
+}
+2015-10-09 15:11:33,616 [nioEventLoopGroup-7-1] INFO - CSPing m:20 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:33,618 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378293617
+}
+2015-10-09 15:11:38,618 [nioEventLoopGroup-7-1] INFO - CSPing m:21 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:38,619 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378298619
+}
+2015-10-09 15:11:43,619 [nioEventLoopGroup-7-1] INFO - CSPing m:22 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:43,620 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378303620
+}
+2015-10-09 15:11:48,620 [nioEventLoopGroup-7-1] INFO - CSPing m:23 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:48,622 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378308621
+}
+2015-10-09 15:11:53,621 [nioEventLoopGroup-7-1] INFO - CSPing m:24 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:53,623 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378313622
+}
+2015-10-09 15:11:58,622 [nioEventLoopGroup-7-1] INFO - CSPing m:25 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:58,623 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378318623
+}
+2015-10-09 15:12:03,623 [nioEventLoopGroup-7-1] INFO - CSPing m:26 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:03,626 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378323625
+}
+2015-10-09 15:12:08,625 [nioEventLoopGroup-7-1] INFO - CSPing m:27 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:08,626 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378328626
+}
+2015-10-09 15:12:13,626 [nioEventLoopGroup-7-1] INFO - CSPing m:28 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:13,628 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378333628
+}
+2015-10-09 15:12:18,627 [nioEventLoopGroup-7-1] INFO - CSPing m:29 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:18,628 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378338627
+}
+2015-10-09 15:12:23,627 [nioEventLoopGroup-7-1] INFO - CSPing m:30 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:23,629 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378343629
+}
+2015-10-09 15:12:28,628 [nioEventLoopGroup-7-1] INFO - CSPing m:31 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:28,630 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378348629
+}
+2015-10-09 15:12:33,629 [nioEventLoopGroup-7-1] INFO - CSPing m:32 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:33,631 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378353630
+}
+2015-10-09 15:12:54,347 [nioEventLoopGroup-7-1] INFO - CSPing m:33 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:11,023 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378511022
+}
+2015-10-09 15:15:15,971 [nioEventLoopGroup-7-1] INFO - CSPing m:34 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:15,972 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378515972
+}
+2015-10-09 15:15:20,972 [nioEventLoopGroup-7-1] INFO - CSPing m:35 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:20,974 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378520973
+}
+2015-10-09 15:15:25,972 [nioEventLoopGroup-7-1] INFO - CSPing m:36 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:25,973 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378525973
+}
+2015-10-09 15:15:30,973 [nioEventLoopGroup-7-1] INFO - CSPing m:37 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:30,974 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378530973
+}
+2015-10-09 15:15:35,973 [nioEventLoopGroup-7-1] INFO - CSPing m:38 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:35,975 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378535974
+}
+2015-10-09 15:15:40,975 [nioEventLoopGroup-7-1] INFO - CSPing m:39 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:40,977 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378540976
+}
+2015-10-09 15:15:45,975 [nioEventLoopGroup-7-1] INFO - CSPing m:40 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:45,976 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378545976
+}
+2015-10-09 15:15:50,977 [nioEventLoopGroup-7-1] INFO - CSPing m:41 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:50,979 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378550979
+}
+2015-10-09 15:15:55,978 [nioEventLoopGroup-7-1] INFO - CSPing m:42 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:55,979 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378555979
+}
+2015-10-09 15:16:00,978 [nioEventLoopGroup-7-1] INFO - CSPing m:43 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:16:00,979 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378560979
+}
+2015-10-09 15:16:05,979 [nioEventLoopGroup-7-1] INFO - CSPing m:44 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:16:05,981 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378565981
+}
+2015-10-09 15:16:10,980 [nioEventLoopGroup-7-1] INFO - CSPing m:45 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:16:10,982 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378570981
+}
+2015-10-09 15:16:11,795 [nioEventLoopGroup-7-1] INFO - channelInactive!: [id: 0xadbf61d5, /127.0.0.1:59892 :> /127.0.0.1:33333]
+2015-10-09 15:16:11,795 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0xadbf61d5, /127.0.0.1:59892 :> /127.0.0.1:33333]
+2015-10-09 15:16:11,796 [nioEventLoopGroup-7-1] INFO - onChannelClose
+2015-10-09 15:16:11,796 [nioEventLoopGroup-7-1] INFO - Channel exceptionCaught
+2015-10-09 15:16:11,796 [nioEventLoopGroup-7-1] INFO - Channel unregistered
+2015-10-09 15:18:12,667 [Thread-9] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
+2015-10-09 15:18:12,673 [Thread-9] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSName
+2015-10-09 15:21:11,308 [Thread-0] INFO - onTimeout
+2015-10-09 15:25:49,638 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:25:49,644 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-09 15:26:13,041 [Thread-9] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
+2015-10-09 15:26:26,265 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:26:27,296 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-09 15:26:37,477 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:27:22,338 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:27:33,569 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:27:39,700 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:28:36,900 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:28:36,905 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
