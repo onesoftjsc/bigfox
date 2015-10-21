@@ -45,6 +45,13 @@
     int intValue=[self littleToBig:v];
     [data appendBytes:&intValue length:4];
     length = length + 4;
+//    int8_t ch[4];
+//    ch[0] = (v >> 24) & 0xff ;
+//    ch[1] = (v >> 16) & 0xff;
+//    ch[1] = (v >> 8) & 0xff;
+//    ch[1] = (v >> 0) & 0xff;
+//    [data appendBytes:ch length:4];
+//    length = length + 4;
 }
 
 - (void)writeLong:(int64_t)v {

@@ -13,4 +13,6 @@
 - (void) info: (NSObject*) obj;
 -(void) error : (NSObject*) obj : (NSException*) ex ;
 - (void) error:(NSObject*) obj;
+- (void) log : (NSString*) str;
+- (void) logChat : (char*) data : (int) length;
 @end

@@ -9,7 +9,18 @@
 #import "Message.h"
 
 @implementation Message
-@dynamic tag = 0;
-@dynamic name = @"";
-@dynamic isCore = false;
+@synthesize tag ;
+@synthesize name ;
+@synthesize isCore;
+
+
+- (id) init {
+    self = [super init];
+    if (self) {
+        self.tag = 0;
+        self.name = @"";
+        self.isCore = false;
+    }
+    return self;
+}
 @end

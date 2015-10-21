@@ -4,7 +4,7 @@
 //
 //  Created by Jianbin LIN
 //  Released under a BSD-style license. See license.txt
-
+#import <Foundation/Foundation.h>
 @class ROAnnotatedUnit;
 
 /*

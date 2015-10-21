@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @protocol ICompress <NSObject>
-- (char*) compress : (char*) data: (int) length;
-- (char*) decompress : (char*) data :(int) length;
+- (NSData*) compress : (NSData*) data;
+- (NSData*) decompress : (NSData*) data ;
 @end

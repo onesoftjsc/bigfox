@@ -8,7 +8,7 @@
 
 #import "MessageIn.h"
 #import "BFDataInputStream.h"
-static short TAG = 0;
+
 @implementation MessageIn {
     NSData* data;
     BFDataInputStream* in;
@@ -25,6 +25,7 @@ static short TAG = 0;
     return self;
 }
 
-
+- (void) execute {
+}
 
 @end

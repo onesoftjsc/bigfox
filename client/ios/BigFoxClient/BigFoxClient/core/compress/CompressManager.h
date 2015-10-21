@@ -10,7 +10,7 @@
 #import "ICompress.h"
 @interface CompressManager : NSObject
 +(CompressManager*) getInstance;
-- (char*) compress : (char*) data : (int) length;
-- (char*) decompress : (char*) data : (int) length;
+- (NSData*) compress : (NSData*) data ;
+- (NSData*) decompress : (NSData*) data ;
 
 @end

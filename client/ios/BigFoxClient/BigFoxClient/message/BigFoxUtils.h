@@ -35,10 +35,10 @@ enum {
 };
 @interface BigFoxUtils : NSObject
 + (NSData*) toBytes: (id) object ;
-+ (void) read :(id) object withData: (NSData*) data;
++ (void) read :(id) object withData: (BFDataInputStream*) data;
 + (void) read : (id) object withBytes:(char*) data length: (int) length;
-+ (id) fromBytes : (Class) class withBytes: (char*) data : length: (int)length;
-+ (id) fromBytes: (Class) class withData: (NSData*) in ;
++ (id) fromBytes : (Class) class withBytes: (char*) data length: (int)length;
++ (id) fromBytes: (Class) class withData: (BFDataInputStream*) in ;
 + (void) write : (id)object : (BFDataOutputStream*) out ;
 + (void) write:(id)object withBytes :(char*)data length : (int)length ;
 + (NSString*) toString : (id) object;

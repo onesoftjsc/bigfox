@@ -7,6 +7,7 @@
 //
 
 #import "BFLogger.h"
+#import "BigFoxUtils.h"
 
 @implementation BFLogger
 static BFLogger* _instance;
@@ -17,15 +18,27 @@ static BFLogger* _instance;
     return _instance;
 }
 
+- (void) log : (NSString*) str {
+    NSLog(str);
+}
 - (void) info:(NSObject *)obj {
-    NSLog([obj description]);
+    NSLog([NSString stringWithFormat:@"%@: %@",NSStringFromClass([obj class]), [BigFoxUtils toString:obj]]);
 }
 
 - (void) error:(NSObject *)obj {
-     NSLog([obj description]);
+     NSLog([NSString stringWithFormat:@"error at object: %@",[BigFoxUtils toString:obj]]);
 }
 
 -(void) error:(NSObject *)obj :(NSException *)ex {
-    NSLog([NSString stringWithFormat:@"%@ %@", [obj description], [ex description]]);
+    NSLog([NSString stringWithFormat:@"%@ %@", [BigFoxUtils toString:obj], [ex description]]);
+}
+
+-(void) logChat:(char *)data : (int) length{
+    NSString* result = @"";
+    for ( int i = 0; i < length; i++) {
+        result = [result stringByAppendingString:[NSString stringWithFormat:@"%d",data[i]]];
+
+    }
+            NSLog(result);
 }
 @end

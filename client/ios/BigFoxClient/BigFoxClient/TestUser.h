@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TestUser : NSObject
+@interface TestUser : NSObject {
+    NSString* old;
+}
 
 @property (nonatomic, retain) NSString* name;
 @property (nonatomic, retain) NSString* textChat;

@@ -9,5 +9,12 @@
 #import "Property.h"
 
 @implementation Property
-
+@synthesize name;
+- (id) init {
+    self = [super init];
+    if (self) {
+        self.name = @"";
+    }
+    return self;
+}
 @end

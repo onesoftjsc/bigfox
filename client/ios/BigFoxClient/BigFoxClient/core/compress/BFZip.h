@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "ICompress.h"
 @interface BFZip : NSObject<ICompress>
-- (char*) compress:(char *)data :(int)length ;
--(char*) decompress:(char *)data :(int)length;
+- (NSData*) compress:(NSData*)data ;
+- (NSData*) decompress:(NSData *)data ;
 
 @end
