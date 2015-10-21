@@ -50,12 +50,10 @@ public class MessageBuffer {
     void scan() {
         while (true) {
             if (realDataLength >= 4) {
-                int len = ByteUtils.getInt(buff[beginIndex],
-                        buff[beginIndex + 1], buff[beginIndex + 2],
-                        buff[beginIndex + 3]);
-                int tag = ByteUtils.getInt(buff[beginIndex + 4],
-                        buff[beginIndex + 5], buff[beginIndex + 6],
-                        buff[beginIndex + 7]);
+                int len = ByteUtils.getInt(buff[beginIndex % size],
+                        buff[(beginIndex + 1) % size], buff[(beginIndex + 2) % size],
+                        buff[(beginIndex + 3) % size]);
+
                 if (realDataLength >= len) { // lấy đủ dữ liệu
                     byte[] data = new byte[len];
                     for (int i = 0; i < len; i++) {

@@ -1,612 +1,634 @@
-2015-10-02 16:24:00,760 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:24:00,760 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@6090f3ca
-2015-10-02 16:24:00,765 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
-2015-10-02 16:24:00,767 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSName
-2015-10-02 16:24:00,768 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
-2015-10-02 16:24:01,100 [main] INFO - Telnet start at port 40000
-2015-10-02 16:24:01,100 [Thread-9] INFO - Socket start at port 33333
-2015-10-02 16:24:01,114 [Thread-10] INFO - WebSocket start at port 33332
-2015-10-02 16:24:36,725 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0x7bb30b0c, /127.0.0.1:51408 => /127.0.0.1:33333]
-2015-10-02 16:24:36,734 [nioEventLoopGroup-7-1] INFO - [id: 0x7bb30b0c, /127.0.0.1:51408 => /127.0.0.1:33333]
+2015-10-09 15:08:34,355 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-09 15:08:34,355 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@47b2e9e1
+2015-10-09 15:08:34,361 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
+2015-10-09 15:08:34,363 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.userk.cs.CSChat
+2015-10-09 15:08:34,365 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.userk.cs.CSName
+2015-10-09 15:08:35,084 [Thread-10] INFO - Socket start at port 33333
+2015-10-09 15:08:35,084 [main] INFO - Telnet start at port 40000
+2015-10-09 15:08:35,160 [Thread-11] INFO - WebSocket start at port 33332
+2015-10-09 15:08:54,062 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6828e9f7 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:08:54,077 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@42a232fa -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:08:54,086 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6338551b -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:08:54,083 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1b620a5f -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:08:54,078 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@7ce20026 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:08:54,088 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@63132738 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:08:54,088 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@7b60fff8] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@2eadf439 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-09 15:09:42,624 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-09 15:09:42,625 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@1dab9dd6
+2015-10-09 15:09:42,632 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
+2015-10-09 15:09:42,635 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.userk.cs.CSChat
+2015-10-09 15:09:42,637 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.userk.cs.CSName
+2015-10-09 15:09:43,446 [main] INFO - Telnet start at port 40000
+2015-10-09 15:09:43,446 [Thread-10] INFO - Socket start at port 33333
+2015-10-09 15:09:43,551 [Thread-11] INFO - WebSocket start at port 33332
+2015-10-09 15:10:13,326 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+2015-10-09 15:10:13,351 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
 SCValidationCode m:0 s:0 {
   validationCode: 0
 }
-2015-10-02 16:24:36,818 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+2015-10-09 15:10:13,586 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
   clientInfo: {
     device: "desktop",
     imei: "",
     version: 1,
-    sessionId: "j1phfge4m6dt9ff0cq2jsl3a0h",
+    sessionId: "slkksotgp0qjs54poh5ba83oiu",
     metadata: "",
     zone: "classes"
   }
 }
-2015-10-02 16:24:36,821 [nioEventLoopGroup-7-1] ERROR - 
-java.lang.NullPointerException
-	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.createSession(BFSessionManager.java:62)
-	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:168)
-	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
-	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
-	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
-	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
-	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
-	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
-	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
-	at java.lang.Thread.run(Thread.java:745)
-2015-10-02 16:24:36,822 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x7bb30b0c, /127.0.0.1:51408 :> /127.0.0.1:33333]
-2015-10-02 16:24:41,829 [nioEventLoopGroup-7-2] INFO - Client connected!: [id: 0x794ed80a, /127.0.0.1:51411 => /127.0.0.1:33333]
-2015-10-02 16:24:41,830 [nioEventLoopGroup-7-2] INFO - [id: 0x794ed80a, /127.0.0.1:51411 => /127.0.0.1:33333]
-SCValidationCode m:0 s:0 {
-  validationCode: 0
-}
-2015-10-02 16:24:41,851 [nioEventLoopGroup-7-2] INFO - CSClientInfo m:3 s:0 {
-  clientInfo: {
-    device: "desktop",
-    imei: "",
-    version: 1,
-    sessionId: "j1phfge4m6dt9ff0cq2jsl3a0h",
-    metadata: "",
-    zone: "classes"
-  }
-}
-2015-10-02 16:24:41,851 [nioEventLoopGroup-7-2] INFO - SCInitSession m:0 s:0 {
-  sessionStatus: 2
-}
-2015-10-02 16:24:41,852 [nioEventLoopGroup-7-2] ERROR - 
-java.lang.NullPointerException
-	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:176)
-	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
-	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
-	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
-	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
-	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
-	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
-	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
-	at java.lang.Thread.run(Thread.java:745)
-2015-10-02 16:24:41,852 [nioEventLoopGroup-7-2] INFO - ChannelClosed: [id: 0x794ed80a, /127.0.0.1:51411 :> /127.0.0.1:33333]
-2015-10-02 16:24:46,860 [nioEventLoopGroup-7-3] INFO - Client connected!: [id: 0x4d3fe607, /127.0.0.1:51412 => /127.0.0.1:33333]
-2015-10-02 16:24:46,860 [nioEventLoopGroup-7-3] INFO - [id: 0x4d3fe607, /127.0.0.1:51412 => /127.0.0.1:33333]
-SCValidationCode m:0 s:0 {
-  validationCode: 0
-}
-2015-10-02 16:24:46,880 [nioEventLoopGroup-7-3] INFO - CSClientInfo m:4 s:0 {
-  clientInfo: {
-    device: "desktop",
-    imei: "",
-    version: 1,
-    sessionId: "j1phfge4m6dt9ff0cq2jsl3a0h",
-    metadata: "",
-    zone: "classes"
-  }
-}
-2015-10-02 16:24:46,881 [nioEventLoopGroup-7-3] INFO - SCInitSession m:0 s:0 {
-  sessionStatus: 2
-}
-2015-10-02 16:24:46,881 [nioEventLoopGroup-7-3] ERROR - 
-java.lang.NullPointerException
-	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:176)
-	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
-	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
-	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
-	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
-	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
-	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
-	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
-	at java.lang.Thread.run(Thread.java:745)
-2015-10-02 16:24:46,881 [nioEventLoopGroup-7-3] INFO - ChannelClosed: [id: 0x4d3fe607, /127.0.0.1:51412 :> /127.0.0.1:33333]
-2015-10-02 16:24:51,888 [nioEventLoopGroup-7-4] INFO - Client connected!: [id: 0x3177f7fd, /127.0.0.1:51415 => /127.0.0.1:33333]
-2015-10-02 16:24:51,888 [nioEventLoopGroup-7-4] INFO - [id: 0x3177f7fd, /127.0.0.1:51415 => /127.0.0.1:33333]
-SCValidationCode m:0 s:0 {
-  validationCode: 0
-}
-2015-10-02 16:24:51,906 [nioEventLoopGroup-7-4] INFO - CSClientInfo m:5 s:0 {
-  clientInfo: {
-    device: "desktop",
-    imei: "",
-    version: 1,
-    sessionId: "j1phfge4m6dt9ff0cq2jsl3a0h",
-    metadata: "",
-    zone: "classes"
-  }
-}
-2015-10-02 16:24:51,907 [nioEventLoopGroup-7-4] INFO - SCInitSession m:0 s:0 {
-  sessionStatus: 2
-}
-2015-10-02 16:24:51,907 [nioEventLoopGroup-7-4] ERROR - 
-java.lang.NullPointerException
-	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:176)
-	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
-	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
-	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
-	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
-	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
-	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
-	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
-	at java.lang.Thread.run(Thread.java:745)
-2015-10-02 16:24:51,908 [nioEventLoopGroup-7-4] INFO - ChannelClosed: [id: 0x3177f7fd, /127.0.0.1:51415 :> /127.0.0.1:33333]
-2015-10-02 16:24:56,913 [nioEventLoopGroup-7-5] INFO - Client connected!: [id: 0x1fd5e7ae, /127.0.0.1:51417 => /127.0.0.1:33333]
-2015-10-02 16:24:56,913 [nioEventLoopGroup-7-5] INFO - [id: 0x1fd5e7ae, /127.0.0.1:51417 => /127.0.0.1:33333]
-SCValidationCode m:0 s:0 {
-  validationCode: 0
-}
-2015-10-02 16:24:56,932 [nioEventLoopGroup-7-5] INFO - CSClientInfo m:6 s:0 {
-  clientInfo: {
-    device: "desktop",
-    imei: "",
-    version: 1,
-    sessionId: "j1phfge4m6dt9ff0cq2jsl3a0h",
-    metadata: "",
-    zone: "classes"
-  }
-}
-2015-10-02 16:24:56,932 [nioEventLoopGroup-7-5] INFO - SCInitSession m:0 s:0 {
-  sessionStatus: 2
-}
-2015-10-02 16:24:56,932 [nioEventLoopGroup-7-5] ERROR - 
-java.lang.NullPointerException
-	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:176)
-	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
-	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
-	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
-	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
-	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
-	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
-	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
-	at java.lang.Thread.run(Thread.java:745)
-2015-10-02 16:24:56,933 [nioEventLoopGroup-7-5] INFO - ChannelClosed: [id: 0x1fd5e7ae, /127.0.0.1:51417 :> /127.0.0.1:33333]
-2015-10-02 16:27:01,707 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:27:01,707 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:27:01,715 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
-2015-10-02 16:27:01,718 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSName
-2015-10-02 16:27:01,719 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
-2015-10-02 16:27:02,149 [main] INFO - Telnet start at port 40000
-2015-10-02 16:27:02,149 [Thread-7] INFO - Socket start at port 33333
-2015-10-02 16:27:02,166 [Thread-8] INFO - WebSocket start at port 33332
-2015-10-02 16:27:09,567 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-2015-10-02 16:27:09,571 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCValidationCode m:0 s:0 {
-  validationCode: 0
-}
-2015-10-02 16:27:09,656 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
-  clientInfo: {
-    device: "desktop",
-    imei: "",
-    version: 1,
-    sessionId: "jrnv0t5t4nf91j47eblrk8hnip",
-    metadata: "",
-    zone: "classes"
-  }
-}
-2015-10-02 16:27:09,658 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+2015-10-09 15:10:13,591 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
   sessionStatus: 1
 }
-2015-10-02 16:27:11,740 [nioEventLoopGroup-7-1] INFO - CSName m:3 s:0 {
+2015-10-09 15:10:13,601 [nioEventLoopGroup-7-1] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:13,603 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378213602
+}
+2015-10-09 15:10:15,504 [nioEventLoopGroup-7-1] INFO - CSName m:3 s:0 {
   msg: "Q"
 }
-2015-10-02 16:27:13,924 [nioEventLoopGroup-7-1] INFO - CSChat m:4 s:0 {
+2015-10-09 15:10:18,432 [nioEventLoopGroup-7-1] INFO - CSChat m:4 s:0 {
   msg: "aaa"
 }
-2015-10-02 16:27:13,925 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@591fd34d
-2015-10-02 16:27:13,926 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+2015-10-09 15:10:18,434 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@1d4664d7
+2015-10-09 15:10:18,439 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
 SCChat m:4 s:1 {
-  msg: "16:27:13
+  msg: "15:10:18
 Q: aaa"
 }
-2015-10-02 16:27:13,986 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:27:13,986 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:27:18,379 [nioEventLoopGroup-7-1] INFO - CSChat m:6 s:0 {
-  msg: "bbb"
-}
-2015-10-02 16:27:18,379 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@591fd34d
-2015-10-02 16:27:18,380 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:6 s:2 {
-  msg: "16:27:18
-Q: bbb"
-}
-2015-10-02 16:27:18,380 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:27:18,381 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:27:28,803 [Thread-6] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
-2015-10-02 16:27:29,768 [nioEventLoopGroup-7-1] INFO - CSChat m:10 s:0 {
-  msg: "bbb"
-}
-2015-10-02 16:27:29,769 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@5cb997f7
-2015-10-02 16:27:29,769 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:10 s:3 {
-  msg: "16:27:29
-Q:1 bbb"
-}
-2015-10-02 16:27:29,770 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:27:29,770 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:27:33,816 [Thread-6] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
-2015-10-02 16:31:54,797 [nioEventLoopGroup-7-1] INFO - CSChat m:64 s:0 {
-  msg: "bbb"
-}
-2015-10-02 16:31:54,797 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:31:54,798 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:64 s:4 {
-  msg: "16:31:54
-Q: bbb"
-}
-2015-10-02 16:31:54,799 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:31:54,799 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:39:25,380 [nioEventLoopGroup-7-1] INFO - CSChat m:155 s:0 {
-  msg: "bbb"
-}
-2015-10-02 16:39:25,380 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:39:25,380 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:155 s:5 {
-  msg: "16:39:25
-Q: bbb"
-}
-2015-10-02 16:39:25,381 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:39:25,381 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:46:46,626 [nioEventLoopGroup-7-2] INFO - Client connected!: [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-2015-10-02 16:46:46,627 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCValidationCode m:0 s:0 {
-  validationCode: 0
-}
-2015-10-02 16:46:47,021 [nioEventLoopGroup-7-2] INFO - CSClientInfo m:1 s:0 {
-  clientInfo: {
-    device: "android",
-    imei: "",
-    version: 1,
-    sessionId: "43afehlqicust2ods1scrmjgvg",
-    metadata: "",
-    zone: "classes"
-  }
-}
-2015-10-02 16:46:47,021 [nioEventLoopGroup-7-2] INFO - SCInitSession m:0 s:0 {
-  sessionStatus: 1
-}
-2015-10-02 16:46:52,652 [nioEventLoopGroup-7-2] INFO - CSName m:3 s:0 {
-  msg: "Qu"
-}
-2015-10-02 16:46:55,824 [nioEventLoopGroup-7-2] INFO - CSChat m:5 s:0 {
-  msg: "f"
-}
-2015-10-02 16:46:55,824 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:46:55,825 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:155 s:6 {
-  msg: "16:46:55
-Qu: f"
-}
-2015-10-02 16:46:55,828 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:5 s:1 {
-  msg: "16:46:55
-Qu: f"
-}
-2015-10-02 16:46:55,829 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:46:55,829 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:54:36,511 [nioEventLoopGroup-7-1] INFO - CSChat m:338 s:0 {
-  msg: "bbb"
-}
-2015-10-02 16:54:36,511 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:54:36,511 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:7 {
-  msg: "16:54:36
-Q: bbb"
-}
-2015-10-02 16:54:36,512 [nioEventLoopGroup-7-1] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:5 s:2 {
-  msg: "16:54:36
-Q: bbb"
-}
-2015-10-02 16:54:36,512 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:54:36,513 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:54:47,359 [nioEventLoopGroup-7-2] INFO - CSChat m:100 s:0 {
-  msg: "dfhj"
-}
-2015-10-02 16:54:47,360 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:54:47,360 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:8 {
-  msg: "16:54:47
-Qu: dfhj"
-}
-2015-10-02 16:54:47,360 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:100 s:3 {
-  msg: "16:54:47
-Qu: dfhj"
-}
-2015-10-02 16:54:47,361 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:54:47,361 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:54:49,124 [nioEventLoopGroup-7-2] INFO - CSChat m:102 s:0 {
-  msg: "chjvfg"
-}
-2015-10-02 16:54:49,124 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:54:49,124 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:9 {
-  msg: "16:54:49
-Qu: chjvfg"
-}
-2015-10-02 16:54:49,124 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:102 s:4 {
-  msg: "16:54:49
-Qu: chjvfg"
-}
-2015-10-02 16:54:49,125 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:54:49,125 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:54:51,221 [nioEventLoopGroup-7-2] INFO - CSChat m:103 s:0 {
-  msg: "fhjfdf"
-}
-2015-10-02 16:54:51,221 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:54:51,221 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:10 {
-  msg: "16:54:51
-Qu: fhjfdf"
-}
-2015-10-02 16:54:51,221 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:103 s:5 {
-  msg: "16:54:51
-Qu: fhjfdf"
-}
-2015-10-02 16:54:51,222 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:54:51,222 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:54:53,012 [nioEventLoopGroup-7-2] INFO - CSChat m:104 s:0 {
-  msg: "cucuviviv"
-}
-2015-10-02 16:54:53,012 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:54:53,012 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:11 {
-  msg: "16:54:53
-Qu: cucuviviv"
-}
-2015-10-02 16:54:53,013 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:104 s:6 {
-  msg: "16:54:53
-Qu: cucuviviv"
-}
-2015-10-02 16:54:53,013 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:54:53,013 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:54:55,583 [nioEventLoopGroup-7-2] INFO - CSChat m:106 s:0 {
-  msg: "cufufydycobl"
-}
-2015-10-02 16:54:55,583 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:54:55,583 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:12 {
-  msg: "16:54:55
-Qu: cufufydycobl"
-}
-2015-10-02 16:54:55,583 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:106 s:7 {
-  msg: "16:54:55
-Qu: cufufydycobl"
-}
-2015-10-02 16:54:55,584 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:54:55,584 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:54:56,808 [nioEventLoopGroup-7-2] INFO - CSChat m:107 s:0 {
-  msg: "vkvkvkvi"
-}
-2015-10-02 16:54:56,808 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:54:56,809 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:13 {
-  msg: "16:54:56
-Qu: vkvkvkvi"
-}
-2015-10-02 16:54:56,809 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:107 s:8 {
-  msg: "16:54:56
-Qu: vkvkvkvi"
-}
-2015-10-02 16:54:56,809 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:54:56,809 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:54:58,027 [nioEventLoopGroup-7-2] INFO - CSChat m:108 s:0 {
-  msg: "cj jviv"
-}
-2015-10-02 16:54:58,027 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:54:58,028 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:14 {
-  msg: "16:54:58
-Qu: cj jviv"
-}
-2015-10-02 16:54:58,028 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:108 s:9 {
-  msg: "16:54:58
-Qu: cj jviv"
-}
-2015-10-02 16:54:58,028 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:54:58,028 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:54:59,165 [nioEventLoopGroup-7-2] INFO - CSChat m:110 s:0 {
-  msg: "cjvjvj"
-}
-2015-10-02 16:54:59,166 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:54:59,166 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:15 {
-  msg: "16:54:59
-Qu: cjvjvj"
-}
-2015-10-02 16:54:59,166 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:110 s:10 {
-  msg: "16:54:59
-Qu: cjvjvj"
-}
-2015-10-02 16:54:59,166 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:54:59,166 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:55:01,474 [nioEventLoopGroup-7-2] INFO - CSChat m:111 s:0 {
-  msg: "cj j uj jvjv"
-}
-2015-10-02 16:55:01,474 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:55:01,475 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:16 {
-  msg: "16:55:1
-Qu: cj j uj jvjv"
-}
-2015-10-02 16:55:01,475 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:111 s:11 {
-  msg: "16:55:1
-Qu: cj j uj jvjv"
-}
-2015-10-02 16:55:01,476 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:55:01,476 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:55:03,050 [nioEventLoopGroup-7-2] INFO - CSChat m:112 s:0 {
-  msg: "hgffh"
-}
-2015-10-02 16:55:03,050 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:55:03,051 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:17 {
-  msg: "16:55:3
-Qu: hgffh"
-}
-2015-10-02 16:55:03,051 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:112 s:12 {
-  msg: "16:55:3
-Qu: hgffh"
-}
-2015-10-02 16:55:03,051 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:55:03,051 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 16:55:12,464 [nioEventLoopGroup-7-2] INFO - CSChat m:115 s:0 {
-  msg: "jouytimnnuvjjucb cu iuxucjvf7td3qg kb9b"
-}
-2015-10-02 16:55:12,465 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 16:55:12,465 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:18 {
-  msg: "16:55:12
-Qu: jouytimnnuvjjucb cu iuxucjvf7td3qg kb9b"
-}
-2015-10-02 16:55:12,465 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:115 s:13 {
-  msg: "16:55:12
-Qu: jouytimnnuvjjucb cu iuxucjvf7td3qg kb9b"
-}
-2015-10-02 16:55:12,465 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 16:55:12,466 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 17:08:54,314 [nioEventLoopGroup-7-2] INFO - CSChat m:281 s:0 {
-  msg: "chjhdgjkgfg"
-}
-2015-10-02 17:08:54,315 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 17:08:54,315 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:19 {
-  msg: "17:8:54
-Qu: chjhdgjkgfg"
-}
-2015-10-02 17:08:54,316 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:281 s:14 {
-  msg: "17:8:54
-Qu: chjhdgjkgfg"
-}
-2015-10-02 17:08:54,316 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 17:08:54,316 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 17:10:45,949 [nioEventLoopGroup-7-2] INFO - CSChat m:304 s:0 {
-  msg: "qq"
-}
-2015-10-02 17:10:45,949 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 17:10:45,949 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:20 {
-  msg: "17:10:45
-Qu: qq"
-}
-2015-10-02 17:10:45,950 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:304 s:15 {
-  msg: "17:10:45
-Qu: qq"
-}
-2015-10-02 17:10:45,950 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 17:10:45,950 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 17:10:55,066 [nioEventLoopGroup-7-2] INFO - CSChat m:307 s:0 {
-  msg: "tttt"
-}
-2015-10-02 17:10:55,066 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 17:10:55,066 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:21 {
-  msg: "17:10:55
-Qu: tttt"
-}
-2015-10-02 17:10:55,066 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:307 s:16 {
-  msg: "17:10:55
-Qu: tttt"
-}
-2015-10-02 17:10:55,067 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 17:10:55,067 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 17:11:01,609 [nioEventLoopGroup-7-2] INFO - CSChat m:309 s:0 {
-  msg: "oiuytrewq"
-}
-2015-10-02 17:11:01,609 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
-2015-10-02 17:11:01,609 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
-SCChat m:338 s:22 {
-  msg: "17:11:1
-Qu: oiuytrewq"
-}
-2015-10-02 17:11:01,609 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
-SCChat m:309 s:17 {
-  msg: "17:11:1
-Qu: oiuytrewq"
-}
-2015-10-02 17:11:01,610 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 17:11:01,610 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
-2015-10-02 17:28:34,881 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
-2015-10-02 17:28:34,882 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@4b1c0397
-2015-10-02 17:28:34,891 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
-2015-10-02 17:28:34,893 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSName
-2015-10-02 17:28:34,894 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
-2015-10-02 17:28:35,445 [Thread-7] INFO - Socket start at port 33333
-2015-10-02 17:28:35,445 [main] INFO - Telnet start at port 40000
-2015-10-02 17:28:35,466 [Thread-8] INFO - WebSocket start at port 33332
-2015-10-02 17:28:36,581 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0x6f3179da, /192.168.8.129:52892 => /192.168.8.195:33333]
-2015-10-02 17:28:36,587 [nioEventLoopGroup-7-1] INFO - [id: 0x6f3179da, /192.168.8.129:52892 => /192.168.8.195:33333]
-SCValidationCode m:0 s:0 {
-  validationCode: 0
-}
-2015-10-02 17:28:37,030 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
-  clientInfo: {
-    device: "android",
-    imei: "359543054263369",
-    version: 1,
-    sessionId: "6tsk63anr5ic3eoi1f51gji5mq",
-    metadata: "",
-    zone: "classes"
-  }
-}
-2015-10-02 17:28:37,032 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
-  sessionStatus: 1
-}
-2015-10-02 17:29:13,095 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x6f3179da, /192.168.8.129:52892 :> /192.168.8.195:33333]
+2015-10-09 15:10:18,780 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-09 15:10:18,780 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@1dab9dd6
+2015-10-09 15:10:18,947 [nioEventLoopGroup-7-1] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:18,948 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378218947
+}
+2015-10-09 15:10:23,601 [nioEventLoopGroup-7-1] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:23,603 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378223602
+}
+2015-10-09 15:10:28,602 [nioEventLoopGroup-7-1] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:28,603 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378228603
+}
+2015-10-09 15:10:33,603 [nioEventLoopGroup-7-1] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:33,605 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378233604
+}
+2015-10-09 15:10:38,603 [nioEventLoopGroup-7-1] INFO - CSPing m:9 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:38,604 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378238604
+}
+2015-10-09 15:10:43,605 [nioEventLoopGroup-7-1] INFO - CSPing m:10 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:43,607 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378243607
+}
+2015-10-09 15:10:48,606 [nioEventLoopGroup-7-1] INFO - CSPing m:11 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:48,607 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378248607
+}
+2015-10-09 15:10:53,607 [nioEventLoopGroup-7-1] INFO - CSPing m:12 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:53,609 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378253608
+}
+2015-10-09 15:10:58,608 [nioEventLoopGroup-7-1] INFO - CSPing m:13 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:10:58,610 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378258609
+}
+2015-10-09 15:11:03,609 [nioEventLoopGroup-7-1] INFO - CSPing m:14 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:03,611 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378263610
+}
+2015-10-09 15:11:08,610 [nioEventLoopGroup-7-1] INFO - CSPing m:15 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:08,611 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378268611
+}
+2015-10-09 15:11:13,612 [nioEventLoopGroup-7-1] INFO - CSPing m:16 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:13,614 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378273614
+}
+2015-10-09 15:11:18,613 [nioEventLoopGroup-7-1] INFO - CSPing m:17 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:18,614 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378278613
+}
+2015-10-09 15:11:23,618 [nioEventLoopGroup-7-1] INFO - CSPing m:18 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:23,620 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378283619
+}
+2015-10-09 15:11:28,615 [nioEventLoopGroup-7-1] INFO - CSPing m:19 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:28,618 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378288617
+}
+2015-10-09 15:11:33,616 [nioEventLoopGroup-7-1] INFO - CSPing m:20 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:33,618 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378293617
+}
+2015-10-09 15:11:38,618 [nioEventLoopGroup-7-1] INFO - CSPing m:21 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:38,619 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378298619
+}
+2015-10-09 15:11:43,619 [nioEventLoopGroup-7-1] INFO - CSPing m:22 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:43,620 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378303620
+}
+2015-10-09 15:11:48,620 [nioEventLoopGroup-7-1] INFO - CSPing m:23 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:48,622 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378308621
+}
+2015-10-09 15:11:53,621 [nioEventLoopGroup-7-1] INFO - CSPing m:24 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:53,623 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378313622
+}
+2015-10-09 15:11:58,622 [nioEventLoopGroup-7-1] INFO - CSPing m:25 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:11:58,623 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378318623
+}
+2015-10-09 15:12:03,623 [nioEventLoopGroup-7-1] INFO - CSPing m:26 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:03,626 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378323625
+}
+2015-10-09 15:12:08,625 [nioEventLoopGroup-7-1] INFO - CSPing m:27 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:08,626 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378328626
+}
+2015-10-09 15:12:13,626 [nioEventLoopGroup-7-1] INFO - CSPing m:28 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:13,628 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378333628
+}
+2015-10-09 15:12:18,627 [nioEventLoopGroup-7-1] INFO - CSPing m:29 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:18,628 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378338627
+}
+2015-10-09 15:12:23,627 [nioEventLoopGroup-7-1] INFO - CSPing m:30 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:23,629 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378343629
+}
+2015-10-09 15:12:28,628 [nioEventLoopGroup-7-1] INFO - CSPing m:31 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:28,630 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378348629
+}
+2015-10-09 15:12:33,629 [nioEventLoopGroup-7-1] INFO - CSPing m:32 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:12:33,631 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378353630
+}
+2015-10-09 15:12:54,347 [nioEventLoopGroup-7-1] INFO - CSPing m:33 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:11,023 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378511022
+}
+2015-10-09 15:15:15,971 [nioEventLoopGroup-7-1] INFO - CSPing m:34 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:15,972 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378515972
+}
+2015-10-09 15:15:20,972 [nioEventLoopGroup-7-1] INFO - CSPing m:35 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:20,974 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378520973
+}
+2015-10-09 15:15:25,972 [nioEventLoopGroup-7-1] INFO - CSPing m:36 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:25,973 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378525973
+}
+2015-10-09 15:15:30,973 [nioEventLoopGroup-7-1] INFO - CSPing m:37 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:30,974 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378530973
+}
+2015-10-09 15:15:35,973 [nioEventLoopGroup-7-1] INFO - CSPing m:38 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:35,975 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378535974
+}
+2015-10-09 15:15:40,975 [nioEventLoopGroup-7-1] INFO - CSPing m:39 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:40,977 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378540976
+}
+2015-10-09 15:15:45,975 [nioEventLoopGroup-7-1] INFO - CSPing m:40 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:45,976 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378545976
+}
+2015-10-09 15:15:50,977 [nioEventLoopGroup-7-1] INFO - CSPing m:41 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:50,979 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378550979
+}
+2015-10-09 15:15:55,978 [nioEventLoopGroup-7-1] INFO - CSPing m:42 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:15:55,979 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378555979
+}
+2015-10-09 15:16:00,978 [nioEventLoopGroup-7-1] INFO - CSPing m:43 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:16:00,979 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378560979
+}
+2015-10-09 15:16:05,979 [nioEventLoopGroup-7-1] INFO - CSPing m:44 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:16:05,981 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378565981
+}
+2015-10-09 15:16:10,980 [nioEventLoopGroup-7-1] INFO - CSPing m:45 s:0 {
+  clientTime: 0
+}
+2015-10-09 15:16:10,982 [nioEventLoopGroup-7-1] INFO - [id: 0xadbf61d5, /127.0.0.1:59892 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444378570981
+}
+2015-10-09 15:16:11,795 [nioEventLoopGroup-7-1] INFO - channelInactive!: [id: 0xadbf61d5, /127.0.0.1:59892 :> /127.0.0.1:33333]
+2015-10-09 15:16:11,795 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0xadbf61d5, /127.0.0.1:59892 :> /127.0.0.1:33333]
+2015-10-09 15:16:11,796 [nioEventLoopGroup-7-1] INFO - onChannelClose
+2015-10-09 15:16:11,796 [nioEventLoopGroup-7-1] INFO - Channel exceptionCaught
+2015-10-09 15:16:11,796 [nioEventLoopGroup-7-1] INFO - Channel unregistered
+2015-10-09 15:18:12,667 [Thread-9] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
+2015-10-09 15:18:12,673 [Thread-9] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSName
+2015-10-09 15:21:11,308 [Thread-0] INFO - onTimeout
+2015-10-09 15:25:49,638 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:25:49,644 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-09 15:26:13,041 [Thread-9] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
+2015-10-09 15:26:26,265 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:26:27,296 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-09 15:26:37,477 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:27:22,338 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:27:33,569 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:27:39,700 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:28:36,900 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-09 15:28:36,905 [Thread-9] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName

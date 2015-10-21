@@ -1,0 +1,612 @@
+2015-10-02 16:24:00,760 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:24:00,760 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@6090f3ca
+2015-10-02 16:24:00,765 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
+2015-10-02 16:24:00,767 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSName
+2015-10-02 16:24:00,768 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
+2015-10-02 16:24:01,100 [main] INFO - Telnet start at port 40000
+2015-10-02 16:24:01,100 [Thread-9] INFO - Socket start at port 33333
+2015-10-02 16:24:01,114 [Thread-10] INFO - WebSocket start at port 33332
+2015-10-02 16:24:36,725 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0x7bb30b0c, /127.0.0.1:51408 => /127.0.0.1:33333]
+2015-10-02 16:24:36,734 [nioEventLoopGroup-7-1] INFO - [id: 0x7bb30b0c, /127.0.0.1:51408 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-02 16:24:36,818 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "j1phfge4m6dt9ff0cq2jsl3a0h",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-02 16:24:36,821 [nioEventLoopGroup-7-1] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.createSession(BFSessionManager.java:62)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:168)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-02 16:24:36,822 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x7bb30b0c, /127.0.0.1:51408 :> /127.0.0.1:33333]
+2015-10-02 16:24:41,829 [nioEventLoopGroup-7-2] INFO - Client connected!: [id: 0x794ed80a, /127.0.0.1:51411 => /127.0.0.1:33333]
+2015-10-02 16:24:41,830 [nioEventLoopGroup-7-2] INFO - [id: 0x794ed80a, /127.0.0.1:51411 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-02 16:24:41,851 [nioEventLoopGroup-7-2] INFO - CSClientInfo m:3 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "j1phfge4m6dt9ff0cq2jsl3a0h",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-02 16:24:41,851 [nioEventLoopGroup-7-2] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 2
+}
+2015-10-02 16:24:41,852 [nioEventLoopGroup-7-2] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:176)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-02 16:24:41,852 [nioEventLoopGroup-7-2] INFO - ChannelClosed: [id: 0x794ed80a, /127.0.0.1:51411 :> /127.0.0.1:33333]
+2015-10-02 16:24:46,860 [nioEventLoopGroup-7-3] INFO - Client connected!: [id: 0x4d3fe607, /127.0.0.1:51412 => /127.0.0.1:33333]
+2015-10-02 16:24:46,860 [nioEventLoopGroup-7-3] INFO - [id: 0x4d3fe607, /127.0.0.1:51412 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-02 16:24:46,880 [nioEventLoopGroup-7-3] INFO - CSClientInfo m:4 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "j1phfge4m6dt9ff0cq2jsl3a0h",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-02 16:24:46,881 [nioEventLoopGroup-7-3] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 2
+}
+2015-10-02 16:24:46,881 [nioEventLoopGroup-7-3] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:176)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-02 16:24:46,881 [nioEventLoopGroup-7-3] INFO - ChannelClosed: [id: 0x4d3fe607, /127.0.0.1:51412 :> /127.0.0.1:33333]
+2015-10-02 16:24:51,888 [nioEventLoopGroup-7-4] INFO - Client connected!: [id: 0x3177f7fd, /127.0.0.1:51415 => /127.0.0.1:33333]
+2015-10-02 16:24:51,888 [nioEventLoopGroup-7-4] INFO - [id: 0x3177f7fd, /127.0.0.1:51415 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-02 16:24:51,906 [nioEventLoopGroup-7-4] INFO - CSClientInfo m:5 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "j1phfge4m6dt9ff0cq2jsl3a0h",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-02 16:24:51,907 [nioEventLoopGroup-7-4] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 2
+}
+2015-10-02 16:24:51,907 [nioEventLoopGroup-7-4] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:176)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-02 16:24:51,908 [nioEventLoopGroup-7-4] INFO - ChannelClosed: [id: 0x3177f7fd, /127.0.0.1:51415 :> /127.0.0.1:33333]
+2015-10-02 16:24:56,913 [nioEventLoopGroup-7-5] INFO - Client connected!: [id: 0x1fd5e7ae, /127.0.0.1:51417 => /127.0.0.1:33333]
+2015-10-02 16:24:56,913 [nioEventLoopGroup-7-5] INFO - [id: 0x1fd5e7ae, /127.0.0.1:51417 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-02 16:24:56,932 [nioEventLoopGroup-7-5] INFO - CSClientInfo m:6 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "j1phfge4m6dt9ff0cq2jsl3a0h",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-02 16:24:56,932 [nioEventLoopGroup-7-5] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 2
+}
+2015-10-02 16:24:56,932 [nioEventLoopGroup-7-5] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:176)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-02 16:24:56,933 [nioEventLoopGroup-7-5] INFO - ChannelClosed: [id: 0x1fd5e7ae, /127.0.0.1:51417 :> /127.0.0.1:33333]
+2015-10-02 16:27:01,707 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:27:01,707 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:27:01,715 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
+2015-10-02 16:27:01,718 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSName
+2015-10-02 16:27:01,719 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
+2015-10-02 16:27:02,149 [main] INFO - Telnet start at port 40000
+2015-10-02 16:27:02,149 [Thread-7] INFO - Socket start at port 33333
+2015-10-02 16:27:02,166 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-02 16:27:09,567 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+2015-10-02 16:27:09,571 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-02 16:27:09,656 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "jrnv0t5t4nf91j47eblrk8hnip",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-02 16:27:09,658 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-02 16:27:11,740 [nioEventLoopGroup-7-1] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-10-02 16:27:13,924 [nioEventLoopGroup-7-1] INFO - CSChat m:4 s:0 {
+  msg: "aaa"
+}
+2015-10-02 16:27:13,925 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@591fd34d
+2015-10-02 16:27:13,926 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:4 s:1 {
+  msg: "16:27:13
+Q: aaa"
+}
+2015-10-02 16:27:13,986 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:27:13,986 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:27:18,379 [nioEventLoopGroup-7-1] INFO - CSChat m:6 s:0 {
+  msg: "bbb"
+}
+2015-10-02 16:27:18,379 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@591fd34d
+2015-10-02 16:27:18,380 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:6 s:2 {
+  msg: "16:27:18
+Q: bbb"
+}
+2015-10-02 16:27:18,380 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:27:18,381 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:27:28,803 [Thread-6] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
+2015-10-02 16:27:29,768 [nioEventLoopGroup-7-1] INFO - CSChat m:10 s:0 {
+  msg: "bbb"
+}
+2015-10-02 16:27:29,769 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@5cb997f7
+2015-10-02 16:27:29,769 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:10 s:3 {
+  msg: "16:27:29
+Q:1 bbb"
+}
+2015-10-02 16:27:29,770 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:27:29,770 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:27:33,816 [Thread-6] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
+2015-10-02 16:31:54,797 [nioEventLoopGroup-7-1] INFO - CSChat m:64 s:0 {
+  msg: "bbb"
+}
+2015-10-02 16:31:54,797 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:31:54,798 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:64 s:4 {
+  msg: "16:31:54
+Q: bbb"
+}
+2015-10-02 16:31:54,799 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:31:54,799 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:39:25,380 [nioEventLoopGroup-7-1] INFO - CSChat m:155 s:0 {
+  msg: "bbb"
+}
+2015-10-02 16:39:25,380 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:39:25,380 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:155 s:5 {
+  msg: "16:39:25
+Q: bbb"
+}
+2015-10-02 16:39:25,381 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:39:25,381 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:46:46,626 [nioEventLoopGroup-7-2] INFO - Client connected!: [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+2015-10-02 16:46:46,627 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-02 16:46:47,021 [nioEventLoopGroup-7-2] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "",
+    version: 1,
+    sessionId: "43afehlqicust2ods1scrmjgvg",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-02 16:46:47,021 [nioEventLoopGroup-7-2] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-02 16:46:52,652 [nioEventLoopGroup-7-2] INFO - CSName m:3 s:0 {
+  msg: "Qu"
+}
+2015-10-02 16:46:55,824 [nioEventLoopGroup-7-2] INFO - CSChat m:5 s:0 {
+  msg: "f"
+}
+2015-10-02 16:46:55,824 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:46:55,825 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:155 s:6 {
+  msg: "16:46:55
+Qu: f"
+}
+2015-10-02 16:46:55,828 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:5 s:1 {
+  msg: "16:46:55
+Qu: f"
+}
+2015-10-02 16:46:55,829 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:46:55,829 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:54:36,511 [nioEventLoopGroup-7-1] INFO - CSChat m:338 s:0 {
+  msg: "bbb"
+}
+2015-10-02 16:54:36,511 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:54:36,511 [nioEventLoopGroup-7-1] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:7 {
+  msg: "16:54:36
+Q: bbb"
+}
+2015-10-02 16:54:36,512 [nioEventLoopGroup-7-1] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:5 s:2 {
+  msg: "16:54:36
+Q: bbb"
+}
+2015-10-02 16:54:36,512 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:54:36,513 [nioEventLoopGroup-7-1] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:54:47,359 [nioEventLoopGroup-7-2] INFO - CSChat m:100 s:0 {
+  msg: "dfhj"
+}
+2015-10-02 16:54:47,360 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:54:47,360 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:8 {
+  msg: "16:54:47
+Qu: dfhj"
+}
+2015-10-02 16:54:47,360 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:100 s:3 {
+  msg: "16:54:47
+Qu: dfhj"
+}
+2015-10-02 16:54:47,361 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:54:47,361 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:54:49,124 [nioEventLoopGroup-7-2] INFO - CSChat m:102 s:0 {
+  msg: "chjvfg"
+}
+2015-10-02 16:54:49,124 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:54:49,124 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:9 {
+  msg: "16:54:49
+Qu: chjvfg"
+}
+2015-10-02 16:54:49,124 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:102 s:4 {
+  msg: "16:54:49
+Qu: chjvfg"
+}
+2015-10-02 16:54:49,125 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:54:49,125 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:54:51,221 [nioEventLoopGroup-7-2] INFO - CSChat m:103 s:0 {
+  msg: "fhjfdf"
+}
+2015-10-02 16:54:51,221 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:54:51,221 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:10 {
+  msg: "16:54:51
+Qu: fhjfdf"
+}
+2015-10-02 16:54:51,221 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:103 s:5 {
+  msg: "16:54:51
+Qu: fhjfdf"
+}
+2015-10-02 16:54:51,222 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:54:51,222 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:54:53,012 [nioEventLoopGroup-7-2] INFO - CSChat m:104 s:0 {
+  msg: "cucuviviv"
+}
+2015-10-02 16:54:53,012 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:54:53,012 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:11 {
+  msg: "16:54:53
+Qu: cucuviviv"
+}
+2015-10-02 16:54:53,013 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:104 s:6 {
+  msg: "16:54:53
+Qu: cucuviviv"
+}
+2015-10-02 16:54:53,013 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:54:53,013 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:54:55,583 [nioEventLoopGroup-7-2] INFO - CSChat m:106 s:0 {
+  msg: "cufufydycobl"
+}
+2015-10-02 16:54:55,583 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:54:55,583 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:12 {
+  msg: "16:54:55
+Qu: cufufydycobl"
+}
+2015-10-02 16:54:55,583 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:106 s:7 {
+  msg: "16:54:55
+Qu: cufufydycobl"
+}
+2015-10-02 16:54:55,584 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:54:55,584 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:54:56,808 [nioEventLoopGroup-7-2] INFO - CSChat m:107 s:0 {
+  msg: "vkvkvkvi"
+}
+2015-10-02 16:54:56,808 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:54:56,809 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:13 {
+  msg: "16:54:56
+Qu: vkvkvkvi"
+}
+2015-10-02 16:54:56,809 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:107 s:8 {
+  msg: "16:54:56
+Qu: vkvkvkvi"
+}
+2015-10-02 16:54:56,809 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:54:56,809 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:54:58,027 [nioEventLoopGroup-7-2] INFO - CSChat m:108 s:0 {
+  msg: "cj jviv"
+}
+2015-10-02 16:54:58,027 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:54:58,028 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:14 {
+  msg: "16:54:58
+Qu: cj jviv"
+}
+2015-10-02 16:54:58,028 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:108 s:9 {
+  msg: "16:54:58
+Qu: cj jviv"
+}
+2015-10-02 16:54:58,028 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:54:58,028 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:54:59,165 [nioEventLoopGroup-7-2] INFO - CSChat m:110 s:0 {
+  msg: "cjvjvj"
+}
+2015-10-02 16:54:59,166 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:54:59,166 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:15 {
+  msg: "16:54:59
+Qu: cjvjvj"
+}
+2015-10-02 16:54:59,166 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:110 s:10 {
+  msg: "16:54:59
+Qu: cjvjvj"
+}
+2015-10-02 16:54:59,166 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:54:59,166 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:55:01,474 [nioEventLoopGroup-7-2] INFO - CSChat m:111 s:0 {
+  msg: "cj j uj jvjv"
+}
+2015-10-02 16:55:01,474 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:55:01,475 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:16 {
+  msg: "16:55:1
+Qu: cj j uj jvjv"
+}
+2015-10-02 16:55:01,475 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:111 s:11 {
+  msg: "16:55:1
+Qu: cj j uj jvjv"
+}
+2015-10-02 16:55:01,476 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:55:01,476 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:55:03,050 [nioEventLoopGroup-7-2] INFO - CSChat m:112 s:0 {
+  msg: "hgffh"
+}
+2015-10-02 16:55:03,050 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:55:03,051 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:17 {
+  msg: "16:55:3
+Qu: hgffh"
+}
+2015-10-02 16:55:03,051 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:112 s:12 {
+  msg: "16:55:3
+Qu: hgffh"
+}
+2015-10-02 16:55:03,051 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:55:03,051 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 16:55:12,464 [nioEventLoopGroup-7-2] INFO - CSChat m:115 s:0 {
+  msg: "jouytimnnuvjjucb cu iuxucjvf7td3qg kb9b"
+}
+2015-10-02 16:55:12,465 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 16:55:12,465 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:18 {
+  msg: "16:55:12
+Qu: jouytimnnuvjjucb cu iuxucjvf7td3qg kb9b"
+}
+2015-10-02 16:55:12,465 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:115 s:13 {
+  msg: "16:55:12
+Qu: jouytimnnuvjjucb cu iuxucjvf7td3qg kb9b"
+}
+2015-10-02 16:55:12,465 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 16:55:12,466 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 17:08:54,314 [nioEventLoopGroup-7-2] INFO - CSChat m:281 s:0 {
+  msg: "chjhdgjkgfg"
+}
+2015-10-02 17:08:54,315 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 17:08:54,315 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:19 {
+  msg: "17:8:54
+Qu: chjhdgjkgfg"
+}
+2015-10-02 17:08:54,316 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:281 s:14 {
+  msg: "17:8:54
+Qu: chjhdgjkgfg"
+}
+2015-10-02 17:08:54,316 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 17:08:54,316 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 17:10:45,949 [nioEventLoopGroup-7-2] INFO - CSChat m:304 s:0 {
+  msg: "qq"
+}
+2015-10-02 17:10:45,949 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 17:10:45,949 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:20 {
+  msg: "17:10:45
+Qu: qq"
+}
+2015-10-02 17:10:45,950 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:304 s:15 {
+  msg: "17:10:45
+Qu: qq"
+}
+2015-10-02 17:10:45,950 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 17:10:45,950 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 17:10:55,066 [nioEventLoopGroup-7-2] INFO - CSChat m:307 s:0 {
+  msg: "tttt"
+}
+2015-10-02 17:10:55,066 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 17:10:55,066 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:21 {
+  msg: "17:10:55
+Qu: tttt"
+}
+2015-10-02 17:10:55,066 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:307 s:16 {
+  msg: "17:10:55
+Qu: tttt"
+}
+2015-10-02 17:10:55,067 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 17:10:55,067 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 17:11:01,609 [nioEventLoopGroup-7-2] INFO - CSChat m:309 s:0 {
+  msg: "oiuytrewq"
+}
+2015-10-02 17:11:01,609 [nioEventLoopGroup-7-2] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoader@28e8cfb7
+2015-10-02 17:11:01,609 [nioEventLoopGroup-7-2] INFO - [id: 0xc4a6016f, /127.0.0.1:51507 => /127.0.0.1:33333]
+SCChat m:338 s:22 {
+  msg: "17:11:1
+Qu: oiuytrewq"
+}
+2015-10-02 17:11:01,609 [nioEventLoopGroup-7-2] INFO - [id: 0x43acd545, /192.168.8.129:35790 => /192.168.8.195:33333]
+SCChat m:309 s:17 {
+  msg: "17:11:1
+Qu: oiuytrewq"
+}
+2015-10-02 17:11:01,610 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 17:11:01,610 [nioEventLoopGroup-7-2] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-02 17:28:34,881 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-02 17:28:34,882 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@4b1c0397
+2015-10-02 17:28:34,891 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSChat
+2015-10-02 17:28:34,893 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.cs.CSName
+2015-10-02 17:28:34,894 [main] INFO - define class vn.com.onesoft.bigfox.server.io.message.user.sc.SCChat
+2015-10-02 17:28:35,445 [Thread-7] INFO - Socket start at port 33333
+2015-10-02 17:28:35,445 [main] INFO - Telnet start at port 40000
+2015-10-02 17:28:35,466 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-02 17:28:36,581 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0x6f3179da, /192.168.8.129:52892 => /192.168.8.195:33333]
+2015-10-02 17:28:36,587 [nioEventLoopGroup-7-1] INFO - [id: 0x6f3179da, /192.168.8.129:52892 => /192.168.8.195:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-02 17:28:37,030 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "android",
+    imei: "359543054263369",
+    version: 1,
+    sessionId: "6tsk63anr5ic3eoi1f51gji5mq",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-02 17:28:37,032 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-02 17:29:13,095 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x6f3179da, /192.168.8.129:52892 :> /192.168.8.195:33333]

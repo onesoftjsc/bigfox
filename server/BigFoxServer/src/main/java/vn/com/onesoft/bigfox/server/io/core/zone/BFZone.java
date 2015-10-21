@@ -29,11 +29,12 @@ public class BFZone implements IBFZone {
 
     private Map<Channel, IBFSession> mapChannelToSession = new MapMaker().makeMap();
     protected Map<Integer, MessageIn> mapTagToUserMessage = new MapMaker().concurrencyLevel(4).makeMap();
-    private BFClassLoader zoneCL;
+    private BFClassLoaderZone zoneCL;
     private String absolutePath;
     private String simpleName;
     private Map<String, String> mapFileNameToChecksum = new MapMaker().makeMap();
-
+    private BFZoneActivity activity;
+    
     private BFZone() {
 
     }
@@ -48,30 +49,28 @@ public class BFZone implements IBFZone {
             }
         }
         this.simpleName = absolutePath.substring(k + 1);
-        zoneCL = new BFClassLoader(BFClassLoader.class.getClassLoader());
+        zoneCL = new BFClassLoaderZone(BFClassLoaderZone.class.getClassLoader());
     }
 
+    @Override
     public void addSession(IBFSession session) {
         mapChannelToSession.put(session.getChannel(), session);
     }
 
-    public void restartZone() {
-
-    }
-
     @Override
     public void start() {
-
+        getActivity().onZoneStart(this);
     }
 
     @Override
     public void stop() {
-
+        getActivity().onZoneStop(this);
     }
 
     @Override
     public void restart() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        getActivity().onZoneStart(this);
+        getActivity().onZoneStop(this);
     }
 
     @Override
@@ -80,7 +79,7 @@ public class BFZone implements IBFZone {
     }
 
     @Override
-    public BFClassLoader getClassLoader() {
+    public BFClassLoaderZone getClassLoader() {
         return zoneCL;
     }
 
@@ -106,6 +105,11 @@ public class BFZone implements IBFZone {
                 mapTagToUserMessage.put(m.tag(), mess);
             }
         }
+    }
+    
+    @Override
+    public void loadZoneLibs() throws Exception {
+        loadFolderLib(absolutePath);
     }
 
     @Override
@@ -162,7 +166,7 @@ public class BFZone implements IBFZone {
 
     @Override
     public void reloadFilesChanged() throws Exception {
-        BFClassLoader cl = new BFClassLoader(zoneCL);
+        BFClassLoaderZone cl = new BFClassLoaderZone(zoneCL);
         ArrayList<File> changedFiles = listFileChanged(absolutePath);
         ArrayList<File> addedFiles = listFileAdded(absolutePath);
         for (File changedFile : changedFiles) {
@@ -184,7 +188,7 @@ public class BFZone implements IBFZone {
         }
     }
 
-    private void loadFile(String filePath, BFClassLoader cl) throws IOException, FileNotFoundException, NoSuchAlgorithmException {
+    private void loadFile(String filePath, BFClassLoaderZone cl) throws IOException, FileNotFoundException, NoSuchAlgorithmException {
         if (filePath.contains("CS") || filePath.contains("SC")) {
             cl.loadFile(filePath);
             mapFileNameToChecksum.put(filePath, BFUtils.checksum(new File(filePath)));
@@ -203,6 +207,24 @@ public class BFZone implements IBFZone {
                 loadFolder(file.getAbsolutePath());
             }
         }
+    }
+
+    /**
+     * @return the activity
+     */
+    public BFZoneActivity getActivity() {
+        return activity;
+    }
+
+    /**
+     * @param activity the activity to set
+     */
+    private void setActivity(BFZoneActivity activity) {
+        this.activity = activity;
+    }
+
+    private void loadFolderLib(String absolutePath) {
+        
     }
 
 }

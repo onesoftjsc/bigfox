@@ -1,0 +1,101 @@
+2015-10-09 17:50:20,143 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x27e7ae31, /127.0.0.1:49167 => localhost/127.0.0.1:33333]
+2015-10-09 17:50:20,260 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-10-09 17:50:20,261 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-10-09 17:50:20,282 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-09 17:50:20,286 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "2js8m4pnobvilhl8l3697ab8f8",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-09 17:50:20,330 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-10-09 17:50:54,589 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0x27e7ae31, /127.0.0.1:49167 :> localhost/127.0.0.1:33333]
+2015-10-09 17:50:54,592 [Thread-2] INFO - CSGetTime {
+
+}
+2015-10-09 17:50:59,593 [Thread-2] INFO - CSGetTime {
+
+}
+2015-10-09 17:50:59,595 [nioEventLoopGroup-2-1] ERROR - Connection refused: localhost/127.0.0.1:33333
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:33333
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:712)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:527)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-09 17:51:02,546 [nioEventLoopGroup-2-1] DEBUG - Freed 7 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2015-10-09 17:51:04,595 [Thread-2] INFO - CSGetTime {
+
+}
+2015-10-09 17:51:42,031 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x023a8c11, /127.0.0.1:49212 => localhost/127.0.0.1:33333]
+2015-10-09 17:51:42,149 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-10-09 17:51:42,150 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-10-09 17:51:42,192 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-09 17:51:42,199 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "g1evfgksdliueuncal8m9uat0k",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-09 17:51:42,252 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-10-09 17:52:04,690 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x835c50ad, /127.0.0.1:49219 => localhost/127.0.0.1:33333]
+2015-10-09 17:52:04,709 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-10-09 17:52:04,711 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-10-09 17:52:04,742 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-09 17:52:04,747 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "tmicpt87ntpmv8fqu3q9bc4i76",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-09 17:52:04,758 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-10-09 17:53:05,043 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x5a4cdb7a, /127.0.0.1:49248 => localhost/127.0.0.1:33333]
+2015-10-09 17:53:05,061 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-10-09 17:53:05,064 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-10-09 17:53:05,105 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-09 17:53:05,132 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "udg3adg5a4v7a7p4ku70qidpve",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-09 17:53:05,168 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-10-09 17:53:39,273 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0x023a8c11, /127.0.0.1:49212 :> localhost/127.0.0.1:33333]

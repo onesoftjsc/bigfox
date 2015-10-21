@@ -11,7 +11,7 @@
             <artifactId>BigFoxServer</artifactId>
             <version>${project.version}</version>
         </dependency>
-<dependency>
+        <dependency>
             <groupId>org.reflections</groupId>
             <artifactId>reflections</artifactId>
             <version>0.9.5</version>

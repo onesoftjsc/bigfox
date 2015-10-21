@@ -1,0 +1,462 @@
+2015-10-09 17:48:53,979 [main] INFO - define class vn.com.onesoft.time.server.io.message.user.cs.CSGetTime
+2015-10-09 17:48:54,003 [main] INFO - define class vn.com.onesoft.time.server.io.message.user.sc.SCGetTime
+2015-10-09 17:48:55,184 [main] INFO - Telnet start at port 40000
+2015-10-09 17:48:55,185 [Thread-3] INFO - Socket start at port 33333
+2015-10-09 17:48:55,279 [Thread-4] INFO - WebSocket start at port 33332
+2015-10-09 17:48:55,420 [main] ERROR - Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:414)
+	at sun.nio.ch.Net.bind(Net.java:406)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:522)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1196)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeBindNow(ChannelHandlerInvokerUtil.java:108)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeBind(DefaultChannelHandlerInvoker.java:214)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:208)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:1003)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:216)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-09 17:49:06,205 [main] INFO - define class vn.com.onesoft.time.server.io.message.user.cs.CSGetTime
+2015-10-09 17:49:06,227 [main] INFO - define class vn.com.onesoft.time.server.io.message.user.sc.SCGetTime
+2015-10-09 17:49:07,038 [Thread-3] INFO - Socket start at port 33333
+2015-10-09 17:49:07,039 [main] INFO - Telnet start at port 40000
+2015-10-09 17:49:07,130 [Thread-4] INFO - WebSocket start at port 33332
+2015-10-09 17:50:20,116 [nioEventLoopGroup-5-1] INFO - channelActive : [id: 0x12d960d6, /127.0.0.1:49167 => /127.0.0.1:33333]
+2015-10-09 17:50:20,140 [nioEventLoopGroup-5-1] INFO - [id: 0x12d960d6, /127.0.0.1:49167 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-09 17:50:20,319 [nioEventLoopGroup-5-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "2js8m4pnobvilhl8l3697ab8f8",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-09 17:50:20,326 [nioEventLoopGroup-5-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-09 17:50:20,338 [nioEventLoopGroup-5-1] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:50:20,340 [nioEventLoopGroup-5-1] INFO - [id: 0x12d960d6, /127.0.0.1:49167 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387820338
+}
+2015-10-09 17:50:25,336 [nioEventLoopGroup-5-1] INFO - CSPing m:3 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:50:25,338 [nioEventLoopGroup-5-1] INFO - [id: 0x12d960d6, /127.0.0.1:49167 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387825337
+}
+2015-10-09 17:50:30,337 [nioEventLoopGroup-5-1] INFO - CSPing m:4 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:50:30,338 [nioEventLoopGroup-5-1] INFO - [id: 0x12d960d6, /127.0.0.1:49167 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387830338
+}
+2015-10-09 17:50:35,339 [nioEventLoopGroup-5-1] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:50:35,340 [nioEventLoopGroup-5-1] INFO - [id: 0x12d960d6, /127.0.0.1:49167 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387835340
+}
+2015-10-09 17:50:40,339 [nioEventLoopGroup-5-1] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:50:40,340 [nioEventLoopGroup-5-1] INFO - [id: 0x12d960d6, /127.0.0.1:49167 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387840340
+}
+2015-10-09 17:50:45,340 [nioEventLoopGroup-5-1] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:50:45,342 [nioEventLoopGroup-5-1] INFO - [id: 0x12d960d6, /127.0.0.1:49167 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387845342
+}
+2015-10-09 17:50:50,342 [nioEventLoopGroup-5-1] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:50:50,344 [nioEventLoopGroup-5-1] INFO - [id: 0x12d960d6, /127.0.0.1:49167 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387850343
+}
+2015-10-09 17:51:11,571 [main] INFO - define class vn.com.onesoft.time.server.io.message.user.cs.CSGetTime
+2015-10-09 17:51:11,584 [main] INFO - define class vn.com.onesoft.time.server.io.message.user.sc.SCGetTime
+2015-10-09 17:51:12,561 [Thread-3] INFO - Socket start at port 33333
+2015-10-09 17:51:12,561 [main] INFO - Telnet start at port 40000
+2015-10-09 17:51:12,680 [Thread-4] INFO - WebSocket start at port 33332
+2015-10-09 17:51:41,972 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+2015-10-09 17:51:42,005 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-09 17:51:42,242 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "g1evfgksdliueuncal8m9uat0k",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-09 17:51:42,248 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-09 17:51:42,263 [nioEventLoopGroup-7-1] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:51:42,270 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387902267
+}
+2015-10-09 17:51:47,260 [nioEventLoopGroup-7-1] INFO - CSPing m:3 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:51:47,262 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387907261
+}
+2015-10-09 17:51:52,261 [nioEventLoopGroup-7-1] INFO - CSPing m:4 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:51:52,263 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387912263
+}
+2015-10-09 17:51:57,261 [nioEventLoopGroup-7-1] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:51:57,263 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387917262
+}
+2015-10-09 17:52:02,264 [nioEventLoopGroup-7-1] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:02,268 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387922267
+}
+2015-10-09 17:52:04,559 [nioEventLoopGroup-7-2] INFO - channelActive : [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+2015-10-09 17:52:04,561 [nioEventLoopGroup-7-2] INFO - [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-09 17:52:04,754 [nioEventLoopGroup-7-2] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "tmicpt87ntpmv8fqu3q9bc4i76",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-09 17:52:04,757 [nioEventLoopGroup-7-2] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-09 17:52:04,763 [nioEventLoopGroup-7-2] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:04,765 [nioEventLoopGroup-7-2] INFO - [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387924764
+}
+2015-10-09 17:52:07,264 [nioEventLoopGroup-7-1] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:07,265 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387927265
+}
+2015-10-09 17:52:09,763 [nioEventLoopGroup-7-2] INFO - CSPing m:3 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:09,765 [nioEventLoopGroup-7-2] INFO - [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387929765
+}
+2015-10-09 17:52:12,265 [nioEventLoopGroup-7-1] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:12,267 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387932266
+}
+2015-10-09 17:52:14,764 [nioEventLoopGroup-7-2] INFO - CSPing m:4 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:14,766 [nioEventLoopGroup-7-2] INFO - [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387934765
+}
+2015-10-09 17:52:17,266 [nioEventLoopGroup-7-1] INFO - CSPing m:9 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:17,268 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387937267
+}
+2015-10-09 17:52:19,766 [nioEventLoopGroup-7-2] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:19,767 [nioEventLoopGroup-7-2] INFO - [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387939767
+}
+2015-10-09 17:52:22,267 [nioEventLoopGroup-7-1] INFO - CSPing m:10 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:22,269 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387942268
+}
+2015-10-09 17:52:24,767 [nioEventLoopGroup-7-2] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:24,768 [nioEventLoopGroup-7-2] INFO - [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387944768
+}
+2015-10-09 17:52:27,272 [nioEventLoopGroup-7-1] INFO - CSPing m:11 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:27,273 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387947273
+}
+2015-10-09 17:52:29,768 [nioEventLoopGroup-7-2] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:29,769 [nioEventLoopGroup-7-2] INFO - [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387949769
+}
+2015-10-09 17:52:32,269 [nioEventLoopGroup-7-1] INFO - CSPing m:12 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:32,271 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387952270
+}
+2015-10-09 17:52:34,769 [nioEventLoopGroup-7-2] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:34,770 [nioEventLoopGroup-7-2] INFO - [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387954770
+}
+2015-10-09 17:52:37,273 [nioEventLoopGroup-7-1] INFO - CSPing m:13 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:37,274 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387957274
+}
+2015-10-09 17:52:39,770 [nioEventLoopGroup-7-2] INFO - CSPing m:9 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:39,772 [nioEventLoopGroup-7-2] INFO - [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387959772
+}
+2015-10-09 17:52:42,272 [nioEventLoopGroup-7-1] INFO - CSPing m:14 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:42,274 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387962273
+}
+2015-10-09 17:52:44,770 [nioEventLoopGroup-7-2] INFO - CSPing m:10 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:44,772 [nioEventLoopGroup-7-2] INFO - [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387964771
+}
+2015-10-09 17:52:47,273 [nioEventLoopGroup-7-1] INFO - CSPing m:15 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:47,275 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387967274
+}
+2015-10-09 17:52:49,772 [nioEventLoopGroup-7-2] INFO - CSPing m:11 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:49,773 [nioEventLoopGroup-7-2] INFO - [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387969773
+}
+2015-10-09 17:52:52,274 [nioEventLoopGroup-7-1] INFO - CSPing m:16 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:52,276 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387972275
+}
+2015-10-09 17:52:54,772 [nioEventLoopGroup-7-2] INFO - CSPing m:12 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:54,773 [nioEventLoopGroup-7-2] INFO - [id: 0xb8598339, /127.0.0.1:49219 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387974773
+}
+2015-10-09 17:52:57,275 [nioEventLoopGroup-7-1] INFO - CSPing m:17 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:52:57,277 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387977277
+}
+2015-10-09 17:52:57,951 [nioEventLoopGroup-7-2] INFO - channelInactive!: [id: 0xb8598339, /127.0.0.1:49219 :> /127.0.0.1:33333]
+2015-10-09 17:52:57,951 [nioEventLoopGroup-7-2] INFO - ChannelClosed: [id: 0xb8598339, /127.0.0.1:49219 :> /127.0.0.1:33333]
+2015-10-09 17:52:57,952 [nioEventLoopGroup-7-2] INFO - onChannelClose
+2015-10-09 17:52:57,952 [nioEventLoopGroup-7-2] INFO - Channel exceptionCaught
+2015-10-09 17:52:57,952 [nioEventLoopGroup-7-2] INFO - Channel unregistered
+2015-10-09 17:53:02,277 [nioEventLoopGroup-7-1] INFO - CSPing m:18 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:02,278 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387982278
+}
+2015-10-09 17:53:04,910 [nioEventLoopGroup-7-3] INFO - channelActive : [id: 0x753e6e74, /127.0.0.1:49248 => /127.0.0.1:33333]
+2015-10-09 17:53:04,911 [nioEventLoopGroup-7-3] INFO - [id: 0x753e6e74, /127.0.0.1:49248 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-09 17:53:05,149 [nioEventLoopGroup-7-3] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "udg3adg5a4v7a7p4ku70qidpve",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-09 17:53:05,161 [nioEventLoopGroup-7-3] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-09 17:53:05,176 [nioEventLoopGroup-7-3] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:05,177 [nioEventLoopGroup-7-3] INFO - [id: 0x753e6e74, /127.0.0.1:49248 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387985177
+}
+2015-10-09 17:53:07,279 [nioEventLoopGroup-7-1] INFO - CSPing m:19 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:07,280 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387987280
+}
+2015-10-09 17:53:10,177 [nioEventLoopGroup-7-3] INFO - CSPing m:3 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:10,178 [nioEventLoopGroup-7-3] INFO - [id: 0x753e6e74, /127.0.0.1:49248 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387990178
+}
+2015-10-09 17:53:12,279 [nioEventLoopGroup-7-1] INFO - CSPing m:20 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:12,280 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387992280
+}
+2015-10-09 17:53:15,178 [nioEventLoopGroup-7-3] INFO - CSPing m:4 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:15,180 [nioEventLoopGroup-7-3] INFO - [id: 0x753e6e74, /127.0.0.1:49248 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387995179
+}
+2015-10-09 17:53:17,280 [nioEventLoopGroup-7-1] INFO - CSPing m:21 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:17,282 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444387997281
+}
+2015-10-09 17:53:20,178 [nioEventLoopGroup-7-3] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:20,179 [nioEventLoopGroup-7-3] INFO - [id: 0x753e6e74, /127.0.0.1:49248 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444388000178
+}
+2015-10-09 17:53:22,281 [nioEventLoopGroup-7-1] INFO - CSPing m:22 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:22,283 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444388002283
+}
+2015-10-09 17:53:25,178 [nioEventLoopGroup-7-3] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:25,180 [nioEventLoopGroup-7-3] INFO - [id: 0x753e6e74, /127.0.0.1:49248 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444388005179
+}
+2015-10-09 17:53:25,549 [Thread-0] INFO - onTimeout
+2015-10-09 17:53:27,282 [nioEventLoopGroup-7-1] INFO - CSPing m:23 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:27,284 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444388007284
+}
+2015-10-09 17:53:30,179 [nioEventLoopGroup-7-3] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:30,183 [nioEventLoopGroup-7-3] INFO - [id: 0x753e6e74, /127.0.0.1:49248 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444388010181
+}
+2015-10-09 17:53:32,284 [nioEventLoopGroup-7-1] INFO - CSPing m:24 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:32,286 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444388012286
+}
+2015-10-09 17:53:35,181 [nioEventLoopGroup-7-3] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:35,184 [nioEventLoopGroup-7-3] INFO - [id: 0x753e6e74, /127.0.0.1:49248 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444388015183
+}
+2015-10-09 17:53:37,284 [nioEventLoopGroup-7-1] INFO - CSPing m:25 s:0 {
+  clientTime: 0
+}
+2015-10-09 17:53:37,286 [nioEventLoopGroup-7-1] INFO - [id: 0x3de584d7, /127.0.0.1:49212 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1444388017285
+}
+2015-10-09 17:53:37,996 [nioEventLoopGroup-7-3] INFO - channelInactive!: [id: 0x753e6e74, /127.0.0.1:49248 :> /127.0.0.1:33333]
+2015-10-09 17:53:37,996 [nioEventLoopGroup-7-3] INFO - ChannelClosed: [id: 0x753e6e74, /127.0.0.1:49248 :> /127.0.0.1:33333]
+2015-10-09 17:53:37,997 [nioEventLoopGroup-7-3] INFO - onChannelClose
+2015-10-09 17:53:37,997 [nioEventLoopGroup-7-3] INFO - Channel exceptionCaught
+2015-10-09 17:53:37,997 [nioEventLoopGroup-7-3] INFO - Channel unregistered
