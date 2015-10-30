@@ -29,6 +29,7 @@ public class BFConfig {
 
     public static String APPLICATION_FOLDER = "applications";
     public static String AUTODEPLOY_FOLDER = "autodeploys";
+    
 
     public static BFConfig getInstance() {
         if (_instance == null) {

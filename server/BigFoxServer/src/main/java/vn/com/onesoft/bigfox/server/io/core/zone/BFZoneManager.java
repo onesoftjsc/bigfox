@@ -63,7 +63,7 @@ public class BFZoneManager {
     public IBFZone loadZone(String absolutePath) {
         IBFZone zone = new BFZone(absolutePath);
         try {
-            zone.loadZone();
+            zone.start();
             mapNameToZone.put(zone.getSimpleName(), zone);
             return zone;
         } catch (Exception ex) {

@@ -14,12 +14,17 @@ import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import vn.com.onesoft.bigfox.server.helper.utils.BFUtils;
+import vn.com.onesoft.bigfox.server.io.core.exception.NotFoundActivityException;
 import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.io.core.session.IBFSession;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
+import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageOut;
+import vn.com.onesoft.bigfox.server.main.Main;
 
 /**
  *
@@ -34,7 +39,7 @@ public class BFZone implements IBFZone {
     private String simpleName;
     private Map<String, String> mapFileNameToChecksum = new MapMaker().makeMap();
     private BFZoneActivity activity;
-    
+
     private BFZone() {
 
     }
@@ -49,7 +54,7 @@ public class BFZone implements IBFZone {
             }
         }
         this.simpleName = absolutePath.substring(k + 1);
-        zoneCL = new BFClassLoaderZone(BFClassLoaderZone.class.getClassLoader());
+        zoneCL = new BFClassLoaderZone(BFClassLoaderZone.class.getClassLoader(), this);
     }
 
     @Override
@@ -58,19 +63,28 @@ public class BFZone implements IBFZone {
     }
 
     @Override
-    public void start() {
-        getActivity().onZoneStart(this);
+    public void start() throws Exception {
+        loadZone();
+        if (!Main.isDebug) {
+            getActivity().afterZoneStart();
+        }
     }
 
     @Override
     public void stop() {
-        getActivity().onZoneStop(this);
+        if (!Main.isDebug) {
+            getActivity().beforeZoneStop();
+        }
+        BFZoneManager.getInstance().removeZone(this.getSimpleName());
+        if (!Main.isDebug) {
+            getActivity().afterZoneStart();
+        }
     }
 
     @Override
-    public void restart() {
-        getActivity().onZoneStart(this);
-        getActivity().onZoneStop(this);
+    public void restart() throws Exception {
+        start();
+        stop();
     }
 
     @Override
@@ -93,9 +107,24 @@ public class BFZone implements IBFZone {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    @Override
-    public void loadZone() throws Exception {
+    private void loadZone() throws Exception {
         loadFolder(absolutePath);
+        loadJar(absolutePath + "/" + getSimpleName() + ".jar");
+
+        //Find Activity
+        Iterator itA = zoneCL.getMapPathToClass().values().iterator();
+        while (itA.hasNext()) {
+            Class cls = (Class) itA.next();
+            if (BFZoneActivity.class.isAssignableFrom(cls)) {
+                activity = (BFZoneActivity) cls.getDeclaredConstructor(IBFZone.class).newInstance(this);
+                activity.beforeZoneStart();
+            }
+        }
+        if (activity == null && !Main.isDebug) {
+            throw new NotFoundActivityException("Can not found an Activity class on jar file");
+        }
+
+        //Find CS classes
         Iterator it = zoneCL.getMapPathToClass().values().iterator();
         while (it.hasNext()) {
             Class cls = (Class) it.next();
@@ -105,11 +134,6 @@ public class BFZone implements IBFZone {
                 mapTagToUserMessage.put(m.tag(), mess);
             }
         }
-    }
-    
-    @Override
-    public void loadZoneLibs() throws Exception {
-        loadFolderLib(absolutePath);
     }
 
     @Override
@@ -166,7 +190,7 @@ public class BFZone implements IBFZone {
 
     @Override
     public void reloadFilesChanged() throws Exception {
-        BFClassLoaderZone cl = new BFClassLoaderZone(zoneCL);
+        BFClassLoaderZone cl = new BFClassLoaderZone(zoneCL, this);
         ArrayList<File> changedFiles = listFileChanged(absolutePath);
         ArrayList<File> addedFiles = listFileAdded(absolutePath);
         for (File changedFile : changedFiles) {
@@ -189,11 +213,15 @@ public class BFZone implements IBFZone {
     }
 
     private void loadFile(String filePath, BFClassLoaderZone cl) throws IOException, FileNotFoundException, NoSuchAlgorithmException {
-        if (filePath.contains("CS") || filePath.contains("SC")) {
+        if (Main.isDebug) {
+            if (filePath.contains("CS") || filePath.contains("SC")) {
+                cl.loadFile(filePath);
+                mapFileNameToChecksum.put(filePath, BFUtils.checksum(new File(filePath)));
+            }
+        } else {
             cl.loadFile(filePath);
             mapFileNameToChecksum.put(filePath, BFUtils.checksum(new File(filePath)));
         }
-
     }
 
     private void loadFolder(String foldPath) throws IOException, FileNotFoundException, NoSuchAlgorithmException {
@@ -224,7 +252,36 @@ public class BFZone implements IBFZone {
     }
 
     private void loadFolderLib(String absolutePath) {
-        
+
+    }
+
+    private void loadLib() {
+        String libPath = absolutePath + File.separatorChar + "lib";
+        File file = new File(libPath);
+        if (file.exists()) {
+            File[] files = file.listFiles();
+            for (File fileLib : files) {
+                BFLogger.getInstance().info("Load lib: " + fileLib.getAbsolutePath());
+                loadJar(fileLib.getAbsolutePath());
+            }
+        }
+    }
+
+    private void loadJar(String absolutePath) {
+        if (!absolutePath.contains(".jar")) {
+            return;
+        }
+        File file = new File(absolutePath);
+        try {
+            zoneCL.loadJar(absolutePath);
+        } catch (IOException ex) {
+            Logger.getLogger(BFZone.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    @Override
+    public String getAbsolutePath() {
+        return absolutePath;
     }
 
 }

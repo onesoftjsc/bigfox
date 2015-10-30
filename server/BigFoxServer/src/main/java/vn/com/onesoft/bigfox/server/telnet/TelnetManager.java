@@ -29,7 +29,13 @@ public class TelnetManager {
     public static TelnetManager getInstance() {
         if (_instance == null) {
             _instance = new TelnetManager();
-            _instance.init();
+            new Thread(new Runnable() {
+
+                @Override
+                public void run() {
+                    _instance.init();
+                }
+            }).start();
         }
         return _instance;
     }

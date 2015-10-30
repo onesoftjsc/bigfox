@@ -70,7 +70,7 @@ public class SocketServerHandler extends ChannelInboundHandlerAdapter {
     
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
-        BFLogger.getInstance().info("Channel exceptionCaught");
+        BFLogger.getInstance().error("Channel exceptionCaught", cause);
     }
 
     @Override

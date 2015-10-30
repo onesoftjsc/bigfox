@@ -11,6 +11,7 @@ import io.netty.channel.Channel;
 import io.netty.channel.group.ChannelGroup;
 import io.netty.channel.group.DefaultChannelGroup;
 import io.netty.util.concurrent.GlobalEventExecutor;
+import java.io.File;
 import java.util.Map;
 import vn.com.onesoft.bigfox.server.helper.classmanager.Extracter;
 import vn.com.onesoft.bigfox.server.io.core.session.IBFSession;
@@ -31,14 +32,30 @@ public class Main {
     public static ChannelGroup allChannels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);//Netty, lưu trữ tất cả channels để đóng lại khi tắt ứng dụng
     public static Map<Channel, Boolean> mapChannelWebSocket = new MapMaker().makeMap();
 
-
-
+        public static boolean isDebug = true;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
+        isDebug = false;
         BFZoneManager.getInstance();
         Extracter.getInstance();
+        MessageExecute.getInstance();
+//        Scanner.getInstance();
+        BFConfig.getInstance();
+        SocketManager.getInstance();
+        WebSocketManager.getInstance();
+        TelnetManager.getInstance();
+
+        BFZoneManager.getInstance().loadZone("/Users/phamquan/github/bigfox/server/BigFoxServerChatExample/target/BigFoxServerChatExample");
+        BFZoneManager.getInstance().loadZone("/Users/phamquan/github/bigfox/server/BigFoxServerTime/target/BigFoxServerTime");
+    }
+
+
+    public static void main1() {
+
+        BFZoneManager.getInstance();
+//        Extracter.getInstance();
         MessageExecute.getInstance();
 //        Scanner.getInstance();
         BFConfig.getInstance();

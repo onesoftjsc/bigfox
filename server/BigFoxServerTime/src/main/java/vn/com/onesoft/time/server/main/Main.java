@@ -28,9 +28,8 @@ public class Main {
     public static Map<IBFSession, String> mapSessionToName = new MapMaker().makeMap();
 
     public static void main(String[] args) throws Exception {
-        BFZoneManager.getInstance().loadZone(new File(".").getCanonicalPath() + "/target/classes");
+        BFZoneManager.getInstance().loadZone(new File(".").getCanonicalPath() + "/target/BigFoxServerTime");
         BFSessionManager.getInstance().setSessionEvent(new BFSessionEvent());
-        HibernateFactoryUtil.getInstance();
         MonitorFileChanged.getInstance();
         MessageExecute.getInstance();
         BFConfig.getInstance();

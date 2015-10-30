@@ -16,9 +16,9 @@ import vn.com.onesoft.bigfox.server.io.message.base.MessageOut;
  * @author QuanPH
  */
 public interface IBFZone {
-    public void start();
+    public void start() throws Exception;
     public void stop();
-    public void restart();
+    public void restart() throws Exception;
 
     public void onMessage(Channel channel, byte[] data);
     public BFClassLoaderZone getClassLoader();
@@ -27,8 +27,8 @@ public interface IBFZone {
     public void addSession(IBFSession session);
     public String getSimpleName();
     public MessageIn getMessage(int tag);
-    public void loadZone() throws Exception;
-    public void loadZoneLibs() throws Exception;
+
     public void sendMessageToAll(MessageOut mOut);
      public void reloadFilesChanged() throws Exception;
+     public String getAbsolutePath();
 }

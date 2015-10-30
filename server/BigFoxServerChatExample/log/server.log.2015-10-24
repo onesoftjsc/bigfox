@@ -1,0 +1,403 @@
+2015-10-24 13:32:59,455 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-24 13:32:59,469 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-24 13:32:59,471 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-24 13:33:53,025 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-24 13:33:53,038 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-24 13:33:53,040 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-24 13:36:28,897 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-24 13:36:28,910 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-24 13:36:28,911 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-24 13:36:29,796 [main] DEBUG - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2015-10-24 13:36:29,796 [main] INFO - HV000001: Hibernate Validator 5.1.3.Final
+2015-10-24 13:36:29,808 [main] DEBUG - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2015-10-24 13:36:29,809 [main] DEBUG - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2015-10-24 13:36:29,823 [main] DEBUG - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2015-10-24 13:36:29,829 [main] DEBUG - No META-INF/validation.xml found. Using annotation based configuration only.
+2015-10-24 13:36:29,935 [main] DEBUG - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2015-10-24 13:36:29,935 [main] DEBUG - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2015-10-24 13:36:29,936 [main] DEBUG - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2015-10-24 13:36:29,937 [main] DEBUG - No META-INF/validation.xml found. Using annotation based configuration only.
+2015-10-24 13:36:31,006 [main] INFO - Telnet start at port 40000
+2015-10-24 13:36:31,006 [Thread-7] INFO - Socket start at port 33333
+2015-10-24 13:36:31,034 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-24 13:36:57,837 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-24 13:36:57,847 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-24 13:36:57,848 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-24 13:36:58,407 [main] DEBUG - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2015-10-24 13:36:58,407 [main] INFO - HV000001: Hibernate Validator 5.1.3.Final
+2015-10-24 13:36:58,419 [main] DEBUG - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2015-10-24 13:36:58,420 [main] DEBUG - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2015-10-24 13:36:58,432 [main] DEBUG - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2015-10-24 13:36:58,436 [main] DEBUG - No META-INF/validation.xml found. Using annotation based configuration only.
+2015-10-24 13:36:58,527 [main] DEBUG - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2015-10-24 13:36:58,527 [main] DEBUG - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2015-10-24 13:36:58,528 [main] DEBUG - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2015-10-24 13:36:58,528 [main] DEBUG - No META-INF/validation.xml found. Using annotation based configuration only.
+2015-10-24 13:36:59,443 [main] INFO - Telnet start at port 40000
+2015-10-24 13:36:59,443 [Thread-7] INFO - Socket start at port 33333
+2015-10-24 13:36:59,460 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-24 13:37:15,291 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0xdf4cbe80, /127.0.0.1:54053 => /127.0.0.1:33333]
+2015-10-24 13:37:15,305 [nioEventLoopGroup-6-1] INFO - [id: 0xdf4cbe80, /127.0.0.1:54053 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:37:15,379 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9ckkgap3f5omj42c7n700o4vbd",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-10-24 13:37:15,380 [nioEventLoopGroup-6-1] INFO - channelInactive!: [id: 0xdf4cbe80, /127.0.0.1:54053 :> /127.0.0.1:33333]
+2015-10-24 13:37:15,380 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0xdf4cbe80, /127.0.0.1:54053 :> /127.0.0.1:33333]
+2015-10-24 13:37:15,380 [nioEventLoopGroup-6-1] INFO - Channel unregistered
+2015-10-24 13:37:20,388 [nioEventLoopGroup-6-2] INFO - channelActive : [id: 0x6ff6fa08, /127.0.0.1:54055 => /127.0.0.1:33333]
+2015-10-24 13:37:20,388 [nioEventLoopGroup-6-2] INFO - [id: 0x6ff6fa08, /127.0.0.1:54055 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:37:20,406 [nioEventLoopGroup-6-2] INFO - CSClientInfo m:3 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9ckkgap3f5omj42c7n700o4vbd",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-10-24 13:37:20,407 [nioEventLoopGroup-6-2] INFO - channelInactive!: [id: 0x6ff6fa08, /127.0.0.1:54055 :> /127.0.0.1:33333]
+2015-10-24 13:37:20,407 [nioEventLoopGroup-6-2] INFO - ChannelClosed: [id: 0x6ff6fa08, /127.0.0.1:54055 :> /127.0.0.1:33333]
+2015-10-24 13:37:20,407 [nioEventLoopGroup-6-2] INFO - Channel unregistered
+2015-10-24 13:37:25,411 [nioEventLoopGroup-6-3] INFO - channelActive : [id: 0x51190187, /127.0.0.1:54058 => /127.0.0.1:33333]
+2015-10-24 13:37:25,411 [nioEventLoopGroup-6-3] INFO - [id: 0x51190187, /127.0.0.1:54058 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:37:25,429 [nioEventLoopGroup-6-3] INFO - CSClientInfo m:5 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9ckkgap3f5omj42c7n700o4vbd",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-10-24 13:37:25,430 [nioEventLoopGroup-6-3] INFO - channelInactive!: [id: 0x51190187, /127.0.0.1:54058 :> /127.0.0.1:33333]
+2015-10-24 13:37:25,430 [nioEventLoopGroup-6-3] INFO - ChannelClosed: [id: 0x51190187, /127.0.0.1:54058 :> /127.0.0.1:33333]
+2015-10-24 13:37:25,430 [nioEventLoopGroup-6-3] INFO - Channel unregistered
+2015-10-24 13:37:30,435 [nioEventLoopGroup-6-4] INFO - channelActive : [id: 0xec73f917, /127.0.0.1:54060 => /127.0.0.1:33333]
+2015-10-24 13:37:30,436 [nioEventLoopGroup-6-4] INFO - [id: 0xec73f917, /127.0.0.1:54060 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:37:30,455 [nioEventLoopGroup-6-4] INFO - CSClientInfo m:6 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9ckkgap3f5omj42c7n700o4vbd",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-10-24 13:37:30,456 [nioEventLoopGroup-6-4] INFO - channelInactive!: [id: 0xec73f917, /127.0.0.1:54060 :> /127.0.0.1:33333]
+2015-10-24 13:37:30,456 [nioEventLoopGroup-6-4] INFO - ChannelClosed: [id: 0xec73f917, /127.0.0.1:54060 :> /127.0.0.1:33333]
+2015-10-24 13:37:30,456 [nioEventLoopGroup-6-4] INFO - Channel unregistered
+2015-10-24 13:37:35,460 [nioEventLoopGroup-6-5] INFO - channelActive : [id: 0xc63d0316, /127.0.0.1:54062 => /127.0.0.1:33333]
+2015-10-24 13:37:35,461 [nioEventLoopGroup-6-5] INFO - [id: 0xc63d0316, /127.0.0.1:54062 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:37:35,483 [nioEventLoopGroup-6-5] INFO - CSClientInfo m:7 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9ckkgap3f5omj42c7n700o4vbd",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-10-24 13:37:35,484 [nioEventLoopGroup-6-5] INFO - channelInactive!: [id: 0xc63d0316, /127.0.0.1:54062 :> /127.0.0.1:33333]
+2015-10-24 13:37:35,484 [nioEventLoopGroup-6-5] INFO - ChannelClosed: [id: 0xc63d0316, /127.0.0.1:54062 :> /127.0.0.1:33333]
+2015-10-24 13:37:35,484 [nioEventLoopGroup-6-5] INFO - Channel unregistered
+2015-10-24 13:37:40,489 [nioEventLoopGroup-6-6] INFO - channelActive : [id: 0x0976ac77, /127.0.0.1:54064 => /127.0.0.1:33333]
+2015-10-24 13:37:40,490 [nioEventLoopGroup-6-6] INFO - [id: 0x0976ac77, /127.0.0.1:54064 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:37:40,510 [nioEventLoopGroup-6-6] INFO - CSClientInfo m:8 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9ckkgap3f5omj42c7n700o4vbd",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-10-24 13:37:40,511 [nioEventLoopGroup-6-6] INFO - channelInactive!: [id: 0x0976ac77, /127.0.0.1:54064 :> /127.0.0.1:33333]
+2015-10-24 13:37:40,511 [nioEventLoopGroup-6-6] INFO - ChannelClosed: [id: 0x0976ac77, /127.0.0.1:54064 :> /127.0.0.1:33333]
+2015-10-24 13:37:40,511 [nioEventLoopGroup-6-6] INFO - Channel unregistered
+2015-10-24 13:37:45,515 [nioEventLoopGroup-6-7] INFO - channelActive : [id: 0x1362d0f4, /127.0.0.1:54067 => /127.0.0.1:33333]
+2015-10-24 13:37:45,515 [nioEventLoopGroup-6-7] INFO - [id: 0x1362d0f4, /127.0.0.1:54067 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:37:45,534 [nioEventLoopGroup-6-7] INFO - CSClientInfo m:9 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9ckkgap3f5omj42c7n700o4vbd",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-10-24 13:37:45,534 [nioEventLoopGroup-6-7] INFO - channelInactive!: [id: 0x1362d0f4, /127.0.0.1:54067 :> /127.0.0.1:33333]
+2015-10-24 13:37:45,534 [nioEventLoopGroup-6-7] INFO - ChannelClosed: [id: 0x1362d0f4, /127.0.0.1:54067 :> /127.0.0.1:33333]
+2015-10-24 13:37:45,535 [nioEventLoopGroup-6-7] INFO - Channel unregistered
+2015-10-24 13:37:50,538 [nioEventLoopGroup-6-8] INFO - channelActive : [id: 0x328e8bfb, /127.0.0.1:54069 => /127.0.0.1:33333]
+2015-10-24 13:37:50,538 [nioEventLoopGroup-6-8] INFO - [id: 0x328e8bfb, /127.0.0.1:54069 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:37:50,557 [nioEventLoopGroup-6-8] INFO - CSClientInfo m:10 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9ckkgap3f5omj42c7n700o4vbd",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-10-24 13:37:50,558 [nioEventLoopGroup-6-8] INFO - channelInactive!: [id: 0x328e8bfb, /127.0.0.1:54069 :> /127.0.0.1:33333]
+2015-10-24 13:37:50,558 [nioEventLoopGroup-6-8] INFO - ChannelClosed: [id: 0x328e8bfb, /127.0.0.1:54069 :> /127.0.0.1:33333]
+2015-10-24 13:37:50,558 [nioEventLoopGroup-6-8] INFO - Channel unregistered
+2015-10-24 13:37:55,561 [nioEventLoopGroup-6-9] INFO - channelActive : [id: 0xcc5e1764, /127.0.0.1:54071 => /127.0.0.1:33333]
+2015-10-24 13:37:55,561 [nioEventLoopGroup-6-9] INFO - [id: 0xcc5e1764, /127.0.0.1:54071 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:37:55,564 [nioEventLoopGroup-6-9] INFO - CSClientInfo m:11 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9ckkgap3f5omj42c7n700o4vbd",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-10-24 13:37:55,565 [nioEventLoopGroup-6-9] INFO - channelInactive!: [id: 0xcc5e1764, /127.0.0.1:54071 :> /127.0.0.1:33333]
+2015-10-24 13:37:55,565 [nioEventLoopGroup-6-9] INFO - ChannelClosed: [id: 0xcc5e1764, /127.0.0.1:54071 :> /127.0.0.1:33333]
+2015-10-24 13:37:55,565 [nioEventLoopGroup-6-9] INFO - Channel unregistered
+2015-10-24 13:37:58,375 [nioEventLoopGroup-6-10] INFO - channelActive : [id: 0xd3385dc7, /127.0.0.1:54073 => /127.0.0.1:33333]
+2015-10-24 13:37:58,376 [nioEventLoopGroup-6-10] INFO - [id: 0xd3385dc7, /127.0.0.1:54073 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:37:58,470 [nioEventLoopGroup-6-10] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "f89ecm4dqd9v9v3eh3n4m4nal1",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-24 13:37:58,472 [nioEventLoopGroup-6-10] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-24 13:37:58,476 [nioEventLoopGroup-6-10] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-24 13:37:58,477 [nioEventLoopGroup-6-10] INFO - [id: 0xd3385dc7, /127.0.0.1:54073 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445668678476
+}
+2015-10-24 13:37:59,997 [nioEventLoopGroup-6-10] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-10-24 13:38:00,569 [nioEventLoopGroup-6-11] INFO - channelActive : [id: 0xb348be66, /127.0.0.1:54074 => /127.0.0.1:33333]
+2015-10-24 13:38:00,570 [nioEventLoopGroup-6-11] INFO - [id: 0xb348be66, /127.0.0.1:54074 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:38:00,573 [nioEventLoopGroup-6-11] INFO - CSClientInfo m:12 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9ckkgap3f5omj42c7n700o4vbd",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-10-24 13:38:00,574 [nioEventLoopGroup-6-11] INFO - channelInactive!: [id: 0xb348be66, /127.0.0.1:54074 :> /127.0.0.1:33333]
+2015-10-24 13:38:00,574 [nioEventLoopGroup-6-11] INFO - ChannelClosed: [id: 0xb348be66, /127.0.0.1:54074 :> /127.0.0.1:33333]
+2015-10-24 13:38:00,574 [nioEventLoopGroup-6-11] INFO - Channel unregistered
+2015-10-24 13:38:03,477 [nioEventLoopGroup-6-10] INFO - CSPing m:4 s:0 {
+  clientTime: 0
+}
+2015-10-24 13:38:03,478 [nioEventLoopGroup-6-10] INFO - [id: 0xd3385dc7, /127.0.0.1:54073 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445668683477
+}
+2015-10-24 13:38:05,578 [nioEventLoopGroup-6-12] INFO - channelActive : [id: 0xe8d2c781, /127.0.0.1:54076 => /127.0.0.1:33333]
+2015-10-24 13:38:05,578 [nioEventLoopGroup-6-12] INFO - [id: 0xe8d2c781, /127.0.0.1:54076 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:38:05,584 [nioEventLoopGroup-6-12] INFO - CSClientInfo m:13 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9ckkgap3f5omj42c7n700o4vbd",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-10-24 13:38:05,585 [nioEventLoopGroup-6-12] INFO - channelInactive!: [id: 0xe8d2c781, /127.0.0.1:54076 :> /127.0.0.1:33333]
+2015-10-24 13:38:05,585 [nioEventLoopGroup-6-12] INFO - ChannelClosed: [id: 0xe8d2c781, /127.0.0.1:54076 :> /127.0.0.1:33333]
+2015-10-24 13:38:05,585 [nioEventLoopGroup-6-12] INFO - Channel unregistered
+2015-10-24 13:38:08,689 [nioEventLoopGroup-6-10] INFO - channelInactive!: [id: 0xd3385dc7, /127.0.0.1:54073 :> /127.0.0.1:33333]
+2015-10-24 13:38:08,689 [nioEventLoopGroup-6-10] INFO - ChannelClosed: [id: 0xd3385dc7, /127.0.0.1:54073 :> /127.0.0.1:33333]
+2015-10-24 13:38:08,689 [nioEventLoopGroup-6-10] INFO - onChannelClose
+2015-10-24 13:38:08,690 [nioEventLoopGroup-6-10] ERROR - Channel exceptionCaught
+java.lang.UnsupportedOperationException: Not supported yet.
+	at vn.com.onesoft.chatexamain.chat.BFSessionEvent.closeChannel(BFSessionEvent.java:35)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onChannelClose(BFSessionManager.java:228)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelInactive(SocketServerHandler.java:66)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:56)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:92)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:135)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:306)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:56)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:92)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:135)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:928)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:658)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-24 13:38:08,691 [nioEventLoopGroup-6-10] INFO - Channel unregistered
+2015-10-24 13:38:21,824 [nioEventLoopGroup-6-13] INFO - channelActive : [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+2015-10-24 13:38:21,825 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-24 13:38:21,932 [nioEventLoopGroup-6-13] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9ksv9js1i2a5op7bjds6k7n1nd",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-24 13:38:21,933 [nioEventLoopGroup-6-13] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-24 13:38:21,939 [nioEventLoopGroup-6-13] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-24 13:38:21,940 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445668701940
+}
+2015-10-24 13:38:23,451 [nioEventLoopGroup-6-13] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-10-24 13:38:25,586 [nioEventLoopGroup-6-13] INFO - CSChat m:4 s:0 {
+  msg: "aaa"
+}
+2015-10-24 13:38:25,587 [nioEventLoopGroup-6-13] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoaderZone@76f1a348
+2015-10-24 13:38:25,589 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCChat m:4 s:1 {
+  msg: "13:38:25
+Q: aaa"
+}
+2015-10-24 13:38:26,940 [nioEventLoopGroup-6-13] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-10-24 13:38:26,940 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445668706940
+}
+2015-10-24 13:38:31,938 [nioEventLoopGroup-6-13] INFO - CSChat m:6 s:0 {
+  msg: "abc"
+}
+2015-10-24 13:38:31,938 [nioEventLoopGroup-6-13] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoaderZone@76f1a348
+2015-10-24 13:38:31,939 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCChat m:6 s:2 {
+  msg: "13:38:31
+Q: abc"
+}
+2015-10-24 13:38:31,944 [nioEventLoopGroup-6-13] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-24 13:38:31,945 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445668711945
+}
+2015-10-24 13:38:36,941 [nioEventLoopGroup-6-13] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-10-24 13:38:36,941 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445668716941
+}
+2015-10-24 13:38:41,942 [nioEventLoopGroup-6-13] INFO - CSPing m:9 s:0 {
+  clientTime: 0
+}
+2015-10-24 13:38:41,942 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445668721942
+}
+2015-10-24 13:38:46,942 [nioEventLoopGroup-6-13] INFO - CSPing m:10 s:0 {
+  clientTime: 0
+}
+2015-10-24 13:38:46,943 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445668726943
+}
+2015-10-24 13:38:51,944 [nioEventLoopGroup-6-13] INFO - CSPing m:11 s:0 {
+  clientTime: 0
+}
+2015-10-24 13:38:51,944 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445668731944
+}
+2015-10-24 13:38:56,945 [nioEventLoopGroup-6-13] INFO - CSPing m:12 s:0 {
+  clientTime: 0
+}
+2015-10-24 13:38:56,946 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445668736946
+}
+2015-10-24 13:39:01,946 [nioEventLoopGroup-6-13] INFO - CSPing m:13 s:0 {
+  clientTime: 0
+}
+2015-10-24 13:39:01,947 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445668741946
+}
+2015-10-24 13:39:06,947 [nioEventLoopGroup-6-13] INFO - CSPing m:14 s:0 {
+  clientTime: 0
+}
+2015-10-24 13:39:06,948 [nioEventLoopGroup-6-13] INFO - [id: 0xfdd01e51, /127.0.0.1:54079 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445668746948
+}

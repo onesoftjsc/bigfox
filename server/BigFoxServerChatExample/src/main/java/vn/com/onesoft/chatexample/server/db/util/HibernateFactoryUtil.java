@@ -9,6 +9,7 @@ import java.io.File;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
+import vn.com.onesoft.chatexample.main.ChatActivity;
 
 /**
  *
@@ -28,6 +29,7 @@ public class HibernateFactoryUtil {
     }
 
     static {
+//        File file = new File(ChatActivity.getInstance().getZone().getAbsolutePath() + "/hibernate.cfg.xml");
         File file = new File("hibernate.cfg.xml");
         String fname = file.getAbsolutePath();
         sessionFactory = new AnnotationConfiguration().configure(file).buildSessionFactory();

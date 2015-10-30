@@ -1,0 +1,1698 @@
+2015-10-21 15:59:09,407 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@7f31245a
+2015-10-21 15:59:09,407 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@6ee6f53
+2015-10-21 15:59:09,413 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 15:59:09,417 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 15:59:09,418 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 15:59:09,748 [main] INFO - Telnet start at port 40000
+2015-10-21 15:59:09,748 [Thread-10] INFO - Socket start at port 33333
+2015-10-21 15:59:09,761 [Thread-11] INFO - WebSocket start at port 33332
+2015-10-21 15:59:28,838 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@b53e666] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@48a08675 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-21 15:59:28,839 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@b53e666] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6e4717a0 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-21 15:59:28,839 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@b53e666] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4406c599 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-21 15:59:28,838 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@b53e666] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@33ba9233 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-21 15:59:28,839 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@b53e666] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@8596042 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-21 15:59:28,839 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@b53e666] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@90b3b51 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-21 15:59:28,838 [Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@b53e666] WARN - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@39be8fd6 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor3.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2247)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2079)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:214)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+2015-10-21 16:01:18,588 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0x8284d86a, /0:0:0:0:0:0:0:1:62747 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:01:18,598 [nioEventLoopGroup-7-1] INFO - [id: 0x8284d86a, /0:0:0:0:0:0:0:1:62747 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:01:18,648 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "ji24r95norkp423dxqrkx7x8o500kd5k",
+    metadata: "",
+    zone: ""
+  }
+}
+2015-10-21 16:01:18,650 [nioEventLoopGroup-7-1] INFO - channelInactive!: [id: 0x8284d86a, /0:0:0:0:0:0:0:1:62747 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:01:18,650 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x8284d86a, /0:0:0:0:0:0:0:1:62747 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:01:18,650 [nioEventLoopGroup-7-1] INFO - Channel unregistered
+2015-10-21 16:05:55,521 [nioEventLoopGroup-7-2] INFO - channelActive : [id: 0x4527a7f7, /0:0:0:0:0:0:0:1:62884 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:05:55,521 [nioEventLoopGroup-7-2] INFO - [id: 0x4527a7f7, /0:0:0:0:0:0:0:1:62884 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:06:29,007 [nioEventLoopGroup-7-2] INFO - channelInactive!: [id: 0x4527a7f7, /0:0:0:0:0:0:0:1:62884 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:06:29,007 [nioEventLoopGroup-7-2] INFO - ChannelClosed: [id: 0x4527a7f7, /0:0:0:0:0:0:0:1:62884 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:06:29,007 [nioEventLoopGroup-7-2] INFO - Channel unregistered
+2015-10-21 16:06:30,439 [nioEventLoopGroup-7-3] INFO - channelActive : [id: 0x4459e27f, /0:0:0:0:0:0:0:1:62896 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:06:30,439 [nioEventLoopGroup-7-3] INFO - [id: 0x4459e27f, /0:0:0:0:0:0:0:1:62896 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:07:14,643 [nioEventLoopGroup-7-3] INFO - channelInactive!: [id: 0x4459e27f, /0:0:0:0:0:0:0:1:62896 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:07:14,644 [nioEventLoopGroup-7-3] INFO - ChannelClosed: [id: 0x4459e27f, /0:0:0:0:0:0:0:1:62896 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:07:14,644 [nioEventLoopGroup-7-3] INFO - Channel unregistered
+2015-10-21 16:07:15,820 [nioEventLoopGroup-7-4] INFO - channelActive : [id: 0xfebcb283, /0:0:0:0:0:0:0:1:62906 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:07:15,820 [nioEventLoopGroup-7-4] INFO - [id: 0xfebcb283, /0:0:0:0:0:0:0:1:62906 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:07:53,582 [nioEventLoopGroup-7-4] INFO - channelInactive!: [id: 0xfebcb283, /0:0:0:0:0:0:0:1:62906 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:07:53,582 [nioEventLoopGroup-7-4] INFO - ChannelClosed: [id: 0xfebcb283, /0:0:0:0:0:0:0:1:62906 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:07:53,582 [nioEventLoopGroup-7-4] INFO - Channel unregistered
+2015-10-21 16:07:54,965 [nioEventLoopGroup-7-5] INFO - channelActive : [id: 0x8be49d0c, /0:0:0:0:0:0:0:1:62919 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:07:54,965 [nioEventLoopGroup-7-5] INFO - [id: 0x8be49d0c, /0:0:0:0:0:0:0:1:62919 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:10:06,932 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-21 16:10:06,933 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@715fb77
+2015-10-21 16:10:06,940 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:10:06,946 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:10:06,947 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:10:07,479 [Thread-7] INFO - Socket start at port 33333
+2015-10-21 16:10:07,479 [main] INFO - Telnet start at port 40000
+2015-10-21 16:10:07,504 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-21 16:10:07,630 [Thread-7] ERROR - Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:414)
+	at sun.nio.ch.Net.bind(Net.java:406)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:522)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1196)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeBindNow(ChannelHandlerInvokerUtil.java:108)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeBind(DefaultChannelHandlerInvoker.java:214)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:208)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:1003)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:216)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-21 16:10:07,630 [Thread-8] ERROR - Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:414)
+	at sun.nio.ch.Net.bind(Net.java:406)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:522)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1196)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeBindNow(ChannelHandlerInvokerUtil.java:108)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeBind(DefaultChannelHandlerInvoker.java:214)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:208)
+	at io.netty.handler.logging.LoggingHandler.bind(LoggingHandler.java:245)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeBindNow(ChannelHandlerInvokerUtil.java:108)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeBind(DefaultChannelHandlerInvoker.java:214)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:208)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:1003)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:216)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-21 16:10:07,630 [main] ERROR - Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:414)
+	at sun.nio.ch.Net.bind(Net.java:406)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:522)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1196)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeBindNow(ChannelHandlerInvokerUtil.java:108)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeBind(DefaultChannelHandlerInvoker.java:214)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:208)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:1003)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:216)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-21 16:10:38,268 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-21 16:10:38,269 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@7ed9ae94
+2015-10-21 16:10:38,278 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:10:38,280 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:10:38,281 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:10:38,756 [main] INFO - Telnet start at port 40000
+2015-10-21 16:10:38,756 [Thread-7] INFO - Socket start at port 33333
+2015-10-21 16:10:38,773 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-21 16:11:07,934 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0xb6fc561c, /0:0:0:0:0:0:0:1:63003 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:11:07,942 [nioEventLoopGroup-7-1] INFO - [id: 0xb6fc561c, /0:0:0:0:0:0:0:1:63003 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:11:22,068 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "bfodm78k9g4u8cx4yqcajm62sqa8gikj",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:11:22,069 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:11:22,074 [nioEventLoopGroup-7-1] ERROR - long
+java.lang.InstantiationException: long
+	at java.lang.Class.newInstance(Class.java:418)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:245)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: long.<init>()
+	at java.lang.Class.getConstructor0(Class.java:2971)
+	at java.lang.Class.newInstance(Class.java:403)
+	... 20 more
+2015-10-21 16:11:22,075 [nioEventLoopGroup-7-1] INFO - channelInactive!: [id: 0xb6fc561c, /0:0:0:0:0:0:0:1:63003 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:11:22,075 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0xb6fc561c, /0:0:0:0:0:0:0:1:63003 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:11:22,075 [nioEventLoopGroup-7-1] INFO - onChannelClose
+2015-10-21 16:11:22,075 [nioEventLoopGroup-7-1] INFO - Channel exceptionCaught
+2015-10-21 16:11:22,076 [nioEventLoopGroup-7-1] INFO - Channel unregistered
+2015-10-21 16:13:55,026 [nioEventLoopGroup-7-2] INFO - channelActive : [id: 0xdbd82312, /0:0:0:0:0:0:0:1:63089 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:13:55,027 [nioEventLoopGroup-7-2] INFO - [id: 0xdbd82312, /0:0:0:0:0:0:0:1:63089 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:13:57,628 [nioEventLoopGroup-7-2] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "ard5zk76zlb7gf7i6xm6tdr7ryn27tjn",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:13:57,629 [nioEventLoopGroup-7-2] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:13:57,632 [nioEventLoopGroup-7-2] ERROR - long
+java.lang.InstantiationException: long
+	at java.lang.Class.newInstance(Class.java:418)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:245)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: long.<init>()
+	at java.lang.Class.getConstructor0(Class.java:2971)
+	at java.lang.Class.newInstance(Class.java:403)
+	... 20 more
+2015-10-21 16:13:57,633 [nioEventLoopGroup-7-2] INFO - channelInactive!: [id: 0xdbd82312, /0:0:0:0:0:0:0:1:63089 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:13:57,633 [nioEventLoopGroup-7-2] INFO - ChannelClosed: [id: 0xdbd82312, /0:0:0:0:0:0:0:1:63089 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:13:57,633 [nioEventLoopGroup-7-2] INFO - onChannelClose
+2015-10-21 16:13:57,633 [nioEventLoopGroup-7-2] INFO - Channel exceptionCaught
+2015-10-21 16:13:57,633 [nioEventLoopGroup-7-2] INFO - Channel unregistered
+2015-10-21 16:14:34,081 [nioEventLoopGroup-7-3] INFO - channelActive : [id: 0x7ee1ce14, /0:0:0:0:0:0:0:1:63100 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:14:34,081 [nioEventLoopGroup-7-3] INFO - [id: 0x7ee1ce14, /0:0:0:0:0:0:0:1:63100 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:14:34,105 [nioEventLoopGroup-7-3] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "to5ahznmknjmz5qcjmfhlku9vkp7r71i",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:14:34,105 [nioEventLoopGroup-7-3] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:14:34,119 [nioEventLoopGroup-7-3] ERROR - long
+java.lang.InstantiationException: long
+	at java.lang.Class.newInstance(Class.java:418)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:245)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: long.<init>()
+	at java.lang.Class.getConstructor0(Class.java:2971)
+	at java.lang.Class.newInstance(Class.java:403)
+	... 20 more
+2015-10-21 16:14:34,120 [nioEventLoopGroup-7-3] INFO - channelInactive!: [id: 0x7ee1ce14, /0:0:0:0:0:0:0:1:63100 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:14:34,120 [nioEventLoopGroup-7-3] INFO - ChannelClosed: [id: 0x7ee1ce14, /0:0:0:0:0:0:0:1:63100 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:14:34,120 [nioEventLoopGroup-7-3] INFO - onChannelClose
+2015-10-21 16:14:34,120 [nioEventLoopGroup-7-3] INFO - Channel exceptionCaught
+2015-10-21 16:14:34,120 [nioEventLoopGroup-7-3] INFO - Channel unregistered
+2015-10-21 16:14:53,561 [nioEventLoopGroup-7-4] INFO - channelActive : [id: 0x8cb6bcb6, /0:0:0:0:0:0:0:1:63109 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:14:53,561 [nioEventLoopGroup-7-4] INFO - [id: 0x8cb6bcb6, /0:0:0:0:0:0:0:1:63109 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:14:53,690 [nioEventLoopGroup-7-4] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "rldodzavkk2p8b0a240xx3vqfzk31mai",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:14:53,690 [nioEventLoopGroup-7-4] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:14:53,693 [nioEventLoopGroup-7-4] ERROR - long
+java.lang.InstantiationException: long
+	at java.lang.Class.newInstance(Class.java:418)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:245)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: long.<init>()
+	at java.lang.Class.getConstructor0(Class.java:2971)
+	at java.lang.Class.newInstance(Class.java:403)
+	... 20 more
+2015-10-21 16:14:53,693 [nioEventLoopGroup-7-4] INFO - channelInactive!: [id: 0x8cb6bcb6, /0:0:0:0:0:0:0:1:63109 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:14:53,693 [nioEventLoopGroup-7-4] INFO - ChannelClosed: [id: 0x8cb6bcb6, /0:0:0:0:0:0:0:1:63109 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:14:53,693 [nioEventLoopGroup-7-4] INFO - onChannelClose
+2015-10-21 16:14:53,694 [nioEventLoopGroup-7-4] INFO - Channel exceptionCaught
+2015-10-21 16:14:53,694 [nioEventLoopGroup-7-4] INFO - Channel unregistered
+2015-10-21 16:15:21,666 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@58644d46
+2015-10-21 16:15:21,667 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@52a36910
+2015-10-21 16:15:21,673 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:15:21,675 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:15:21,676 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:15:22,171 [Thread-7] INFO - Socket start at port 33333
+2015-10-21 16:15:22,171 [main] INFO - Telnet start at port 40000
+2015-10-21 16:15:22,192 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-21 16:15:58,576 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@55187eb3
+2015-10-21 16:15:58,576 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@3b26456a
+2015-10-21 16:15:58,581 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:15:58,584 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:15:58,585 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:15:58,922 [main] INFO - Telnet start at port 40000
+2015-10-21 16:15:58,922 [Thread-7] INFO - Socket start at port 33333
+2015-10-21 16:15:58,953 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-21 16:16:26,094 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0x552c695b, /0:0:0:0:0:0:0:1:63204 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:16:26,111 [nioEventLoopGroup-6-1] INFO - [id: 0x552c695b, /0:0:0:0:0:0:0:1:63204 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:16:26,158 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "7jnzupriiu0txaqi1uo2gopovtm7d02x",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:16:26,159 [nioEventLoopGroup-6-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:16:26,163 [nioEventLoopGroup-6-1] ERROR - long
+java.lang.InstantiationException: long
+	at java.lang.Class.newInstance(Class.java:359)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:245)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-21 16:16:26,164 [nioEventLoopGroup-6-1] INFO - channelInactive!: [id: 0x552c695b, /0:0:0:0:0:0:0:1:63204 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:16:26,164 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0x552c695b, /0:0:0:0:0:0:0:1:63204 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:16:26,164 [nioEventLoopGroup-6-1] INFO - onChannelClose
+2015-10-21 16:16:26,164 [nioEventLoopGroup-6-1] INFO - Channel exceptionCaught
+2015-10-21 16:16:26,164 [nioEventLoopGroup-6-1] INFO - Channel unregistered
+2015-10-21 16:16:37,956 [nioEventLoopGroup-6-2] INFO - channelActive : [id: 0xc7911c8c, /0:0:0:0:0:0:0:1:63210 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:16:37,956 [nioEventLoopGroup-6-2] INFO - [id: 0xc7911c8c, /0:0:0:0:0:0:0:1:63210 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:19:56,240 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@6b9c18ae
+2015-10-21 16:19:56,240 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@55187eb3
+2015-10-21 16:19:56,246 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:19:56,248 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:19:56,249 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:19:56,554 [main] INFO - Telnet start at port 40000
+2015-10-21 16:19:56,554 [Thread-7] INFO - Socket start at port 33333
+2015-10-21 16:19:56,581 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-21 16:20:05,988 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0xbdb6742e, /0:0:0:0:0:0:0:1:63329 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:20:06,010 [nioEventLoopGroup-6-1] INFO - [id: 0xbdb6742e, /0:0:0:0:0:0:0:1:63329 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:20:08,620 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "3f1dkmy7pofgdb8fdy7nb8ycaz7lp22j",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:20:08,622 [nioEventLoopGroup-6-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:20:09,765 [nioEventLoopGroup-6-1] ERROR - long
+java.lang.InstantiationException: long
+	at java.lang.Class.newInstance(Class.java:359)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:245)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-21 16:20:09,766 [nioEventLoopGroup-6-1] INFO - channelInactive!: [id: 0xbdb6742e, /0:0:0:0:0:0:0:1:63329 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:20:09,766 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0xbdb6742e, /0:0:0:0:0:0:0:1:63329 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:20:09,766 [nioEventLoopGroup-6-1] INFO - onChannelClose
+2015-10-21 16:20:09,766 [nioEventLoopGroup-6-1] INFO - Channel exceptionCaught
+2015-10-21 16:20:09,766 [nioEventLoopGroup-6-1] INFO - Channel unregistered
+2015-10-21 16:20:36,693 [nioEventLoopGroup-6-2] INFO - channelActive : [id: 0xc957219e, /0:0:0:0:0:0:0:1:63345 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:20:36,693 [nioEventLoopGroup-6-2] INFO - [id: 0xc957219e, /0:0:0:0:0:0:0:1:63345 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:20:53,690 [nioEventLoopGroup-6-2] INFO - channelInactive!: [id: 0xc957219e, /0:0:0:0:0:0:0:1:63345 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:20:53,690 [nioEventLoopGroup-6-2] INFO - ChannelClosed: [id: 0xc957219e, /0:0:0:0:0:0:0:1:63345 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:20:53,690 [nioEventLoopGroup-6-2] INFO - Channel unregistered
+2015-10-21 16:20:54,784 [nioEventLoopGroup-6-3] INFO - channelActive : [id: 0xc15c3913, /0:0:0:0:0:0:0:1:63353 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:20:54,784 [nioEventLoopGroup-6-3] INFO - [id: 0xc15c3913, /0:0:0:0:0:0:0:1:63353 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:21:09,796 [nioEventLoopGroup-6-3] INFO - channelInactive!: [id: 0xc15c3913, /0:0:0:0:0:0:0:1:63353 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:21:09,796 [nioEventLoopGroup-6-3] INFO - ChannelClosed: [id: 0xc15c3913, /0:0:0:0:0:0:0:1:63353 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:21:09,796 [nioEventLoopGroup-6-3] INFO - Channel unregistered
+2015-10-21 16:21:10,941 [nioEventLoopGroup-6-4] INFO - channelActive : [id: 0xbfa8c06b, /0:0:0:0:0:0:0:1:63364 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:21:10,941 [nioEventLoopGroup-6-4] INFO - [id: 0xbfa8c06b, /0:0:0:0:0:0:0:1:63364 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:22:04,846 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@6b9c18ae
+2015-10-21 16:22:04,847 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@55187eb3
+2015-10-21 16:22:04,852 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:22:04,854 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:22:04,855 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:22:05,164 [Thread-7] INFO - Socket start at port 33333
+2015-10-21 16:22:05,164 [main] INFO - Telnet start at port 40000
+2015-10-21 16:22:05,196 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-21 16:22:21,274 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0xb2a9f791, /0:0:0:0:0:0:0:1:63414 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:22:21,291 [nioEventLoopGroup-7-1] INFO - [id: 0xb2a9f791, /0:0:0:0:0:0:0:1:63414 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:22:30,289 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "n3al4o6k0l89qhzo5npdxy0aa8b43f9d",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:22:30,290 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:27:31,006 [Thread-0] INFO - onTimeout
+2015-10-21 16:33:31,686 [nioEventLoopGroup-7-2] INFO - channelActive : [id: 0x97fac65a, /0:0:0:0:0:0:0:1:63935 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:33:31,687 [nioEventLoopGroup-7-2] INFO - [id: 0x97fac65a, /0:0:0:0:0:0:0:1:63935 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:34:39,553 [nioEventLoopGroup-7-1] ERROR - long
+java.lang.InstantiationException: long
+	at java.lang.Class.newInstance(Class.java:359)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.read(BigFoxUtils.java:245)
+	at vn.com.onesoft.bigfox.server.io.message.base.BigFoxUtils.fromBytes(BigFoxUtils.java:266)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:85)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-21 16:34:39,554 [nioEventLoopGroup-7-1] INFO - channelInactive!: [id: 0xb2a9f791, /0:0:0:0:0:0:0:1:63414 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:34:39,554 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0xb2a9f791, /0:0:0:0:0:0:0:1:63414 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:34:39,554 [nioEventLoopGroup-7-1] INFO - Channel unregistered
+2015-10-21 16:35:20,207 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@6b9c18ae
+2015-10-21 16:35:20,207 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@55187eb3
+2015-10-21 16:35:20,211 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:35:20,213 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:35:20,214 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:35:20,563 [Thread-7] INFO - Socket start at port 33333
+2015-10-21 16:35:20,563 [main] INFO - Telnet start at port 40000
+2015-10-21 16:35:20,587 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-21 16:35:30,738 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0x0f5c38c1, /0:0:0:0:0:0:0:1:64000 => /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:35:30,762 [nioEventLoopGroup-7-1] INFO - [id: 0x0f5c38c1, /0:0:0:0:0:0:0:1:64000 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:36:40,704 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "avy0vqmsy3mg06qm0m2oh2jfkxonnxrp",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:36:40,707 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:38:28,887 [nioEventLoopGroup-7-1] INFO - channelInactive!: [id: 0x0f5c38c1, /0:0:0:0:0:0:0:1:64000 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:38:28,888 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x0f5c38c1, /0:0:0:0:0:0:0:1:64000 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-21 16:38:28,888 [nioEventLoopGroup-7-1] INFO - onChannelClose
+2015-10-21 16:38:28,888 [nioEventLoopGroup-7-1] INFO - Channel exceptionCaught
+2015-10-21 16:38:28,888 [nioEventLoopGroup-7-1] INFO - Channel unregistered
+2015-10-21 16:40:10,763 [nioEventLoopGroup-7-2] INFO - channelActive : [id: 0x6155cbd1, /127.0.0.1:64134 => /127.0.0.1:33333]
+2015-10-21 16:40:10,763 [nioEventLoopGroup-7-2] INFO - [id: 0x6155cbd1, /127.0.0.1:64134 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:40:38,984 [nioEventLoopGroup-7-2] INFO - channelInactive!: [id: 0x6155cbd1, /127.0.0.1:64134 :> /127.0.0.1:33333]
+2015-10-21 16:40:38,984 [nioEventLoopGroup-7-2] INFO - ChannelClosed: [id: 0x6155cbd1, /127.0.0.1:64134 :> /127.0.0.1:33333]
+2015-10-21 16:40:38,984 [nioEventLoopGroup-7-2] INFO - Channel unregistered
+2015-10-21 16:40:41,126 [nioEventLoopGroup-7-3] INFO - channelActive : [id: 0xd03b5eef, /127.0.0.1:64144 => /127.0.0.1:33333]
+2015-10-21 16:40:41,126 [nioEventLoopGroup-7-3] INFO - [id: 0xd03b5eef, /127.0.0.1:64144 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:40:56,040 [nioEventLoopGroup-7-3] INFO - channelInactive!: [id: 0xd03b5eef, /127.0.0.1:64144 :> /127.0.0.1:33333]
+2015-10-21 16:40:56,040 [nioEventLoopGroup-7-3] INFO - ChannelClosed: [id: 0xd03b5eef, /127.0.0.1:64144 :> /127.0.0.1:33333]
+2015-10-21 16:40:56,040 [nioEventLoopGroup-7-3] INFO - Channel unregistered
+2015-10-21 16:40:57,079 [nioEventLoopGroup-7-4] INFO - channelActive : [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+2015-10-21 16:40:57,080 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:40:57,138 [nioEventLoopGroup-7-4] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "iqtolgjr9v7utsk2u8o8tb8c08nf1fc1",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:40:57,138 [nioEventLoopGroup-7-4] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:41:03,044 [nioEventLoopGroup-7-4] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:41:03,049 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420463049
+}
+2015-10-21 16:41:08,045 [nioEventLoopGroup-7-4] INFO - CSPing m:3 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:41:08,046 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420468046
+}
+2015-10-21 16:41:13,047 [nioEventLoopGroup-7-4] INFO - CSPing m:4 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:41:13,047 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420473047
+}
+2015-10-21 16:41:18,047 [nioEventLoopGroup-7-4] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:41:18,047 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420478047
+}
+2015-10-21 16:41:23,048 [nioEventLoopGroup-7-4] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:41:23,048 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420483048
+}
+2015-10-21 16:41:28,048 [nioEventLoopGroup-7-4] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:41:28,049 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420488048
+}
+2015-10-21 16:41:33,050 [nioEventLoopGroup-7-4] INFO - CSPing m:9 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:41:33,050 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420493050
+}
+2015-10-21 16:41:38,050 [nioEventLoopGroup-7-4] INFO - CSPing m:10 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:41:38,051 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420498051
+}
+2015-10-21 16:41:41,259 [Thread-0] INFO - onTimeout
+2015-10-21 16:41:43,052 [nioEventLoopGroup-7-4] INFO - CSPing m:11 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:41:43,053 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420503052
+}
+2015-10-21 16:41:48,053 [nioEventLoopGroup-7-4] INFO - CSPing m:12 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:41:48,054 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420508054
+}
+2015-10-21 16:41:53,055 [nioEventLoopGroup-7-4] INFO - CSPing m:13 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:41:53,055 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420513055
+}
+2015-10-21 16:41:58,056 [nioEventLoopGroup-7-4] INFO - CSPing m:14 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:41:58,056 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420518056
+}
+2015-10-21 16:42:03,057 [nioEventLoopGroup-7-4] INFO - CSPing m:15 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:42:03,058 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420523058
+}
+2015-10-21 16:42:08,059 [nioEventLoopGroup-7-4] INFO - CSPing m:16 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:42:08,059 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420528059
+}
+2015-10-21 16:42:13,060 [nioEventLoopGroup-7-4] INFO - CSPing m:17 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:42:13,060 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420533060
+}
+2015-10-21 16:42:18,060 [nioEventLoopGroup-7-4] INFO - CSPing m:18 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:42:18,061 [nioEventLoopGroup-7-4] INFO - [id: 0x48f86723, /127.0.0.1:64150 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420538061
+}
+2015-10-21 16:42:18,747 [nioEventLoopGroup-7-4] INFO - channelInactive!: [id: 0x48f86723, /127.0.0.1:64150 :> /127.0.0.1:33333]
+2015-10-21 16:42:18,747 [nioEventLoopGroup-7-4] INFO - ChannelClosed: [id: 0x48f86723, /127.0.0.1:64150 :> /127.0.0.1:33333]
+2015-10-21 16:42:18,747 [nioEventLoopGroup-7-4] INFO - onChannelClose
+2015-10-21 16:42:18,747 [nioEventLoopGroup-7-4] INFO - Channel exceptionCaught
+2015-10-21 16:42:18,747 [nioEventLoopGroup-7-4] INFO - Channel unregistered
+2015-10-21 16:42:20,507 [nioEventLoopGroup-7-5] INFO - channelActive : [id: 0x98f1a9b3, /127.0.0.1:64192 => /127.0.0.1:33333]
+2015-10-21 16:42:20,507 [nioEventLoopGroup-7-5] INFO - [id: 0x98f1a9b3, /127.0.0.1:64192 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:42:36,081 [nioEventLoopGroup-7-5] INFO - channelInactive!: [id: 0x98f1a9b3, /127.0.0.1:64192 :> /127.0.0.1:33333]
+2015-10-21 16:42:36,081 [nioEventLoopGroup-7-5] INFO - ChannelClosed: [id: 0x98f1a9b3, /127.0.0.1:64192 :> /127.0.0.1:33333]
+2015-10-21 16:42:36,081 [nioEventLoopGroup-7-5] INFO - Channel unregistered
+2015-10-21 16:42:37,893 [nioEventLoopGroup-7-6] INFO - channelActive : [id: 0xbab0f81d, /127.0.0.1:64218 => /127.0.0.1:33333]
+2015-10-21 16:42:37,894 [nioEventLoopGroup-7-6] INFO - [id: 0xbab0f81d, /127.0.0.1:64218 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:42:43,147 [nioEventLoopGroup-7-6] INFO - channelInactive!: [id: 0xbab0f81d, /127.0.0.1:64218 :> /127.0.0.1:33333]
+2015-10-21 16:42:43,147 [nioEventLoopGroup-7-6] INFO - ChannelClosed: [id: 0xbab0f81d, /127.0.0.1:64218 :> /127.0.0.1:33333]
+2015-10-21 16:42:43,147 [nioEventLoopGroup-7-6] INFO - Channel unregistered
+2015-10-21 16:42:45,206 [nioEventLoopGroup-7-7] INFO - channelActive : [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+2015-10-21 16:42:45,206 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:42:45,229 [nioEventLoopGroup-7-7] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "piqjhxzumiki970d5nnst77090rixaxa",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:42:45,230 [nioEventLoopGroup-7-7] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:42:45,240 [nioEventLoopGroup-7-7] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:42:45,240 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420565240
+}
+2015-10-21 16:42:50,242 [nioEventLoopGroup-7-7] INFO - CSPing m:3 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:42:50,242 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420570242
+}
+2015-10-21 16:42:55,242 [nioEventLoopGroup-7-7] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:42:55,243 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420575243
+}
+2015-10-21 16:43:00,244 [nioEventLoopGroup-7-7] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:43:00,244 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420580244
+}
+2015-10-21 16:43:05,245 [nioEventLoopGroup-7-7] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:43:05,246 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420585246
+}
+2015-10-21 16:43:10,247 [nioEventLoopGroup-7-7] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:43:10,247 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420590247
+}
+2015-10-21 16:43:15,247 [nioEventLoopGroup-7-7] INFO - CSPing m:9 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:43:15,248 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420595247
+}
+2015-10-21 16:43:20,248 [nioEventLoopGroup-7-7] INFO - CSPing m:10 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:43:20,249 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420600248
+}
+2015-10-21 16:43:25,250 [nioEventLoopGroup-7-7] INFO - CSPing m:11 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:43:25,251 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420605250
+}
+2015-10-21 16:43:30,251 [nioEventLoopGroup-7-7] INFO - CSPing m:12 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:43:30,252 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420610252
+}
+2015-10-21 16:43:35,252 [nioEventLoopGroup-7-7] INFO - CSPing m:13 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:43:35,252 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420615252
+}
+2015-10-21 16:43:40,253 [nioEventLoopGroup-7-7] INFO - CSPing m:14 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:43:40,254 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420620253
+}
+2015-10-21 16:43:45,254 [nioEventLoopGroup-7-7] INFO - CSPing m:15 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:43:45,254 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420625254
+}
+2015-10-21 16:43:50,255 [nioEventLoopGroup-7-7] INFO - CSPing m:16 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:43:50,255 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420630255
+}
+2015-10-21 16:43:55,256 [nioEventLoopGroup-7-7] INFO - CSPing m:17 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:43:55,256 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420635256
+}
+2015-10-21 16:44:00,258 [nioEventLoopGroup-7-7] INFO - CSPing m:18 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:44:00,258 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420640258
+}
+2015-10-21 16:44:05,259 [nioEventLoopGroup-7-7] INFO - CSPing m:19 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:44:05,260 [nioEventLoopGroup-7-7] INFO - [id: 0x2ad75113, /127.0.0.1:64223 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420645259
+}
+2015-10-21 16:44:08,421 [nioEventLoopGroup-7-7] INFO - channelInactive!: [id: 0x2ad75113, /127.0.0.1:64223 :> /127.0.0.1:33333]
+2015-10-21 16:44:08,421 [nioEventLoopGroup-7-7] INFO - ChannelClosed: [id: 0x2ad75113, /127.0.0.1:64223 :> /127.0.0.1:33333]
+2015-10-21 16:44:08,422 [nioEventLoopGroup-7-7] INFO - onChannelClose
+2015-10-21 16:44:08,422 [nioEventLoopGroup-7-7] INFO - Channel exceptionCaught
+2015-10-21 16:44:08,422 [nioEventLoopGroup-7-7] INFO - Channel unregistered
+2015-10-21 16:44:10,189 [nioEventLoopGroup-7-8] INFO - channelActive : [id: 0x7767e931, /127.0.0.1:64258 => /127.0.0.1:33333]
+2015-10-21 16:44:10,189 [nioEventLoopGroup-7-8] INFO - [id: 0x7767e931, /127.0.0.1:64258 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:44:15,573 [nioEventLoopGroup-7-8] INFO - channelInactive!: [id: 0x7767e931, /127.0.0.1:64258 :> /127.0.0.1:33333]
+2015-10-21 16:44:15,573 [nioEventLoopGroup-7-8] INFO - ChannelClosed: [id: 0x7767e931, /127.0.0.1:64258 :> /127.0.0.1:33333]
+2015-10-21 16:44:15,573 [nioEventLoopGroup-7-8] INFO - Channel unregistered
+2015-10-21 16:44:17,645 [nioEventLoopGroup-7-9] INFO - channelActive : [id: 0xedf60c0e, /127.0.0.1:64263 => /127.0.0.1:33333]
+2015-10-21 16:44:17,645 [nioEventLoopGroup-7-9] INFO - [id: 0xedf60c0e, /127.0.0.1:64263 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:44:22,022 [nioEventLoopGroup-7-9] INFO - channelInactive!: [id: 0xedf60c0e, /127.0.0.1:64263 :> /127.0.0.1:33333]
+2015-10-21 16:44:22,023 [nioEventLoopGroup-7-9] INFO - ChannelClosed: [id: 0xedf60c0e, /127.0.0.1:64263 :> /127.0.0.1:33333]
+2015-10-21 16:44:22,023 [nioEventLoopGroup-7-9] INFO - Channel unregistered
+2015-10-21 16:44:28,292 [nioEventLoopGroup-7-10] INFO - channelActive : [id: 0xe3cb07f7, /127.0.0.1:64267 => /127.0.0.1:33333]
+2015-10-21 16:44:28,293 [nioEventLoopGroup-7-10] INFO - [id: 0xe3cb07f7, /127.0.0.1:64267 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:44:35,745 [nioEventLoopGroup-7-10] INFO - channelInactive!: [id: 0xe3cb07f7, /127.0.0.1:64267 :> /127.0.0.1:33333]
+2015-10-21 16:44:35,745 [nioEventLoopGroup-7-10] INFO - ChannelClosed: [id: 0xe3cb07f7, /127.0.0.1:64267 :> /127.0.0.1:33333]
+2015-10-21 16:44:35,745 [nioEventLoopGroup-7-10] INFO - Channel unregistered
+2015-10-21 16:44:37,664 [nioEventLoopGroup-7-11] INFO - channelActive : [id: 0xc5b7c1ff, /127.0.0.1:64293 => /127.0.0.1:33333]
+2015-10-21 16:44:37,664 [nioEventLoopGroup-7-11] INFO - [id: 0xc5b7c1ff, /127.0.0.1:64293 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:44:39,360 [nioEventLoopGroup-7-11] INFO - channelInactive!: [id: 0xc5b7c1ff, /127.0.0.1:64293 :> /127.0.0.1:33333]
+2015-10-21 16:44:39,360 [nioEventLoopGroup-7-11] INFO - ChannelClosed: [id: 0xc5b7c1ff, /127.0.0.1:64293 :> /127.0.0.1:33333]
+2015-10-21 16:44:39,360 [nioEventLoopGroup-7-11] INFO - Channel unregistered
+2015-10-21 16:44:40,943 [nioEventLoopGroup-7-12] INFO - channelActive : [id: 0x336cc19d, /127.0.0.1:64297 => /127.0.0.1:33333]
+2015-10-21 16:44:40,943 [nioEventLoopGroup-7-12] INFO - [id: 0x336cc19d, /127.0.0.1:64297 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:44:42,714 [nioEventLoopGroup-7-12] INFO - channelInactive!: [id: 0x336cc19d, /127.0.0.1:64297 :> /127.0.0.1:33333]
+2015-10-21 16:44:42,714 [nioEventLoopGroup-7-12] INFO - ChannelClosed: [id: 0x336cc19d, /127.0.0.1:64297 :> /127.0.0.1:33333]
+2015-10-21 16:44:42,714 [nioEventLoopGroup-7-12] INFO - Channel unregistered
+2015-10-21 16:44:44,346 [nioEventLoopGroup-7-13] INFO - channelActive : [id: 0xce774ff3, /127.0.0.1:64300 => /127.0.0.1:33333]
+2015-10-21 16:44:44,347 [nioEventLoopGroup-7-13] INFO - [id: 0xce774ff3, /127.0.0.1:64300 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:44:45,775 [nioEventLoopGroup-7-13] INFO - channelInactive!: [id: 0xce774ff3, /127.0.0.1:64300 :> /127.0.0.1:33333]
+2015-10-21 16:44:45,775 [nioEventLoopGroup-7-13] INFO - ChannelClosed: [id: 0xce774ff3, /127.0.0.1:64300 :> /127.0.0.1:33333]
+2015-10-21 16:44:45,775 [nioEventLoopGroup-7-13] INFO - Channel unregistered
+2015-10-21 16:44:47,531 [nioEventLoopGroup-7-14] INFO - channelActive : [id: 0x3a3c62f9, /127.0.0.1:64304 => /127.0.0.1:33333]
+2015-10-21 16:44:47,531 [nioEventLoopGroup-7-14] INFO - [id: 0x3a3c62f9, /127.0.0.1:64304 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:44:49,383 [nioEventLoopGroup-7-14] INFO - channelInactive!: [id: 0x3a3c62f9, /127.0.0.1:64304 :> /127.0.0.1:33333]
+2015-10-21 16:44:49,383 [nioEventLoopGroup-7-14] INFO - ChannelClosed: [id: 0x3a3c62f9, /127.0.0.1:64304 :> /127.0.0.1:33333]
+2015-10-21 16:44:49,383 [nioEventLoopGroup-7-14] INFO - Channel unregistered
+2015-10-21 16:44:54,155 [nioEventLoopGroup-7-15] INFO - channelActive : [id: 0x62f2e5df, /127.0.0.1:64308 => /127.0.0.1:33333]
+2015-10-21 16:44:54,156 [nioEventLoopGroup-7-15] INFO - [id: 0x62f2e5df, /127.0.0.1:64308 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:45:07,868 [nioEventLoopGroup-7-15] INFO - channelInactive!: [id: 0x62f2e5df, /127.0.0.1:64308 :> /127.0.0.1:33333]
+2015-10-21 16:45:07,868 [nioEventLoopGroup-7-15] INFO - ChannelClosed: [id: 0x62f2e5df, /127.0.0.1:64308 :> /127.0.0.1:33333]
+2015-10-21 16:45:07,868 [nioEventLoopGroup-7-15] INFO - Channel unregistered
+2015-10-21 16:45:09,779 [nioEventLoopGroup-7-16] INFO - channelActive : [id: 0xb184f5fa, /127.0.0.1:64316 => /127.0.0.1:33333]
+2015-10-21 16:45:09,780 [nioEventLoopGroup-7-16] INFO - [id: 0xb184f5fa, /127.0.0.1:64316 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:45:11,742 [nioEventLoopGroup-7-16] INFO - channelInactive!: [id: 0xb184f5fa, /127.0.0.1:64316 :> /127.0.0.1:33333]
+2015-10-21 16:45:11,742 [nioEventLoopGroup-7-16] INFO - ChannelClosed: [id: 0xb184f5fa, /127.0.0.1:64316 :> /127.0.0.1:33333]
+2015-10-21 16:45:11,742 [nioEventLoopGroup-7-16] INFO - Channel unregistered
+2015-10-21 16:45:13,452 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0xf29425ce, /127.0.0.1:64321 => /127.0.0.1:33333]
+2015-10-21 16:45:13,452 [nioEventLoopGroup-7-1] INFO - [id: 0xf29425ce, /127.0.0.1:64321 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:45:16,161 [nioEventLoopGroup-7-1] INFO - channelInactive!: [id: 0xf29425ce, /127.0.0.1:64321 :> /127.0.0.1:33333]
+2015-10-21 16:45:16,161 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0xf29425ce, /127.0.0.1:64321 :> /127.0.0.1:33333]
+2015-10-21 16:45:16,161 [nioEventLoopGroup-7-1] INFO - Channel unregistered
+2015-10-21 16:45:17,967 [nioEventLoopGroup-7-2] INFO - channelActive : [id: 0x2b289f8e, /127.0.0.1:64325 => /127.0.0.1:33333]
+2015-10-21 16:45:17,967 [nioEventLoopGroup-7-2] INFO - [id: 0x2b289f8e, /127.0.0.1:64325 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:45:19,774 [nioEventLoopGroup-7-2] INFO - channelInactive!: [id: 0x2b289f8e, /127.0.0.1:64325 :> /127.0.0.1:33333]
+2015-10-21 16:45:19,774 [nioEventLoopGroup-7-2] INFO - ChannelClosed: [id: 0x2b289f8e, /127.0.0.1:64325 :> /127.0.0.1:33333]
+2015-10-21 16:45:19,774 [nioEventLoopGroup-7-2] INFO - Channel unregistered
+2015-10-21 16:45:21,449 [nioEventLoopGroup-7-3] INFO - channelActive : [id: 0x4d58df7b, /127.0.0.1:64328 => /127.0.0.1:33333]
+2015-10-21 16:45:21,449 [nioEventLoopGroup-7-3] INFO - [id: 0x4d58df7b, /127.0.0.1:64328 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:45:23,030 [nioEventLoopGroup-7-3] INFO - channelInactive!: [id: 0x4d58df7b, /127.0.0.1:64328 :> /127.0.0.1:33333]
+2015-10-21 16:45:23,030 [nioEventLoopGroup-7-3] INFO - ChannelClosed: [id: 0x4d58df7b, /127.0.0.1:64328 :> /127.0.0.1:33333]
+2015-10-21 16:45:23,030 [nioEventLoopGroup-7-3] INFO - Channel unregistered
+2015-10-21 16:45:24,765 [nioEventLoopGroup-7-4] INFO - channelActive : [id: 0xa590ec31, /127.0.0.1:64332 => /127.0.0.1:33333]
+2015-10-21 16:45:24,765 [nioEventLoopGroup-7-4] INFO - [id: 0xa590ec31, /127.0.0.1:64332 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:45:28,381 [nioEventLoopGroup-7-4] INFO - channelInactive!: [id: 0xa590ec31, /127.0.0.1:64332 :> /127.0.0.1:33333]
+2015-10-21 16:45:28,381 [nioEventLoopGroup-7-4] INFO - ChannelClosed: [id: 0xa590ec31, /127.0.0.1:64332 :> /127.0.0.1:33333]
+2015-10-21 16:45:28,381 [nioEventLoopGroup-7-4] INFO - Channel unregistered
+2015-10-21 16:45:30,418 [nioEventLoopGroup-7-5] INFO - channelActive : [id: 0xf0180cff, /127.0.0.1:64336 => /127.0.0.1:33333]
+2015-10-21 16:45:30,418 [nioEventLoopGroup-7-5] INFO - [id: 0xf0180cff, /127.0.0.1:64336 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:45:31,677 [nioEventLoopGroup-7-5] INFO - channelInactive!: [id: 0xf0180cff, /127.0.0.1:64336 :> /127.0.0.1:33333]
+2015-10-21 16:45:31,677 [nioEventLoopGroup-7-5] INFO - ChannelClosed: [id: 0xf0180cff, /127.0.0.1:64336 :> /127.0.0.1:33333]
+2015-10-21 16:45:31,677 [nioEventLoopGroup-7-5] INFO - Channel unregistered
+2015-10-21 16:45:36,120 [nioEventLoopGroup-7-6] INFO - channelActive : [id: 0xe30816c8, /127.0.0.1:64340 => /127.0.0.1:33333]
+2015-10-21 16:45:36,120 [nioEventLoopGroup-7-6] INFO - [id: 0xe30816c8, /127.0.0.1:64340 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:45:39,049 [nioEventLoopGroup-7-6] INFO - channelInactive!: [id: 0xe30816c8, /127.0.0.1:64340 :> /127.0.0.1:33333]
+2015-10-21 16:45:39,050 [nioEventLoopGroup-7-6] INFO - ChannelClosed: [id: 0xe30816c8, /127.0.0.1:64340 :> /127.0.0.1:33333]
+2015-10-21 16:45:39,050 [nioEventLoopGroup-7-6] INFO - Channel unregistered
+2015-10-21 16:45:57,695 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@6b9c18ae
+2015-10-21 16:45:57,695 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@55187eb3
+2015-10-21 16:45:57,703 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:45:57,706 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:45:57,707 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:45:58,021 [Thread-7] INFO - Socket start at port 33333
+2015-10-21 16:45:58,021 [main] INFO - Telnet start at port 40000
+2015-10-21 16:45:58,047 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-21 16:45:59,632 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0x06199ae6, /127.0.0.1:64360 => /127.0.0.1:33333]
+2015-10-21 16:45:59,646 [nioEventLoopGroup-7-1] INFO - [id: 0x06199ae6, /127.0.0.1:64360 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:45:59,694 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "myi5pbhbx0hk21347vc3h27gtv9885h5",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:45:59,695 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:45:59,698 [nioEventLoopGroup-7-1] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:45:59,698 [nioEventLoopGroup-7-1] INFO - [id: 0x06199ae6, /127.0.0.1:64360 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420759698
+}
+2015-10-21 16:46:04,699 [nioEventLoopGroup-7-1] INFO - CSPing m:3 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:46:04,700 [nioEventLoopGroup-7-1] INFO - [id: 0x06199ae6, /127.0.0.1:64360 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420764700
+}
+2015-10-21 16:46:09,701 [nioEventLoopGroup-7-1] INFO - CSPing m:4 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:46:09,701 [nioEventLoopGroup-7-1] INFO - [id: 0x06199ae6, /127.0.0.1:64360 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420769701
+}
+2015-10-21 16:46:14,702 [nioEventLoopGroup-7-1] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:46:14,702 [nioEventLoopGroup-7-1] INFO - [id: 0x06199ae6, /127.0.0.1:64360 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420774702
+}
+2015-10-21 16:46:19,703 [nioEventLoopGroup-7-1] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:46:19,704 [nioEventLoopGroup-7-1] INFO - [id: 0x06199ae6, /127.0.0.1:64360 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420779704
+}
+2015-10-21 16:46:20,939 [nioEventLoopGroup-7-1] INFO - channelInactive!: [id: 0x06199ae6, /127.0.0.1:64360 :> /127.0.0.1:33333]
+2015-10-21 16:46:20,939 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x06199ae6, /127.0.0.1:64360 :> /127.0.0.1:33333]
+2015-10-21 16:46:20,939 [nioEventLoopGroup-7-1] INFO - onChannelClose
+2015-10-21 16:46:20,939 [nioEventLoopGroup-7-1] INFO - Channel exceptionCaught
+2015-10-21 16:46:20,940 [nioEventLoopGroup-7-1] INFO - Channel unregistered
+2015-10-21 16:46:23,184 [nioEventLoopGroup-7-2] INFO - channelActive : [id: 0x07009fd8, /127.0.0.1:64370 => /127.0.0.1:33333]
+2015-10-21 16:46:23,184 [nioEventLoopGroup-7-2] INFO - [id: 0x07009fd8, /127.0.0.1:64370 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:46:36,168 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@6b9c18ae
+2015-10-21 16:46:36,168 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@55187eb3
+2015-10-21 16:46:36,172 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:46:36,174 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:46:36,175 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:46:36,436 [main] INFO - Telnet start at port 40000
+2015-10-21 16:46:36,436 [Thread-7] INFO - Socket start at port 33333
+2015-10-21 16:46:36,466 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-21 16:46:37,951 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+2015-10-21 16:46:37,969 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:46:38,017 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "pv7iv3qooqs29u3dfnzmupootvx5amu7",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:46:38,018 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:46:38,021 [nioEventLoopGroup-7-1] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:46:38,021 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420798021
+}
+2015-10-21 16:46:43,022 [nioEventLoopGroup-7-1] INFO - CSPing m:3 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:46:43,023 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420803022
+}
+2015-10-21 16:46:48,022 [nioEventLoopGroup-7-1] INFO - CSPing m:4 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:46:48,022 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420808022
+}
+2015-10-21 16:46:53,023 [nioEventLoopGroup-7-1] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:46:53,023 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420813023
+}
+2015-10-21 16:46:58,024 [nioEventLoopGroup-7-1] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:46:58,024 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420818024
+}
+2015-10-21 16:47:14,558 [nioEventLoopGroup-7-1] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:47:14,558 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420834558
+}
+2015-10-21 16:47:19,559 [nioEventLoopGroup-7-1] INFO - CSPing m:9 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:47:19,560 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420839560
+}
+2015-10-21 16:47:24,560 [nioEventLoopGroup-7-1] INFO - CSPing m:10 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:47:24,561 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420844561
+}
+2015-10-21 16:47:29,562 [nioEventLoopGroup-7-1] INFO - CSPing m:11 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:47:29,562 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420849562
+}
+2015-10-21 16:47:34,563 [nioEventLoopGroup-7-1] INFO - CSPing m:12 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:47:34,563 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420854563
+}
+2015-10-21 16:47:39,565 [nioEventLoopGroup-7-1] INFO - CSPing m:13 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:47:39,565 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420859565
+}
+2015-10-21 16:47:44,566 [nioEventLoopGroup-7-1] INFO - CSPing m:14 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:47:44,567 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420864566
+}
+2015-10-21 16:47:49,567 [nioEventLoopGroup-7-1] INFO - CSPing m:15 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:47:49,567 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420869567
+}
+2015-10-21 16:47:54,568 [nioEventLoopGroup-7-1] INFO - CSPing m:16 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:47:54,568 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420874568
+}
+2015-10-21 16:47:59,570 [nioEventLoopGroup-7-1] INFO - CSPing m:17 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:47:59,570 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420879570
+}
+2015-10-21 16:48:04,570 [nioEventLoopGroup-7-1] INFO - CSPing m:18 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:48:04,570 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420884570
+}
+2015-10-21 16:48:09,571 [nioEventLoopGroup-7-1] INFO - CSPing m:19 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:48:09,571 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420889571
+}
+2015-10-21 16:48:14,573 [nioEventLoopGroup-7-1] INFO - CSPing m:20 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:48:14,573 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420894573
+}
+2015-10-21 16:48:19,573 [nioEventLoopGroup-7-1] INFO - CSPing m:21 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:48:19,573 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420899573
+}
+2015-10-21 16:48:24,575 [nioEventLoopGroup-7-1] INFO - CSPing m:22 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:48:24,576 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420904576
+}
+2015-10-21 16:48:29,576 [nioEventLoopGroup-7-1] INFO - CSPing m:23 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:48:29,576 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420909576
+}
+2015-10-21 16:48:34,577 [nioEventLoopGroup-7-1] INFO - CSPing m:24 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:48:34,578 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420914578
+}
+2015-10-21 16:48:39,579 [nioEventLoopGroup-7-1] INFO - CSPing m:25 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:48:39,579 [nioEventLoopGroup-7-1] INFO - [id: 0x1f617463, /127.0.0.1:64387 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420919579
+}
+2015-10-21 16:48:41,397 [nioEventLoopGroup-7-1] INFO - channelInactive!: [id: 0x1f617463, /127.0.0.1:64387 :> /127.0.0.1:33333]
+2015-10-21 16:48:41,398 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x1f617463, /127.0.0.1:64387 :> /127.0.0.1:33333]
+2015-10-21 16:48:41,398 [nioEventLoopGroup-7-1] INFO - onChannelClose
+2015-10-21 16:48:41,398 [nioEventLoopGroup-7-1] INFO - Channel exceptionCaught
+2015-10-21 16:48:41,398 [nioEventLoopGroup-7-1] INFO - Channel unregistered
+2015-10-21 16:48:54,023 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@6b9c18ae
+2015-10-21 16:48:54,023 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@55187eb3
+2015-10-21 16:48:54,032 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:48:54,036 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:48:54,037 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:48:54,366 [Thread-7] INFO - Socket start at port 33333
+2015-10-21 16:48:54,366 [main] INFO - Telnet start at port 40000
+2015-10-21 16:48:54,391 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-21 16:49:31,006 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@6b9c18ae
+2015-10-21 16:49:31,007 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@55187eb3
+2015-10-21 16:49:31,014 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-21 16:49:31,017 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-21 16:49:31,018 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-21 16:49:31,382 [main] INFO - Telnet start at port 40000
+2015-10-21 16:49:31,382 [Thread-7] INFO - Socket start at port 33333
+2015-10-21 16:49:31,415 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-21 16:49:47,042 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+2015-10-21 16:49:47,056 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-21 16:49:47,100 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "yxols16tc8j93dumrxpg78zubb4fcqgi",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-21 16:49:47,101 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-21 16:49:47,104 [nioEventLoopGroup-7-1] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:49:47,105 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420987104
+}
+2015-10-21 16:49:52,105 [nioEventLoopGroup-7-1] INFO - CSPing m:3 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:49:52,106 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445420992106
+}
+2015-10-21 16:49:57,089 [nioEventLoopGroup-7-1] INFO - CSName m:4 s:0 {
+  msg: "qr"
+}
+2015-10-21 16:50:01,350 [nioEventLoopGroup-7-1] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:01,350 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421001350
+}
+2015-10-21 16:50:02,108 [nioEventLoopGroup-7-1] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:02,108 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421002108
+}
+2015-10-21 16:50:07,109 [nioEventLoopGroup-7-1] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:07,110 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421007109
+}
+2015-10-21 16:50:12,111 [nioEventLoopGroup-7-1] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:12,111 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421012111
+}
+2015-10-21 16:50:17,112 [nioEventLoopGroup-7-1] INFO - CSPing m:9 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:17,112 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421017112
+}
+2015-10-21 16:50:22,113 [nioEventLoopGroup-7-1] INFO - CSPing m:10 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:22,114 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421022114
+}
+2015-10-21 16:50:27,115 [nioEventLoopGroup-7-1] INFO - CSPing m:11 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:27,115 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421027115
+}
+2015-10-21 16:50:32,115 [nioEventLoopGroup-7-1] INFO - CSPing m:12 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:32,115 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421032115
+}
+2015-10-21 16:50:37,116 [nioEventLoopGroup-7-1] INFO - CSPing m:13 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:37,117 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421037117
+}
+2015-10-21 16:50:42,117 [nioEventLoopGroup-7-1] INFO - CSPing m:14 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:42,117 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421042117
+}
+2015-10-21 16:50:47,118 [nioEventLoopGroup-7-1] INFO - CSPing m:15 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:47,119 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421047119
+}
+2015-10-21 16:50:52,119 [nioEventLoopGroup-7-1] INFO - CSPing m:16 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:52,119 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421052119
+}
+2015-10-21 16:50:57,121 [nioEventLoopGroup-7-1] INFO - CSPing m:17 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:50:57,122 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421057121
+}
+2015-10-21 16:51:02,121 [nioEventLoopGroup-7-1] INFO - CSPing m:18 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:51:02,122 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421062121
+}
+2015-10-21 16:51:07,122 [nioEventLoopGroup-7-1] INFO - CSPing m:19 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:51:07,123 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421067123
+}
+2015-10-21 16:51:12,123 [nioEventLoopGroup-7-1] INFO - CSPing m:20 s:0 {
+  clientTime: 0
+}
+2015-10-21 16:51:12,123 [nioEventLoopGroup-7-1] INFO - [id: 0xb50c0dc7, /127.0.0.1:64465 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445421072123
+}

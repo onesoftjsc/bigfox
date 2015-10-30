@@ -41,7 +41,7 @@ public class Extracter extends Thread {
                 try {
                     Thread.sleep(1000);
                 } catch (Exception tex) {
-
+                    
                 }
             }
         }

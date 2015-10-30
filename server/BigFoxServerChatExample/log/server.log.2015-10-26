@@ -1,0 +1,47 @@
+2015-10-26 11:10:01,454 [main] INFO - define class vn.com.onesoft.chatexamain.chat.BFSessionEvent
+2015-10-26 11:10:01,455 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.session.IBFSessionEvent
+2015-10-26 11:10:01,455 [main] INFO - BFClassLoader load java.lang.Object
+2015-10-26 11:10:01,466 [main] INFO - define class vn.com.onesoft.chatexample.main.Main
+2015-10-26 11:10:01,468 [main] INFO - define class vn.com.onesoft.chatexample.server.db.DBUserLog
+2015-10-26 11:10:01,470 [main] INFO - define class vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-10-26 11:10:01,472 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-26 11:10:01,472 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-10-26 11:10:01,475 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-26 11:10:01,476 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-26 11:10:01,476 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-10-26 11:10:01,478 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.tags.Tags
+2015-10-26 11:10:01,480 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-10-26 11:10:01,487 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-10-26 11:10:01,487 [main] INFO - BFClassLoader load java.lang.Exception
+2015-10-26 11:10:01,487 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-10-26 11:10:02,514 [main] DEBUG - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2015-10-26 11:10:02,514 [main] INFO - HV000001: Hibernate Validator 5.1.3.Final
+2015-10-26 11:10:02,525 [main] DEBUG - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2015-10-26 11:10:02,526 [main] DEBUG - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2015-10-26 11:10:02,543 [main] DEBUG - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2015-10-26 11:10:02,548 [main] DEBUG - No META-INF/validation.xml found. Using annotation based configuration only.
+2015-10-26 11:10:02,661 [main] DEBUG - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2015-10-26 11:10:02,662 [main] DEBUG - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2015-10-26 11:10:02,663 [main] DEBUG - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2015-10-26 11:10:02,664 [main] DEBUG - No META-INF/validation.xml found. Using annotation based configuration only.
+2015-10-26 11:10:03,938 [main] INFO - Telnet start at port 40000
+2015-10-26 11:10:03,938 [Thread-7] INFO - Socket start at port 33333
+2015-10-26 11:10:03,961 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-26 11:10:12,837 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0xf418add9, /127.0.0.1:62858 => /127.0.0.1:33333]
+2015-10-26 11:10:12,854 [nioEventLoopGroup-7-1] INFO - [id: 0xf418add9, /127.0.0.1:62858 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-26 11:10:12,950 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "l5lu8shr4nqo82ss9v9afacbpt",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-10-26 11:10:12,952 [nioEventLoopGroup-7-1] INFO - channelInactive!: [id: 0xf418add9, /127.0.0.1:62858 :> /127.0.0.1:33333]
+2015-10-26 11:10:12,953 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0xf418add9, /127.0.0.1:62858 :> /127.0.0.1:33333]
+2015-10-26 11:10:12,953 [nioEventLoopGroup-7-1] INFO - Channel unregistered

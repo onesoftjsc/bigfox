@@ -37,6 +37,7 @@ public class CSChat extends MessageIn {
     @Override
     public void execute(Channel channel) {
          BFLogger.getInstance().info("ClassLoader CSChat " + this.getClass().getClassLoader());
+         
         IBFSession session = BFSessionManager.getInstance().getSessionByChannel(channel);
         String name = Main.mapSessionToName.get(session);
         int hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);

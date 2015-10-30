@@ -29,18 +29,14 @@ import vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil;
 public class Main {
     public static Map<IBFSession, String> mapSessionToName = new MapMaker().makeMap();
     public static void main(String[] args) throws Exception {
-//            vn.com.onesoft.bigfox.server.main.Main.main(args);
+        BFZoneManager.getInstance().loadZone(new File(".").getCanonicalPath() + "/target/BigFoxServerChatExample");
         BFSessionManager.getInstance().setSessionEvent(new BFSessionEvent());
-        HibernateFactoryUtil.getInstance();
-        DBUserLog db = new DBUserLog("1", "1");
-        
-        BFZoneManager.getInstance().loadZone(new File(".").getCanonicalPath() + "/target/classes");
+
         MonitorFileChanged.getInstance();
         MessageExecute.getInstance();
         BFConfig.getInstance();
         SocketManager.getInstance();
         WebSocketManager.getInstance();
         TelnetManager.getInstance();
-        
     }
 }

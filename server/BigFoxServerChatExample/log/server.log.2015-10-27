@@ -1,0 +1,156 @@
+2015-10-27 11:36:56,615 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-27 11:36:56,616 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-10-27 11:36:56,627 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-27 11:36:56,628 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-27 11:36:56,628 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-10-27 11:36:56,645 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-10-27 11:36:56,653 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-10-27 11:36:56,653 [main] INFO - BFClassLoader load java.lang.Exception
+2015-10-27 11:36:56,653 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-10-27 11:36:57,530 [main] DEBUG - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2015-10-27 11:36:57,530 [main] INFO - HV000001: Hibernate Validator 5.1.3.Final
+2015-10-27 11:36:57,540 [main] DEBUG - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2015-10-27 11:36:57,541 [main] DEBUG - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2015-10-27 11:36:57,559 [main] DEBUG - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2015-10-27 11:36:57,567 [main] DEBUG - No META-INF/validation.xml found. Using annotation based configuration only.
+2015-10-27 11:36:57,674 [main] DEBUG - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2015-10-27 11:36:57,674 [main] DEBUG - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2015-10-27 11:36:57,674 [main] DEBUG - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2015-10-27 11:36:57,675 [main] DEBUG - No META-INF/validation.xml found. Using annotation based configuration only.
+2015-10-27 11:36:58,749 [Thread-7] INFO - Socket start at port 33333
+2015-10-27 11:36:58,749 [Thread-9] INFO - Telnet start at port 40000
+2015-10-27 11:36:58,769 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-27 11:37:30,533 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0x5b8ed49f, /127.0.0.1:56914 => /127.0.0.1:33333]
+2015-10-27 11:37:30,549 [nioEventLoopGroup-7-1] INFO - [id: 0x5b8ed49f, /127.0.0.1:56914 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-27 11:37:30,630 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "c1vj5nd5mlo5i6eiomv2o98vkr",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-27 11:37:30,631 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-27 11:37:30,635 [nioEventLoopGroup-7-1] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-27 11:37:30,636 [nioEventLoopGroup-7-1] INFO - [id: 0x5b8ed49f, /127.0.0.1:56914 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445920650635
+}
+2015-10-27 11:37:31,819 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.String
+2015-10-27 11:37:31,819 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Property
+2015-10-27 11:37:31,820 [nioEventLoopGroup-7-1] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-10-27 11:37:31,820 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager
+2015-10-27 11:37:31,820 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.main.Main
+2015-10-27 11:37:31,820 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.util.Map
+2015-10-27 11:37:33,747 [nioEventLoopGroup-7-1] INFO - CSChat m:4 s:0 {
+  msg: "aaa"
+}
+2015-10-27 11:37:33,747 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
+2015-10-27 11:37:33,748 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.StringBuilder
+2015-10-27 11:37:33,748 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.Object
+2015-10-27 11:37:33,748 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.Class
+2015-10-27 11:37:33,748 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoaderZone@7f8e1a98
+2015-10-27 11:37:33,748 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.util.Calendar
+2015-10-27 11:37:33,748 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager
+2015-10-27 11:37:33,748 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.IBFZone
+2015-10-27 11:37:33,749 [nioEventLoopGroup-7-1] INFO - [id: 0x5b8ed49f, /127.0.0.1:56914 => /127.0.0.1:33333]
+SCChat m:4 s:1 {
+  msg: "11:37:33
+Q: aaa"
+}
+2015-10-27 11:37:33,750 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-10-27 11:37:33,750 [nioEventLoopGroup-7-1] INFO - BFClassLoader load org.hibernate.SessionFactory
+2015-10-27 11:37:33,807 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.server.db.DBUserLog
+2015-10-27 11:37:33,859 [nioEventLoopGroup-7-1] INFO - BFClassLoader load org.hibernate.Transaction
+2015-10-27 11:37:35,636 [nioEventLoopGroup-7-1] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-10-27 11:37:35,636 [nioEventLoopGroup-7-1] INFO - [id: 0x5b8ed49f, /127.0.0.1:56914 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445920655636
+}
+2015-10-27 11:37:35,993 [nioEventLoopGroup-7-1] INFO - CSChat m:6 s:0 {
+  msg: "bb"
+}
+2015-10-27 11:37:35,993 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoaderZone@7f8e1a98
+2015-10-27 11:37:35,994 [nioEventLoopGroup-7-1] INFO - [id: 0x5b8ed49f, /127.0.0.1:56914 => /127.0.0.1:33333]
+SCChat m:6 s:2 {
+  msg: "11:37:35
+Q: bb"
+}
+2015-10-27 11:37:40,637 [nioEventLoopGroup-7-1] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-27 11:37:40,637 [nioEventLoopGroup-7-1] INFO - [id: 0x5b8ed49f, /127.0.0.1:56914 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445920660637
+}
+2015-10-27 11:37:45,637 [nioEventLoopGroup-7-1] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-10-27 11:37:45,638 [nioEventLoopGroup-7-1] INFO - [id: 0x5b8ed49f, /127.0.0.1:56914 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445920665638
+}
+2015-10-27 11:37:50,638 [nioEventLoopGroup-7-1] INFO - CSPing m:9 s:0 {
+  clientTime: 0
+}
+2015-10-27 11:37:50,638 [nioEventLoopGroup-7-1] INFO - [id: 0x5b8ed49f, /127.0.0.1:56914 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445920670638
+}
+2015-10-27 11:37:55,639 [nioEventLoopGroup-7-1] INFO - CSPing m:10 s:0 {
+  clientTime: 0
+}
+2015-10-27 11:37:55,639 [nioEventLoopGroup-7-1] INFO - [id: 0x5b8ed49f, /127.0.0.1:56914 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445920675639
+}
+2015-10-27 11:38:00,640 [nioEventLoopGroup-7-1] INFO - CSPing m:11 s:0 {
+  clientTime: 0
+}
+2015-10-27 11:38:00,640 [nioEventLoopGroup-7-1] INFO - [id: 0x5b8ed49f, /127.0.0.1:56914 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445920680640
+}
+2015-10-27 11:38:05,641 [nioEventLoopGroup-7-1] INFO - CSPing m:12 s:0 {
+  clientTime: 0
+}
+2015-10-27 11:38:05,641 [nioEventLoopGroup-7-1] INFO - [id: 0x5b8ed49f, /127.0.0.1:56914 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445920685641
+}
+2015-10-27 11:38:07,179 [nioEventLoopGroup-7-1] INFO - channelInactive!: [id: 0x5b8ed49f, /127.0.0.1:56914 :> /127.0.0.1:33333]
+2015-10-27 11:38:07,179 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x5b8ed49f, /127.0.0.1:56914 :> /127.0.0.1:33333]
+2015-10-27 11:38:07,179 [nioEventLoopGroup-7-1] INFO - onChannelClose
+2015-10-27 11:38:07,180 [nioEventLoopGroup-7-1] ERROR - Channel exceptionCaught
+java.lang.UnsupportedOperationException: Not supported yet.
+	at vn.com.onesoft.chatexamain.chat.BFSessionEvent.closeChannel(BFSessionEvent.java:35)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onChannelClose(BFSessionManager.java:228)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelInactive(SocketServerHandler.java:66)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:56)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:92)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:135)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:306)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:56)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:92)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:135)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:928)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:658)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-27 11:38:07,181 [nioEventLoopGroup-7-1] INFO - Channel unregistered

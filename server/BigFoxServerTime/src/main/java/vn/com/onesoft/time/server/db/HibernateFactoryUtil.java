@@ -4,11 +4,12 @@ package vn.com.onesoft.time.server.db;
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 import java.io.File;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
+import vn.com.onesoft.bigfox.server.main.Main;
+import vn.com.onesoft.time.server.main.TimeActivity;
 
 /**
  *
@@ -29,12 +30,15 @@ public class HibernateFactoryUtil {
 
     static {
         File file = new File("hibernate.cfg.xml");
+        if (!Main.isDebug) {
+            file = new File(TimeActivity.getInstance().getZone().getAbsolutePath() + "/hibernate.cfg.xml");
+        }
         String fname = file.getAbsolutePath();
         sessionFactory = new AnnotationConfiguration().configure(file).buildSessionFactory();
     }
 
     public static void reloadConfig() {
-        File file = new File("hibernate.cfg.xml");
+        File file = new File(TimeActivity.getInstance().getZone().getAbsolutePath() + "/hibernate.cfg.xml");
         sessionFactory = new AnnotationConfiguration().configure(file).buildSessionFactory();
     }
 

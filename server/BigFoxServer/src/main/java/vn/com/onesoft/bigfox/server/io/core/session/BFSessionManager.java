@@ -38,7 +38,7 @@ public class BFSessionManager {
 
     public final static int SESSION_TIMEOUT = BFConfig.getInstance().getSessionTimeout(); //300 s
     private static BFSessionManager _instance;
-    private IBFSessionEvent sessionEvent;
+    private IBFSessionEvent sessionEvent = new BFDefaultSessionEvent();
 
     public static BFSessionManager getInstance() {
         if (_instance == null) {

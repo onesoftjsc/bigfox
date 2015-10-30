@@ -1,0 +1,3489 @@
+2015-10-22 08:55:23,196 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@566d0085
+2015-10-22 08:55:23,196 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@e3d4817
+2015-10-22 08:55:23,203 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-22 08:55:23,205 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-22 08:55:23,206 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-22 08:55:23,537 [main] INFO - Telnet start at port 40000
+2015-10-22 08:55:23,537 [Thread-7] INFO - Socket start at port 33333
+2015-10-22 08:55:23,563 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-22 08:55:48,820 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0x7c7caf0f, /0:0:0:0:0:0:0:1:49924 => /0:0:0:0:0:0:0:1:33333]
+2015-10-22 08:55:48,836 [nioEventLoopGroup-6-1] INFO - [id: 0x7c7caf0f, /0:0:0:0:0:0:0:1:49924 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-22 08:56:04,283 [nioEventLoopGroup-6-1] INFO - channelInactive!: [id: 0x7c7caf0f, /0:0:0:0:0:0:0:1:49924 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-22 08:56:04,283 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0x7c7caf0f, /0:0:0:0:0:0:0:1:49924 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-22 08:56:04,283 [nioEventLoopGroup-6-1] INFO - Channel unregistered
+2015-10-22 08:56:06,022 [nioEventLoopGroup-6-2] INFO - channelActive : [id: 0x2872306e, /0:0:0:0:0:0:0:1:49938 => /0:0:0:0:0:0:0:1:33333]
+2015-10-22 08:56:06,022 [nioEventLoopGroup-6-2] INFO - [id: 0x2872306e, /0:0:0:0:0:0:0:1:49938 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-22 08:56:19,670 [nioEventLoopGroup-6-2] INFO - channelInactive!: [id: 0x2872306e, /0:0:0:0:0:0:0:1:49938 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-22 08:56:19,670 [nioEventLoopGroup-6-2] INFO - ChannelClosed: [id: 0x2872306e, /0:0:0:0:0:0:0:1:49938 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-22 08:56:19,670 [nioEventLoopGroup-6-2] INFO - Channel unregistered
+2015-10-22 08:56:22,269 [nioEventLoopGroup-6-3] INFO - channelActive : [id: 0x3bb03fa6, /0:0:0:0:0:0:0:1:49962 => /0:0:0:0:0:0:0:1:33333]
+2015-10-22 08:56:22,269 [nioEventLoopGroup-6-3] INFO - [id: 0x3bb03fa6, /0:0:0:0:0:0:0:1:49962 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-22 08:56:25,075 [nioEventLoopGroup-6-3] INFO - channelInactive!: [id: 0x3bb03fa6, /0:0:0:0:0:0:0:1:49962 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-22 08:56:25,075 [nioEventLoopGroup-6-3] INFO - ChannelClosed: [id: 0x3bb03fa6, /0:0:0:0:0:0:0:1:49962 :> /0:0:0:0:0:0:0:1:33333]
+2015-10-22 08:56:25,075 [nioEventLoopGroup-6-3] INFO - Channel unregistered
+2015-10-22 08:56:27,243 [nioEventLoopGroup-6-4] INFO - channelActive : [id: 0xe41bbadf, /0:0:0:0:0:0:0:1:49968 => /0:0:0:0:0:0:0:1:33333]
+2015-10-22 08:56:27,243 [nioEventLoopGroup-6-4] INFO - [id: 0xe41bbadf, /0:0:0:0:0:0:0:1:49968 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-22 08:57:09,706 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$AppClassLoader@6b9c18ae
+2015-10-22 08:57:09,706 [main] INFO - ClassLoader DBUserLogsun.misc.Launcher$ExtClassLoader@55187eb3
+2015-10-22 08:57:09,711 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-10-22 08:57:09,713 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-10-22 08:57:09,714 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-10-22 08:57:10,001 [main] INFO - Telnet start at port 40000
+2015-10-22 08:57:10,002 [Thread-7] INFO - Socket start at port 33333
+2015-10-22 08:57:10,022 [Thread-8] INFO - WebSocket start at port 33332
+2015-10-22 08:57:16,471 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+2015-10-22 08:57:16,483 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-10-22 08:57:16,528 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "ios",
+    imei: "",
+    version: 1,
+    sessionId: "7vd2uck8op4b03rtj8j9ckl1agg18sot",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-22 08:57:16,529 [nioEventLoopGroup-6-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-10-22 08:57:16,531 [nioEventLoopGroup-6-1] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:57:16,532 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479036531
+}
+2015-10-22 08:57:21,533 [nioEventLoopGroup-6-1] INFO - CSPing m:3 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:57:21,533 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479041533
+}
+2015-10-22 08:57:26,263 [nioEventLoopGroup-6-1] INFO - CSName m:4 s:0 {
+  msg: "quan"
+}
+2015-10-22 08:57:26,536 [nioEventLoopGroup-6-1] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:57:26,537 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479046536
+}
+2015-10-22 08:57:31,535 [nioEventLoopGroup-6-1] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:57:31,536 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479051536
+}
+2015-10-22 08:57:36,537 [nioEventLoopGroup-6-1] INFO - CSPing m:7 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:57:36,538 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479056537
+}
+2015-10-22 08:57:41,539 [nioEventLoopGroup-6-1] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:57:41,539 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479061539
+}
+2015-10-22 08:57:46,540 [nioEventLoopGroup-6-1] INFO - CSPing m:9 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:57:46,540 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479066540
+}
+2015-10-22 08:57:51,543 [nioEventLoopGroup-6-1] INFO - CSPing m:10 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:57:51,543 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479071543
+}
+2015-10-22 08:57:56,543 [nioEventLoopGroup-6-1] INFO - CSPing m:11 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:57:56,544 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479076544
+}
+2015-10-22 08:58:01,545 [nioEventLoopGroup-6-1] INFO - CSPing m:12 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:58:01,546 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479081545
+}
+2015-10-22 08:58:06,547 [nioEventLoopGroup-6-1] INFO - CSPing m:13 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:58:06,547 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479086547
+}
+2015-10-22 08:58:11,548 [nioEventLoopGroup-6-1] INFO - CSPing m:14 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:58:11,549 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479091548
+}
+2015-10-22 08:58:16,549 [nioEventLoopGroup-6-1] INFO - CSPing m:15 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:58:16,550 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479096550
+}
+2015-10-22 08:58:21,550 [nioEventLoopGroup-6-1] INFO - CSPing m:16 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:58:21,551 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479101550
+}
+2015-10-22 08:58:26,553 [nioEventLoopGroup-6-1] INFO - CSPing m:17 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:58:26,553 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479106553
+}
+2015-10-22 08:58:31,553 [nioEventLoopGroup-6-1] INFO - CSPing m:18 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:58:31,553 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479111553
+}
+2015-10-22 08:58:36,553 [nioEventLoopGroup-6-1] INFO - CSPing m:19 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:58:36,554 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479116553
+}
+2015-10-22 08:58:41,554 [nioEventLoopGroup-6-1] INFO - CSPing m:20 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:58:41,554 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479121554
+}
+2015-10-22 08:58:46,555 [nioEventLoopGroup-6-1] INFO - CSPing m:21 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:58:46,556 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479126556
+}
+2015-10-22 08:58:51,556 [nioEventLoopGroup-6-1] INFO - CSPing m:22 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:58:51,556 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479131556
+}
+2015-10-22 08:58:56,557 [nioEventLoopGroup-6-1] INFO - CSPing m:23 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:58:56,557 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479136557
+}
+2015-10-22 08:59:01,559 [nioEventLoopGroup-6-1] INFO - CSPing m:24 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:59:01,559 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479141559
+}
+2015-10-22 08:59:06,560 [nioEventLoopGroup-6-1] INFO - CSPing m:25 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:59:06,561 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479146561
+}
+2015-10-22 08:59:11,562 [nioEventLoopGroup-6-1] INFO - CSPing m:26 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:59:11,562 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479151562
+}
+2015-10-22 08:59:16,563 [nioEventLoopGroup-6-1] INFO - CSPing m:27 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:59:16,564 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479156564
+}
+2015-10-22 08:59:21,564 [nioEventLoopGroup-6-1] INFO - CSPing m:28 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:59:21,565 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479161564
+}
+2015-10-22 08:59:26,566 [nioEventLoopGroup-6-1] INFO - CSPing m:29 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:59:26,566 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479166566
+}
+2015-10-22 08:59:31,566 [nioEventLoopGroup-6-1] INFO - CSPing m:30 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:59:31,567 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479171567
+}
+2015-10-22 08:59:36,568 [nioEventLoopGroup-6-1] INFO - CSPing m:31 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:59:36,568 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479176568
+}
+2015-10-22 08:59:41,570 [nioEventLoopGroup-6-1] INFO - CSPing m:32 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:59:41,570 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479181570
+}
+2015-10-22 08:59:46,572 [nioEventLoopGroup-6-1] INFO - CSPing m:33 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:59:46,572 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479186572
+}
+2015-10-22 08:59:51,573 [nioEventLoopGroup-6-1] INFO - CSPing m:34 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:59:51,573 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479191573
+}
+2015-10-22 08:59:56,575 [nioEventLoopGroup-6-1] INFO - CSPing m:35 s:0 {
+  clientTime: 0
+}
+2015-10-22 08:59:56,575 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479196575
+}
+2015-10-22 09:00:01,576 [nioEventLoopGroup-6-1] INFO - CSPing m:36 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:00:01,577 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479201576
+}
+2015-10-22 09:00:06,578 [nioEventLoopGroup-6-1] INFO - CSPing m:37 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:00:06,578 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479206578
+}
+2015-10-22 09:00:11,579 [nioEventLoopGroup-6-1] INFO - CSPing m:38 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:00:11,580 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479211580
+}
+2015-10-22 09:00:16,581 [nioEventLoopGroup-6-1] INFO - CSPing m:39 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:00:16,581 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479216581
+}
+2015-10-22 09:00:21,582 [nioEventLoopGroup-6-1] INFO - CSPing m:40 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:00:21,583 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479221583
+}
+2015-10-22 09:00:26,583 [nioEventLoopGroup-6-1] INFO - CSPing m:41 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:00:26,584 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479226584
+}
+2015-10-22 09:00:31,585 [nioEventLoopGroup-6-1] INFO - CSPing m:42 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:00:31,585 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479231585
+}
+2015-10-22 09:00:36,587 [nioEventLoopGroup-6-1] INFO - CSPing m:43 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:00:36,587 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479236587
+}
+2015-10-22 09:00:41,587 [nioEventLoopGroup-6-1] INFO - CSPing m:44 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:00:41,588 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479241588
+}
+2015-10-22 09:00:46,588 [nioEventLoopGroup-6-1] INFO - CSPing m:45 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:00:46,588 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479246588
+}
+2015-10-22 09:00:51,589 [nioEventLoopGroup-6-1] INFO - CSPing m:46 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:00:51,590 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479251590
+}
+2015-10-22 09:00:56,591 [nioEventLoopGroup-6-1] INFO - CSPing m:47 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:00:56,592 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479256591
+}
+2015-10-22 09:01:01,592 [nioEventLoopGroup-6-1] INFO - CSPing m:48 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:01:01,593 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479261593
+}
+2015-10-22 09:01:06,594 [nioEventLoopGroup-6-1] INFO - CSPing m:49 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:01:06,595 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479266595
+}
+2015-10-22 09:01:11,595 [nioEventLoopGroup-6-1] INFO - CSPing m:50 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:01:11,596 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479271596
+}
+2015-10-22 09:01:16,597 [nioEventLoopGroup-6-1] INFO - CSPing m:51 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:01:16,597 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479276597
+}
+2015-10-22 09:01:21,598 [nioEventLoopGroup-6-1] INFO - CSPing m:52 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:01:21,599 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479281599
+}
+2015-10-22 09:01:26,600 [nioEventLoopGroup-6-1] INFO - CSPing m:53 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:01:26,601 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479286601
+}
+2015-10-22 09:01:31,601 [nioEventLoopGroup-6-1] INFO - CSPing m:54 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:01:31,602 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479291602
+}
+2015-10-22 09:01:36,603 [nioEventLoopGroup-6-1] INFO - CSPing m:55 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:01:36,604 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479296604
+}
+2015-10-22 09:01:41,605 [nioEventLoopGroup-6-1] INFO - CSPing m:56 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:01:41,605 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479301605
+}
+2015-10-22 09:01:46,607 [nioEventLoopGroup-6-1] INFO - CSPing m:57 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:01:46,607 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479306607
+}
+2015-10-22 09:01:51,608 [nioEventLoopGroup-6-1] INFO - CSPing m:58 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:01:51,609 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479311608
+}
+2015-10-22 09:01:56,610 [nioEventLoopGroup-6-1] INFO - CSPing m:59 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:01:56,610 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479316610
+}
+2015-10-22 09:02:01,611 [nioEventLoopGroup-6-1] INFO - CSPing m:60 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:02:01,611 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479321611
+}
+2015-10-22 09:02:06,613 [nioEventLoopGroup-6-1] INFO - CSPing m:61 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:02:06,613 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479326613
+}
+2015-10-22 09:02:11,614 [nioEventLoopGroup-6-1] INFO - CSPing m:62 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:02:11,615 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479331615
+}
+2015-10-22 09:02:16,616 [nioEventLoopGroup-6-1] INFO - CSPing m:63 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:02:16,616 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479336616
+}
+2015-10-22 09:02:21,616 [nioEventLoopGroup-6-1] INFO - CSPing m:64 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:02:21,617 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479341617
+}
+2015-10-22 09:02:26,618 [nioEventLoopGroup-6-1] INFO - CSPing m:65 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:02:26,619 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479346618
+}
+2015-10-22 09:02:31,620 [nioEventLoopGroup-6-1] INFO - CSPing m:66 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:02:31,620 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479351620
+}
+2015-10-22 09:02:36,621 [nioEventLoopGroup-6-1] INFO - CSPing m:67 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:02:36,622 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479356622
+}
+2015-10-22 09:02:41,623 [nioEventLoopGroup-6-1] INFO - CSPing m:68 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:02:41,623 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479361623
+}
+2015-10-22 09:02:46,625 [nioEventLoopGroup-6-1] INFO - CSPing m:69 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:02:46,625 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479366625
+}
+2015-10-22 09:02:51,626 [nioEventLoopGroup-6-1] INFO - CSPing m:70 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:02:51,626 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479371626
+}
+2015-10-22 09:02:56,628 [nioEventLoopGroup-6-1] INFO - CSPing m:71 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:02:56,628 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479376628
+}
+2015-10-22 09:03:01,629 [nioEventLoopGroup-6-1] INFO - CSPing m:72 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:03:01,630 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479381630
+}
+2015-10-22 09:03:06,631 [nioEventLoopGroup-6-1] INFO - CSPing m:73 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:03:06,631 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479386631
+}
+2015-10-22 09:03:11,632 [nioEventLoopGroup-6-1] INFO - CSPing m:74 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:03:11,632 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479391632
+}
+2015-10-22 09:03:16,634 [nioEventLoopGroup-6-1] INFO - CSPing m:75 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:03:16,634 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479396634
+}
+2015-10-22 09:03:21,635 [nioEventLoopGroup-6-1] INFO - CSPing m:76 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:03:21,635 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479401635
+}
+2015-10-22 09:03:26,637 [nioEventLoopGroup-6-1] INFO - CSPing m:77 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:03:26,637 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479406637
+}
+2015-10-22 09:03:31,638 [nioEventLoopGroup-6-1] INFO - CSPing m:78 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:03:31,639 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479411638
+}
+2015-10-22 09:03:36,640 [nioEventLoopGroup-6-1] INFO - CSPing m:79 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:03:36,640 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479416640
+}
+2015-10-22 09:03:41,641 [nioEventLoopGroup-6-1] INFO - CSPing m:80 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:03:41,642 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479421642
+}
+2015-10-22 09:03:46,643 [nioEventLoopGroup-6-1] INFO - CSPing m:81 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:03:46,644 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479426643
+}
+2015-10-22 09:03:51,645 [nioEventLoopGroup-6-1] INFO - CSPing m:82 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:03:51,645 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479431645
+}
+2015-10-22 09:03:56,646 [nioEventLoopGroup-6-1] INFO - CSPing m:83 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:03:56,647 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479436646
+}
+2015-10-22 09:04:01,648 [nioEventLoopGroup-6-1] INFO - CSPing m:84 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:04:01,649 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479441649
+}
+2015-10-22 09:04:06,651 [nioEventLoopGroup-6-1] INFO - CSPing m:85 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:04:06,652 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479446652
+}
+2015-10-22 09:04:11,654 [nioEventLoopGroup-6-1] INFO - CSPing m:86 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:04:11,654 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479451654
+}
+2015-10-22 09:04:16,656 [nioEventLoopGroup-6-1] INFO - CSPing m:87 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:04:16,657 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479456657
+}
+2015-10-22 09:04:21,659 [nioEventLoopGroup-6-1] INFO - CSPing m:88 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:04:21,659 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479461659
+}
+2015-10-22 09:04:26,661 [nioEventLoopGroup-6-1] INFO - CSPing m:89 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:04:26,662 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479466662
+}
+2015-10-22 09:04:31,664 [nioEventLoopGroup-6-1] INFO - CSPing m:90 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:04:31,664 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479471664
+}
+2015-10-22 09:04:36,667 [nioEventLoopGroup-6-1] INFO - CSPing m:91 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:04:36,667 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479476667
+}
+2015-10-22 09:04:41,669 [nioEventLoopGroup-6-1] INFO - CSPing m:92 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:04:41,670 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479481670
+}
+2015-10-22 09:04:46,672 [nioEventLoopGroup-6-1] INFO - CSPing m:93 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:04:46,673 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479486673
+}
+2015-10-22 09:04:51,675 [nioEventLoopGroup-6-1] INFO - CSPing m:94 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:04:51,675 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479491675
+}
+2015-10-22 09:04:56,677 [nioEventLoopGroup-6-1] INFO - CSPing m:95 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:04:56,677 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479496677
+}
+2015-10-22 09:05:01,679 [nioEventLoopGroup-6-1] INFO - CSPing m:96 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:05:01,680 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479501680
+}
+2015-10-22 09:05:06,682 [nioEventLoopGroup-6-1] INFO - CSPing m:97 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:05:06,683 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479506683
+}
+2015-10-22 09:05:11,684 [nioEventLoopGroup-6-1] INFO - CSPing m:98 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:05:11,685 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479511685
+}
+2015-10-22 09:05:16,687 [nioEventLoopGroup-6-1] INFO - CSPing m:99 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:05:16,688 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479516687
+}
+2015-10-22 09:05:21,688 [nioEventLoopGroup-6-1] INFO - CSPing m:100 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:05:21,688 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479521688
+}
+2015-10-22 09:05:26,691 [nioEventLoopGroup-6-1] INFO - CSPing m:101 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:05:26,691 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479526691
+}
+2015-10-22 09:05:31,693 [nioEventLoopGroup-6-1] INFO - CSPing m:102 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:05:31,693 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479531693
+}
+2015-10-22 09:05:36,694 [nioEventLoopGroup-6-1] INFO - CSPing m:103 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:05:36,695 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479536694
+}
+2015-10-22 09:05:41,696 [nioEventLoopGroup-6-1] INFO - CSPing m:104 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:05:41,697 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479541696
+}
+2015-10-22 09:05:46,699 [nioEventLoopGroup-6-1] INFO - CSPing m:105 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:05:46,699 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479546699
+}
+2015-10-22 09:05:51,701 [nioEventLoopGroup-6-1] INFO - CSPing m:106 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:05:51,702 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479551702
+}
+2015-10-22 09:05:56,704 [nioEventLoopGroup-6-1] INFO - CSPing m:107 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:05:56,705 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479556704
+}
+2015-10-22 09:06:01,705 [nioEventLoopGroup-6-1] INFO - CSPing m:108 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:06:01,705 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479561705
+}
+2015-10-22 09:06:06,707 [nioEventLoopGroup-6-1] INFO - CSPing m:109 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:06:06,708 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479566708
+}
+2015-10-22 09:06:11,710 [nioEventLoopGroup-6-1] INFO - CSPing m:110 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:06:11,710 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479571710
+}
+2015-10-22 09:06:16,712 [nioEventLoopGroup-6-1] INFO - CSPing m:111 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:06:16,713 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479576713
+}
+2015-10-22 09:06:21,715 [nioEventLoopGroup-6-1] INFO - CSPing m:112 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:06:21,715 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479581715
+}
+2015-10-22 09:06:26,717 [nioEventLoopGroup-6-1] INFO - CSPing m:113 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:06:26,718 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479586718
+}
+2015-10-22 09:06:31,719 [nioEventLoopGroup-6-1] INFO - CSPing m:114 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:06:31,719 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479591719
+}
+2015-10-22 09:06:36,722 [nioEventLoopGroup-6-1] INFO - CSPing m:115 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:06:36,722 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479596722
+}
+2015-10-22 09:06:41,725 [nioEventLoopGroup-6-1] INFO - CSPing m:116 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:06:41,725 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479601725
+}
+2015-10-22 09:06:46,727 [nioEventLoopGroup-6-1] INFO - CSPing m:117 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:06:46,728 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479606728
+}
+2015-10-22 09:06:51,730 [nioEventLoopGroup-6-1] INFO - CSPing m:118 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:06:51,730 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479611730
+}
+2015-10-22 09:06:56,733 [nioEventLoopGroup-6-1] INFO - CSPing m:119 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:06:56,733 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479616733
+}
+2015-10-22 09:07:01,735 [nioEventLoopGroup-6-1] INFO - CSPing m:120 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:07:01,735 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479621735
+}
+2015-10-22 09:07:06,738 [nioEventLoopGroup-6-1] INFO - CSPing m:121 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:07:06,738 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479626738
+}
+2015-10-22 09:07:11,738 [nioEventLoopGroup-6-1] INFO - CSPing m:122 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:07:11,738 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479631738
+}
+2015-10-22 09:07:16,741 [nioEventLoopGroup-6-1] INFO - CSPing m:123 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:07:16,741 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479636741
+}
+2015-10-22 09:07:21,742 [nioEventLoopGroup-6-1] INFO - CSPing m:124 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:07:21,742 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479641742
+}
+2015-10-22 09:07:26,745 [nioEventLoopGroup-6-1] INFO - CSPing m:125 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:07:26,745 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479646745
+}
+2015-10-22 09:07:31,747 [nioEventLoopGroup-6-1] INFO - CSPing m:126 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:07:31,747 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479651747
+}
+2015-10-22 09:07:36,749 [nioEventLoopGroup-6-1] INFO - CSPing m:127 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:07:36,749 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479656749
+}
+2015-10-22 09:07:41,751 [nioEventLoopGroup-6-1] INFO - CSPing m:128 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:07:41,752 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479661752
+}
+2015-10-22 09:07:46,753 [nioEventLoopGroup-6-1] INFO - CSPing m:129 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:07:46,753 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479666753
+}
+2015-10-22 09:07:51,753 [nioEventLoopGroup-6-1] INFO - CSPing m:130 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:07:51,754 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479671754
+}
+2015-10-22 09:07:56,756 [nioEventLoopGroup-6-1] INFO - CSPing m:131 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:07:56,756 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479676756
+}
+2015-10-22 09:08:01,758 [nioEventLoopGroup-6-1] INFO - CSPing m:132 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:08:01,759 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479681759
+}
+2015-10-22 09:08:06,761 [nioEventLoopGroup-6-1] INFO - CSPing m:133 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:08:06,762 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479686761
+}
+2015-10-22 09:08:11,763 [nioEventLoopGroup-6-1] INFO - CSPing m:134 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:08:11,764 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479691764
+}
+2015-10-22 09:08:16,766 [nioEventLoopGroup-6-1] INFO - CSPing m:135 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:08:16,766 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479696766
+}
+2015-10-22 09:08:21,769 [nioEventLoopGroup-6-1] INFO - CSPing m:136 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:08:21,769 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479701769
+}
+2015-10-22 09:08:26,772 [nioEventLoopGroup-6-1] INFO - CSPing m:137 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:08:26,772 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479706772
+}
+2015-10-22 09:08:31,774 [nioEventLoopGroup-6-1] INFO - CSPing m:138 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:08:31,774 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479711774
+}
+2015-10-22 09:08:36,776 [nioEventLoopGroup-6-1] INFO - CSPing m:139 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:08:36,777 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479716777
+}
+2015-10-22 09:08:41,777 [nioEventLoopGroup-6-1] INFO - CSPing m:140 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:08:41,778 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479721778
+}
+2015-10-22 09:08:46,780 [nioEventLoopGroup-6-1] INFO - CSPing m:141 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:08:46,780 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479726780
+}
+2015-10-22 09:08:51,782 [nioEventLoopGroup-6-1] INFO - CSPing m:142 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:08:51,782 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479731782
+}
+2015-10-22 09:08:56,784 [nioEventLoopGroup-6-1] INFO - CSPing m:143 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:08:56,784 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479736784
+}
+2015-10-22 09:09:01,785 [nioEventLoopGroup-6-1] INFO - CSPing m:144 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:09:01,785 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479741785
+}
+2015-10-22 09:09:06,788 [nioEventLoopGroup-6-1] INFO - CSPing m:145 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:09:06,788 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479746788
+}
+2015-10-22 09:09:11,790 [nioEventLoopGroup-6-1] INFO - CSPing m:146 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:09:11,790 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479751790
+}
+2015-10-22 09:09:16,792 [nioEventLoopGroup-6-1] INFO - CSPing m:147 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:09:16,793 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479756793
+}
+2015-10-22 09:09:21,795 [nioEventLoopGroup-6-1] INFO - CSPing m:148 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:09:21,796 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479761796
+}
+2015-10-22 09:09:26,797 [nioEventLoopGroup-6-1] INFO - CSPing m:149 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:09:26,798 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479766798
+}
+2015-10-22 09:09:31,799 [nioEventLoopGroup-6-1] INFO - CSPing m:150 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:09:31,799 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479771799
+}
+2015-10-22 09:09:36,801 [nioEventLoopGroup-6-1] INFO - CSPing m:151 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:09:36,802 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479776802
+}
+2015-10-22 09:09:41,804 [nioEventLoopGroup-6-1] INFO - CSPing m:152 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:09:41,804 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479781804
+}
+2015-10-22 09:09:46,807 [nioEventLoopGroup-6-1] INFO - CSPing m:153 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:09:46,807 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479786807
+}
+2015-10-22 09:09:51,809 [nioEventLoopGroup-6-1] INFO - CSPing m:154 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:09:51,810 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479791809
+}
+2015-10-22 09:09:56,811 [nioEventLoopGroup-6-1] INFO - CSPing m:155 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:09:56,811 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479796811
+}
+2015-10-22 09:10:01,811 [nioEventLoopGroup-6-1] INFO - CSPing m:156 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:10:01,812 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479801811
+}
+2015-10-22 09:10:06,812 [nioEventLoopGroup-6-1] INFO - CSPing m:157 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:10:06,812 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479806812
+}
+2015-10-22 09:10:11,812 [nioEventLoopGroup-6-1] INFO - CSPing m:158 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:10:11,813 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479811813
+}
+2015-10-22 09:10:16,813 [nioEventLoopGroup-6-1] INFO - CSPing m:159 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:10:16,813 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479816813
+}
+2015-10-22 09:10:21,813 [nioEventLoopGroup-6-1] INFO - CSPing m:160 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:10:21,814 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479821814
+}
+2015-10-22 09:10:26,814 [nioEventLoopGroup-6-1] INFO - CSPing m:161 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:10:26,814 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479826814
+}
+2015-10-22 09:10:31,815 [nioEventLoopGroup-6-1] INFO - CSPing m:162 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:10:31,815 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479831815
+}
+2015-10-22 09:10:36,816 [nioEventLoopGroup-6-1] INFO - CSPing m:163 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:10:36,816 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479836816
+}
+2015-10-22 09:10:41,816 [nioEventLoopGroup-6-1] INFO - CSPing m:164 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:10:41,817 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479841817
+}
+2015-10-22 09:10:46,817 [nioEventLoopGroup-6-1] INFO - CSPing m:165 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:10:46,817 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479846817
+}
+2015-10-22 09:10:51,818 [nioEventLoopGroup-6-1] INFO - CSPing m:166 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:10:51,818 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479851818
+}
+2015-10-22 09:10:56,819 [nioEventLoopGroup-6-1] INFO - CSPing m:167 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:10:56,819 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479856819
+}
+2015-10-22 09:11:01,819 [nioEventLoopGroup-6-1] INFO - CSPing m:168 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:11:01,819 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479861819
+}
+2015-10-22 09:11:06,819 [nioEventLoopGroup-6-1] INFO - CSPing m:169 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:11:06,819 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479866819
+}
+2015-10-22 09:11:11,820 [nioEventLoopGroup-6-1] INFO - CSPing m:170 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:11:11,820 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479871820
+}
+2015-10-22 09:11:16,821 [nioEventLoopGroup-6-1] INFO - CSPing m:171 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:11:16,821 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479876821
+}
+2015-10-22 09:11:21,821 [nioEventLoopGroup-6-1] INFO - CSPing m:172 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:11:21,822 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479881821
+}
+2015-10-22 09:11:26,822 [nioEventLoopGroup-6-1] INFO - CSPing m:173 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:11:26,823 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479886823
+}
+2015-10-22 09:11:31,823 [nioEventLoopGroup-6-1] INFO - CSPing m:174 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:11:31,823 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479891823
+}
+2015-10-22 09:11:36,823 [nioEventLoopGroup-6-1] INFO - CSPing m:175 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:11:36,824 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479896824
+}
+2015-10-22 09:11:41,824 [nioEventLoopGroup-6-1] INFO - CSPing m:176 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:11:41,825 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479901824
+}
+2015-10-22 09:11:46,825 [nioEventLoopGroup-6-1] INFO - CSPing m:177 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:11:46,825 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479906825
+}
+2015-10-22 09:11:51,825 [nioEventLoopGroup-6-1] INFO - CSPing m:178 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:11:51,826 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479911826
+}
+2015-10-22 09:11:56,826 [nioEventLoopGroup-6-1] INFO - CSPing m:179 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:11:56,827 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479916826
+}
+2015-10-22 09:12:01,826 [nioEventLoopGroup-6-1] INFO - CSPing m:180 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:12:01,827 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479921827
+}
+2015-10-22 09:12:06,827 [nioEventLoopGroup-6-1] INFO - CSPing m:181 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:12:06,828 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479926827
+}
+2015-10-22 09:12:11,828 [nioEventLoopGroup-6-1] INFO - CSPing m:182 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:12:11,828 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479931828
+}
+2015-10-22 09:12:16,828 [nioEventLoopGroup-6-1] INFO - CSPing m:183 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:12:16,828 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479936828
+}
+2015-10-22 09:12:21,829 [nioEventLoopGroup-6-1] INFO - CSPing m:184 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:12:21,829 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479941829
+}
+2015-10-22 09:12:26,830 [nioEventLoopGroup-6-1] INFO - CSPing m:185 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:12:26,830 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479946830
+}
+2015-10-22 09:12:31,830 [nioEventLoopGroup-6-1] INFO - CSPing m:186 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:12:31,830 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479951830
+}
+2015-10-22 09:12:36,831 [nioEventLoopGroup-6-1] INFO - CSPing m:187 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:12:36,831 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479956831
+}
+2015-10-22 09:12:41,832 [nioEventLoopGroup-6-1] INFO - CSPing m:188 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:12:41,832 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479961832
+}
+2015-10-22 09:12:46,832 [nioEventLoopGroup-6-1] INFO - CSPing m:189 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:12:46,833 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479966833
+}
+2015-10-22 09:12:51,833 [nioEventLoopGroup-6-1] INFO - CSPing m:190 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:12:51,833 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479971833
+}
+2015-10-22 09:12:56,834 [nioEventLoopGroup-6-1] INFO - CSPing m:191 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:12:56,834 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479976834
+}
+2015-10-22 09:13:01,836 [nioEventLoopGroup-6-1] INFO - CSPing m:192 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:13:01,837 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479981837
+}
+2015-10-22 09:13:06,839 [nioEventLoopGroup-6-1] INFO - CSPing m:193 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:13:06,840 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479986840
+}
+2015-10-22 09:13:11,840 [nioEventLoopGroup-6-1] INFO - CSPing m:194 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:13:11,841 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479991841
+}
+2015-10-22 09:13:16,841 [nioEventLoopGroup-6-1] INFO - CSPing m:195 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:13:16,841 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445479996841
+}
+2015-10-22 09:13:21,841 [nioEventLoopGroup-6-1] INFO - CSPing m:196 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:13:21,841 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480001841
+}
+2015-10-22 09:13:26,843 [nioEventLoopGroup-6-1] INFO - CSPing m:197 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:13:26,844 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480006843
+}
+2015-10-22 09:13:31,843 [nioEventLoopGroup-6-1] INFO - CSPing m:198 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:13:31,843 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480011843
+}
+2015-10-22 09:13:36,844 [nioEventLoopGroup-6-1] INFO - CSPing m:199 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:13:36,844 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480016844
+}
+2015-10-22 09:13:41,847 [nioEventLoopGroup-6-1] INFO - CSPing m:200 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:13:41,847 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480021847
+}
+2015-10-22 09:13:46,849 [nioEventLoopGroup-6-1] INFO - CSPing m:201 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:13:46,850 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480026850
+}
+2015-10-22 09:13:51,850 [nioEventLoopGroup-6-1] INFO - CSPing m:202 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:13:51,851 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480031850
+}
+2015-10-22 09:13:56,851 [nioEventLoopGroup-6-1] INFO - CSPing m:203 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:13:56,852 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480036852
+}
+2015-10-22 09:14:01,854 [nioEventLoopGroup-6-1] INFO - CSPing m:204 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:14:01,854 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480041854
+}
+2015-10-22 09:14:06,855 [nioEventLoopGroup-6-1] INFO - CSPing m:205 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:14:06,856 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480046855
+}
+2015-10-22 09:14:11,858 [nioEventLoopGroup-6-1] INFO - CSPing m:206 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:14:11,858 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480051858
+}
+2015-10-22 09:14:16,860 [nioEventLoopGroup-6-1] INFO - CSPing m:207 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:14:16,861 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480056861
+}
+2015-10-22 09:14:21,861 [nioEventLoopGroup-6-1] INFO - CSPing m:208 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:14:21,861 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480061861
+}
+2015-10-22 09:14:26,861 [nioEventLoopGroup-6-1] INFO - CSPing m:209 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:14:26,862 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480066862
+}
+2015-10-22 09:14:31,862 [nioEventLoopGroup-6-1] INFO - CSPing m:210 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:14:31,862 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480071862
+}
+2015-10-22 09:14:36,863 [nioEventLoopGroup-6-1] INFO - CSPing m:211 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:14:36,863 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480076863
+}
+2015-10-22 09:14:41,864 [nioEventLoopGroup-6-1] INFO - CSPing m:212 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:14:41,864 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480081864
+}
+2015-10-22 09:14:46,864 [nioEventLoopGroup-6-1] INFO - CSPing m:213 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:14:46,865 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480086865
+}
+2015-10-22 09:14:51,865 [nioEventLoopGroup-6-1] INFO - CSPing m:214 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:14:51,865 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480091865
+}
+2015-10-22 09:14:56,865 [nioEventLoopGroup-6-1] INFO - CSPing m:215 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:14:56,866 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480096866
+}
+2015-10-22 09:15:01,866 [nioEventLoopGroup-6-1] INFO - CSPing m:216 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:15:01,867 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480101867
+}
+2015-10-22 09:15:06,869 [nioEventLoopGroup-6-1] INFO - CSPing m:217 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:15:06,869 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480106869
+}
+2015-10-22 09:15:11,870 [nioEventLoopGroup-6-1] INFO - CSPing m:218 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:15:11,870 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480111870
+}
+2015-10-22 09:15:16,870 [nioEventLoopGroup-6-1] INFO - CSPing m:219 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:15:16,871 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480116871
+}
+2015-10-22 09:15:21,871 [nioEventLoopGroup-6-1] INFO - CSPing m:220 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:15:21,872 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480121872
+}
+2015-10-22 09:15:26,874 [nioEventLoopGroup-6-1] INFO - CSPing m:221 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:15:26,874 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480126874
+}
+2015-10-22 09:15:31,875 [nioEventLoopGroup-6-1] INFO - CSPing m:222 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:15:31,875 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480131875
+}
+2015-10-22 09:15:36,876 [nioEventLoopGroup-6-1] INFO - CSPing m:223 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:15:36,876 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480136876
+}
+2015-10-22 09:15:41,877 [nioEventLoopGroup-6-1] INFO - CSPing m:224 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:15:41,878 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480141878
+}
+2015-10-22 09:15:46,878 [nioEventLoopGroup-6-1] INFO - CSPing m:225 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:15:46,879 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480146879
+}
+2015-10-22 09:15:51,879 [nioEventLoopGroup-6-1] INFO - CSPing m:226 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:15:51,879 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480151879
+}
+2015-10-22 09:15:56,879 [nioEventLoopGroup-6-1] INFO - CSPing m:227 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:15:56,880 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480156880
+}
+2015-10-22 09:16:01,881 [nioEventLoopGroup-6-1] INFO - CSPing m:228 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:16:01,881 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480161881
+}
+2015-10-22 09:16:06,883 [nioEventLoopGroup-6-1] INFO - CSPing m:229 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:16:06,884 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480166883
+}
+2015-10-22 09:16:11,884 [nioEventLoopGroup-6-1] INFO - CSPing m:230 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:16:11,885 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480171885
+}
+2015-10-22 09:16:16,886 [nioEventLoopGroup-6-1] INFO - CSPing m:231 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:16:16,886 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480176886
+}
+2015-10-22 09:16:21,886 [nioEventLoopGroup-6-1] INFO - CSPing m:232 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:16:21,886 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480181886
+}
+2015-10-22 09:16:26,888 [nioEventLoopGroup-6-1] INFO - CSPing m:233 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:16:26,889 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480186889
+}
+2015-10-22 09:16:31,891 [nioEventLoopGroup-6-1] INFO - CSPing m:234 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:16:31,891 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480191891
+}
+2015-10-22 09:16:36,894 [nioEventLoopGroup-6-1] INFO - CSPing m:235 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:16:36,894 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480196894
+}
+2015-10-22 09:16:41,895 [nioEventLoopGroup-6-1] INFO - CSPing m:236 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:16:41,896 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480201896
+}
+2015-10-22 09:16:46,896 [nioEventLoopGroup-6-1] INFO - CSPing m:237 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:16:46,897 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480206897
+}
+2015-10-22 09:16:51,896 [nioEventLoopGroup-6-1] INFO - CSPing m:238 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:16:51,897 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480211897
+}
+2015-10-22 09:16:56,899 [nioEventLoopGroup-6-1] INFO - CSPing m:239 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:16:56,900 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480216900
+}
+2015-10-22 09:17:01,899 [nioEventLoopGroup-6-1] INFO - CSPing m:240 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:17:01,900 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480221900
+}
+2015-10-22 09:17:06,900 [nioEventLoopGroup-6-1] INFO - CSPing m:241 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:17:06,901 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480226900
+}
+2015-10-22 09:17:11,902 [nioEventLoopGroup-6-1] INFO - CSPing m:242 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:17:11,903 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480231902
+}
+2015-10-22 09:17:16,905 [nioEventLoopGroup-6-1] INFO - CSPing m:243 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:17:16,905 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480236905
+}
+2015-10-22 09:17:21,905 [nioEventLoopGroup-6-1] INFO - CSPing m:244 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:17:21,905 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480241905
+}
+2015-10-22 09:17:26,906 [nioEventLoopGroup-6-1] INFO - CSPing m:245 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:17:26,906 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480246906
+}
+2015-10-22 09:17:31,907 [nioEventLoopGroup-6-1] INFO - CSPing m:246 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:17:31,907 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480251907
+}
+2015-10-22 09:17:36,907 [nioEventLoopGroup-6-1] INFO - CSPing m:247 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:17:36,908 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480256908
+}
+2015-10-22 09:17:41,909 [nioEventLoopGroup-6-1] INFO - CSPing m:248 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:17:41,910 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480261909
+}
+2015-10-22 09:17:46,910 [nioEventLoopGroup-6-1] INFO - CSPing m:249 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:17:46,910 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480266910
+}
+2015-10-22 09:17:51,911 [nioEventLoopGroup-6-1] INFO - CSPing m:250 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:17:51,911 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480271911
+}
+2015-10-22 09:17:56,912 [nioEventLoopGroup-6-1] INFO - CSPing m:251 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:17:56,912 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480276912
+}
+2015-10-22 09:18:01,914 [nioEventLoopGroup-6-1] INFO - CSPing m:252 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:18:01,914 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480281914
+}
+2015-10-22 09:18:06,917 [nioEventLoopGroup-6-1] INFO - CSPing m:253 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:18:06,917 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480286917
+}
+2015-10-22 09:18:11,918 [nioEventLoopGroup-6-1] INFO - CSPing m:254 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:18:11,919 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480291919
+}
+2015-10-22 09:18:16,919 [nioEventLoopGroup-6-1] INFO - CSPing m:255 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:18:16,919 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480296919
+}
+2015-10-22 09:18:21,920 [nioEventLoopGroup-6-1] INFO - CSPing m:256 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:18:21,921 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480301921
+}
+2015-10-22 09:18:26,922 [nioEventLoopGroup-6-1] INFO - CSPing m:257 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:18:26,923 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480306923
+}
+2015-10-22 09:18:31,924 [nioEventLoopGroup-6-1] INFO - CSPing m:258 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:18:31,924 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480311924
+}
+2015-10-22 09:18:36,925 [nioEventLoopGroup-6-1] INFO - CSPing m:259 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:18:36,926 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480316925
+}
+2015-10-22 09:18:41,926 [nioEventLoopGroup-6-1] INFO - CSPing m:260 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:18:41,926 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480321926
+}
+2015-10-22 09:18:46,927 [nioEventLoopGroup-6-1] INFO - CSPing m:261 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:18:46,927 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480326927
+}
+2015-10-22 09:18:51,927 [nioEventLoopGroup-6-1] INFO - CSPing m:262 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:18:51,927 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480331927
+}
+2015-10-22 09:18:56,929 [nioEventLoopGroup-6-1] INFO - CSPing m:263 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:18:56,929 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480336929
+}
+2015-10-22 09:19:01,929 [nioEventLoopGroup-6-1] INFO - CSPing m:264 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:19:01,929 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480341929
+}
+2015-10-22 09:19:06,930 [nioEventLoopGroup-6-1] INFO - CSPing m:265 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:19:06,931 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480346931
+}
+2015-10-22 09:19:11,931 [nioEventLoopGroup-6-1] INFO - CSPing m:266 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:19:11,931 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480351931
+}
+2015-10-22 09:19:16,932 [nioEventLoopGroup-6-1] INFO - CSPing m:267 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:19:16,932 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480356932
+}
+2015-10-22 09:19:21,932 [nioEventLoopGroup-6-1] INFO - CSPing m:268 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:19:21,933 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480361933
+}
+2015-10-22 09:19:26,933 [nioEventLoopGroup-6-1] INFO - CSPing m:269 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:19:26,933 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480366933
+}
+2015-10-22 09:19:31,933 [nioEventLoopGroup-6-1] INFO - CSPing m:270 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:19:31,934 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480371934
+}
+2015-10-22 09:19:36,934 [nioEventLoopGroup-6-1] INFO - CSPing m:271 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:19:36,934 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480376934
+}
+2015-10-22 09:19:41,935 [nioEventLoopGroup-6-1] INFO - CSPing m:272 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:19:41,935 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480381935
+}
+2015-10-22 09:19:46,936 [nioEventLoopGroup-6-1] INFO - CSPing m:273 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:19:46,936 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480386936
+}
+2015-10-22 09:19:51,936 [nioEventLoopGroup-6-1] INFO - CSPing m:274 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:19:51,937 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480391937
+}
+2015-10-22 09:19:56,937 [nioEventLoopGroup-6-1] INFO - CSPing m:275 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:19:56,937 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480396937
+}
+2015-10-22 09:20:01,938 [nioEventLoopGroup-6-1] INFO - CSPing m:276 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:20:01,938 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480401938
+}
+2015-10-22 09:20:06,939 [nioEventLoopGroup-6-1] INFO - CSPing m:277 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:20:06,940 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480406940
+}
+2015-10-22 09:20:11,941 [nioEventLoopGroup-6-1] INFO - CSPing m:278 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:20:11,942 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480411941
+}
+2015-10-22 09:20:16,942 [nioEventLoopGroup-6-1] INFO - CSPing m:279 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:20:16,942 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480416942
+}
+2015-10-22 09:20:21,943 [nioEventLoopGroup-6-1] INFO - CSPing m:280 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:20:21,944 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480421944
+}
+2015-10-22 09:20:26,945 [nioEventLoopGroup-6-1] INFO - CSPing m:281 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:20:26,945 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480426945
+}
+2015-10-22 09:20:31,946 [nioEventLoopGroup-6-1] INFO - CSPing m:282 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:20:31,947 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480431947
+}
+2015-10-22 09:20:36,947 [nioEventLoopGroup-6-1] INFO - CSPing m:283 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:20:36,948 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480436947
+}
+2015-10-22 09:20:41,949 [nioEventLoopGroup-6-1] INFO - CSPing m:284 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:20:41,949 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480441949
+}
+2015-10-22 09:20:46,949 [nioEventLoopGroup-6-1] INFO - CSPing m:285 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:20:46,950 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480446950
+}
+2015-10-22 09:20:51,951 [nioEventLoopGroup-6-1] INFO - CSPing m:286 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:20:51,951 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480451951
+}
+2015-10-22 09:20:56,952 [nioEventLoopGroup-6-1] INFO - CSPing m:287 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:20:56,952 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480456952
+}
+2015-10-22 09:21:01,952 [nioEventLoopGroup-6-1] INFO - CSPing m:288 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:21:01,953 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480461953
+}
+2015-10-22 09:21:06,954 [nioEventLoopGroup-6-1] INFO - CSPing m:289 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:21:06,954 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480466954
+}
+2015-10-22 09:21:11,954 [nioEventLoopGroup-6-1] INFO - CSPing m:290 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:21:11,955 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480471955
+}
+2015-10-22 09:21:16,956 [nioEventLoopGroup-6-1] INFO - CSPing m:291 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:21:16,957 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480476956
+}
+2015-10-22 09:21:21,957 [nioEventLoopGroup-6-1] INFO - CSPing m:292 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:21:21,958 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480481958
+}
+2015-10-22 09:21:26,959 [nioEventLoopGroup-6-1] INFO - CSPing m:293 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:21:26,959 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480486959
+}
+2015-10-22 09:21:31,960 [nioEventLoopGroup-6-1] INFO - CSPing m:294 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:21:31,961 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480491961
+}
+2015-10-22 09:21:36,962 [nioEventLoopGroup-6-1] INFO - CSPing m:295 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:21:36,962 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480496962
+}
+2015-10-22 09:21:41,963 [nioEventLoopGroup-6-1] INFO - CSPing m:296 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:21:41,964 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480501964
+}
+2015-10-22 09:21:46,964 [nioEventLoopGroup-6-1] INFO - CSPing m:297 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:21:46,964 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480506964
+}
+2015-10-22 09:21:51,965 [nioEventLoopGroup-6-1] INFO - CSPing m:298 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:21:51,966 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480511966
+}
+2015-10-22 09:21:56,967 [nioEventLoopGroup-6-1] INFO - CSPing m:299 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:21:56,967 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480516967
+}
+2015-10-22 09:22:01,968 [nioEventLoopGroup-6-1] INFO - CSPing m:300 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:22:01,969 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480521969
+}
+2015-10-22 09:22:06,970 [nioEventLoopGroup-6-1] INFO - CSPing m:301 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:22:06,970 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480526970
+}
+2015-10-22 09:22:11,971 [nioEventLoopGroup-6-1] INFO - CSPing m:302 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:22:11,971 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480531971
+}
+2015-10-22 09:22:16,971 [nioEventLoopGroup-6-1] INFO - CSPing m:303 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:22:16,972 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480536972
+}
+2015-10-22 09:22:21,973 [nioEventLoopGroup-6-1] INFO - CSPing m:304 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:22:21,973 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480541973
+}
+2015-10-22 09:22:26,974 [nioEventLoopGroup-6-1] INFO - CSPing m:305 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:22:26,975 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480546975
+}
+2015-10-22 09:22:31,976 [nioEventLoopGroup-6-1] INFO - CSPing m:306 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:22:31,976 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480551976
+}
+2015-10-22 09:22:36,977 [nioEventLoopGroup-6-1] INFO - CSPing m:307 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:22:36,978 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480556978
+}
+2015-10-22 09:22:41,979 [nioEventLoopGroup-6-1] INFO - CSPing m:308 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:22:41,979 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480561979
+}
+2015-10-22 09:22:46,980 [nioEventLoopGroup-6-1] INFO - CSPing m:309 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:22:46,981 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480566981
+}
+2015-10-22 09:22:51,982 [nioEventLoopGroup-6-1] INFO - CSPing m:310 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:22:51,982 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480571982
+}
+2015-10-22 09:22:56,983 [nioEventLoopGroup-6-1] INFO - CSPing m:311 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:22:56,984 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480576984
+}
+2015-10-22 09:23:01,985 [nioEventLoopGroup-6-1] INFO - CSPing m:312 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:23:01,985 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480581985
+}
+2015-10-22 09:23:06,986 [nioEventLoopGroup-6-1] INFO - CSPing m:313 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:23:06,987 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480586986
+}
+2015-10-22 09:23:11,987 [nioEventLoopGroup-6-1] INFO - CSPing m:314 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:23:11,987 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480591987
+}
+2015-10-22 09:23:16,988 [nioEventLoopGroup-6-1] INFO - CSPing m:315 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:23:16,989 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480596989
+}
+2015-10-22 09:23:21,990 [nioEventLoopGroup-6-1] INFO - CSPing m:316 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:23:21,990 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480601990
+}
+2015-10-22 09:23:26,991 [nioEventLoopGroup-6-1] INFO - CSPing m:317 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:23:26,992 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480606992
+}
+2015-10-22 09:23:31,993 [nioEventLoopGroup-6-1] INFO - CSPing m:318 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:23:31,993 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480611993
+}
+2015-10-22 09:23:36,994 [nioEventLoopGroup-6-1] INFO - CSPing m:319 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:23:36,995 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480616995
+}
+2015-10-22 09:23:41,996 [nioEventLoopGroup-6-1] INFO - CSPing m:320 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:23:41,997 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480621996
+}
+2015-10-22 09:23:46,998 [nioEventLoopGroup-6-1] INFO - CSPing m:321 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:23:46,998 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480626998
+}
+2015-10-22 09:23:51,999 [nioEventLoopGroup-6-1] INFO - CSPing m:322 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:23:52,000 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480632000
+}
+2015-10-22 09:23:57,000 [nioEventLoopGroup-6-1] INFO - CSPing m:323 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:23:57,000 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480637000
+}
+2015-10-22 09:24:02,001 [nioEventLoopGroup-6-1] INFO - CSPing m:324 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:24:02,002 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480642002
+}
+2015-10-22 09:24:07,002 [nioEventLoopGroup-6-1] INFO - CSPing m:325 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:24:07,002 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480647002
+}
+2015-10-22 09:24:12,004 [nioEventLoopGroup-6-1] INFO - CSPing m:326 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:24:12,004 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480652004
+}
+2015-10-22 09:24:17,005 [nioEventLoopGroup-6-1] INFO - CSPing m:327 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:24:17,005 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480657005
+}
+2015-10-22 09:24:22,007 [nioEventLoopGroup-6-1] INFO - CSPing m:328 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:24:22,007 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480662007
+}
+2015-10-22 09:24:27,007 [nioEventLoopGroup-6-1] INFO - CSPing m:329 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:24:27,008 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480667008
+}
+2015-10-22 09:24:32,009 [nioEventLoopGroup-6-1] INFO - CSPing m:330 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:24:32,009 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480672009
+}
+2015-10-22 09:24:37,010 [nioEventLoopGroup-6-1] INFO - CSPing m:331 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:24:37,011 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480677011
+}
+2015-10-22 09:24:42,012 [nioEventLoopGroup-6-1] INFO - CSPing m:332 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:24:42,013 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480682012
+}
+2015-10-22 09:24:47,013 [nioEventLoopGroup-6-1] INFO - CSPing m:333 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:24:47,013 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480687013
+}
+2015-10-22 09:24:52,015 [nioEventLoopGroup-6-1] INFO - CSPing m:334 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:24:52,015 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480692015
+}
+2015-10-22 09:24:57,016 [nioEventLoopGroup-6-1] INFO - CSPing m:335 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:24:57,016 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480697016
+}
+2015-10-22 09:25:02,017 [nioEventLoopGroup-6-1] INFO - CSPing m:336 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:25:02,018 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480702018
+}
+2015-10-22 09:25:07,019 [nioEventLoopGroup-6-1] INFO - CSPing m:337 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:25:07,019 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480707019
+}
+2015-10-22 09:25:12,020 [nioEventLoopGroup-6-1] INFO - CSPing m:338 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:25:12,021 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480712021
+}
+2015-10-22 09:25:17,021 [nioEventLoopGroup-6-1] INFO - CSPing m:339 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:25:17,021 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480717021
+}
+2015-10-22 09:25:22,023 [nioEventLoopGroup-6-1] INFO - CSPing m:340 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:25:22,023 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480722023
+}
+2015-10-22 09:25:27,024 [nioEventLoopGroup-6-1] INFO - CSPing m:341 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:25:27,025 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480727024
+}
+2015-10-22 09:25:32,026 [nioEventLoopGroup-6-1] INFO - CSPing m:342 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:25:32,026 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480732026
+}
+2015-10-22 09:25:37,028 [nioEventLoopGroup-6-1] INFO - CSPing m:343 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:25:37,028 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480737028
+}
+2015-10-22 09:25:42,029 [nioEventLoopGroup-6-1] INFO - CSPing m:344 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:25:42,030 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480742030
+}
+2015-10-22 09:25:47,031 [nioEventLoopGroup-6-1] INFO - CSPing m:345 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:25:47,031 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480747031
+}
+2015-10-22 09:25:52,032 [nioEventLoopGroup-6-1] INFO - CSPing m:346 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:25:52,033 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480752033
+}
+2015-10-22 09:25:57,034 [nioEventLoopGroup-6-1] INFO - CSPing m:347 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:25:57,034 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480757034
+}
+2015-10-22 09:26:02,035 [nioEventLoopGroup-6-1] INFO - CSPing m:348 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:26:02,036 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480762036
+}
+2015-10-22 09:26:07,037 [nioEventLoopGroup-6-1] INFO - CSPing m:349 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:26:07,037 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480767037
+}
+2015-10-22 09:26:12,039 [nioEventLoopGroup-6-1] INFO - CSPing m:350 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:26:12,039 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480772039
+}
+2015-10-22 09:26:17,040 [nioEventLoopGroup-6-1] INFO - CSPing m:351 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:26:17,041 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480777040
+}
+2015-10-22 09:26:22,041 [nioEventLoopGroup-6-1] INFO - CSPing m:352 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:26:22,042 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480782042
+}
+2015-10-22 09:26:27,043 [nioEventLoopGroup-6-1] INFO - CSPing m:353 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:26:27,043 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480787043
+}
+2015-10-22 09:26:32,044 [nioEventLoopGroup-6-1] INFO - CSPing m:354 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:26:32,045 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480792045
+}
+2015-10-22 09:26:37,046 [nioEventLoopGroup-6-1] INFO - CSPing m:355 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:26:37,047 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480797047
+}
+2015-10-22 09:26:42,048 [nioEventLoopGroup-6-1] INFO - CSPing m:356 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:26:42,048 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480802048
+}
+2015-10-22 09:26:47,049 [nioEventLoopGroup-6-1] INFO - CSPing m:357 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:26:47,050 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480807050
+}
+2015-10-22 09:26:52,051 [nioEventLoopGroup-6-1] INFO - CSPing m:358 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:26:52,051 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480812051
+}
+2015-10-22 09:26:57,052 [nioEventLoopGroup-6-1] INFO - CSPing m:359 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:26:57,053 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480817053
+}
+2015-10-22 09:27:02,054 [nioEventLoopGroup-6-1] INFO - CSPing m:360 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:27:02,054 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480822054
+}
+2015-10-22 09:27:07,055 [nioEventLoopGroup-6-1] INFO - CSPing m:361 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:27:07,056 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480827056
+}
+2015-10-22 09:27:12,056 [nioEventLoopGroup-6-1] INFO - CSPing m:362 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:27:12,056 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480832056
+}
+2015-10-22 09:27:17,057 [nioEventLoopGroup-6-1] INFO - CSPing m:363 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:27:17,058 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480837058
+}
+2015-10-22 09:27:22,060 [nioEventLoopGroup-6-1] INFO - CSPing m:364 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:27:22,060 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480842060
+}
+2015-10-22 09:27:27,061 [nioEventLoopGroup-6-1] INFO - CSPing m:365 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:27:27,062 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480847062
+}
+2015-10-22 09:27:32,063 [nioEventLoopGroup-6-1] INFO - CSPing m:366 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:27:32,064 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480852064
+}
+2015-10-22 09:27:37,065 [nioEventLoopGroup-6-1] INFO - CSPing m:367 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:27:37,066 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480857065
+}
+2015-10-22 09:27:42,067 [nioEventLoopGroup-6-1] INFO - CSPing m:368 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:27:42,067 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480862067
+}
+2015-10-22 09:27:47,068 [nioEventLoopGroup-6-1] INFO - CSPing m:369 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:27:47,069 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480867069
+}
+2015-10-22 09:27:52,069 [nioEventLoopGroup-6-1] INFO - CSPing m:370 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:27:52,069 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480872069
+}
+2015-10-22 09:27:57,071 [nioEventLoopGroup-6-1] INFO - CSPing m:371 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:27:57,071 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480877071
+}
+2015-10-22 09:28:02,072 [nioEventLoopGroup-6-1] INFO - CSPing m:372 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:28:02,072 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480882072
+}
+2015-10-22 09:28:07,073 [nioEventLoopGroup-6-1] INFO - CSPing m:373 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:28:07,074 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480887073
+}
+2015-10-22 09:28:12,074 [nioEventLoopGroup-6-1] INFO - CSPing m:374 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:28:12,075 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480892075
+}
+2015-10-22 09:28:17,076 [nioEventLoopGroup-6-1] INFO - CSPing m:375 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:28:17,077 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480897077
+}
+2015-10-22 09:28:22,078 [nioEventLoopGroup-6-1] INFO - CSPing m:376 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:28:22,078 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480902078
+}
+2015-10-22 09:28:27,079 [nioEventLoopGroup-6-1] INFO - CSPing m:377 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:28:27,080 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480907080
+}
+2015-10-22 09:28:32,081 [nioEventLoopGroup-6-1] INFO - CSPing m:378 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:28:32,082 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480912081
+}
+2015-10-22 09:28:37,083 [nioEventLoopGroup-6-1] INFO - CSPing m:379 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:28:37,083 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480917083
+}
+2015-10-22 09:28:42,084 [nioEventLoopGroup-6-1] INFO - CSPing m:380 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:28:42,084 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480922084
+}
+2015-10-22 09:28:47,085 [nioEventLoopGroup-6-1] INFO - CSPing m:381 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:28:47,086 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480927086
+}
+2015-10-22 09:28:52,087 [nioEventLoopGroup-6-1] INFO - CSPing m:382 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:28:52,087 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480932087
+}
+2015-10-22 09:28:57,088 [nioEventLoopGroup-6-1] INFO - CSPing m:383 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:28:57,088 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480937088
+}
+2015-10-22 09:29:02,089 [nioEventLoopGroup-6-1] INFO - CSPing m:384 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:29:02,090 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480942090
+}
+2015-10-22 09:29:07,090 [nioEventLoopGroup-6-1] INFO - CSPing m:385 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:29:07,091 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480947091
+}
+2015-10-22 09:29:12,092 [nioEventLoopGroup-6-1] INFO - CSPing m:386 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:29:12,092 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480952092
+}
+2015-10-22 09:29:17,093 [nioEventLoopGroup-6-1] INFO - CSPing m:387 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:29:17,094 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480957093
+}
+2015-10-22 09:29:22,095 [nioEventLoopGroup-6-1] INFO - CSPing m:388 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:29:22,095 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480962095
+}
+2015-10-22 09:29:27,095 [nioEventLoopGroup-6-1] INFO - CSPing m:389 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:29:27,096 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480967096
+}
+2015-10-22 09:29:32,097 [nioEventLoopGroup-6-1] INFO - CSPing m:390 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:29:32,097 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480972097
+}
+2015-10-22 09:29:37,098 [nioEventLoopGroup-6-1] INFO - CSPing m:391 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:29:37,099 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480977099
+}
+2015-10-22 09:29:42,100 [nioEventLoopGroup-6-1] INFO - CSPing m:392 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:29:42,101 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480982100
+}
+2015-10-22 09:29:47,101 [nioEventLoopGroup-6-1] INFO - CSPing m:393 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:29:47,101 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480987101
+}
+2015-10-22 09:29:52,102 [nioEventLoopGroup-6-1] INFO - CSPing m:394 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:29:52,103 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480992103
+}
+2015-10-22 09:29:57,104 [nioEventLoopGroup-6-1] INFO - CSPing m:395 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:29:57,104 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445480997104
+}
+2015-10-22 09:30:02,104 [nioEventLoopGroup-6-1] INFO - CSPing m:396 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:30:02,105 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481002105
+}
+2015-10-22 09:30:07,106 [nioEventLoopGroup-6-1] INFO - CSPing m:397 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:30:07,106 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481007106
+}
+2015-10-22 09:30:12,108 [nioEventLoopGroup-6-1] INFO - CSPing m:398 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:30:12,108 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481012108
+}
+2015-10-22 09:30:17,109 [nioEventLoopGroup-6-1] INFO - CSPing m:399 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:30:17,109 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481017109
+}
+2015-10-22 09:30:22,110 [nioEventLoopGroup-6-1] INFO - CSPing m:400 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:30:22,111 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481022111
+}
+2015-10-22 09:30:27,112 [nioEventLoopGroup-6-1] INFO - CSPing m:401 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:30:27,112 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481027112
+}
+2015-10-22 09:30:32,113 [nioEventLoopGroup-6-1] INFO - CSPing m:402 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:30:32,114 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481032114
+}
+2015-10-22 09:30:37,115 [nioEventLoopGroup-6-1] INFO - CSPing m:403 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:30:37,116 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481037116
+}
+2015-10-22 09:30:42,117 [nioEventLoopGroup-6-1] INFO - CSPing m:404 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:30:42,117 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481042117
+}
+2015-10-22 09:30:47,118 [nioEventLoopGroup-6-1] INFO - CSPing m:405 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:30:47,119 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481047119
+}
+2015-10-22 09:30:52,120 [nioEventLoopGroup-6-1] INFO - CSPing m:406 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:30:52,121 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481052121
+}
+2015-10-22 09:30:57,121 [nioEventLoopGroup-6-1] INFO - CSPing m:407 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:30:57,121 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481057121
+}
+2015-10-22 09:31:02,123 [nioEventLoopGroup-6-1] INFO - CSPing m:408 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:31:02,123 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481062123
+}
+2015-10-22 09:31:07,124 [nioEventLoopGroup-6-1] INFO - CSPing m:409 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:31:07,125 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481067124
+}
+2015-10-22 09:31:12,126 [nioEventLoopGroup-6-1] INFO - CSPing m:410 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:31:12,126 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481072126
+}
+2015-10-22 09:31:17,127 [nioEventLoopGroup-6-1] INFO - CSPing m:411 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:31:17,127 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481077127
+}
+2015-10-22 09:31:22,129 [nioEventLoopGroup-6-1] INFO - CSPing m:412 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:31:22,129 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481082129
+}
+2015-10-22 09:31:27,129 [nioEventLoopGroup-6-1] INFO - CSPing m:413 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:31:27,130 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481087129
+}
+2015-10-22 09:31:32,130 [nioEventLoopGroup-6-1] INFO - CSPing m:414 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:31:32,131 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481092131
+}
+2015-10-22 09:31:37,132 [nioEventLoopGroup-6-1] INFO - CSPing m:415 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:31:37,132 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481097132
+}
+2015-10-22 09:31:42,134 [nioEventLoopGroup-6-1] INFO - CSPing m:416 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:31:42,134 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481102134
+}
+2015-10-22 09:31:47,135 [nioEventLoopGroup-6-1] INFO - CSPing m:417 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:31:47,135 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481107135
+}
+2015-10-22 09:31:52,137 [nioEventLoopGroup-6-1] INFO - CSPing m:418 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:31:52,137 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481112137
+}
+2015-10-22 09:31:57,138 [nioEventLoopGroup-6-1] INFO - CSPing m:419 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:31:57,139 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481117138
+}
+2015-10-22 09:32:02,140 [nioEventLoopGroup-6-1] INFO - CSPing m:420 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:32:02,141 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481122140
+}
+2015-10-22 09:32:07,141 [nioEventLoopGroup-6-1] INFO - CSPing m:421 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:32:07,142 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481127142
+}
+2015-10-22 09:32:12,142 [nioEventLoopGroup-6-1] INFO - CSPing m:422 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:32:12,143 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481132143
+}
+2015-10-22 09:32:17,144 [nioEventLoopGroup-6-1] INFO - CSPing m:423 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:32:17,144 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481137144
+}
+2015-10-22 09:32:22,146 [nioEventLoopGroup-6-1] INFO - CSPing m:424 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:32:22,147 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481142147
+}
+2015-10-22 09:32:27,147 [nioEventLoopGroup-6-1] INFO - CSPing m:425 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:32:27,147 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481147147
+}
+2015-10-22 09:32:32,148 [nioEventLoopGroup-6-1] INFO - CSPing m:426 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:32:32,149 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481152149
+}
+2015-10-22 09:32:37,149 [nioEventLoopGroup-6-1] INFO - CSPing m:427 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:32:37,149 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481157149
+}
+2015-10-22 09:32:42,150 [nioEventLoopGroup-6-1] INFO - CSPing m:428 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:32:42,150 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481162150
+}
+2015-10-22 09:32:47,151 [nioEventLoopGroup-6-1] INFO - CSPing m:429 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:32:47,152 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481167152
+}
+2015-10-22 09:32:52,153 [nioEventLoopGroup-6-1] INFO - CSPing m:430 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:32:52,153 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481172153
+}
+2015-10-22 09:32:57,154 [nioEventLoopGroup-6-1] INFO - CSPing m:431 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:32:57,155 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481177155
+}
+2015-10-22 09:33:02,156 [nioEventLoopGroup-6-1] INFO - CSPing m:432 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:33:02,157 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481182157
+}
+2015-10-22 09:33:07,157 [nioEventLoopGroup-6-1] INFO - CSPing m:433 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:33:07,158 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481187158
+}
+2015-10-22 09:33:12,159 [nioEventLoopGroup-6-1] INFO - CSPing m:434 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:33:12,159 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481192159
+}
+2015-10-22 09:33:17,160 [nioEventLoopGroup-6-1] INFO - CSPing m:435 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:33:17,161 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481197161
+}
+2015-10-22 09:33:22,162 [nioEventLoopGroup-6-1] INFO - CSPing m:436 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:33:22,163 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481202163
+}
+2015-10-22 09:33:27,164 [nioEventLoopGroup-6-1] INFO - CSPing m:437 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:33:27,164 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481207164
+}
+2015-10-22 09:33:32,165 [nioEventLoopGroup-6-1] INFO - CSPing m:438 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:33:32,166 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481212166
+}
+2015-10-22 09:33:37,166 [nioEventLoopGroup-6-1] INFO - CSPing m:439 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:33:37,166 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481217166
+}
+2015-10-22 09:33:42,167 [nioEventLoopGroup-6-1] INFO - CSPing m:440 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:33:42,167 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481222167
+}
+2015-10-22 09:33:47,169 [nioEventLoopGroup-6-1] INFO - CSPing m:441 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:33:47,169 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481227169
+}
+2015-10-22 09:33:52,170 [nioEventLoopGroup-6-1] INFO - CSPing m:442 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:33:52,171 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481232171
+}
+2015-10-22 09:33:57,172 [nioEventLoopGroup-6-1] INFO - CSPing m:443 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:33:57,172 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481237172
+}
+2015-10-22 09:34:02,173 [nioEventLoopGroup-6-1] INFO - CSPing m:444 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:34:02,174 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481242173
+}
+2015-10-22 09:34:07,174 [nioEventLoopGroup-6-1] INFO - CSPing m:445 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:34:07,175 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481247175
+}
+2015-10-22 09:34:12,176 [nioEventLoopGroup-6-1] INFO - CSPing m:446 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:34:12,176 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481252176
+}
+2015-10-22 09:34:17,178 [nioEventLoopGroup-6-1] INFO - CSPing m:447 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:34:17,178 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481257178
+}
+2015-10-22 09:34:22,179 [nioEventLoopGroup-6-1] INFO - CSPing m:448 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:34:22,180 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481262180
+}
+2015-10-22 09:34:27,181 [nioEventLoopGroup-6-1] INFO - CSPing m:449 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:34:27,181 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481267181
+}
+2015-10-22 09:34:32,182 [nioEventLoopGroup-6-1] INFO - CSPing m:450 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:34:32,183 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481272182
+}
+2015-10-22 09:34:37,184 [nioEventLoopGroup-6-1] INFO - CSPing m:451 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:34:37,184 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481277184
+}
+2015-10-22 09:34:42,185 [nioEventLoopGroup-6-1] INFO - CSPing m:452 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:34:42,185 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481282185
+}
+2015-10-22 09:34:47,187 [nioEventLoopGroup-6-1] INFO - CSPing m:453 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:34:47,187 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481287187
+}
+2015-10-22 09:34:52,189 [nioEventLoopGroup-6-1] INFO - CSPing m:454 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:34:52,189 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481292189
+}
+2015-10-22 09:34:57,189 [nioEventLoopGroup-6-1] INFO - CSPing m:455 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:34:57,189 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481297189
+}
+2015-10-22 09:35:02,191 [nioEventLoopGroup-6-1] INFO - CSPing m:456 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:35:02,191 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481302191
+}
+2015-10-22 09:35:07,191 [nioEventLoopGroup-6-1] INFO - CSPing m:457 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:35:07,192 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481307192
+}
+2015-10-22 09:35:12,192 [nioEventLoopGroup-6-1] INFO - CSPing m:458 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:35:12,193 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481312193
+}
+2015-10-22 09:35:17,193 [nioEventLoopGroup-6-1] INFO - CSPing m:459 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:35:17,193 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481317193
+}
+2015-10-22 09:35:22,195 [nioEventLoopGroup-6-1] INFO - CSPing m:460 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:35:22,195 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481322195
+}
+2015-10-22 09:35:27,195 [nioEventLoopGroup-6-1] INFO - CSPing m:461 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:35:27,196 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481327196
+}
+2015-10-22 09:35:32,197 [nioEventLoopGroup-6-1] INFO - CSPing m:462 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:35:32,197 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481332197
+}
+2015-10-22 09:35:37,199 [nioEventLoopGroup-6-1] INFO - CSPing m:463 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:35:37,199 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481337199
+}
+2015-10-22 09:35:42,200 [nioEventLoopGroup-6-1] INFO - CSPing m:464 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:35:42,200 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481342200
+}
+2015-10-22 09:35:47,201 [nioEventLoopGroup-6-1] INFO - CSPing m:465 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:35:47,202 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481347202
+}
+2015-10-22 09:35:52,203 [nioEventLoopGroup-6-1] INFO - CSPing m:466 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:35:52,204 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481352204
+}
+2015-10-22 09:35:57,205 [nioEventLoopGroup-6-1] INFO - CSPing m:467 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:35:57,205 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481357205
+}
+2015-10-22 09:36:02,206 [nioEventLoopGroup-6-1] INFO - CSPing m:468 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:36:02,207 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481362207
+}
+2015-10-22 09:36:07,208 [nioEventLoopGroup-6-1] INFO - CSPing m:469 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:36:07,208 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481367208
+}
+2015-10-22 09:36:12,208 [nioEventLoopGroup-6-1] INFO - CSPing m:470 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:36:12,208 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481372208
+}
+2015-10-22 09:36:17,210 [nioEventLoopGroup-6-1] INFO - CSPing m:471 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:36:17,210 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481377210
+}
+2015-10-22 09:36:22,210 [nioEventLoopGroup-6-1] INFO - CSPing m:472 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:36:22,211 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481382211
+}
+2015-10-22 09:36:27,212 [nioEventLoopGroup-6-1] INFO - CSPing m:473 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:36:27,213 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481387213
+}
+2015-10-22 09:36:32,214 [nioEventLoopGroup-6-1] INFO - CSPing m:474 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:36:32,214 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481392214
+}
+2015-10-22 09:36:37,215 [nioEventLoopGroup-6-1] INFO - CSPing m:475 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:36:37,215 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481397215
+}
+2015-10-22 09:36:42,216 [nioEventLoopGroup-6-1] INFO - CSPing m:476 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:36:42,217 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481402217
+}
+2015-10-22 09:36:47,217 [nioEventLoopGroup-6-1] INFO - CSPing m:477 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:36:47,218 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481407218
+}
+2015-10-22 09:36:52,219 [nioEventLoopGroup-6-1] INFO - CSPing m:478 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:36:52,219 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481412219
+}
+2015-10-22 09:36:57,220 [nioEventLoopGroup-6-1] INFO - CSPing m:479 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:36:57,220 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481417220
+}
+2015-10-22 09:37:02,222 [nioEventLoopGroup-6-1] INFO - CSPing m:480 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:37:02,222 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481422222
+}
+2015-10-22 09:37:07,222 [nioEventLoopGroup-6-1] INFO - CSPing m:481 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:37:07,223 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481427223
+}
+2015-10-22 09:37:12,224 [nioEventLoopGroup-6-1] INFO - CSPing m:482 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:37:12,225 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481432225
+}
+2015-10-22 09:37:17,226 [nioEventLoopGroup-6-1] INFO - CSPing m:483 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:37:17,226 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481437226
+}
+2015-10-22 09:37:22,226 [nioEventLoopGroup-6-1] INFO - CSPing m:484 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:37:22,227 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481442227
+}
+2015-10-22 09:37:27,228 [nioEventLoopGroup-6-1] INFO - CSPing m:485 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:37:27,228 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481447228
+}
+2015-10-22 09:37:32,229 [nioEventLoopGroup-6-1] INFO - CSPing m:486 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:37:32,230 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481452230
+}
+2015-10-22 09:37:37,230 [nioEventLoopGroup-6-1] INFO - CSPing m:487 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:37:37,230 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481457230
+}
+2015-10-22 09:37:42,231 [nioEventLoopGroup-6-1] INFO - CSPing m:488 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:37:42,232 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481462232
+}
+2015-10-22 09:37:47,232 [nioEventLoopGroup-6-1] INFO - CSPing m:489 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:37:47,233 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481467233
+}
+2015-10-22 09:37:52,234 [nioEventLoopGroup-6-1] INFO - CSPing m:490 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:37:52,235 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481472235
+}
+2015-10-22 09:37:57,234 [nioEventLoopGroup-6-1] INFO - CSPing m:491 s:0 {
+  clientTime: 0
+}
+2015-10-22 09:37:57,235 [nioEventLoopGroup-6-1] INFO - [id: 0xaf2c5cb7, /0:0:0:0:0:0:0:1:50007 => /0:0:0:0:0:0:0:1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1445481477235
+}

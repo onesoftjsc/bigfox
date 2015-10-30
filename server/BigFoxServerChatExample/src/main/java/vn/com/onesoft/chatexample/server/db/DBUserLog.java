@@ -30,8 +30,7 @@ public class DBUserLog {
     public DBUserLog(String name, String content) {
         this.name = name;
         this.content = content;
-        BFLogger.getInstance().info("ClassLoader DBUserLog" + this.getClass().getClassLoader());
-        BFLogger.getInstance().info("ClassLoader DBUserLog" + this.getClass().getClassLoader().getParent());
+
     }
 
     
