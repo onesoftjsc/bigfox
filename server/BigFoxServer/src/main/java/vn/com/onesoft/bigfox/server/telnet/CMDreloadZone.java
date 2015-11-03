@@ -17,10 +17,9 @@ public class CMDreloadZone extends Command {
     @Override
     public String execute() {
         try {
-            String zoneName = argList.get(0);
-            BFZoneManager.getInstance().reloadChangedZone(zoneName);
-            return zoneName + " loaded !";
-        } catch (Exception ex){
+            BFZoneManager.getInstance().loadZone("/Users/phamquan/livetube_all/livetube/code/core/LiveTubeServer/target/LiveTube");
+            return "OK";
+        } catch (Exception ex) {
             BFLogger.getInstance().error(ex.getMessage(), ex);
             return "ERROR";
         }

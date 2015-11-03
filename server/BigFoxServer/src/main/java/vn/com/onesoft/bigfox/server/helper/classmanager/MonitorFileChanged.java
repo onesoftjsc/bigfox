@@ -6,12 +6,9 @@
 package vn.com.onesoft.bigfox.server.helper.classmanager;
 
 import com.google.common.collect.MapMaker;
-import java.io.File;
 import java.util.Map;
-import vn.com.onesoft.bigfox.server.helper.utils.BFUtils;
 import vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
-import vn.com.onesoft.bigfox.server.main.BFConfig;
 
 /**
  *

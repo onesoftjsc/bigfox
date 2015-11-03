@@ -5,6 +5,10 @@
  */
 package vn.com.onesoft.chatexample.main;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import vn.com.onesoft.bigfox.server.io.core.zone.BFZoneActivity;
 import vn.com.onesoft.bigfox.server.io.core.zone.IBFZone;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
@@ -29,6 +33,11 @@ public class ChatActivity extends BFZoneActivity {
     @Override
     public void beforeZoneStart() {
         BFLogger.getInstance().info("BeforeZoneStart");
+        try {
+            zone.setMonitorFolder(new File(".").getCanonicalPath() + "/target/classes");
+        } catch (IOException ex) {
+            Logger.getLogger(ChatActivity.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     @Override

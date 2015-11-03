@@ -31,4 +31,5 @@ public interface IBFZone {
     public void sendMessageToAll(MessageOut mOut);
      public void reloadFilesChanged() throws Exception;
      public String getAbsolutePath();
+     public void setMonitorFolder(String folderPath);
 }

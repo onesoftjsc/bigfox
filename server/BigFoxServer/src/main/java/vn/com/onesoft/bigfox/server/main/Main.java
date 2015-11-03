@@ -47,8 +47,9 @@ public class Main {
         WebSocketManager.getInstance();
         TelnetManager.getInstance();
 
-        BFZoneManager.getInstance().loadZone("/Users/phamquan/github/bigfox/server/BigFoxServerChatExample/target/BigFoxServerChatExample");
-        BFZoneManager.getInstance().loadZone("/Users/phamquan/github/bigfox/server/BigFoxServerTime/target/BigFoxServerTime");
+//        BFZoneManager.getInstance().loadZone("/Users/phamquan/github/bigfox/server/BigFoxServerChatExample/target/BigFoxServerChatExample");
+//        BFZoneManager.getInstance().loadZone("/Users/phamquan/github/bigfox/server/BigFoxServerTime/target/BigFoxServerTime");
+//    BFZoneManager.getInstance().loadZone("/Users/phamquan/livetube_all/livetube/code/core/LiveTubeServer/target/LiveTube");
     }
 
 

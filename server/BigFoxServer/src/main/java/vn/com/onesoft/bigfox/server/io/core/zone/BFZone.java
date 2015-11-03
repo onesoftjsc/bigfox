@@ -39,7 +39,7 @@ public class BFZone implements IBFZone {
     private String simpleName;
     private Map<String, String> mapFileNameToChecksum = new MapMaker().makeMap();
     private BFZoneActivity activity;
-
+    private String monitorFolder = "";
     private BFZone() {
 
     }
@@ -191,15 +191,15 @@ public class BFZone implements IBFZone {
     @Override
     public void reloadFilesChanged() throws Exception {
         BFClassLoaderZone cl = new BFClassLoaderZone(zoneCL, this);
-        ArrayList<File> changedFiles = listFileChanged(absolutePath);
-        ArrayList<File> addedFiles = listFileAdded(absolutePath);
+        ArrayList<File> changedFiles = listFileChanged(monitorFolder);
+        ArrayList<File> addedFiles = listFileAdded(monitorFolder);
         for (File changedFile : changedFiles) {
             loadFile(changedFile.getAbsolutePath(), cl);
         }
 
         for (File addedFile : addedFiles) {
-            loadFile(addedFile.getAbsolutePath(), zoneCL);
-        }
+            loadFile(addedFile.getAbsolutePath(), cl);
+      }
 
         Iterator it = cl.getMapPathToClass().values().iterator();
         while (it.hasNext()) {
@@ -282,6 +282,11 @@ public class BFZone implements IBFZone {
     @Override
     public String getAbsolutePath() {
         return absolutePath;
+    }
+
+    @Override
+    public void setMonitorFolder(String folderPath) {
+        this.monitorFolder = folderPath;
     }
 
 }
