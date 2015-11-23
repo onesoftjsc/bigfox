@@ -20,7 +20,6 @@ public class CSChat extends MessageOut {
     @Property(name = "msg")
     private String msg;
 
-    private int internalvar= -10;
     
     public CSChat(String msg) {
         this.msg = msg;

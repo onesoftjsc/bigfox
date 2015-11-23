@@ -13,7 +13,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Property;
+
 
 
 public class BigFoxUtils {
@@ -54,6 +56,7 @@ public class BigFoxUtils {
 
     private static void read(Object object, DataInputStream dis)
             throws Exception {
+        String cname = dis.readUTF();
         int nFields = dis.readByte();
         List<Field> fields = object == null ? null
                 : getInheritedPrivateFields(object.getClass());
@@ -204,7 +207,12 @@ public class BigFoxUtils {
                 }
                 if (f != null) {
                     if (List.class.isAssignableFrom(f.getType())) {
-                        List v = new ArrayList();
+                        List v = null;
+                        if (f.getType() == List.class) {
+                            v = new ArrayList();
+                        } else {
+                            v = (List) f.getType().newInstance();
+                        }
                         v.addAll(Arrays.asList(val));
                         f.set(object, v);
                     } else {
@@ -214,19 +222,44 @@ public class BigFoxUtils {
             } else if (type == ARRAY_OBJECT) {
                 int length = dis.readInt();
                 if (f != null) {
-                    Class<?> element = f.getType().getComponentType();
+                    Class<?> element;
+                    if (f.getType().isArray()) {
+                        element = f.getType().getComponentType();
+                    } else {
+                        ParameterizedType integerListType = (ParameterizedType) f
+                                .getGenericType();
+                        element = (Class<?>) integerListType
+                                .getActualTypeArguments()[0];
+                    }
                     Object val = Array.newInstance(element, length);
                     for (int k = 0; k < length; k++) {
                         byte bNull = dis.readByte();
                         if (bNull == NOT_NULL) {
-                            Object e = element.newInstance();
+                            Object e;
+                            dis.mark(0);
+                            String cn = dis.readUTF();
+                            if (cacheObjects.containsKey(cn)) {
+                                Class<?> re = cacheObjects.get(cn);
+                                e = re.newInstance();
+                            } else {
+                                e = element.newInstance();
+                            }
+                            dis.reset();
                             read(e, dis);
                             Array.set(val, k, e);
                         }
                     }
                     if (List.class.isAssignableFrom(f.getType())) {
-                        List v = new ArrayList();
-                        v.addAll(Arrays.asList(val));
+                        List v = null;
+                        if (List.class == f.getType()) {
+                            v = new ArrayList();
+                        } else {
+                            v = (List) f.getType().newInstance();
+                        }
+                        for (int k = 0; k < length; k++) {
+                            Object o = Array.get(val, k);
+                            v.add(o);
+                        }
                         f.set(object, v);
                     } else {
                         f.set(object, val);
@@ -262,9 +295,14 @@ public class BigFoxUtils {
 
     public static <T> T fromBytes(Class<T> clazz, DataInputStream in)
             throws Exception {
-        T object = clazz.newInstance();
-        read(object, in);
-        return object;
+        try {
+            T object = clazz.newInstance();
+            read(object, in);
+            return object;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        return null;
     }
 
     public static String toString(Object object) {
@@ -296,7 +334,8 @@ public class BigFoxUtils {
     private static final int TAB = 2;
 
     private static void toString(DataInputStream dis, StringBuilder sb,
-            int indent) throws IOException {
+                                 int indent) throws IOException {
+        dis.readUTF();
         int nFields = dis.readByte();
         sb.append("{\n");
         for (int j = 0; j < nFields; j++) {
@@ -357,12 +396,12 @@ public class BigFoxUtils {
                 sb.append(']');
             } else if (type == ARRAY_BYTE) {
                 int length = dis.readInt();
-                sb.append('[');
+                sb.append("[bytes");
                 for (int k = 0; k < length; k++) {
                     byte v = dis.readByte();
-                    sb.append(v);
+                    //sb.append(v);
                     if (k != length - 1) {
-                        sb.append(',');
+                        //sb.append(',');
                     }
                 }
                 sb.append(']');
@@ -477,6 +516,12 @@ public class BigFoxUtils {
             throws IOException {
         try {
             List<Field> fields = getInheritedPrivateFields(object.getClass());
+            Message obj = object.getClass().getAnnotation(Message.class);
+            if (obj != null) {
+                out.writeUTF(obj.name());
+            } else {
+                out.writeUTF(object.getClass().getSimpleName());
+            }
             out.writeByte(fields.size());
             for (int i = 0; i < fields.size(); i++) {
                 Field field = fields.get(i);
@@ -658,9 +703,11 @@ public class BigFoxUtils {
     }
 
     private static Map<Class<?>, List<Field>> caches;
+    private static Map<String, Class<?>> cacheObjects;
 
     static {
         caches = new HashMap<Class<?>, List<Field>>();
+        cacheObjects =  ClassFinder.findObject("vn.");
     }
 
     private static List<Field> getInheritedPrivateFields(Class<?> type) {

@@ -11,10 +11,8 @@ import io.netty.channel.Channel;
 import io.netty.channel.group.ChannelGroup;
 import io.netty.channel.group.DefaultChannelGroup;
 import io.netty.util.concurrent.GlobalEventExecutor;
-import java.io.File;
 import java.util.Map;
 import vn.com.onesoft.bigfox.server.helper.classmanager.Extracter;
-import vn.com.onesoft.bigfox.server.io.core.session.IBFSession;
 import vn.com.onesoft.bigfox.server.io.core.socket.SocketManager;
 import vn.com.onesoft.bigfox.server.io.core.websocket.WebSocketManager;
 import vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager;
@@ -47,10 +45,7 @@ public class Main {
         WebSocketManager.getInstance();
         TelnetManager.getInstance();
 
-//        BFZoneManager.getInstance().loadZone("/Users/phamquan/github/bigfox/server/BigFoxServerChatExample/target/BigFoxServerChatExample");
-//        BFZoneManager.getInstance().loadZone("/Users/phamquan/github/bigfox/server/BigFoxServerTime/target/BigFoxServerTime");
-//    BFZoneManager.getInstance().loadZone("/Users/phamquan/livetube_all/livetube/code/core/LiveTubeServer/target/LiveTube");
-    }
+     }
 
 
     public static void main1() {

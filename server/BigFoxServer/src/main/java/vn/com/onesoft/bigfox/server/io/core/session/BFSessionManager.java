@@ -61,6 +61,7 @@ public class BFSessionManager {
         mapChannelToSession.put(channel, session);
         mapSessionIdToSession.put(clientInfo.sessionId, session);
         sessionEvent.startSession(session);
+        session.setLastTimeReceive(System.currentTimeMillis());
         return session;
     }
 
@@ -94,33 +95,34 @@ public class BFSessionManager {
         if (channel == null || !channel.isActive() || !channel.isOpen()) {
             return;
         }
+        synchronized (channel) {
+            try {
 
-        try {
-
-            Message m = mOut.getClass().getAnnotation(Message.class);
-            mOut.setTag(m.tag());
-            IBFSession session = getSessionByChannel(channel);
-            if (!m.isCore()) {
-                mOut.setMSequence(session.getMSequence());
-                session.setSSequence(session.getSSequence() + 1);
-                mOut.setSSequence(session.getSSequence());
-                session.putOutMessageOnQueue(mOut);
-            }
-            BFLogger.getInstance().info(channel + "\n" + mOut);
-            byte[] data = mOut.toBytes();
-            if (mOut.getTag() != CoreTags.SC_VALIDATION_CODE) {
-                data = BFEncryptManager.crypt(channel, data);
-                data = BFCompressManager.getInstance().compress(data);
-            }
-            if (Main.mapChannelWebSocket.get(channel) != null) {
-                channel.writeAndFlush(new BinaryWebSocketFrame(Unpooled.wrappedBuffer(data)));
-            } else {
-                channel.writeAndFlush(Unpooled.wrappedBuffer(data));
-            }
-        } catch (Exception ex) {
-            BFLogger.getInstance().error(ex.getMessage(), ex);
-            if (channel.isActive()) {
-                channel.close();
+                Message m = mOut.getClass().getAnnotation(Message.class);
+                mOut.setTag(m.tag());
+                IBFSession session = getSessionByChannel(channel);
+                if (!m.isCore()) {
+                    mOut.setMSequence(session.getMSequence());
+                    session.setSSequence(session.getSSequence() + 1);
+                    mOut.setSSequence(session.getSSequence());
+                    session.putOutMessageOnQueue(mOut);
+                }
+                BFLogger.getInstance().info(channel + "\n" + mOut);
+                byte[] data = mOut.toBytes();
+                if (mOut.getTag() != CoreTags.SC_VALIDATION_CODE) {
+                    data = BFEncryptManager.crypt(channel, data);
+                    data = BFCompressManager.getInstance().compress(data);
+                }
+                if (Main.mapChannelWebSocket.get(channel) != null) {
+                    channel.writeAndFlush(new BinaryWebSocketFrame(Unpooled.wrappedBuffer(data)));
+                } else {
+                    channel.writeAndFlush(Unpooled.wrappedBuffer(data));
+                }
+            } catch (Exception ex) {
+                BFLogger.getInstance().error(ex.getMessage(), ex);
+                if (channel.isActive()) {
+                    channel.close();
+                }
             }
         }
     }
@@ -160,7 +162,7 @@ public class BFSessionManager {
             if (bfZone == null) {
                 channel.close();
                 return;
-            }else{
+            } else {
                 BFZoneManager.getInstance().assignChannelToZone(channel, bfZone);
             }
             String sessionId = csClientInfo.getClientInfo().sessionId;
@@ -188,7 +190,7 @@ public class BFSessionManager {
                 session.cleanOutMessageQueue(mIn);
             }
             session.setLastTimeReceive(System.currentTimeMillis());
-            
+
         }
         mIn.execute(channel);
     }

@@ -10,6 +10,7 @@ import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 import vn.com.onesoft.bigfox.io.core.session.ConnectionManager;
 import vn.com.onesoft.bigfox.io.message.user.cs.CSChat;
+import vn.com.onesoft.bigfox.io.message.user.cs.CSData;
 import vn.com.onesoft.bigfox.io.message.user.cs.CSName;
 
 /**
@@ -107,6 +108,7 @@ public class ChatFrame extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         ConnectionManager.getInstance().write(new CSChat(jTextField1.getText()));
+//        ConnectionManager.getInstance().write(new CSData(10, 20));
 //        ConnectionManager.getInstance().write(new CSBigData(new byte[8000000]));
     }//GEN-LAST:event_jButton1ActionPerformed
 

@@ -29,8 +29,8 @@ public class HibernateFactoryUtil {
     }
 
     static {
-//        File file = new File(ChatActivity.getInstance().getZone().getAbsolutePath() + "/hibernate.cfg.xml");
-        File file = new File("hibernate.cfg.xml");
+        File file = new File(ChatActivity.getInstance().getZone().getAbsolutePath() + "/hibernate.cfg.xml");
+//        File file = new File("hibernate.cfg.xml");
         String fname = file.getAbsolutePath();
         sessionFactory = new AnnotationConfiguration().configure(file).buildSessionFactory();
     }

@@ -63,8 +63,10 @@ public class BFZoneManager {
     public IBFZone loadZone(String absolutePath) {
         IBFZone zone = new BFZone(absolutePath);
         try {
+            BFLogger.getInstance().info(zone.getSimpleName() + " loading ... ");
             zone.start();
             mapNameToZone.put(zone.getSimpleName(), zone);
+            BFLogger.getInstance().info(zone.getSimpleName() + " loaded ... ");
             return zone;
         } catch (Exception ex) {
             BFLogger.getInstance().error(ex.getMessage(), ex);

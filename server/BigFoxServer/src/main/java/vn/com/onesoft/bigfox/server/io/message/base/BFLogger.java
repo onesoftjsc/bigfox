@@ -32,9 +32,9 @@ public class BFLogger {
     }
 
     public void info(Object obj) {
-//        if (obj.toString().contains("SCPing") || obj.toString().contains("CSPing")) {
+        if (obj.toString().contains("SCPing") || obj.toString().contains("CSPing")) {
 //            return;
-//        }
+        }
         
         logger.info(obj);
     }

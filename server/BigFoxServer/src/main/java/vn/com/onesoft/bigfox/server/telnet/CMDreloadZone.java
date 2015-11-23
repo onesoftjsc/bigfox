@@ -5,6 +5,7 @@
  */
 package vn.com.onesoft.bigfox.server.telnet;
 
+import java.io.File;
 import vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 
@@ -17,7 +18,8 @@ public class CMDreloadZone extends Command {
     @Override
     public String execute() {
         try {
-            BFZoneManager.getInstance().loadZone("/Users/phamquan/livetube_all/livetube/code/core/LiveTubeServer/target/LiveTube");
+            String zoneName = argList.get(0);
+            BFZoneManager.getInstance().loadZone(new File(".").getAbsolutePath() + "/applications/" + zoneName);
             return "OK";
         } catch (Exception ex) {
             BFLogger.getInstance().error(ex.getMessage(), ex);
