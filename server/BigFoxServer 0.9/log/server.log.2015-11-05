@@ -1,0 +1,1956 @@
+2015-11-05 10:57:03,760 [main] INFO - define class vn.com.onesoft.chatexamain.chat.BFSessionEvent
+2015-11-05 10:57:03,760 [Thread-4] INFO - Telnet start at port 40000
+2015-11-05 10:57:03,760 [Thread-2] INFO - Socket start at port 33333
+2015-11-05 10:57:03,760 [Thread-3] INFO - WebSocket start at port 33332
+2015-11-05 10:57:03,761 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.session.IBFSessionEvent
+2015-11-05 10:57:03,762 [main] INFO - BFClassLoader load java.lang.Object
+2015-11-05 10:57:03,764 [main] INFO - define class vn.com.onesoft.chatexample.main.ChatActivity
+2015-11-05 10:57:03,764 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.BFZoneActivity
+2015-11-05 10:57:03,768 [main] INFO - define class vn.com.onesoft.chatexample.main.Main
+2015-11-05 10:57:03,769 [main] INFO - define class vn.com.onesoft.chatexample.server.db.DBUserLog
+2015-11-05 10:57:03,770 [main] INFO - define class vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-11-05 10:57:03,774 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-05 10:57:03,775 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-05 10:57:03,776 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-05 10:57:03,777 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-05 10:57:03,778 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-05 10:57:03,779 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.tags.Tags
+2015-11-05 10:57:03,782 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-05 10:57:03,782 [main] INFO - BFClassLoader load java.io.IOException
+2015-11-05 10:57:03,783 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.IBFZone
+2015-11-05 10:57:03,783 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
+2015-11-05 10:57:03,783 [main] INFO - BeforeZoneStart
+2015-11-05 10:57:03,783 [main] INFO - BFClassLoader load java.lang.StringBuilder
+2015-11-05 10:57:03,784 [main] INFO - BFClassLoader load java.io.File
+2015-11-05 10:57:03,784 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-05 10:57:03,784 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-05 10:57:03,810 [Thread-2] DEBUG - -Dio.netty.processId: 1779 (auto-detected)
+2015-11-05 10:57:03,814 [Thread-2] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-11-05 10:57:03,815 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x38f9d447a6419cc2 (took 19 ms)
+2015-11-05 10:57:03,819 [main] INFO - BFClassLoader load java.io.Serializable
+2015-11-05 10:57:03,832 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-05 10:57:03,835 [main] INFO - AfterZoneStart
+2015-11-05 10:57:03,853 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-05 10:57:03,854 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-05 10:57:03,854 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-11-05 10:57:03,854 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-11-05 10:57:03,854 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-05 10:57:03,854 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-05 10:57:03,854 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-05 10:57:03,854 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-05 10:57:03,854 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-05 10:57:03,854 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-05 10:57:03,862 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-11-05 10:57:03,862 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-05 10:57:03,864 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-11-05 10:57:03,865 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-11-05 10:57:03,875 [nioEventLoopGroup-2-1] INFO - [id: 0xba5db0b7] REGISTERED
+2015-11-05 10:57:03,875 [nioEventLoopGroup-2-1] INFO - [id: 0xba5db0b7] BIND: 0.0.0.0/0.0.0.0:33332
+2015-11-05 10:57:03,879 [nioEventLoopGroup-2-1] INFO - [id: 0xba5db0b7, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-11-05 11:03:43,700 [Thread-2] INFO - Socket start at port 33333
+2015-11-05 11:03:43,700 [Thread-4] INFO - Telnet start at port 40000
+2015-11-05 11:03:43,700 [Thread-3] INFO - WebSocket start at port 33332
+2015-11-05 11:03:43,733 [Thread-4] DEBUG - -Dio.netty.processId: 1860 (auto-detected)
+2015-11-05 11:03:43,737 [Thread-4] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-11-05 11:03:43,739 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0xd904f0c82250b5f5 (took 16 ms)
+2015-11-05 11:03:43,769 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-05 11:03:43,769 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-05 11:03:43,769 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-11-05 11:03:43,769 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-11-05 11:03:43,769 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-05 11:03:43,769 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-05 11:03:43,769 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-05 11:03:43,769 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-05 11:03:43,769 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-05 11:03:43,769 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-05 11:03:43,777 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-11-05 11:03:43,777 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-05 11:03:43,779 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-11-05 11:03:43,779 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-11-05 11:03:43,790 [nioEventLoopGroup-3-1] INFO - [id: 0x5c257359] REGISTERED
+2015-11-05 11:03:43,791 [nioEventLoopGroup-3-1] INFO - [id: 0x5c257359] BIND: 0.0.0.0/0.0.0.0:33332
+2015-11-05 11:03:43,794 [nioEventLoopGroup-3-1] INFO - [id: 0x5c257359, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-11-05 11:06:07,133 [main] INFO - define class vn.com.onesoft.chatexamain.chat.BFSessionEvent
+2015-11-05 11:06:07,134 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.session.IBFSessionEvent
+2015-11-05 11:06:07,135 [main] INFO - BFClassLoader load java.lang.Object
+2015-11-05 11:06:07,136 [main] INFO - define class vn.com.onesoft.chatexample.main.ChatActivity
+2015-11-05 11:06:07,136 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.BFZoneActivity
+2015-11-05 11:06:07,138 [main] INFO - define class vn.com.onesoft.chatexample.main.Main
+2015-11-05 11:06:07,139 [main] INFO - define class vn.com.onesoft.chatexample.server.db.DBUserLog
+2015-11-05 11:06:07,140 [main] INFO - define class vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-11-05 11:06:07,144 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-05 11:06:07,144 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-05 11:06:07,146 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-05 11:06:07,147 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-05 11:06:07,147 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-05 11:06:07,148 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.tags.Tags
+2015-11-05 11:06:07,150 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-05 11:06:07,150 [main] INFO - BFClassLoader load java.io.IOException
+2015-11-05 11:06:07,150 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.IBFZone
+2015-11-05 11:06:07,150 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
+2015-11-05 11:06:07,151 [main] INFO - BeforeZoneStart
+2015-11-05 11:06:07,151 [main] INFO - BFClassLoader load java.lang.StringBuilder
+2015-11-05 11:06:07,151 [main] INFO - BFClassLoader load java.io.File
+2015-11-05 11:06:07,151 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-05 11:06:07,151 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-05 11:06:07,176 [main] INFO - BFClassLoader load java.io.Serializable
+2015-11-05 11:06:07,180 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-05 11:06:07,192 [main] INFO - AfterZoneStart
+2015-11-05 11:06:07,405 [Thread-3] DEBUG - -Dio.netty.eventLoopThreads: 16
+2015-11-05 11:06:07,417 [Thread-2] DEBUG - -Dio.netty.noKeySetOptimization: false
+2015-11-05 11:06:07,417 [Thread-2] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-05 11:06:07,448 [Thread-2] INFO - Socket start at port 33333
+2015-11-05 11:06:07,448 [Thread-4] INFO - Telnet start at port 40000
+2015-11-05 11:06:07,465 [Thread-3] INFO - WebSocket start at port 33332
+2015-11-05 11:06:07,483 [Thread-3] DEBUG - -Dio.netty.processId: 1888 (auto-detected)
+2015-11-05 11:06:07,488 [Thread-3] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-11-05 11:06:07,489 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0xb11a833b72ffec43 (took 22 ms)
+2015-11-05 11:06:07,523 [Thread-4] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-05 11:06:07,523 [Thread-4] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-05 11:06:07,523 [Thread-4] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-11-05 11:06:07,523 [Thread-4] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-11-05 11:06:07,523 [Thread-4] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-05 11:06:07,523 [Thread-4] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-05 11:06:07,524 [Thread-4] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-05 11:06:07,524 [Thread-4] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-05 11:06:07,524 [Thread-4] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-05 11:06:07,524 [Thread-4] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-05 11:06:07,532 [Thread-4] DEBUG - -Dio.netty.allocator.type: pooled
+2015-11-05 11:06:07,533 [Thread-4] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-05 11:06:07,543 [Thread-4] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-11-05 11:06:07,544 [Thread-4] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-11-05 11:06:07,559 [nioEventLoopGroup-3-1] INFO - [id: 0x26df6e2f] REGISTERED
+2015-11-05 11:06:07,560 [nioEventLoopGroup-3-1] INFO - [id: 0x26df6e2f] BIND: 0.0.0.0/0.0.0.0:33332
+2015-11-05 11:06:07,565 [nioEventLoopGroup-3-1] INFO - [id: 0x26df6e2f, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-11-05 11:09:02,955 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-05 11:09:02,959 [main] INFO - define class vn.com.onesoft.chatexamain.chat.BFSessionEvent
+2015-11-05 11:09:02,959 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.session.IBFSessionEvent
+2015-11-05 11:09:02,960 [main] INFO - BFClassLoader load java.lang.Object
+2015-11-05 11:09:02,961 [main] INFO - define class vn.com.onesoft.chatexample.main.ChatActivity
+2015-11-05 11:09:02,962 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.BFZoneActivity
+2015-11-05 11:09:02,964 [main] INFO - define class vn.com.onesoft.chatexample.main.Main
+2015-11-05 11:09:02,965 [main] INFO - define class vn.com.onesoft.chatexample.server.db.DBUserLog
+2015-11-05 11:09:02,965 [main] INFO - define class vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-11-05 11:09:02,970 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-05 11:09:02,970 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-05 11:09:02,972 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-05 11:09:02,972 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-05 11:09:02,972 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-05 11:09:02,973 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.tags.Tags
+2015-11-05 11:09:02,974 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-05 11:09:02,975 [main] INFO - BFClassLoader load java.io.IOException
+2015-11-05 11:09:02,975 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.IBFZone
+2015-11-05 11:09:02,975 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
+2015-11-05 11:09:02,975 [main] INFO - BeforeZoneStart
+2015-11-05 11:09:02,975 [main] INFO - BFClassLoader load java.lang.StringBuilder
+2015-11-05 11:09:02,975 [main] INFO - BFClassLoader load java.io.File
+2015-11-05 11:09:02,975 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-05 11:09:02,975 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-05 11:09:03,000 [main] INFO - BFClassLoader load java.io.Serializable
+2015-11-05 11:09:03,004 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-05 11:09:03,018 [main] INFO - AfterZoneStart
+2015-11-05 11:09:03,018 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-05 11:09:03,229 [Thread-2] DEBUG - -Dio.netty.eventLoopThreads: 16
+2015-11-05 11:09:03,241 [Thread-3] DEBUG - -Dio.netty.noKeySetOptimization: false
+2015-11-05 11:09:03,241 [Thread-3] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-05 11:09:03,268 [Thread-2] INFO - Socket start at port 33333
+2015-11-05 11:09:03,268 [Thread-4] INFO - Telnet start at port 40000
+2015-11-05 11:09:03,283 [Thread-3] INFO - WebSocket start at port 33332
+2015-11-05 11:09:03,303 [Thread-3] DEBUG - -Dio.netty.processId: 1927 (auto-detected)
+2015-11-05 11:09:03,306 [Thread-3] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-11-05 11:09:03,308 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x2fcfd64c2626ef7e (took 23 ms)
+2015-11-05 11:09:03,340 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-05 11:09:03,340 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-05 11:09:03,340 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-11-05 11:09:03,340 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-11-05 11:09:03,340 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-05 11:09:03,340 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-05 11:09:03,340 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-05 11:09:03,341 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-05 11:09:03,341 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-05 11:09:03,341 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-05 11:09:03,349 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-11-05 11:09:03,349 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-05 11:09:03,356 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-11-05 11:09:03,358 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-11-05 11:09:03,375 [nioEventLoopGroup-2-1] INFO - [id: 0x57c2f91a] REGISTERED
+2015-11-05 11:09:03,376 [nioEventLoopGroup-2-1] INFO - [id: 0x57c2f91a] BIND: 0.0.0.0/0.0.0.0:33332
+2015-11-05 11:09:03,379 [nioEventLoopGroup-2-1] INFO - [id: 0x57c2f91a, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-11-05 11:09:30,737 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0xebf86002, /127.0.0.1:53334 => /127.0.0.1:33333]
+2015-11-05 11:09:30,747 [nioEventLoopGroup-6-1] INFO - [id: 0xebf86002, /127.0.0.1:53334 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-05 11:09:30,756 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-11-05 11:09:30,765 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-11-05 11:09:30,857 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9mnu2qc1l6kfqda0mkieknbmbo",
+    metadata: "",
+    zone: "BigFoxChat"
+  }
+}
+2015-11-05 11:09:30,859 [nioEventLoopGroup-6-1] INFO - channelInactive!: [id: 0xebf86002, /127.0.0.1:53334 :> /127.0.0.1:33333]
+2015-11-05 11:09:30,859 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0xebf86002, /127.0.0.1:53334 :> /127.0.0.1:33333]
+2015-11-05 11:09:30,859 [nioEventLoopGroup-6-1] INFO - Channel unregistered
+2015-11-05 11:09:35,865 [nioEventLoopGroup-6-2] INFO - channelActive : [id: 0x869a5a98, /127.0.0.1:53336 => /127.0.0.1:33333]
+2015-11-05 11:09:35,866 [nioEventLoopGroup-6-2] INFO - [id: 0x869a5a98, /127.0.0.1:53336 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-05 11:09:35,885 [nioEventLoopGroup-6-2] INFO - CSClientInfo m:4 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9mnu2qc1l6kfqda0mkieknbmbo",
+    metadata: "",
+    zone: "BigFoxChat"
+  }
+}
+2015-11-05 11:09:35,885 [nioEventLoopGroup-6-2] INFO - channelInactive!: [id: 0x869a5a98, /127.0.0.1:53336 :> /127.0.0.1:33333]
+2015-11-05 11:09:35,885 [nioEventLoopGroup-6-2] INFO - ChannelClosed: [id: 0x869a5a98, /127.0.0.1:53336 :> /127.0.0.1:33333]
+2015-11-05 11:09:35,885 [nioEventLoopGroup-6-2] INFO - Channel unregistered
+2015-11-05 11:09:40,890 [nioEventLoopGroup-6-3] INFO - channelActive : [id: 0x853f69ec, /127.0.0.1:53337 => /127.0.0.1:33333]
+2015-11-05 11:09:40,890 [nioEventLoopGroup-6-3] INFO - [id: 0x853f69ec, /127.0.0.1:53337 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-05 11:09:40,912 [nioEventLoopGroup-6-3] INFO - CSClientInfo m:5 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9mnu2qc1l6kfqda0mkieknbmbo",
+    metadata: "",
+    zone: "BigFoxChat"
+  }
+}
+2015-11-05 11:09:40,915 [nioEventLoopGroup-6-3] INFO - channelInactive!: [id: 0x853f69ec, /127.0.0.1:53337 :> /127.0.0.1:33333]
+2015-11-05 11:09:40,915 [nioEventLoopGroup-6-3] INFO - ChannelClosed: [id: 0x853f69ec, /127.0.0.1:53337 :> /127.0.0.1:33333]
+2015-11-05 11:09:40,915 [nioEventLoopGroup-6-3] INFO - Channel unregistered
+2015-11-05 11:09:45,919 [nioEventLoopGroup-6-4] INFO - channelActive : [id: 0x4d23b713, /127.0.0.1:53339 => /127.0.0.1:33333]
+2015-11-05 11:09:45,919 [nioEventLoopGroup-6-4] INFO - [id: 0x4d23b713, /127.0.0.1:53339 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-05 11:09:45,954 [nioEventLoopGroup-6-4] INFO - CSClientInfo m:6 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9mnu2qc1l6kfqda0mkieknbmbo",
+    metadata: "",
+    zone: "BigFoxChat"
+  }
+}
+2015-11-05 11:09:45,955 [nioEventLoopGroup-6-4] INFO - channelInactive!: [id: 0x4d23b713, /127.0.0.1:53339 :> /127.0.0.1:33333]
+2015-11-05 11:09:45,955 [nioEventLoopGroup-6-4] INFO - ChannelClosed: [id: 0x4d23b713, /127.0.0.1:53339 :> /127.0.0.1:33333]
+2015-11-05 11:09:45,955 [nioEventLoopGroup-6-4] INFO - Channel unregistered
+2015-11-05 11:09:50,960 [nioEventLoopGroup-6-5] INFO - channelActive : [id: 0xbef35adb, /127.0.0.1:53341 => /127.0.0.1:33333]
+2015-11-05 11:09:50,961 [nioEventLoopGroup-6-5] INFO - [id: 0xbef35adb, /127.0.0.1:53341 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-05 11:09:50,984 [nioEventLoopGroup-6-5] INFO - CSClientInfo m:7 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9mnu2qc1l6kfqda0mkieknbmbo",
+    metadata: "",
+    zone: "BigFoxChat"
+  }
+}
+2015-11-05 11:09:50,984 [nioEventLoopGroup-6-5] INFO - channelInactive!: [id: 0xbef35adb, /127.0.0.1:53341 :> /127.0.0.1:33333]
+2015-11-05 11:09:50,984 [nioEventLoopGroup-6-5] INFO - ChannelClosed: [id: 0xbef35adb, /127.0.0.1:53341 :> /127.0.0.1:33333]
+2015-11-05 11:09:50,984 [nioEventLoopGroup-6-5] INFO - Channel unregistered
+2015-11-05 11:09:55,988 [nioEventLoopGroup-6-6] INFO - channelActive : [id: 0xe20b8077, /127.0.0.1:53343 => /127.0.0.1:33333]
+2015-11-05 11:09:55,988 [nioEventLoopGroup-6-6] INFO - [id: 0xe20b8077, /127.0.0.1:53343 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-05 11:09:56,014 [nioEventLoopGroup-6-6] INFO - CSClientInfo m:8 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "9mnu2qc1l6kfqda0mkieknbmbo",
+    metadata: "",
+    zone: "BigFoxChat"
+  }
+}
+2015-11-05 11:09:56,015 [nioEventLoopGroup-6-6] INFO - channelInactive!: [id: 0xe20b8077, /127.0.0.1:53343 :> /127.0.0.1:33333]
+2015-11-05 11:09:56,015 [nioEventLoopGroup-6-6] INFO - ChannelClosed: [id: 0xe20b8077, /127.0.0.1:53343 :> /127.0.0.1:33333]
+2015-11-05 11:09:56,016 [nioEventLoopGroup-6-6] INFO - Channel unregistered
+2015-11-05 11:10:57,102 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-05 11:10:57,107 [main] INFO - define class vn.com.onesoft.chatexamain.chat.BFSessionEvent
+2015-11-05 11:10:57,107 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.session.IBFSessionEvent
+2015-11-05 11:10:57,107 [main] INFO - BFClassLoader load java.lang.Object
+2015-11-05 11:10:57,109 [main] INFO - define class vn.com.onesoft.chatexample.main.ChatActivity
+2015-11-05 11:10:57,109 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.BFZoneActivity
+2015-11-05 11:10:57,111 [main] INFO - define class vn.com.onesoft.chatexample.main.Main
+2015-11-05 11:10:57,112 [main] INFO - define class vn.com.onesoft.chatexample.server.db.DBUserLog
+2015-11-05 11:10:57,113 [main] INFO - define class vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-11-05 11:10:57,115 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-05 11:10:57,115 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-05 11:10:57,118 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-05 11:10:57,119 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-05 11:10:57,119 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-05 11:10:57,120 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.tags.Tags
+2015-11-05 11:10:57,121 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-05 11:10:57,121 [main] INFO - BFClassLoader load java.io.IOException
+2015-11-05 11:10:57,121 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.IBFZone
+2015-11-05 11:10:57,122 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
+2015-11-05 11:10:57,122 [main] INFO - BeforeZoneStart
+2015-11-05 11:10:57,122 [main] INFO - BFClassLoader load java.lang.StringBuilder
+2015-11-05 11:10:57,122 [main] INFO - BFClassLoader load java.io.File
+2015-11-05 11:10:57,122 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-05 11:10:57,122 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-05 11:10:57,145 [main] INFO - BFClassLoader load java.io.Serializable
+2015-11-05 11:10:57,150 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-05 11:10:57,164 [main] INFO - AfterZoneStart
+2015-11-05 11:10:57,165 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-05 11:10:57,384 [Thread-4] DEBUG - -Dio.netty.eventLoopThreads: 16
+2015-11-05 11:10:57,391 [Thread-2] DEBUG - -Dio.netty.noKeySetOptimization: false
+2015-11-05 11:10:57,391 [Thread-2] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-05 11:10:57,418 [Thread-2] INFO - Socket start at port 33333
+2015-11-05 11:10:57,418 [Thread-4] INFO - Telnet start at port 40000
+2015-11-05 11:10:57,440 [Thread-3] INFO - WebSocket start at port 33332
+2015-11-05 11:10:57,442 [Thread-2] DEBUG - -Dio.netty.processId: 1955 (auto-detected)
+2015-11-05 11:10:57,445 [Thread-2] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-11-05 11:10:57,446 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0x97e1ee8d8aadb343 (took 15 ms)
+2015-11-05 11:10:57,470 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-05 11:10:57,470 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-05 11:10:57,470 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-11-05 11:10:57,470 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-11-05 11:10:57,470 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-05 11:10:57,470 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-05 11:10:57,470 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-05 11:10:57,471 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-05 11:10:57,471 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-05 11:10:57,471 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-05 11:10:57,476 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-11-05 11:10:57,476 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-05 11:10:57,478 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-11-05 11:10:57,478 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-11-05 11:10:57,489 [nioEventLoopGroup-4-1] INFO - [id: 0x5bb66101] REGISTERED
+2015-11-05 11:10:57,489 [nioEventLoopGroup-4-1] INFO - [id: 0x5bb66101] BIND: 0.0.0.0/0.0.0.0:33332
+2015-11-05 11:10:57,495 [nioEventLoopGroup-4-1] INFO - [id: 0x5bb66101, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-11-05 11:11:01,906 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+2015-11-05 11:11:01,913 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-05 11:11:01,922 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-11-05 11:11:01,935 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-11-05 11:11:01,997 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "857nolekfoh7aa2jakpis5rkni",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-11-05 11:11:01,999 [nioEventLoopGroup-6-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-11-05 11:11:02,004 [nioEventLoopGroup-6-1] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-11-05 11:11:02,005 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1446696662005
+}
+2015-11-05 11:11:03,831 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.String
+2015-11-05 11:11:03,831 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Property
+2015-11-05 11:11:03,831 [nioEventLoopGroup-6-1] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-11-05 11:11:07,481 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager
+2015-11-05 11:11:07,482 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Map
+2015-11-05 11:11:07,483 [nioEventLoopGroup-6-1] INFO - BFClassLoader load com.google.common.collect.MapMaker
+2015-11-05 11:11:07,483 [nioEventLoopGroup-6-1] INFO - CSPing m:4 s:0 {
+  clientTime: 0
+}
+2015-11-05 11:11:07,483 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1446696667483
+}
+2015-11-05 11:11:09,974 [nioEventLoopGroup-6-1] INFO - CSChat m:5 s:0 {
+  msg: "aaa"
+}
+2015-11-05 11:11:13,088 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Class
+2015-11-05 11:11:13,088 [nioEventLoopGroup-6-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoaderZone@402e37bc
+2015-11-05 11:11:13,088 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Calendar
+2015-11-05 11:11:13,088 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager
+2015-11-05 11:11:13,090 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCChat m:5 s:1 {
+  msg: "11:11:13
+Q: vvaaa"
+}
+2015-11-05 11:11:13,090 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.AnnotationConfiguration
+2015-11-05 11:11:13,120 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.Configuration
+2015-11-05 11:11:13,159 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.xml.XmlDocument
+2015-11-05 11:11:13,161 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.MappingNotFoundException
+2015-11-05 11:11:13,164 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.MappingException
+2015-11-05 11:11:13,167 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.HibernateException
+2015-11-05 11:11:13,170 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.RuntimeException
+2015-11-05 11:11:13,171 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SerializationException
+2015-11-05 11:11:13,175 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.FileNotFoundException
+2015-11-05 11:11:13,175 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.InputStream
+2015-11-05 11:11:13,175 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.FileInputStream
+2015-11-05 11:11:13,175 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.xml.sax.InputSource
+2015-11-05 11:11:13,175 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.OutputStream
+2015-11-05 11:11:13,175 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.FileOutputStream
+2015-11-05 11:11:13,175 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.Reader
+2015-11-05 11:11:13,175 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.StringReader
+2015-11-05 11:11:13,176 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.InvalidMappingException
+2015-11-05 11:11:13,180 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Enumeration
+2015-11-05 11:11:13,180 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.dom4j.DocumentException
+2015-11-05 11:11:13,181 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.List
+2015-11-05 11:11:13,181 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.ArrayList
+2015-11-05 11:11:13,181 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.MetadataProvider
+2015-11-05 11:11:13,185 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.ReflectionManager
+2015-11-05 11:11:13,188 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.engine.Mapping
+2015-11-05 11:11:13,191 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.ClassCastException
+2015-11-05 11:11:13,191 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.reflect.InvocationTargetException
+2015-11-05 11:11:13,191 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.NoSuchMethodException
+2015-11-05 11:11:13,192 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.IllegalAccessException
+2015-11-05 11:11:13,192 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.InstantiationException
+2015-11-05 11:11:13,192 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.ClassNotFoundException
+2015-11-05 11:11:13,193 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.AnnotationException
+2015-11-05 11:11:13,199 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Set
+2015-11-05 11:11:13,199 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.RecoverableException
+2015-11-05 11:11:13,202 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Iterator
+2015-11-05 11:11:13,203 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Collection
+2015-11-05 11:11:13,203 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.ListIterator
+2015-11-05 11:11:13,203 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.factory.IdentifierGeneratorFactory
+2015-11-05 11:11:13,206 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.Mappings
+2015-11-05 11:11:13,215 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.SessionFactory
+2015-11-05 11:11:13,218 [nioEventLoopGroup-6-1] INFO - BFClassLoader load javax.naming.Referenceable
+2015-11-05 11:11:13,219 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.xml.sax.EntityResolver
+2015-11-05 11:11:13,219 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.xml.Origin
+2015-11-05 11:11:13,222 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.ObjectNameNormalizer
+2015-11-05 11:11:13,227 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.Configuration$ObjectNameNormalizerImpl
+2015-11-05 11:11:13,231 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.ExtendedMappings
+2015-11-05 11:11:13,234 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.LoggerFactory
+2015-11-05 11:11:13,305 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.ClassLoader
+2015-11-05 11:11:13,306 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.NoSuchFieldError
+2015-11-05 11:11:13,306 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.ILoggerFactory
+2015-11-05 11:11:13,314 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.IllegalStateException
+2015-11-05 11:11:13,315 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.NoClassDefFoundError
+2015-11-05 11:11:13,315 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.NoSuchMethodError
+2015-11-05 11:11:13,315 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.helpers.SubstituteLoggerFactory
+2015-11-05 11:11:13,323 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.Logger
+2015-11-05 11:11:13,334 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.helpers.NOPLoggerFactory
+2015-11-05 11:11:13,346 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.impl.StaticLoggerBinder
+2015-11-05 11:11:13,356 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.spi.LoggerFactoryBinder
+2015-11-05 11:11:13,378 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.joran.spi.JoranException
+2015-11-05 11:11:13,382 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.Context
+2015-11-05 11:11:13,386 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.PropertyContainer
+2015-11-05 11:11:13,391 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.LoggerContext
+2015-11-05 11:11:13,400 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.LifeCycle
+2015-11-05 11:11:13,405 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.ContextBase
+2015-11-05 11:11:13,411 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.IllegalArgumentException
+2015-11-05 11:11:13,411 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.StatusManager
+2015-11-05 11:11:13,417 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Comparator
+2015-11-05 11:11:13,417 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.Status
+2015-11-05 11:11:13,422 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.System
+2015-11-05 11:11:13,422 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.BasicStatusManager
+2015-11-05 11:11:13,428 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.helpers.CyclicBuffer
+2015-11-05 11:11:13,434 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.LogbackLock
+2015-11-05 11:11:13,440 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.HashMap
+2015-11-05 11:11:13,440 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.spi.TurboFilterList
+2015-11-05 11:11:13,445 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.concurrent.CopyOnWriteArrayList
+2015-11-05 11:11:13,445 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.IndexOutOfBoundsException
+2015-11-05 11:11:13,446 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.concurrent.ConcurrentHashMap
+2015-11-05 11:11:13,446 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.spi.LoggerContextVO
+2015-11-05 11:11:13,451 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.Logger
+2015-11-05 11:11:13,463 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.spi.LocationAwareLogger
+2015-11-05 11:11:13,468 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.AppenderAttachable
+2015-11-05 11:11:13,473 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.spi.ILoggingEvent
+2015-11-05 11:11:13,477 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.DeferredProcessingAware
+2015-11-05 11:11:13,481 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.Level
+2015-11-05 11:11:13,487 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Integer
+2015-11-05 11:11:13,487 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.util.ContextSelectorStaticBinder
+2015-11-05 11:11:13,493 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.selector.ContextSelector
+2015-11-05 11:11:13,499 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.util.ContextInitializer
+2015-11-05 11:11:13,506 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.net.MalformedURLException
+2015-11-05 11:11:13,506 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.LogbackException
+2015-11-05 11:11:13,523 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.util.StatusListenerConfigHelper
+2015-11-05 11:11:13,527 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.OnConsoleStatusListener
+2015-11-05 11:11:13,532 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.OnPrintStreamStatusListenerBase
+2015-11-05 11:11:13,537 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.StatusListener
+2015-11-05 11:11:13,544 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.ContextAwareBase
+2015-11-05 11:11:13,549 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.ContextAware
+2015-11-05 11:11:13,553 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.OptionHelper
+2015-11-05 11:11:13,560 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.ScanException
+2015-11-05 11:11:13,564 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.SecurityException
+2015-11-05 11:11:13,564 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.IncompatibleClassException
+2015-11-05 11:11:13,568 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.NullPointerException
+2015-11-05 11:11:13,568 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.DynamicClassLoadingException
+2015-11-05 11:11:13,574 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.Loader
+2015-11-05 11:11:13,580 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.security.PrivilegedAction
+2015-11-05 11:11:13,580 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.Loader$1
+2015-11-05 11:11:13,584 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.security.Permission
+2015-11-05 11:11:13,584 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.RuntimePermission
+2015-11-05 11:11:13,585 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.security.AccessController
+2015-11-05 11:11:13,601 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Boolean
+2015-11-05 11:11:13,601 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.InfoStatus
+2015-11-05 11:11:13,607 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.StatusBase
+2015-11-05 11:11:13,613 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.BasicConfigurator
+2015-11-05 11:11:13,618 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.encoder.Encoder
+2015-11-05 11:11:13,622 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.Appender
+2015-11-05 11:11:13,626 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.FilterAttachable
+2015-11-05 11:11:13,630 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.ConsoleAppender
+2015-11-05 11:11:13,635 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.OutputStreamAppender
+2015-11-05 11:11:13,643 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.UnsynchronizedAppenderBase
+2015-11-05 11:11:13,650 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.ThreadLocal
+2015-11-05 11:11:13,650 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.FilterAttachableImpl
+2015-11-05 11:11:13,655 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.concurrent.locks.ReentrantLock
+2015-11-05 11:11:13,655 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.joran.spi.ConsoleTarget
+2015-11-05 11:11:13,660 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Enum
+2015-11-05 11:11:13,660 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.joran.spi.ConsoleTarget$1
+2015-11-05 11:11:13,664 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.joran.spi.ConsoleTarget$2
+2015-11-05 11:11:13,668 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.encoder.PatternLayoutEncoder
+2015-11-05 11:11:13,673 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.PatternLayoutEncoderBase
+2015-11-05 11:11:13,678 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.encoder.LayoutWrappingEncoder
+2015-11-05 11:11:13,685 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.encoder.EncoderBase
+2015-11-05 11:11:13,690 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.UnsupportedEncodingException
+2015-11-05 11:11:13,690 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.UnsupportedOperationException
+2015-11-05 11:11:13,690 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.Layout
+2015-11-05 11:11:13,695 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.PatternLayout
+2015-11-05 11:11:13,702 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.PatternLayoutBase
+2015-11-05 11:11:13,706 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.LayoutBase
+2015-11-05 11:11:13,709 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.Parser
+2015-11-05 11:11:13,715 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.Node
+2015-11-05 11:11:13,719 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.PostCompileProcessor
+2015-11-05 11:11:13,721 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.FormattingNode
+2015-11-05 11:11:13,726 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.CompositeNode
+2015-11-05 11:11:13,729 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.SimpleKeywordNode
+2015-11-05 11:11:13,737 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.util.IEscapeUtil
+2015-11-05 11:11:13,742 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.Token
+2015-11-05 11:11:13,746 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.IdentityCompositeConverter
+2015-11-05 11:11:13,749 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.CompositeConverter
+2015-11-05 11:11:13,751 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.DynamicConverter
+2015-11-05 11:11:13,755 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.FormattingConverter
+2015-11-05 11:11:13,758 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.Converter
+2015-11-05 11:11:13,760 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.ReplacingCompositeConverter
+2015-11-05 11:11:13,763 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.DateConverter
+2015-11-05 11:11:13,766 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ClassicConverter
+2015-11-05 11:11:13,769 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.RelativeTimeConverter
+2015-11-05 11:11:13,771 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LevelConverter
+2015-11-05 11:11:13,773 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ThreadConverter
+2015-11-05 11:11:13,776 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LoggerConverter
+2015-11-05 11:11:13,778 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.NamedConverter
+2015-11-05 11:11:13,781 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.MessageConverter
+2015-11-05 11:11:13,783 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ClassOfCallerConverter
+2015-11-05 11:11:13,785 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.MethodOfCallerConverter
+2015-11-05 11:11:13,787 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LineOfCallerConverter
+2015-11-05 11:11:13,789 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.FileOfCallerConverter
+2015-11-05 11:11:13,793 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.MDCConverter
+2015-11-05 11:11:13,797 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ThrowableProxyConverter
+2015-11-05 11:11:13,801 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ThrowableHandlingConverter
+2015-11-05 11:11:13,804 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.RootCauseFirstThrowableProxyConverter
+2015-11-05 11:11:13,806 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ExtendedThrowableProxyConverter
+2015-11-05 11:11:13,809 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.NopThrowableInformationConverter
+2015-11-05 11:11:13,811 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ContextNameConverter
+2015-11-05 11:11:13,814 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.CallerDataConverter
+2015-11-05 11:11:13,818 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.MarkerConverter
+2015-11-05 11:11:13,820 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.PropertyConverter
+2015-11-05 11:11:13,823 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LineSeparatorConverter
+2015-11-05 11:11:13,825 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BlackCompositeConverter
+2015-11-05 11:11:13,827 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.ForegroundCompositeConverterBase
+2015-11-05 11:11:13,829 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.RedCompositeConverter
+2015-11-05 11:11:13,832 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.GreenCompositeConverter
+2015-11-05 11:11:13,834 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.YellowCompositeConverter
+2015-11-05 11:11:13,837 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BlueCompositeConverter
+2015-11-05 11:11:13,841 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.MagentaCompositeConverter
+2015-11-05 11:11:13,844 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.CyanCompositeConverter
+2015-11-05 11:11:13,853 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.WhiteCompositeConverter
+2015-11-05 11:11:13,857 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.GrayCompositeConverter
+2015-11-05 11:11:13,861 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldRedCompositeConverter
+2015-11-05 11:11:13,865 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldGreenCompositeConverter
+2015-11-05 11:11:13,869 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldYellowCompositeConverter
+2015-11-05 11:11:13,873 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldBlueCompositeConverter
+2015-11-05 11:11:13,876 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldMagentaCompositeConverter
+2015-11-05 11:11:13,879 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldCyanCompositeConverter
+2015-11-05 11:11:13,881 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldWhiteCompositeConverter
+2015-11-05 11:11:13,883 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.color.HighlightingCompositeConverter
+2015-11-05 11:11:13,886 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LocalSequenceNumberConverter
+2015-11-05 11:11:13,889 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.EnsureExceptionHandling
+2015-11-05 11:11:13,899 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.util.RegularEscapeUtil
+2015-11-05 11:11:13,902 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.TokenStream
+2015-11-05 11:11:13,907 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.util.RestrictedEscapeUtil
+2015-11-05 11:11:13,909 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.TokenStream$TokenizerState
+2015-11-05 11:11:13,912 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.StringBuffer
+2015-11-05 11:11:13,912 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.TokenStream$1
+2015-11-05 11:11:13,914 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Character
+2015-11-05 11:11:13,914 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.OptionTokenizer
+2015-11-05 11:11:13,918 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.util.AsIsEscapeUtil
+2015-11-05 11:11:13,922 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.FormatInfo
+2015-11-05 11:11:13,927 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.Compiler
+2015-11-05 11:11:13,934 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.LiteralConverter
+2015-11-05 11:11:13,938 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.DateConverter
+2015-11-05 11:11:13,939 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ThreadConverter
+2015-11-05 11:11:13,939 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LevelConverter
+2015-11-05 11:11:13,939 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LoggerConverter
+2015-11-05 11:11:13,939 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.NumberFormatException
+2015-11-05 11:11:13,940 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.Abbreviator
+2015-11-05 11:11:13,947 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.MessageConverter
+2015-11-05 11:11:13,947 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LineSeparatorConverter
+2015-11-05 11:11:13,947 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.ConverterUtil
+2015-11-05 11:11:13,955 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.boolex.EvaluationException
+2015-11-05 11:11:13,960 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.CachingDateFormatter
+2015-11-05 11:11:13,964 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.text.SimpleDateFormat
+2015-11-05 11:11:13,964 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.TargetLengthBasedClassNameAbbreviator
+2015-11-05 11:11:13,970 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.EnvUtil
+2015-11-05 11:11:13,975 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.AppenderAttachableImpl
+2015-11-05 11:11:13,982 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.StatusUtil
+2015-11-05 11:11:13,988 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.CharSequence
+2015-11-05 11:11:13,989 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.StatusPrinter
+2015-11-05 11:11:13,995 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Long
+2015-11-05 11:11:13,995 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.selector.DefaultContextSelector
+2015-11-05 11:11:14,000 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.util.LoggerNameUtil
+2015-11-05 11:11:14,005 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.MetadataSourceType
+2015-11-05 11:11:14,008 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.SettingsFactory
+2015-11-05 11:11:14,020 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.jdbc.NonBatchingBatcherFactory
+2015-11-05 11:11:14,022 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.jdbc.BatcherFactory
+2015-11-05 11:11:14,024 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.jdbc.BatchingBatcherFactory
+2015-11-05 11:11:14,026 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.BytecodeProvider
+2015-11-05 11:11:14,027 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.SQLException
+2015-11-05 11:11:14,028 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.DatabaseMetaData
+2015-11-05 11:11:14,030 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Connection
+2015-11-05 11:11:14,031 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cache.impl.NoCachingRegionFactory
+2015-11-05 11:11:14,034 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cache.RegionFactory
+2015-11-05 11:11:14,037 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TypeResolver
+2015-11-05 11:11:14,040 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.Type
+2015-11-05 11:11:14,043 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BasicTypeRegistry
+2015-11-05 11:11:14,049 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BasicType
+2015-11-05 11:11:14,050 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AbstractStandardBasicType
+2015-11-05 11:11:14,058 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.StringRepresentableType
+2015-11-05 11:11:14,061 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.XmlRepresentableType
+2015-11-05 11:11:14,063 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.DateType
+2015-11-05 11:11:14,065 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.IdentifierType
+2015-11-05 11:11:14,067 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.LiteralType
+2015-11-05 11:11:14,068 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AbstractSingleColumnStandardBasicType
+2015-11-05 11:11:14,071 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SingleColumnType
+2015-11-05 11:11:14,073 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TimeType
+2015-11-05 11:11:14,075 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TimestampType
+2015-11-05 11:11:14,079 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.VersionType
+2015-11-05 11:11:14,081 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.DbTimestampType
+2015-11-05 11:11:14,083 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CalendarType
+2015-11-05 11:11:14,086 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CalendarDateType
+2015-11-05 11:11:14,087 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BinaryType
+2015-11-05 11:11:14,090 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SerializableType
+2015-11-05 11:11:14,092 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BooleanType
+2015-11-05 11:11:14,095 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.PrimitiveType
+2015-11-05 11:11:14,097 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.DiscriminatorType
+2015-11-05 11:11:14,098 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.WrapperOptions
+2015-11-05 11:11:14,100 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JavaTypeDescriptor
+2015-11-05 11:11:14,102 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.SqlTypeDescriptor
+2015-11-05 11:11:14,103 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AbstractSingleColumnStandardBasicType$1
+2015-11-05 11:11:14,105 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.engine.jdbc.LobCreator
+2015-11-05 11:11:14,106 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BitTypeDescriptor
+2015-11-05 11:11:14,108 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.ValueBinder
+2015-11-05 11:11:14,110 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.ValueExtractor
+2015-11-05 11:11:14,111 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.BooleanTypeDescriptor
+2015-11-05 11:11:14,114 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.AbstractTypeDescriptor
+2015-11-05 11:11:14,118 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.MutabilityPlan
+2015-11-05 11:11:14,119 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ImmutableMutabilityPlan
+2015-11-05 11:11:14,122 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Comparable
+2015-11-05 11:11:14,122 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.ComparableComparator
+2015-11-05 11:11:14,124 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.FilterReply
+2015-11-05 11:11:14,127 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.spi.LoggingEvent
+2015-11-05 11:11:14,134 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.spi.IThrowableProxy
+2015-11-05 11:11:14,139 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.spi.EventArgUtil
+2015-11-05 11:11:14,143 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.helpers.MessageFormatter
+2015-11-05 11:11:14,159 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.helpers.FormattingTuple
+2015-11-05 11:11:14,164 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Thread
+2015-11-05 11:11:14,164 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.MDC
+2015-11-05 11:11:14,169 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.spi.MDCAdapter
+2015-11-05 11:11:14,172 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.impl.StaticMDCBinder
+2015-11-05 11:11:14,176 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.util.LogbackMDCAdapter
+2015-11-05 11:11:14,180 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.InheritableThreadLocal
+2015-11-05 11:11:14,181 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Date
+2015-11-05 11:11:14,181 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.CoreConstants
+2015-11-05 11:11:14,185 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.PrintStream
+2015-11-05 11:11:14,186 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.NumericBooleanType
+2015-11-05 11:11:14,198 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.IntegerTypeDescriptor
+2015-11-05 11:11:14,201 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TrueFalseType
+2015-11-05 11:11:14,205 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.CharTypeDescriptor
+2015-11-05 11:11:14,207 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.VarcharTypeDescriptor
+2015-11-05 11:11:14,211 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.YesNoType
+2015-11-05 11:11:14,214 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ByteType
+2015-11-05 11:11:14,218 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.TinyIntTypeDescriptor
+2015-11-05 11:11:14,221 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ByteTypeDescriptor
+2015-11-05 11:11:14,224 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Byte
+2015-11-05 11:11:14,225 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CharacterType
+2015-11-05 11:11:14,228 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.CharacterTypeDescriptor
+2015-11-05 11:11:14,231 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ShortType
+2015-11-05 11:11:14,234 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.SmallIntTypeDescriptor
+2015-11-05 11:11:14,236 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ShortTypeDescriptor
+2015-11-05 11:11:14,239 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Short
+2015-11-05 11:11:14,240 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.IntegerType
+2015-11-05 11:11:14,244 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.IntegerTypeDescriptor
+2015-11-05 11:11:14,247 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.LongType
+2015-11-05 11:11:14,250 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BigIntTypeDescriptor
+2015-11-05 11:11:14,252 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.LongTypeDescriptor
+2015-11-05 11:11:14,255 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.FloatType
+2015-11-05 11:11:14,258 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.FloatTypeDescriptor
+2015-11-05 11:11:14,259 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.RealTypeDescriptor
+2015-11-05 11:11:14,261 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.FloatTypeDescriptor
+2015-11-05 11:11:14,264 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Float
+2015-11-05 11:11:14,264 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.DoubleType
+2015-11-05 11:11:14,267 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.DoubleTypeDescriptor
+2015-11-05 11:11:14,269 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.DoubleTypeDescriptor
+2015-11-05 11:11:14,272 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Double
+2015-11-05 11:11:14,272 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BigDecimalType
+2015-11-05 11:11:14,274 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.NumericTypeDescriptor
+2015-11-05 11:11:14,275 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.DecimalTypeDescriptor
+2015-11-05 11:11:14,277 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.BigDecimalTypeDescriptor
+2015-11-05 11:11:14,281 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.math.BigDecimal
+2015-11-05 11:11:14,282 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BigIntegerType
+2015-11-05 11:11:14,285 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.BigIntegerTypeDescriptor
+2015-11-05 11:11:14,288 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.math.BigInteger
+2015-11-05 11:11:14,289 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.StringType
+2015-11-05 11:11:14,292 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.StringTypeDescriptor
+2015-11-05 11:11:14,294 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.UrlType
+2015-11-05 11:11:14,297 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.UrlTypeDescriptor
+2015-11-05 11:11:14,300 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.net.URL
+2015-11-05 11:11:14,300 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.DateTypeDescriptor
+2015-11-05 11:11:14,303 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JdbcDateTypeDescriptor
+2015-11-05 11:11:14,306 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.text.ParseException
+2015-11-05 11:11:14,306 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Date
+2015-11-05 11:11:14,307 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JdbcDateTypeDescriptor$DateMutabilityPlan
+2015-11-05 11:11:14,309 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.MutableMutabilityPlan
+2015-11-05 11:11:14,312 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.TimeTypeDescriptor
+2015-11-05 11:11:14,313 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JdbcTimeTypeDescriptor
+2015-11-05 11:11:14,317 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Time
+2015-11-05 11:11:14,318 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JdbcTimeTypeDescriptor$TimeMutabilityPlan
+2015-11-05 11:11:14,321 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Timestamp
+2015-11-05 11:11:14,321 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.TimestampTypeDescriptor
+2015-11-05 11:11:14,323 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JdbcTimestampTypeDescriptor
+2015-11-05 11:11:14,327 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JdbcTimestampTypeDescriptor$TimestampMutabilityPlan
+2015-11-05 11:11:14,329 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.JDBCException
+2015-11-05 11:11:14,330 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.PreparedStatement
+2015-11-05 11:11:14,332 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.CalendarTypeDescriptor
+2015-11-05 11:11:14,335 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.GregorianCalendar
+2015-11-05 11:11:14,336 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.CalendarTypeDescriptor$CalendarMutabilityPlan
+2015-11-05 11:11:14,338 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.CalendarDateTypeDescriptor
+2015-11-05 11:11:14,342 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.LocaleType
+2015-11-05 11:11:14,343 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.LocaleTypeDescriptor
+2015-11-05 11:11:14,346 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Locale
+2015-11-05 11:11:14,347 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CurrencyType
+2015-11-05 11:11:14,348 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.CurrencyTypeDescriptor
+2015-11-05 11:11:14,351 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Currency
+2015-11-05 11:11:14,351 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TimeZoneType
+2015-11-05 11:11:14,353 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.TimeZoneTypeDescriptor
+2015-11-05 11:11:14,355 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.TimeZone
+2015-11-05 11:11:14,356 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ClassType
+2015-11-05 11:11:14,357 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ClassTypeDescriptor
+2015-11-05 11:11:14,360 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.UUIDBinaryType
+2015-11-05 11:11:14,362 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BinaryTypeDescriptor
+2015-11-05 11:11:14,363 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.VarbinaryTypeDescriptor
+2015-11-05 11:11:14,365 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.UUIDTypeDescriptor
+2015-11-05 11:11:14,368 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.UUID
+2015-11-05 11:11:14,369 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.UUIDCharType
+2015-11-05 11:11:14,371 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.PostgresUUIDType
+2015-11-05 11:11:14,372 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.PostgresUUIDType$PostgresUUIDSqlTypeDescriptor
+2015-11-05 11:11:14,374 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.PrimitiveByteArrayTypeDescriptor
+2015-11-05 11:11:14,378 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ArrayMutabilityPlan
+2015-11-05 11:11:14,380 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.WrapperBinaryType
+2015-11-05 11:11:14,382 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ByteArrayTypeDescriptor
+2015-11-05 11:11:14,386 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ImageType
+2015-11-05 11:11:14,388 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.LongVarbinaryTypeDescriptor
+2015-11-05 11:11:14,389 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CharArrayType
+2015-11-05 11:11:14,391 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.PrimitiveCharacterArrayTypeDescriptor
+2015-11-05 11:11:14,394 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CharacterArrayType
+2015-11-05 11:11:14,396 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.CharacterArrayTypeDescriptor
+2015-11-05 11:11:14,400 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TextType
+2015-11-05 11:11:14,402 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.LongVarcharTypeDescriptor
+2015-11-05 11:11:14,403 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BlobType
+2015-11-05 11:11:14,405 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.LobType
+2015-11-05 11:11:14,407 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AlternativeLobTypes
+2015-11-05 11:11:14,409 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AlternativeLobTypes$BlobTypes
+2015-11-05 11:11:14,411 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor
+2015-11-05 11:11:14,413 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$1
+2015-11-05 11:11:14,415 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$2
+2015-11-05 11:11:14,417 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$3
+2015-11-05 11:11:14,418 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$4
+2015-11-05 11:11:14,420 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BasicBinder
+2015-11-05 11:11:14,423 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$1$1
+2015-11-05 11:11:14,425 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$2$1
+2015-11-05 11:11:14,427 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$3$1
+2015-11-05 11:11:14,429 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$4$1
+2015-11-05 11:11:14,432 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.reflect.Constructor
+2015-11-05 11:11:14,432 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.BlobTypeDescriptor
+2015-11-05 11:11:14,435 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Blob
+2015-11-05 11:11:14,435 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.BlobTypeDescriptor$BlobMutabilityPlan
+2015-11-05 11:11:14,437 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.MaterializedBlobType
+2015-11-05 11:11:14,440 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.WrappedMaterializedBlobType
+2015-11-05 11:11:14,442 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ClobType
+2015-11-05 11:11:14,444 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AlternativeLobTypes$ClobTypes
+2015-11-05 11:11:14,447 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor
+2015-11-05 11:11:14,450 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor$1
+2015-11-05 11:11:14,452 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor$2
+2015-11-05 11:11:14,454 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor$3
+2015-11-05 11:11:14,455 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor$1$1
+2015-11-05 11:11:14,457 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor$2$1
+2015-11-05 11:11:14,459 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor$3$1
+2015-11-05 11:11:14,462 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ClobTypeDescriptor
+2015-11-05 11:11:14,465 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Clob
+2015-11-05 11:11:14,465 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ClobTypeDescriptor$ClobMutabilityPlan
+2015-11-05 11:11:14,468 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.MaterializedClobType
+2015-11-05 11:11:14,470 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CharacterArrayClobType
+2015-11-05 11:11:14,473 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.PrimitiveCharacterArrayClobType
+2015-11-05 11:11:14,476 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.SerializableTypeDescriptor
+2015-11-05 11:11:14,480 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.SerializableTypeDescriptor$SerializableMutabilityPlan
+2015-11-05 11:11:14,481 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ObjectType
+2015-11-05 11:11:14,483 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AnyType
+2015-11-05 11:11:14,489 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CompositeType
+2015-11-05 11:11:14,491 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AssociationType
+2015-11-05 11:11:14,493 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AbstractType
+2015-11-05 11:11:14,497 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.TransientObjectException
+2015-11-05 11:11:14,499 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AdaptedImmutableType
+2015-11-05 11:11:14,501 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TypeFactory
+2015-11-05 11:11:14,507 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TypeFactory$TypeScope
+2015-11-05 11:11:14,509 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CollectionType
+2015-11-05 11:11:14,518 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SortedSetType
+2015-11-05 11:11:14,520 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SetType
+2015-11-05 11:11:14,522 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.OrderedSetType
+2015-11-05 11:11:14,524 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.OrderedMapType
+2015-11-05 11:11:14,525 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.MapType
+2015-11-05 11:11:14,528 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.EntityType
+2015-11-05 11:11:14,535 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ManyToOneType
+2015-11-05 11:11:14,540 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SpecialOneToOneType
+2015-11-05 11:11:14,543 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.OneToOneType
+2015-11-05 11:11:14,564 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CustomCollectionType
+2015-11-05 11:11:14,569 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BagType
+2015-11-05 11:11:14,572 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.IdentifierBagType
+2015-11-05 11:11:14,575 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SortedMapType
+2015-11-05 11:11:14,577 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ListType
+2015-11-05 11:11:14,581 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ArrayType
+2015-11-05 11:11:14,585 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TypeFactory$TypeScopeImpl
+2015-11-05 11:11:14,589 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.Configuration$1
+2015-11-05 11:11:14,592 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.Configuration$MetadataSourceQueue
+2015-11-05 11:11:14,600 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.LinkedHashMap
+2015-11-05 11:11:14,600 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.annotations.reflection.JPAMetadataProvider
+2015-11-05 11:11:14,603 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.annotations.reflection.JPAOverridenAnnotationReader
+2015-11-05 11:11:14,630 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.AnnotationReader
+2015-11-05 11:11:14,633 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.JavaMetadataProvider
+2015-11-05 11:11:14,634 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.annotations.reflection.XMLContext
+2015-11-05 11:11:14,639 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.JavaReflectionManager
+2015-11-05 11:11:14,645 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.MetadataProviderInjector
+2015-11-05 11:11:14,647 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.XMethod
+2015-11-05 11:11:14,648 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.XMember
+2015-11-05 11:11:14,650 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.XAnnotatedElement
+2015-11-05 11:11:14,658 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.XProperty
+2015-11-05 11:11:14,659 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.XPackage
+2015-11-05 11:11:14,660 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.JavaXType
+2015-11-05 11:11:14,662 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.JavaXArrayType
+2015-11-05 11:11:14,664 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.JavaXCollectionType
+2015-11-05 11:11:14,667 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.JavaXSimpleType
+2015-11-05 11:11:14,668 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.reflect.Type
+2015-11-05 11:11:14,670 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.Version
+2015-11-05 11:11:14,671 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.SpacePadder
+2015-11-05 11:11:14,689 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.generics.TypeEnvironmentFactory
+2015-11-05 11:11:14,692 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.generics.TypeEnvironment
+2015-11-05 11:11:14,694 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.AssertionError
+2015-11-05 11:11:14,694 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.TreeMap
+2015-11-05 11:11:14,694 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.XMLHelper
+2015-11-05 11:11:14,696 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.xml.sax.ErrorHandler
+2015-11-05 11:11:14,697 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.dom4j.io.OutputFormat
+2015-11-05 11:11:14,697 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.DTDEntityResolver
+2015-11-05 11:11:14,701 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.EmptyInterceptor
+2015-11-05 11:11:14,703 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.Interceptor
+2015-11-05 11:11:14,706 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.Environment
+2015-11-05 11:11:14,714 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.Version
+2015-11-05 11:11:14,715 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Properties
+2015-11-05 11:11:14,715 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.ConfigHelper
+2015-11-05 11:11:14,718 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.InputStreamReader
+2015-11-05 11:11:14,720 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.PropertiesHelper
+2015-11-05 11:11:14,724 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.StringHelper
+2015-11-05 11:11:14,732 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.javassist.BytecodeProviderImpl
+2015-11-05 11:11:14,735 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.ProxyFactoryFactory
+2015-11-05 11:11:14,737 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.ClassTransformer
+2015-11-05 11:11:14,738 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.ReflectionOptimizer$InstantiationOptimizer
+2015-11-05 11:11:14,740 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.ReflectionOptimizer$AccessOptimizer
+2015-11-05 11:11:14,741 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.ReflectionOptimizer
+2015-11-05 11:11:14,742 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Statement
+2015-11-05 11:11:14,744 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.LinkedHashSet
+2015-11-05 11:11:14,744 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.EventListeners
+2015-11-05 11:11:14,754 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.Cloneable
+2015-11-05 11:11:14,758 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.beans.IntrospectionException
+2015-11-05 11:11:14,758 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.EventListeners$ListenerProcesser
+2015-11-05 11:11:14,760 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.AutoFlushEventListener
+2015-11-05 11:11:14,762 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.MergeEventListener
+2015-11-05 11:11:14,763 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PersistEventListener
+2015-11-05 11:11:14,764 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.DeleteEventListener
+2015-11-05 11:11:14,766 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.DirtyCheckEventListener
+2015-11-05 11:11:14,767 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.EvictEventListener
+2015-11-05 11:11:14,768 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.FlushEventListener
+2015-11-05 11:11:14,769 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.FlushEntityEventListener
+2015-11-05 11:11:14,770 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.LoadEventListener
+2015-11-05 11:11:14,772 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.InitializeCollectionEventListener
+2015-11-05 11:11:14,773 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.LockEventListener
+2015-11-05 11:11:14,774 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.RefreshEventListener
+2015-11-05 11:11:14,776 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.ReplicateEventListener
+2015-11-05 11:11:14,777 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.SaveOrUpdateEventListener
+2015-11-05 11:11:14,778 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreLoadEventListener
+2015-11-05 11:11:14,779 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreUpdateEventListener
+2015-11-05 11:11:14,780 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreDeleteEventListener
+2015-11-05 11:11:14,781 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreInsertEventListener
+2015-11-05 11:11:14,782 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreCollectionRecreateEventListener
+2015-11-05 11:11:14,783 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreCollectionRemoveEventListener
+2015-11-05 11:11:14,784 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreCollectionUpdateEventListener
+2015-11-05 11:11:14,785 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostLoadEventListener
+2015-11-05 11:11:14,786 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostUpdateEventListener
+2015-11-05 11:11:14,788 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostDeleteEventListener
+2015-11-05 11:11:14,789 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostInsertEventListener
+2015-11-05 11:11:14,790 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostCollectionRecreateEventListener
+2015-11-05 11:11:14,791 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostCollectionRemoveEventListener
+2015-11-05 11:11:14,792 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostCollectionUpdateEventListener
+2015-11-05 11:11:14,793 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Collections
+2015-11-05 11:11:14,794 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultLoadEventListener
+2015-11-05 11:11:14,803 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.AbstractLockUpgradeEventListener
+2015-11-05 11:11:14,806 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.AbstractReassociateEventListener
+2015-11-05 11:11:14,809 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.engine.SessionImplementor
+2015-11-05 11:11:14,813 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.ObjectDeletedException
+2015-11-05 11:11:14,814 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.UnresolvableObjectException
+2015-11-05 11:11:14,817 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.TypeMismatchException
+2015-11-05 11:11:14,819 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.PersistentObjectException
+2015-11-05 11:11:14,821 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.NonUniqueObjectException
+2015-11-05 11:11:14,822 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.LockMode
+2015-11-05 11:11:14,825 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultSaveOrUpdateEventListener
+2015-11-05 11:11:14,831 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.AbstractSaveEventListener
+2015-11-05 11:11:14,838 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.IdentifierGenerationException
+2015-11-05 11:11:14,840 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.action.Executable
+2015-11-05 11:11:14,842 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.AbstractEvent
+2015-11-05 11:11:14,843 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.SaveOrUpdateEvent
+2015-11-05 11:11:14,845 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.AssertionFailure
+2015-11-05 11:11:14,847 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultMergeEventListener
+2015-11-05 11:11:14,857 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.PropertyValueException
+2015-11-05 11:11:14,859 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.WrongClassException
+2015-11-05 11:11:14,861 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.StaleObjectStateException
+2015-11-05 11:11:14,863 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.StaleStateException
+2015-11-05 11:11:14,865 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultPersistEventListener
+2015-11-05 11:11:14,870 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultPersistOnFlushEventListener
+2015-11-05 11:11:14,871 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultReplicateEventListener
+2015-11-05 11:11:14,876 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultDeleteEventListener
+2015-11-05 11:11:14,882 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultAutoFlushEventListener
+2015-11-05 11:11:14,885 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.AbstractFlushingEventListener
+2015-11-05 11:11:14,892 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.FlushEvent
+2015-11-05 11:11:14,893 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.AutoFlushEvent
+2015-11-05 11:11:14,894 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultDirtyCheckEventListener
+2015-11-05 11:11:14,896 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.DirtyCheckEvent
+2015-11-05 11:11:14,897 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultFlushEventListener
+2015-11-05 11:11:14,899 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultEvictEventListener
+2015-11-05 11:11:14,903 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.proxy.LazyInitializer
+2015-11-05 11:11:14,905 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultLockEventListener
+2015-11-05 11:11:14,908 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.LockEvent
+2015-11-05 11:11:14,910 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultRefreshEventListener
+2015-11-05 11:11:14,914 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultFlushEntityEventListener
+2015-11-05 11:11:14,923 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultInitializeCollectionEventListener
+2015-11-05 11:11:14,927 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultPostLoadEventListener
+2015-11-05 11:11:14,929 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.action.BeforeTransactionCompletionProcess
+2015-11-05 11:11:14,930 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.persister.entity.EntityPersister
+2015-11-05 11:11:14,935 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cache.OptimisticCacheSource
+2015-11-05 11:11:14,936 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultPreLoadEventListener
+2015-11-05 11:11:14,938 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultSaveEventListener
+2015-11-05 11:11:14,940 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultUpdateEventListener
+2015-11-05 11:11:14,943 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultSaveOrUpdateCopyEventListener
+2015-11-05 11:11:14,945 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.EntityTuplizerFactory
+2015-11-05 11:11:14,949 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.reflect.Member
+2015-11-05 11:11:14,950 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.EntityMetamodel
+2015-11-05 11:11:14,958 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.mapping.PersistentClass
+2015-11-05 11:11:14,969 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.mapping.Filterable
+2015-11-05 11:11:14,971 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.mapping.MetaAttributable
+2015-11-05 11:11:14,973 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.EntityMode
+2015-11-05 11:11:14,975 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.PojoEntityTuplizer
+2015-11-05 11:11:14,981 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.AbstractEntityTuplizer
+2015-11-05 11:11:14,990 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.EntityTuplizer
+2015-11-05 11:11:14,993 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.Tuplizer
+2015-11-05 11:11:14,995 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.Dom4jEntityTuplizer
+2015-11-05 11:11:14,998 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.DynamicMapEntityTuplizer
+2015-11-05 11:11:15,001 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.factory.DefaultIdentifierGeneratorFactory
+2015-11-05 11:11:15,005 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.UUIDGenerator
+2015-11-05 11:11:15,008 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.IdentifierGenerator
+2015-11-05 11:11:15,009 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.Configurable
+2015-11-05 11:11:15,010 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.GUIDGenerator
+2015-11-05 11:11:15,013 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.UUIDHexGenerator
+2015-11-05 11:11:15,015 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.AbstractUUIDGenerator
+2015-11-05 11:11:15,018 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.TableHiLoGenerator
+2015-11-05 11:11:15,019 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.TableGenerator
+2015-11-05 11:11:15,025 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.PersistentIdentifierGenerator
+2015-11-05 11:11:15,026 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.engine.TransactionHelper
+2015-11-05 11:11:15,029 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.Assigned
+2015-11-05 11:11:15,032 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.IdentityGenerator
+2015-11-05 11:11:15,034 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.AbstractPostInsertGenerator
+2015-11-05 11:11:15,035 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.PostInsertIdentifierGenerator
+2015-11-05 11:11:15,037 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.SelectGenerator
+2015-11-05 11:11:15,039 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.SequenceGenerator
+2015-11-05 11:11:15,042 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.SequenceHiLoGenerator
+2015-11-05 11:11:15,045 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.IncrementGenerator
+2015-11-05 11:11:15,048 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.ForeignGenerator
+2015-11-05 11:11:15,051 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.SequenceIdentityGenerator
+2015-11-05 11:11:15,053 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.enhanced.SequenceStyleGenerator
+2015-11-05 11:11:15,057 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.enhanced.TableGenerator
+2015-11-05 11:11:15,064 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.HashSet
+2015-11-05 11:11:15,064 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.EJB3NamingStrategy
+2015-11-05 11:11:15,067 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.NamingStrategy
+2015-11-05 11:11:15,069 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.EJB3DTDEntityResolver
+2015-11-05 11:11:15,073 [nioEventLoopGroup-6-1] ERROR - Channel exceptionCaught
+java.lang.ExceptionInInitializerError
+	at vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat.execute(CSChat.java:51)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:193)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.HibernateException: could not find file: hibernate.cfg.xml
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2219)
+	at org.hibernate.cfg.AnnotationConfiguration.configure(AnnotationConfiguration.java:224)
+	at vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil.<clinit>(HibernateFactoryUtil.java:35)
+	... 20 more
+Caused by: java.io.FileNotFoundException: hibernate.cfg.xml (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:131)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2216)
+	... 22 more
+2015-11-05 11:11:15,077 [nioEventLoopGroup-6-1] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-11-05 11:11:15,077 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1446696675077
+}
+2015-11-05 11:11:16,529 [nioEventLoopGroup-6-1] INFO - CSChat m:7 s:0 {
+  msg: "bbb"
+}
+2015-11-05 11:11:16,529 [nioEventLoopGroup-6-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoaderZone@402e37bc
+2015-11-05 11:11:16,530 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCChat m:7 s:2 {
+  msg: "11:11:16
+Q: vvbbb"
+}
+2015-11-05 11:11:16,530 [nioEventLoopGroup-6-1] ERROR - Channel exceptionCaught
+java.lang.NoClassDefFoundError: Could not initialize class vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+	at vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat.execute(CSChat.java:51)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:193)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-05 11:11:17,006 [nioEventLoopGroup-6-1] INFO - CSPing m:8 s:0 {
+  clientTime: 0
+}
+2015-11-05 11:11:17,007 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1446696677007
+}
+2015-11-05 11:11:22,007 [nioEventLoopGroup-6-1] INFO - CSPing m:9 s:0 {
+  clientTime: 0
+}
+2015-11-05 11:11:22,007 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1446696682007
+}
+2015-11-05 11:11:27,008 [nioEventLoopGroup-6-1] INFO - CSPing m:10 s:0 {
+  clientTime: 0
+}
+2015-11-05 11:11:27,009 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1446696687009
+}
+2015-11-05 11:11:32,009 [nioEventLoopGroup-6-1] INFO - CSPing m:11 s:0 {
+  clientTime: 0
+}
+2015-11-05 11:11:32,009 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1446696692009
+}
+2015-11-05 11:11:37,010 [nioEventLoopGroup-6-1] INFO - CSPing m:12 s:0 {
+  clientTime: 0
+}
+2015-11-05 11:11:37,011 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1446696697010
+}
+2015-11-05 11:11:42,011 [nioEventLoopGroup-6-1] INFO - CSPing m:13 s:0 {
+  clientTime: 0
+}
+2015-11-05 11:11:42,012 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1446696702012
+}
+2015-11-05 11:11:47,012 [nioEventLoopGroup-6-1] INFO - CSPing m:14 s:0 {
+  clientTime: 0
+}
+2015-11-05 11:11:47,013 [nioEventLoopGroup-6-1] INFO - [id: 0x8ada3dae, /127.0.0.1:53368 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1446696707013
+}
+2015-11-05 11:11:52,383 [nioEventLoopGroup-6-1] INFO - channelInactive!: [id: 0x8ada3dae, /127.0.0.1:53368 :> /127.0.0.1:33333]
+2015-11-05 11:11:52,383 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0x8ada3dae, /127.0.0.1:53368 :> /127.0.0.1:33333]
+2015-11-05 11:11:52,383 [nioEventLoopGroup-6-1] INFO - onChannelClose
+2015-11-05 11:11:52,383 [nioEventLoopGroup-6-1] ERROR - Channel exceptionCaught
+java.lang.UnsupportedOperationException: Not supported yet.
+	at vn.com.onesoft.bigfox.server.io.core.session.BFDefaultSessionEvent.closeChannel(BFDefaultSessionEvent.java:32)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onChannelClose(BFSessionManager.java:228)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelInactive(SocketServerHandler.java:66)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:56)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:92)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:135)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:306)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:56)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:92)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:135)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:928)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:658)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-05 11:11:52,384 [nioEventLoopGroup-6-1] INFO - Channel unregistered
+2015-11-05 11:13:22,821 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-05 11:13:22,826 [main] INFO - define class vn.com.onesoft.chatexamain.chat.BFSessionEvent
+2015-11-05 11:13:22,826 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.session.IBFSessionEvent
+2015-11-05 11:13:22,826 [main] INFO - BFClassLoader load java.lang.Object
+2015-11-05 11:13:22,828 [main] INFO - define class vn.com.onesoft.chatexample.main.ChatActivity
+2015-11-05 11:13:22,828 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.BFZoneActivity
+2015-11-05 11:13:22,830 [main] INFO - define class vn.com.onesoft.chatexample.main.Main
+2015-11-05 11:13:22,831 [main] INFO - define class vn.com.onesoft.chatexample.server.db.DBUserLog
+2015-11-05 11:13:22,833 [main] INFO - define class vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-11-05 11:13:22,838 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-05 11:13:22,838 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-05 11:13:22,841 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-05 11:13:22,842 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-05 11:13:22,842 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-05 11:13:22,843 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.tags.Tags
+2015-11-05 11:13:22,844 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-05 11:13:22,844 [main] INFO - BFClassLoader load java.io.IOException
+2015-11-05 11:13:22,844 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.IBFZone
+2015-11-05 11:13:22,845 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
+2015-11-05 11:13:22,845 [main] INFO - BeforeZoneStart
+2015-11-05 11:13:22,845 [main] INFO - BFClassLoader load java.lang.StringBuilder
+2015-11-05 11:13:22,845 [main] INFO - BFClassLoader load java.io.File
+2015-11-05 11:13:22,845 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-05 11:13:22,846 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-05 11:13:22,870 [main] INFO - BFClassLoader load java.io.Serializable
+2015-11-05 11:13:22,871 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-05 11:13:22,877 [main] INFO - AfterZoneStart
+2015-11-05 11:13:22,877 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-05 11:13:23,084 [Thread-4] DEBUG - -Dio.netty.eventLoopThreads: 16
+2015-11-05 11:13:23,100 [Thread-2] DEBUG - -Dio.netty.noKeySetOptimization: false
+2015-11-05 11:13:23,100 [Thread-2] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-05 11:13:23,133 [Thread-2] INFO - Socket start at port 33333
+2015-11-05 11:13:23,133 [Thread-4] INFO - Telnet start at port 40000
+2015-11-05 11:13:23,151 [Thread-3] INFO - WebSocket start at port 33332
+2015-11-05 11:13:23,165 [Thread-2] DEBUG - -Dio.netty.processId: 1992 (auto-detected)
+2015-11-05 11:13:23,169 [Thread-2] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-11-05 11:13:23,170 [Thread-4] DEBUG - -Dio.netty.initialSeedUniquifier: 0x263a83b8a4c3be06 (took 15 ms)
+2015-11-05 11:13:23,193 [Thread-2] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-05 11:13:23,193 [Thread-2] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-05 11:13:23,193 [Thread-2] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-11-05 11:13:23,193 [Thread-2] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-11-05 11:13:23,193 [Thread-2] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-05 11:13:23,193 [Thread-2] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-05 11:13:23,193 [Thread-2] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-05 11:13:23,193 [Thread-2] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-05 11:13:23,193 [Thread-2] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-05 11:13:23,193 [Thread-2] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-05 11:13:23,198 [Thread-2] DEBUG - -Dio.netty.allocator.type: pooled
+2015-11-05 11:13:23,198 [Thread-2] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-05 11:13:23,199 [Thread-2] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-11-05 11:13:23,200 [Thread-2] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-11-05 11:13:23,211 [nioEventLoopGroup-4-1] INFO - [id: 0x52b3c82f] REGISTERED
+2015-11-05 11:13:23,211 [nioEventLoopGroup-4-1] INFO - [id: 0x52b3c82f] BIND: 0.0.0.0/0.0.0.0:33332
+2015-11-05 11:13:23,215 [nioEventLoopGroup-4-1] INFO - [id: 0x52b3c82f, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-11-05 11:13:29,126 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0x50e8a697, /127.0.0.1:53412 => /127.0.0.1:33333]
+2015-11-05 11:13:29,134 [nioEventLoopGroup-6-1] INFO - [id: 0x50e8a697, /127.0.0.1:53412 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-05 11:13:29,143 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-11-05 11:13:29,155 [nioEventLoopGroup-6-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-11-05 11:13:29,232 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "imooldvui9qeuvkqgsh7u8ubdt",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-11-05 11:13:29,234 [nioEventLoopGroup-6-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-11-05 11:13:29,239 [nioEventLoopGroup-6-1] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-11-05 11:13:29,239 [nioEventLoopGroup-6-1] INFO - [id: 0x50e8a697, /127.0.0.1:53412 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1446696809239
+}
+2015-11-05 11:13:30,378 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.String
+2015-11-05 11:13:30,379 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Property
+2015-11-05 11:13:30,379 [nioEventLoopGroup-6-1] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-11-05 11:13:30,379 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager
+2015-11-05 11:13:30,379 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Map
+2015-11-05 11:13:30,379 [nioEventLoopGroup-6-1] INFO - BFClassLoader load com.google.common.collect.MapMaker
+2015-11-05 11:13:31,967 [nioEventLoopGroup-6-1] INFO - CSChat m:4 s:0 {
+  msg: "a"
+}
+2015-11-05 11:13:31,968 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Class
+2015-11-05 11:13:31,968 [nioEventLoopGroup-6-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoaderZone@79ad8b2f
+2015-11-05 11:13:31,968 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Calendar
+2015-11-05 11:13:31,968 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager
+2015-11-05 11:13:31,970 [nioEventLoopGroup-6-1] INFO - [id: 0x50e8a697, /127.0.0.1:53412 => /127.0.0.1:33333]
+SCChat m:4 s:1 {
+  msg: "11:13:31
+Q: a"
+}
+2015-11-05 11:13:31,971 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.AnnotationConfiguration
+2015-11-05 11:13:31,985 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.Configuration
+2015-11-05 11:13:32,024 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.xml.XmlDocument
+2015-11-05 11:13:32,026 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.MappingNotFoundException
+2015-11-05 11:13:32,030 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.MappingException
+2015-11-05 11:13:32,032 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.HibernateException
+2015-11-05 11:13:32,034 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.RuntimeException
+2015-11-05 11:13:32,035 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SerializationException
+2015-11-05 11:13:32,037 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.FileNotFoundException
+2015-11-05 11:13:32,037 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.InputStream
+2015-11-05 11:13:32,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.FileInputStream
+2015-11-05 11:13:32,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.xml.sax.InputSource
+2015-11-05 11:13:32,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.OutputStream
+2015-11-05 11:13:32,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.FileOutputStream
+2015-11-05 11:13:32,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.Reader
+2015-11-05 11:13:32,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.StringReader
+2015-11-05 11:13:32,039 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.InvalidMappingException
+2015-11-05 11:13:32,041 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Enumeration
+2015-11-05 11:13:32,042 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.List
+2015-11-05 11:13:32,042 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.ReflectionManager
+2015-11-05 11:13:32,045 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.MetadataProvider
+2015-11-05 11:13:32,047 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.engine.Mapping
+2015-11-05 11:13:32,049 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.ClassCastException
+2015-11-05 11:13:32,050 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.reflect.InvocationTargetException
+2015-11-05 11:13:32,051 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.NoSuchMethodException
+2015-11-05 11:13:32,051 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.IllegalAccessException
+2015-11-05 11:13:32,051 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.InstantiationException
+2015-11-05 11:13:32,051 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.ClassNotFoundException
+2015-11-05 11:13:32,051 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.AnnotationException
+2015-11-05 11:13:32,054 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Set
+2015-11-05 11:13:32,054 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.RecoverableException
+2015-11-05 11:13:32,056 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Iterator
+2015-11-05 11:13:32,057 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Collection
+2015-11-05 11:13:32,057 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.ListIterator
+2015-11-05 11:13:32,057 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.factory.IdentifierGeneratorFactory
+2015-11-05 11:13:32,060 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.Mappings
+2015-11-05 11:13:32,067 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.dom4j.DocumentException
+2015-11-05 11:13:32,068 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.ArrayList
+2015-11-05 11:13:32,068 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.SessionFactory
+2015-11-05 11:13:32,071 [nioEventLoopGroup-6-1] INFO - BFClassLoader load javax.naming.Referenceable
+2015-11-05 11:13:32,072 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.xml.sax.EntityResolver
+2015-11-05 11:13:32,072 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.xml.Origin
+2015-11-05 11:13:32,074 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.ObjectNameNormalizer
+2015-11-05 11:13:32,076 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.Configuration$ObjectNameNormalizerImpl
+2015-11-05 11:13:32,079 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.ExtendedMappings
+2015-11-05 11:13:32,081 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.LoggerFactory
+2015-11-05 11:13:32,139 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.NoClassDefFoundError
+2015-11-05 11:13:32,139 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.ILoggerFactory
+2015-11-05 11:13:32,144 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.IllegalStateException
+2015-11-05 11:13:32,144 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.ClassLoader
+2015-11-05 11:13:32,144 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.NoSuchFieldError
+2015-11-05 11:13:32,145 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.NoSuchMethodError
+2015-11-05 11:13:32,145 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.helpers.SubstituteLoggerFactory
+2015-11-05 11:13:32,151 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.Logger
+2015-11-05 11:13:32,162 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.helpers.NOPLoggerFactory
+2015-11-05 11:13:32,170 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.impl.StaticLoggerBinder
+2015-11-05 11:13:32,178 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.spi.LoggerFactoryBinder
+2015-11-05 11:13:32,200 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.joran.spi.JoranException
+2015-11-05 11:13:32,206 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.Context
+2015-11-05 11:13:32,213 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.PropertyContainer
+2015-11-05 11:13:32,217 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.LoggerContext
+2015-11-05 11:13:32,227 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.LifeCycle
+2015-11-05 11:13:32,231 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.ContextBase
+2015-11-05 11:13:32,237 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.IllegalArgumentException
+2015-11-05 11:13:32,237 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.StatusManager
+2015-11-05 11:13:32,242 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Comparator
+2015-11-05 11:13:32,242 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.Status
+2015-11-05 11:13:32,246 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.System
+2015-11-05 11:13:32,247 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.BasicStatusManager
+2015-11-05 11:13:32,252 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.helpers.CyclicBuffer
+2015-11-05 11:13:32,258 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.LogbackLock
+2015-11-05 11:13:32,263 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.HashMap
+2015-11-05 11:13:32,263 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.spi.TurboFilterList
+2015-11-05 11:13:32,268 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.concurrent.CopyOnWriteArrayList
+2015-11-05 11:13:32,269 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.IndexOutOfBoundsException
+2015-11-05 11:13:32,269 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.concurrent.ConcurrentHashMap
+2015-11-05 11:13:32,269 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.spi.LoggerContextVO
+2015-11-05 11:13:32,274 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.Logger
+2015-11-05 11:13:32,285 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.spi.LocationAwareLogger
+2015-11-05 11:13:32,290 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.AppenderAttachable
+2015-11-05 11:13:32,295 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.spi.ILoggingEvent
+2015-11-05 11:13:32,299 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.DeferredProcessingAware
+2015-11-05 11:13:32,304 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.Level
+2015-11-05 11:13:32,309 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Integer
+2015-11-05 11:13:32,310 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.util.ContextSelectorStaticBinder
+2015-11-05 11:13:32,315 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.selector.ContextSelector
+2015-11-05 11:13:32,319 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.util.ContextInitializer
+2015-11-05 11:13:32,326 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.LogbackException
+2015-11-05 11:13:32,345 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.net.MalformedURLException
+2015-11-05 11:13:32,346 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.util.StatusListenerConfigHelper
+2015-11-05 11:13:32,350 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.OnConsoleStatusListener
+2015-11-05 11:13:32,354 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.OnPrintStreamStatusListenerBase
+2015-11-05 11:13:32,359 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.StatusListener
+2015-11-05 11:13:32,362 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.ContextAwareBase
+2015-11-05 11:13:32,367 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.ContextAware
+2015-11-05 11:13:32,372 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.OptionHelper
+2015-11-05 11:13:32,380 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.SecurityException
+2015-11-05 11:13:32,380 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.ScanException
+2015-11-05 11:13:32,384 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.IncompatibleClassException
+2015-11-05 11:13:32,388 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.NullPointerException
+2015-11-05 11:13:32,389 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.DynamicClassLoadingException
+2015-11-05 11:13:32,393 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.Loader
+2015-11-05 11:13:32,399 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.security.PrivilegedAction
+2015-11-05 11:13:32,399 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.Loader$1
+2015-11-05 11:13:32,403 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.security.Permission
+2015-11-05 11:13:32,403 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.RuntimePermission
+2015-11-05 11:13:32,403 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.security.AccessController
+2015-11-05 11:13:32,420 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Boolean
+2015-11-05 11:13:32,420 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.InfoStatus
+2015-11-05 11:13:32,424 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.StatusBase
+2015-11-05 11:13:32,430 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.BasicConfigurator
+2015-11-05 11:13:32,435 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.encoder.Encoder
+2015-11-05 11:13:32,440 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.Appender
+2015-11-05 11:13:32,444 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.FilterAttachable
+2015-11-05 11:13:32,448 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.ConsoleAppender
+2015-11-05 11:13:32,454 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.OutputStreamAppender
+2015-11-05 11:13:32,460 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.UnsynchronizedAppenderBase
+2015-11-05 11:13:32,468 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.ThreadLocal
+2015-11-05 11:13:32,468 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.FilterAttachableImpl
+2015-11-05 11:13:32,473 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.concurrent.locks.ReentrantLock
+2015-11-05 11:13:32,474 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.joran.spi.ConsoleTarget
+2015-11-05 11:13:32,481 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Enum
+2015-11-05 11:13:32,481 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.joran.spi.ConsoleTarget$1
+2015-11-05 11:13:32,487 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.joran.spi.ConsoleTarget$2
+2015-11-05 11:13:32,492 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.encoder.PatternLayoutEncoder
+2015-11-05 11:13:32,497 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.PatternLayoutEncoderBase
+2015-11-05 11:13:32,502 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.encoder.LayoutWrappingEncoder
+2015-11-05 11:13:32,509 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.encoder.EncoderBase
+2015-11-05 11:13:32,516 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.UnsupportedEncodingException
+2015-11-05 11:13:32,516 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.UnsupportedOperationException
+2015-11-05 11:13:32,516 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.Layout
+2015-11-05 11:13:32,520 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.PatternLayout
+2015-11-05 11:13:32,526 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.PatternLayoutBase
+2015-11-05 11:13:32,531 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.LayoutBase
+2015-11-05 11:13:32,534 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.Parser
+2015-11-05 11:13:32,540 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.Node
+2015-11-05 11:13:32,544 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.PostCompileProcessor
+2015-11-05 11:13:32,547 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.FormattingNode
+2015-11-05 11:13:32,550 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.CompositeNode
+2015-11-05 11:13:32,553 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.SimpleKeywordNode
+2015-11-05 11:13:32,564 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.util.IEscapeUtil
+2015-11-05 11:13:32,569 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.Token
+2015-11-05 11:13:32,573 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.IdentityCompositeConverter
+2015-11-05 11:13:32,575 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.CompositeConverter
+2015-11-05 11:13:32,578 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.DynamicConverter
+2015-11-05 11:13:32,582 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.FormattingConverter
+2015-11-05 11:13:32,585 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.Converter
+2015-11-05 11:13:32,587 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.ReplacingCompositeConverter
+2015-11-05 11:13:32,590 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.DateConverter
+2015-11-05 11:13:32,593 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ClassicConverter
+2015-11-05 11:13:32,595 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.RelativeTimeConverter
+2015-11-05 11:13:32,598 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LevelConverter
+2015-11-05 11:13:32,600 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ThreadConverter
+2015-11-05 11:13:32,603 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LoggerConverter
+2015-11-05 11:13:32,605 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.NamedConverter
+2015-11-05 11:13:32,608 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.MessageConverter
+2015-11-05 11:13:32,611 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ClassOfCallerConverter
+2015-11-05 11:13:32,615 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.MethodOfCallerConverter
+2015-11-05 11:13:32,618 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LineOfCallerConverter
+2015-11-05 11:13:32,620 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.FileOfCallerConverter
+2015-11-05 11:13:32,622 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.MDCConverter
+2015-11-05 11:13:32,625 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ThrowableProxyConverter
+2015-11-05 11:13:32,632 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ThrowableHandlingConverter
+2015-11-05 11:13:32,634 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.RootCauseFirstThrowableProxyConverter
+2015-11-05 11:13:32,637 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ExtendedThrowableProxyConverter
+2015-11-05 11:13:32,639 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.NopThrowableInformationConverter
+2015-11-05 11:13:32,641 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ContextNameConverter
+2015-11-05 11:13:32,643 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.CallerDataConverter
+2015-11-05 11:13:32,648 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.MarkerConverter
+2015-11-05 11:13:32,650 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.PropertyConverter
+2015-11-05 11:13:32,653 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LineSeparatorConverter
+2015-11-05 11:13:32,655 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BlackCompositeConverter
+2015-11-05 11:13:32,657 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.ForegroundCompositeConverterBase
+2015-11-05 11:13:32,659 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.RedCompositeConverter
+2015-11-05 11:13:32,662 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.GreenCompositeConverter
+2015-11-05 11:13:32,664 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.YellowCompositeConverter
+2015-11-05 11:13:32,667 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BlueCompositeConverter
+2015-11-05 11:13:32,669 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.MagentaCompositeConverter
+2015-11-05 11:13:32,671 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.CyanCompositeConverter
+2015-11-05 11:13:32,678 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.WhiteCompositeConverter
+2015-11-05 11:13:32,681 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.GrayCompositeConverter
+2015-11-05 11:13:32,684 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldRedCompositeConverter
+2015-11-05 11:13:32,686 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldGreenCompositeConverter
+2015-11-05 11:13:32,690 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldYellowCompositeConverter
+2015-11-05 11:13:32,693 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldBlueCompositeConverter
+2015-11-05 11:13:32,695 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldMagentaCompositeConverter
+2015-11-05 11:13:32,698 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldCyanCompositeConverter
+2015-11-05 11:13:32,701 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.color.BoldWhiteCompositeConverter
+2015-11-05 11:13:32,703 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.color.HighlightingCompositeConverter
+2015-11-05 11:13:32,705 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LocalSequenceNumberConverter
+2015-11-05 11:13:32,708 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.EnsureExceptionHandling
+2015-11-05 11:13:32,711 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.util.RegularEscapeUtil
+2015-11-05 11:13:32,715 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.TokenStream
+2015-11-05 11:13:32,719 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.util.RestrictedEscapeUtil
+2015-11-05 11:13:32,722 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.TokenStream$TokenizerState
+2015-11-05 11:13:32,724 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.StringBuffer
+2015-11-05 11:13:32,724 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.TokenStream$1
+2015-11-05 11:13:32,727 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Character
+2015-11-05 11:13:32,727 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.OptionTokenizer
+2015-11-05 11:13:32,730 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.util.AsIsEscapeUtil
+2015-11-05 11:13:32,733 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.FormatInfo
+2015-11-05 11:13:32,737 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.parser.Compiler
+2015-11-05 11:13:32,741 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.LiteralConverter
+2015-11-05 11:13:32,743 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.DateConverter
+2015-11-05 11:13:32,743 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.ThreadConverter
+2015-11-05 11:13:32,743 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LevelConverter
+2015-11-05 11:13:32,744 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LoggerConverter
+2015-11-05 11:13:32,744 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.NumberFormatException
+2015-11-05 11:13:32,744 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.Abbreviator
+2015-11-05 11:13:32,746 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.MessageConverter
+2015-11-05 11:13:32,746 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.LineSeparatorConverter
+2015-11-05 11:13:32,746 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.ConverterUtil
+2015-11-05 11:13:32,749 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.boolex.EvaluationException
+2015-11-05 11:13:32,751 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.CachingDateFormatter
+2015-11-05 11:13:32,753 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.text.SimpleDateFormat
+2015-11-05 11:13:32,753 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.pattern.TargetLengthBasedClassNameAbbreviator
+2015-11-05 11:13:32,756 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.EnvUtil
+2015-11-05 11:13:32,759 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.AppenderAttachableImpl
+2015-11-05 11:13:32,763 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.status.StatusUtil
+2015-11-05 11:13:32,767 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.CharSequence
+2015-11-05 11:13:32,767 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.util.StatusPrinter
+2015-11-05 11:13:32,772 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Long
+2015-11-05 11:13:32,772 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.selector.DefaultContextSelector
+2015-11-05 11:13:32,776 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.util.LoggerNameUtil
+2015-11-05 11:13:32,778 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.MetadataSourceType
+2015-11-05 11:13:32,781 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.SettingsFactory
+2015-11-05 11:13:32,789 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.SQLException
+2015-11-05 11:13:32,790 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.DatabaseMetaData
+2015-11-05 11:13:32,791 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Connection
+2015-11-05 11:13:32,792 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.BytecodeProvider
+2015-11-05 11:13:32,794 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.jdbc.NonBatchingBatcherFactory
+2015-11-05 11:13:32,795 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.jdbc.BatcherFactory
+2015-11-05 11:13:32,797 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.jdbc.BatchingBatcherFactory
+2015-11-05 11:13:32,798 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cache.impl.NoCachingRegionFactory
+2015-11-05 11:13:32,800 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cache.RegionFactory
+2015-11-05 11:13:32,802 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TypeResolver
+2015-11-05 11:13:32,805 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.Type
+2015-11-05 11:13:32,808 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BasicTypeRegistry
+2015-11-05 11:13:32,812 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BasicType
+2015-11-05 11:13:32,814 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AbstractStandardBasicType
+2015-11-05 11:13:32,821 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.StringRepresentableType
+2015-11-05 11:13:32,823 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.XmlRepresentableType
+2015-11-05 11:13:32,826 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.DateType
+2015-11-05 11:13:32,828 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.IdentifierType
+2015-11-05 11:13:32,830 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.LiteralType
+2015-11-05 11:13:32,831 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AbstractSingleColumnStandardBasicType
+2015-11-05 11:13:32,835 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SingleColumnType
+2015-11-05 11:13:32,837 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TimeType
+2015-11-05 11:13:32,839 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TimestampType
+2015-11-05 11:13:32,843 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.VersionType
+2015-11-05 11:13:32,844 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.DbTimestampType
+2015-11-05 11:13:32,848 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CalendarType
+2015-11-05 11:13:32,849 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CalendarDateType
+2015-11-05 11:13:32,851 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BinaryType
+2015-11-05 11:13:32,853 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SerializableType
+2015-11-05 11:13:32,856 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BooleanType
+2015-11-05 11:13:32,860 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.PrimitiveType
+2015-11-05 11:13:32,861 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.DiscriminatorType
+2015-11-05 11:13:32,863 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.WrapperOptions
+2015-11-05 11:13:32,865 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JavaTypeDescriptor
+2015-11-05 11:13:32,867 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.SqlTypeDescriptor
+2015-11-05 11:13:32,868 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AbstractSingleColumnStandardBasicType$1
+2015-11-05 11:13:32,870 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.engine.jdbc.LobCreator
+2015-11-05 11:13:32,871 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BitTypeDescriptor
+2015-11-05 11:13:32,873 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.ValueBinder
+2015-11-05 11:13:32,875 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.ValueExtractor
+2015-11-05 11:13:32,876 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.BooleanTypeDescriptor
+2015-11-05 11:13:32,880 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.AbstractTypeDescriptor
+2015-11-05 11:13:32,885 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.MutabilityPlan
+2015-11-05 11:13:32,887 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ImmutableMutabilityPlan
+2015-11-05 11:13:32,892 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Comparable
+2015-11-05 11:13:32,892 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.ComparableComparator
+2015-11-05 11:13:32,895 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.spi.FilterReply
+2015-11-05 11:13:32,899 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.spi.LoggingEvent
+2015-11-05 11:13:32,906 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.spi.IThrowableProxy
+2015-11-05 11:13:32,909 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.spi.EventArgUtil
+2015-11-05 11:13:32,913 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.helpers.MessageFormatter
+2015-11-05 11:13:32,920 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.helpers.FormattingTuple
+2015-11-05 11:13:32,923 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Thread
+2015-11-05 11:13:32,923 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.MDC
+2015-11-05 11:13:32,927 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.spi.MDCAdapter
+2015-11-05 11:13:32,930 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.slf4j.impl.StaticMDCBinder
+2015-11-05 11:13:32,933 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.classic.util.LogbackMDCAdapter
+2015-11-05 11:13:32,937 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.InheritableThreadLocal
+2015-11-05 11:13:32,937 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Date
+2015-11-05 11:13:32,938 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.CoreConstants
+2015-11-05 11:13:32,954 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.PrintStream
+2015-11-05 11:13:32,954 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.NumericBooleanType
+2015-11-05 11:13:32,957 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.IntegerTypeDescriptor
+2015-11-05 11:13:32,959 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TrueFalseType
+2015-11-05 11:13:32,961 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.CharTypeDescriptor
+2015-11-05 11:13:32,962 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.VarcharTypeDescriptor
+2015-11-05 11:13:32,965 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.YesNoType
+2015-11-05 11:13:32,968 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ByteType
+2015-11-05 11:13:32,972 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.TinyIntTypeDescriptor
+2015-11-05 11:13:32,974 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ByteTypeDescriptor
+2015-11-05 11:13:32,976 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Byte
+2015-11-05 11:13:32,977 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CharacterType
+2015-11-05 11:13:32,979 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.CharacterTypeDescriptor
+2015-11-05 11:13:32,982 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ShortType
+2015-11-05 11:13:32,985 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.SmallIntTypeDescriptor
+2015-11-05 11:13:32,987 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ShortTypeDescriptor
+2015-11-05 11:13:32,990 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Short
+2015-11-05 11:13:32,991 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.IntegerType
+2015-11-05 11:13:32,994 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.IntegerTypeDescriptor
+2015-11-05 11:13:32,997 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.LongType
+2015-11-05 11:13:33,000 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BigIntTypeDescriptor
+2015-11-05 11:13:33,002 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.LongTypeDescriptor
+2015-11-05 11:13:33,005 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.FloatType
+2015-11-05 11:13:33,007 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.FloatTypeDescriptor
+2015-11-05 11:13:33,008 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.RealTypeDescriptor
+2015-11-05 11:13:33,010 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.FloatTypeDescriptor
+2015-11-05 11:13:33,013 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Float
+2015-11-05 11:13:33,013 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.DoubleType
+2015-11-05 11:13:33,016 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.DoubleTypeDescriptor
+2015-11-05 11:13:33,018 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.DoubleTypeDescriptor
+2015-11-05 11:13:33,021 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Double
+2015-11-05 11:13:33,022 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BigDecimalType
+2015-11-05 11:13:33,023 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.NumericTypeDescriptor
+2015-11-05 11:13:33,025 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.DecimalTypeDescriptor
+2015-11-05 11:13:33,027 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.BigDecimalTypeDescriptor
+2015-11-05 11:13:33,030 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.math.BigDecimal
+2015-11-05 11:13:33,031 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BigIntegerType
+2015-11-05 11:13:33,033 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.BigIntegerTypeDescriptor
+2015-11-05 11:13:33,036 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.math.BigInteger
+2015-11-05 11:13:33,037 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.StringType
+2015-11-05 11:13:33,039 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.StringTypeDescriptor
+2015-11-05 11:13:33,042 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.UrlType
+2015-11-05 11:13:33,044 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.UrlTypeDescriptor
+2015-11-05 11:13:33,046 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.net.URL
+2015-11-05 11:13:33,047 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.DateTypeDescriptor
+2015-11-05 11:13:33,049 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JdbcDateTypeDescriptor
+2015-11-05 11:13:33,052 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.text.ParseException
+2015-11-05 11:13:33,053 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Date
+2015-11-05 11:13:33,053 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JdbcDateTypeDescriptor$DateMutabilityPlan
+2015-11-05 11:13:33,055 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.MutableMutabilityPlan
+2015-11-05 11:13:33,057 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.TimeTypeDescriptor
+2015-11-05 11:13:33,059 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JdbcTimeTypeDescriptor
+2015-11-05 11:13:33,063 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Time
+2015-11-05 11:13:33,063 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JdbcTimeTypeDescriptor$TimeMutabilityPlan
+2015-11-05 11:13:33,065 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Timestamp
+2015-11-05 11:13:33,066 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.TimestampTypeDescriptor
+2015-11-05 11:13:33,068 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JdbcTimestampTypeDescriptor
+2015-11-05 11:13:33,071 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.JdbcTimestampTypeDescriptor$TimestampMutabilityPlan
+2015-11-05 11:13:33,073 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.JDBCException
+2015-11-05 11:13:33,075 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.PreparedStatement
+2015-11-05 11:13:33,077 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.CalendarTypeDescriptor
+2015-11-05 11:13:33,080 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.GregorianCalendar
+2015-11-05 11:13:33,081 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.CalendarTypeDescriptor$CalendarMutabilityPlan
+2015-11-05 11:13:33,082 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.CalendarDateTypeDescriptor
+2015-11-05 11:13:33,086 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.LocaleType
+2015-11-05 11:13:33,087 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.LocaleTypeDescriptor
+2015-11-05 11:13:33,090 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Locale
+2015-11-05 11:13:33,090 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CurrencyType
+2015-11-05 11:13:33,092 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.CurrencyTypeDescriptor
+2015-11-05 11:13:33,094 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Currency
+2015-11-05 11:13:33,095 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TimeZoneType
+2015-11-05 11:13:33,096 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.TimeZoneTypeDescriptor
+2015-11-05 11:13:33,099 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.TimeZone
+2015-11-05 11:13:33,099 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ClassType
+2015-11-05 11:13:33,100 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ClassTypeDescriptor
+2015-11-05 11:13:33,103 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.UUIDBinaryType
+2015-11-05 11:13:33,105 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BinaryTypeDescriptor
+2015-11-05 11:13:33,106 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.VarbinaryTypeDescriptor
+2015-11-05 11:13:33,107 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.UUIDTypeDescriptor
+2015-11-05 11:13:33,110 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.UUID
+2015-11-05 11:13:33,111 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.UUIDCharType
+2015-11-05 11:13:33,113 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.PostgresUUIDType
+2015-11-05 11:13:33,114 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.PostgresUUIDType$PostgresUUIDSqlTypeDescriptor
+2015-11-05 11:13:33,116 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.PrimitiveByteArrayTypeDescriptor
+2015-11-05 11:13:33,119 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ArrayMutabilityPlan
+2015-11-05 11:13:33,121 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.WrapperBinaryType
+2015-11-05 11:13:33,123 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ByteArrayTypeDescriptor
+2015-11-05 11:13:33,127 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ImageType
+2015-11-05 11:13:33,128 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.LongVarbinaryTypeDescriptor
+2015-11-05 11:13:33,130 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CharArrayType
+2015-11-05 11:13:33,132 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.PrimitiveCharacterArrayTypeDescriptor
+2015-11-05 11:13:33,135 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CharacterArrayType
+2015-11-05 11:13:33,136 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.CharacterArrayTypeDescriptor
+2015-11-05 11:13:33,140 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TextType
+2015-11-05 11:13:33,141 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.LongVarcharTypeDescriptor
+2015-11-05 11:13:33,143 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BlobType
+2015-11-05 11:13:33,144 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.LobType
+2015-11-05 11:13:33,146 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AlternativeLobTypes
+2015-11-05 11:13:33,149 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AlternativeLobTypes$BlobTypes
+2015-11-05 11:13:33,151 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor
+2015-11-05 11:13:33,152 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$1
+2015-11-05 11:13:33,154 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$2
+2015-11-05 11:13:33,155 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$3
+2015-11-05 11:13:33,157 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$4
+2015-11-05 11:13:33,158 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BasicBinder
+2015-11-05 11:13:33,161 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$1$1
+2015-11-05 11:13:33,163 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$2$1
+2015-11-05 11:13:33,165 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$3$1
+2015-11-05 11:13:33,167 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.BlobTypeDescriptor$4$1
+2015-11-05 11:13:33,169 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.reflect.Constructor
+2015-11-05 11:13:33,169 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.BlobTypeDescriptor
+2015-11-05 11:13:33,172 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Blob
+2015-11-05 11:13:33,172 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.BlobTypeDescriptor$BlobMutabilityPlan
+2015-11-05 11:13:33,174 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.MaterializedBlobType
+2015-11-05 11:13:33,177 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.WrappedMaterializedBlobType
+2015-11-05 11:13:33,179 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ClobType
+2015-11-05 11:13:33,181 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AlternativeLobTypes$ClobTypes
+2015-11-05 11:13:33,182 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor
+2015-11-05 11:13:33,184 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor$1
+2015-11-05 11:13:33,185 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor$2
+2015-11-05 11:13:33,187 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor$3
+2015-11-05 11:13:33,189 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor$1$1
+2015-11-05 11:13:33,191 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor$2$1
+2015-11-05 11:13:33,193 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.sql.ClobTypeDescriptor$3$1
+2015-11-05 11:13:33,195 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ClobTypeDescriptor
+2015-11-05 11:13:33,199 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Clob
+2015-11-05 11:13:33,199 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.ClobTypeDescriptor$ClobMutabilityPlan
+2015-11-05 11:13:33,201 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.MaterializedClobType
+2015-11-05 11:13:33,203 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CharacterArrayClobType
+2015-11-05 11:13:33,205 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.PrimitiveCharacterArrayClobType
+2015-11-05 11:13:33,207 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.SerializableTypeDescriptor
+2015-11-05 11:13:33,210 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.descriptor.java.SerializableTypeDescriptor$SerializableMutabilityPlan
+2015-11-05 11:13:33,212 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ObjectType
+2015-11-05 11:13:33,213 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AnyType
+2015-11-05 11:13:33,220 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CompositeType
+2015-11-05 11:13:33,222 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AssociationType
+2015-11-05 11:13:33,223 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AbstractType
+2015-11-05 11:13:33,227 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.TransientObjectException
+2015-11-05 11:13:33,229 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.AdaptedImmutableType
+2015-11-05 11:13:33,231 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TypeFactory
+2015-11-05 11:13:33,237 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TypeFactory$TypeScope
+2015-11-05 11:13:33,238 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CollectionType
+2015-11-05 11:13:33,250 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SortedSetType
+2015-11-05 11:13:33,252 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SetType
+2015-11-05 11:13:33,254 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.OrderedSetType
+2015-11-05 11:13:33,256 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.OrderedMapType
+2015-11-05 11:13:33,257 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.MapType
+2015-11-05 11:13:33,260 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.EntityType
+2015-11-05 11:13:33,266 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ManyToOneType
+2015-11-05 11:13:33,270 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SpecialOneToOneType
+2015-11-05 11:13:33,273 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.OneToOneType
+2015-11-05 11:13:33,276 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.CustomCollectionType
+2015-11-05 11:13:33,279 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.IdentifierBagType
+2015-11-05 11:13:33,280 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.BagType
+2015-11-05 11:13:33,282 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.SortedMapType
+2015-11-05 11:13:33,284 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ListType
+2015-11-05 11:13:33,286 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.ArrayType
+2015-11-05 11:13:33,289 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.type.TypeFactory$TypeScopeImpl
+2015-11-05 11:13:33,291 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.Configuration$1
+2015-11-05 11:13:33,294 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.Configuration$MetadataSourceQueue
+2015-11-05 11:13:33,300 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.LinkedHashMap
+2015-11-05 11:13:33,300 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.annotations.reflection.JPAMetadataProvider
+2015-11-05 11:13:33,304 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.annotations.reflection.JPAOverridenAnnotationReader
+2015-11-05 11:13:33,331 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.AnnotationReader
+2015-11-05 11:13:33,333 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.JavaMetadataProvider
+2015-11-05 11:13:33,335 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.annotations.reflection.XMLContext
+2015-11-05 11:13:33,348 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.JavaReflectionManager
+2015-11-05 11:13:33,354 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.MetadataProviderInjector
+2015-11-05 11:13:33,355 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.reflect.Type
+2015-11-05 11:13:33,356 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.XProperty
+2015-11-05 11:13:33,357 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.XMember
+2015-11-05 11:13:33,358 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.XAnnotatedElement
+2015-11-05 11:13:33,359 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.XMethod
+2015-11-05 11:13:33,360 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.XPackage
+2015-11-05 11:13:33,361 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.JavaXType
+2015-11-05 11:13:33,363 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.JavaXArrayType
+2015-11-05 11:13:33,365 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.JavaXCollectionType
+2015-11-05 11:13:33,368 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.JavaXSimpleType
+2015-11-05 11:13:33,370 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.Version
+2015-11-05 11:13:33,371 [nioEventLoopGroup-6-1] INFO - BFClassLoader load ch.qos.logback.core.pattern.SpacePadder
+2015-11-05 11:13:33,375 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.generics.TypeEnvironmentFactory
+2015-11-05 11:13:33,379 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.annotations.common.reflection.java.generics.TypeEnvironment
+2015-11-05 11:13:33,380 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.AssertionError
+2015-11-05 11:13:33,380 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.TreeMap
+2015-11-05 11:13:33,380 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.XMLHelper
+2015-11-05 11:13:33,383 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.dom4j.io.OutputFormat
+2015-11-05 11:13:33,384 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.xml.sax.ErrorHandler
+2015-11-05 11:13:33,384 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.DTDEntityResolver
+2015-11-05 11:13:33,387 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.EmptyInterceptor
+2015-11-05 11:13:33,389 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.Interceptor
+2015-11-05 11:13:33,391 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.Environment
+2015-11-05 11:13:33,399 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.Version
+2015-11-05 11:13:33,400 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Properties
+2015-11-05 11:13:33,401 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.ConfigHelper
+2015-11-05 11:13:33,403 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.io.InputStreamReader
+2015-11-05 11:13:33,405 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.PropertiesHelper
+2015-11-05 11:13:33,409 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.StringHelper
+2015-11-05 11:13:33,417 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.javassist.BytecodeProviderImpl
+2015-11-05 11:13:33,421 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.ClassTransformer
+2015-11-05 11:13:33,422 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.ReflectionOptimizer$InstantiationOptimizer
+2015-11-05 11:13:33,423 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.ReflectionOptimizer$AccessOptimizer
+2015-11-05 11:13:33,424 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.ReflectionOptimizer
+2015-11-05 11:13:33,426 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.bytecode.ProxyFactoryFactory
+2015-11-05 11:13:33,427 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.sql.Statement
+2015-11-05 11:13:33,428 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.LinkedHashSet
+2015-11-05 11:13:33,429 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.EventListeners
+2015-11-05 11:13:33,438 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.util.Cloneable
+2015-11-05 11:13:33,441 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.beans.IntrospectionException
+2015-11-05 11:13:33,442 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.EventListeners$ListenerProcesser
+2015-11-05 11:13:33,444 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.AutoFlushEventListener
+2015-11-05 11:13:33,445 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.MergeEventListener
+2015-11-05 11:13:33,446 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PersistEventListener
+2015-11-05 11:13:33,448 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.DeleteEventListener
+2015-11-05 11:13:33,449 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.DirtyCheckEventListener
+2015-11-05 11:13:33,450 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.EvictEventListener
+2015-11-05 11:13:33,451 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.FlushEventListener
+2015-11-05 11:13:33,452 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.FlushEntityEventListener
+2015-11-05 11:13:33,454 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.LoadEventListener
+2015-11-05 11:13:33,455 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.InitializeCollectionEventListener
+2015-11-05 11:13:33,456 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.LockEventListener
+2015-11-05 11:13:33,457 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.RefreshEventListener
+2015-11-05 11:13:33,459 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.ReplicateEventListener
+2015-11-05 11:13:33,460 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.SaveOrUpdateEventListener
+2015-11-05 11:13:33,461 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreLoadEventListener
+2015-11-05 11:13:33,462 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreUpdateEventListener
+2015-11-05 11:13:33,463 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreDeleteEventListener
+2015-11-05 11:13:33,464 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreInsertEventListener
+2015-11-05 11:13:33,465 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreCollectionRecreateEventListener
+2015-11-05 11:13:33,466 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreCollectionRemoveEventListener
+2015-11-05 11:13:33,467 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PreCollectionUpdateEventListener
+2015-11-05 11:13:33,469 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostLoadEventListener
+2015-11-05 11:13:33,469 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostUpdateEventListener
+2015-11-05 11:13:33,471 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostDeleteEventListener
+2015-11-05 11:13:33,472 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostInsertEventListener
+2015-11-05 11:13:33,473 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostCollectionRecreateEventListener
+2015-11-05 11:13:33,474 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostCollectionRemoveEventListener
+2015-11-05 11:13:33,475 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.PostCollectionUpdateEventListener
+2015-11-05 11:13:33,476 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Collections
+2015-11-05 11:13:33,477 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultLoadEventListener
+2015-11-05 11:13:33,486 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.AbstractLockUpgradeEventListener
+2015-11-05 11:13:33,490 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.AbstractReassociateEventListener
+2015-11-05 11:13:33,493 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.engine.SessionImplementor
+2015-11-05 11:13:33,496 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.ObjectDeletedException
+2015-11-05 11:13:33,498 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.UnresolvableObjectException
+2015-11-05 11:13:33,501 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.TypeMismatchException
+2015-11-05 11:13:33,502 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.PersistentObjectException
+2015-11-05 11:13:33,504 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.NonUniqueObjectException
+2015-11-05 11:13:33,506 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.LockMode
+2015-11-05 11:13:33,508 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultSaveOrUpdateEventListener
+2015-11-05 11:13:33,514 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.AbstractSaveEventListener
+2015-11-05 11:13:33,523 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.action.Executable
+2015-11-05 11:13:33,526 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.IdentifierGenerationException
+2015-11-05 11:13:33,528 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.AbstractEvent
+2015-11-05 11:13:33,530 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.SaveOrUpdateEvent
+2015-11-05 11:13:33,533 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.AssertionFailure
+2015-11-05 11:13:33,534 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultMergeEventListener
+2015-11-05 11:13:33,544 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.WrongClassException
+2015-11-05 11:13:33,546 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.StaleObjectStateException
+2015-11-05 11:13:33,547 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.StaleStateException
+2015-11-05 11:13:33,549 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.PropertyValueException
+2015-11-05 11:13:33,551 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultPersistEventListener
+2015-11-05 11:13:33,555 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultPersistOnFlushEventListener
+2015-11-05 11:13:33,556 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultReplicateEventListener
+2015-11-05 11:13:33,561 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultDeleteEventListener
+2015-11-05 11:13:33,567 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultAutoFlushEventListener
+2015-11-05 11:13:33,569 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.AbstractFlushingEventListener
+2015-11-05 11:13:33,576 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.FlushEvent
+2015-11-05 11:13:33,577 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.AutoFlushEvent
+2015-11-05 11:13:33,579 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultDirtyCheckEventListener
+2015-11-05 11:13:33,581 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.DirtyCheckEvent
+2015-11-05 11:13:33,582 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultFlushEventListener
+2015-11-05 11:13:33,584 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultEvictEventListener
+2015-11-05 11:13:33,587 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.proxy.LazyInitializer
+2015-11-05 11:13:33,589 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultLockEventListener
+2015-11-05 11:13:33,592 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.LockEvent
+2015-11-05 11:13:33,594 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultRefreshEventListener
+2015-11-05 11:13:33,598 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultFlushEntityEventListener
+2015-11-05 11:13:33,607 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultInitializeCollectionEventListener
+2015-11-05 11:13:33,611 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultPostLoadEventListener
+2015-11-05 11:13:33,613 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.action.BeforeTransactionCompletionProcess
+2015-11-05 11:13:33,614 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.persister.entity.EntityPersister
+2015-11-05 11:13:33,619 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cache.OptimisticCacheSource
+2015-11-05 11:13:33,621 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultPreLoadEventListener
+2015-11-05 11:13:33,623 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultSaveEventListener
+2015-11-05 11:13:33,625 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultUpdateEventListener
+2015-11-05 11:13:33,627 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.event.def.DefaultSaveOrUpdateCopyEventListener
+2015-11-05 11:13:33,628 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.EntityTuplizerFactory
+2015-11-05 11:13:33,632 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.reflect.Member
+2015-11-05 11:13:33,632 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.EntityMetamodel
+2015-11-05 11:13:33,642 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.mapping.PersistentClass
+2015-11-05 11:13:33,657 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.mapping.Filterable
+2015-11-05 11:13:33,659 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.mapping.MetaAttributable
+2015-11-05 11:13:33,661 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.EntityMode
+2015-11-05 11:13:33,663 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.PojoEntityTuplizer
+2015-11-05 11:13:33,669 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.AbstractEntityTuplizer
+2015-11-05 11:13:33,676 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.EntityTuplizer
+2015-11-05 11:13:33,678 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.Tuplizer
+2015-11-05 11:13:33,680 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.Dom4jEntityTuplizer
+2015-11-05 11:13:33,684 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.tuple.entity.DynamicMapEntityTuplizer
+2015-11-05 11:13:33,686 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.factory.DefaultIdentifierGeneratorFactory
+2015-11-05 11:13:33,690 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.UUIDGenerator
+2015-11-05 11:13:33,693 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.IdentifierGenerator
+2015-11-05 11:13:33,695 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.Configurable
+2015-11-05 11:13:33,697 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.GUIDGenerator
+2015-11-05 11:13:33,700 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.UUIDHexGenerator
+2015-11-05 11:13:33,702 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.AbstractUUIDGenerator
+2015-11-05 11:13:33,705 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.TableHiLoGenerator
+2015-11-05 11:13:33,707 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.TableGenerator
+2015-11-05 11:13:33,712 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.PersistentIdentifierGenerator
+2015-11-05 11:13:33,713 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.engine.TransactionHelper
+2015-11-05 11:13:33,715 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.Assigned
+2015-11-05 11:13:33,718 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.IdentityGenerator
+2015-11-05 11:13:33,720 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.AbstractPostInsertGenerator
+2015-11-05 11:13:33,721 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.PostInsertIdentifierGenerator
+2015-11-05 11:13:33,722 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.SelectGenerator
+2015-11-05 11:13:33,725 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.SequenceGenerator
+2015-11-05 11:13:33,729 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.SequenceHiLoGenerator
+2015-11-05 11:13:33,732 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.IncrementGenerator
+2015-11-05 11:13:33,736 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.ForeignGenerator
+2015-11-05 11:13:33,739 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.SequenceIdentityGenerator
+2015-11-05 11:13:33,741 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.enhanced.SequenceStyleGenerator
+2015-11-05 11:13:33,746 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.id.enhanced.TableGenerator
+2015-11-05 11:13:33,754 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.HashSet
+2015-11-05 11:13:33,754 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.EJB3NamingStrategy
+2015-11-05 11:13:33,756 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.NamingStrategy
+2015-11-05 11:13:33,759 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.cfg.EJB3DTDEntityResolver
+2015-11-05 11:13:33,765 [nioEventLoopGroup-6-1] ERROR - Channel exceptionCaught
+java.lang.ExceptionInInitializerError
+	at vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat.execute(CSChat.java:51)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:193)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.HibernateException: could not find file: hibernate.cfg.xml
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2219)
+	at org.hibernate.cfg.AnnotationConfiguration.configure(AnnotationConfiguration.java:224)
+	at vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil.<clinit>(HibernateFactoryUtil.java:35)
+	... 20 more
+Caused by: java.io.FileNotFoundException: hibernate.cfg.xml (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:131)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2216)
+	... 22 more
+2015-11-05 11:13:34,239 [nioEventLoopGroup-6-1] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-11-05 11:13:34,240 [nioEventLoopGroup-6-1] INFO - [id: 0x50e8a697, /127.0.0.1:53412 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1446696814240
+}
+2015-11-05 11:13:34,478 [nioEventLoopGroup-6-1] INFO - CSChat m:6 s:0 {
+  msg: "bbb"
+}
+2015-11-05 11:13:34,478 [nioEventLoopGroup-6-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoaderZone@79ad8b2f
+2015-11-05 11:13:34,478 [nioEventLoopGroup-6-1] INFO - [id: 0x50e8a697, /127.0.0.1:53412 => /127.0.0.1:33333]
+SCChat m:6 s:2 {
+  msg: "11:13:34
+Q: bbb"
+}
+2015-11-05 11:13:34,479 [nioEventLoopGroup-6-1] ERROR - Channel exceptionCaught
+java.lang.NoClassDefFoundError: Could not initialize class vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+	at vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat.execute(CSChat.java:51)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onMessage(BFSessionManager.java:193)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelRead(SocketServerHandler.java:44)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-05 11:13:36,593 [nioEventLoopGroup-6-1] INFO - channelInactive!: [id: 0x50e8a697, /127.0.0.1:53412 :> /127.0.0.1:33333]
+2015-11-05 11:13:36,593 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0x50e8a697, /127.0.0.1:53412 :> /127.0.0.1:33333]
+2015-11-05 11:13:36,594 [nioEventLoopGroup-6-1] INFO - onChannelClose
+2015-11-05 11:13:36,594 [nioEventLoopGroup-6-1] ERROR - Channel exceptionCaught
+java.lang.UnsupportedOperationException: Not supported yet.
+	at vn.com.onesoft.bigfox.server.io.core.session.BFDefaultSessionEvent.closeChannel(BFDefaultSessionEvent.java:32)
+	at vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager.onChannelClose(BFSessionManager.java:228)
+	at vn.com.onesoft.bigfox.server.io.core.socket.SocketServerHandler.channelInactive(SocketServerHandler.java:66)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:56)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:92)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:135)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:306)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:56)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:92)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:135)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:928)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:658)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-05 11:13:36,594 [nioEventLoopGroup-6-1] INFO - Channel unregistered

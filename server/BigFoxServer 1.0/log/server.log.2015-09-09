@@ -1,0 +1,112 @@
+2015-09-09 14:10:22,767 [Thread-2] INFO - Socket start at port 33333
+2015-09-09 14:10:22,767 [Thread-3] INFO - WebSocket start at port 33332
+2015-09-09 14:10:22,799 [Thread-2] DEBUG - -Dio.netty.processId: 4423 (auto-detected)
+2015-09-09 14:10:22,802 [Thread-2] DEBUG - -Dio.netty.machineId: 78:31:c1:ff:fe:cf:e7:da (auto-detected)
+2015-09-09 14:10:22,803 [Thread-2] DEBUG - -Dio.netty.initialSeedUniquifier: 0xf6a5d69001e16a99 (took 13 ms)
+2015-09-09 14:10:22,833 [Thread-3] DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+2015-09-09 14:10:22,833 [Thread-3] DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+2015-09-09 14:10:22,833 [Thread-3] DEBUG - -Dio.netty.allocator.pageSize: 8192
+2015-09-09 14:10:22,833 [Thread-3] DEBUG - -Dio.netty.allocator.maxOrder: 11
+2015-09-09 14:10:22,833 [Thread-3] DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+2015-09-09 14:10:22,833 [Thread-3] DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+2015-09-09 14:10:22,833 [Thread-3] DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+2015-09-09 14:10:22,834 [Thread-3] DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+2015-09-09 14:10:22,834 [Thread-3] DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-09-09 14:10:22,834 [Thread-3] DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-09-09 14:10:22,840 [Thread-3] DEBUG - -Dio.netty.allocator.type: pooled
+2015-09-09 14:10:22,840 [Thread-3] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-09-09 14:10:22,842 [Thread-3] DEBUG - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+2015-09-09 14:10:22,843 [Thread-3] DEBUG - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2015-09-09 14:10:22,851 [nioEventLoopGroup-3-1] INFO - [id: 0x3449682b] REGISTERED
+2015-09-09 14:10:22,852 [nioEventLoopGroup-3-1] INFO - [id: 0x3449682b] BIND: 0.0.0.0/0.0.0.0:33332
+2015-09-09 14:10:22,855 [nioEventLoopGroup-3-1] INFO - [id: 0x3449682b, /0:0:0:0:0:0:0:0:33332] ACTIVE
+2015-09-09 14:10:31,381 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x9aa3ddcd, /127.0.0.1:58218 => /127.0.0.1:33333]
+2015-09-09 14:10:31,383 [nioEventLoopGroup-5-1] INFO - SCValidationCode {
+  validationCode: 2089870603
+}
+2015-09-09 14:10:31,396 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-09-09 14:10:31,403 [nioEventLoopGroup-5-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-09-09 14:10:31,472 [nioEventLoopGroup-5-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "te2b45kj9ethsl8dg2lmmeo37f",
+    metadata: ""
+  }
+}
+2015-09-09 14:10:31,473 [nioEventLoopGroup-5-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-09 14:10:55,560 [nioEventLoopGroup-5-1] INFO - CSName {
+  msg: "Quan"
+}
+2015-09-09 14:11:02,600 [nioEventLoopGroup-5-2] INFO - Client connected!: [id: 0x92134b8d, /127.0.0.1:58225 => /127.0.0.1:33333]
+2015-09-09 14:11:02,600 [nioEventLoopGroup-5-2] INFO - SCValidationCode {
+  validationCode: -1972024600
+}
+2015-09-09 14:11:02,696 [nioEventLoopGroup-5-2] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "4gogel7bkuc5j3nkbp88e21pcp",
+    metadata: ""
+  }
+}
+2015-09-09 14:11:02,697 [nioEventLoopGroup-5-2] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-09-09 14:11:07,088 [nioEventLoopGroup-5-2] INFO - CSName {
+  msg: "Huong"
+}
+2015-09-09 14:11:13,632 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "Hello"
+}
+2015-09-09 14:11:13,632 [nioEventLoopGroup-5-2] INFO - bbb
+2015-09-09 14:11:13,633 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "14:11:13
+Huong : Hello"
+}
+2015-09-09 14:11:13,635 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "14:11:13
+Huong : Hello"
+}
+2015-09-09 14:11:17,015 [nioEventLoopGroup-5-1] INFO - CSChat {
+  msg: "Hi"
+}
+2015-09-09 14:11:17,016 [nioEventLoopGroup-5-1] INFO - bbb
+2015-09-09 14:11:17,016 [nioEventLoopGroup-5-1] INFO - SCChat {
+  msg: "14:11:17
+Quan : Hi"
+}
+2015-09-09 14:11:17,016 [nioEventLoopGroup-5-1] INFO - SCChat {
+  msg: "14:11:17
+Quan : Hi"
+}
+2015-09-09 14:11:24,359 [nioEventLoopGroup-5-1] INFO - CSChat {
+  msg: "How are you ?"
+}
+2015-09-09 14:11:24,360 [nioEventLoopGroup-5-1] INFO - bbb
+2015-09-09 14:11:24,360 [nioEventLoopGroup-5-1] INFO - SCChat {
+  msg: "14:11:24
+Quan : How are you ?"
+}
+2015-09-09 14:11:24,360 [nioEventLoopGroup-5-1] INFO - SCChat {
+  msg: "14:11:24
+Quan : How are you ?"
+}
+2015-09-09 14:11:30,815 [nioEventLoopGroup-5-2] INFO - CSChat {
+  msg: "I'm fine, good"
+}
+2015-09-09 14:11:30,815 [nioEventLoopGroup-5-2] INFO - bbb
+2015-09-09 14:11:30,816 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "14:11:30
+Huong : I'm fine, good"
+}
+2015-09-09 14:11:30,816 [nioEventLoopGroup-5-2] INFO - SCChat {
+  msg: "14:11:30
+Huong : I'm fine, good"
+}
+2015-09-09 14:12:30,107 [nioEventLoopGroup-5-2] INFO - ChannelClosed: [id: 0x92134b8d, /127.0.0.1:58225 :> /127.0.0.1:33333]
+2015-09-09 14:12:31,916 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x9aa3ddcd, /127.0.0.1:58218 :> /127.0.0.1:33333]

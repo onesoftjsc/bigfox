@@ -6,8 +6,8 @@
 
 package vn.com.onesoft.time.server.main;
 
-import vn.com.onesoft.bigfox.server.io.core.session.IBFSession;
-import vn.com.onesoft.bigfox.server.io.core.session.IBFSessionEvent;
+import vn.com.onesoft.bigfox.server.io.core.business.session.IBFSession;
+import vn.com.onesoft.bigfox.serve.businessr.io.core.session.IBFSessionEvent;
 
 /**
  *

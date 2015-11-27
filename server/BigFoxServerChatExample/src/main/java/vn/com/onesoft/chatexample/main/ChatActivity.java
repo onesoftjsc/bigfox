@@ -9,8 +9,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import vn.com.onesoft.bigfox.server.io.core.zone.BFZoneActivity;
-import vn.com.onesoft.bigfox.server.io.core.zone.IBFZone;
+import vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager;
+import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneActivity;
+import vn.com.onesoft.bigfox.server.io.core.business.zone.IBFZone;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 
 /**
@@ -28,6 +29,7 @@ public class ChatActivity extends BFZoneActivity {
     public ChatActivity(IBFZone zone) {
         super(zone);
         _instance = this;
+        
     }
 
     @Override
@@ -43,6 +45,7 @@ public class ChatActivity extends BFZoneActivity {
     @Override
     public void afterZoneStart() {
         BFLogger.getInstance().info("AfterZoneStart");
+        BFSessionManager.getInstance().setSessionEvent(new BFSessionEvent());
     }
 
     @Override

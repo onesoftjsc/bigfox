@@ -8,7 +8,7 @@ package vn.com.onesoft.time.server.io.message.user.cs;
 import io.netty.channel.Channel;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager;
+import vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;

@@ -5,8 +5,8 @@
  */
 package vn.com.onesoft.time.server.main;
 
-import vn.com.onesoft.bigfox.server.io.core.zone.BFZoneActivity;
-import vn.com.onesoft.bigfox.server.io.core.zone.IBFZone;
+import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneActivity;
+import vn.com.onesoft.bigfox.server.io.core.business.zone.IBFZone;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 
 /**

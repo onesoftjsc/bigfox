@@ -1,0 +1,93 @@
+2015-11-23 10:44:48,424 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-23 10:44:49,069 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-23 10:44:49,070 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-23 10:44:49,072 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-23 10:44:49,074 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-23 10:44:49,074 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-23 10:44:49,075 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-23 10:44:49,075 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-23 10:44:49,076 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-23 10:44:49,077 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-23 10:44:49,085 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-23 10:44:49,313 [Thread-3] INFO - Socket start at port 33333
+2015-11-23 10:44:49,313 [Thread-5] INFO - Telnet start at port 40000
+2015-11-23 10:44:49,332 [Thread-4] INFO - WebSocket start at port 33332
+2015-11-23 10:45:00,951 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
+2015-11-23 10:45:00,961 [nioEventLoopGroup-6-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-23 10:45:01,074 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "8ra0oj9s4m49tsa5e6nsaled8h",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-11-23 10:45:01,076 [nioEventLoopGroup-6-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1
+}
+2015-11-23 10:45:01,080 [nioEventLoopGroup-6-1] INFO - CSPing m:2 s:0 {
+  clientTime: 0
+}
+2015-11-23 10:45:01,081 [nioEventLoopGroup-6-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1448250301080
+}
+2015-11-23 10:45:02,814 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.String
+2015-11-23 10:45:02,815 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Property
+2015-11-23 10:45:02,815 [nioEventLoopGroup-6-1] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-11-23 10:45:02,815 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager
+2015-11-23 10:45:02,815 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.main.Main
+2015-11-23 10:45:02,816 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Map
+2015-11-23 10:45:05,037 [nioEventLoopGroup-6-1] INFO - CSChat m:4 s:0 {
+  msg: "abc"
+}
+2015-11-23 10:45:05,037 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
+2015-11-23 10:45:05,037 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.StringBuilder
+2015-11-23 10:45:05,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Object
+2015-11-23 10:45:05,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Class
+2015-11-23 10:45:05,038 [nioEventLoopGroup-6-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoaderZone@70a6302b
+2015-11-23 10:45:05,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Calendar
+2015-11-23 10:45:05,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager
+2015-11-23 10:45:05,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.IBFZone
+2015-11-23 10:45:05,040 [nioEventLoopGroup-6-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
+SCChat m:4 s:1 {
+  msg: "10:45:5
+Q: abc"
+}
+2015-11-23 10:45:05,040 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-11-23 10:45:05,042 [nioEventLoopGroup-6-1] INFO - Channel exceptionCaught
+2015-11-23 10:45:05,042 [nioEventLoopGroup-6-1] INFO - onChannelClose
+2015-11-23 10:45:05,954 [pool-1-thread-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1448250305954
+}
+2015-11-23 10:45:06,085 [nioEventLoopGroup-6-1] INFO - CSPing m:5 s:0 {
+  clientTime: 0
+}
+2015-11-23 10:45:06,085 [nioEventLoopGroup-6-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1448250306085
+}
+2015-11-23 10:45:10,961 [pool-1-thread-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1448250310961
+}
+2015-11-23 10:45:11,090 [nioEventLoopGroup-6-1] INFO - CSPing m:6 s:0 {
+  clientTime: 0
+}
+2015-11-23 10:45:11,091 [nioEventLoopGroup-6-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
+SCPing m:0 s:0 {
+  serverTime: 1448250311091
+}
+2015-11-23 10:45:12,529 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0x6efcc1fa, /127.0.0.1:56027 :> /127.0.0.1:33333]
+2015-11-23 10:45:12,529 [nioEventLoopGroup-6-1] INFO - Channel exceptionCaught
+2015-11-23 10:45:12,530 [nioEventLoopGroup-6-1] INFO - onChannelClose
+2015-11-23 10:45:12,531 [nioEventLoopGroup-6-1] INFO - Channel unregistered
+2015-11-23 10:50:11,185 [Thread-0] INFO - onTimeout

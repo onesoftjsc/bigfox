@@ -4,10 +4,11 @@
  * 
  */
 
-package vn.com.onesoft.chatexamain.chat;
+package vn.com.onesoft.chatexample.main;
 
-import vn.com.onesoft.bigfox.server.io.core.session.IBFSession;
-import vn.com.onesoft.bigfox.server.io.core.session.IBFSessionEvent;
+import vn.com.onesoft.bigfox.server.io.core.business.session.IBFSession;
+import vn.com.onesoft.bigfox.server.io.core.business.session.IBFSessionEvent;
+import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 
 /**
  *
@@ -32,7 +33,12 @@ public class BFSessionEvent implements IBFSessionEvent{
 
     @Override
     public void closeChannel(IBFSession session) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
+    }
+
+    @Override
+    public void onDelay(IBFSession session, int delaySecond) {
+        BFLogger.getInstance().info("onDelay " + delaySecond);
     }
     
 }

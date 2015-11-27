@@ -4,11 +4,11 @@ package vn.com.onesoft.chatexample.server.db.util;
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 import java.io.File;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
+import vn.com.onesoft.bigfox.server.main.Main;
 import vn.com.onesoft.chatexample.main.ChatActivity;
 
 /**
@@ -29,8 +29,12 @@ public class HibernateFactoryUtil {
     }
 
     static {
-        File file = new File(ChatActivity.getInstance().getZone().getAbsolutePath() + "/hibernate.cfg.xml");
-//        File file = new File("hibernate.cfg.xml");
+        File file = null;
+        if (!Main.isDebug) {
+            file = new File(ChatActivity.getInstance().getZone().getAbsolutePath() + "/hibernate.cfg.xml");
+        } else {
+            file = new File("hibernate.cfg.xml");
+        }
         String fname = file.getAbsolutePath();
         sessionFactory = new AnnotationConfiguration().configure(file).buildSessionFactory();
     }

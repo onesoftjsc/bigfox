@@ -1,92 +1,1533 @@
-2015-11-23 10:44:48,424 [main] INFO - BigFoxServerChatExample loading ... 
-2015-11-23 10:44:49,069 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
-2015-11-23 10:44:49,070 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
-2015-11-23 10:44:49,072 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
-2015-11-23 10:44:49,074 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
-2015-11-23 10:44:49,074 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
-2015-11-23 10:44:49,075 [main] INFO - BFClassLoader load java.lang.Throwable
-2015-11-23 10:44:49,075 [main] INFO - BFClassLoader load java.lang.Exception
-2015-11-23 10:44:49,076 [main] INFO - BFClassLoader load org.hibernate.Session
-2015-11-23 10:44:49,077 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
-2015-11-23 10:44:49,085 [main] INFO - BigFoxServerChatExample loaded ... 
-2015-11-23 10:44:49,313 [Thread-3] INFO - Socket start at port 33333
-2015-11-23 10:44:49,313 [Thread-5] INFO - Telnet start at port 40000
-2015-11-23 10:44:49,332 [Thread-4] INFO - WebSocket start at port 33332
-2015-11-23 10:45:00,951 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
-2015-11-23 10:45:00,961 [nioEventLoopGroup-6-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
+2015-11-27 08:50:57,944 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 08:50:58,299 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 08:50:58,300 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 08:50:58,302 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 08:50:58,303 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 08:50:58,303 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 08:50:58,305 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 08:50:58,305 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 08:50:58,305 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 08:50:58,306 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 08:50:58,313 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 08:50:58,510 [Thread-5] INFO - Telnet start at port 40000
+2015-11-27 08:50:58,510 [Thread-3] INFO - Socket start at port 33333
+2015-11-27 08:50:58,530 [Thread-4] INFO - WebSocket start at port 33332
+2015-11-27 08:51:44,463 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 08:51:45,068 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 08:51:45,068 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 08:51:45,070 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 08:51:45,072 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 08:51:45,072 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 08:51:45,073 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 08:51:45,073 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 08:51:45,074 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 08:51:45,075 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 08:51:45,082 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 08:51:45,277 [Thread-5] INFO - Telnet start at port 40000
+2015-11-27 08:51:45,277 [Thread-3] INFO - Socket start at port 55555
+2015-11-27 08:51:45,300 [Thread-4] INFO - WebSocket start at port 33332
+2015-11-27 08:51:55,977 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0x69e72caf, /127.0.0.1:50526 => /127.0.0.1:55555]
+2015-11-27 08:51:55,980 [nioEventLoopGroup-6-1] INFO - [id: 0x69e72caf, /127.0.0.1:50526 => /127.0.0.1:55555]
 SCValidationCode m:0 s:0 {
   validationCode: 0
 }
-2015-11-23 10:45:01,074 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:1 s:0 {
+2015-11-27 08:51:56,066 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:1 s:0 {
   clientInfo: {
     device: "desktop",
     imei: "",
     version: 1,
-    sessionId: "8ra0oj9s4m49tsa5e6nsaled8h",
+    sessionId: "f9j1bi4b2dp0nbf9kir40a1h7c",
     metadata: "",
     zone: "BigFoxServerChatExample"
   }
 }
-2015-11-23 10:45:01,076 [nioEventLoopGroup-6-1] INFO - SCInitSession m:0 s:0 {
-  sessionStatus: 1
+2015-11-27 08:51:56,070 [nioEventLoopGroup-6-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1,
+  pingPeriod: 5,
+  timeRetriesToReconnect: 4
 }
-2015-11-23 10:45:01,080 [nioEventLoopGroup-6-1] INFO - CSPing m:2 s:0 {
-  clientTime: 0
-}
-2015-11-23 10:45:01,081 [nioEventLoopGroup-6-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
-SCPing m:0 s:0 {
-  serverTime: 1448250301080
-}
-2015-11-23 10:45:02,814 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.String
-2015-11-23 10:45:02,815 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Property
-2015-11-23 10:45:02,815 [nioEventLoopGroup-6-1] INFO - CSName m:3 s:0 {
+2015-11-27 08:51:57,073 [pool-1-thread-1] INFO - onDelay 1
+2015-11-27 08:51:58,072 [pool-1-thread-1] INFO - onDelay 2
+2015-11-27 08:51:58,596 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.String
+2015-11-27 08:51:58,596 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Property
+2015-11-27 08:51:58,597 [nioEventLoopGroup-6-1] INFO - CSName m:3 s:0 {
   msg: "Q"
 }
-2015-11-23 10:45:02,815 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.session.BFSessionManager
-2015-11-23 10:45:02,815 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.main.Main
-2015-11-23 10:45:02,816 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Map
-2015-11-23 10:45:05,037 [nioEventLoopGroup-6-1] INFO - CSChat m:4 s:0 {
+2015-11-27 08:51:58,597 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager
+2015-11-27 08:51:58,597 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.main.Main
+2015-11-27 08:51:58,597 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Map
+2015-11-27 08:51:59,070 [pool-1-thread-2] INFO - onDelay 3
+2015-11-27 08:52:00,072 [pool-1-thread-1] INFO - onDelay 4
+2015-11-27 08:52:00,899 [nioEventLoopGroup-6-1] INFO - CSChat m:4 s:0 {
   msg: "abc"
 }
-2015-11-23 10:45:05,037 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
-2015-11-23 10:45:05,037 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.StringBuilder
-2015-11-23 10:45:05,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Object
-2015-11-23 10:45:05,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Class
-2015-11-23 10:45:05,038 [nioEventLoopGroup-6-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.zone.BFClassLoaderZone@70a6302b
-2015-11-23 10:45:05,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Calendar
-2015-11-23 10:45:05,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.BFZoneManager
-2015-11-23 10:45:05,038 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.zone.IBFZone
-2015-11-23 10:45:05,040 [nioEventLoopGroup-6-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
+2015-11-27 08:52:00,899 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
+2015-11-27 08:52:00,899 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.StringBuilder
+2015-11-27 08:52:00,899 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Object
+2015-11-27 08:52:00,899 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Class
+2015-11-27 08:52:00,899 [nioEventLoopGroup-6-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.business.zone.BFClassLoaderZone@482ee6c8
+2015-11-27 08:52:00,900 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Calendar
+2015-11-27 08:52:00,900 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneManager
+2015-11-27 08:52:00,900 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.zone.IBFZone
+2015-11-27 08:52:00,904 [nioEventLoopGroup-6-1] INFO - [id: 0x69e72caf, /127.0.0.1:50526 => /127.0.0.1:55555]
 SCChat m:4 s:1 {
-  msg: "10:45:5
+  msg: "8:52:0
 Q: abc"
 }
-2015-11-23 10:45:05,040 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
-2015-11-23 10:45:05,042 [nioEventLoopGroup-6-1] INFO - Channel exceptionCaught
-2015-11-23 10:45:05,042 [nioEventLoopGroup-6-1] INFO - onChannelClose
-2015-11-23 10:45:05,954 [pool-1-thread-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
-SCPing m:0 s:0 {
-  serverTime: 1448250305954
+2015-11-27 08:52:00,904 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-11-27 08:52:00,906 [nioEventLoopGroup-6-1] ERROR - 
+java.lang.ExceptionInInitializerError
+	at vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat.execute(CSChat.java:51)
+	at vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager.onMessage(BFSessionManager.java:202)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.channel.socket.SocketServerHandler.channelRead(SocketServerHandler.java:54)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil.<clinit>(HibernateFactoryUtil.java:32)
+	... 20 more
+2015-11-27 08:52:00,909 [nioEventLoopGroup-6-1] INFO - onChannelClose
+2015-11-27 08:52:01,068 [pool-1-thread-3] INFO - onDelay 5
+2015-11-27 08:52:02,070 [pool-1-thread-2] INFO - onDelay 6
+2015-11-27 08:52:03,070 [pool-1-thread-4] INFO - onDelay 7
+2015-11-27 08:52:04,072 [pool-1-thread-1] INFO - onDelay 8
+2015-11-27 08:52:05,070 [pool-1-thread-5] INFO - onDelay 9
+2015-11-27 08:52:06,073 [pool-1-thread-3] INFO - onDelay 10
+2015-11-27 08:52:07,071 [pool-1-thread-6] INFO - onDelay 11
+2015-11-27 08:52:08,073 [pool-1-thread-2] INFO - onDelay 12
+2015-11-27 08:52:09,073 [pool-1-thread-7] INFO - onDelay 13
+2015-11-27 08:52:10,068 [pool-1-thread-4] INFO - onDelay 14
+2015-11-27 08:52:11,073 [pool-1-thread-8] INFO - onDelay 15
+2015-11-27 08:52:12,068 [pool-1-thread-8] INFO - onDelay 16
+2015-11-27 08:52:13,073 [pool-1-thread-8] INFO - onDelay 17
+2015-11-27 08:52:14,071 [pool-1-thread-8] INFO - onDelay 18
+2015-11-27 08:52:15,073 [pool-1-thread-8] INFO - onDelay 19
+2015-11-27 08:52:16,072 [pool-1-thread-8] INFO - onDelay 20
+2015-11-27 08:52:17,069 [pool-1-thread-8] INFO - onDelay 21
+2015-11-27 08:52:18,068 [pool-1-thread-8] INFO - onDelay 22
+2015-11-27 08:52:19,070 [pool-1-thread-8] INFO - onDelay 23
+2015-11-27 08:52:20,071 [pool-1-thread-8] INFO - onDelay 24
+2015-11-27 08:52:21,071 [pool-1-thread-8] INFO - onDelay 25
+2015-11-27 08:52:22,068 [pool-1-thread-8] INFO - onDelay 26
+2015-11-27 08:52:23,073 [pool-1-thread-8] INFO - onDelay 27
+2015-11-27 08:52:24,071 [pool-1-thread-8] INFO - onDelay 28
+2015-11-27 08:52:25,073 [pool-1-thread-8] INFO - onDelay 29
+2015-11-27 08:52:26,074 [pool-1-thread-8] INFO - onDelay 30
+2015-11-27 08:52:27,073 [pool-1-thread-8] INFO - onDelay 31
+2015-11-27 08:52:28,073 [pool-1-thread-8] INFO - onDelay 32
+2015-11-27 08:52:29,072 [pool-1-thread-8] INFO - onDelay 33
+2015-11-27 08:52:30,069 [pool-1-thread-8] INFO - onDelay 34
+2015-11-27 08:52:31,072 [pool-1-thread-8] INFO - onDelay 35
+2015-11-27 08:52:32,073 [pool-1-thread-8] INFO - onDelay 36
+2015-11-27 08:52:33,071 [pool-1-thread-8] INFO - onDelay 37
+2015-11-27 08:52:34,069 [pool-1-thread-8] INFO - onDelay 38
+2015-11-27 08:52:35,070 [pool-1-thread-8] INFO - onDelay 39
+2015-11-27 08:52:36,071 [pool-1-thread-8] INFO - onDelay 40
+2015-11-27 08:52:37,073 [pool-1-thread-8] INFO - onDelay 41
+2015-11-27 08:52:38,073 [pool-1-thread-8] INFO - onDelay 42
+2015-11-27 08:52:39,069 [pool-1-thread-8] INFO - onDelay 43
+2015-11-27 08:52:40,075 [pool-1-thread-8] INFO - onDelay 44
+2015-11-27 08:52:41,070 [pool-1-thread-8] INFO - onDelay 45
+2015-11-27 08:52:42,070 [pool-1-thread-8] INFO - onDelay 46
+2015-11-27 08:52:43,073 [pool-1-thread-8] INFO - onDelay 47
+2015-11-27 08:52:44,073 [pool-1-thread-8] INFO - onDelay 48
+2015-11-27 08:52:45,073 [pool-1-thread-8] INFO - onDelay 49
+2015-11-27 08:52:46,069 [pool-1-thread-8] INFO - onDelay 50
+2015-11-27 08:52:47,073 [pool-1-thread-8] INFO - onDelay 51
+2015-11-27 08:52:48,073 [pool-1-thread-8] INFO - onDelay 52
+2015-11-27 08:52:49,069 [pool-1-thread-8] INFO - onDelay 53
+2015-11-27 08:52:50,069 [pool-1-thread-8] INFO - onDelay 54
+2015-11-27 08:52:51,073 [pool-1-thread-8] INFO - onDelay 55
+2015-11-27 08:52:52,073 [pool-1-thread-8] INFO - onDelay 56
+2015-11-27 08:52:53,068 [pool-1-thread-8] INFO - onDelay 57
+2015-11-27 08:52:54,068 [pool-1-thread-8] INFO - onDelay 58
+2015-11-27 08:52:55,070 [pool-1-thread-8] INFO - onDelay 59
+2015-11-27 08:52:56,073 [pool-1-thread-8] INFO - onDelay 60
+2015-11-27 08:52:57,073 [pool-1-thread-8] INFO - onDelay 61
+2015-11-27 08:52:58,071 [pool-1-thread-8] INFO - onDelay 62
+2015-11-27 08:52:59,069 [pool-1-thread-8] INFO - onDelay 63
+2015-11-27 08:53:00,068 [pool-1-thread-8] INFO - onDelay 64
+2015-11-27 08:53:01,069 [pool-1-thread-8] INFO - onDelay 65
+2015-11-27 08:53:02,069 [pool-1-thread-8] INFO - onDelay 66
+2015-11-27 08:53:03,070 [pool-1-thread-8] INFO - onDelay 67
+2015-11-27 08:53:04,071 [pool-1-thread-8] INFO - onDelay 68
+2015-11-27 08:53:05,073 [pool-1-thread-8] INFO - onDelay 69
+2015-11-27 08:53:06,071 [pool-1-thread-8] INFO - onDelay 70
+2015-11-27 08:53:07,070 [pool-1-thread-8] INFO - onDelay 71
+2015-11-27 08:53:08,069 [pool-1-thread-8] INFO - onDelay 72
+2015-11-27 08:53:09,073 [pool-1-thread-8] INFO - onDelay 73
+2015-11-27 08:53:10,070 [pool-1-thread-8] INFO - onDelay 74
+2015-11-27 08:53:30,078 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 08:53:30,415 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 08:53:30,416 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 08:53:30,418 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 08:53:30,419 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 08:53:30,419 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 08:53:30,420 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 08:53:30,420 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 08:53:30,420 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 08:53:30,422 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 08:53:30,429 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 08:53:30,625 [Thread-3] INFO - Socket start at port 55555
+2015-11-27 08:53:30,625 [Thread-5] INFO - Telnet start at port 40000
+2015-11-27 08:53:30,659 [Thread-4] INFO - WebSocket start at port 33332
+2015-11-27 08:53:39,007 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0x9495c341, /127.0.0.1:50602 => /127.0.0.1:55555]
+2015-11-27 08:53:39,011 [nioEventLoopGroup-7-1] INFO - [id: 0x9495c341, /127.0.0.1:50602 => /127.0.0.1:55555]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
 }
-2015-11-23 10:45:06,085 [nioEventLoopGroup-6-1] INFO - CSPing m:5 s:0 {
-  clientTime: 0
+2015-11-27 08:53:39,101 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "6aovnqcqqpqm00p1s112nc45u3",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
 }
-2015-11-23 10:45:06,085 [nioEventLoopGroup-6-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
-SCPing m:0 s:0 {
-  serverTime: 1448250306085
+2015-11-27 08:53:39,105 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1,
+  pingPeriod: 5,
+  timeRetriesToReconnect: 4
 }
-2015-11-23 10:45:10,961 [pool-1-thread-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
-SCPing m:0 s:0 {
-  serverTime: 1448250310961
+2015-11-27 08:53:40,106 [pool-1-thread-1] INFO - onDelay 1
+2015-11-27 08:53:40,403 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.String
+2015-11-27 08:53:40,403 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Property
+2015-11-27 08:53:40,404 [nioEventLoopGroup-7-1] INFO - CSName m:3 s:0 {
+  msg: "Q"
 }
-2015-11-23 10:45:11,090 [nioEventLoopGroup-6-1] INFO - CSPing m:6 s:0 {
-  clientTime: 0
+2015-11-27 08:53:40,404 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager
+2015-11-27 08:53:40,404 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.main.Main
+2015-11-27 08:53:40,404 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.util.Map
+2015-11-27 08:53:41,109 [pool-1-thread-1] INFO - onDelay 2
+2015-11-27 08:53:42,107 [pool-1-thread-2] INFO - onDelay 3
+2015-11-27 08:53:43,109 [pool-1-thread-1] INFO - onDelay 4
+2015-11-27 08:53:44,109 [pool-1-thread-3] INFO - onDelay 5
+2015-11-27 08:53:45,106 [pool-1-thread-2] INFO - onDelay 6
+2015-11-27 08:53:46,104 [pool-1-thread-4] INFO - onDelay 7
+2015-11-27 08:53:47,104 [pool-1-thread-1] INFO - onDelay 8
+2015-11-27 08:53:48,105 [pool-1-thread-5] INFO - onDelay 9
+2015-11-27 08:53:49,106 [pool-1-thread-3] INFO - onDelay 10
+2015-11-27 08:53:50,108 [pool-1-thread-6] INFO - onDelay 11
+2015-11-27 08:53:51,109 [pool-1-thread-2] INFO - onDelay 12
+2015-11-27 08:53:52,105 [pool-1-thread-7] INFO - onDelay 13
+2015-11-27 08:53:53,108 [pool-1-thread-4] INFO - onDelay 14
+2015-11-27 08:53:54,109 [pool-1-thread-8] INFO - onDelay 15
+2015-11-27 08:53:55,106 [pool-1-thread-8] INFO - onDelay 16
+2015-11-27 08:53:56,104 [pool-1-thread-8] INFO - onDelay 17
+2015-11-27 08:53:57,105 [pool-1-thread-8] INFO - onDelay 18
+2015-11-27 08:53:58,109 [pool-1-thread-8] INFO - onDelay 19
+2015-11-27 08:53:59,109 [pool-1-thread-8] INFO - onDelay 20
+2015-11-27 08:54:00,109 [pool-1-thread-8] INFO - onDelay 21
+2015-11-27 08:54:01,106 [pool-1-thread-8] INFO - onDelay 22
+2015-11-27 08:54:02,106 [pool-1-thread-8] INFO - onDelay 23
+2015-11-27 08:54:03,109 [pool-1-thread-8] INFO - onDelay 24
+2015-11-27 08:54:04,106 [pool-1-thread-8] INFO - onDelay 25
+2015-11-27 08:54:04,817 [nioEventLoopGroup-7-1] INFO - CSChat m:9 s:0 {
+  msg: "aaa"
 }
-2015-11-23 10:45:11,091 [nioEventLoopGroup-6-1] INFO - [id: 0x6efcc1fa, /127.0.0.1:56027 => /127.0.0.1:33333]
-SCPing m:0 s:0 {
-  serverTime: 1448250311091
+2015-11-27 08:54:04,818 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
+2015-11-27 08:54:04,818 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.StringBuilder
+2015-11-27 08:54:04,818 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.Object
+2015-11-27 08:54:04,818 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.Class
+2015-11-27 08:54:04,818 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.business.zone.BFClassLoaderZone@2969ae7c
+2015-11-27 08:54:04,818 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.util.Calendar
+2015-11-27 08:54:04,818 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneManager
+2015-11-27 08:54:04,819 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.zone.IBFZone
+2015-11-27 08:54:04,823 [nioEventLoopGroup-7-1] INFO - [id: 0x9495c341, /127.0.0.1:50602 => /127.0.0.1:55555]
+SCChat m:9 s:1 {
+  msg: "8:54:4
+Q: aaa"
 }
-2015-11-23 10:45:12,529 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0x6efcc1fa, /127.0.0.1:56027 :> /127.0.0.1:33333]
-2015-11-23 10:45:12,529 [nioEventLoopGroup-6-1] INFO - Channel exceptionCaught
-2015-11-23 10:45:12,530 [nioEventLoopGroup-6-1] INFO - onChannelClose
-2015-11-23 10:45:12,531 [nioEventLoopGroup-6-1] INFO - Channel unregistered
+2015-11-27 08:54:04,823 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-11-27 08:54:04,826 [nioEventLoopGroup-7-1] ERROR - 
+java.lang.ExceptionInInitializerError
+	at vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat.execute(CSChat.java:51)
+	at vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager.onMessage(BFSessionManager.java:202)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.channel.socket.SocketServerHandler.channelRead(SocketServerHandler.java:54)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil.<clinit>(HibernateFactoryUtil.java:32)
+	... 20 more
+2015-11-27 08:54:04,828 [nioEventLoopGroup-7-1] INFO - onChannelClose
+2015-11-27 08:54:05,104 [pool-1-thread-8] INFO - onDelay 26
+2015-11-27 08:54:06,106 [pool-1-thread-8] INFO - onDelay 27
+2015-11-27 08:54:07,109 [pool-1-thread-8] INFO - onDelay 28
+2015-11-27 08:54:08,104 [pool-1-thread-8] INFO - onDelay 29
+2015-11-27 08:54:09,105 [pool-1-thread-8] INFO - onDelay 30
+2015-11-27 08:54:10,109 [pool-1-thread-8] INFO - onDelay 31
+2015-11-27 08:54:11,109 [pool-1-thread-8] INFO - onDelay 32
+2015-11-27 08:54:12,104 [pool-1-thread-8] INFO - onDelay 33
+2015-11-27 08:54:13,109 [pool-1-thread-8] INFO - onDelay 34
+2015-11-27 08:54:14,109 [pool-1-thread-8] INFO - onDelay 35
+2015-11-27 08:54:15,109 [pool-1-thread-8] INFO - onDelay 36
+2015-11-27 08:54:16,109 [pool-1-thread-8] INFO - onDelay 37
+2015-11-27 08:54:17,105 [pool-1-thread-8] INFO - onDelay 38
+2015-11-27 08:54:18,109 [pool-1-thread-8] INFO - onDelay 39
+2015-11-27 08:54:19,109 [pool-1-thread-8] INFO - onDelay 40
+2015-11-27 08:54:20,105 [pool-1-thread-8] INFO - onDelay 41
+2015-11-27 08:54:21,104 [pool-1-thread-8] INFO - onDelay 42
+2015-11-27 08:54:22,104 [pool-1-thread-8] INFO - onDelay 43
+2015-11-27 08:55:49,587 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 08:55:50,197 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 08:55:50,198 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 08:55:50,200 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 08:55:50,201 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 08:55:50,201 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 08:55:50,202 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 08:55:50,203 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 08:55:50,203 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 08:55:50,204 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 08:55:50,211 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 08:55:50,392 [Thread-5] INFO - Telnet start at port 40000
+2015-11-27 08:55:50,392 [Thread-3] INFO - Socket start at port 55555
+2015-11-27 08:55:50,415 [Thread-4] INFO - WebSocket start at port 33332
+2015-11-27 08:55:56,141 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0x888b2203, /127.0.0.1:50681 => /127.0.0.1:55555]
+2015-11-27 08:55:56,147 [nioEventLoopGroup-7-1] INFO - [id: 0x888b2203, /127.0.0.1:50681 => /127.0.0.1:55555]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-27 08:55:56,291 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "kuokl8ipof6btunlmocjktijds",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-11-27 08:55:56,295 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1,
+  pingPeriod: 5,
+  timeRetriesToReconnect: 4
+}
+2015-11-27 08:55:57,299 [pool-1-thread-1] INFO - onDelay 1
+2015-11-27 08:55:58,295 [pool-1-thread-1] INFO - onDelay 2
+2015-11-27 08:55:59,297 [pool-1-thread-2] INFO - onDelay 3
+2015-11-27 08:56:00,296 [pool-1-thread-1] INFO - onDelay 4
+2015-11-27 08:56:01,295 [pool-1-thread-3] INFO - onDelay 5
+2015-11-27 08:56:02,294 [pool-1-thread-2] INFO - onDelay 6
+2015-11-27 08:56:03,299 [pool-1-thread-4] INFO - onDelay 7
+2015-11-27 08:56:04,295 [pool-1-thread-1] INFO - onDelay 8
+2015-11-27 08:56:05,294 [pool-1-thread-5] INFO - onDelay 9
+2015-11-27 08:56:06,299 [pool-1-thread-3] INFO - onDelay 10
+2015-11-27 08:56:07,296 [pool-1-thread-6] INFO - onDelay 11
+2015-11-27 08:56:08,294 [pool-1-thread-2] INFO - onDelay 12
+2015-11-27 08:56:09,295 [pool-1-thread-7] INFO - onDelay 13
+2015-11-27 08:56:10,299 [pool-1-thread-4] INFO - onDelay 14
+2015-11-27 08:56:11,296 [pool-1-thread-8] INFO - onDelay 15
+2015-11-27 08:56:12,299 [pool-1-thread-8] INFO - onDelay 16
+2015-11-27 08:56:13,296 [pool-1-thread-8] INFO - onDelay 17
+2015-11-27 08:56:14,299 [pool-1-thread-8] INFO - onDelay 18
+2015-11-27 08:56:15,298 [pool-1-thread-8] INFO - onDelay 19
+2015-11-27 08:56:16,297 [pool-1-thread-8] INFO - onDelay 20
+2015-11-27 08:56:17,297 [pool-1-thread-8] INFO - onDelay 21
+2015-11-27 08:56:18,297 [pool-1-thread-8] INFO - onDelay 22
+2015-11-27 08:56:19,298 [pool-1-thread-8] INFO - onDelay 23
+2015-11-27 08:56:19,801 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x888b2203, /127.0.0.1:50681 :> /127.0.0.1:55555]
+2015-11-27 08:56:19,803 [nioEventLoopGroup-7-1] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.channel.socket.SocketServerHandler.channelInactive(SocketServerHandler.java:78)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:56)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:92)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:135)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:306)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:56)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:92)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:135)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:928)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:658)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-27 08:56:19,805 [nioEventLoopGroup-7-1] INFO - onChannelClose
+2015-11-27 08:56:19,805 [nioEventLoopGroup-7-1] INFO - Channel unregistered
+2015-11-27 08:56:20,297 [pool-1-thread-8] INFO - onDelay 24
+2015-11-27 08:56:21,298 [pool-1-thread-8] INFO - onDelay 25
+2015-11-27 08:56:22,298 [pool-1-thread-8] INFO - onDelay 26
+2015-11-27 08:56:23,294 [pool-1-thread-8] INFO - onDelay 27
+2015-11-27 08:56:24,293 [pool-1-thread-8] INFO - onDelay 28
+2015-11-27 08:56:25,295 [pool-1-thread-8] INFO - onDelay 29
+2015-11-27 08:56:26,298 [pool-1-thread-8] INFO - onDelay 30
+2015-11-27 08:56:27,297 [pool-1-thread-8] INFO - onDelay 31
+2015-11-27 08:56:28,295 [pool-1-thread-8] INFO - onDelay 32
+2015-11-27 08:56:29,295 [pool-1-thread-8] INFO - onDelay 33
+2015-11-27 08:56:30,299 [pool-1-thread-8] INFO - onDelay 34
+2015-11-27 08:56:31,295 [pool-1-thread-8] INFO - onDelay 35
+2015-11-27 08:56:32,299 [pool-1-thread-8] INFO - onDelay 36
+2015-11-27 08:56:33,294 [pool-1-thread-8] INFO - onDelay 37
+2015-11-27 08:56:34,299 [pool-1-thread-8] INFO - onDelay 38
+2015-11-27 08:56:35,299 [pool-1-thread-8] INFO - onDelay 39
+2015-11-27 08:56:36,299 [pool-1-thread-8] INFO - onDelay 40
+2015-11-27 08:56:37,296 [pool-1-thread-8] INFO - onDelay 41
+2015-11-27 08:56:38,296 [pool-1-thread-8] INFO - onDelay 42
+2015-11-27 08:56:39,299 [pool-1-thread-8] INFO - onDelay 43
+2015-11-27 08:56:40,299 [pool-1-thread-8] INFO - onDelay 44
+2015-11-27 08:56:41,294 [pool-1-thread-8] INFO - onDelay 45
+2015-11-27 08:56:42,296 [pool-1-thread-8] INFO - onDelay 46
+2015-11-27 08:56:43,299 [pool-1-thread-8] INFO - onDelay 47
+2015-11-27 08:56:44,293 [pool-1-thread-8] INFO - onDelay 48
+2015-11-27 08:56:45,294 [pool-1-thread-8] INFO - onDelay 49
+2015-11-27 08:56:46,299 [pool-1-thread-8] INFO - onDelay 50
+2015-11-27 08:56:47,296 [pool-1-thread-8] INFO - onDelay 51
+2015-11-27 08:56:48,296 [pool-1-thread-8] INFO - onDelay 52
+2015-11-27 08:56:49,296 [pool-1-thread-8] INFO - onDelay 53
+2015-11-27 08:56:50,297 [pool-1-thread-8] INFO - onDelay 54
+2015-11-27 08:56:51,297 [pool-1-thread-8] INFO - onDelay 55
+2015-11-27 08:56:52,294 [pool-1-thread-8] INFO - onDelay 56
+2015-11-27 08:56:53,294 [pool-1-thread-8] INFO - onDelay 57
+2015-11-27 08:56:54,294 [pool-1-thread-8] INFO - onDelay 58
+2015-11-27 08:56:55,299 [pool-1-thread-8] INFO - onDelay 59
+2015-11-27 08:57:25,228 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 08:57:25,587 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 08:57:25,587 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 08:57:25,589 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 08:57:25,591 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 08:57:25,591 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 08:57:25,592 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 08:57:25,592 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 08:57:25,593 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 08:57:25,594 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 08:57:25,602 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 08:57:25,890 [Thread-5] INFO - Telnet start at port 40000
+2015-11-27 08:57:25,890 [Thread-3] INFO - Socket start at port 55555
+2015-11-27 08:57:25,909 [Thread-4] INFO - WebSocket start at port 33332
+2015-11-27 08:57:31,174 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0xb1fd78c4, /127.0.0.1:50709 => /127.0.0.1:55555]
+2015-11-27 08:57:31,178 [nioEventLoopGroup-7-1] INFO - [id: 0xb1fd78c4, /127.0.0.1:50709 => /127.0.0.1:55555]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-27 08:57:31,264 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "ejmqbgmfjbrh28ab1u03nraal",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-11-27 08:57:31,267 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1,
+  pingPeriod: 5,
+  timeRetriesToReconnect: 4
+}
+2015-11-27 08:57:32,271 [pool-1-thread-1] INFO - onDelay 0
+2015-11-27 08:57:33,233 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.String
+2015-11-27 08:57:33,233 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Property
+2015-11-27 08:57:33,233 [nioEventLoopGroup-7-1] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-11-27 08:57:33,233 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager
+2015-11-27 08:57:33,234 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.main.Main
+2015-11-27 08:57:33,234 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.util.Map
+2015-11-27 08:57:33,267 [pool-1-thread-1] INFO - onDelay 0
+2015-11-27 08:57:34,270 [pool-1-thread-2] INFO - onDelay 1
+2015-11-27 08:57:35,268 [pool-1-thread-1] INFO - onDelay 2
+2015-11-27 08:57:36,266 [pool-1-thread-3] INFO - onDelay 3
+2015-11-27 08:57:37,267 [pool-1-thread-2] INFO - onDelay 0
+2015-11-27 08:57:38,270 [pool-1-thread-4] INFO - onDelay 1
+2015-11-27 08:57:39,269 [pool-1-thread-1] INFO - onDelay 2
+2015-11-27 08:57:40,268 [pool-1-thread-5] INFO - onDelay 3
+2015-11-27 08:57:41,267 [pool-1-thread-3] INFO - onDelay 4
+2015-11-27 08:57:42,271 [pool-1-thread-6] INFO - onDelay 0
+2015-11-27 08:57:43,269 [pool-1-thread-2] INFO - onDelay 1
+2015-11-27 08:57:44,268 [pool-1-thread-7] INFO - onDelay 2
+2015-11-27 08:57:45,268 [pool-1-thread-4] INFO - onDelay 3
+2015-11-27 08:57:46,271 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 08:57:47,270 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 08:57:48,271 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 08:57:49,268 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 08:57:50,271 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 08:57:51,269 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 08:57:52,269 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 08:57:53,266 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 08:57:54,268 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 08:57:55,269 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 08:57:56,271 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 08:57:57,270 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 08:57:58,267 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 08:57:59,271 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 08:58:00,271 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 08:58:01,267 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 08:58:02,271 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 08:58:03,271 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 08:58:04,267 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 08:58:05,271 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 08:58:06,268 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 08:58:07,266 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 08:58:08,271 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 08:58:09,271 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 08:58:10,271 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 08:58:11,271 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 08:58:12,268 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 08:58:13,271 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 08:58:14,268 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 08:58:15,271 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 08:58:16,270 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 08:58:17,266 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 08:58:18,266 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 08:58:19,266 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 08:58:20,266 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 08:58:21,266 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 08:58:22,270 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 08:58:23,270 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 08:58:24,268 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 08:58:25,271 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 08:58:26,271 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 08:58:27,271 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 08:58:28,266 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 08:58:29,266 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 08:58:30,269 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 08:58:31,267 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 08:58:32,266 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 08:58:33,270 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 08:58:33,296 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0xb1fd78c4, /127.0.0.1:50709 :> /127.0.0.1:55555]
+2015-11-27 08:58:33,297 [nioEventLoopGroup-7-1] ERROR - 
+java.lang.NullPointerException
+	at vn.com.onesoft.bigfox.server.io.core.channel.socket.SocketServerHandler.channelInactive(SocketServerHandler.java:80)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:56)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:92)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:135)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:306)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:56)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:92)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:135)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:928)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:658)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-27 08:58:33,298 [nioEventLoopGroup-7-1] INFO - onChannelClose
+2015-11-27 08:58:33,298 [nioEventLoopGroup-7-1] INFO - Channel unregistered
+2015-11-27 08:58:34,266 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 08:58:35,267 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 08:58:36,269 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 08:58:37,267 [pool-1-thread-2] INFO - onDelay 5
+2015-11-27 08:58:38,271 [pool-1-thread-2] INFO - onDelay 6
+2015-11-27 08:58:39,271 [pool-1-thread-2] INFO - onDelay 7
+2015-11-27 08:58:40,270 [pool-1-thread-2] INFO - onDelay 8
+2015-11-27 08:58:41,271 [pool-1-thread-2] INFO - onDelay 9
+2015-11-27 08:58:42,271 [pool-1-thread-2] INFO - onDelay 10
+2015-11-27 08:58:43,271 [pool-1-thread-2] INFO - onDelay 11
+2015-11-27 08:58:44,269 [pool-1-thread-2] INFO - onDelay 12
+2015-11-27 08:58:45,266 [pool-1-thread-2] INFO - onDelay 13
+2015-11-27 08:58:46,267 [pool-1-thread-2] INFO - onDelay 14
+2015-11-27 08:58:47,271 [pool-1-thread-2] INFO - onDelay 15
+2015-11-27 08:58:48,267 [pool-1-thread-2] INFO - onDelay 16
+2015-11-27 08:58:49,271 [pool-1-thread-2] INFO - onDelay 17
+2015-11-27 08:58:50,271 [pool-1-thread-2] INFO - onDelay 18
+2015-11-27 08:58:51,271 [pool-1-thread-2] INFO - onDelay 19
+2015-11-27 08:58:52,269 [pool-1-thread-2] INFO - onDelay 20
+2015-11-27 08:58:53,271 [pool-1-thread-2] INFO - onDelay 21
+2015-11-27 08:58:54,266 [pool-1-thread-2] INFO - onDelay 22
+2015-11-27 08:58:55,266 [pool-1-thread-2] INFO - onDelay 23
+2015-11-27 08:58:56,271 [pool-1-thread-2] INFO - onDelay 24
+2015-11-27 08:58:57,268 [pool-1-thread-2] INFO - onDelay 25
+2015-11-27 08:58:58,271 [pool-1-thread-2] INFO - onDelay 26
+2015-11-27 08:58:59,271 [pool-1-thread-2] INFO - onDelay 27
+2015-11-27 08:59:00,271 [pool-1-thread-2] INFO - onDelay 28
+2015-11-27 08:59:01,271 [pool-1-thread-2] INFO - onDelay 29
+2015-11-27 08:59:02,271 [pool-1-thread-2] INFO - onDelay 30
+2015-11-27 08:59:03,269 [pool-1-thread-2] INFO - onDelay 31
+2015-11-27 08:59:04,271 [pool-1-thread-2] INFO - onDelay 32
+2015-11-27 08:59:05,270 [pool-1-thread-2] INFO - onDelay 33
+2015-11-27 08:59:06,271 [pool-1-thread-2] INFO - onDelay 34
+2015-11-27 08:59:07,271 [pool-1-thread-2] INFO - onDelay 35
+2015-11-27 08:59:08,270 [pool-1-thread-2] INFO - onDelay 36
+2015-11-27 08:59:09,266 [pool-1-thread-2] INFO - onDelay 37
+2015-11-27 08:59:10,267 [pool-1-thread-2] INFO - onDelay 38
+2015-11-27 08:59:11,270 [pool-1-thread-2] INFO - onDelay 39
+2015-11-27 08:59:12,269 [pool-1-thread-2] INFO - onDelay 40
+2015-11-27 08:59:13,270 [pool-1-thread-2] INFO - onDelay 41
+2015-11-27 08:59:14,271 [pool-1-thread-2] INFO - onDelay 42
+2015-11-27 08:59:15,271 [pool-1-thread-2] INFO - onDelay 43
+2015-11-27 08:59:16,267 [pool-1-thread-2] INFO - onDelay 44
+2015-11-27 08:59:17,271 [pool-1-thread-2] INFO - onDelay 45
+2015-11-27 08:59:18,271 [pool-1-thread-2] INFO - onDelay 46
+2015-11-27 08:59:19,271 [pool-1-thread-2] INFO - onDelay 47
+2015-11-27 08:59:20,271 [pool-1-thread-2] INFO - onDelay 48
+2015-11-27 08:59:21,271 [pool-1-thread-2] INFO - onDelay 49
+2015-11-27 08:59:22,267 [pool-1-thread-2] INFO - onDelay 50
+2015-11-27 08:59:23,271 [pool-1-thread-2] INFO - onDelay 51
+2015-11-27 08:59:24,271 [pool-1-thread-2] INFO - onDelay 52
+2015-11-27 08:59:25,267 [pool-1-thread-2] INFO - onDelay 53
+2015-11-27 08:59:26,271 [pool-1-thread-2] INFO - onDelay 54
+2015-11-27 08:59:27,271 [pool-1-thread-2] INFO - onDelay 55
+2015-11-27 08:59:28,271 [pool-1-thread-2] INFO - onDelay 56
+2015-11-27 08:59:29,271 [pool-1-thread-2] INFO - onDelay 57
+2015-11-27 08:59:30,271 [pool-1-thread-2] INFO - onDelay 58
+2015-11-27 08:59:31,271 [pool-1-thread-2] INFO - onDelay 59
+2015-11-27 08:59:32,271 [pool-1-thread-2] INFO - onDelay 60
+2015-11-27 08:59:33,271 [pool-1-thread-2] INFO - onDelay 61
+2015-11-27 08:59:34,266 [pool-1-thread-2] INFO - onDelay 62
+2015-11-27 08:59:35,271 [pool-1-thread-2] INFO - onDelay 63
+2015-11-27 08:59:36,271 [pool-1-thread-2] INFO - onDelay 64
+2015-11-27 08:59:37,271 [pool-1-thread-2] INFO - onDelay 65
+2015-11-27 08:59:38,270 [pool-1-thread-2] INFO - onDelay 66
+2015-11-27 08:59:39,267 [pool-1-thread-2] INFO - onDelay 67
+2015-11-27 08:59:40,271 [pool-1-thread-2] INFO - onDelay 68
+2015-11-27 08:59:41,267 [pool-1-thread-2] INFO - onDelay 69
+2015-11-27 08:59:42,271 [pool-1-thread-2] INFO - onDelay 70
+2015-11-27 08:59:43,271 [pool-1-thread-2] INFO - onDelay 71
+2015-11-27 08:59:44,267 [pool-1-thread-2] INFO - onDelay 72
+2015-11-27 08:59:45,271 [pool-1-thread-2] INFO - onDelay 73
+2015-11-27 08:59:46,271 [pool-1-thread-2] INFO - onDelay 74
+2015-11-27 08:59:47,270 [pool-1-thread-2] INFO - onDelay 75
+2015-11-27 08:59:48,271 [pool-1-thread-2] INFO - onDelay 76
+2015-11-27 08:59:49,270 [pool-1-thread-2] INFO - onDelay 77
+2015-11-27 08:59:50,271 [pool-1-thread-2] INFO - onDelay 78
+2015-11-27 08:59:51,269 [pool-1-thread-2] INFO - onDelay 79
+2015-11-27 08:59:52,271 [pool-1-thread-2] INFO - onDelay 80
+2015-11-27 08:59:53,271 [pool-1-thread-2] INFO - onDelay 81
+2015-11-27 08:59:54,271 [pool-1-thread-2] INFO - onDelay 82
+2015-11-27 08:59:55,271 [pool-1-thread-2] INFO - onDelay 83
+2015-11-27 08:59:56,267 [pool-1-thread-2] INFO - onDelay 84
+2015-11-27 08:59:57,269 [pool-1-thread-2] INFO - onDelay 85
+2015-11-27 08:59:58,268 [pool-1-thread-2] INFO - onDelay 86
+2015-11-27 08:59:59,271 [pool-1-thread-2] INFO - onDelay 87
+2015-11-27 09:00:00,271 [pool-1-thread-2] INFO - onDelay 88
+2015-11-27 09:00:01,271 [pool-1-thread-2] INFO - onDelay 89
+2015-11-27 09:00:02,269 [pool-1-thread-2] INFO - onDelay 90
+2015-11-27 09:00:03,271 [pool-1-thread-2] INFO - onDelay 91
+2015-11-27 09:00:04,271 [pool-1-thread-2] INFO - onDelay 92
+2015-11-27 09:00:05,267 [pool-1-thread-2] INFO - onDelay 93
+2015-11-27 09:00:06,271 [pool-1-thread-2] INFO - onDelay 94
+2015-11-27 09:00:07,271 [pool-1-thread-2] INFO - onDelay 95
+2015-11-27 09:00:08,271 [pool-1-thread-2] INFO - onDelay 96
+2015-11-27 09:00:09,271 [pool-1-thread-2] INFO - onDelay 97
+2015-11-27 09:00:10,268 [pool-1-thread-2] INFO - onDelay 98
+2015-11-27 09:00:11,271 [pool-1-thread-2] INFO - onDelay 99
+2015-11-27 09:00:12,271 [pool-1-thread-2] INFO - onDelay 100
+2015-11-27 09:00:13,266 [pool-1-thread-2] INFO - onDelay 101
+2015-11-27 09:00:14,271 [pool-1-thread-2] INFO - onDelay 102
+2015-11-27 09:00:15,271 [pool-1-thread-2] INFO - onDelay 103
+2015-11-27 09:00:16,270 [pool-1-thread-2] INFO - onDelay 104
+2015-11-27 09:00:17,271 [pool-1-thread-2] INFO - onDelay 105
+2015-11-27 09:00:18,271 [pool-1-thread-2] INFO - onDelay 106
+2015-11-27 09:00:19,266 [pool-1-thread-2] INFO - onDelay 107
+2015-11-27 09:00:20,271 [pool-1-thread-2] INFO - onDelay 108
+2015-11-27 09:00:21,271 [pool-1-thread-2] INFO - onDelay 109
+2015-11-27 09:00:22,268 [pool-1-thread-2] INFO - onDelay 110
+2015-11-27 09:00:23,271 [pool-1-thread-2] INFO - onDelay 111
+2015-11-27 09:00:24,271 [pool-1-thread-2] INFO - onDelay 112
+2015-11-27 09:00:25,271 [pool-1-thread-2] INFO - onDelay 113
+2015-11-27 09:00:26,269 [pool-1-thread-2] INFO - onDelay 114
+2015-11-27 09:00:27,271 [pool-1-thread-2] INFO - onDelay 115
+2015-11-27 09:00:28,271 [pool-1-thread-2] INFO - onDelay 116
+2015-11-27 09:00:29,271 [pool-1-thread-2] INFO - onDelay 117
+2015-11-27 09:00:30,266 [pool-1-thread-2] INFO - onDelay 118
+2015-11-27 09:00:31,271 [pool-1-thread-2] INFO - onDelay 119
+2015-11-27 09:00:32,271 [pool-1-thread-2] INFO - onDelay 120
+2015-11-27 09:00:33,271 [pool-1-thread-2] INFO - onDelay 121
+2015-11-27 09:00:34,271 [pool-1-thread-2] INFO - onDelay 122
+2015-11-27 09:00:35,271 [pool-1-thread-2] INFO - onDelay 123
+2015-11-27 09:00:36,271 [pool-1-thread-2] INFO - onDelay 124
+2015-11-27 09:00:37,269 [pool-1-thread-2] INFO - onDelay 125
+2015-11-27 09:00:38,268 [pool-1-thread-2] INFO - onDelay 126
+2015-11-27 09:00:39,271 [pool-1-thread-2] INFO - onDelay 127
+2015-11-27 09:00:40,271 [pool-1-thread-2] INFO - onDelay 128
+2015-11-27 09:00:41,271 [pool-1-thread-2] INFO - onDelay 129
+2015-11-27 09:00:42,271 [pool-1-thread-2] INFO - onDelay 130
+2015-11-27 09:00:43,266 [pool-1-thread-2] INFO - onDelay 131
+2015-11-27 09:00:44,271 [pool-1-thread-2] INFO - onDelay 132
+2015-11-27 09:00:45,271 [pool-1-thread-2] INFO - onDelay 133
+2015-11-27 09:00:46,271 [pool-1-thread-2] INFO - onDelay 134
+2015-11-27 09:00:47,266 [pool-1-thread-2] INFO - onDelay 135
+2015-11-27 09:00:48,271 [pool-1-thread-2] INFO - onDelay 136
+2015-11-27 09:00:49,271 [pool-1-thread-2] INFO - onDelay 137
+2015-11-27 09:00:50,271 [pool-1-thread-2] INFO - onDelay 138
+2015-11-27 09:00:51,271 [pool-1-thread-2] INFO - onDelay 139
+2015-11-27 09:00:52,267 [pool-1-thread-2] INFO - onDelay 140
+2015-11-27 09:00:53,271 [pool-1-thread-2] INFO - onDelay 141
+2015-11-27 09:00:54,271 [pool-1-thread-2] INFO - onDelay 142
+2015-11-27 09:00:55,271 [pool-1-thread-2] INFO - onDelay 143
+2015-11-27 09:00:56,266 [pool-1-thread-2] INFO - onDelay 144
+2015-11-27 09:00:57,271 [pool-1-thread-2] INFO - onDelay 145
+2015-11-27 09:00:58,271 [pool-1-thread-2] INFO - onDelay 146
+2015-11-27 09:00:59,271 [pool-1-thread-2] INFO - onDelay 147
+2015-11-27 09:01:00,271 [pool-1-thread-2] INFO - onDelay 148
+2015-11-27 09:01:01,266 [pool-1-thread-2] INFO - onDelay 149
+2015-11-27 09:01:02,271 [pool-1-thread-2] INFO - onDelay 150
+2015-11-27 09:01:03,271 [pool-1-thread-2] INFO - onDelay 151
+2015-11-27 09:01:04,271 [pool-1-thread-2] INFO - onDelay 152
+2015-11-27 09:01:05,269 [pool-1-thread-2] INFO - onDelay 153
+2015-11-27 09:01:06,270 [pool-1-thread-2] INFO - onDelay 154
+2015-11-27 09:01:07,268 [pool-1-thread-2] INFO - onDelay 155
+2015-11-27 09:01:08,271 [pool-1-thread-2] INFO - onDelay 156
+2015-11-27 09:01:09,271 [pool-1-thread-2] INFO - onDelay 157
+2015-11-27 09:01:10,271 [pool-1-thread-2] INFO - onDelay 158
+2015-11-27 09:01:11,271 [pool-1-thread-2] INFO - onDelay 159
+2015-11-27 09:01:12,271 [pool-1-thread-2] INFO - onDelay 160
+2015-11-27 09:01:13,271 [pool-1-thread-2] INFO - onDelay 161
+2015-11-27 09:01:14,271 [pool-1-thread-2] INFO - onDelay 162
+2015-11-27 09:01:15,271 [pool-1-thread-2] INFO - onDelay 163
+2015-11-27 09:01:16,271 [pool-1-thread-2] INFO - onDelay 164
+2015-11-27 09:01:17,271 [pool-1-thread-2] INFO - onDelay 165
+2015-11-27 09:01:18,268 [pool-1-thread-2] INFO - onDelay 166
+2015-11-27 09:01:19,271 [pool-1-thread-2] INFO - onDelay 167
+2015-11-27 09:01:20,268 [pool-1-thread-2] INFO - onDelay 168
+2015-11-27 09:01:21,268 [pool-1-thread-2] INFO - onDelay 169
+2015-11-27 09:01:22,269 [pool-1-thread-2] INFO - onDelay 170
+2015-11-27 09:01:23,271 [pool-1-thread-2] INFO - onDelay 171
+2015-11-27 09:01:24,269 [pool-1-thread-2] INFO - onDelay 172
+2015-11-27 09:01:25,271 [pool-1-thread-2] INFO - onDelay 173
+2015-11-27 09:01:26,270 [pool-1-thread-2] INFO - onDelay 174
+2015-11-27 09:01:27,269 [pool-1-thread-2] INFO - onDelay 175
+2015-11-27 09:01:28,267 [pool-1-thread-2] INFO - onDelay 176
+2015-11-27 09:01:29,271 [pool-1-thread-2] INFO - onDelay 177
+2015-11-27 09:01:30,270 [pool-1-thread-2] INFO - onDelay 178
+2015-11-27 09:01:31,271 [pool-1-thread-2] INFO - onDelay 179
+2015-11-27 09:01:32,270 [pool-1-thread-2] INFO - onDelay 180
+2015-11-27 09:01:33,271 [pool-1-thread-2] INFO - onDelay 181
+2015-11-27 09:01:34,271 [pool-1-thread-2] INFO - onDelay 182
+2015-11-27 09:01:35,271 [pool-1-thread-2] INFO - onDelay 183
+2015-11-27 09:01:36,270 [pool-1-thread-2] INFO - onDelay 184
+2015-11-27 09:01:37,267 [pool-1-thread-2] INFO - onDelay 185
+2015-11-27 09:01:38,267 [pool-1-thread-2] INFO - onDelay 186
+2015-11-27 09:01:39,266 [pool-1-thread-2] INFO - onDelay 187
+2015-11-27 09:01:40,271 [pool-1-thread-2] INFO - onDelay 188
+2015-11-27 09:01:41,271 [pool-1-thread-2] INFO - onDelay 189
+2015-11-27 09:01:42,269 [pool-1-thread-2] INFO - onDelay 190
+2015-11-27 09:01:43,268 [pool-1-thread-2] INFO - onDelay 191
+2015-11-27 09:01:44,271 [pool-1-thread-2] INFO - onDelay 192
+2015-11-27 09:01:45,271 [pool-1-thread-2] INFO - onDelay 193
+2015-11-27 09:01:46,271 [pool-1-thread-2] INFO - onDelay 194
+2015-11-27 09:01:47,266 [pool-1-thread-2] INFO - onDelay 195
+2015-11-27 09:01:48,268 [pool-1-thread-2] INFO - onDelay 196
+2015-11-27 09:01:49,268 [pool-1-thread-2] INFO - onDelay 197
+2015-11-27 09:01:50,271 [pool-1-thread-2] INFO - onDelay 198
+2015-11-27 09:01:51,266 [pool-1-thread-2] INFO - onDelay 199
+2015-11-27 09:01:52,271 [pool-1-thread-2] INFO - onDelay 200
+2015-11-27 09:01:53,271 [pool-1-thread-2] INFO - onDelay 201
+2015-11-27 09:01:54,271 [pool-1-thread-2] INFO - onDelay 202
+2015-11-27 09:01:55,271 [pool-1-thread-2] INFO - onDelay 203
+2015-11-27 09:01:56,271 [pool-1-thread-2] INFO - onDelay 204
+2015-11-27 09:01:57,271 [pool-1-thread-2] INFO - onDelay 205
+2015-11-27 09:01:58,271 [pool-1-thread-2] INFO - onDelay 206
+2015-11-27 09:01:59,271 [pool-1-thread-2] INFO - onDelay 207
+2015-11-27 09:02:00,266 [pool-1-thread-2] INFO - onDelay 208
+2015-11-27 09:02:01,268 [pool-1-thread-2] INFO - onDelay 209
+2015-11-27 09:02:02,271 [pool-1-thread-2] INFO - onDelay 210
+2015-11-27 09:02:03,266 [pool-1-thread-2] INFO - onDelay 211
+2015-11-27 09:02:04,271 [pool-1-thread-2] INFO - onDelay 212
+2015-11-27 09:02:05,271 [pool-1-thread-2] INFO - onDelay 213
+2015-11-27 09:02:06,269 [pool-1-thread-2] INFO - onDelay 214
+2015-11-27 09:02:07,271 [pool-1-thread-2] INFO - onDelay 215
+2015-11-27 09:02:08,270 [pool-1-thread-2] INFO - onDelay 216
+2015-11-27 09:02:09,271 [pool-1-thread-2] INFO - onDelay 217
+2015-11-27 09:02:10,271 [pool-1-thread-2] INFO - onDelay 218
+2015-11-27 09:02:11,271 [pool-1-thread-2] INFO - onDelay 219
+2015-11-27 09:02:12,266 [pool-1-thread-2] INFO - onDelay 220
+2015-11-27 09:02:13,271 [pool-1-thread-2] INFO - onDelay 221
+2015-11-27 09:02:14,266 [pool-1-thread-2] INFO - onDelay 222
+2015-11-27 09:02:15,271 [pool-1-thread-2] INFO - onDelay 223
+2015-11-27 09:02:16,268 [pool-1-thread-2] INFO - onDelay 224
+2015-11-27 09:02:17,266 [pool-1-thread-2] INFO - onDelay 225
+2015-11-27 09:02:18,269 [pool-1-thread-2] INFO - onDelay 226
+2015-11-27 09:02:19,271 [pool-1-thread-2] INFO - onDelay 227
+2015-11-27 09:02:20,269 [pool-1-thread-2] INFO - onDelay 228
+2015-11-27 09:02:21,269 [pool-1-thread-2] INFO - onDelay 229
+2015-11-27 09:02:22,270 [pool-1-thread-2] INFO - onDelay 230
+2015-11-27 09:02:23,271 [pool-1-thread-2] INFO - onDelay 231
+2015-11-27 09:02:24,271 [pool-1-thread-2] INFO - onDelay 232
+2015-11-27 09:02:25,271 [pool-1-thread-2] INFO - onDelay 233
+2015-11-27 09:02:26,271 [pool-1-thread-2] INFO - onDelay 234
+2015-11-27 09:02:27,267 [pool-1-thread-2] INFO - onDelay 235
+2015-11-27 09:02:28,270 [pool-1-thread-2] INFO - onDelay 236
+2015-11-27 09:02:29,271 [pool-1-thread-2] INFO - onDelay 237
+2015-11-27 09:02:30,271 [pool-1-thread-2] INFO - onDelay 238
+2015-11-27 09:02:31,271 [pool-1-thread-2] INFO - onDelay 239
+2015-11-27 09:02:32,271 [pool-1-thread-2] INFO - onDelay 240
+2015-11-27 09:02:33,271 [pool-1-thread-2] INFO - onDelay 241
+2015-11-27 09:02:34,271 [pool-1-thread-2] INFO - onDelay 242
+2015-11-27 09:02:35,270 [pool-1-thread-2] INFO - onDelay 243
+2015-11-27 09:02:36,269 [pool-1-thread-2] INFO - onDelay 244
+2015-11-27 09:02:37,271 [pool-1-thread-2] INFO - onDelay 245
+2015-11-27 09:02:38,270 [pool-1-thread-2] INFO - onDelay 246
+2015-11-27 09:02:39,270 [pool-1-thread-2] INFO - onDelay 247
+2015-11-27 09:02:40,271 [pool-1-thread-2] INFO - onDelay 248
+2015-11-27 09:02:41,270 [pool-1-thread-2] INFO - onDelay 249
+2015-11-27 09:02:42,271 [pool-1-thread-2] INFO - onDelay 250
+2015-11-27 09:02:43,267 [pool-1-thread-2] INFO - onDelay 251
+2015-11-27 09:02:44,271 [pool-1-thread-2] INFO - onDelay 252
+2015-11-27 09:02:45,271 [pool-1-thread-2] INFO - onDelay 253
+2015-11-27 09:02:46,271 [pool-1-thread-2] INFO - onDelay 254
+2015-11-27 09:02:47,271 [pool-1-thread-2] INFO - onDelay 255
+2015-11-27 09:02:48,270 [pool-1-thread-2] INFO - onDelay 256
+2015-11-27 09:02:49,271 [pool-1-thread-2] INFO - onDelay 257
+2015-11-27 09:02:50,271 [pool-1-thread-2] INFO - onDelay 258
+2015-11-27 09:02:51,271 [pool-1-thread-2] INFO - onDelay 259
+2015-11-27 09:02:52,271 [pool-1-thread-2] INFO - onDelay 260
+2015-11-27 09:02:53,271 [pool-1-thread-2] INFO - onDelay 261
+2015-11-27 09:02:54,270 [pool-1-thread-2] INFO - onDelay 262
+2015-11-27 09:02:55,271 [pool-1-thread-2] INFO - onDelay 263
+2015-11-27 09:02:56,270 [pool-1-thread-2] INFO - onDelay 264
+2015-11-27 09:02:57,268 [pool-1-thread-2] INFO - onDelay 265
+2015-11-27 09:02:58,271 [pool-1-thread-2] INFO - onDelay 266
+2015-11-27 09:02:59,271 [pool-1-thread-2] INFO - onDelay 267
+2015-11-27 09:03:00,271 [pool-1-thread-2] INFO - onDelay 268
+2015-11-27 09:03:01,271 [pool-1-thread-2] INFO - onDelay 269
+2015-11-27 09:03:02,271 [pool-1-thread-2] INFO - onDelay 270
+2015-11-27 09:03:03,271 [pool-1-thread-2] INFO - onDelay 271
+2015-11-27 09:03:04,269 [pool-1-thread-2] INFO - onDelay 272
+2015-11-27 09:03:05,271 [pool-1-thread-2] INFO - onDelay 273
+2015-11-27 09:03:06,271 [pool-1-thread-2] INFO - onDelay 274
+2015-11-27 09:03:07,271 [pool-1-thread-2] INFO - onDelay 275
+2015-11-27 09:03:08,267 [pool-1-thread-2] INFO - onDelay 276
+2015-11-27 09:03:09,271 [pool-1-thread-2] INFO - onDelay 277
+2015-11-27 09:03:10,267 [pool-1-thread-2] INFO - onDelay 278
+2015-11-27 09:03:11,267 [pool-1-thread-2] INFO - onDelay 279
+2015-11-27 09:03:12,269 [pool-1-thread-2] INFO - onDelay 280
+2015-11-27 09:03:13,268 [pool-1-thread-2] INFO - onDelay 281
+2015-11-27 09:03:14,268 [pool-1-thread-2] INFO - onDelay 282
+2015-11-27 09:03:15,268 [pool-1-thread-2] INFO - onDelay 283
+2015-11-27 09:03:16,268 [pool-1-thread-2] INFO - onDelay 284
+2015-11-27 09:03:17,268 [pool-1-thread-2] INFO - onDelay 285
+2015-11-27 09:03:18,268 [pool-1-thread-2] INFO - onDelay 286
+2015-11-27 09:03:19,269 [pool-1-thread-2] INFO - onDelay 287
+2015-11-27 09:03:20,270 [pool-1-thread-2] INFO - onDelay 288
+2015-11-27 09:03:21,270 [pool-1-thread-2] INFO - onDelay 289
+2015-11-27 09:03:22,269 [pool-1-thread-2] INFO - onDelay 290
+2015-11-27 09:03:23,266 [pool-1-thread-2] INFO - onDelay 291
+2015-11-27 09:03:24,270 [pool-1-thread-2] INFO - onDelay 292
+2015-11-27 09:03:25,270 [pool-1-thread-2] INFO - onDelay 293
+2015-11-27 09:03:26,270 [pool-1-thread-2] INFO - onDelay 294
+2015-11-27 09:03:27,266 [pool-1-thread-2] INFO - onDelay 295
+2015-11-27 09:03:28,270 [pool-1-thread-2] INFO - onDelay 296
+2015-11-27 09:03:29,270 [pool-1-thread-2] INFO - onDelay 297
+2015-11-27 09:03:30,270 [pool-1-thread-2] INFO - onDelay 298
+2015-11-27 09:03:31,270 [pool-1-thread-2] INFO - onDelay 299
+2015-11-27 09:03:31,571 [Thread-0] INFO - onTimeout
+2015-11-27 09:09:28,876 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 09:09:29,405 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 09:09:29,405 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 09:09:29,407 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 09:09:29,409 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 09:09:29,409 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 09:09:29,410 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 09:09:29,410 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 09:09:29,410 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 09:09:29,411 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 09:09:29,418 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 09:09:29,613 [Thread-5] INFO - Telnet start at port 40000
+2015-11-27 09:09:29,613 [Thread-3] INFO - Socket start at port 55555
+2015-11-27 09:09:29,637 [Thread-4] INFO - WebSocket start at port 33332
+2015-11-27 09:09:33,285 [nioEventLoopGroup-7-1] INFO - channelActive : [id: 0x18335bc7, /127.0.0.1:51225 => /127.0.0.1:55555]
+2015-11-27 09:09:33,288 [nioEventLoopGroup-7-1] INFO - [id: 0x18335bc7, /127.0.0.1:51225 => /127.0.0.1:55555]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-27 09:09:33,376 [nioEventLoopGroup-7-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "gqkcn32ia8ma8n3v3ctmqg6l65",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-11-27 09:09:33,379 [nioEventLoopGroup-7-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1,
+  pingPeriod: 5,
+  timeRetriesToReconnect: 4
+}
+2015-11-27 09:09:34,381 [pool-1-thread-1] INFO - onDelay 0
+2015-11-27 09:09:34,913 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.String
+2015-11-27 09:09:34,914 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Property
+2015-11-27 09:09:34,914 [nioEventLoopGroup-7-1] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-11-27 09:09:34,915 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager
+2015-11-27 09:09:34,915 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.main.Main
+2015-11-27 09:09:34,915 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.util.Map
+2015-11-27 09:09:35,383 [pool-1-thread-1] INFO - onDelay 0
+2015-11-27 09:09:36,378 [pool-1-thread-2] INFO - onDelay 1
+2015-11-27 09:09:37,382 [pool-1-thread-1] INFO - onDelay 2
+2015-11-27 09:09:38,382 [pool-1-thread-3] INFO - onDelay 3
+2015-11-27 09:09:39,378 [pool-1-thread-2] INFO - onDelay 0
+2015-11-27 09:09:40,381 [pool-1-thread-4] INFO - onDelay 1
+2015-11-27 09:09:41,380 [pool-1-thread-1] INFO - onDelay 2
+2015-11-27 09:09:42,379 [pool-1-thread-5] INFO - onDelay 3
+2015-11-27 09:09:43,379 [pool-1-thread-3] INFO - onDelay 4
+2015-11-27 09:09:44,378 [pool-1-thread-6] INFO - onDelay 0
+2015-11-27 09:09:45,383 [pool-1-thread-2] INFO - onDelay 1
+2015-11-27 09:09:46,383 [pool-1-thread-7] INFO - onDelay 2
+2015-11-27 09:09:47,383 [pool-1-thread-4] INFO - onDelay 3
+2015-11-27 09:09:48,382 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 09:09:49,381 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 09:09:50,379 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 09:09:51,381 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 09:09:52,383 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 09:09:53,380 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 09:09:53,584 [nioEventLoopGroup-7-1] INFO - CSChat m:8 s:0 {
+  msg: "Q"
+}
+2015-11-27 09:09:53,585 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
+2015-11-27 09:09:53,585 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.StringBuilder
+2015-11-27 09:09:53,585 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.Object
+2015-11-27 09:09:53,585 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.lang.Class
+2015-11-27 09:09:53,585 [nioEventLoopGroup-7-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.business.zone.BFClassLoaderZone@34021be6
+2015-11-27 09:09:53,585 [nioEventLoopGroup-7-1] INFO - BFClassLoader load java.util.Calendar
+2015-11-27 09:09:53,586 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneManager
+2015-11-27 09:09:53,586 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.zone.IBFZone
+2015-11-27 09:09:53,594 [nioEventLoopGroup-7-1] INFO - [id: 0x18335bc7, /127.0.0.1:51225 => /127.0.0.1:55555]
+SCChat m:8 s:1 {
+  msg: "9:9:53
+Q: Q"
+}
+2015-11-27 09:09:53,594 [nioEventLoopGroup-7-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-11-27 09:09:53,596 [nioEventLoopGroup-7-1] ERROR - 
+java.lang.ExceptionInInitializerError
+	at vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat.execute(CSChat.java:51)
+	at vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager.onMessage(BFSessionManager.java:202)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.channel.socket.SocketServerHandler.channelRead(SocketServerHandler.java:58)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil.<clinit>(HibernateFactoryUtil.java:32)
+	... 20 more
+2015-11-27 09:09:53,599 [nioEventLoopGroup-7-1] INFO - onChannelClose
+2015-11-27 09:09:54,379 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 09:09:55,380 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 09:09:56,381 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 09:09:57,379 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 09:09:58,379 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 09:09:59,383 [pool-1-thread-8] INFO - onDelay 5
+2015-11-27 09:10:00,378 [pool-1-thread-8] INFO - onDelay 6
+2015-11-27 09:10:01,378 [pool-1-thread-8] INFO - onDelay 7
+2015-11-27 09:10:02,383 [pool-1-thread-8] INFO - onDelay 8
+2015-11-27 09:10:03,382 [pool-1-thread-8] INFO - onDelay 9
+2015-11-27 09:10:04,381 [pool-1-thread-8] INFO - onDelay 10
+2015-11-27 09:10:05,379 [pool-1-thread-8] INFO - onDelay 11
+2015-11-27 09:10:06,383 [pool-1-thread-8] INFO - onDelay 12
+2015-11-27 09:10:07,379 [pool-1-thread-8] INFO - onDelay 13
+2015-11-27 09:10:08,383 [pool-1-thread-8] INFO - onDelay 14
+2015-11-27 09:10:09,379 [pool-1-thread-8] INFO - onDelay 15
+2015-11-27 09:10:10,382 [pool-1-thread-8] INFO - onDelay 16
+2015-11-27 09:10:11,379 [pool-1-thread-8] INFO - onDelay 17
+2015-11-27 09:10:12,378 [pool-1-thread-8] INFO - onDelay 18
+2015-11-27 09:10:13,378 [pool-1-thread-8] INFO - onDelay 19
+2015-11-27 09:10:14,379 [pool-1-thread-8] INFO - onDelay 20
+2015-11-27 09:10:15,383 [pool-1-thread-8] INFO - onDelay 21
+2015-11-27 09:10:16,382 [pool-1-thread-8] INFO - onDelay 22
+2015-11-27 09:10:17,379 [pool-1-thread-8] INFO - onDelay 23
+2015-11-27 09:10:18,382 [pool-1-thread-8] INFO - onDelay 24
+2015-11-27 09:10:19,380 [pool-1-thread-8] INFO - onDelay 25
+2015-11-27 09:10:20,379 [pool-1-thread-8] INFO - onDelay 26
+2015-11-27 09:10:21,382 [pool-1-thread-8] INFO - onDelay 27
+2015-11-27 09:10:22,381 [pool-1-thread-8] INFO - onDelay 28
+2015-11-27 09:10:23,381 [pool-1-thread-8] INFO - onDelay 29
+2015-11-27 09:10:24,383 [pool-1-thread-8] INFO - onDelay 30
+2015-11-27 09:10:25,383 [pool-1-thread-8] INFO - onDelay 31
+2015-11-27 09:10:26,380 [pool-1-thread-8] INFO - onDelay 32
+2015-11-27 09:10:27,383 [pool-1-thread-8] INFO - onDelay 33
+2015-11-27 09:10:28,380 [pool-1-thread-8] INFO - onDelay 34
+2015-11-27 09:10:29,383 [pool-1-thread-8] INFO - onDelay 35
+2015-11-27 09:10:30,383 [pool-1-thread-8] INFO - onDelay 36
+2015-11-27 09:10:31,383 [pool-1-thread-8] INFO - onDelay 37
+2015-11-27 09:10:32,378 [pool-1-thread-8] INFO - onDelay 38
+2015-11-27 09:10:33,382 [pool-1-thread-8] INFO - onDelay 39
+2015-11-27 09:10:34,380 [pool-1-thread-8] INFO - onDelay 40
+2015-11-27 09:10:35,381 [pool-1-thread-8] INFO - onDelay 41
+2015-11-27 09:10:36,378 [pool-1-thread-8] INFO - onDelay 42
+2015-11-27 09:10:37,378 [pool-1-thread-8] INFO - onDelay 43
+2015-11-27 09:10:38,378 [pool-1-thread-8] INFO - onDelay 44
+2015-11-27 09:10:39,381 [pool-1-thread-8] INFO - onDelay 45
+2015-11-27 09:10:40,382 [pool-1-thread-8] INFO - onDelay 46
+2015-11-27 09:10:41,379 [pool-1-thread-8] INFO - onDelay 47
+2015-11-27 09:10:42,379 [pool-1-thread-8] INFO - onDelay 48
+2015-11-27 09:10:43,383 [pool-1-thread-8] INFO - onDelay 49
+2015-11-27 09:10:44,383 [pool-1-thread-8] INFO - onDelay 50
+2015-11-27 09:10:45,379 [pool-1-thread-8] INFO - onDelay 51
+2015-11-27 09:10:46,379 [pool-1-thread-8] INFO - onDelay 52
+2015-11-27 09:10:47,378 [pool-1-thread-8] INFO - onDelay 53
+2015-11-27 09:10:48,382 [pool-1-thread-8] INFO - onDelay 54
+2015-11-27 09:10:49,380 [pool-1-thread-8] INFO - onDelay 55
+2015-11-27 09:10:50,380 [pool-1-thread-8] INFO - onDelay 56
+2015-11-27 09:10:51,380 [pool-1-thread-8] INFO - onDelay 57
+2015-11-27 09:10:52,380 [pool-1-thread-8] INFO - onDelay 58
+2015-11-27 09:10:53,380 [pool-1-thread-8] INFO - onDelay 59
+2015-11-27 09:10:54,380 [pool-1-thread-8] INFO - onDelay 60
+2015-11-27 09:10:55,382 [pool-1-thread-8] INFO - onDelay 61
+2015-11-27 09:10:56,381 [pool-1-thread-8] INFO - onDelay 62
+2015-11-27 09:10:57,380 [pool-1-thread-8] INFO - onDelay 63
+2015-11-27 09:10:58,378 [pool-1-thread-8] INFO - onDelay 64
+2015-11-27 09:10:59,381 [pool-1-thread-8] INFO - onDelay 65
+2015-11-27 09:11:00,382 [pool-1-thread-8] INFO - onDelay 66
+2015-11-27 09:11:01,382 [pool-1-thread-8] INFO - onDelay 67
+2015-11-27 09:11:02,382 [pool-1-thread-8] INFO - onDelay 68
+2015-11-27 09:11:03,382 [pool-1-thread-8] INFO - onDelay 69
+2015-11-27 09:11:04,380 [pool-1-thread-8] INFO - onDelay 70
+2015-11-27 09:11:05,382 [pool-1-thread-8] INFO - onDelay 71
+2015-11-27 09:11:06,383 [pool-1-thread-8] INFO - onDelay 72
+2015-11-27 09:11:07,383 [pool-1-thread-8] INFO - onDelay 73
+2015-11-27 09:11:08,378 [pool-1-thread-8] INFO - onDelay 74
+2015-11-27 09:11:09,378 [pool-1-thread-8] INFO - onDelay 75
+2015-11-27 09:11:10,383 [pool-1-thread-8] INFO - onDelay 76
+2015-11-27 09:11:11,383 [pool-1-thread-8] INFO - onDelay 77
+2015-11-27 09:11:12,383 [pool-1-thread-8] INFO - onDelay 78
+2015-11-27 09:11:13,383 [pool-1-thread-8] INFO - onDelay 79
+2015-11-27 09:11:14,378 [pool-1-thread-8] INFO - onDelay 80
+2015-11-27 09:11:15,380 [pool-1-thread-8] INFO - onDelay 81
+2015-11-27 09:11:16,378 [pool-1-thread-8] INFO - onDelay 82
+2015-11-27 09:11:17,378 [pool-1-thread-8] INFO - onDelay 83
+2015-11-27 09:11:18,382 [pool-1-thread-8] INFO - onDelay 84
+2015-11-27 09:11:19,380 [pool-1-thread-8] INFO - onDelay 85
+2015-11-27 09:11:20,379 [pool-1-thread-8] INFO - onDelay 86
+2015-11-27 09:11:21,383 [pool-1-thread-8] INFO - onDelay 87
+2015-11-27 09:11:22,383 [pool-1-thread-8] INFO - onDelay 88
+2015-11-27 09:11:23,383 [pool-1-thread-8] INFO - onDelay 89
+2015-11-27 09:11:24,378 [pool-1-thread-8] INFO - onDelay 90
+2015-11-27 09:11:25,378 [pool-1-thread-8] INFO - onDelay 91
+2015-11-27 09:11:26,378 [pool-1-thread-8] INFO - onDelay 92
+2015-11-27 09:11:27,381 [pool-1-thread-8] INFO - onDelay 93
+2015-11-27 09:11:28,378 [pool-1-thread-8] INFO - onDelay 94
+2015-11-27 09:11:29,383 [pool-1-thread-8] INFO - onDelay 95
+2015-11-27 09:11:30,378 [pool-1-thread-8] INFO - onDelay 96
+2015-11-27 09:11:31,383 [pool-1-thread-8] INFO - onDelay 97
+2015-11-27 09:11:32,382 [pool-1-thread-8] INFO - onDelay 98
+2015-11-27 09:11:33,382 [pool-1-thread-8] INFO - onDelay 99
+2015-11-27 09:11:34,380 [pool-1-thread-8] INFO - onDelay 100
+2015-11-27 09:11:35,379 [pool-1-thread-8] INFO - onDelay 101
+2015-11-27 09:11:36,380 [pool-1-thread-8] INFO - onDelay 102
+2015-11-27 09:11:37,378 [pool-1-thread-8] INFO - onDelay 103
+2015-11-27 09:11:38,379 [pool-1-thread-8] INFO - onDelay 104
+2015-11-27 09:11:39,379 [pool-1-thread-8] INFO - onDelay 105
+2015-11-27 09:11:40,383 [pool-1-thread-8] INFO - onDelay 106
+2015-11-27 09:11:41,378 [pool-1-thread-8] INFO - onDelay 107
+2015-11-27 09:11:42,380 [pool-1-thread-8] INFO - onDelay 108
+2015-11-27 09:11:43,383 [pool-1-thread-8] INFO - onDelay 109
+2015-11-27 09:11:44,378 [pool-1-thread-8] INFO - onDelay 110
+2015-11-27 09:11:45,382 [pool-1-thread-8] INFO - onDelay 111
+2015-11-27 09:11:46,382 [pool-1-thread-8] INFO - onDelay 112
+2015-11-27 09:11:47,383 [pool-1-thread-8] INFO - onDelay 113
+2015-11-27 09:11:48,382 [pool-1-thread-8] INFO - onDelay 114
+2015-11-27 09:11:49,382 [pool-1-thread-8] INFO - onDelay 115
+2015-11-27 09:11:50,379 [pool-1-thread-8] INFO - onDelay 116
+2015-11-27 09:11:51,383 [pool-1-thread-8] INFO - onDelay 117
+2015-11-27 09:11:52,383 [pool-1-thread-8] INFO - onDelay 118
+2015-11-27 09:11:53,380 [pool-1-thread-8] INFO - onDelay 119
+2015-11-27 09:11:54,383 [pool-1-thread-8] INFO - onDelay 120
+2015-11-27 09:11:55,379 [pool-1-thread-8] INFO - onDelay 121
+2015-11-27 09:11:56,383 [pool-1-thread-8] INFO - onDelay 122
+2015-11-27 09:11:57,383 [pool-1-thread-8] INFO - onDelay 123
+2015-11-27 09:11:58,381 [pool-1-thread-8] INFO - onDelay 124
+2015-11-27 09:11:59,380 [pool-1-thread-8] INFO - onDelay 125
+2015-11-27 09:12:00,379 [pool-1-thread-8] INFO - onDelay 126
+2015-11-27 09:12:01,381 [pool-1-thread-8] INFO - onDelay 127
+2015-11-27 09:12:02,382 [pool-1-thread-8] INFO - onDelay 128
+2015-11-27 09:12:03,382 [pool-1-thread-8] INFO - onDelay 129
+2015-11-27 09:12:04,380 [pool-1-thread-8] INFO - onDelay 130
+2015-11-27 09:12:05,382 [pool-1-thread-8] INFO - onDelay 131
+2015-11-27 09:12:06,378 [pool-1-thread-8] INFO - onDelay 132
+2015-11-27 09:12:07,380 [pool-1-thread-8] INFO - onDelay 133
+2015-11-27 09:12:08,383 [pool-1-thread-8] INFO - onDelay 134
+2015-11-27 09:12:09,381 [pool-1-thread-8] INFO - onDelay 135
+2015-11-27 09:12:10,383 [pool-1-thread-8] INFO - onDelay 136
+2015-11-27 09:12:11,379 [pool-1-thread-8] INFO - onDelay 137
+2015-11-27 09:12:12,383 [pool-1-thread-8] INFO - onDelay 138
+2015-11-27 09:12:13,383 [pool-1-thread-8] INFO - onDelay 139
+2015-11-27 09:12:14,378 [pool-1-thread-8] INFO - onDelay 140
+2015-11-27 09:12:15,383 [pool-1-thread-8] INFO - onDelay 141
+2015-11-27 09:12:16,378 [pool-1-thread-8] INFO - onDelay 142
+2015-11-27 09:12:17,382 [pool-1-thread-8] INFO - onDelay 143
+2015-11-27 09:12:18,382 [pool-1-thread-8] INFO - onDelay 144
+2015-11-27 09:12:19,380 [pool-1-thread-8] INFO - onDelay 145
+2015-11-27 09:12:20,378 [pool-1-thread-8] INFO - onDelay 146
+2015-11-27 09:12:21,383 [pool-1-thread-8] INFO - onDelay 147
+2015-11-27 09:12:22,378 [pool-1-thread-8] INFO - onDelay 148
+2015-11-27 09:12:23,379 [pool-1-thread-8] INFO - onDelay 149
+2015-11-27 09:12:24,382 [pool-1-thread-8] INFO - onDelay 150
+2015-11-27 09:12:25,378 [pool-1-thread-8] INFO - onDelay 151
+2015-11-27 09:12:26,379 [pool-1-thread-8] INFO - onDelay 152
+2015-11-27 09:12:27,383 [pool-1-thread-8] INFO - onDelay 153
+2015-11-27 09:12:28,378 [pool-1-thread-8] INFO - onDelay 154
+2015-11-27 09:12:29,382 [pool-1-thread-8] INFO - onDelay 155
+2015-11-27 09:12:30,378 [pool-1-thread-8] INFO - onDelay 156
+2015-11-27 09:12:31,379 [pool-1-thread-8] INFO - onDelay 157
+2015-11-27 09:12:32,378 [pool-1-thread-8] INFO - onDelay 158
+2015-11-27 09:12:33,382 [pool-1-thread-8] INFO - onDelay 159
+2015-11-27 09:12:34,380 [pool-1-thread-8] INFO - onDelay 160
+2015-11-27 09:12:35,379 [pool-1-thread-8] INFO - onDelay 161
+2015-11-27 09:12:36,379 [pool-1-thread-8] INFO - onDelay 162
+2015-11-27 09:12:37,379 [pool-1-thread-8] INFO - onDelay 163
+2015-11-27 09:12:38,378 [pool-1-thread-8] INFO - onDelay 164
+2015-11-27 09:12:39,381 [pool-1-thread-8] INFO - onDelay 165
+2015-11-27 09:12:40,380 [pool-1-thread-8] INFO - onDelay 166
+2015-11-27 09:12:41,380 [pool-1-thread-8] INFO - onDelay 167
+2015-11-27 09:12:42,381 [pool-1-thread-8] INFO - onDelay 168
+2015-11-27 09:12:43,381 [pool-1-thread-8] INFO - onDelay 169
+2015-11-27 09:12:44,380 [pool-1-thread-8] INFO - onDelay 170
+2015-11-27 09:12:45,380 [pool-1-thread-8] INFO - onDelay 171
+2015-11-27 09:12:46,378 [pool-1-thread-8] INFO - onDelay 172
+2015-11-27 09:12:47,381 [pool-1-thread-8] INFO - onDelay 173
+2015-11-27 09:12:48,380 [pool-1-thread-8] INFO - onDelay 174
+2015-11-27 09:12:49,380 [pool-1-thread-8] INFO - onDelay 175
+2015-11-27 09:12:50,378 [pool-1-thread-8] INFO - onDelay 176
+2015-11-27 09:12:51,381 [pool-1-thread-8] INFO - onDelay 177
+2015-11-27 09:12:52,381 [pool-1-thread-8] INFO - onDelay 178
+2015-11-27 09:12:53,381 [pool-1-thread-8] INFO - onDelay 179
+2015-11-27 09:12:54,383 [pool-1-thread-8] INFO - onDelay 180
+2015-11-27 09:12:55,383 [pool-1-thread-8] INFO - onDelay 181
+2015-11-27 09:12:56,382 [pool-1-thread-8] INFO - onDelay 182
+2015-11-27 09:12:57,383 [pool-1-thread-8] INFO - onDelay 183
+2015-11-27 09:12:58,383 [pool-1-thread-8] INFO - onDelay 184
+2015-11-27 09:12:59,383 [pool-1-thread-8] INFO - onDelay 185
+2015-11-27 09:13:00,380 [pool-1-thread-8] INFO - onDelay 186
+2015-11-27 09:13:01,379 [pool-1-thread-8] INFO - onDelay 187
+2015-11-27 09:13:02,379 [pool-1-thread-8] INFO - onDelay 188
+2015-11-27 09:13:03,381 [pool-1-thread-8] INFO - onDelay 189
+2015-11-27 09:13:04,380 [pool-1-thread-8] INFO - onDelay 190
+2015-11-27 09:13:05,383 [pool-1-thread-8] INFO - onDelay 191
+2015-11-27 09:13:06,381 [pool-1-thread-8] INFO - onDelay 192
+2015-11-27 09:13:07,379 [pool-1-thread-8] INFO - onDelay 193
+2015-11-27 09:13:08,382 [pool-1-thread-8] INFO - onDelay 194
+2015-11-27 09:13:09,383 [pool-1-thread-8] INFO - onDelay 195
+2015-11-27 09:13:10,379 [pool-1-thread-8] INFO - onDelay 196
+2015-11-27 09:13:11,383 [pool-1-thread-8] INFO - onDelay 197
+2015-11-27 09:13:12,383 [pool-1-thread-8] INFO - onDelay 198
+2015-11-27 09:13:13,380 [pool-1-thread-8] INFO - onDelay 199
+2015-11-27 09:13:14,383 [pool-1-thread-8] INFO - onDelay 200
+2015-11-27 09:13:15,378 [pool-1-thread-8] INFO - onDelay 201
+2015-11-27 09:13:16,383 [pool-1-thread-8] INFO - onDelay 202
+2015-11-27 09:13:17,378 [pool-1-thread-8] INFO - onDelay 203
+2015-11-27 09:13:18,381 [pool-1-thread-8] INFO - onDelay 204
+2015-11-27 09:13:19,380 [pool-1-thread-8] INFO - onDelay 205
+2015-11-27 09:13:20,382 [pool-1-thread-8] INFO - onDelay 206
+2015-11-27 09:13:21,383 [pool-1-thread-8] INFO - onDelay 207
+2015-11-27 09:13:22,378 [pool-1-thread-8] INFO - onDelay 208
+2015-11-27 09:13:23,380 [pool-1-thread-8] INFO - onDelay 209
+2015-11-27 09:13:24,381 [pool-1-thread-8] INFO - onDelay 210
+2015-11-27 09:13:25,380 [pool-1-thread-8] INFO - onDelay 211
+2015-11-27 09:13:26,382 [pool-1-thread-8] INFO - onDelay 212
+2015-11-27 09:15:43,587 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 09:15:44,243 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 09:15:44,244 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 09:15:44,246 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 09:15:44,247 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 09:15:44,247 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 09:15:44,248 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 09:15:44,249 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 09:15:44,249 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 09:15:44,250 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 09:15:44,257 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 10:06:59,753 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 10:07:00,298 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 10:07:00,298 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 10:07:00,301 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 10:07:00,302 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 10:07:00,302 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 10:07:00,304 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 10:07:00,304 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 10:07:00,304 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 10:07:00,305 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 10:07:00,313 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 10:07:00,521 [Thread-5] INFO - Telnet start at port 40000
+2015-11-27 10:07:00,521 [Thread-3] INFO - Socket start at port 55555
+2015-11-27 10:07:00,538 [Thread-4] INFO - WebSocket start at port 33332
+2015-11-27 10:15:04,494 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 10:15:05,194 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 10:15:05,194 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 10:15:05,196 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 10:15:05,197 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 10:15:05,198 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 10:15:05,199 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 10:15:05,199 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 10:15:05,199 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 10:15:05,201 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 10:15:05,207 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 10:15:05,414 [Thread-5] INFO - Telnet start at port 40000
+2015-11-27 10:15:05,414 [Thread-3] INFO - Socket start at port 55555
+2015-11-27 10:15:05,442 [Thread-4] INFO - WebSocket start at port 33332
+2015-11-27 10:15:05,492 [Thread-5] ERROR - Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:522)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1196)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeBindNow(ChannelHandlerInvokerUtil.java:108)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeBind(DefaultChannelHandlerInvoker.java:214)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:208)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:1003)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:216)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:322)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:356)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-27 10:15:20,970 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 10:15:21,320 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 10:15:21,320 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 10:15:21,322 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 10:15:21,324 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 10:15:21,324 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 10:15:21,325 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 10:15:21,325 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 10:15:21,325 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 10:15:21,327 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 10:15:21,333 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 10:15:21,525 [Thread-5] INFO - Telnet start at port 40000
+2015-11-27 10:15:21,525 [Thread-3] INFO - Socket start at port 55555
+2015-11-27 10:15:21,552 [Thread-4] INFO - WebSocket start at port 33332
+2015-11-27 10:15:51,295 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0xb830f1c3, /127.0.0.1:55984 => /127.0.0.1:55555]
+2015-11-27 10:15:51,299 [nioEventLoopGroup-6-1] INFO - [id: 0xb830f1c3, /127.0.0.1:55984 => /127.0.0.1:55555]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-27 10:15:51,382 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "22e22chiu79gnaq7eogukjris8",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-11-27 10:15:51,386 [nioEventLoopGroup-6-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1,
+  pingPeriod: 5,
+  timeRetriesToReconnect: 4
+}
+2015-11-27 10:15:52,389 [pool-1-thread-1] INFO - onDelay 0
+2015-11-27 10:15:53,320 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.String
+2015-11-27 10:15:53,321 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Property
+2015-11-27 10:15:53,321 [nioEventLoopGroup-6-1] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-11-27 10:15:53,321 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager
+2015-11-27 10:15:53,321 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.main.Main
+2015-11-27 10:15:53,321 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Map
+2015-11-27 10:15:53,386 [pool-1-thread-1] INFO - onDelay 0
+2015-11-27 10:15:54,389 [pool-1-thread-2] INFO - onDelay 1
+2015-11-27 10:15:55,389 [pool-1-thread-1] INFO - onDelay 2
+2015-11-27 10:15:56,390 [pool-1-thread-3] INFO - onDelay 3
+2015-11-27 10:15:57,385 [pool-1-thread-2] INFO - onDelay 0
+2015-11-27 10:15:58,387 [pool-1-thread-4] INFO - onDelay 1
+2015-11-27 10:15:59,385 [pool-1-thread-1] INFO - onDelay 2
+2015-11-27 10:15:59,486 [nioEventLoopGroup-6-1] INFO - CSChat m:5 s:0 {
+  msg: "a"
+}
+2015-11-27 10:15:59,486 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
+2015-11-27 10:15:59,487 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.StringBuilder
+2015-11-27 10:15:59,487 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Object
+2015-11-27 10:15:59,487 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Class
+2015-11-27 10:15:59,487 [nioEventLoopGroup-6-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.business.zone.BFClassLoaderZone@593e6421
+2015-11-27 10:15:59,487 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Calendar
+2015-11-27 10:15:59,487 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneManager
+2015-11-27 10:15:59,488 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.zone.IBFZone
+2015-11-27 10:15:59,492 [nioEventLoopGroup-6-1] INFO - [id: 0xb830f1c3, /127.0.0.1:55984 => /127.0.0.1:55555]
+SCChat m:5 s:1 {
+  msg: "10:15:59
+Q: a"
+}
+2015-11-27 10:15:59,492 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-11-27 10:15:59,495 [nioEventLoopGroup-6-1] ERROR - 
+java.lang.ExceptionInInitializerError
+	at vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat.execute(CSChat.java:51)
+	at vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager.onMessage(BFSessionManager.java:202)
+	at vn.com.onesoft.bigfox.server.io.message.base.MessageExecute.onMessage(MessageExecute.java:92)
+	at vn.com.onesoft.bigfox.server.io.core.channel.socket.SocketServerHandler.channelRead(SocketServerHandler.java:58)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:83)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:157)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:946)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:510)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil.<clinit>(HibernateFactoryUtil.java:32)
+	... 20 more
+2015-11-27 10:15:59,497 [nioEventLoopGroup-6-1] INFO - onChannelClose
+2015-11-27 10:16:00,390 [pool-1-thread-5] INFO - onDelay 0
+2015-11-27 10:16:01,390 [pool-1-thread-3] INFO - onDelay 1
+2015-11-27 10:16:02,390 [pool-1-thread-6] INFO - onDelay 2
+2015-11-27 10:16:03,385 [pool-1-thread-2] INFO - onDelay 3
+2015-11-27 10:16:04,388 [pool-1-thread-7] INFO - onDelay 4
+2015-11-27 10:16:05,387 [pool-1-thread-4] INFO - onDelay 5
+2015-11-27 10:16:06,389 [pool-1-thread-8] INFO - onDelay 6
+2015-11-27 10:16:07,384 [pool-1-thread-8] INFO - onDelay 7
+2015-11-27 10:16:08,385 [pool-1-thread-8] INFO - onDelay 8
+2015-11-27 10:16:09,390 [pool-1-thread-8] INFO - onDelay 9
+2015-11-27 10:16:10,389 [pool-1-thread-8] INFO - onDelay 10
+2015-11-27 10:16:11,390 [pool-1-thread-8] INFO - onDelay 11
+2015-11-27 10:16:12,385 [pool-1-thread-8] INFO - onDelay 12
+2015-11-27 10:16:13,386 [pool-1-thread-8] INFO - onDelay 13
+2015-11-27 10:16:14,389 [pool-1-thread-8] INFO - onDelay 14
+2015-11-27 10:16:15,385 [pool-1-thread-8] INFO - onDelay 15
+2015-11-27 10:16:16,384 [pool-1-thread-8] INFO - onDelay 16
+2015-11-27 10:16:17,384 [pool-1-thread-8] INFO - onDelay 17
+2015-11-27 10:16:18,389 [pool-1-thread-8] INFO - onDelay 18
+2015-11-27 10:16:19,385 [pool-1-thread-8] INFO - onDelay 19
+2015-11-27 10:16:20,386 [pool-1-thread-8] INFO - onDelay 20
+2015-11-27 10:16:21,385 [pool-1-thread-8] INFO - onDelay 21
+2015-11-27 10:16:22,385 [pool-1-thread-8] INFO - onDelay 22
+2015-11-27 10:16:23,385 [pool-1-thread-8] INFO - onDelay 23
+2015-11-27 10:16:24,387 [pool-1-thread-8] INFO - onDelay 24
+2015-11-27 10:16:25,385 [pool-1-thread-8] INFO - onDelay 25
+2015-11-27 10:16:26,390 [pool-1-thread-8] INFO - onDelay 26
+2015-11-27 10:16:27,390 [pool-1-thread-8] INFO - onDelay 27
+2015-11-27 10:16:28,386 [pool-1-thread-8] INFO - onDelay 28
+2015-11-27 10:16:29,390 [pool-1-thread-8] INFO - onDelay 29
+2015-11-27 10:16:30,386 [pool-1-thread-8] INFO - onDelay 30
+2015-11-27 10:16:31,386 [pool-1-thread-8] INFO - onDelay 31
+2015-11-27 10:16:32,389 [pool-1-thread-8] INFO - onDelay 32
+2015-11-27 10:16:33,387 [pool-1-thread-8] INFO - onDelay 33
+2015-11-27 10:16:34,387 [pool-1-thread-8] INFO - onDelay 34
+2015-11-27 10:16:35,386 [pool-1-thread-8] INFO - onDelay 35
+2015-11-27 10:16:36,389 [pool-1-thread-8] INFO - onDelay 36
+2015-11-27 10:16:37,389 [pool-1-thread-8] INFO - onDelay 37
+2015-11-27 10:16:38,388 [pool-1-thread-8] INFO - onDelay 38
+2015-11-27 10:16:39,389 [pool-1-thread-8] INFO - onDelay 39
+2015-11-27 10:16:40,388 [pool-1-thread-8] INFO - onDelay 40
+2015-11-27 10:16:41,387 [pool-1-thread-8] INFO - onDelay 41
+2015-11-27 10:16:42,389 [pool-1-thread-8] INFO - onDelay 42
+2015-11-27 10:16:43,388 [pool-1-thread-8] INFO - onDelay 43
+2015-11-27 10:16:44,388 [pool-1-thread-8] INFO - onDelay 44
+2015-11-27 10:16:45,389 [pool-1-thread-8] INFO - onDelay 45
+2015-11-27 10:16:46,388 [pool-1-thread-8] INFO - onDelay 46
+2015-11-27 10:16:47,388 [pool-1-thread-8] INFO - onDelay 47
+2015-11-27 10:16:48,388 [pool-1-thread-8] INFO - onDelay 48
+2015-11-27 10:16:49,388 [pool-1-thread-8] INFO - onDelay 49
+2015-11-27 10:16:50,388 [pool-1-thread-8] INFO - onDelay 50
+2015-11-27 10:16:51,389 [pool-1-thread-8] INFO - onDelay 51
+2015-11-27 10:16:52,389 [pool-1-thread-8] INFO - onDelay 52
+2015-11-27 10:16:53,388 [pool-1-thread-8] INFO - onDelay 53
+2015-11-27 10:16:54,385 [pool-1-thread-8] INFO - onDelay 54
+2015-11-27 10:16:55,389 [pool-1-thread-8] INFO - onDelay 55
+2015-11-27 10:16:56,388 [pool-1-thread-8] INFO - onDelay 56
+2015-11-27 10:16:57,385 [pool-1-thread-8] INFO - onDelay 57
+2015-11-27 10:16:58,388 [pool-1-thread-8] INFO - onDelay 58
+2015-11-27 10:16:59,389 [pool-1-thread-8] INFO - onDelay 59
+2015-11-27 10:17:00,390 [pool-1-thread-8] INFO - onDelay 60
+2015-11-27 10:17:01,389 [pool-1-thread-8] INFO - onDelay 61
+2015-11-27 10:17:02,389 [pool-1-thread-8] INFO - onDelay 62
+2015-11-27 10:17:03,388 [pool-1-thread-8] INFO - onDelay 63
+2015-11-27 10:18:16,574 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 10:18:17,178 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 10:18:17,178 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 10:18:17,180 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 10:18:17,182 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 10:18:17,182 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 10:18:17,183 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 10:18:17,183 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 10:18:17,183 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 10:18:17,184 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 10:18:17,191 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 10:18:46,025 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 10:18:46,356 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 10:18:46,356 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 10:18:46,359 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 10:18:46,361 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 10:18:46,361 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 10:18:46,362 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 10:18:46,362 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 10:18:46,362 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 10:18:46,364 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 10:18:46,370 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 10:21:41,265 [main] INFO - BigFoxServerChatExample loading ... 
+2015-11-27 10:21:41,914 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSChat
+2015-11-27 10:21:41,915 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageIn
+2015-11-27 10:21:41,917 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.cs.CSName
+2015-11-27 10:21:41,918 [main] INFO - define class vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat
+2015-11-27 10:21:41,919 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.MessageOut
+2015-11-27 10:21:41,920 [main] INFO - BFClassLoader load java.lang.Throwable
+2015-11-27 10:21:41,920 [main] INFO - BFClassLoader load java.lang.Exception
+2015-11-27 10:21:41,920 [main] INFO - BFClassLoader load org.hibernate.Session
+2015-11-27 10:21:41,922 [main] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Message
+2015-11-27 10:21:41,929 [main] INFO - BigFoxServerChatExample loaded ... 
+2015-11-27 10:21:42,287 [main] DEBUG - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2015-11-27 10:21:42,287 [main] INFO - HV000001: Hibernate Validator 5.1.3.Final
+2015-11-27 10:21:42,296 [main] DEBUG - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2015-11-27 10:21:42,297 [main] DEBUG - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2015-11-27 10:21:42,313 [main] DEBUG - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2015-11-27 10:21:42,318 [main] DEBUG - No META-INF/validation.xml found. Using annotation based configuration only.
+2015-11-27 10:21:42,431 [main] DEBUG - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2015-11-27 10:21:42,431 [main] DEBUG - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2015-11-27 10:21:42,432 [main] DEBUG - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2015-11-27 10:21:42,433 [main] DEBUG - No META-INF/validation.xml found. Using annotation based configuration only.
+2015-11-27 10:21:43,327 [Thread-9] INFO - Telnet start at port 40000
+2015-11-27 10:21:43,327 [Thread-7] INFO - Socket start at port 55555
+2015-11-27 10:21:43,348 [Thread-8] INFO - WebSocket start at port 33332
+2015-11-27 10:21:51,660 [nioEventLoopGroup-6-1] INFO - channelActive : [id: 0x9d45e3ba, /127.0.0.1:56209 => /127.0.0.1:55555]
+2015-11-27 10:21:51,663 [nioEventLoopGroup-6-1] INFO - [id: 0x9d45e3ba, /127.0.0.1:56209 => /127.0.0.1:55555]
+SCValidationCode m:0 s:0 {
+  validationCode: 0
+}
+2015-11-27 10:21:51,750 [nioEventLoopGroup-6-1] INFO - CSClientInfo m:1 s:0 {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "ol67butq34n7td33608vp0kji7",
+    metadata: "",
+    zone: "BigFoxServerChatExample"
+  }
+}
+2015-11-27 10:21:51,753 [nioEventLoopGroup-6-1] INFO - SCInitSession m:0 s:0 {
+  sessionStatus: 1,
+  pingPeriod: 5,
+  timeRetriesToReconnect: 4
+}
+2015-11-27 10:21:52,755 [pool-1-thread-1] INFO - onDelay 0
+2015-11-27 10:21:53,186 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.String
+2015-11-27 10:21:53,186 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.annotations.Property
+2015-11-27 10:21:53,187 [nioEventLoopGroup-6-1] INFO - CSName m:3 s:0 {
+  msg: "Q"
+}
+2015-11-27 10:21:53,187 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager
+2015-11-27 10:21:53,187 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.main.Main
+2015-11-27 10:21:53,187 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Map
+2015-11-27 10:21:53,755 [pool-1-thread-1] INFO - onDelay 0
+2015-11-27 10:21:54,755 [pool-1-thread-2] INFO - onDelay 1
+2015-11-27 10:21:55,755 [pool-1-thread-1] INFO - onDelay 2
+2015-11-27 10:21:56,755 [pool-1-thread-3] INFO - onDelay 3
+2015-11-27 10:21:57,754 [pool-1-thread-2] INFO - onDelay 0
+2015-11-27 10:21:58,757 [pool-1-thread-4] INFO - onDelay 1
+2015-11-27 10:21:59,755 [pool-1-thread-1] INFO - onDelay 2
+2015-11-27 10:22:00,754 [pool-1-thread-5] INFO - onDelay 3
+2015-11-27 10:22:01,755 [pool-1-thread-3] INFO - onDelay 4
+2015-11-27 10:22:02,757 [pool-1-thread-6] INFO - onDelay 0
+2015-11-27 10:22:03,755 [pool-1-thread-2] INFO - onDelay 1
+2015-11-27 10:22:04,755 [pool-1-thread-7] INFO - onDelay 2
+2015-11-27 10:22:05,754 [pool-1-thread-4] INFO - onDelay 3
+2015-11-27 10:22:06,755 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 10:22:07,755 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 10:22:08,755 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 10:22:09,755 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 10:22:10,752 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 10:22:11,754 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 10:22:12,755 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 10:22:13,756 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 10:22:14,755 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 10:22:15,754 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 10:22:16,754 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 10:22:17,754 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 10:22:18,743 [nioEventLoopGroup-6-1] INFO - CSChat m:9 s:0 {
+  msg: "xx"
+}
+2015-11-27 10:22:18,743 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.message.base.BFLogger
+2015-11-27 10:22:18,743 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.StringBuilder
+2015-11-27 10:22:18,743 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Object
+2015-11-27 10:22:18,743 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.lang.Class
+2015-11-27 10:22:18,743 [nioEventLoopGroup-6-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.business.zone.BFClassLoaderZone@7675b3b6
+2015-11-27 10:22:18,743 [nioEventLoopGroup-6-1] INFO - BFClassLoader load java.util.Calendar
+2015-11-27 10:22:18,744 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneManager
+2015-11-27 10:22:18,744 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.bigfox.server.io.core.business.zone.IBFZone
+2015-11-27 10:22:18,746 [nioEventLoopGroup-6-1] INFO - [id: 0x9d45e3ba, /127.0.0.1:56209 => /127.0.0.1:55555]
+SCChat m:9 s:1 {
+  msg: "10:22:18
+Q: xx"
+}
+2015-11-27 10:22:18,746 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil
+2015-11-27 10:22:18,746 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.SessionFactory
+2015-11-27 10:22:18,753 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 10:22:18,807 [nioEventLoopGroup-6-1] INFO - BFClassLoader load vn.com.onesoft.chatexample.server.db.DBUserLog
+2015-11-27 10:22:18,846 [nioEventLoopGroup-6-1] INFO - BFClassLoader load org.hibernate.Transaction
+2015-11-27 10:22:19,754 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 10:22:20,754 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 10:22:20,822 [nioEventLoopGroup-6-1] INFO - CSChat m:10 s:0 {
+  msg: "aaaa"
+}
+2015-11-27 10:22:20,822 [nioEventLoopGroup-6-1] INFO - ClassLoader CSChat vn.com.onesoft.bigfox.server.io.core.business.zone.BFClassLoaderZone@7675b3b6
+2015-11-27 10:22:20,822 [nioEventLoopGroup-6-1] INFO - [id: 0x9d45e3ba, /127.0.0.1:56209 => /127.0.0.1:55555]
+SCChat m:10 s:2 {
+  msg: "10:22:20
+Q: aaaa"
+}
+2015-11-27 10:22:21,757 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 10:22:22,754 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 10:22:23,754 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 10:22:24,754 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 10:22:25,753 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 10:22:26,753 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 10:22:27,754 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 10:22:28,754 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 10:22:29,754 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 10:22:30,753 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 10:22:31,754 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 10:22:32,754 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 10:22:33,754 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 10:22:34,756 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 10:22:35,755 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 10:22:36,755 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 10:22:37,712 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0x9d45e3ba, /127.0.0.1:56209 :> /127.0.0.1:55555]
+2015-11-27 10:22:37,712 [nioEventLoopGroup-6-1] INFO - onChannelClose
+2015-11-27 10:22:37,713 [nioEventLoopGroup-6-1] INFO - Channel unregistered
+2015-11-27 10:22:37,755 [pool-1-thread-8] INFO - onDelay 0
+2015-11-27 10:22:38,753 [pool-1-thread-8] INFO - onDelay 1
+2015-11-27 10:22:39,753 [pool-1-thread-8] INFO - onDelay 2
+2015-11-27 10:22:40,753 [pool-1-thread-8] INFO - onDelay 3
+2015-11-27 10:22:41,753 [pool-1-thread-8] INFO - onDelay 4
+2015-11-27 10:22:42,757 [pool-1-thread-8] INFO - onDelay 5
+2015-11-27 10:22:43,755 [pool-1-thread-8] INFO - onDelay 6
+2015-11-27 10:22:44,754 [pool-1-thread-8] INFO - onDelay 7
+2015-11-27 10:22:45,752 [pool-1-thread-8] INFO - onDelay 8
+2015-11-27 10:22:46,752 [pool-1-thread-8] INFO - onDelay 9
