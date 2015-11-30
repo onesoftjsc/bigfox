@@ -61,14 +61,12 @@ public interface IBFSession {
     public void setLastTimeReceive(long lastTimeReceive);
 
     public void onTimeout();
-
-    public void onChannelClose(Channel channel);
     
     public IBFZone getZone();
     
     public  void setZone(IBFZone zone);
     
-    public void onStart();
+    public void start();
     
-    public void onStop();
+    public void close();
 }

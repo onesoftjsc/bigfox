@@ -24,6 +24,7 @@ import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageOut;
+import vn.com.onesoft.bigfox.server.main.BFConfig;
 import vn.com.onesoft.bigfox.server.main.Main;
 
 /**
@@ -40,7 +41,7 @@ public class BFZone implements IBFZone {
     private Map<String, String> mapFileNameToChecksum = new MapMaker().makeMap();
     private BFZoneActivity activity;
     private String monitorFolder = "";
-    private int sessionTimeout = 300;//s
+    private int sessionTimeout = BFConfig.getInstance().getSessionTimeout();//s
     private int pingPeriod = 5;//s
     private int timeRetriesToReconnect = 4;// 4*5 = 20s will reconnect
 

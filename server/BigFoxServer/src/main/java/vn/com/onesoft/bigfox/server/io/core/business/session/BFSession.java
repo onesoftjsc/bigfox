@@ -200,18 +200,7 @@ public class BFSession implements IBFSession {
     @Override
     public void onTimeout() {
         BFLogger.getInstance().info("onTimeout");
-    }
-
-    /**
-     * Khi channel mất kết nối thì lưu dữ liệu đang cache vào db để tránh mất dữ
-     * liệu chứ không xoá session, có thể sau một khoảng thời gian client sẽ kết
-     * nối lại mà vẫn giữ nguyên session.
-     *
-     * @param channel
-     */
-    @Override
-    public void onChannelClose(Channel channel) {
-        BFLogger.getInstance().info("onChannelClose");
+        close();
     }
 
     @Override
@@ -227,14 +216,15 @@ public class BFSession implements IBFSession {
 ScheduledFuture scheduledFuture = null;
     
     @Override
-    public void onStart() {
+    public void start() {
         this.setLastTimeReceive(System.currentTimeMillis());
          scheduledFuture = BFSessionManager.getInstance().scheduledExecutorService.scheduleAtFixedRate(new BFSessionTick(this), 1, 1, TimeUnit.SECONDS);
     }
     
     @Override
-    public void onStop(){
+    public void close(){
         scheduledFuture.cancel(true);
+        BFSessionManager.getInstance().removeSession(this);
     }
 
 }

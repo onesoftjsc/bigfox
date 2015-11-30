@@ -49,7 +49,6 @@ public class BFSessionManager {
     public static BFSessionManager getInstance() {
         if (_instance == null) {
             _instance = new BFSessionManager();
-            _instance.startControlThread();
         }
         return _instance;
     }
@@ -67,7 +66,7 @@ public class BFSessionManager {
 
         mapChannelToSession.put(channel, session);
         mapSessionIdToSession.put(clientInfo.sessionId, session);
-        session.onStart();
+        session.start();
         sessionEvent.startSession(session);
 
         return session;
@@ -84,7 +83,6 @@ public class BFSessionManager {
     public void removeSession(IBFSession session) {
         mapChannelToSession.remove(session.getChannel());
         mapSessionIdToSession.remove(session.getClientInfo().sessionId);
-        session.onStop();
         sessionEvent.removeSession(session);
     }
 
@@ -202,44 +200,10 @@ public class BFSessionManager {
         mIn.execute(channel);
     }
 
-    /**
-     * Liên tục quét mỗi giây một lần toàn bộ các session xem session nào bị
-     * timeout thì xoá
-     */
-    private void startControlThread() {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                while (true) {
-                    Iterator it = mapSessionIdToSession.keySet().iterator();
-                    while (it.hasNext()) {
-                        String sessionId = (String) it.next();
-                        IBFSession session = mapSessionIdToSession.get(sessionId);
-                        BFZone zone = (BFZone) session.getZone();
-
-
-                        //Common timeout
-                        if (System.currentTimeMillis() - session.getLastTimeReceive() >= BFSessionManager.SESSION_TIMEOUT * 1000) {
-                            session.onTimeout();
-                            removeSession(session);
-                        }
-                    }
-                    try {
-                        Thread.sleep(1000);
-                    } catch (Exception tex) {
-
-                    }
-                }
-            }
-        }).start();
-    }
+   
 
     public void onChannelClose(Channel channel) {
         IBFSession session = this.getSessionByChannel(channel);
-        if (session != null) {
-            session.onChannelClose(channel);
-            sessionEvent.closeChannel(session);
-        }
         mapChannelToSession.remove(channel);
     }
 

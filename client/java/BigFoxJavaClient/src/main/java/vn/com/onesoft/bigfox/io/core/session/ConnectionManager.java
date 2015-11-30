@@ -42,7 +42,8 @@ public class ConnectionManager {
     public int curSSequence;
     public int curMSequence;
     private int mSequenceFromServer;
-
+    public int timeRetriesToReconnect = 4;
+    
     Map<Integer, MessageOut> queueOutMessage = new MapMaker().makeMap();
     public long lastPingReceivedTime;
     public String sessionId = "";

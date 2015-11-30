@@ -28,11 +28,6 @@ public class BFDefaultSessionEvent implements IBFSessionEvent{
     }
 
     @Override
-    public void closeChannel(IBFSession session) {
-       
-    }
-
-    @Override
     public void onDelay(IBFSession session, int delaySecond) {
         
     }

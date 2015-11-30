@@ -5,6 +5,7 @@ import vn.com.onesoft.bigfox.io.message.core.cs.CSPing;
 public class PingThreadManager {
 
 	private long idConnection = 0;
+	public static int pingPeriod = 5;//s
 
 	private static PingThreadManager _instance;
 
@@ -24,7 +25,7 @@ public class PingThreadManager {
 					ConnectionManager.getInstance().write(new CSPing());
 
 					try {
-						Thread.sleep(5000);
+						Thread.sleep(pingPeriod * 1000);
 					} catch (InterruptedException e) {
 
 					}

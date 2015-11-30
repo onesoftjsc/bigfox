@@ -37,6 +37,7 @@ public class ChatActivity extends BFZoneActivity {
         BFLogger.getInstance().info("BeforeZoneStart");
         try {
             zone.setMonitorFolder(new File(".").getCanonicalPath() + "/target/classes");
+            zone.setSessionTimeout(30);
         } catch (IOException ex) {
             Logger.getLogger(ChatActivity.class.getName()).log(Level.SEVERE, null, ex);
         }

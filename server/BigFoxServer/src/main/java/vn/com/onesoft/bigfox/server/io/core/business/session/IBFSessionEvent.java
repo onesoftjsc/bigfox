@@ -14,6 +14,5 @@ public interface IBFSessionEvent {
     public void startSession(IBFSession session);
     public void reconnectSession(IBFSession session);
     public void removeSession(IBFSession session);
-     public void closeChannel(IBFSession session) ;
      public void onDelay(IBFSession session, int delaySecond);
 }

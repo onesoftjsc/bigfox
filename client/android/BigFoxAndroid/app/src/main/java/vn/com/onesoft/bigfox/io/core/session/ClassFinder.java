@@ -2,11 +2,13 @@ package vn.com.onesoft.bigfox.io.core.session;
 
 import java.util.ArrayList;
 import java.util.Enumeration;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
-import vn.com.onesoft.bigfox.MainActivity;
-import vn.com.onesoft.bigfox.io.message.core.sc.SCValidationCode;
 import dalvik.system.DexFile;
+import vn.com.onesoft.bigfox.MainActivity;
+import vn.com.onesoft.bigfox.io.message.annotations.Message;
 
 public class ClassFinder {
 
@@ -25,7 +27,7 @@ public class ClassFinder {
 			DexFile df = new DexFile(MainActivity.getInstance()
 					.getPackageCodePath());
 			for (Enumeration<String> iter = df.entries(); iter
-					.hasMoreElements();) {
+					.hasMoreElements(); ) {
 				String className = iter.nextElement();
 				try {
 					if (className.startsWith(packageName)) {
@@ -44,4 +46,30 @@ public class ClassFinder {
 		return classes;
 	}
 
+	public static Map<String, Class<?>> findObjects(Class<?> parentType) {
+		Map<String, Class<?>> classes = new HashMap<String, Class<?>>();
+		String packageName = parentType.getPackage().getName();
+		try {
+			DexFile df = new DexFile(MainActivity.getInstance()
+					.getPackageCodePath());
+			for (Enumeration<String> iter = df.entries(); iter
+					.hasMoreElements(); ) {
+				String className = iter.nextElement();
+				if (className.startsWith(packageName)) {
+					try {
+						Class<?> cl = Class.forName(className);
+						Message msg = cl.getAnnotation(Message.class);
+						if (msg != null) {
+//                        Logger.log("put: " + msg.name());
+							classes.put(msg.name(), cl);
+						}
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+				}
+			}
+		} catch (Exception e) {
+		}
+		return classes;
+	}
 }

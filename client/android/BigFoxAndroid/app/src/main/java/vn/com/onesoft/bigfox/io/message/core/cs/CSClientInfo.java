@@ -28,7 +28,7 @@ public class CSClientInfo extends BaseMessage {
         clientInfo = new ClientInfo();
         clientInfo.device = ClientInfo.DEVICE_ANDROID;
         clientInfo.imei = BigFoxContext.imei;
-        clientInfo.zone = "classes";
+        clientInfo.zone = "BigFoxServerChatExample";
 
         if (ConnectionManager.getInstance().sessionId.length() == 0) {
             ConnectionManager.getInstance().sessionId = BFUtils.genRandomString(10);

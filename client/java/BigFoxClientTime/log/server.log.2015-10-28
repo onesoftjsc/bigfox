@@ -1,0 +1,1634 @@
+2015-10-28 11:47:19,567 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x79dae1e1, /127.0.0.1:56674 => localhost/127.0.0.1:33333]
+2015-10-28 11:47:19,578 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-10-28 11:47:19,579 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-10-28 11:47:19,600 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:47:19,603 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:47:19,611 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0x79dae1e1, /127.0.0.1:56674 :> localhost/127.0.0.1:33333]
+2015-10-28 11:47:24,062 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:47:24,616 [nioEventLoopGroup-4-1] INFO - Client connected!: [id: 0xe90e98fd, /127.0.0.1:56676 => localhost/127.0.0.1:33333]
+2015-10-28 11:47:24,634 [nioEventLoopGroup-4-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:47:24,635 [nioEventLoopGroup-4-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:47:24,637 [nioEventLoopGroup-4-1] INFO - ChannelClosed: [id: 0xe90e98fd, /127.0.0.1:56676 :> localhost/127.0.0.1:33333]
+2015-10-28 11:47:26,849 [nioEventLoopGroup-2-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2015-10-28 11:47:29,067 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:47:29,641 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0x32e33680, /127.0.0.1:56680 => localhost/127.0.0.1:33333]
+2015-10-28 11:47:29,661 [nioEventLoopGroup-5-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:47:29,661 [nioEventLoopGroup-5-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:47:29,663 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0x32e33680, /127.0.0.1:56680 :> localhost/127.0.0.1:33333]
+2015-10-28 11:47:31,870 [nioEventLoopGroup-4-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-4-1
+2015-10-28 11:47:34,068 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:47:34,666 [nioEventLoopGroup-6-1] INFO - Client connected!: [id: 0xd2eff8f7, /127.0.0.1:56683 => localhost/127.0.0.1:33333]
+2015-10-28 11:47:34,697 [nioEventLoopGroup-6-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:47:34,698 [nioEventLoopGroup-6-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:47:34,699 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0xd2eff8f7, /127.0.0.1:56683 :> localhost/127.0.0.1:33333]
+2015-10-28 11:47:36,906 [nioEventLoopGroup-5-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-5-1
+2015-10-28 11:47:39,069 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:47:39,703 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0x078e7500, /127.0.0.1:56685 => localhost/127.0.0.1:33333]
+2015-10-28 11:47:39,724 [nioEventLoopGroup-7-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:47:39,725 [nioEventLoopGroup-7-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:47:39,727 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0x078e7500, /127.0.0.1:56685 :> localhost/127.0.0.1:33333]
+2015-10-28 11:47:41,934 [nioEventLoopGroup-6-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-6-1
+2015-10-28 11:47:44,070 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:47:44,730 [nioEventLoopGroup-8-1] INFO - Client connected!: [id: 0x8e4f2719, /127.0.0.1:56687 => localhost/127.0.0.1:33333]
+2015-10-28 11:47:44,754 [nioEventLoopGroup-8-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:47:44,755 [nioEventLoopGroup-8-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:47:44,757 [nioEventLoopGroup-8-1] INFO - ChannelClosed: [id: 0x8e4f2719, /127.0.0.1:56687 :> localhost/127.0.0.1:33333]
+2015-10-28 11:47:46,962 [nioEventLoopGroup-7-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-7-1
+2015-10-28 11:47:49,071 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:47:49,760 [nioEventLoopGroup-9-1] INFO - Client connected!: [id: 0x8beb94bc, /127.0.0.1:56690 => localhost/127.0.0.1:33333]
+2015-10-28 11:47:49,778 [nioEventLoopGroup-9-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:47:49,778 [nioEventLoopGroup-9-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:47:49,780 [nioEventLoopGroup-9-1] INFO - ChannelClosed: [id: 0x8beb94bc, /127.0.0.1:56690 :> localhost/127.0.0.1:33333]
+2015-10-28 11:47:51,985 [nioEventLoopGroup-8-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-8-1
+2015-10-28 11:47:54,073 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:47:54,793 [nioEventLoopGroup-10-1] INFO - Client connected!: [id: 0x23c9212e, /127.0.0.1:56692 => localhost/127.0.0.1:33333]
+2015-10-28 11:47:54,815 [nioEventLoopGroup-10-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:47:54,815 [nioEventLoopGroup-10-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:47:54,819 [nioEventLoopGroup-10-1] INFO - ChannelClosed: [id: 0x23c9212e, /127.0.0.1:56692 :> localhost/127.0.0.1:33333]
+2015-10-28 11:47:57,024 [nioEventLoopGroup-9-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-9-1
+2015-10-28 11:47:59,074 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:47:59,822 [nioEventLoopGroup-11-1] INFO - Client connected!: [id: 0xf5227fc6, /127.0.0.1:56695 => localhost/127.0.0.1:33333]
+2015-10-28 11:47:59,824 [nioEventLoopGroup-11-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:47:59,825 [nioEventLoopGroup-11-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:47:59,826 [nioEventLoopGroup-11-1] INFO - ChannelClosed: [id: 0xf5227fc6, /127.0.0.1:56695 :> localhost/127.0.0.1:33333]
+2015-10-28 11:48:02,031 [nioEventLoopGroup-10-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-10-1
+2015-10-28 11:48:04,075 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:04,829 [nioEventLoopGroup-12-1] INFO - Client connected!: [id: 0x7d332f33, /127.0.0.1:56697 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:04,832 [nioEventLoopGroup-12-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:04,833 [nioEventLoopGroup-12-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:48:04,834 [nioEventLoopGroup-12-1] INFO - ChannelClosed: [id: 0x7d332f33, /127.0.0.1:56697 :> localhost/127.0.0.1:33333]
+2015-10-28 11:48:07,038 [nioEventLoopGroup-11-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-11-1
+2015-10-28 11:48:09,077 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:09,837 [nioEventLoopGroup-13-1] INFO - Client connected!: [id: 0xcfe9d33f, /127.0.0.1:56699 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:09,840 [nioEventLoopGroup-13-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:09,841 [nioEventLoopGroup-13-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:48:09,843 [nioEventLoopGroup-13-1] INFO - ChannelClosed: [id: 0xcfe9d33f, /127.0.0.1:56699 :> localhost/127.0.0.1:33333]
+2015-10-28 11:48:12,048 [nioEventLoopGroup-12-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-12-1
+2015-10-28 11:48:14,078 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:14,845 [nioEventLoopGroup-14-1] INFO - Client connected!: [id: 0xecae9cd9, /127.0.0.1:56729 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:14,848 [nioEventLoopGroup-14-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:14,849 [nioEventLoopGroup-14-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:48:14,850 [nioEventLoopGroup-14-1] INFO - ChannelClosed: [id: 0xecae9cd9, /127.0.0.1:56729 :> localhost/127.0.0.1:33333]
+2015-10-28 11:48:17,055 [nioEventLoopGroup-13-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-13-1
+2015-10-28 11:48:19,078 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:19,857 [nioEventLoopGroup-15-1] INFO - Client connected!: [id: 0x60bd8eda, /127.0.0.1:56733 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:19,862 [nioEventLoopGroup-15-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:19,863 [nioEventLoopGroup-15-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:48:19,865 [nioEventLoopGroup-15-1] INFO - ChannelClosed: [id: 0x60bd8eda, /127.0.0.1:56733 :> localhost/127.0.0.1:33333]
+2015-10-28 11:48:22,073 [nioEventLoopGroup-14-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-14-1
+2015-10-28 11:48:24,080 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:24,868 [nioEventLoopGroup-16-1] INFO - Client connected!: [id: 0x6dba76bf, /127.0.0.1:56738 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:24,870 [nioEventLoopGroup-16-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:24,871 [nioEventLoopGroup-16-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:48:24,872 [nioEventLoopGroup-16-1] INFO - ChannelClosed: [id: 0x6dba76bf, /127.0.0.1:56738 :> localhost/127.0.0.1:33333]
+2015-10-28 11:48:27,076 [nioEventLoopGroup-15-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-15-1
+2015-10-28 11:48:29,081 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:29,875 [nioEventLoopGroup-17-1] INFO - Client connected!: [id: 0x7ebb0bc2, /127.0.0.1:56740 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:29,881 [nioEventLoopGroup-17-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:29,881 [nioEventLoopGroup-17-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:48:29,883 [nioEventLoopGroup-17-1] INFO - ChannelClosed: [id: 0x7ebb0bc2, /127.0.0.1:56740 :> localhost/127.0.0.1:33333]
+2015-10-28 11:48:32,088 [nioEventLoopGroup-16-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-16-1
+2015-10-28 11:48:34,083 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:34,891 [nioEventLoopGroup-18-1] INFO - Client connected!: [id: 0x39f628aa, /127.0.0.1:56743 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:34,896 [nioEventLoopGroup-18-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:34,896 [nioEventLoopGroup-18-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:48:34,898 [nioEventLoopGroup-18-1] INFO - ChannelClosed: [id: 0x39f628aa, /127.0.0.1:56743 :> localhost/127.0.0.1:33333]
+2015-10-28 11:48:37,104 [nioEventLoopGroup-17-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-17-1
+2015-10-28 11:48:39,084 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:39,903 [nioEventLoopGroup-19-1] INFO - Client connected!: [id: 0xf3164920, /127.0.0.1:56745 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:39,905 [nioEventLoopGroup-19-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:39,905 [nioEventLoopGroup-19-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:48:39,906 [nioEventLoopGroup-19-1] INFO - ChannelClosed: [id: 0xf3164920, /127.0.0.1:56745 :> localhost/127.0.0.1:33333]
+2015-10-28 11:48:40,326 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x12256da3, /127.0.0.1:56746 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:40,336 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-10-28 11:48:40,337 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-10-28 11:48:40,357 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:40,361 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "lctu8vu4iqbsla02dk00lt7fdd",
+    metadata: "",
+    zone: "BigFoxServerTime"
+  }
+}
+2015-10-28 11:48:40,366 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-10-28 11:48:42,111 [nioEventLoopGroup-18-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-18-1
+2015-10-28 11:48:44,085 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:44,805 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:44,809 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:48:44"
+}
+2015-10-28 11:48:44,809 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:48:44
+2015-10-28 11:48:44,909 [nioEventLoopGroup-20-1] INFO - Client connected!: [id: 0x8ef5651b, /127.0.0.1:56747 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:44,910 [nioEventLoopGroup-20-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:44,910 [nioEventLoopGroup-20-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:48:44,912 [nioEventLoopGroup-20-1] INFO - ChannelClosed: [id: 0x8ef5651b, /127.0.0.1:56747 :> localhost/127.0.0.1:33333]
+2015-10-28 11:48:47,116 [nioEventLoopGroup-19-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-19-1
+2015-10-28 11:48:49,087 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:49,807 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:49,915 [nioEventLoopGroup-21-1] INFO - Client connected!: [id: 0xba333eb3, /127.0.0.1:56753 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:49,917 [nioEventLoopGroup-21-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:49,917 [nioEventLoopGroup-21-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:48:49,919 [nioEventLoopGroup-21-1] INFO - ChannelClosed: [id: 0xba333eb3, /127.0.0.1:56753 :> localhost/127.0.0.1:33333]
+2015-10-28 11:48:49,985 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:48:49"
+}
+2015-10-28 11:48:49,985 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:48:49
+2015-10-28 11:48:52,124 [nioEventLoopGroup-20-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-20-1
+2015-10-28 11:48:54,088 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:54,808 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:54,810 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:48:54"
+}
+2015-10-28 11:48:54,810 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:48:54
+2015-10-28 11:48:54,922 [nioEventLoopGroup-22-1] INFO - Client connected!: [id: 0xa7396b15, /127.0.0.1:56756 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:54,924 [nioEventLoopGroup-22-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:54,924 [nioEventLoopGroup-22-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:48:54,925 [nioEventLoopGroup-22-1] INFO - ChannelClosed: [id: 0xa7396b15, /127.0.0.1:56756 :> localhost/127.0.0.1:33333]
+2015-10-28 11:48:57,130 [nioEventLoopGroup-21-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-21-1
+2015-10-28 11:48:59,089 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:59,810 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:48:59,811 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:48:59"
+}
+2015-10-28 11:48:59,812 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:48:59
+2015-10-28 11:48:59,929 [nioEventLoopGroup-23-1] INFO - Client connected!: [id: 0x2c9b9c1d, /127.0.0.1:56758 => localhost/127.0.0.1:33333]
+2015-10-28 11:48:59,933 [nioEventLoopGroup-23-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:48:59,934 [nioEventLoopGroup-23-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:48:59,935 [nioEventLoopGroup-23-1] INFO - ChannelClosed: [id: 0x2c9b9c1d, /127.0.0.1:56758 :> localhost/127.0.0.1:33333]
+2015-10-28 11:49:02,139 [nioEventLoopGroup-22-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-22-1
+2015-10-28 11:49:04,091 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:04,811 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:04,813 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:49:04"
+}
+2015-10-28 11:49:04,813 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:49:04
+2015-10-28 11:49:04,938 [nioEventLoopGroup-24-1] INFO - Client connected!: [id: 0xfce63952, /127.0.0.1:56760 => localhost/127.0.0.1:33333]
+2015-10-28 11:49:04,940 [nioEventLoopGroup-24-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:49:04,940 [nioEventLoopGroup-24-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:49:04,942 [nioEventLoopGroup-24-1] INFO - ChannelClosed: [id: 0xfce63952, /127.0.0.1:56760 :> localhost/127.0.0.1:33333]
+2015-10-28 11:49:07,147 [nioEventLoopGroup-23-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-23-1
+2015-10-28 11:49:09,092 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:09,812 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:09,814 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:49:09"
+}
+2015-10-28 11:49:09,814 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:49:09
+2015-10-28 11:49:09,945 [nioEventLoopGroup-25-1] INFO - Client connected!: [id: 0xc6c68147, /127.0.0.1:56762 => localhost/127.0.0.1:33333]
+2015-10-28 11:49:09,947 [nioEventLoopGroup-25-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:49:09,947 [nioEventLoopGroup-25-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:49:09,948 [nioEventLoopGroup-25-1] INFO - ChannelClosed: [id: 0xc6c68147, /127.0.0.1:56762 :> localhost/127.0.0.1:33333]
+2015-10-28 11:49:12,153 [nioEventLoopGroup-24-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-24-1
+2015-10-28 11:49:14,093 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:14,813 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:14,815 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:49:14"
+}
+2015-10-28 11:49:14,815 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:49:14
+2015-10-28 11:49:14,952 [nioEventLoopGroup-26-1] INFO - Client connected!: [id: 0x4d100c82, /127.0.0.1:56763 => localhost/127.0.0.1:33333]
+2015-10-28 11:49:14,953 [nioEventLoopGroup-26-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:49:14,954 [nioEventLoopGroup-26-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:49:14,955 [nioEventLoopGroup-26-1] INFO - ChannelClosed: [id: 0x4d100c82, /127.0.0.1:56763 :> localhost/127.0.0.1:33333]
+2015-10-28 11:49:17,160 [nioEventLoopGroup-25-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-25-1
+2015-10-28 11:49:19,095 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:19,815 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:19,817 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:49:19"
+}
+2015-10-28 11:49:19,818 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:49:19
+2015-10-28 11:49:19,958 [nioEventLoopGroup-27-1] INFO - Client connected!: [id: 0x38a65df4, /127.0.0.1:56765 => localhost/127.0.0.1:33333]
+2015-10-28 11:49:19,960 [nioEventLoopGroup-27-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:49:19,960 [nioEventLoopGroup-27-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:49:19,962 [nioEventLoopGroup-27-1] INFO - ChannelClosed: [id: 0x38a65df4, /127.0.0.1:56765 :> localhost/127.0.0.1:33333]
+2015-10-28 11:49:22,167 [nioEventLoopGroup-26-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-26-1
+2015-10-28 11:49:24,096 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:24,815 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:24,817 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:49:24"
+}
+2015-10-28 11:49:24,817 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:49:24
+2015-10-28 11:49:24,964 [nioEventLoopGroup-28-1] INFO - Client connected!: [id: 0x9e1677e2, /127.0.0.1:56767 => localhost/127.0.0.1:33333]
+2015-10-28 11:49:24,966 [nioEventLoopGroup-28-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:49:24,967 [nioEventLoopGroup-28-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:49:24,968 [nioEventLoopGroup-28-1] INFO - ChannelClosed: [id: 0x9e1677e2, /127.0.0.1:56767 :> localhost/127.0.0.1:33333]
+2015-10-28 11:49:27,173 [nioEventLoopGroup-27-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-27-1
+2015-10-28 11:49:29,097 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:29,817 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:29,818 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:49:29"
+}
+2015-10-28 11:49:29,819 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:49:29
+2015-10-28 11:49:29,971 [nioEventLoopGroup-29-1] INFO - Client connected!: [id: 0x68fd3f86, /127.0.0.1:56769 => localhost/127.0.0.1:33333]
+2015-10-28 11:49:29,973 [nioEventLoopGroup-29-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:49:29,973 [nioEventLoopGroup-29-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "semdgdst48aet3jaslgst5g2qf",
+    metadata: "",
+    zone: "classes"
+  }
+}
+2015-10-28 11:49:29,975 [nioEventLoopGroup-29-1] INFO - ChannelClosed: [id: 0x68fd3f86, /127.0.0.1:56769 :> localhost/127.0.0.1:33333]
+2015-10-28 11:49:31,457 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0x12256da3, /127.0.0.1:56746 :> localhost/127.0.0.1:33333]
+2015-10-28 11:49:32,177 [nioEventLoopGroup-28-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-28-1
+2015-10-28 11:49:34,098 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:34,818 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:34,979 [nioEventLoopGroup-29-1] ERROR - Connection refused: localhost/127.0.0.1:33333
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:33333
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:712)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:527)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-28 11:49:36,464 [nioEventLoopGroup-2-1] ERROR - Connection refused: localhost/127.0.0.1:33333
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:33333
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:712)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:527)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-28 11:49:37,188 [nioEventLoopGroup-29-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-29-1
+2015-10-28 11:49:38,679 [nioEventLoopGroup-2-1] DEBUG - Freed 15 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2015-10-28 11:49:39,098 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:49:39,820 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:51:03,126 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x772e626e, /127.0.0.1:56815 => localhost/127.0.0.1:33333]
+2015-10-28 11:51:03,137 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-10-28 11:51:03,138 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-10-28 11:51:03,161 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 11:51:03,167 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "ddgt2fmg1dafv58dq5ujth6laa",
+    metadata: "",
+    zone: "BigFoxServerTime"
+  }
+}
+2015-10-28 11:51:03,176 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-10-28 11:51:07,589 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:51:07,595 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:51:07"
+}
+2015-10-28 11:51:07,595 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:51:07
+2015-10-28 11:51:12,590 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:51:12,593 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:51:12"
+}
+2015-10-28 11:51:12,593 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:51:12
+2015-10-28 11:51:17,592 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:51:17,594 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:51:17"
+}
+2015-10-28 11:51:17,595 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:51:17
+2015-10-28 11:51:22,594 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:51:22,597 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:51:22"
+}
+2015-10-28 11:51:22,597 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:51:22
+2015-10-28 11:51:27,596 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:51:27,598 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:51:27"
+}
+2015-10-28 11:51:27,598 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:51:27
+2015-10-28 11:51:32,598 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:51:32,600 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:51:32"
+}
+2015-10-28 11:51:32,600 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:51:32
+2015-10-28 11:51:37,599 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:51:37,601 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:51:37"
+}
+2015-10-28 11:51:37,601 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:51:37
+2015-10-28 11:51:42,600 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:51:42,602 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:51:42"
+}
+2015-10-28 11:51:42,603 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:51:42
+2015-10-28 11:51:47,602 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:51:47,604 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:51:47"
+}
+2015-10-28 11:51:47,604 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:51:47
+2015-10-28 11:51:52,604 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:51:52,605 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:51:52"
+}
+2015-10-28 11:51:52,605 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:51:52
+2015-10-28 11:51:57,605 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:51:57,607 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:51:57"
+}
+2015-10-28 11:51:57,607 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:51:57
+2015-10-28 11:52:02,607 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:52:02,609 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:52:02"
+}
+2015-10-28 11:52:02,609 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:52:02
+2015-10-28 11:52:07,607 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:52:07,610 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:52:07"
+}
+2015-10-28 11:52:07,610 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:52:07
+2015-10-28 11:52:12,609 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:52:12,610 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:52:12"
+}
+2015-10-28 11:52:12,611 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:52:12
+2015-10-28 11:52:17,611 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:52:17,614 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:52:17"
+}
+2015-10-28 11:52:17,614 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:52:17
+2015-10-28 11:52:22,612 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:52:22,617 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:52:22"
+}
+2015-10-28 11:52:22,617 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:52:22
+2015-10-28 11:52:27,616 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:52:27,619 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:52:27"
+}
+2015-10-28 11:52:27,619 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:52:27
+2015-10-28 11:52:32,619 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:52:32,620 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:52:32"
+}
+2015-10-28 11:52:32,621 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:52:32
+2015-10-28 11:52:37,620 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:52:37,622 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:52:37"
+}
+2015-10-28 11:52:37,622 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:52:37
+2015-10-28 11:52:42,621 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:52:42,623 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:52:42"
+}
+2015-10-28 11:52:42,623 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:52:42
+2015-10-28 11:52:47,622 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:52:47,624 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 11:52:47"
+}
+2015-10-28 11:52:47,624 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 11:52:47
+2015-10-28 11:52:52,446 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0x772e626e, /127.0.0.1:56815 :> localhost/127.0.0.1:33333]
+2015-10-28 11:52:52,623 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:52:57,450 [nioEventLoopGroup-2-1] ERROR - Connection refused: localhost/127.0.0.1:33333
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:33333
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:712)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:527)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-28 11:52:57,624 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 11:53:00,407 [nioEventLoopGroup-2-1] DEBUG - Freed 26 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2015-10-28 11:53:02,624 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:38:43,558 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x1e249c25, /127.0.0.1:57236 => localhost/127.0.0.1:33333]
+2015-10-28 13:38:43,569 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-10-28 13:38:43,570 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-10-28 13:38:43,594 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 13:38:43,599 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "eo5a00raoed2t16vfk622ve5l7",
+    metadata: "",
+    zone: "BigFoxServerTime"
+  }
+}
+2015-10-28 13:38:43,606 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-10-28 13:38:48,065 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:38:48,070 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:38:48"
+}
+2015-10-28 13:38:48,070 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:38:48
+2015-10-28 13:38:53,067 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:38:54,939 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:38:54"
+}
+2015-10-28 13:38:54,939 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:38:54
+2015-10-28 13:38:58,068 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:38:58,070 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:38:58"
+}
+2015-10-28 13:38:58,071 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:38:58
+2015-10-28 13:39:03,070 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:39:03,072 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:39:03"
+}
+2015-10-28 13:39:03,072 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:39:03
+2015-10-28 13:39:08,071 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:39:08,074 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:39:08"
+}
+2015-10-28 13:39:08,074 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:39:08
+2015-10-28 13:39:13,073 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:39:13,075 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:39:13"
+}
+2015-10-28 13:39:13,075 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:39:13
+2015-10-28 13:39:18,074 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:39:18,077 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:39:18"
+}
+2015-10-28 13:39:18,077 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:39:18
+2015-10-28 13:39:23,076 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:39:23,078 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:39:23"
+}
+2015-10-28 13:39:23,078 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:39:23
+2015-10-28 13:39:28,078 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:39:28,081 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:39:28"
+}
+2015-10-28 13:39:28,081 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:39:28
+2015-10-28 13:39:33,080 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:39:33,081 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:39:33"
+}
+2015-10-28 13:39:33,082 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:39:33
+2015-10-28 13:39:38,081 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:39:38,083 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:39:38"
+}
+2015-10-28 13:39:38,083 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:39:38
+2015-10-28 13:39:43,082 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:39:43,084 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:39:43"
+}
+2015-10-28 13:39:43,085 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:39:43
+2015-10-28 13:39:48,083 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:39:48,085 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:39:48"
+}
+2015-10-28 13:39:48,085 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:39:48
+2015-10-28 13:39:53,085 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:39:53,087 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:39:53"
+}
+2015-10-28 13:39:53,087 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:39:53
+2015-10-28 13:39:58,086 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:39:58,089 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:39:58"
+}
+2015-10-28 13:39:58,090 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:39:58
+2015-10-28 13:40:03,087 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:40:03,091 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:40:03"
+}
+2015-10-28 13:40:03,092 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:40:03
+2015-10-28 13:40:08,091 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:40:08,093 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:40:08"
+}
+2015-10-28 13:40:08,093 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:40:08
+2015-10-28 13:40:13,092 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:40:13,094 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:40:13"
+}
+2015-10-28 13:40:13,094 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:40:13
+2015-10-28 13:40:18,094 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:40:18,096 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:40:18"
+}
+2015-10-28 13:40:18,096 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:40:18
+2015-10-28 13:40:23,095 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:40:23,097 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:40:23"
+}
+2015-10-28 13:40:23,097 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:40:23
+2015-10-28 13:40:28,097 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:40:28,098 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:40:28"
+}
+2015-10-28 13:40:28,099 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:40:28
+2015-10-28 13:40:33,098 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:40:33,100 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:40:33"
+}
+2015-10-28 13:40:33,100 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:40:33
+2015-10-28 13:40:38,099 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:40:38,101 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:40:38"
+}
+2015-10-28 13:40:38,101 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:40:38
+2015-10-28 13:40:43,101 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:40:43,102 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:40:43"
+}
+2015-10-28 13:40:43,103 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:40:43
+2015-10-28 13:40:48,102 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:40:48,104 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:40:48"
+}
+2015-10-28 13:40:48,104 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:40:48
+2015-10-28 13:40:53,103 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:40:53,105 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:40:53"
+}
+2015-10-28 13:40:53,105 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:40:53
+2015-10-28 13:40:58,104 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:40:58,106 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:40:58"
+}
+2015-10-28 13:40:58,106 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:40:58
+2015-10-28 13:41:03,105 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:41:03,106 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:41:03"
+}
+2015-10-28 13:41:03,106 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:41:03
+2015-10-28 13:41:08,105 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:41:08,107 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:41:08"
+}
+2015-10-28 13:41:08,107 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:41:08
+2015-10-28 13:41:13,106 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:41:13,107 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:41:13"
+}
+2015-10-28 13:41:13,108 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:41:13
+2015-10-28 13:41:18,107 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:41:18,108 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:41:18"
+}
+2015-10-28 13:41:18,108 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:41:18
+2015-10-28 13:41:23,108 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:41:23,109 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:41:23"
+}
+2015-10-28 13:41:23,109 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:41:23
+2015-10-28 13:41:28,109 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:41:28,111 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:41:28"
+}
+2015-10-28 13:41:28,111 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:41:28
+2015-10-28 13:41:33,110 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:41:33,111 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:41:33"
+}
+2015-10-28 13:41:33,112 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:41:33
+2015-10-28 13:41:38,111 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:41:38,113 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:41:38"
+}
+2015-10-28 13:41:38,113 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:41:38
+2015-10-28 13:41:43,112 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:41:43,113 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:41:43"
+}
+2015-10-28 13:41:43,114 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:41:43
+2015-10-28 13:41:48,113 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:41:48,114 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:41:48"
+}
+2015-10-28 13:41:48,115 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:41:48
+2015-10-28 13:41:53,114 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:41:53,116 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:41:53"
+}
+2015-10-28 13:41:53,116 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:41:53
+2015-10-28 13:41:58,116 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:41:58,117 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:41:58"
+}
+2015-10-28 13:41:58,118 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:41:58
+2015-10-28 13:42:03,117 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:42:03,118 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:42:03"
+}
+2015-10-28 13:42:03,119 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:42:03
+2015-10-28 13:42:08,118 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:42:08,119 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:42:08"
+}
+2015-10-28 13:42:08,119 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:42:08
+2015-10-28 13:42:13,119 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:42:13,122 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:42:13"
+}
+2015-10-28 13:42:13,123 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:42:13
+2015-10-28 13:42:18,122 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:42:18,123 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:42:18"
+}
+2015-10-28 13:42:18,123 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:42:18
+2015-10-28 13:42:23,122 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:42:23,123 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:42:23"
+}
+2015-10-28 13:42:23,124 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:42:23
+2015-10-28 13:42:28,123 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:42:28,126 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:42:28"
+}
+2015-10-28 13:42:28,126 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:42:28
+2015-10-28 13:42:33,124 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:42:33,126 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:42:33"
+}
+2015-10-28 13:42:33,126 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:42:33
+2015-10-28 13:42:38,126 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:42:38,127 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 01:42:38"
+}
+2015-10-28 13:42:38,127 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 01:42:38
+2015-10-28 13:42:41,531 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0x1e249c25, /127.0.0.1:57236 :> localhost/127.0.0.1:33333]
+2015-10-28 13:42:43,127 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:42:46,540 [nioEventLoopGroup-2-1] ERROR - Connection refused: localhost/127.0.0.1:33333
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:33333
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:712)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:527)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-28 13:42:48,129 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 13:42:50,863 [nioEventLoopGroup-2-1] DEBUG - Freed 32 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2015-10-28 13:42:53,130 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:42:57,634 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x7f0346e7, /127.0.0.1:49160 => localhost/127.0.0.1:33333]
+2015-10-28 17:42:57,644 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-10-28 17:42:57,645 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-10-28 17:42:57,665 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 17:42:57,669 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "u92jjvik4lhgem45o0a6nmv0vr",
+    metadata: "",
+    zone: "BigFoxServerTime"
+  }
+}
+2015-10-28 17:42:57,683 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-10-28 17:43:02,069 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:43:02,074 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:43:02"
+}
+2015-10-28 17:43:02,074 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:43:02
+2015-10-28 17:43:07,071 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:43:07,073 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:43:07"
+}
+2015-10-28 17:43:07,073 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:43:07
+2015-10-28 17:43:12,072 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:43:12,074 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:43:12"
+}
+2015-10-28 17:43:12,075 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:43:12
+2015-10-28 17:43:14,159 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0x7f0346e7, /127.0.0.1:49160 :> localhost/127.0.0.1:33333]
+2015-10-28 17:43:17,073 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:43:19,165 [nioEventLoopGroup-2-1] ERROR - Connection refused: localhost/127.0.0.1:33333
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:33333
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:712)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:527)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-28 17:43:21,375 [nioEventLoopGroup-2-1] DEBUG - Freed 8 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2015-10-28 17:43:22,075 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:45:29,743 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x3edd3306, /127.0.0.1:49225 => localhost/127.0.0.1:33333]
+2015-10-28 17:45:29,753 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-10-28 17:45:29,754 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-10-28 17:45:29,775 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 17:45:29,778 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "2rbpgde7am0qvotoks8hbprv5k",
+    metadata: "",
+    zone: "BigFoxServerTime"
+  }
+}
+2015-10-28 17:45:29,790 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-10-28 17:45:34,225 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:45:34,232 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:45:34"
+}
+2015-10-28 17:45:34,233 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:45:34
+2015-10-28 17:45:39,226 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:45:39,228 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:45:39"
+}
+2015-10-28 17:45:39,228 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:45:39
+2015-10-28 17:45:44,227 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:45:44,228 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:45:44"
+}
+2015-10-28 17:45:44,228 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:45:44
+2015-10-28 17:45:49,227 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:45:49,229 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:45:49"
+}
+2015-10-28 17:45:49,229 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:45:49
+2015-10-28 17:45:54,228 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:45:54,230 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:45:54"
+}
+2015-10-28 17:45:54,231 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:45:54
+2015-10-28 17:45:59,230 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:45:59,232 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:45:59"
+}
+2015-10-28 17:45:59,232 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:45:59
+2015-10-28 17:46:04,231 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:46:04,233 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:46:04"
+}
+2015-10-28 17:46:04,234 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:46:04
+2015-10-28 17:46:09,232 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:46:09,235 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:46:09"
+}
+2015-10-28 17:46:09,235 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:46:09
+2015-10-28 17:46:14,234 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:46:14,236 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:46:14"
+}
+2015-10-28 17:46:14,237 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:46:14
+2015-10-28 17:46:19,235 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:46:19,237 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:46:19"
+}
+2015-10-28 17:46:19,238 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:46:19
+2015-10-28 17:46:24,237 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:46:24,239 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:46:24"
+}
+2015-10-28 17:46:24,239 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:46:24
+2015-10-28 17:46:29,237 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:46:29,240 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:46:29"
+}
+2015-10-28 17:46:29,240 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:46:29
+2015-10-28 17:46:34,239 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:46:34,241 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:46:34"
+}
+2015-10-28 17:46:34,241 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:46:34
+2015-10-28 17:46:39,240 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:46:39,242 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:46:39"
+}
+2015-10-28 17:46:39,243 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:46:39
+2015-10-28 17:46:44,242 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:46:44,245 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:46:44"
+}
+2015-10-28 17:46:44,245 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:46:44
+2015-10-28 17:46:49,243 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:46:49,247 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:46:49"
+}
+2015-10-28 17:46:49,248 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:46:49
+2015-10-28 17:46:54,247 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:46:54,249 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:46:54"
+}
+2015-10-28 17:46:54,249 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:46:54
+2015-10-28 17:46:59,248 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:46:59,250 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:46:59"
+}
+2015-10-28 17:46:59,251 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:46:59
+2015-10-28 17:47:04,250 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:47:04,252 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:47:04"
+}
+2015-10-28 17:47:04,252 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:47:04
+2015-10-28 17:47:09,251 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:47:09,253 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:47:09"
+}
+2015-10-28 17:47:09,253 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:47:09
+2015-10-28 17:47:14,252 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:47:14,254 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:47:14"
+}
+2015-10-28 17:47:14,254 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:47:14
+2015-10-28 17:47:19,254 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:47:19,255 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:47:19"
+}
+2015-10-28 17:47:19,256 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:47:19
+2015-10-28 17:47:24,255 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:47:24,257 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:47:24"
+}
+2015-10-28 17:47:24,258 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:47:24
+2015-10-28 17:47:29,255 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:47:29,257 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:47:29"
+}
+2015-10-28 17:47:29,258 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:47:29
+2015-10-28 17:47:34,256 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:47:34,258 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:47:34"
+}
+2015-10-28 17:47:34,258 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:47:34
+2015-10-28 17:47:39,258 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:47:39,259 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:47:39"
+}
+2015-10-28 17:47:39,260 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:47:39
+2015-10-28 17:47:44,258 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:47:44,260 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:47:44"
+}
+2015-10-28 17:47:44,260 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:47:44
+2015-10-28 17:47:49,259 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:47:49,262 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:47:49"
+}
+2015-10-28 17:47:49,263 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:47:49
+2015-10-28 17:47:54,262 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:47:54,264 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:47:54"
+}
+2015-10-28 17:47:54,264 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:47:54
+2015-10-28 17:47:59,263 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:47:59,265 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:47:59"
+}
+2015-10-28 17:47:59,266 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:47:59
+2015-10-28 17:48:03,328 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0x3edd3306, /127.0.0.1:49225 :> localhost/127.0.0.1:33333]
+2015-10-28 17:48:04,265 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:48:08,337 [nioEventLoopGroup-2-1] ERROR - Connection refused: localhost/127.0.0.1:33333
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:33333
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:712)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:527)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-28 17:48:09,266 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:48:12,026 [nioEventLoopGroup-2-1] DEBUG - Freed 32 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2015-10-28 17:48:14,269 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:50:35,697 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x9827da84, /127.0.0.1:49388 => localhost/127.0.0.1:33333]
+2015-10-28 17:50:35,708 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2015-10-28 17:50:35,709 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2015-10-28 17:50:35,733 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2015-10-28 17:50:35,736 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "ifat4gq92ipd95u52f7k309l03",
+    metadata: "",
+    zone: "BigFoxServerTime"
+  }
+}
+2015-10-28 17:50:35,747 [nioEventLoopGroup-2-1] INFO - SCInitSession {
+  sessionStatus: 1
+}
+2015-10-28 17:50:40,219 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:50:40,224 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:50:40"
+}
+2015-10-28 17:50:40,224 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:50:40
+2015-10-28 17:50:45,221 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:50:50,222 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:50:50,329 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:50:50"
+}
+2015-10-28 17:50:50,329 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:50:50
+2015-10-28 17:50:50,333 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:50:50"
+}
+2015-10-28 17:50:50,333 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:50:50
+2015-10-28 17:50:55,224 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:50:55,226 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:50:55"
+}
+2015-10-28 17:50:55,226 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:50:55
+2015-10-28 17:51:00,225 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:51:00,227 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:51:00"
+}
+2015-10-28 17:51:00,227 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:51:00
+2015-10-28 17:51:05,226 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:51:05,228 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:51:05"
+}
+2015-10-28 17:51:05,228 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:51:05
+2015-10-28 17:51:10,228 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:51:10,230 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:51:10"
+}
+2015-10-28 17:51:10,230 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:51:10
+2015-10-28 17:51:15,229 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:51:15,231 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:51:15"
+}
+2015-10-28 17:51:15,231 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:51:15
+2015-10-28 17:51:20,230 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:51:20,232 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:51:20"
+}
+2015-10-28 17:51:20,233 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:51:20
+2015-10-28 17:51:25,232 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:51:25,234 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:51:25"
+}
+2015-10-28 17:51:25,234 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:51:25
+2015-10-28 17:51:30,234 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:51:30,236 [nioEventLoopGroup-2-1] INFO - SCGetTime {
+  serverTime: "2015/10/28 05:51:30"
+}
+2015-10-28 17:51:30,237 [nioEventLoopGroup-2-1] INFO - Server time: 2015/10/28 05:51:30
+2015-10-28 17:51:32,987 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0x9827da84, /127.0.0.1:49388 :> localhost/127.0.0.1:33333]
+2015-10-28 17:51:35,235 [Thread-0] INFO - CSGetTime {
+
+}
+2015-10-28 17:51:37,991 [nioEventLoopGroup-2-1] ERROR - Connection refused: localhost/127.0.0.1:33333
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:33333
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:712)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:527)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-28 17:51:40,204 [nioEventLoopGroup-2-1] DEBUG - Freed 16 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2015-10-28 17:51:40,236 [Thread-0] INFO - CSGetTime {
+
+}

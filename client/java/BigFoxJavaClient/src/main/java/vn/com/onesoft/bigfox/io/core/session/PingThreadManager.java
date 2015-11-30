@@ -16,7 +16,8 @@ public class PingThreadManager {
     private long idConnection = 0;
 
     private static PingThreadManager _instance;
-
+    public static int timeSleep = 5; //s
+    
     public static PingThreadManager getInstance() {
         if (_instance == null) {
             _instance = new PingThreadManager();
@@ -33,7 +34,7 @@ public class PingThreadManager {
                     ConnectionManager.getInstance().write(new CSPing());
 
                     try {
-                        Thread.sleep(5000);
+                        Thread.sleep(timeSleep * 1000);
                     } catch (InterruptedException e) {
 
                     }

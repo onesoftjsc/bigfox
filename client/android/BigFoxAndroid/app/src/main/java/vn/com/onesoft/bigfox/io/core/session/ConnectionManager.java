@@ -1,24 +1,21 @@
 package vn.com.onesoft.bigfox.io.core.session;
 
+import android.util.SparseArray;
+
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.Vector;
 
 import vn.com.onesoft.bigfox.MainActivity;
 import vn.com.onesoft.bigfox.io.core.compress.CompressManager;
 import vn.com.onesoft.bigfox.io.core.encrypt.EncryptManager;
-import vn.com.onesoft.bigfox.io.core.pack.BFPacker;
 import vn.com.onesoft.bigfox.io.message.BaseMessage;
 import vn.com.onesoft.bigfox.io.message.MessageBuffer;
 import vn.com.onesoft.bigfox.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.io.message.core.sc.SCInitSession;
 import vn.com.onesoft.bigfox.io.message.core.sc.SCValidationCode;
-
-import android.util.SparseArray;
 
 public class ConnectionManager implements Runnable {
 
@@ -39,7 +36,7 @@ public class ConnectionManager implements Runnable {
     public String sessionId = "";
 
     private static ConnectionManager _instance = null;
-
+    public static int timeRetriesToReconnect = 4;//times
     private boolean isOnline = false;
     public boolean isValidationReceived = false;
     private ISessionControl sessionControl = new DefaultSessionControl();
@@ -63,7 +60,7 @@ public class ConnectionManager implements Runnable {
         byte[] buffer = new byte[10000];
 
         while (true) {
-            if (isOnline && (System.currentTimeMillis() - lastPingReceivedTime) < 20000) {
+            if (isOnline && (System.currentTimeMillis() - lastPingReceivedTime) < timeRetriesToReconnect * PingThreadManager.pingPeriod * 1000) {
                 try {
                     int readSize = inS.read(buffer);
                     if (readSize >= 0) {

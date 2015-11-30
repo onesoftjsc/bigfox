@@ -37,6 +37,7 @@ public class Main {
         IBFZone zone = BFZoneManager.getInstance().loadZone(new File(".").getCanonicalPath() + "/target/BigFoxServerChatExample");
         try {
             zone.setMonitorFolder(new File(".").getCanonicalPath() + "/target/classes");
+            zone.setSessionTimeout(30);
         } catch (IOException ex) {
             Logger.getLogger(ChatActivity.class.getName()).log(Level.SEVERE, null, ex);
         }

@@ -17,6 +17,10 @@ public class SCInitSession extends BaseMessage implements IMessageIn {
 
     @Property(name = "sessionStatus")
     public int sessionStatus;
+    @Property(name="pingPeriod")
+    public int pingPeriod;
+    @Property(name="timeRetriesToReconnect")
+    public int timeRetriesToReconnect;
 
     public static final int START_NEW_SESSION = 0x01;
     public static final int CONTINUE_OLD_SESSION = 0x02;
@@ -27,9 +31,13 @@ public class SCInitSession extends BaseMessage implements IMessageIn {
     	if (sessionStatus == START_NEW_SESSION){
     		ConnectionManager.getInstance().onStartNewSession();
     		PingThreadManager.getInstance();
+            PingThreadManager.pingPeriod = this.pingPeriod;
+            ConnectionManager.timeRetriesToReconnect = timeRetriesToReconnect;
     	}else{
     		ConnectionManager.getInstance().resendOldMessages();
     		ConnectionManager.getInstance().onContinueOldSession();
+            PingThreadManager.pingPeriod = this.pingPeriod;
+            ConnectionManager.timeRetriesToReconnect = timeRetriesToReconnect;
     	}
     }
     

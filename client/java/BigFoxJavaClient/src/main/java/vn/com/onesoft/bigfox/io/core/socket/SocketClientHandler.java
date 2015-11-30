@@ -13,6 +13,7 @@ import vn.com.onesoft.bigfox.io.core.compress.BFCompressManager;
 import vn.com.onesoft.bigfox.io.core.encrypt.BFEncryptManager;
 import vn.com.onesoft.bigfox.io.core.pack.BFPacker;
 import vn.com.onesoft.bigfox.io.core.session.ConnectionManager;
+import vn.com.onesoft.bigfox.io.core.session.PingThreadManager;
 import vn.com.onesoft.bigfox.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.io.message.base.MessageExecute;
 
@@ -58,7 +59,7 @@ public class SocketClientHandler extends ChannelInboundHandlerAdapter {
         BFLogger.getInstance().info("ChannelClosed: " + ctx.channel());
         ctx.close();
         try {
-            Thread.sleep(5000);
+            Thread.sleep(1000);
         } catch (InterruptedException ex) {
             
         }

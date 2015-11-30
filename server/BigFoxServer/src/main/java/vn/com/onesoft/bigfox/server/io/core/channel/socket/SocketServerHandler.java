@@ -4,17 +4,12 @@
  */
 package vn.com.onesoft.bigfox.server.io.core.channel.socket;
 
-import com.google.common.collect.MapMaker;
 import io.netty.buffer.ByteBuf;
-import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.handler.timeout.IdleState;
-import io.netty.handler.timeout.IdleStateEvent;
-import java.util.Map;
 import java.util.Random;
-import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
+import javax.mail.Session;
 import vn.com.onesoft.bigfox.server.io.core.data.compress.BFCompressManager;
 import vn.com.onesoft.bigfox.server.io.core.data.encrypt.BFEncryptManager;
 import vn.com.onesoft.bigfox.server.io.core.data.pack.BFPacker;
@@ -77,15 +72,20 @@ public class SocketServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelInactive(ChannelHandlerContext ctx) {
         BFLogger.getInstance().info("ChannelClosed: " + ctx.channel());
+        IBFSession session = BFSessionManager.getInstance().getSessionByChannel(ctx.channel());
+        if (session != null && session.getChannel() == ctx.channel()) {
+            session.close();
+        }
         BFSessionManager.getInstance().onChannelClose(ctx.channel());
         Main.allChannels.remove(ctx.channel());
         BFEncryptManager.mapChannelToValidationCode.remove(ctx.channel());
+
     }
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        BFLogger.getInstance().info("ERROR: " + ctx.channel());
         BFLogger.getInstance().error(cause.getMessage(), cause);
-        BFSessionManager.getInstance().onChannelClose(ctx.channel());
     }
 
     @Override
