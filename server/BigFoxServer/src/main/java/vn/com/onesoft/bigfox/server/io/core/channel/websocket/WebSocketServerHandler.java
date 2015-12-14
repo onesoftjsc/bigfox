@@ -23,6 +23,7 @@ import java.util.Random;
 import vn.com.onesoft.bigfox.server.io.core.data.compress.BFCompressManager;
 import vn.com.onesoft.bigfox.server.io.core.data.encrypt.BFEncryptManager;
 import vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager;
+import vn.com.onesoft.bigfox.server.io.core.business.session.IBFSession;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageExecute;
 import vn.com.onesoft.bigfox.server.io.message.core.sc.SCValidationCode;
@@ -41,6 +42,10 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
+        IBFSession session = BFSessionManager.getInstance().getSessionByChannel(ctx.channel());
+        if (session != null) {
+            session.setLastTimeReceive(System.currentTimeMillis());
+        }
         if (msg instanceof FullHttpRequest) {
             handleHttpRequest(ctx, (FullHttpRequest) msg);
         } else if (msg instanceof WebSocketFrame) {
@@ -127,16 +132,31 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         super.channelInactive(ctx); //To change body of generated methods, choose Tools | Templates.
+        BFLogger.getInstance().info("channelActive : " + ctx.channel());
+        Main.allChannels.add(ctx.channel());
+        Random r = new Random();
+        int validationCode = 0; // r.nextInt();
+        BFSessionManager.getInstance().sendMessage(ctx.channel(), new SCValidationCode(validationCode));
+        BFEncryptManager.mapChannelToValidationCode.put(ctx.channel(), validationCode);
+
+    }
+
+    @Override
+    public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        super.channelActive(ctx); //To change body of generated methods, choose Tools | Templates.
+        BFLogger.getInstance().info("ChannelClosed: " + ctx.channel());
+        IBFSession session = BFSessionManager.getInstance().getSessionByChannel(ctx.channel());
+        if (session != null && session.getChannel() == ctx.channel()) {
+            session.close();
+        }
         BFSessionManager.getInstance().onChannelClose(ctx.channel());
         Main.allChannels.remove(ctx.channel());
-        Main.mapChannelWebSocket.remove(ctx.channel());
         BFEncryptManager.mapChannelToValidationCode.remove(ctx.channel());
-
-        BFLogger.getInstance().info("Channel Closed " + ctx.channel());
     }
 
     @Override
     protected void channelRead0(ChannelHandlerContext chc, Object i) throws Exception {
-
+        
     }
+
 }

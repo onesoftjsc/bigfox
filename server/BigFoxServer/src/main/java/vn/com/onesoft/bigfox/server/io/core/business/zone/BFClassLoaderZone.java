@@ -58,6 +58,7 @@ public class BFClassLoaderZone extends ClassLoader {
             byte[] classData = buffer.toByteArray();
             String classPath = file.getName();
             String className = classPath.replace(File.separatorChar, '.').substring(0, classPath.length() - 6);
+            className = className.replace('/', '.').substring(0, classPath.length() - 6);
             className = className.substring(className.indexOf(".vn.") + 1);
             BFLogger.getInstance().info("define class " + className);
             Class cl = defineClass(className,
