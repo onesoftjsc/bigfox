@@ -21,6 +21,8 @@ public class BFConfig {
     private int portWebSocket;
     private int portTelnet;
     private int sessionTimeout;
+    private String certificateFile;
+    private String privateFile;
 
     private boolean enableZip;
     private String[] reloadClassPaths = null;
@@ -29,7 +31,6 @@ public class BFConfig {
 
     public static String APPLICATION_FOLDER = "applications";
     public static String AUTODEPLOY_FOLDER = "autodeploys";
-    
 
     public static BFConfig getInstance() {
         if (_instance == null) {
@@ -53,6 +54,8 @@ public class BFConfig {
             this.enableZip = (Integer.parseInt(doc.getElementsByTagName("enable_zip").item(0).getChildNodes().item(0).getNodeValue()) == 1);
             this.reloadClassPaths = doc.getElementsByTagName("reload_class_path").item(0).getChildNodes().item(0).getNodeValue().split(";");
             this.sessionTimeout = Integer.parseInt(doc.getElementsByTagName("session_timeout").item(0).getChildNodes().item(0).getNodeValue());
+            this.certificateFile = doc.getElementsByTagName("certificate_file").item(0).getChildNodes().item(0).getNodeValue();
+            this.privateFile = doc.getElementsByTagName("private_file").item(0).getChildNodes().item(0).getNodeValue();
         } catch (Exception ex) {
             BFLogger.getInstance().error(ex.getMessage(), ex);
             System.exit(0);
@@ -90,6 +93,20 @@ public class BFConfig {
 
     public int getSessionTimeout() {
         return sessionTimeout;
+    }
+
+    /**
+     * @return the certificateFile
+     */
+    public String getCertificateFile() {
+        return certificateFile;
+    }
+
+    /**
+     * @return the privateFile
+     */
+    public String getPrivateFile() {
+        return privateFile;
     }
 
 }

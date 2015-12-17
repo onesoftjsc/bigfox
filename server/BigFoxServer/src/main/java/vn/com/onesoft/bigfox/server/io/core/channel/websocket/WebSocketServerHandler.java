@@ -17,6 +17,7 @@ import io.netty.handler.codec.http.websocketx.PongWebSocketFrame;
 import io.netty.handler.codec.http.websocketx.WebSocketFrame;
 import io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker;
 import io.netty.handler.codec.http.websocketx.WebSocketServerHandshakerFactory;
+import io.netty.handler.ssl.SslHandshakeCompletionEvent;
 import io.netty.util.concurrent.Future;
 import io.netty.util.concurrent.GenericFutureListener;
 import java.util.Random;
@@ -57,6 +58,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) {
         ctx.flush();
+        
     }
 
     private void handleHttpRequest(final ChannelHandlerContext ctx, FullHttpRequest req) {
@@ -66,7 +68,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
                 getWebSocketLocation(req), null, true);
         handshaker = wsFactory.newHandshaker(req);
         if (handshaker == null) {
-//            WebSocketServerHandshakerFactory.sendUnsupportedVersionResponse(ctx.channel());
+            WebSocketServerHandshakerFactory.sendUnsupportedVersionResponse(ctx.channel());
         } else {
             handshaker.handshake(ctx.channel(), req).addListener(new GenericFutureListener() {
 
@@ -122,17 +124,15 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
 
     private static String getWebSocketLocation(FullHttpRequest req) {
         String location = req.headers().get(HOST) + WEBSOCKET_PATH;
-//        if (WebSocketServer.SSL) {
-//            return "wss://" + location;
-//        } else {
-        return "ws://" + location;
-//        }
+
+        return "wss://" + location;
+
     }
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         super.channelInactive(ctx); //To change body of generated methods, choose Tools | Templates.
-        BFLogger.getInstance().info("channelActive : " + ctx.channel());
+        BFLogger.getInstance().info("channelInActive : " + ctx.channel());
         Main.allChannels.add(ctx.channel());
         Random r = new Random();
         int validationCode = 0; // r.nextInt();
@@ -144,7 +144,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         super.channelActive(ctx); //To change body of generated methods, choose Tools | Templates.
-        BFLogger.getInstance().info("ChannelClosed: " + ctx.channel());
+        BFLogger.getInstance().info("ChannelActive: " + ctx.channel());
         IBFSession session = BFSessionManager.getInstance().getSessionByChannel(ctx.channel());
         if (session != null && session.getChannel() == ctx.channel()) {
             session.close();
@@ -158,5 +158,18 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
     protected void channelRead0(ChannelHandlerContext chc, Object i) throws Exception {
         
     }
+    
+    
+    @Override
+    public void userEventTriggered(ChannelHandlerContext ctx, Object evt) {
+    if (evt instanceof SslHandshakeCompletionEvent) {
+        if (!((SslHandshakeCompletionEvent) evt).isSuccess()) {
+                   SslHandshakeCompletionEvent evs = (SslHandshakeCompletionEvent) evt;
+            BFLogger.getInstance().error(evs, evs.cause());
+        }
+        
+
+    }
+}
 
 }

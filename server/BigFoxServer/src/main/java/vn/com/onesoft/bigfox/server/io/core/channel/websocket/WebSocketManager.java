@@ -12,7 +12,12 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
-import javafx.application.Application;
+import io.netty.handler.ssl.SslContext;
+import io.netty.handler.ssl.SslContextBuilder;
+import io.netty.handler.ssl.util.SelfSignedCertificate;
+import java.io.File;
+import java.security.cert.CertificateException;
+import javax.net.ssl.SSLException;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.main.BFConfig;
 
@@ -31,7 +36,11 @@ public class WebSocketManager {
 
                 @Override
                 public void run() {
-                    _instance.init();
+                    try {
+                        _instance.init();
+                    } catch (Exception ex) {
+                        BFLogger.getInstance().error(ex.getMessage(), ex);
+                    }
                 }
             }).start();
         }
@@ -39,8 +48,14 @@ public class WebSocketManager {
         return _instance;
     }
 
-    private void init() {
+    private void init() throws CertificateException, SSLException {
 
+        SslContext sslCtx = null;
+        try {
+            sslCtx = SslContextBuilder.forServer(new File(BFConfig.getInstance().getCertificateFile()), new File(BFConfig.getInstance().getPrivateFile())).build();
+        } catch (Exception ex) {
+
+        }
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
@@ -48,7 +63,7 @@ public class WebSocketManager {
             b.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
                     .handler(new LoggingHandler(LogLevel.INFO))
-                    .childHandler(new WebSocketServerInitializer());
+                    .childHandler(new WebSocketServerInitializer(sslCtx));
             BFLogger.getInstance().info("WebSocket start at port " + BFConfig.getInstance().getPortWebSocket());
             Channel ch = b.bind(BFConfig.getInstance().getPortWebSocket()).sync().channel();
 
