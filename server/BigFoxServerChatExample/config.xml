@@ -5,4 +5,5 @@
     <enable_zip>1</enable_zip>
     <reload_class_path>/Users/phamquan/github/bigfox/server/BigFoxServer/target/classes/vn/com/onesoft/bigfox/server/io/message/user/cs</reload_class_path>
     <session_timeout>300</session_timeout>
+    <
 </configuration>
