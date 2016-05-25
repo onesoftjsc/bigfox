@@ -42,7 +42,7 @@ public class BFClassLoaderZone extends ClassLoader {
             java.util.jar.JarEntry file = (java.util.jar.JarEntry) enumEntries.nextElement();
             if (!file.getName().contains(".class"))
                 continue;
-            if (Main.isDebug && !file.getName().contains("CS") && !file.getName().contains("SC")  )
+            if (Main.isDebug && !file.getName().contains("CS") && !file.getName().contains("SC") )
                 continue;
             java.io.InputStream input = jar.getInputStream(file);
             ByteArrayOutputStream buffer = new ByteArrayOutputStream();

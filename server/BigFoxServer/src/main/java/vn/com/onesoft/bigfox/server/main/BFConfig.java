@@ -5,11 +5,11 @@
  */
 package vn.com.onesoft.bigfox.server.main;
 
+import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import java.io.File;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
-import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 
 /**
  *

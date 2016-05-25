@@ -33,7 +33,7 @@ public class MonitorFileChanged extends Thread {
         while (true) {
 
             try {
-//                BFZoneManager.getInstance().reloadChangedZones();
+                BFZoneManager.getInstance().reloadChangedZones();
                 Thread.sleep(1000);
             } catch (Exception ex) {
                 BFLogger.getInstance().error(ex.getMessage(), ex);
