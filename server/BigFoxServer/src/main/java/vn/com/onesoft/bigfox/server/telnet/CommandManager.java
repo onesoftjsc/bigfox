@@ -54,7 +54,7 @@ public class CommandManager {
             response = "Have a good day!";
             close = true;
         } else {
-            String[] args = request.split(" ");
+            String[] args = request.split(";");
             String commandName = args[0];
             String commandClassName = CommandManager.COMMAND_PREFIX + commandName;
             ArrayList<String> argList = new ArrayList<String>();
