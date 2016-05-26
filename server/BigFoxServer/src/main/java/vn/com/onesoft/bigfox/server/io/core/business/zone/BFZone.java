@@ -26,6 +26,7 @@ import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageOut;
 import vn.com.onesoft.bigfox.server.main.BFConfig;
 import vn.com.onesoft.bigfox.server.main.Main;
+import vn.com.onesoft.bigfox.server.telnet.TelnetClassLoader;
 
 /**
  *
@@ -118,10 +119,12 @@ public class BFZone implements IBFZone {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    
     private void loadZone() throws Exception {
         loadFolder(absolutePath);
         loadJar(absolutePath + "/" + getSimpleName() + ".jar");
-
+        TelnetClassLoader.getInstance().loadJar(absolutePath + "/" + getSimpleName() + ".jar");
+        
         //Find Activity
         Iterator itA = zoneCL.getMapPathToClass().values().iterator();
         while (itA.hasNext()) {

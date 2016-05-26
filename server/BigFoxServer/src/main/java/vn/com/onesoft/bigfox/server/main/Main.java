@@ -37,6 +37,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         isDebug = false;
         BFZoneManager.getInstance();
+
         Extracter.getInstance();
         MessageExecute.getInstance();
 //        Scanner.getInstance();
