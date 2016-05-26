@@ -9,6 +9,8 @@ import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
 import java.io.File;
 import java.util.ArrayList;
+import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZone;
+import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneManager;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.main.Main;
 
@@ -77,7 +79,8 @@ public class CommandManager {
             }
             try {
                 String classPath = "vn.com.onesoft.bigfox.server.telnet." + commandClassName;
-                Class cls = TelnetClassLoader.getInstance().getClass(classPath);
+                BFZone zone = (BFZone)BFZoneManager.getInstance().mapTelnetPathToZone.get(classPath);
+                Class cls = zone.getTelnetClass(classPath);
                 Command command = (Command) cls.newInstance();
                 command.setArgs(argList);
                 response = command.execute();

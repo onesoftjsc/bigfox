@@ -5,6 +5,7 @@
  */
 package vn.com.onesoft.bigfox.server.telnet;
 
+import com.google.common.collect.MapMaker;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -15,6 +16,8 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
+import java.util.Map;
+import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZone;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.main.BFConfig;
 
@@ -39,6 +42,8 @@ public class TelnetManager {
         }
         return _instance;
     }
+
+    public Map<String, BFZone> mapTelnetPathToZone = new MapMaker().makeMap();
 
     private void init() {
         EventLoopGroup bossGroup = new NioEventLoopGroup();

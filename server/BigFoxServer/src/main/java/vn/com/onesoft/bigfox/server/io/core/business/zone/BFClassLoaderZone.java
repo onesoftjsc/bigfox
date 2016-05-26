@@ -27,6 +27,7 @@ import vn.com.onesoft.bigfox.server.main.Main;
 public class BFClassLoaderZone extends ClassLoader {
 
     private Map<String, Class> mapPathToClass = new MapMaker().makeMap();
+    Map<String, Class> mapTelnetPathToClass = new MapMaker().makeMap();
     private Hashtable classes = new Hashtable();
     IBFZone zone;
 
@@ -40,10 +41,12 @@ public class BFClassLoaderZone extends ClassLoader {
         java.util.Enumeration enumEntries = jar.entries();
         while (enumEntries.hasMoreElements()) {
             java.util.jar.JarEntry file = (java.util.jar.JarEntry) enumEntries.nextElement();
-            if (!file.getName().contains(".class"))
+            if (!file.getName().contains(".class")) {
                 continue;
-            if (Main.isDebug && !file.getName().contains("CS") && !file.getName().contains("SC") )
+            }
+            if (Main.isDebug && !file.getName().contains("CS") && !file.getName().contains("SC") && !file.getName().contains("CMD")) {
                 continue;
+            }
             java.io.InputStream input = jar.getInputStream(file);
             ByteArrayOutputStream buffer = new ByteArrayOutputStream();
             int data = input.read();
@@ -63,7 +66,12 @@ public class BFClassLoaderZone extends ClassLoader {
             BFLogger.getInstance().info("define class " + className);
             Class cl = defineClass(className,
                     classData, 0, classData.length);
-            mapPathToClass.put(classPath, cl);
+            if (!className.contains("CMD")) {
+                mapPathToClass.put(classPath, cl);
+            } else {
+                BFZoneManager.getInstance().mapTelnetPathToZone.put(className, zone);
+                mapTelnetPathToClass.put(className, cl);
+            }
 
         }
     }
@@ -161,4 +169,13 @@ public class BFClassLoaderZone extends ClassLoader {
         }
         return null;
     }
+
+    Class getTelnetClass(String path) throws ClassNotFoundException {
+        if (mapTelnetPathToClass.get(path) != null) {
+            return mapTelnetPathToClass.get(path);
+        } else {
+            return loadClass(path);
+        }
+    }
+
 }
