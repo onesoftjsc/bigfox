@@ -24,7 +24,7 @@ public class CSClientInfo extends MessageIn {
     private ClientInfo clientInfo;
     
     @Override
-    public void execute(Channel channel) {
+    public void execute() {
 
     }
 

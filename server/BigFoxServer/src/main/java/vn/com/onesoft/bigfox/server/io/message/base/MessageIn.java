@@ -4,11 +4,12 @@
  */
 package vn.com.onesoft.bigfox.server.io.message.base;
 
-import io.netty.channel.Channel;
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
-
-
+import vn.com.onesoft.bigfox.server.io.core.business.session.BFSession;
+import vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager;
+import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneManager;
+import vn.com.onesoft.bigfox.server.io.core.business.zone.IBFZone;
 
 /**
  *
@@ -22,17 +23,28 @@ public abstract class MessageIn extends BaseMessage {
     DataInputStream in;
     public final static int _HEADER_LENGTH = 17;
 
+    BFSession session;
+
     public MessageIn() {
     }
 
-    public MessageIn(byte[] data, Channel channel) {
-        if (data == null) {
-            return;
-        }
-        this.data = data; //phucpq add
-        byteArrayInput = new ByteArrayInputStream(data);
-        in = new DataInputStream(byteArrayInput);
+    public BFSession getBFSession() {
+        return session;
     }
 
-    public abstract void execute(Channel channel);
+    public void setBFSession(BFSession session) {
+        this.session = session;
+    }
+
+    public void sendMessage(MessageOut mOut) {
+        BFSessionManager.getInstance().sendMessage(this.getBFSession().getChannel(), mOut);
+    }
+
+    public void sendMessageToAll(MessageOut mOut) {
+        IBFZone zone = BFZoneManager.getInstance().getZone(this.getBFSession().getChannel());
+
+        zone.sendMessageToAll(mOut);
+    }
+
+    public abstract void execute();
 }

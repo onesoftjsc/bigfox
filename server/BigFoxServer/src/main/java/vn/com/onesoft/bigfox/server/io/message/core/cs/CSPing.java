@@ -25,8 +25,8 @@ public class CSPing extends MessageIn {
     private long clientTime;
     
     @Override
-    public void execute(Channel channel) {
-        BFSessionManager.getInstance().sendMessage(channel, new SCPing());
+    public void execute() {
+        BFSessionManager.getInstance().sendMessage(this.getBFSession().getChannel(), new SCPing());
     }
     
 }

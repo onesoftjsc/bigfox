@@ -9,7 +9,6 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import java.util.Random;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
-import javax.mail.Session;
 import vn.com.onesoft.bigfox.server.io.core.data.compress.BFCompressManager;
 import vn.com.onesoft.bigfox.server.io.core.data.encrypt.BFEncryptManager;
 import vn.com.onesoft.bigfox.server.io.core.data.pack.BFPacker;

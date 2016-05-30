@@ -9,12 +9,12 @@ import com.google.common.collect.MapMaker;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
+import java.lang.reflect.Method;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
-import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZone;
 import vn.com.onesoft.bigfox.server.io.core.data.compress.BFCompressManager;
 import vn.com.onesoft.bigfox.server.io.core.data.encrypt.BFEncryptManager;
 import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneManager;
@@ -43,9 +43,9 @@ public class BFSessionManager {
     private static BFSessionManager _instance;
     private IBFSessionEvent sessionEvent = new BFDefaultSessionEvent();
 
-    ScheduledExecutorService scheduledExecutorService =
-        Executors.newScheduledThreadPool(15);
-    
+    ScheduledExecutorService scheduledExecutorService
+            = Executors.newScheduledThreadPool(15);
+
     public static BFSessionManager getInstance() {
         if (_instance == null) {
             _instance = new BFSessionManager();
@@ -181,7 +181,7 @@ public class BFSessionManager {
                 bfSession.setChannel(channel);
                 mapChannelToSession.put(channel, bfSession);
                 bfSession.setClientInfo(csClientInfo.getClientInfo());
-                write(channel, new SCInitSession(SCInitSession.CONTINUE_OLD_SESSION,  bfZone.getPingPeriod(), bfZone.getReconnectRetries()));
+                write(channel, new SCInitSession(SCInitSession.CONTINUE_OLD_SESSION, bfZone.getPingPeriod(), bfZone.getReconnectRetries()));
                 bfSession.reSendMessageFromQueue();
                 sessionEvent.reconnectSession(bfSession);
             }
@@ -197,10 +197,16 @@ public class BFSessionManager {
                 session.cleanOutMessageQueue(mIn);
             }
         }
-        mIn.execute(channel);
+//        try {
+//            Method method = mIn.getClass().getDeclaredMethod("setBFSession", BFSession.class);
+//            method.setAccessible(true);
+//            method.invoke(mIn, session);
+//        } catch (Exception ex) {
+//           BFLogger.getInstance().error(ex.getMessage(), ex);
+//        }
+        mIn.setBFSession((BFSession)session);
+        mIn.execute();
     }
-
-   
 
     public void onChannelClose(Channel channel) {
         IBFSession session = this.getSessionByChannel(channel);
@@ -218,8 +224,8 @@ public class BFSessionManager {
     public void setSessionEvent(IBFSessionEvent sessionEvent) {
         this.sessionEvent = sessionEvent;
     }
-    
-    public IBFSessionEvent getSessionEvent(){
+
+    public IBFSessionEvent getSessionEvent() {
         return this.sessionEvent;
     }
 }
