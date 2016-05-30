@@ -35,18 +35,16 @@ public class CSChat extends MessageIn {
     private String msg;
 
     @Override
-    public void execute(Channel channel) {
+    public void execute() {
          BFLogger.getInstance().info("ClassLoader CSChat " + this.getClass().getClassLoader());
          
-        IBFSession session = BFSessionManager.getInstance().getSessionByChannel(channel);
+        IBFSession session = BFSessionManager.getInstance().getSessionByChannel(this.getBFSession().getChannel());
         String name = Main.mapSessionToName.get(session);
         int hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
         int mi = Calendar.getInstance().get(Calendar.MINUTE);
         int sec = Calendar.getInstance().get(Calendar.SECOND);
         String time = "" + hour + ":" + mi + ":" + sec;
-        IBFZone zone = BFZoneManager.getInstance().getZone(channel);
-
-        zone.sendMessageToAll(new SCChat(time + "\n" + name + ": "+  msg));
+        sendMessageToAll(new SCChat(time + "c\n" + name + ": "+  msg));
 
         Session sessionH = HibernateFactoryUtil.getInstance().getCurrentSession();
         Transaction tx = null;
