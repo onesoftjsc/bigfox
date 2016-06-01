@@ -226,5 +226,9 @@ ScheduledFuture scheduledFuture = null;
         scheduledFuture.cancel(true);
         BFSessionManager.getInstance().removeSession(this);
     }
+    
+    public void sendMessage(MessageOut mOut){
+        BFSessionManager.getInstance().sendMessage(channel, mOut);
+    }
 
 }
