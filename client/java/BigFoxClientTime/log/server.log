@@ -1,7 +1,46 @@
-2015-11-30 09:58:48,343 [main] ERROR - Connection refused: localhost/127.0.0.1:33333
-java.net.ConnectException: Connection refused: localhost/127.0.0.1:33333
+2016-06-09 18:03:08,376 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x2da543fa, /127.0.0.1:63503 => localhost/127.0.0.1:55555]
+2016-06-09 18:03:08,390 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2016-06-09 18:03:08,392 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2016-06-09 18:03:08,429 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:03:08,436 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "92l303ggbflum5lrrhe6hnm1d9",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:03:08,452 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0x2da543fa, /127.0.0.1:63503 :> localhost/127.0.0.1:55555]
+2016-06-09 18:03:12,803 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:03:13,467 [nioEventLoopGroup-4-1] INFO - Client connected!: [id: 0x87643b8b, /127.0.0.1:63506 => localhost/127.0.0.1:55555]
+2016-06-09 18:03:13,490 [nioEventLoopGroup-4-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:03:13,490 [nioEventLoopGroup-4-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "92l303ggbflum5lrrhe6hnm1d9",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:03:13,494 [nioEventLoopGroup-4-1] INFO - ChannelClosed: [id: 0x87643b8b, /127.0.0.1:63506 :> localhost/127.0.0.1:55555]
+2016-06-09 18:03:15,707 [nioEventLoopGroup-2-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2016-06-09 18:03:17,809 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:03:18,498 [nioEventLoopGroup-4-1] ERROR - Connection refused: localhost/127.0.0.1:55555
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:55555
 	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:712)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
 	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:527)
@@ -11,7 +50,575 @@ java.net.ConnectException: Connection refused: localhost/127.0.0.1:33333
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
 	at java.lang.Thread.run(Thread.java:745)
-2015-11-30 09:58:52,647 [Thread-0] INFO - CSGetTime {
-
+2016-06-09 18:03:20,713 [nioEventLoopGroup-4-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-4-1
+2016-06-09 18:03:22,815 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
 }
-2015-11-30 09:58:52,668 [Thread-0] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2016-06-09 18:03:36,883 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x2b462642, /127.0.0.1:63524 => localhost/127.0.0.1:55555]
+2016-06-09 18:03:36,895 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2016-06-09 18:03:36,896 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2016-06-09 18:03:36,919 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:03:36,924 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:03:36,942 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0x2b462642, /127.0.0.1:63524 :> localhost/127.0.0.1:55555]
+2016-06-09 18:03:41,125 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:03:41,959 [nioEventLoopGroup-4-1] INFO - Client connected!: [id: 0x35981cb8, /127.0.0.1:63527 => localhost/127.0.0.1:55555]
+2016-06-09 18:03:41,979 [nioEventLoopGroup-4-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:03:41,979 [nioEventLoopGroup-4-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:03:41,982 [nioEventLoopGroup-4-1] INFO - ChannelClosed: [id: 0x35981cb8, /127.0.0.1:63527 :> localhost/127.0.0.1:55555]
+2016-06-09 18:03:44,203 [nioEventLoopGroup-2-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2016-06-09 18:03:46,130 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:03:46,986 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0xa9b889fb, /127.0.0.1:63530 => localhost/127.0.0.1:55555]
+2016-06-09 18:03:47,007 [nioEventLoopGroup-5-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:03:47,008 [nioEventLoopGroup-5-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:03:47,011 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0xa9b889fb, /127.0.0.1:63530 :> localhost/127.0.0.1:55555]
+2016-06-09 18:03:49,224 [nioEventLoopGroup-4-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-4-1
+2016-06-09 18:03:51,134 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:03:52,014 [nioEventLoopGroup-6-1] INFO - Client connected!: [id: 0xffa02bfd, /127.0.0.1:63531 => localhost/127.0.0.1:55555]
+2016-06-09 18:03:52,037 [nioEventLoopGroup-6-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:03:52,037 [nioEventLoopGroup-6-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:03:52,043 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0xffa02bfd, /127.0.0.1:63531 :> localhost/127.0.0.1:55555]
+2016-06-09 18:03:54,257 [nioEventLoopGroup-5-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-5-1
+2016-06-09 18:03:56,137 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:03:57,046 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0xe4d09c45, /127.0.0.1:63534 => localhost/127.0.0.1:55555]
+2016-06-09 18:03:57,065 [nioEventLoopGroup-7-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:03:57,066 [nioEventLoopGroup-7-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:03:57,071 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0xe4d09c45, /127.0.0.1:63534 :> localhost/127.0.0.1:55555]
+2016-06-09 18:03:59,281 [nioEventLoopGroup-6-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-6-1
+2016-06-09 18:04:01,141 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:02,075 [nioEventLoopGroup-8-1] INFO - Client connected!: [id: 0x8e81e291, /127.0.0.1:63538 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:02,097 [nioEventLoopGroup-8-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:02,097 [nioEventLoopGroup-8-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:02,100 [nioEventLoopGroup-8-1] INFO - ChannelClosed: [id: 0x8e81e291, /127.0.0.1:63538 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:04,314 [nioEventLoopGroup-7-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-7-1
+2016-06-09 18:04:06,142 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:07,104 [nioEventLoopGroup-9-1] INFO - Client connected!: [id: 0x5f4eb8ef, /127.0.0.1:63541 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:07,132 [nioEventLoopGroup-9-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:07,132 [nioEventLoopGroup-9-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:07,135 [nioEventLoopGroup-9-1] INFO - ChannelClosed: [id: 0x5f4eb8ef, /127.0.0.1:63541 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:09,352 [nioEventLoopGroup-8-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-8-1
+2016-06-09 18:04:11,150 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:12,143 [nioEventLoopGroup-10-1] INFO - Client connected!: [id: 0x2133ea75, /127.0.0.1:63544 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:12,164 [nioEventLoopGroup-10-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:12,164 [nioEventLoopGroup-10-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:12,166 [nioEventLoopGroup-10-1] INFO - ChannelClosed: [id: 0x2133ea75, /127.0.0.1:63544 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:14,377 [nioEventLoopGroup-9-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-9-1
+2016-06-09 18:04:16,153 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:17,172 [nioEventLoopGroup-11-1] INFO - Client connected!: [id: 0xac973f47, /127.0.0.1:63547 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:17,178 [nioEventLoopGroup-11-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:17,178 [nioEventLoopGroup-11-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:17,181 [nioEventLoopGroup-11-1] INFO - ChannelClosed: [id: 0xac973f47, /127.0.0.1:63547 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:19,389 [nioEventLoopGroup-10-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-10-1
+2016-06-09 18:04:21,154 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:22,184 [nioEventLoopGroup-12-1] INFO - Client connected!: [id: 0xadfc196c, /127.0.0.1:63548 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:22,191 [nioEventLoopGroup-12-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:22,191 [nioEventLoopGroup-12-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:22,194 [nioEventLoopGroup-12-1] INFO - ChannelClosed: [id: 0xadfc196c, /127.0.0.1:63548 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:24,413 [nioEventLoopGroup-11-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-11-1
+2016-06-09 18:04:26,158 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:27,197 [nioEventLoopGroup-13-1] INFO - Client connected!: [id: 0x2ca360ec, /127.0.0.1:63551 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:27,203 [nioEventLoopGroup-13-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:27,203 [nioEventLoopGroup-13-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:27,206 [nioEventLoopGroup-13-1] INFO - ChannelClosed: [id: 0x2ca360ec, /127.0.0.1:63551 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:29,419 [nioEventLoopGroup-12-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-12-1
+2016-06-09 18:04:31,163 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:32,211 [nioEventLoopGroup-14-1] INFO - Client connected!: [id: 0x702ced03, /127.0.0.1:63554 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:32,219 [nioEventLoopGroup-14-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:32,219 [nioEventLoopGroup-14-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:32,222 [nioEventLoopGroup-14-1] INFO - ChannelClosed: [id: 0x702ced03, /127.0.0.1:63554 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:34,432 [nioEventLoopGroup-13-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-13-1
+2016-06-09 18:04:36,169 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:37,092 [nioEventLoopGroup-2-1] INFO - Client connected!: [id: 0x37469b03, /127.0.0.1:63557 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:37,102 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.leakDetectionLevel: simple
+2016-06-09 18:04:37,103 [nioEventLoopGroup-2-1] DEBUG - -Dio.netty.recycler.maxCapacity: 262144
+2016-06-09 18:04:37,122 [nioEventLoopGroup-2-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:37,125 [nioEventLoopGroup-2-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "qv94anvir42mcehifpdcbtengo",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:37,135 [nioEventLoopGroup-2-1] INFO - ChannelClosed: [id: 0x37469b03, /127.0.0.1:63557 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:37,230 [nioEventLoopGroup-15-1] INFO - Client connected!: [id: 0x9f5491e1, /127.0.0.1:63558 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:37,235 [nioEventLoopGroup-15-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:37,235 [nioEventLoopGroup-15-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:37,239 [nioEventLoopGroup-15-1] INFO - ChannelClosed: [id: 0x9f5491e1, /127.0.0.1:63558 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:39,454 [nioEventLoopGroup-14-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-14-1
+2016-06-09 18:04:41,171 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:41,615 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:42,150 [nioEventLoopGroup-4-1] INFO - Client connected!: [id: 0xbd102f53, /127.0.0.1:63561 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:42,164 [nioEventLoopGroup-4-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:42,164 [nioEventLoopGroup-4-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "qv94anvir42mcehifpdcbtengo",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:42,168 [nioEventLoopGroup-4-1] INFO - ChannelClosed: [id: 0xbd102f53, /127.0.0.1:63561 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:42,246 [nioEventLoopGroup-16-1] INFO - Client connected!: [id: 0x8fe7b323, /127.0.0.1:63562 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:42,248 [nioEventLoopGroup-16-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:42,249 [nioEventLoopGroup-16-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:42,253 [nioEventLoopGroup-16-1] INFO - ChannelClosed: [id: 0x8fe7b323, /127.0.0.1:63562 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:44,390 [nioEventLoopGroup-2-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2016-06-09 18:04:44,466 [nioEventLoopGroup-15-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-15-1
+2016-06-09 18:04:46,176 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:46,617 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:47,175 [nioEventLoopGroup-5-1] INFO - Client connected!: [id: 0xe4493a38, /127.0.0.1:63567 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:47,185 [nioEventLoopGroup-5-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:47,185 [nioEventLoopGroup-5-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "qv94anvir42mcehifpdcbtengo",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:47,188 [nioEventLoopGroup-5-1] INFO - ChannelClosed: [id: 0xe4493a38, /127.0.0.1:63567 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:47,260 [nioEventLoopGroup-17-1] INFO - Client connected!: [id: 0xab77e12c, /127.0.0.1:63568 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:47,264 [nioEventLoopGroup-17-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:47,265 [nioEventLoopGroup-17-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:47,267 [nioEventLoopGroup-17-1] INFO - ChannelClosed: [id: 0xab77e12c, /127.0.0.1:63568 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:49,401 [nioEventLoopGroup-4-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-4-1
+2016-06-09 18:04:49,474 [nioEventLoopGroup-16-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-16-1
+2016-06-09 18:04:51,181 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:51,620 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:52,194 [nioEventLoopGroup-6-1] INFO - Client connected!: [id: 0xe9a96ee9, /127.0.0.1:63570 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:52,206 [nioEventLoopGroup-6-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:52,206 [nioEventLoopGroup-6-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "qv94anvir42mcehifpdcbtengo",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:52,209 [nioEventLoopGroup-6-1] INFO - ChannelClosed: [id: 0xe9a96ee9, /127.0.0.1:63570 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:52,271 [nioEventLoopGroup-18-1] INFO - Client connected!: [id: 0xfdbbafd5, /127.0.0.1:63571 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:52,273 [nioEventLoopGroup-18-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:52,273 [nioEventLoopGroup-18-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:52,276 [nioEventLoopGroup-18-1] INFO - ChannelClosed: [id: 0xfdbbafd5, /127.0.0.1:63571 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:54,415 [nioEventLoopGroup-5-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-5-1
+2016-06-09 18:04:54,491 [nioEventLoopGroup-17-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-17-1
+2016-06-09 18:04:56,184 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:56,626 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:04:57,211 [nioEventLoopGroup-7-1] INFO - Client connected!: [id: 0xb076367b, /127.0.0.1:63574 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:57,223 [nioEventLoopGroup-7-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:57,224 [nioEventLoopGroup-7-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "qv94anvir42mcehifpdcbtengo",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:57,231 [nioEventLoopGroup-7-1] INFO - ChannelClosed: [id: 0xb076367b, /127.0.0.1:63574 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:57,282 [nioEventLoopGroup-19-1] INFO - Client connected!: [id: 0xe42fad3a, /127.0.0.1:63575 => localhost/127.0.0.1:55555]
+2016-06-09 18:04:57,285 [nioEventLoopGroup-19-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:04:57,285 [nioEventLoopGroup-19-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:04:57,288 [nioEventLoopGroup-19-1] INFO - ChannelClosed: [id: 0xe42fad3a, /127.0.0.1:63575 :> localhost/127.0.0.1:55555]
+2016-06-09 18:04:59,444 [nioEventLoopGroup-6-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-6-1
+2016-06-09 18:04:59,496 [nioEventLoopGroup-18-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-18-1
+2016-06-09 18:05:01,187 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:05:01,629 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:05:02,235 [nioEventLoopGroup-8-1] INFO - Client connected!: [id: 0x19f681bb, /127.0.0.1:63578 => localhost/127.0.0.1:55555]
+2016-06-09 18:05:02,245 [nioEventLoopGroup-8-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:05:02,245 [nioEventLoopGroup-8-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "qv94anvir42mcehifpdcbtengo",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:05:02,247 [nioEventLoopGroup-8-1] INFO - ChannelClosed: [id: 0x19f681bb, /127.0.0.1:63578 :> localhost/127.0.0.1:55555]
+2016-06-09 18:05:02,293 [nioEventLoopGroup-20-1] INFO - Client connected!: [id: 0x13137a5f, /127.0.0.1:63579 => localhost/127.0.0.1:55555]
+2016-06-09 18:05:02,295 [nioEventLoopGroup-20-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:05:02,295 [nioEventLoopGroup-20-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:05:02,298 [nioEventLoopGroup-20-1] INFO - ChannelClosed: [id: 0x13137a5f, /127.0.0.1:63579 :> localhost/127.0.0.1:55555]
+2016-06-09 18:05:04,457 [nioEventLoopGroup-7-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-7-1
+2016-06-09 18:05:04,502 [nioEventLoopGroup-19-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-19-1
+2016-06-09 18:05:06,190 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:05:06,633 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:05:07,251 [nioEventLoopGroup-9-1] INFO - Client connected!: [id: 0xababebe2, /127.0.0.1:63586 => localhost/127.0.0.1:55555]
+2016-06-09 18:05:07,259 [nioEventLoopGroup-9-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:05:07,260 [nioEventLoopGroup-9-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "qv94anvir42mcehifpdcbtengo",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:05:07,262 [nioEventLoopGroup-9-1] INFO - ChannelClosed: [id: 0xababebe2, /127.0.0.1:63586 :> localhost/127.0.0.1:55555]
+2016-06-09 18:05:07,301 [nioEventLoopGroup-21-1] INFO - Client connected!: [id: 0x6ec46498, /127.0.0.1:63587 => localhost/127.0.0.1:55555]
+2016-06-09 18:05:07,303 [nioEventLoopGroup-21-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:05:07,303 [nioEventLoopGroup-21-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:05:07,306 [nioEventLoopGroup-21-1] INFO - ChannelClosed: [id: 0x6ec46498, /127.0.0.1:63587 :> localhost/127.0.0.1:55555]
+2016-06-09 18:05:09,478 [nioEventLoopGroup-8-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-8-1
+2016-06-09 18:05:09,517 [nioEventLoopGroup-20-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-20-1
+2016-06-09 18:05:11,194 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:05:11,636 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:05:12,269 [nioEventLoopGroup-10-1] INFO - Client connected!: [id: 0x750591bc, /127.0.0.1:63590 => localhost/127.0.0.1:55555]
+2016-06-09 18:05:12,280 [nioEventLoopGroup-10-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:05:12,280 [nioEventLoopGroup-10-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "qv94anvir42mcehifpdcbtengo",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:05:12,283 [nioEventLoopGroup-10-1] INFO - ChannelClosed: [id: 0x750591bc, /127.0.0.1:63590 :> localhost/127.0.0.1:55555]
+2016-06-09 18:05:12,313 [nioEventLoopGroup-22-1] INFO - Client connected!: [id: 0x1ff9ff81, /127.0.0.1:63591 => localhost/127.0.0.1:55555]
+2016-06-09 18:05:12,320 [nioEventLoopGroup-22-1] INFO - SCValidationCode {
+  validationCode: 0
+}
+2016-06-09 18:05:12,320 [nioEventLoopGroup-22-1] INFO - CSClientInfo {
+  clientInfo: {
+    device: "desktop",
+    imei: "",
+    version: 1,
+    sessionId: "iovs7b0qlidmuk4m5hdv3e7o8k",
+    metadata: "",
+    zone: "LiveTube"
+  }
+}
+2016-06-09 18:05:12,323 [nioEventLoopGroup-22-1] INFO - ChannelClosed: [id: 0x1ff9ff81, /127.0.0.1:63591 :> localhost/127.0.0.1:55555]
+2016-06-09 18:05:14,492 [nioEventLoopGroup-9-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-9-1
+2016-06-09 18:05:14,533 [nioEventLoopGroup-21-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-21-1
+2016-06-09 18:05:16,197 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:05:16,640 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:05:17,294 [nioEventLoopGroup-10-1] ERROR - Connection refused: localhost/127.0.0.1:55555
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:55555
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:527)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-09 18:05:17,328 [nioEventLoopGroup-22-1] ERROR - Connection refused: localhost/127.0.0.1:55555
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:55555
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:527)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:467)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:381)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:703)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2016-06-09 18:05:19,513 [nioEventLoopGroup-10-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-10-1
+2016-06-09 18:05:19,541 [nioEventLoopGroup-22-1] DEBUG - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-22-1
+2016-06-09 18:05:21,203 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}
+2016-06-09 18:05:21,645 [Thread-0] INFO - CSGetTime {
+  serverTime: 1000
+}

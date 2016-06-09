@@ -27,7 +27,7 @@ public class CSClientInfo extends MessageOut {
     public CSClientInfo() {
         clientInfo = new ClientInfo();
         clientInfo.device = ClientInfo.DEVICE_DESKTOP;
-        clientInfo.zone = "BigFoxServerTime";
+        clientInfo.zone = "LiveTube";
         clientInfo.imei = "";
 
         if (ConnectionManager.getInstance().sessionId.length() == 0) {
