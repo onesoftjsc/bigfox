@@ -21,7 +21,6 @@ import vn.com.onesoft.bigfox.server.io.core.channel.websocket.WebSocketManager;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageExecute;
 import vn.com.onesoft.bigfox.server.main.BFConfig;
 import vn.com.onesoft.bigfox.server.telnet.TelnetManager;
-import vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil;
 
 
 /**
@@ -42,8 +41,7 @@ public class Main {
             Logger.getLogger(ChatActivity.class.getName()).log(Level.SEVERE, null, ex);
         }
         BFSessionManager.getInstance().setSessionEvent(new BFSessionEvent());
-        
-        HibernateFactoryUtil.getInstance();
+
         MonitorFileChanged.getInstance();
         MessageExecute.getInstance();
         BFConfig.getInstance();

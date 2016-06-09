@@ -5,22 +5,15 @@
  */
 package vn.com.onesoft.chatexample.server.io.message.user.cs;
 
-import io.netty.channel.Channel;
 import java.util.Calendar;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
 import vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.io.core.business.session.IBFSession;
-import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneManager;
-import vn.com.onesoft.bigfox.server.io.core.business.zone.IBFZone;
-import vn.com.onesoft.chatexample.server.db.DBUserLog;
 import vn.com.onesoft.chatexample.server.io.message.user.sc.SCChat;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Property;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;
 import vn.com.onesoft.chatexample.main.Main;
-import vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil;
 import vn.com.onesoft.chatexample.server.io.message.user.tags.Tags;
 
 
@@ -46,20 +39,6 @@ public class CSChat extends MessageIn {
         String time = "" + hour + ":" + mi + ":" + sec;
         sendMessageToAll(new SCChat(time + "c\n" + name + ": "+  msg));
 
-        Session sessionH = HibernateFactoryUtil.getInstance().getCurrentSession();
-        Transaction tx = null;
-        try {
-            tx = sessionH.beginTransaction();
-            DBUserLog dBUserLog = new DBUserLog(name, msg);
-
-            sessionH.save(dBUserLog);
-            tx.commit();
-        } catch (Exception ex) {
-            BFLogger.getInstance().error(ex.getMessage(), ex);
-            if (tx != null && tx.isActive()) {
-                tx.rollback();
-            }
-        }
 
     }
 
