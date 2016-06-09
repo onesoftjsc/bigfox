@@ -1,0 +1,4 @@
+<configuration>
+    <ip>localhost</ip>
+    <port>33333</port>
+</configuration>
