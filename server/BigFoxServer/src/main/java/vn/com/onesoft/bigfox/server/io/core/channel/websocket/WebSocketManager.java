@@ -53,7 +53,7 @@ public class WebSocketManager {
         try {
             sslCtx = SslContextBuilder.forServer(new File(BFConfig.getInstance().getCertificateFile()), new File(BFConfig.getInstance().getPrivateFile())).build();
         } catch (Exception ex) {
-             BFLogger.getInstance().error(ex.getMessage(), ex);
+//             BFLogger.getInstance().error(ex.getMessage(), ex);
         }
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerGroup = new NioEventLoopGroup();

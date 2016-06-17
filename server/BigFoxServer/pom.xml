@@ -16,7 +16,7 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
+            <version>1.2.15</version>
         </dependency>
         
         <dependency>
@@ -28,18 +28,18 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>14.0.1</version>
+            <version>15.0</version>
         </dependency>
         
         <dependency>
             <groupId>org.reflections</groupId>
             <artifactId>reflections</artifactId>
-            <version>0.9.8</version>
+            <version>0.9.9</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>1.2.15</version>
+            <version>1.2.17</version>
             <exclusions>
                 <exclusion>
                     <groupId>javax.jms</groupId>
