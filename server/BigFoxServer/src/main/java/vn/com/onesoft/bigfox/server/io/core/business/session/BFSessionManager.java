@@ -9,9 +9,8 @@ import com.google.common.collect.MapMaker;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
-import java.lang.reflect.Method;
+import java.util.Collection;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -94,8 +93,8 @@ public class BFSessionManager {
         }
     }
 
-    public List<IBFSession> getAllSessions() {
-        return (List<IBFSession>) mapChannelToSession.values();
+    public Collection<IBFSession> getAllSessions() {
+        return mapChannelToSession.values();
     }
 
     public void sendMessage(Channel channel, MessageOut mOut) {
@@ -204,7 +203,7 @@ public class BFSessionManager {
 //        } catch (Exception ex) {
 //           BFLogger.getInstance().error(ex.getMessage(), ex);
 //        }
-        mIn.setBFSession((BFSession)session);
+        mIn.setBFSession((BFSession) session);
         mIn.execute();
     }
 

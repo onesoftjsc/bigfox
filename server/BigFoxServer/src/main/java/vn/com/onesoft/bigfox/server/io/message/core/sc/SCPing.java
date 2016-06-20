@@ -5,8 +5,6 @@ package vn.com.onesoft.bigfox.server.io.message.core.sc;
  * Copyright @ 2015 by OneSoft.,JSC
  * 
  */
-
-
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Property;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageOut;
@@ -24,6 +22,11 @@ public class SCPing extends MessageOut {
 
     public SCPing() {
         this.serverTime = System.currentTimeMillis();
+    }
+
+    @Override
+    public MessageOut clone() {
+        return new SCPing();
     }
 
 }

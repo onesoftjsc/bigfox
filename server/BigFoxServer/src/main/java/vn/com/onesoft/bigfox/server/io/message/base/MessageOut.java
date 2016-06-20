@@ -51,9 +51,5 @@ public abstract class MessageOut extends BaseMessage {
         return null;
     }
     
-    @Override
-    public MessageOut clone(){
-        return this;
-    }
-
+    public abstract MessageOut clone();
 }

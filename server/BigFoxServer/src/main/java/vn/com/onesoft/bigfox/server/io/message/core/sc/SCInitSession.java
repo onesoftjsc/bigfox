@@ -36,4 +36,9 @@ public class SCInitSession extends MessageOut {
         this.timeRetriesToReconnect = timeRetriesToReconnect;
     }
 
+    @Override
+    public MessageOut clone() {
+        return new SCInitSession(sessionStatus, pingPeriod, timeRetriesToReconnect);
+    }
+
 }
