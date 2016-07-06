@@ -71,7 +71,12 @@ public class MessageExecute {
                 rootMMess = mapTagToCoreMessage.get(tag);
             } else {
                 IBFZone bfZone = BFZoneManager.getInstance().getZone(channel);
-                rootMMess = bfZone.getMessage(tag);
+
+                //HuongNS udpate
+                if (bfZone != null) {
+                    rootMMess = bfZone.getMessage(tag);
+                }
+
             }
             if (rootMMess != null) {
                 DataInputStream in = new DataInputStream(

@@ -19,7 +19,7 @@ public abstract class MessageIn extends BaseMessage {
 
     private static short TAG = 0;
     ByteArrayInputStream byteArrayInput;
-    byte[] data = new byte[0]; //phucpq add
+    byte[] data = new byte[0]; 
     DataInputStream in;
     public final static int _HEADER_LENGTH = 17;
 

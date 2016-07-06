@@ -42,6 +42,18 @@ public class WebSocketManager {
                     }
                 }
             }).start();
+
+            new Thread(new Runnable() {
+
+                @Override
+                public void run() {
+                    try {
+                        _instance.initSSL();
+                    } catch (Exception ex) {
+                        BFLogger.getInstance().error(ex.getMessage(), ex);
+                    }
+                }
+            }).start();
         }
 
         return _instance;
@@ -62,9 +74,41 @@ public class WebSocketManager {
             b.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
                     .handler(new LoggingHandler(LogLevel.INFO))
-                    .childHandler(new WebSocketServerInitializer(sslCtx));
+                    //                    .childHandler(new WebSocketServerInitializer(sslCtx));
+                    //HuongNS
+                    .childHandler(new WebSocketServerInitializer(null));
             BFLogger.getInstance().info("WebSocket start at port " + BFConfig.getInstance().getPortWebSocket());
             Channel ch = b.bind(BFConfig.getInstance().getPortWebSocket()).sync().channel();
+
+            ch.closeFuture().sync();
+        } catch (Exception ex) {
+            BFLogger.getInstance().error(ex.getMessage(), ex);
+            System.exit(0);
+        } finally {
+            bossGroup.shutdownGracefully();
+            workerGroup.shutdownGracefully();
+        }
+    }
+
+    //HuongNS
+    private void initSSL() throws CertificateException, SSLException {
+
+        SslContext sslCtx = null;
+        try {
+            sslCtx = SslContextBuilder.forServer(new File(BFConfig.getInstance().getCertificateFile()), new File(BFConfig.getInstance().getPrivateFile())).build();
+        } catch (Exception ex) {
+//             BFLogger.getInstance().error(ex.getMessage(), ex);
+        }
+        EventLoopGroup bossGroup = new NioEventLoopGroup(1);
+        EventLoopGroup workerGroup = new NioEventLoopGroup();
+        try {
+            ServerBootstrap b = new ServerBootstrap();
+            b.group(bossGroup, workerGroup)
+                    .channel(NioServerSocketChannel.class)
+                    .handler(new LoggingHandler(LogLevel.INFO))
+                    .childHandler(new WebSocketServerInitializer(sslCtx));
+            BFLogger.getInstance().info("WebSocket start at port " + BFConfig.getInstance().getPortWebSocketSSL());
+            Channel ch = b.bind(BFConfig.getInstance().getPortWebSocketSSL()).sync().channel();
 
             ch.closeFuture().sync();
         } catch (Exception ex) {

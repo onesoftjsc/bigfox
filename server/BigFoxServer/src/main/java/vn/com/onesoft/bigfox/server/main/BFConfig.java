@@ -19,6 +19,7 @@ public class BFConfig {
 
     private int portSocket;
     private int portWebSocket;
+    private int portWebSocketSSL;
     private int portTelnet;
     private int sessionTimeout;
     private String certificateFile;
@@ -50,6 +51,8 @@ public class BFConfig {
 
             this.portSocket = Integer.parseInt(doc.getElementsByTagName("port_socket").item(0).getChildNodes().item(0).getNodeValue());
             this.portWebSocket = Integer.parseInt(doc.getElementsByTagName("port_websocket").item(0).getChildNodes().item(0).getNodeValue());
+            //HuongNS
+            this.portWebSocketSSL = Integer.parseInt(doc.getElementsByTagName("port_websocketSSL").item(0).getChildNodes().item(0).getNodeValue());
             this.portTelnet = Integer.parseInt(doc.getElementsByTagName("port_telnet").item(0).getChildNodes().item(0).getNodeValue());
             this.enableZip = (Integer.parseInt(doc.getElementsByTagName("enable_zip").item(0).getChildNodes().item(0).getNodeValue()) == 1);
             this.reloadClassPaths = doc.getElementsByTagName("reload_class_path").item(0).getChildNodes().item(0).getNodeValue().split(";");
@@ -107,6 +110,14 @@ public class BFConfig {
      */
     public String getPrivateFile() {
         return privateFile;
+    }
+
+    public int getPortWebSocketSSL() {
+        return portWebSocketSSL;
+    }
+
+    public void setPortWebSocketSSL(int portWebSocketSSL) {
+        this.portWebSocketSSL = portWebSocketSSL;
     }
 
 }
