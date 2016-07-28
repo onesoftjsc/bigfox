@@ -46,8 +46,9 @@ public class SocketServerHandler extends ChannelInboundHandlerAdapter {
         if (data != null) {
             try {
 
-                data = BFCompressManager.getInstance().decompress(data);
-                data = BFEncryptManager.crypt(ctx.channel(), data);
+                //HuongNS
+//                data = BFCompressManager.getInstance().decompress(data);
+//                data = BFEncryptManager.crypt(ctx.channel(), data);
 
                 mf.onMessage(ctx.channel(), data);
             } catch (Exception ex) {

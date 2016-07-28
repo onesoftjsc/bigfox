@@ -5,8 +5,6 @@
  */
 package vn.com.onesoft.bigfox.server.io.core.business.session;
 
-import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
-
 /**
  *
  * @author QuanPH

@@ -21,7 +21,6 @@ import io.netty.handler.ssl.SslHandshakeCompletionEvent;
 import io.netty.util.concurrent.Future;
 import io.netty.util.concurrent.GenericFutureListener;
 import java.util.Random;
-import vn.com.onesoft.bigfox.server.io.core.data.compress.BFCompressManager;
 import vn.com.onesoft.bigfox.server.io.core.data.encrypt.BFEncryptManager;
 import vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.io.core.business.session.IBFSession;
@@ -58,7 +57,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) {
         ctx.flush();
-        
+
     }
 
     private void handleHttpRequest(final ChannelHandlerContext ctx, FullHttpRequest req) {
@@ -106,12 +105,13 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
             buf.readBytes(data);
             try {
 
-                data = BFCompressManager.getInstance().decompress(data);
-                data = BFEncryptManager.crypt(ctx.channel(), data);
-
+                //HuongNS
+//                data = BFCompressManager.getInstance().decompress(data);
+//                data = BFEncryptManager.crypt(ctx.channel(), data);
                 mf.onMessage(ctx.channel(), data); //Thực thi yêu cầu từ Client
             } catch (Exception ex) {
                 ctx.channel().close();
+//                BFLogger.getInstance().error("handleWebSocketFrame - Exception");
                 BFLogger.getInstance().error(ex.getMessage(), ex);
             }
         }
@@ -130,9 +130,8 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
     }
 
     @Override
-    public void channelInactive(ChannelHandlerContext ctx) throws Exception {
-        super.channelInactive(ctx); //To change body of generated methods, choose Tools | Templates.
-        BFLogger.getInstance().info("channelInActive : " + ctx.channel());
+    public void channelActive(ChannelHandlerContext ctx) {
+        BFLogger.getInstance().info("channelActive : " + ctx.channel());
         Main.allChannels.add(ctx.channel());
         Random r = new Random();
         int validationCode = 0; // r.nextInt();
@@ -142,9 +141,8 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
     }
 
     @Override
-    public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        super.channelActive(ctx); //To change body of generated methods, choose Tools | Templates.
-        BFLogger.getInstance().info("ChannelActive: " + ctx.channel());
+    public void channelInactive(ChannelHandlerContext ctx) {
+        BFLogger.getInstance().info("ChannelClosed: " + ctx.channel());
         IBFSession session = BFSessionManager.getInstance().getSessionByChannel(ctx.channel());
         if (session != null && session.getChannel() == ctx.channel()) {
             session.close();
@@ -152,24 +150,23 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
         BFSessionManager.getInstance().onChannelClose(ctx.channel());
         Main.allChannels.remove(ctx.channel());
         BFEncryptManager.mapChannelToValidationCode.remove(ctx.channel());
+
     }
 
     @Override
     protected void channelRead0(ChannelHandlerContext chc, Object i) throws Exception {
-        
-    }
-    
-    
-    @Override
-    public void userEventTriggered(ChannelHandlerContext ctx, Object evt) {
-    if (evt instanceof SslHandshakeCompletionEvent) {
-        if (!((SslHandshakeCompletionEvent) evt).isSuccess()) {
-                   SslHandshakeCompletionEvent evs = (SslHandshakeCompletionEvent) evt;
-            BFLogger.getInstance().error(evs, evs.cause());
-        }
-        
 
     }
-}
+
+    @Override
+    public void userEventTriggered(ChannelHandlerContext ctx, Object evt) {
+        if (evt instanceof SslHandshakeCompletionEvent) {
+            if (!((SslHandshakeCompletionEvent) evt).isSuccess()) {
+                SslHandshakeCompletionEvent evs = (SslHandshakeCompletionEvent) evt;
+                BFLogger.getInstance().error(evs, evs.cause());
+            }
+
+        }
+    }
 
 }

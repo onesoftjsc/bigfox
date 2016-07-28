@@ -6,7 +6,6 @@ package vn.com.onesoft.bigfox.server.io.message.base;
 
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 
-
 /**
  *
  * @author Quan
@@ -37,9 +36,10 @@ public abstract class BaseMessage {
     }
 
     /**
+     * HuongNS update
      * @param length the length to set
      */
-    public void setLength(int length) {
+    public final void setLength(int length) {
         this.length = length;
     }
 
@@ -68,9 +68,10 @@ public abstract class BaseMessage {
     }
 
     /**
+     * HuongNS update
      * @param status the status to set
      */
-    public void setStatus(int status) {
+    public final void setStatus(int status) {
         this.status = status;
     }
 

@@ -212,23 +212,22 @@ public class BFSession implements IBFSession {
     public void setZone(IBFZone zone) {
         this.zone = zone;
     }
-    
-ScheduledFuture scheduledFuture = null;
-    
+
+    ScheduledFuture scheduledFuture = null;
+
     @Override
     public void start() {
         this.setLastTimeReceive(System.currentTimeMillis());
-         scheduledFuture = BFSessionManager.getInstance().scheduledExecutorService.scheduleAtFixedRate(new BFSessionTick(this), 1, 1, TimeUnit.SECONDS);
+        scheduledFuture = BFSessionManager.getInstance().scheduledExecutorService.scheduleAtFixedRate(new BFSessionTick(this), 1, 1, TimeUnit.SECONDS);
     }
-    
+
     @Override
-    public void close(){
+    public void close() {
         scheduledFuture.cancel(true);
         BFSessionManager.getInstance().removeSession(this);
     }
-    
-    public void sendMessage(MessageOut mOut){
+
+    public void sendMessage(MessageOut mOut) {
         BFSessionManager.getInstance().sendMessage(channel, mOut);
     }
-
 }

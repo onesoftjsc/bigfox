@@ -5,7 +5,6 @@
  */
 package vn.com.onesoft.bigfox.server.io.message.core.cs;
 
-import java.util.Date;
 import vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Property;
@@ -20,10 +19,10 @@ import vn.com.onesoft.bigfox.server.io.message.core.tags.CoreTags;
  */
 @Message(tag = CoreTags.CS_PING, name = "CS_PING", isCore = true)
 public class CSPing extends MessageIn {
-
+    
     @Property(name = "clientTime")
     private long clientTime;
-
+    
     @Override
     public void execute() {
 
@@ -31,8 +30,12 @@ public class CSPing extends MessageIn {
 //        BFLogger.getInstance().info("CSPing: device = " + this.getBFSession().getClientInfo().device);
 //        BFLogger.getInstance().info("CSPing: clientTime = " + new Date(clientTime));
 //        BFLogger.getInstance().info("CSPing: getSessionId = " + this.getBFSession().getSessionId());
-
-        BFSessionManager.getInstance().sendMessage(this.getBFSession().getChannel(), new SCPing());
+        if (this.getBFSession() != null) {
+            BFSessionManager.getInstance().sendMessage(this.getBFSession().getChannel(), new SCPing());
+        } else {
+            BFLogger.getInstance().info("CSPing - getBFSession==null");
+        }
+        
     }
-
+    
 }

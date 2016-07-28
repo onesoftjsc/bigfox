@@ -44,15 +44,19 @@ public abstract class MessageOut extends BaseMessage {
             data[1] = (byte) ((length >> 16) & 0x00ff);
             data[2] = (byte) ((length >> 8) & 0x00ff);
             data[3] = (byte) ((length) & 0x00ff);
+
+            //HuongNS
+//            String byteToHex = BFUtils.byteToHex(data);            
+//            BFLogger.getInstance().info("|byteToHex=" + byteToHex);
             return data;
         } catch (Exception e) {
             e.printStackTrace();
         }
         return null;
     }
-    
+
     @Override
-    public MessageOut clone(){
+    public MessageOut clone() {
         return this;
     }
 
