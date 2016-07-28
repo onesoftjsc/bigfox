@@ -36,7 +36,7 @@ public class Main {
      */
     public static void main(String[] args) throws Exception {
         isDebug = false;
-        BFZoneManager.getInstance();
+        BFZoneManager.getInstance().loadZone("/Users/phamquan/github/bigfox/server/BigFoxServerChatExample/target/BigFoxServerChatExample");
 
         Extracter.getInstance();
         MessageExecute.getInstance();

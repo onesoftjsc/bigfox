@@ -44,6 +44,14 @@ public class BFClassLoaderZone extends ClassLoader {
             if (!file.getName().contains(".class")) {
                 continue;
             }
+            String classPath = file.getName();
+            String className = classPath.replace(File.separatorChar, '.').substring(0, classPath.length() - 6);
+            className = className.replace('/', '.').substring(0, classPath.length() - 6);
+            className = className.substring(className.indexOf(".vn.") + 1);
+            BFLogger.getInstance().info("define class " + className);
+            if (mapPathToClass.get(className) != null || mapTelnetPathToClass.get(className) != null) {
+                continue;
+            }
             if (Main.isDebug && !file.getName().contains("CS") && !file.getName().contains("SC") && !file.getName().contains("CMD")) {
                 continue;
             }
@@ -59,11 +67,7 @@ public class BFClassLoaderZone extends ClassLoader {
             input.close();
 
             byte[] classData = buffer.toByteArray();
-            String classPath = file.getName();
-            String className = classPath.replace(File.separatorChar, '.').substring(0, classPath.length() - 6);
-            className = className.replace('/', '.').substring(0, classPath.length() - 6);
-            className = className.substring(className.indexOf(".vn.") + 1);
-            BFLogger.getInstance().info("define class " + className);
+
             Class cl = defineClass(className,
                     classData, 0, classData.length);
             if (!className.contains("CMD")) {
@@ -133,11 +137,42 @@ public class BFClassLoaderZone extends ClassLoader {
         result = (Class) classes.get(className); //checks in cached classes  
         if (result != null) {
             return result;
-        }
+        } else if ((result = (Class) mapPathToClass.get(className)) != null) {
 
+            return result;
+        } else if ((result = (Class) mapTelnetPathToClass.get(className)) != null) {
+            return result;
+        }
         try {
             return findSystemClass(className);
         } catch (Exception e) {
+        }
+
+        try {
+            File fileOrg = new File(zone.getAbsolutePath() + File.separatorChar + zone.getSimpleName() + ".jar");
+            JarFile jar1 = new JarFile(fileOrg);
+            String jarName = className.replace('.', File.separatorChar) + ".class";
+            JarEntry entry = jar1.getJarEntry(jarName);
+            InputStream is = jar1.getInputStream(entry);
+            ByteArrayOutputStream byteStream1 = new ByteArrayOutputStream();
+            int nextValue1 = is.read();
+            while (-1 != nextValue1) {
+                byteStream1.write(nextValue1);
+                nextValue1 = is.read();
+            }
+
+            classByte = byteStream1.toByteArray();
+
+            result = defineClass(className, classByte, 0, classByte.length, null);
+            if (!className.contains("CMD")) {
+                mapPathToClass.put(className, result);
+            } else {
+                BFZoneManager.getInstance().mapTelnetPathToZone.put(className, zone);
+                mapTelnetPathToClass.put(className, result);
+            }
+            return result;
+        } catch (Exception ex) {
+
         }
 
         File file = new File(zone.getAbsolutePath() + File.separatorChar + "lib");

@@ -37,57 +37,57 @@ import vn.com.onesoft.bigfox.server.main.Main;
  * @author QuanPH
  */
 public class BFSessionManager {
-    
+
     private final Map<Channel, IBFSession> mapChannelToSession;
     private final Map<String, IBFSession> mapSessionIdToSession;
-    
+
     public final static int SESSION_TIMEOUT = BFConfig.getInstance().getSessionTimeout(); //300 s
     private static BFSessionManager _instance;
     private IBFSessionEvent sessionEvent = new BFDefaultSessionEvent();
-    
+
     ScheduledExecutorService scheduledExecutorService
             = Executors.newScheduledThreadPool(15);
-    
+
     public static BFSessionManager getInstance() {
         if (_instance == null) {
             _instance = new BFSessionManager();
         }
         return _instance;
     }
-    
+
     public BFSessionManager() {
         this.mapSessionIdToSession = new MapMaker().makeMap();
         this.mapChannelToSession = new MapMaker().makeMap();
     }
-    
+
     public IBFSession createSession(Channel channel, ClientInfo clientInfo) {
         IBFSession session = new BFSession();
         session.setChannel(channel);
         session.setClientInfo(clientInfo);
         session.setLastTimeReceive(System.currentTimeMillis());
-        
+
         mapChannelToSession.put(channel, session);
         mapSessionIdToSession.put(clientInfo.sessionId, session);
         session.start();
         sessionEvent.startSession(session);
-        
+
         return session;
     }
-    
+
     public IBFSession getSessionByChannel(Channel channel) {
         return mapChannelToSession.get(channel);
     }
-    
+
     public IBFSession getSessionById(String id) {
         return mapSessionIdToSession.get(id);
     }
-    
+
     public void removeSession(IBFSession session) {
         mapChannelToSession.remove(session.getChannel());
         mapSessionIdToSession.remove(session.getClientInfo().sessionId);
         sessionEvent.removeSession(session);
     }
-    
+
     public boolean containsSession(IBFSession session) {
         if (mapChannelToSession.get(session.getChannel()) != null) {
             return true;
@@ -95,11 +95,11 @@ public class BFSessionManager {
             return false;
         }
     }
-    
+
     public Collection<IBFSession> getAllSessions() {
         return mapChannelToSession.values();
     }
-    
+
     public void sendMessage(Channel channel, MessageOut mOut) {
         if (channel == null || !channel.isActive() || !channel.isOpen()) {
             return;
@@ -122,11 +122,10 @@ public class BFSessionManager {
 //                    data = BFEncryptManager.crypt(channel, data);
 //                    data = BFCompressManager.getInstance().compress(data);
                 }
-                
+
 //                String byteToHex = BFUtils.byteToHex(data);
 //                
 //                BFLogger.getInstance().info("|||byteToHex crypt - compress=" + byteToHex);
-                
                 if (Main.mapChannelWebSocket.get(channel) != null) {
                     channel.writeAndFlush(new BinaryWebSocketFrame(Unpooled.wrappedBuffer(data)));
                 } else {
@@ -152,25 +151,25 @@ public class BFSessionManager {
             return;
         }
         BFLogger.getInstance().info(mOut);
-        
+
         byte[] data = mOut.toBytes();
         if (mOut.getTag() != CoreTags.SC_VALIDATION_CODE) {
             //HuongNS
 //            data = BFEncryptManager.crypt(channel, data);
 //            data = BFCompressManager.getInstance().compress(data);
         }
-        
+
         if (Main.mapChannelWebSocket.get(channel) != null) {
             channel.writeAndFlush(new BinaryWebSocketFrame(Unpooled.wrappedBuffer(data)));
         } else {
             channel.writeAndFlush(Unpooled.wrappedBuffer(data));
         }
     }
-    
+
     public void onMessage(Channel channel, MessageIn mIn) {
-        
+
         BFLogger.getInstance().info(mIn);
-        
+
         if (mIn instanceof CSClientInfo) {
             CSClientInfo csClientInfo = (CSClientInfo) mIn;
             IBFZone bfZone = BFZoneManager.getInstance().getZone(csClientInfo.getClientInfo().zone);
@@ -204,6 +203,10 @@ public class BFSessionManager {
                 session.setMSequence(mIn.getMSequence());
                 session.cleanOutMessageQueue(mIn);
             }
+            mIn.setBFSession((BFSession) session);
+            mIn.execute();
+        }else{
+            channel.close();
         }
 //        try {
 //            Method method = mIn.getClass().getDeclaredMethod("setBFSession", BFSession.class);
@@ -212,15 +215,14 @@ public class BFSessionManager {
 //        } catch (Exception ex) {
 //           BFLogger.getInstance().error(ex.getMessage(), ex);
 //        }
-        mIn.setBFSession((BFSession) session);
-        mIn.execute();
+
     }
-    
+
     public void onChannelClose(Channel channel) {
         IBFSession session = this.getSessionByChannel(channel);
         mapChannelToSession.remove(channel);
     }
-    
+
     public void sendToAll(MessageOut mOut) {
         Iterator it = mapChannelToSession.keySet().iterator();
         while (it.hasNext()) {
@@ -228,11 +230,11 @@ public class BFSessionManager {
             sendMessage(channel, mOut.clone());
         }
     }
-    
+
     public void setSessionEvent(IBFSessionEvent sessionEvent) {
         this.sessionEvent = sessionEvent;
     }
-    
+
     public IBFSessionEvent getSessionEvent() {
         return this.sessionEvent;
     }
