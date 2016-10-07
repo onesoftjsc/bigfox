@@ -24,6 +24,7 @@ public class WebSocketServerInitializer extends ChannelInitializer<SocketChannel
     public WebSocketServerInitializer(SslContext sslCtx) {
         this.sslCtx = sslCtx;
     }
+
     @Override
     public void initChannel(SocketChannel ch) throws Exception {
         ChannelPipeline pipeline = ch.pipeline();
@@ -34,5 +35,6 @@ public class WebSocketServerInitializer extends ChannelInitializer<SocketChannel
         pipeline.addLast(new HttpServerCodec());
         pipeline.addLast(new HttpObjectAggregator(65536));
         pipeline.addLast(new WebSocketServerHandler());
+
     }
 }

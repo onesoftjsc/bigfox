@@ -20,6 +20,7 @@ public class BFLogger {
     static {
         DOMConfigurator.configure("log4j_config.xml");
         Logger.getLogger("com.mchange.v2").setLevel(Level.WARN);
+//        Logger.getLogger("com.mchange.v2").setLevel(Level.INFO);
     }
 
     private static BFLogger _instance = null;
