@@ -60,4 +60,9 @@ public abstract class MessageOut extends BaseMessage {
         return this;
     }
 
+    public MessageOut setCoreErrorStatus(int coreErrorStatus){
+        this.setCoreErrorStatus1(coreErrorStatus);
+        return this;
+    }
+    
 }

@@ -36,8 +36,16 @@ public class BFLogger {
         if (obj.toString().contains("SCPing") || obj.toString().contains("CSPing")) {
             return;
         }
-        
+
         logger.info(obj);
+    }
+
+    public void debug(Object obj) {
+        if (obj.toString().contains("SCPing") || obj.toString().contains("CSPing")) {
+            return;
+        }
+
+        logger.debug(obj);
     }
 
     public void error(Object obj, Throwable t) {

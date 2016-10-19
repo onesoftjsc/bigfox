@@ -5,6 +5,7 @@
 package vn.com.onesoft.bigfox.server.io.message.base;
 
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
+import vn.com.onesoft.bigfox.server.io.message.annotations.Property;
 
 /**
  *
@@ -18,11 +19,16 @@ public abstract class BaseMessage {
     protected int sSequence;
     protected int status;
     private int checkSum;
-
+    
+    @Property(name = "coreErrorStatus")
+    private int coreErrorStatus = 0;
+    
     public final static int STATUS_CORE = 0x01;
     public final static int STATUS_ZIP = 0x02;
     public final static int STATUS_CONTINUE = 0x04;
-
+    public final static int CORE_ER_STATUS_SUCCESS = 0; //SUCCESS
+    public final static int CORE_ER_STATUS_ERROR = 1; //ERROR
+    
     @Override
     public String toString() {
         return this.getClass().getSimpleName() + " m:" + this.getMSequence() + " s:" + this.getSSequence() + " " + BigFoxUtils.toString(this);
@@ -124,5 +130,13 @@ public abstract class BaseMessage {
         } catch (Exception ex) {
             return false;
         }
+    }
+    
+    public void setCoreErrorStatus1(int coreErrorStatus){
+        this.coreErrorStatus = coreErrorStatus;
+    }
+    
+    public int getCoreErrorStatus(){
+        return coreErrorStatus;
     }
 }
