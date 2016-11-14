@@ -15,8 +15,6 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Hashtable;
 import java.util.Map;
-import java.util.jar.JarEntry;
-import java.util.jar.JarFile;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.main.Main;
 
@@ -26,9 +24,8 @@ import vn.com.onesoft.bigfox.server.main.Main;
  */
 public class BFClassLoaderZone extends ClassLoader {
 
-    private Map<String, Class> mapPathToClass = new MapMaker().makeMap();
-    Map<String, Class> mapTelnetPathToClass = new MapMaker().makeMap();
-    private Hashtable classes = new Hashtable();
+    private Map<String, Class> mapPathToClass = new MapMaker().makeMap(); //full path -> class
+//    Map<String, Class> mapTelnetClassNameToClass1 = new MapMaker().makeMap(); //CMDTest -> CMDTest class
     IBFZone zone;
 
     public BFClassLoaderZone(ClassLoader parent, IBFZone zone) {
@@ -49,10 +46,11 @@ public class BFClassLoaderZone extends ClassLoader {
             className = className.replace('/', '.').substring(0, classPath.length() - 6);
             className = className.substring(className.indexOf(".vn.") + 1);
             BFLogger.getInstance().info("define class " + className);
-            if (mapPathToClass.get(className) != null || mapTelnetPathToClass.get(className) != null) {
+            if (mapPathToClass.get(className) != null) {
                 continue;
             }
-            if (Main.isDebug && !file.getName().contains("CS") && !file.getName().contains("SC") && !file.getName().contains("CMD")) {
+            if (Main.isDebug && !file.getName().contains("CS") && !file.getName().contains("SC") && !file.getName().contains("CMD")
+                    && !file.getName().contains("CMD")) {
                 continue;
             }
             java.io.InputStream input = jar.getInputStream(file);
@@ -73,8 +71,9 @@ public class BFClassLoaderZone extends ClassLoader {
             if (!className.contains("CMD")) {
                 mapPathToClass.put(classPath, cl);
             } else {
+                className = className.substring(className.lastIndexOf(".") + 1);
                 BFZoneManager.getInstance().mapTelnetPathToZone.put(className, zone);
-                mapTelnetPathToClass.put(className, cl);
+                zone.getMapTelnetNameToClass().put(className, cl);
             }
 
         }
@@ -102,7 +101,13 @@ public class BFClassLoaderZone extends ClassLoader {
         BFLogger.getInstance().info("define class " + className);
         Class cl = defineClass(className,
                 classData, 0, classData.length);
-        mapPathToClass.put(classPath, cl);
+        if (className.contains("CMD")) {
+            className = className.substring(className.lastIndexOf(".") + 1);
+            BFZoneManager.getInstance().mapTelnetPathToZone.put(className, zone);
+            zone.getMapTelnetNameToClass().put(className, cl);
+        } else {
+            mapPathToClass.put(classPath, cl);
+        }
 
         return cl;
     }
@@ -133,14 +138,7 @@ public class BFClassLoaderZone extends ClassLoader {
     public Class findClass(String className) {
         byte classByte[];
         Class result = null;
-
-        result = (Class) classes.get(className); //checks in cached classes  
-        if (result != null) {
-            return result;
-        } else if ((result = (Class) mapPathToClass.get(className)) != null) {
-
-            return result;
-        } else if ((result = (Class) mapTelnetPathToClass.get(className)) != null) {
+        if ((result = (Class) mapPathToClass.get(className)) != null) {
             return result;
         }
         try {
@@ -148,69 +146,62 @@ public class BFClassLoaderZone extends ClassLoader {
         } catch (Exception e) {
         }
 
-        try {
-            File fileOrg = new File(zone.getAbsolutePath() + File.separatorChar + zone.getSimpleName() + ".jar");
-            JarFile jar1 = new JarFile(fileOrg);
-            String jarName = className.replace('.', File.separatorChar) + ".class";
-            JarEntry entry = jar1.getJarEntry(jarName);
-            InputStream is = jar1.getInputStream(entry);
-            ByteArrayOutputStream byteStream1 = new ByteArrayOutputStream();
-            int nextValue1 = is.read();
-            while (-1 != nextValue1) {
-                byteStream1.write(nextValue1);
-                nextValue1 = is.read();
-            }
-
-            classByte = byteStream1.toByteArray();
-
-            result = defineClass(className, classByte, 0, classByte.length, null);
-            if (!className.contains("CMD")) {
-                mapPathToClass.put(className, result);
-            } else {
-                BFZoneManager.getInstance().mapTelnetPathToZone.put(className, zone);
-                mapTelnetPathToClass.put(className, result);
-            }
-            return result;
-        } catch (Exception ex) {
-
-        }
-
-        File file = new File(zone.getAbsolutePath() + File.separatorChar + "lib");
-        if (!file.exists()) {
-            return null;
-        }
-        File[] files = file.listFiles();
-        for (File fileJar : files) {
-            try {
-                JarFile jar = new JarFile(fileJar);
-                String jarName = className.replace('.', File.separatorChar) + ".class";
-                JarEntry entry = jar.getJarEntry(jarName);
-                InputStream is = jar.getInputStream(entry);
-                ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
-                int nextValue = is.read();
-                while (-1 != nextValue) {
-                    byteStream.write(nextValue);
-                    nextValue = is.read();
-                }
-
-                classByte = byteStream.toByteArray();
-
-                result = defineClass(className, classByte, 0, classByte.length, null);
-                classes.put(className, result);
-                return result;
-            } catch (Exception e) {
-
-            }
-        }
+//        try {
+//            File fileOrg = new File(zone.getAbsolutePath() + File.separatorChar + zone.getSimpleName() + ".jar");
+//            JarFile jar1 = new JarFile(fileOrg);
+//            String jarName = className.replace('.', File.separatorChar) + ".class";
+//            JarEntry entry = jar1.getJarEntry(jarName);
+//            InputStream is = jar1.getInputStream(entry);
+//            ByteArrayOutputStream byteStream1 = new ByteArrayOutputStream();
+//            int nextValue1 = is.read();
+//            while (-1 != nextValue1) {
+//                byteStream1.write(nextValue1);
+//                nextValue1 = is.read();
+//            }
+//
+//            classByte = byteStream1.toByteArray();
+//
+//            result = defineClass(className, classByte, 0, classByte.length, null);
+//            if (!className.contains("CMD")) {
+//                mapPathToClass.put(className, result);
+//            } else {
+//                BFZoneManager.getInstance().mapTelnetPathToZone.put(className, zone);
+//                mapTelnetPathToClass.put(className, result);
+//            }
+//            return result;
+//        } catch (Exception ex) {
+//
+//        }
+//
+//        File file = new File(zone.getAbsolutePath() + File.separatorChar + "lib");
+//        if (!file.exists()) {
+//            return null;
+//        }
+//        File[] files = file.listFiles();
+//        for (File fileJar : files) {
+//            try {
+//                JarFile jar = new JarFile(fileJar);
+//                String jarName = className.replace('.', File.separatorChar) + ".class";
+//                JarEntry entry = jar.getJarEntry(jarName);
+//                InputStream is = jar.getInputStream(entry);
+//                ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
+//                int nextValue = is.read();
+//                while (-1 != nextValue) {
+//                    byteStream.write(nextValue);
+//                    nextValue = is.read();
+//                }
+//
+//                classByte = byteStream.toByteArray();
+//
+//                result = defineClass(className, classByte, 0, classByte.length, null);
+//                classes.put(className, result);
+//                return result;
+//            } catch (Exception e) {
+//
+//            }
+//        }
         return null;
     }
 
-    Class getTelnetClass(String path) throws ClassNotFoundException {
-        if (mapTelnetPathToClass.get(path) != null) {
-            return mapTelnetPathToClass.get(path);
-        } else {
-            return loadClass(path);
-        }
-    }
 
 }

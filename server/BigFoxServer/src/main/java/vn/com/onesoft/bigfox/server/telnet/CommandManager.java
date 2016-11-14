@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import vn.com.onesoft.bigfox.server.io.core.business.zone.BFClassLoaderZone;
 import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZone;
 import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneManager;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
@@ -27,18 +28,11 @@ public class CommandManager {
     String request = "";
     public static final String COMMAND_PREFIX = "CMD";
 
-    // The parent classloader
-//    public static ClassLoader parentLoader;
-//    public static URLClassLoader myLoader;
     static {
         try {
             String mainPath = Main.class.getProtectionDomain().getCodeSource().getLocation().getPath();
             mainPath = mainPath.substring(0, mainPath.lastIndexOf('/') + 1);
-            File classesDir = new File(mainPath);
-//            parentLoader = Main.class.getClassLoader();
-//
-//            myLoader = new URLClassLoader(
-//                    new URL[]{classesDir.toURL()}, parentLoader);
+
         } catch (Exception ex) {
             ex.printStackTrace();
         }
@@ -81,20 +75,21 @@ public class CommandManager {
                 }
             }
             try {
-                String classPath = "vn.com.onesoft.bigfox.server.telnet." + commandClassName;
+                String classPath = commandClassName;
                 //HuongNS
-//                BFZone zone = (BFZone)BFZoneManager.getInstance().mapTelnetPathToZone.get(classPath);                
-//                Class cls = zone.getTelnetClass(classPath);
-
-                Class cls = Class.forName(classPath);
-                Command command = (Command) cls.newInstance();
-                command.setArgs(argList);
-                response = command.execute();
-            } catch (ClassNotFoundException ex) {
-                response = "Unknown command";
-                BFLogger.getInstance().error(ex.getMessage(), ex);
-            } catch (IllegalAccessException iex) {
-            } catch (InstantiationException inex) {
+                BFZone zone = (BFZone) BFZoneManager.getInstance().mapTelnetPathToZone.get(classPath);
+                Class cls = zone.getTelnetClass(classPath);
+//                Class cls = zone.getClassLoader().getMapPathToClass().get(classPath);
+//                Class cls = BFClassLoaderZone.getMapPathToClass().get(commandClassName);
+                if (cls == null) {
+                    response = "Unknown Command";
+                } else {
+                    Command command = (Command) cls.newInstance();
+                    command.setArgs(argList);
+                    response = command.execute();
+                }
+            } catch (InstantiationException | IllegalAccessException ex) {
+                Logger.getLogger(CommandManager.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
         ChannelFuture future = channel.writeAndFlush(response + "\r\n");

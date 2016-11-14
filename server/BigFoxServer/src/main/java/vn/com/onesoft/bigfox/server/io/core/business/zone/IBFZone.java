@@ -6,6 +6,7 @@
 package vn.com.onesoft.bigfox.server.io.core.business.zone;
 
 import io.netty.channel.Channel;
+import java.util.Map;
 import vn.com.onesoft.bigfox.server.io.core.business.session.IBFSession;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageIn;
 import vn.com.onesoft.bigfox.server.io.message.base.MessageOut;
@@ -115,4 +116,5 @@ public interface IBFZone {
     public int getPingPeriod();
     
     public int getReconnectRetries();
+        public Map<String, Class> getMapTelnetNameToClass();
 }

@@ -35,6 +35,8 @@ public class BFZone implements IBFZone {
 
     private Map<Channel, IBFSession> mapChannelToSession = new MapMaker().makeMap();
     protected Map<Integer, MessageIn> mapTagToUserMessage = new MapMaker().concurrencyLevel(4).makeMap();
+    private Map<String, Class> mapTelnetNameToClass = new MapMaker().concurrencyLevel(4).makeMap();
+
     private BFClassLoaderZone zoneCL;
     private String absolutePath;
     private String simpleName;
@@ -191,7 +193,8 @@ public class BFZone implements IBFZone {
             if (file.isDirectory()) {
                 result.addAll(listFileAdded(file.getAbsolutePath()));
             } else if (file.isFile() && file.getAbsolutePath().contains(".class")) {
-                if (mapFileNameToChecksum.get(file.getAbsolutePath()) == null) {
+                if (mapFileNameToChecksum.get(file.getAbsolutePath()) == null && 
+                        (file.getAbsolutePath().contains("CS") || file.getAbsolutePath().contains("SC") || file.getAbsolutePath().contains("CMD")))  {
                     result.add(file);
                 }
             }
@@ -225,7 +228,7 @@ public class BFZone implements IBFZone {
 
     private void loadFile(String filePath, BFClassLoaderZone cl) throws IOException, FileNotFoundException, NoSuchAlgorithmException {
         if (Main.isDebug) {
-            if (filePath.contains("CS") || filePath.contains("SC")) {
+            if (filePath.contains("CS") || filePath.contains("SC") || filePath.contains("CMD")) {
                 cl.loadFile(filePath);
                 mapFileNameToChecksum.put(filePath, BFUtils.checksum(new File(filePath)));
             }
@@ -240,7 +243,6 @@ public class BFZone implements IBFZone {
         File[] files = folder.listFiles();
         for (File file : files) {
             if (file.isFile() && file.getAbsolutePath().contains(".class")) {
-
                 loadFile(file.getAbsolutePath(), zoneCL);
             } else if (file.isDirectory()) {
                 loadFolder(file.getAbsolutePath());
@@ -288,8 +290,8 @@ public class BFZone implements IBFZone {
     }
 
 
-    public Class getTelnetClass(String path) throws ClassNotFoundException{
-        return zoneCL.getTelnetClass(path);
+    public Class getTelnetClass(String path){
+        return mapTelnetNameToClass.get(path);
     }
     
     @Override
@@ -322,4 +324,8 @@ public class BFZone implements IBFZone {
         return timeRetriesToReconnect;
     }
 
+    
+    public Map<String, Class> getMapTelnetNameToClass() {
+        return mapTelnetNameToClass;
+    }
 }
