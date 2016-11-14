@@ -85,8 +85,7 @@ public class CommandManager {
                 //HuongNS
 //                BFZone zone = (BFZone)BFZoneManager.getInstance().mapTelnetPathToZone.get(classPath);                
 //                Class cls = zone.getTelnetClass(classPath);
-                BFLogger.getInstance().info("resetKurentoClient - getCanonicalPath()=" + new File(".").getCanonicalPath());
-                BFLogger.getInstance().info("resetKurentoClient - getCanonicalPath()=" + classPath);
+
                 Class cls = Class.forName(classPath);
                 Command command = (Command) cls.newInstance();
                 command.setArgs(argList);
@@ -96,8 +95,6 @@ public class CommandManager {
                 BFLogger.getInstance().error(ex.getMessage(), ex);
             } catch (IllegalAccessException iex) {
             } catch (InstantiationException inex) {
-            } catch (IOException ex) {
-                Logger.getLogger(CommandManager.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
         ChannelFuture future = channel.writeAndFlush(response + "\r\n");
