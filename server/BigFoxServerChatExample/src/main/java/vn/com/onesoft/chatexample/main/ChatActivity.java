@@ -9,10 +9,13 @@ import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 import vn.com.onesoft.bigfox.server.io.core.business.session.BFSessionManager;
 import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneActivity;
 import vn.com.onesoft.bigfox.server.io.core.business.zone.IBFZone;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
+import vn.com.onesoft.chatexample.server.db.util.HibernateFactoryUtil;
 
 /**
  *
@@ -47,6 +50,18 @@ public class ChatActivity extends BFZoneActivity {
     public void afterZoneStart() {
         BFLogger.getInstance().info("AfterZoneStart");
         BFSessionManager.getInstance().setSessionEvent(new BFSessionEvent());
+        Session session = HibernateFactoryUtil.getInstance().getCurrentSession();
+        Transaction tx = null;
+        try {
+            tx = session.beginTransaction();
+            
+            tx.commit();
+        } catch (Exception ex) {
+            BFLogger.getInstance().error(ex.getMessage(), ex);
+            if (tx != null && tx.isActive()) {
+                tx.rollback();
+            }
+        }
     }
 
     @Override
