@@ -169,7 +169,7 @@ public class BFZone implements IBFZone {
     }
 
     private ArrayList<File> listFileChanged(String folderName) throws IOException, FileNotFoundException, NoSuchAlgorithmException {
-        ArrayList<File> result = new ArrayList<File>();
+        ArrayList<File> result = new ArrayList<>();
         File folder = new File(folderName);
         File[] files = folder.listFiles();
         for (File file : files) {
@@ -180,21 +180,21 @@ public class BFZone implements IBFZone {
                     result.add(file);
                 }
             }
-            
+
         }
         return result;
     }
 
     private ArrayList<File> listFileAdded(String folderName) throws IOException, FileNotFoundException, NoSuchAlgorithmException {
-        ArrayList<File> result = new ArrayList<File>();
+        ArrayList<File> result = new ArrayList<>();
         File folder = new File(folderName);
         File[] files = folder.listFiles();
         for (File file : files) {
             if (file.isDirectory()) {
                 result.addAll(listFileAdded(file.getAbsolutePath()));
             } else if (file.isFile() && file.getAbsolutePath().contains(".class")) {
-                if (mapFileNameToChecksum.get(file.getAbsolutePath()) == null && 
-                        (file.getAbsolutePath().contains("CS") || file.getAbsolutePath().contains("SC") || file.getAbsolutePath().contains("CMD")))  {
+                if (mapFileNameToChecksum.get(file.getAbsolutePath()) == null
+                        && (file.getAbsolutePath().contains("CS") || file.getAbsolutePath().contains("SC") || file.getAbsolutePath().contains("CMD"))) {
                     result.add(file);
                 }
             }
@@ -208,10 +208,12 @@ public class BFZone implements IBFZone {
         ArrayList<File> changedFiles = listFileChanged(monitorFolder);
         ArrayList<File> addedFiles = listFileAdded(monitorFolder);
         for (File changedFile : changedFiles) {
+            BFLogger.getInstance().info("File changed: " + changedFile.getName());
             loadFile(changedFile.getAbsolutePath(), cl);
         }
 
         for (File addedFile : addedFiles) {
+            BFLogger.getInstance().info("File added: " + addedFile.getName());
             loadFile(addedFile.getAbsolutePath(), cl);
         }
 
@@ -289,11 +291,10 @@ public class BFZone implements IBFZone {
         }
     }
 
-
-    public Class getTelnetClass(String path){
+    public Class getTelnetClass(String path) {
         return mapTelnetNameToClass.get(path);
     }
-    
+
     @Override
     public String getAbsolutePath() {
         return absolutePath;
@@ -324,7 +325,6 @@ public class BFZone implements IBFZone {
         return timeRetriesToReconnect;
     }
 
-    
     public Map<String, Class> getMapTelnetNameToClass() {
         return mapTelnetNameToClass;
     }

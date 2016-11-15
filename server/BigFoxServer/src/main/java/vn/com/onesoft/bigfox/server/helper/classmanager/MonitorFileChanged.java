@@ -7,6 +7,8 @@ package vn.com.onesoft.bigfox.server.helper.classmanager;
 
 import com.google.common.collect.MapMaker;
 import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneManager;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 
@@ -34,9 +36,14 @@ public class MonitorFileChanged extends Thread {
 
             try {
                 BFZoneManager.getInstance().reloadChangedZones();
-                Thread.sleep(1000);
+
             } catch (Exception ex) {
                 BFLogger.getInstance().error(ex.getMessage(), ex);
+            }finally{
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException ex) {
+                }
             }
         }
     }
