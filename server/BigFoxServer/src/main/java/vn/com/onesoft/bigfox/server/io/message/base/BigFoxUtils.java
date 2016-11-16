@@ -16,8 +16,6 @@ import java.util.Map;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Message;
 import vn.com.onesoft.bigfox.server.io.message.annotations.Property;
 
-
-
 public class BigFoxUtils {
 
     public static final byte NULL = 0;
@@ -300,7 +298,7 @@ public class BigFoxUtils {
             read(object, in);
             return object;
         } catch (Exception ex) {
-            ex.printStackTrace();
+            BFLogger.getInstance().error(ex.getMessage(), ex);
         }
         return null;
     }
@@ -308,8 +306,8 @@ public class BigFoxUtils {
     public static String toString(Object object) {
         try {
             return toString(toBytes(object));
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (Exception ex) {
+BFLogger.getInstance().error(ex.getMessage(), ex);
             return "toString Error";
         }
     }
@@ -325,8 +323,8 @@ public class BigFoxUtils {
             StringBuilder sb = new StringBuilder();
             toString(in, sb, 0);
             return sb.toString();
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (Exception ex) {
+BFLogger.getInstance().error(ex.getMessage(), ex);
             return "toString Error";
         }
     }
@@ -334,7 +332,7 @@ public class BigFoxUtils {
     private static final int TAB = 2;
 
     private static void toString(DataInputStream dis, StringBuilder sb,
-                                 int indent) throws IOException {
+            int indent) throws IOException {
         dis.readUTF();
         int nFields = dis.readByte();
         sb.append("{\n");
@@ -697,8 +695,8 @@ public class BigFoxUtils {
                     write(value, out);
                 }
             }
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (Exception ex) {
+BFLogger.getInstance().error(ex.getMessage(), ex);
         }
     }
 
@@ -707,7 +705,7 @@ public class BigFoxUtils {
 
     static {
         caches = new HashMap<Class<?>, List<Field>>();
-        cacheObjects =  new HashMap();//ClassFinder.findObject("vn.com.onesoft");
+        cacheObjects = new HashMap();//ClassFinder.findObject("vn.com.onesoft");
     }
 
     private static List<Field> getInheritedPrivateFields(Class<?> type) {

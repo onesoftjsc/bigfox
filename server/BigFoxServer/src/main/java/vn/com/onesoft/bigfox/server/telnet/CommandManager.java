@@ -34,7 +34,7 @@ public class CommandManager {
             mainPath = mainPath.substring(0, mainPath.lastIndexOf('/') + 1);
 
         } catch (Exception ex) {
-            ex.printStackTrace();
+BFLogger.getInstance().error(ex.getMessage(), ex);
         }
     }
 
@@ -71,6 +71,7 @@ public class CommandManager {
                         strArg = "";
                     }
                 } catch (Exception ex) {
+                    BFLogger.getInstance().error(ex.getMessage(), ex);
                     argList.add(args[i]);
                 }
             }
@@ -89,8 +90,7 @@ public class CommandManager {
                     response = command.execute();
                 }
             } catch (InstantiationException | IllegalAccessException ex) {
-                Logger.getLogger(CommandManager.class.getName()).log(Level.SEVERE, null, ex);
-            }
+BFLogger.getInstance().error(ex.getMessage(), ex);            }
         }
         ChannelFuture future = channel.writeAndFlush(response + "\r\n");
         if (close) {

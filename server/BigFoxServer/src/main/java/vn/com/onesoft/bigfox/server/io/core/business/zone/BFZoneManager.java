@@ -36,7 +36,7 @@ public class BFZoneManager {
 
     private Map<String, IBFZone> mapNameToZone = new MapMaker().makeMap();
     private Map<Channel, IBFZone> mapChannelToZone = new MapMaker().makeMap();
-     public Map<String, IBFZone> mapTelnetPathToZone = new MapMaker().makeMap();
+    public Map<String, IBFZone> mapTelnetPathToZone = new MapMaker().makeMap();
 
     public void addZone(String name, BFZone zone) {
         mapNameToZone.put(name, zone);
@@ -62,7 +62,7 @@ public class BFZoneManager {
                     loadZone(zoneFolder.getAbsolutePath());
                 }
             } catch (Exception ex) {
-
+                BFLogger.getInstance().error(ex.getMessage(), ex);
             }
 
         }

@@ -49,8 +49,8 @@ public abstract class MessageOut extends BaseMessage {
 //            String byteToHex = BFUtils.byteToHex(data);            
 //            BFLogger.getInstance().info("|byteToHex=" + byteToHex);
             return data;
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (Exception ex) {
+BFLogger.getInstance().error(ex.getMessage(), ex);
         }
         return null;
     }

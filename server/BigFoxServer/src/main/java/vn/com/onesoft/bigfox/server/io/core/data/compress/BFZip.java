@@ -10,6 +10,7 @@ import java.io.ByteArrayOutputStream;
 import java.nio.ByteBuffer;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
+import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 import vn.com.onesoft.bigfox.server.io.message.base.BaseMessage;
 
 /**
@@ -55,6 +56,7 @@ public class BFZip implements ICompress {
                     return data;
                 }
             } catch (Exception ex) {
+                BFLogger.getInstance().error(ex.getMessage(), ex);
                 return data;
             }
         }
@@ -98,6 +100,7 @@ public class BFZip implements ICompress {
 
                 return resultData;
             } catch (Exception ex) {
+                BFLogger.getInstance().error(ex.getMessage(), ex);
                 return data;
             }
         }

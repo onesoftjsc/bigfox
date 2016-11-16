@@ -143,7 +143,8 @@ public class BFClassLoaderZone extends ClassLoader {
         }
         try {
             return findSystemClass(className);
-        } catch (Exception e) {
+        } catch (Exception ex) {
+            BFLogger.getInstance().error(ex.getMessage(), ex);
         }
 
 //        try {

@@ -128,6 +128,7 @@ public abstract class BaseMessage {
             Message m = this.getClass().getAnnotation(Message.class);
             return m.isCore();
         } catch (Exception ex) {
+            BFLogger.getInstance().error(ex.getMessage(), ex);
             return false;
         }
     }

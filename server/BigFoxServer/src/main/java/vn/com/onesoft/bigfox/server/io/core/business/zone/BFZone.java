@@ -287,7 +287,7 @@ public class BFZone implements IBFZone {
         try {
             zoneCL.loadJar(absolutePath);
         } catch (IOException ex) {
-            Logger.getLogger(BFZone.class.getName()).log(Level.SEVERE, null, ex);
+            BFLogger.getInstance().error(ex.getMessage(), ex);
         }
     }
 
