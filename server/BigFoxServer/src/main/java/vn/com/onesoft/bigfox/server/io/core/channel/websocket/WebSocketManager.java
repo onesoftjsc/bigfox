@@ -110,15 +110,15 @@ public class WebSocketManager {
             SSLContext serverContext = SSLContext.getInstance("TLS");
             CertificateFactory cf = CertificateFactory.getInstance("X.509");
             
-//            X509Certificate certRoot = (X509Certificate) cf.generateCertificate(new FileInputStream("/Users/phamquan/Desktop/livetube/livetube-server/LiveTube/ssl/AddTrustExternalCARoot.crt"));
-//            X509Certificate certStar = (X509Certificate) cf.generateCertificate(new FileInputStream("/Users/phamquan/Desktop/livetube/livetube-server/LiveTube/ssl/STAR_vivulive_com.crt"));
-//            X509Certificate certStrust = (X509Certificate) cf.generateCertificate(new FileInputStream("/Users/phamquan/Desktop/livetube/livetube-server/LiveTube/ssl/COMODORSAAddTrustCA.crt"));
-//            X509Certificate certDomain = (X509Certificate) cf.generateCertificate(new FileInputStream("/Users/phamquan/Desktop/livetube/livetube-server/LiveTube/ssl/COMODORSADomainValidationSecureServerCA.crt"));
-//            
-            X509Certificate certRoot = (X509Certificate) cf.generateCertificate(new FileInputStream("/home/onesoft/vivulive_service/bin/STAR_vivulive_com/AddTrustExternalCARoot.crt"));
-            X509Certificate certStar = (X509Certificate) cf.generateCertificate(new FileInputStream("/home/onesoft/vivulive_service/bin/STAR_vivulive_com/STAR_vivulive_com.crt"));
-            X509Certificate certStrust = (X509Certificate) cf.generateCertificate(new FileInputStream("/home/onesoft/vivulive_service/bin/STAR_vivulive_com/COMODORSAAddTrustCA.crt"));
-            X509Certificate certDomain = (X509Certificate) cf.generateCertificate(new FileInputStream("/home/onesoft/vivulive_service/bin/STAR_vivulive_com/COMODORSADomainValidationSecureServerCA.crt"));
+            X509Certificate certRoot = (X509Certificate) cf.generateCertificate(new FileInputStream("/Users/phamquan/Desktop/livetube/livetube-server/LiveTube/ssl/AddTrustExternalCARoot.crt"));
+            X509Certificate certStar = (X509Certificate) cf.generateCertificate(new FileInputStream("/Users/phamquan/Desktop/livetube/livetube-server/LiveTube/ssl/STAR_vivulive_com.crt"));
+            X509Certificate certStrust = (X509Certificate) cf.generateCertificate(new FileInputStream("/Users/phamquan/Desktop/livetube/livetube-server/LiveTube/ssl/COMODORSAAddTrustCA.crt"));
+            X509Certificate certDomain = (X509Certificate) cf.generateCertificate(new FileInputStream("/Users/phamquan/Desktop/livetube/livetube-server/LiveTube/ssl/COMODORSADomainValidationSecureServerCA.crt"));
+            
+//            X509Certificate certRoot = (X509Certificate) cf.generateCertificate(new FileInputStream("/home/onesoft/vivulive_service/bin/STAR_vivulive_com/AddTrustExternalCARoot.crt"));
+//            X509Certificate certStar = (X509Certificate) cf.generateCertificate(new FileInputStream("/home/onesoft/vivulive_service/bin/STAR_vivulive_com/STAR_vivulive_com.crt"));
+//            X509Certificate certStrust = (X509Certificate) cf.generateCertificate(new FileInputStream("/home/onesoft/vivulive_service/bin/STAR_vivulive_com/COMODORSAAddTrustCA.crt"));
+//            X509Certificate certDomain = (X509Certificate) cf.generateCertificate(new FileInputStream("/home/onesoft/vivulive_service/bin/STAR_vivulive_com/COMODORSADomainValidationSecureServerCA.crt"));
 
             PrivateKey privateKeyFromString = getPrivateKeyFromString("-----BEGIN RSA PRIVATE KEY-----\n"
                     + "MIIEpAIBAAKCAQEAsKadjzLUOUPL84cH0HyYN3zo+8Z8qyhY8YiO5qgMl6XLB8PD\n"
