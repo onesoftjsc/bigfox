@@ -74,7 +74,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
                 @Override
                 public void operationComplete(Future f) throws Exception {
                     Main.mapChannelWebSocket.put(ctx.channel(), Boolean.TRUE);
-                    BFLogger.getInstance().info("Client connected!: " + ctx.channel());
+                    BFLogger.getInstance().debug("Client connected!: " + ctx.channel());
                     Main.allChannels.add(ctx.channel());
                     Random r = new Random();
                     int validationCode = r.nextInt();
@@ -131,7 +131,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
-        BFLogger.getInstance().info("channelActive : " + ctx.channel());
+        BFLogger.getInstance().debug("channelActive : " + ctx.channel());
         Main.allChannels.add(ctx.channel());
         Random r = new Random();
         int validationCode = 0; // r.nextInt();
@@ -142,7 +142,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) {
-        BFLogger.getInstance().info("ChannelClosed: " + ctx.channel());
+        BFLogger.getInstance().debug("ChannelClosed: " + ctx.channel());
         IBFSession session = BFSessionManager.getInstance().getSessionByChannel(ctx.channel());
         if (session != null && session.getChannel() == ctx.channel()) {
             session.close();

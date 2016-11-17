@@ -115,7 +115,7 @@ public class BFSessionManager {
                     mOut.setSSequence(session.getSSequence());
                     session.putOutMessageOnQueue(mOut);
                 }
-                BFLogger.getInstance().info(channel + "\n" + mOut);
+                BFLogger.getInstance().debug(channel + "\n" + mOut);
                 byte[] data = mOut.toBytes();
                 if (mOut.getTag() != CoreTags.SC_VALIDATION_CODE) {
                     //HuongNS
@@ -150,7 +150,7 @@ public class BFSessionManager {
         if (channel == null) {
             return;
         }
-        BFLogger.getInstance().info(mOut);
+        BFLogger.getInstance().debug(mOut);
 
         byte[] data = mOut.toBytes();
         if (mOut.getTag() != CoreTags.SC_VALIDATION_CODE) {
@@ -168,7 +168,7 @@ public class BFSessionManager {
 
     public void onMessage(Channel channel, MessageIn mIn) {
 
-        BFLogger.getInstance().info(mIn);
+        BFLogger.getInstance().debug(mIn);
 
         if (mIn instanceof CSClientInfo) {
             CSClientInfo csClientInfo = (CSClientInfo) mIn;

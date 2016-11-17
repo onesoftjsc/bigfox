@@ -45,9 +45,6 @@ public abstract class MessageOut extends BaseMessage {
             data[2] = (byte) ((length >> 8) & 0x00ff);
             data[3] = (byte) ((length) & 0x00ff);
 
-            //HuongNS
-//            String byteToHex = BFUtils.byteToHex(data);            
-//            BFLogger.getInstance().info("|byteToHex=" + byteToHex);
             return data;
         } catch (Exception ex) {
 BFLogger.getInstance().error(ex.getMessage(), ex);

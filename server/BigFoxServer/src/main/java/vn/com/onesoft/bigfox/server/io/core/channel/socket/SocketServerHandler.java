@@ -60,7 +60,7 @@ public class SocketServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
-        BFLogger.getInstance().info("channelActive : " + ctx.channel());
+        BFLogger.getInstance().debug("channelActive : " + ctx.channel());
         Main.allChannels.add(ctx.channel());
         Random r = new Random();
         int validationCode = 0; // r.nextInt();
@@ -71,7 +71,7 @@ public class SocketServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) {
-        BFLogger.getInstance().info("ChannelClosed: " + ctx.channel());
+        BFLogger.getInstance().debug("ChannelClosed: " + ctx.channel());
         IBFSession session = BFSessionManager.getInstance().getSessionByChannel(ctx.channel());
         if (session != null && session.getChannel() == ctx.channel()) {
             session.close();
@@ -84,13 +84,12 @@ public class SocketServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
-        BFLogger.getInstance().info("ERROR: " + ctx.channel());
         BFLogger.getInstance().error(cause.getMessage(), cause);
     }
 
     @Override
     public void channelUnregistered(ChannelHandlerContext ctx) throws Exception {
-        BFLogger.getInstance().info("Channel unregistered");
+        BFLogger.getInstance().debug("Channel unregistered");
     }
 
 }

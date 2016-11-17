@@ -208,12 +208,12 @@ public class BFZone implements IBFZone {
         ArrayList<File> changedFiles = listFileChanged(monitorFolder);
         ArrayList<File> addedFiles = listFileAdded(monitorFolder);
         for (File changedFile : changedFiles) {
-            BFLogger.getInstance().info("File changed: " + changedFile.getName());
+            BFLogger.getInstance().debug("File changed: " + changedFile.getName());
             loadFile(changedFile.getAbsolutePath(), cl);
         }
 
         for (File addedFile : addedFiles) {
-            BFLogger.getInstance().info("File added: " + addedFile.getName());
+            BFLogger.getInstance().debug("File added: " + addedFile.getName());
             loadFile(addedFile.getAbsolutePath(), cl);
         }
 
@@ -276,7 +276,7 @@ public class BFZone implements IBFZone {
         if (file.exists()) {
             File[] files = file.listFiles();
             for (File fileLib : files) {
-                BFLogger.getInstance().info("Load lib: " + fileLib.getAbsolutePath());
+                BFLogger.getInstance().debug("Load lib: " + fileLib.getAbsolutePath());
                 loadJar(fileLib.getAbsolutePath());
             }
         }

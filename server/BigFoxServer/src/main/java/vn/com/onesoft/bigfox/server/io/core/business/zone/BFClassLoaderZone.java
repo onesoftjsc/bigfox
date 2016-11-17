@@ -45,7 +45,7 @@ public class BFClassLoaderZone extends ClassLoader {
             String className = classPath.replace(File.separatorChar, '.').substring(0, classPath.length() - 6);
             className = className.replace('/', '.').substring(0, classPath.length() - 6);
             className = className.substring(className.indexOf(".vn.") + 1);
-            BFLogger.getInstance().info("define class " + className);
+            BFLogger.getInstance().debug("define class " + className);
             if (mapPathToClass.get(className) != null) {
                 continue;
             }
@@ -98,7 +98,7 @@ public class BFClassLoaderZone extends ClassLoader {
 
         String className = classPath.replace(File.separatorChar, '.').substring(0, classPath.length() - 6);
         className = className.substring(className.indexOf(".vn.") + 1);
-        BFLogger.getInstance().info("define class " + className);
+        BFLogger.getInstance().debug("define class " + className);
         Class cl = defineClass(className,
                 classData, 0, classData.length);
         if (className.contains("CMD")) {
@@ -130,7 +130,7 @@ public class BFClassLoaderZone extends ClassLoader {
 
     @Override
     public Class loadClass(String className) throws ClassNotFoundException {
-        BFLogger.getInstance().info("BFClassLoader load " + className);
+        BFLogger.getInstance().debug("BFClassLoader load " + className);
         return findClass(className);
     }
 
