@@ -62,9 +62,9 @@ public class MonitorFileChanged extends Thread {
     }
     
     public void doStart(){
-        if (this.getState() == State.TERMINATED){
-            needRun = true;
-            this.start();
+        if (_instance.getState() == State.TERMINATED){
+             _instance = null;
+             getInstance();
         }
     }
 
