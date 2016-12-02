@@ -7,8 +7,6 @@ package vn.com.onesoft.bigfox.server.helper.classmanager;
 
 import com.google.common.collect.MapMaker;
 import java.util.Map;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import vn.com.onesoft.bigfox.server.io.core.business.zone.BFZoneManager;
 import vn.com.onesoft.bigfox.server.io.message.base.BFLogger;
 
@@ -22,9 +20,12 @@ public class MonitorFileChanged extends Thread {
 
     private static MonitorFileChanged _instance = null;
 
+    public boolean needRun = true;
+    
     public static MonitorFileChanged getInstance() {
         if (_instance == null) {
             _instance = new MonitorFileChanged();
+            _instance.setName("MonitorFileChanged_Thread");
             _instance.start();
         }
         return _instance;
@@ -32,7 +33,7 @@ public class MonitorFileChanged extends Thread {
 
     @Override
     public void run() {
-        while (true) {
+        while (needRun) {
 
             try {
                 BFZoneManager.getInstance().reloadChangedZones();
@@ -56,6 +57,15 @@ public class MonitorFileChanged extends Thread {
 //        new ClassReloader(Main.class.getClassLoader()).reloadClass(path);
     }
 
-
+    public void doStop(){
+        needRun = false;
+    }
+    
+    public void doStart(){
+        if (this.getState() == State.TERMINATED){
+            needRun = true;
+            this.start();
+        }
+    }
 
 }

@@ -61,7 +61,8 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
     }
 
     private void handleHttpRequest(final ChannelHandlerContext ctx, FullHttpRequest req) {
-
+//        if (req.uri().contains("vivulive"))
+//            ctx.channel().close();
         // Handshake
         WebSocketServerHandshakerFactory wsFactory = new WebSocketServerHandshakerFactory(
                 getWebSocketLocation(req), null, true);
