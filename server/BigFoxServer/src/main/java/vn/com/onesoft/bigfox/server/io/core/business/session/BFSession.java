@@ -8,6 +8,7 @@ package vn.com.onesoft.bigfox.server.io.core.business.session;
 import com.google.common.collect.MapMaker;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
+import io.netty.channel.ChannelFuture;
 import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
 import java.util.Map;
 import java.util.concurrent.ScheduledFuture;
@@ -227,7 +228,7 @@ public class BFSession implements IBFSession {
         BFSessionManager.getInstance().removeSession(this);
     }
 
-    public void sendMessage(MessageOut mOut) {
-        BFSessionManager.getInstance().sendMessage(channel, mOut);
+    public ChannelFuture sendMessage(MessageOut mOut) {
+        return BFSessionManager.getInstance().sendMessage(channel, mOut);
     }
 }

@@ -8,6 +8,7 @@ package vn.com.onesoft.bigfox.server.io.core.business.session;
 import com.google.common.collect.MapMaker;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
+import io.netty.channel.ChannelFuture;
 import io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame;
 import java.lang.reflect.Method;
 import java.util.Collection;
@@ -100,9 +101,9 @@ public class BFSessionManager {
         return mapChannelToSession.values();
     }
 
-    public void sendMessage(Channel channel, MessageOut mOut) {
+    public ChannelFuture sendMessage(Channel channel, MessageOut mOut) {
         if (channel == null || !channel.isActive() || !channel.isOpen()) {
-            return;
+            return null;
         }
         synchronized (channel) {
             try {
@@ -117,25 +118,17 @@ public class BFSessionManager {
                 }
                 BFLogger.getInstance().debug(channel + "\n" + mOut);
                 byte[] data = mOut.toBytes();
-                if (mOut.getTag() != CoreTags.SC_VALIDATION_CODE) {
-                    //HuongNS
-//                    data = BFEncryptManager.crypt(channel, data);
-//                    data = BFCompressManager.getInstance().compress(data);
-                }
-
-//                String byteToHex = BFUtils.byteToHex(data);
-//                
-//                BFLogger.getInstance().info("|||byteToHex crypt - compress=" + byteToHex);
                 if (Main.mapChannelWebSocket.get(channel) != null) {
-                    channel.writeAndFlush(new BinaryWebSocketFrame(Unpooled.wrappedBuffer(data)));
+                    return channel.writeAndFlush(new BinaryWebSocketFrame(Unpooled.wrappedBuffer(data)));
                 } else {
-                    channel.writeAndFlush(Unpooled.wrappedBuffer(data));
+                    return channel.writeAndFlush(Unpooled.wrappedBuffer(data));
                 }
             } catch (Exception ex) {
                 BFLogger.getInstance().error(ex.getMessage(), ex);
                 if (channel.isActive()) {
                     channel.close();
                 }
+                return null;
             }
         }
     }
